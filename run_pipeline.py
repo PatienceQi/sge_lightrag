@@ -3,7 +3,7 @@
 run_pipeline.py — Full Stage 1 → Stage 2 → Stage 3 pipeline CLI.
 
 Usage:
-    python3 run_pipeline.py <csv_path> [--output-dir <dir>]
+    python3 run_pipeline.py <csv_path> [--output-dir <dir>] [--stage2-mode {llm,rule,auto}]
 
 Outputs:
     <output-dir>/
@@ -30,10 +30,40 @@ sys.path.insert(0, str(Path(__file__).parent))
 from stage1.features import extract_features
 from stage1.classifier import classify
 from stage1.schema import build_meta_schema
-from stage2.inducer import induce_schema
 from stage3.serializer import serialize_csv
 from stage3.prompt_injector import generate_system_prompt, generate_user_prompt_template
 from stage3.integrator import patch_lightrag
+
+
+def _run_stage2(meta_schema, features, mode: str):
+    """
+    Run Stage 2 schema induction with the specified mode.
+
+    Args:
+        mode: "llm"  — use LLM-enhanced induction only (fail if error)
+              "rule" — use rule-based induction only
+              "auto" — try LLM first, fall back to rule-based on any error
+
+    Returns:
+        (extraction_schema, used_mode)  where used_mode is "llm" or "rule"
+    """
+    if mode == "rule":
+        from stage2.inducer import induce_schema as rule_induce
+        return rule_induce(meta_schema, features), "rule"
+
+    # mode == "llm" or "auto"
+    try:
+        from stage2_llm.inductor import induce_schema as llm_induce
+        schema = llm_induce(meta_schema, features)
+        return schema, "llm"
+    except Exception as exc:
+        if mode == "llm":
+            # Hard failure — propagate
+            raise RuntimeError(f"LLM Stage 2 failed (use --stage2-mode auto for fallback): {exc}") from exc
+        # mode == "auto" — fall back to rule-based
+        print(f"  [WARN] LLM Stage 2 failed ({type(exc).__name__}: {exc}), falling back to rule-based.")
+        from stage2.inducer import induce_schema as rule_induce
+        return rule_induce(meta_schema, features), "rule"
 
 
 def main():
@@ -45,6 +75,17 @@ def main():
         "--output-dir", "-o",
         default=None,
         help="Output directory (default: ./sge_output/<csv_stem>)",
+    )
+    parser.add_argument(
+        "--stage2-mode",
+        choices=["llm", "rule", "auto"],
+        default="llm",
+        help=(
+            "Stage 2 induction mode: "
+            "'llm' (default) — LLM-enhanced only; "
+            "'rule' — rule-based only; "
+            "'auto' — try LLM, fall back to rule-based on error"
+        ),
     )
     args = parser.parse_args()
 
@@ -94,11 +135,17 @@ def main():
     # ── Stage 2 ──────────────────────────────────────────────────────────────
     print()
     print("=" * 60)
-    print("STAGE 2 — Rule-Based Schema Induction")
+    mode_label = {"llm": "LLM-Enhanced", "rule": "Rule-Based", "auto": "Auto (LLM → Rule fallback)"}
+    print(f"STAGE 2 — Schema Induction [{mode_label[args.stage2_mode]}]")
     print("=" * 60)
 
-    extraction_schema = induce_schema(meta_schema, features)
+    try:
+        extraction_schema, used_mode = _run_stage2(meta_schema, features, args.stage2_mode)
+    except RuntimeError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        sys.exit(1)
 
+    print(f"Mode used      : {used_mode}")
     print(f"Entity Types   : {extraction_schema['entity_types']}")
     print(f"Relation Types : {extraction_schema['relation_types']}")
 
@@ -109,6 +156,7 @@ def main():
     print(f"Written        : {schema_path}")
 
     report["stages"]["stage2"] = {
+        "mode": used_mode,
         "entity_types": extraction_schema["entity_types"],
         "relation_types": extraction_schema["relation_types"],
         "output_file": str(schema_path),
