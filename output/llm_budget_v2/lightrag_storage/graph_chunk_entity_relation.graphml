@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="防止贪污">
+  <data key="d0">防止贪污</data>
+  <data key="d1">programme</data>
+  <data key="d2">"防止贪污是一个项目，涵盖多个年度的预算和实际支出数据。2022-23年度实际支出为91.5百万元，2023-24年度原来预算为100.8百万元，修订预算为101.3百万元，2024-25年度预算为97.2百万元。")</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184386</data>
+  <data key="d6"></data>
+</node>
+<node id="2022-23年度">
+  <data key="d0">2022-23年度</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184386</data>
+  <data key="d6"></data>
+</node>
+<node id="2023-24年度">
+  <data key="d0">2023-24年度</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184386</data>
+  <data key="d6"></data>
+</node>
+<node id="2024-25年度">
+  <data key="d0">2024-25年度</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184386</data>
+  <data key="d6"></data>
+</node>
+<node id="执法工作">
+  <data key="d0">执法工作</data>
+  <data key="d1">programme</data>
+  <data key="d2">执法工作是一个项目，在2022-23年度的实际支出为1013.7百万元，2023-24年度的原来预算为1031.8百万元，修订预算为1067.2百万元，2024-25年度的预算为1080.9百万元)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184391</data>
+  <data key="d6"></data>
+</node>
+<node id="倡廉教育">
+  <data key="d0">倡廉教育</data>
+  <data key="d1">programme</data>
+  <data key="d2">倡廉教育是一个项目，在2022-23年度的实际支出为93.8百万元，2023-24年度的原来预算为99.6百万元，修订预算为99.9百万元，2024-25年度的预算为105.6百万元)</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184397</data>
+  <data key="d6"></data>
+</node>
+<node id="争取支持">
+  <data key="d0">争取支持</data>
+  <data key="d1">programme</data>
+  <data key="d2">"争取支持是一个项目，在2022-23年度实际支出为93.8百万元，2023-24年度原来预算为99.6百万元，修订预算为99.9百万元，2024-25年度预算为105.6百万元。")</data>
+  <data key="d3">chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184403</data>
+  <data key="d6"></data>
+</node>
+<edge source="防止贪污" target="2022-23年度">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2022-23年度的实际支出为91.5百万元</data>
+  <data key="d10">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184386</data>
+  <data key="d13"></data>
+</edge>
+<edge source="防止贪污" target="2023-24年度">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">修订预算为101.3百万元,该项目在2023-24年度的原来预算为100.8百万元</data>
+  <data key="d10">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184386</data>
+  <data key="d13"></data>
+</edge>
+<edge source="防止贪污" target="2024-25年度">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2024-25年度的预算为97.2百万元</data>
+  <data key="d10">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184387</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022-23年度" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2022-23年度的实际支出为93.8百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184398</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022-23年度" target="争取支持">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2022-23年度的实际支出为93.8百万元</data>
+  <data key="d10">chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184404</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24年度" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">修订预算为99.9百万元,该项目在2023-24年度的原来预算为99.6百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184398</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24年度" target="争取支持">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">修订预算为99.9百万元,该项目在2023-24年度的原来预算为99.6百万元</data>
+  <data key="d10">chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184404</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25年度" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2024-25年度的预算为105.6百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184398</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25年度" target="争取支持">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该项目在2024-25年度的预算为105.6百万元</data>
+  <data key="d10">chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184404</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

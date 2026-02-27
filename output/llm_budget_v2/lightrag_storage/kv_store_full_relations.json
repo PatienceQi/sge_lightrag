@@ -1,0 +1,62 @@
+{
+  "doc-c5ecb51bcfe377310efac2a7b158b121": {
+    "relation_pairs": [
+      [
+        "2024-25年度",
+        "防止贪污"
+      ],
+      [
+        "2022-23年度",
+        "防止贪污"
+      ],
+      [
+        "2023-24年度",
+        "防止贪污"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772184387,
+    "update_time": 1772184387,
+    "_id": "doc-c5ecb51bcfe377310efac2a7b158b121"
+  },
+  "doc-cce8156a1b83f04a5ce62fadd77db468": {
+    "relation_pairs": [
+      [
+        "2022-23年度",
+        "倡廉教育"
+      ],
+      [
+        "2023-24年度",
+        "倡廉教育"
+      ],
+      [
+        "2024-25年度",
+        "倡廉教育"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772184398,
+    "update_time": 1772184398,
+    "_id": "doc-cce8156a1b83f04a5ce62fadd77db468"
+  },
+  "doc-c5eadd35717bcd29c5bdbe9c68c78f66": {
+    "relation_pairs": [
+      [
+        "2024-25年度",
+        "争取支持"
+      ],
+      [
+        "2022-23年度",
+        "争取支持"
+      ],
+      [
+        "2023-24年度",
+        "争取支持"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1772184404,
+    "update_time": 1772184404,
+    "_id": "doc-c5eadd35717bcd29c5bdbe9c68c78f66"
+  }
+}

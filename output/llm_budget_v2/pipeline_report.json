@@ -1,0 +1,36 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/年度预算/annualbudget_sc.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2",
+  "timestamp": "2026-02-27T17:25:40.833460",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 6,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "llm",
+      "entity_types": [
+        "Programme"
+      ],
+      "relation_types": [
+        "HAS_BUDGET"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 4,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/llm_budget_v2/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Programme"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

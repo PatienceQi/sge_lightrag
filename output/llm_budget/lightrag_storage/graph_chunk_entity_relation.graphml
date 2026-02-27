@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="防止贪污">
+  <data key="d0">防止贪污</data>
+  <data key="d1">policyprogram</data>
+  <data key="d2">政策计划名称为防止贪污)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184175</data>
+  <data key="d6"></data>
+</node>
+<node id="2022-23">
+  <data key="d0">2022-23</data>
+  <data key="d1">fiscalyear</data>
+  <data key="d2">财政年度2022-23)&lt;SEP&gt;2022-23财政年度)&lt;SEP&gt;"2022-23财政年度")&lt;SEP&gt;财政年度2022-23)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-893021db3e2d398200fdedff183e1b7d&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="2023-24">
+  <data key="d0">2023-24</data>
+  <data key="d1">fiscalyear</data>
+  <data key="d2">财政年度2023-24)&lt;SEP&gt;2023-24财政年度)&lt;SEP&gt;"2023-24财政年度")&lt;SEP&gt;财政年度2023-24)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-893021db3e2d398200fdedff183e1b7d&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="2024-25">
+  <data key="d0">2024-25</data>
+  <data key="d1">fiscalyear</data>
+  <data key="d2">财政年度2024-25)&lt;SEP&gt;2024-25财政年度)&lt;SEP&gt;"2024-25财政年度")&lt;SEP&gt;财政年度2024-25)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121&lt;SEP&gt;chunk-893021db3e2d398200fdedff183e1b7d&lt;SEP&gt;chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="91.5百万元">
+  <data key="d0">91.5百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">预算金额91.5百万元，状态为实际)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184175</data>
+  <data key="d6"></data>
+</node>
+<node id="100.8百万元">
+  <data key="d0">100.8百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">预算金额100.8百万元，状态为原来预算)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184175</data>
+  <data key="d6"></data>
+</node>
+<node id="101.3百万元">
+  <data key="d0">101.3百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">预算金额101.3百万元，状态为修订)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184175</data>
+  <data key="d6"></data>
+</node>
+<node id="97.2百万元">
+  <data key="d0">97.2百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">预算金额97.2百万元，状态为预算)</data>
+  <data key="d3">chunk-c5ecb51bcfe377310efac2a7b158b121</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184175</data>
+  <data key="d6"></data>
+</node>
+<node id="执法工作">
+  <data key="d0">执法工作</data>
+  <data key="d1">policyprogram</data>
+  <data key="d2">执法工作是一个政策项目)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184186</data>
+  <data key="d6"></data>
+</node>
+<node id="1013.7百万元">
+  <data key="d0">1013.7百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">2022-23年度实际金额1013.7百万元)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184186</data>
+  <data key="d6"></data>
+</node>
+<node id="1031.8百万元">
+  <data key="d0">1031.8百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">2023-24年度原来预算金额1031.8百万元)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184186</data>
+  <data key="d6"></data>
+</node>
+<node id="1067.2百万元">
+  <data key="d0">1067.2百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">2023-24年度修订金额1067.2百万元)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184186</data>
+  <data key="d6"></data>
+</node>
+<node id="1080.9百万元">
+  <data key="d0">1080.9百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">2024-25年度预算金额1080.9百万元)</data>
+  <data key="d3">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184186</data>
+  <data key="d6"></data>
+</node>
+<node id="倡廉教育">
+  <data key="d0">倡廉教育</data>
+  <data key="d1">policyprogram</data>
+  <data key="d2">"倡廉教育是一项政策项目")</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184196</data>
+  <data key="d6"></data>
+</node>
+<node id="93.8百万元">
+  <data key="d0">93.8百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">"2022-23年度倡廉教育的实际支出金额为93.8百万元")&lt;SEP&gt;2022-23年度实际金额为93.8百万元)</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="99.6百万元">
+  <data key="d0">99.6百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">"2023-24年度倡廉教育的原来预算金额为99.6百万元")&lt;SEP&gt;2023-24年度原来预算金额为99.6百万元)</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="99.9百万元">
+  <data key="d0">99.9百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">"2023-24年度倡廉教育的修订预算金额为99.9百万元")&lt;SEP&gt;2023-24年度修订金额为99.9百万元)</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="105.6百万元">
+  <data key="d0">105.6百万元</data>
+  <data key="d1">budgetamount</data>
+  <data key="d2">"2024-25年度倡廉教育的预算金额为105.6百万元")&lt;SEP&gt;2024-25年度预算金额为105.6百万元)</data>
+  <data key="d3">chunk-cce8156a1b83f04a5ce62fadd77db468&lt;SEP&gt;chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<node id="争取支持">
+  <data key="d0">争取支持</data>
+  <data key="d1">policyprogram</data>
+  <data key="d2">政策项目名称为"争取支持")</data>
+  <data key="d3">chunk-c5eadd35717bcd29c5bdbe9c68c78f66</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772184206</data>
+  <data key="d6"></data>
+</node>
+<edge source="2022-23" target="执法工作">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">执法工作在2022-23财政年度的实际支出为1013.7百万元</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184186</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022-23" target="1013.7百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2022-23财政年度执法工作的实际金额</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184186</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022-23" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">倡廉教育在2022-23财政年度有实际支出记录</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184196</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022-23" target="93.8百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2022-23财政年度倡廉教育的实际支出金额为93.8百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184196</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="执法工作">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">修订预算为1067.2百万元,执法工作在2023-24财政年度的原来预算为1031.8百万元</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184186</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="1031.8百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2023-24财政年度执法工作的原来预算金额</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184187</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="1067.2百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2023-24财政年度执法工作的修订预算金额</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184187</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">倡廉教育在2023-24财政年度有预算和修订预算</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184196</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="99.6百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2023-24财政年度倡廉教育的原来预算金额为99.6百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184196</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023-24" target="99.9百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2023-24财政年度倡廉教育的修订预算金额为99.9百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184197</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25" target="执法工作">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">执法工作在2024-25财政年度的预算为1080.9百万元</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184187</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25" target="1080.9百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2024-25财政年度执法工作的预算金额</data>
+  <data key="d10">chunk-893021db3e2d398200fdedff183e1b7d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184187</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25" target="倡廉教育">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">倡廉教育在2024-25财政年度有预算安排</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184196</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024-25" target="105.6百万元">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">2024-25财政年度倡廉教育的预算金额为105.6百万元</data>
+  <data key="d10">chunk-cce8156a1b83f04a5ce62fadd77db468</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772184197</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

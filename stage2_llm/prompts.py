@@ -26,7 +26,7 @@ Generate a detailed extraction schema as a JSON object with EXACTLY these keys:
 
 {{
   "table_type": "<same as Stage 1 table_type>",
-  "entity_types": ["<PascalCase entity type names, e.g. PolicyProgram, BudgetItem>"],
+  "entity_types": ["<PascalCase entity type names — ONLY the primary subject entities>"],
   "relation_types": ["<UPPER_SNAKE_CASE relation names, e.g. HAS_BUDGET, HAS_METRIC>"],
   "extraction_rules": {{
     "subject_extraction": "<how to identify the main entity from each row>",
@@ -39,9 +39,10 @@ Generate a detailed extraction schema as a JSON object with EXACTLY these keys:
 }}
 
 Rules:
-- entity_types must have at least 2 entries
-- relation_types must have at least 2 entries
+- entity_types: ONLY 1-2 primary subject entity types. Do NOT create separate entity types for time periods, numeric values, or units — these should be relation attributes or embedded in the entity description. LightRAG's parser only supports 4-field tuples (entity_name, entity_type, description, source_id), so complex multi-type schemas cause parsing failures.
+- relation_types: 1-3 relation types that connect the primary entities to their values/attributes
 - prompt_context must be written in Chinese with English technical terms preserved
+- prompt_context should instruct the LLM to encode time periods and numeric values as relation attributes (e.g. year, amount, unit) rather than as separate entity nodes
 - Do NOT wrap the JSON in markdown code fences
 """
 

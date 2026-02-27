@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-27T17:27:26.019449",
+  "label": "llm_budget_v2",
+  "sge": {
+    "label": "SGE-llm_budget_v2",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 7,
+    "edge_count": 9
+  },
+  "baseline": {
+    "label": "Baseline-llm_budget_v2",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 19,
+    "edge_count": 24
+  },
+  "entity_types": [
+    "Programme"
+  ]
+}

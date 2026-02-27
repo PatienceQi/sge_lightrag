@@ -1,0 +1,188 @@
+{
+  "防止贪污": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-ceb61908508c5b0152e7c54b1321e373"
+    ],
+    "count": 2,
+    "update_time": 1772184414,
+    "_id": "防止贪污"
+  },
+  "2022-23年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-cce8156a1b83f04a5ce62fadd77db468",
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66",
+      "chunk-ceb61908508c5b0152e7c54b1321e373",
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2",
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 7,
+    "update_time": 1772184444,
+    "_id": "2022-23年度"
+  },
+  "2023-24年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-cce8156a1b83f04a5ce62fadd77db468",
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66",
+      "chunk-ceb61908508c5b0152e7c54b1321e373",
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2",
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 7,
+    "update_time": 1772184444,
+    "_id": "2023-24年度"
+  },
+  "2024-25年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-cce8156a1b83f04a5ce62fadd77db468",
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66",
+      "chunk-ceb61908508c5b0152e7c54b1321e373",
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2",
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 7,
+    "update_time": 1772184444,
+    "_id": "2024-25年度"
+  },
+  "执法工作": {
+    "chunk_ids": [
+      "chunk-893021db3e2d398200fdedff183e1b7d",
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2"
+    ],
+    "count": 2,
+    "update_time": 1772184424,
+    "_id": "执法工作"
+  },
+  "倡廉教育": {
+    "chunk_ids": [
+      "chunk-cce8156a1b83f04a5ce62fadd77db468",
+      "chunk-8318079dac20534f1c3b11004efaadf7"
+    ],
+    "count": 2,
+    "update_time": 1772184433,
+    "_id": "倡廉教育"
+  },
+  "争取支持": {
+    "chunk_ids": [
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 2,
+    "update_time": 1772184444,
+    "_id": "争取支持"
+  },
+  "91.5百万元": {
+    "chunk_ids": [
+      "chunk-ceb61908508c5b0152e7c54b1321e373"
+    ],
+    "count": 1,
+    "create_time": 1772184415,
+    "update_time": 1772184415,
+    "_id": "91.5百万元"
+  },
+  "100.8百万元": {
+    "chunk_ids": [
+      "chunk-ceb61908508c5b0152e7c54b1321e373"
+    ],
+    "count": 1,
+    "create_time": 1772184415,
+    "update_time": 1772184415,
+    "_id": "100.8百万元"
+  },
+  "101.3百万元": {
+    "chunk_ids": [
+      "chunk-ceb61908508c5b0152e7c54b1321e373"
+    ],
+    "count": 1,
+    "create_time": 1772184415,
+    "update_time": 1772184415,
+    "_id": "101.3百万元"
+  },
+  "97.2百万元": {
+    "chunk_ids": [
+      "chunk-ceb61908508c5b0152e7c54b1321e373"
+    ],
+    "count": 1,
+    "create_time": 1772184415,
+    "update_time": 1772184415,
+    "_id": "97.2百万元"
+  },
+  "1013.7百万元": {
+    "chunk_ids": [
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2"
+    ],
+    "count": 1,
+    "create_time": 1772184424,
+    "update_time": 1772184424,
+    "_id": "1013.7百万元"
+  },
+  "1031.8百万元": {
+    "chunk_ids": [
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2"
+    ],
+    "count": 1,
+    "create_time": 1772184424,
+    "update_time": 1772184424,
+    "_id": "1031.8百万元"
+  },
+  "1067.2百万元": {
+    "chunk_ids": [
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2"
+    ],
+    "count": 1,
+    "create_time": 1772184424,
+    "update_time": 1772184424,
+    "_id": "1067.2百万元"
+  },
+  "1080.9百万元": {
+    "chunk_ids": [
+      "chunk-2b1a914d2deaba4d86ddba821a4c46a2"
+    ],
+    "count": 1,
+    "create_time": 1772184424,
+    "update_time": 1772184424,
+    "_id": "1080.9百万元"
+  },
+  "93.8百万元": {
+    "chunk_ids": [
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 2,
+    "update_time": 1772184445,
+    "_id": "93.8百万元"
+  },
+  "99.6百万元": {
+    "chunk_ids": [
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 2,
+    "update_time": 1772184445,
+    "_id": "99.6百万元"
+  },
+  "99.9百万元": {
+    "chunk_ids": [
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 2,
+    "update_time": 1772184445,
+    "_id": "99.9百万元"
+  },
+  "105.6百万元": {
+    "chunk_ids": [
+      "chunk-8318079dac20534f1c3b11004efaadf7",
+      "chunk-49c9ce09f1aefd7064599242369ea25f"
+    ],
+    "count": 2,
+    "update_time": 1772184445,
+    "_id": "105.6百万元"
+  }
+}

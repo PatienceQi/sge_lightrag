@@ -1,0 +1,70 @@
+{
+  "doc-c5ecb51bcfe377310efac2a7b158b121": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121"
+    ],
+    "content_summary": "Entity: 防止贪污\nYear: 2022-23 | Status: 实际 | Value: 91.5 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 100.8 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 101.3 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 97.2 | Unit: 百万元",
+    "content_length": 228,
+    "created_at": "2026-02-27T09:22:45.334256+00:00",
+    "updated_at": "2026-02-27T09:22:55.712496+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_172245_ff0d4b48",
+    "metadata": {
+      "processing_start_time": 1772184165,
+      "processing_end_time": 1772184175
+    }
+  },
+  "doc-893021db3e2d398200fdedff183e1b7d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-893021db3e2d398200fdedff183e1b7d"
+    ],
+    "content_summary": "Entity: 执法工作\nYear: 2022-23 | Status: 实际 | Value: 1013.7 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 1031.8 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 1067.2 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 1080.9 | Unit: 百万元",
+    "content_length": 234,
+    "created_at": "2026-02-27T09:22:55.787160+00:00",
+    "updated_at": "2026-02-27T09:23:07.266128+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_172255_bcba6863",
+    "metadata": {
+      "processing_start_time": 1772184175,
+      "processing_end_time": 1772184187
+    }
+  },
+  "doc-cce8156a1b83f04a5ce62fadd77db468": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cce8156a1b83f04a5ce62fadd77db468"
+    ],
+    "content_summary": "Entity: 倡廉教育\nYear: 2022-23 | Status: 实际 | Value: 93.8 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 99.6 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 99.9 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 105.6 | Unit: 百万元",
+    "content_length": 227,
+    "created_at": "2026-02-27T09:23:07.273177+00:00",
+    "updated_at": "2026-02-27T09:23:17.138854+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_172307_f4b34b98",
+    "metadata": {
+      "processing_start_time": 1772184187,
+      "processing_end_time": 1772184197
+    }
+  },
+  "doc-c5eadd35717bcd29c5bdbe9c68c78f66": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66"
+    ],
+    "content_summary": "Entity: 争取支持\nYear: 2022-23 | Status: 实际 | Value: 93.8 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 99.6 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 99.9 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 105.6 | Unit: 百万元",
+    "content_length": 227,
+    "created_at": "2026-02-27T09:23:17.156380+00:00",
+    "updated_at": "2026-02-27T09:23:26.915307+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_172317_53edfe62",
+    "metadata": {
+      "processing_start_time": 1772184197,
+      "processing_end_time": 1772184206
+    }
+  }
+}

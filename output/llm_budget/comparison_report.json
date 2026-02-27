@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-02-27T17:24:04.544370",
+  "label": "llm_budget",
+  "sge": {
+    "label": "SGE-llm_budget",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 19,
+    "edge_count": 14
+  },
+  "baseline": {
+    "label": "Baseline-llm_budget",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 15,
+    "edge_count": 22
+  },
+  "entity_types": [
+    "PolicyProgram",
+    "FiscalYear",
+    "BudgetAmount"
+  ]
+}
