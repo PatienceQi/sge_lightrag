@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-02-27T13:41:29.140935",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/食物安全及公众卫生统计数字/stat_foodSafty_publicHealth.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_food_v2/sge_budget/lightrag_storage",
+    "chunks_inserted": 13,
+    "graph_file_exists": true,
+    "graph_file_size": 20742,
+    "node_count": 20,
+    "edge_count": 20
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_food_v2/baseline_budget/lightrag_storage",
+    "chunks_inserted": 13,
+    "graph_file_exists": true,
+    "graph_file_size": 33262,
+    "node_count": 29,
+    "edge_count": 45
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Data_Category",
+      "Content_Type"
+    ],
+    "relation_types": [
+      "HAS_SUB_ITEM",
+      "HAS_VALUE",
+      "HAS_METADATA"
+    ]
+  }
+}

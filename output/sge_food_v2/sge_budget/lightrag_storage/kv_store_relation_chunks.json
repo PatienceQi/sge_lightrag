@@ -1,0 +1,183 @@
+{
+  "2021年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1772170610,
+    "update_time": 1772170610,
+    "_id": "2021年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "2022年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1772170610,
+    "update_time": 1772170610,
+    "_id": "2022年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "2023年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1772170610,
+    "update_time": 1772170610,
+    "_id": "2023年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "2024年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1772170610,
+    "update_time": 1772170610,
+    "_id": "2024年数据<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "在食物管制站对运送食物的车辆进行重点检查数目<SEP>文锦渡食物管制办事处检查运送蔬菜的车辆": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1772170610,
+    "update_time": 1772170610,
+    "_id": "在食物管制站对运送食物的车辆进行重点检查数目<SEP>文锦渡食物管制办事处检查运送蔬菜的车辆"
+  },
+  "检查的标签数目<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1772170627,
+    "update_time": 1772170627,
+    "_id": "检查的标签数目<SEP>食物安全"
+  },
+  "Content_Type<SEP>Data_Category": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1772170637,
+    "update_time": 1772170637,
+    "_id": "Content_Type<SEP>Data_Category"
+  },
+  "与虫媒病有关的调查研究数目<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772170651,
+    "update_time": 1772170651,
+    "_id": "与虫媒病有关的调查研究数目<SEP>防治虫鼠"
+  },
+  "2021年数据<SEP>与虫媒病有关的调查研究数目": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772170651,
+    "update_time": 1772170651,
+    "_id": "2021年数据<SEP>与虫媒病有关的调查研究数目"
+  },
+  "2022年数据<SEP>与虫媒病有关的调查研究数目": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772170651,
+    "update_time": 1772170651,
+    "_id": "2022年数据<SEP>与虫媒病有关的调查研究数目"
+  },
+  "2023年数据<SEP>与虫媒病有关的调查研究数目": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772170651,
+    "update_time": 1772170651,
+    "_id": "2023年数据<SEP>与虫媒病有关的调查研究数目"
+  },
+  "2024年数据<SEP>与虫媒病有关的调查研究数目": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772170651,
+    "update_time": 1772170651,
+    "_id": "2024年数据<SEP>与虫媒病有关的调查研究数目"
+  },
+  "虫鼠事务咨询<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba",
+      "chunk-03bda189e0350618462d49b218f1005b",
+      "chunk-3e912176e4ced2508339424d4e3b7fe9"
+    ],
+    "count": 3,
+    "update_time": 1772170678,
+    "_id": "虫鼠事务咨询<SEP>防治虫鼠"
+  },
+  "政府部门要求提供咨询的数目<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 1,
+    "create_time": 1772170660,
+    "update_time": 1772170660,
+    "_id": "政府部门要求提供咨询的数目<SEP>虫鼠事务咨询"
+  },
+  "2021年数据<SEP>政府部门要求提供咨询的数目": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 1,
+    "create_time": 1772170660,
+    "update_time": 1772170660,
+    "_id": "2021年数据<SEP>政府部门要求提供咨询的数目"
+  },
+  "2022年数据<SEP>政府部门要求提供咨询的数目": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 1,
+    "create_time": 1772170660,
+    "update_time": 1772170660,
+    "_id": "2022年数据<SEP>政府部门要求提供咨询的数目"
+  },
+  "2023年数据<SEP>政府部门要求提供咨询的数目": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 1,
+    "create_time": 1772170660,
+    "update_time": 1772170660,
+    "_id": "2023年数据<SEP>政府部门要求提供咨询的数目"
+  },
+  "2024年数据<SEP>政府部门要求提供咨询的数目": {
+    "chunk_ids": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 1,
+    "create_time": 1772170660,
+    "update_time": 1772170660,
+    "_id": "2024年数据<SEP>政府部门要求提供咨询的数目"
+  },
+  "市民要求提供咨询的数目<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-03bda189e0350618462d49b218f1005b"
+    ],
+    "count": 1,
+    "create_time": 1772170667,
+    "update_time": 1772170667,
+    "_id": "市民要求提供咨询的数目<SEP>虫鼠事务咨询"
+  },
+  "虫鼠事务咨询<SEP>除害剂成效测试数目": {
+    "chunk_ids": [
+      "chunk-3e912176e4ced2508339424d4e3b7fe9"
+    ],
+    "count": 1,
+    "create_time": 1772170678,
+    "update_time": 1772170678,
+    "_id": "虫鼠事务咨询<SEP>除害剂成效测试数目"
+  }
+}
