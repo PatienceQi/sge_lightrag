@@ -1,0 +1,36 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/香港主要医疗卫生统计数字/healthstat_table1.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3",
+  "timestamp": "2026-02-27T18:49:58.093337",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 19,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "rule",
+      "entity_types": [
+        "1"
+      ],
+      "relation_types": [
+        "HAS_VALUE"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 13,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_health_v3/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "1"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

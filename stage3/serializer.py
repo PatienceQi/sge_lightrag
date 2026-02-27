@@ -43,6 +43,20 @@ def serialize_csv(csv_path: str, schema: dict) -> list[str]:
 
     df = _read_csv(csv_path)
 
+    # Align column_roles keys with DataFrame column types.
+    # Stage 1 stores column names as strings (e.g. '0'), but headerless
+    # CSVs produce integer column names. Convert roles keys to match.
+    if column_roles and len(df.columns) > 0:
+        sample_col = df.columns[0]
+        if isinstance(sample_col, (int, float)) or hasattr(sample_col, "__int__"):
+            aligned = {}
+            for k, v in column_roles.items():
+                try:
+                    aligned[int(k)] = v
+                except (ValueError, TypeError):
+                    aligned[k] = v
+            column_roles = aligned
+
     if table_type == TYPE_I:
         return _serialize_type_i(df, column_roles)
     elif table_type == TYPE_II:
@@ -296,8 +310,22 @@ def _looks_like_indicator(val: str) -> bool:
 # ---------------------------------------------------------------------------
 
 def _read_csv(csv_path: str) -> pd.DataFrame:
-    """Read CSV with encoding fallback."""
-    for enc in ("utf-8", "utf-8-sig", "utf-16", "gbk", "big5"):
+    """Read CSV with encoding fallback.
+
+    UTF-16 files (common in HK gov data) are read with header=None and
+    sep=tab to match Stage 1 feature extraction, ensuring column names
+    are consistent (integer indices) across the pipeline.
+    """
+    import chardet
+    with open(csv_path, "rb") as f:
+        raw = f.read(8192)
+    det = chardet.detect(raw)
+    detected_enc = (det.get("encoding") or "utf-8").lower().replace("-", "")
+
+    if "utf16" in detected_enc:
+        return pd.read_csv(csv_path, encoding="utf-16", sep="	", header=None)
+
+    for enc in ("utf-8", "utf-8-sig", "gbk", "big5hkscs", "big5"):
         try:
             return pd.read_csv(csv_path, encoding=enc, header=0)
         except (UnicodeDecodeError, Exception):
