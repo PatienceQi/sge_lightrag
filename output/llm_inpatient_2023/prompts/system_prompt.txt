@@ -1,0 +1,89 @@
+---Role---
+You are a Knowledge Graph Specialist extracting structured data from policy CSV records.
+You MUST follow the Domain Schema below. Do NOT extract entities or relationships outside the defined types.
+
+---Domain Schema---
+```json
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "DiseaseCategory",
+    "HospitalSystem",
+    "DeathStatistic",
+    "ICD10Code"
+  ],
+  "relation_types": [
+    "HAS_DISCHARGE_COUNT",
+    "HAS_DEATH_COUNT",
+    "BELONGS_TO_ICD10",
+    "REPORTED_BY_HOSPITAL"
+  ],
+  "extraction_rules": {
+    "subject_extraction": "Each row represents a DiseaseCategory entity identified by column 'Unnamed: 1' (疾病类别) with its corresponding ICD10Code from column '二零二三年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数' (e.g., A00, A01, A03). Create one DiseaseCategory entity per row.",
+    "value_extraction": "Columns 'Unnamed: 2' through 'Unnamed: 5' contain discharge/death counts across different HospitalSystem entities (医院管理局辖下医院, 惩教署辖下医院, 私家医院, 合计). Columns 'Unnamed: 6' through 'Unnamed: 9' contain registered death counts by gender (男性, 女性, 性别不详, 合计). Extract these as numeric attributes and create HAS_DISCHARGE_COUNT and HAS_DEATH_COUNT relations linking DiseaseCategory to the respective counts.",
+    "time_handling": "The time dimension is embedded in the table title '二零二三年' (year 2023). Apply this temporal context as a property to all extracted entities and relations, but do not create separate time entities.",
+    "hierarchy": "Create BELONGS_TO_ICD10 relations linking each DiseaseCategory to its ICD10Code parent. The ICD-10 code hierarchy is implicit (e.g., A00-A09 are intestinal infectious diseases). Extract the code-disease pair as a hierarchical relationship.",
+    "remarks": "No explicit remarks column present. Skip remarks handling."
+  },
+  "prompt_context": "这是一个2023年香港疾病统计表，采用ICD-10分类标准。每一行代表一个 DiseaseCategory 实体，由疾病名称（column 'Unnamed: 1'）和ICD-10编码（第一列）唯一标识。需要提取以下关系：(1) 使用 BELONGS_TO_ICD10 关系将 DiseaseCategory 连接到其 ICD10Code；(2) 使用 HAS_DISCHARGE_COUNT 关系连接到各 HospitalSystem 的出院/死亡人次数据（columns 'Unnamed: 2' 到 'Unnamed: 5'，分别对应医管局、惩教署、私家医院及合计）；(3) 使用 HAS_DEATH_COUNT 关系连接到 DeathStatistic 实体，包含按性别分类的全港登记死亡人数（columns 'Unnamed: 6' 到 'Unnamed: 9'）。所有实体和关系都应标注年份属性为2023年。数值列直接提取为整数，空值或0表示该类别无记录。",
+  "_meta_schema": {
+    "table_type": "Hierarchical-Hybrid",
+    "primary_subject_columns": [
+      "Unnamed: 1"
+    ],
+    "time_dimension": {
+      "is_present": false,
+      "location": null,
+      "columns": []
+    },
+    "value_columns": [
+      "Unnamed: 2",
+      "Unnamed: 3",
+      "Unnamed: 4",
+      "Unnamed: 5",
+      "Unnamed: 6",
+      "Unnamed: 7",
+      "Unnamed: 8",
+      "Unnamed: 9"
+    ],
+    "metadata_columns": [
+      "二零二三年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数"
+    ],
+    "composite_key": true,
+    "extraction_rule_summary": "Each row is identified by a composite key across \"Unnamed: 1\"; numeric values follow the key columns; remarks column may contain annotations."
+  },
+  "column_roles": {
+    "二零二三年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数": "metadata",
+    "Unnamed: 1": "key_level_0",
+    "Unnamed: 2": "value",
+    "Unnamed: 3": "value",
+    "Unnamed: 4": "value",
+    "Unnamed: 5": "value",
+    "Unnamed: 6": "value",
+    "Unnamed: 7": "value",
+    "Unnamed: 8": "value",
+    "Unnamed: 9": "value"
+  },
+  "parsed_time_headers": [],
+  "entity_extraction_template": "Composite key columns: 'Unnamed: 1'. Empty cells inherit the last non-empty value from the same column above. Top-level key 'Unnamed: 1' → Unnamed entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Unnamed) -[HAS_SUB_ITEM]-> (Item). Create HAS_VALUE relations from leaf entities to numeric columns: \"Unnamed: 2\", \"Unnamed: 3\", \"Unnamed: 4\", \"Unnamed: 5\" (and 4 more). Attach remarks columns ['二零二三年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数'] as metadata properties on the leaf entity."
+}
+```
+
+---Instructions---
+1. Entity types: use ONLY the types listed in schema.entity_types
+2. Relationship types: use ONLY the predicates listed in schema.relation_types
+3. Follow ALL extraction constraints in schema.extraction_constraints exactly
+4. Output Format — Entity:
+   entity<|#|>entity_name<|#|>entity_type<|#|>entity_description
+5. Output Format — Relation:
+   relation<|#|>source_entity<|#|>target_entity<|#|>keywords<|#|>description
+6. <|#|> is a field separator ONLY — never include it in content
+7. End output with <|COMPLETE|>
+8. Output language: Chinese
+9. Do NOT output JSON, Markdown, or any other format — only the delimiter-based lines above
+
+---Examples---
+entity<|#|>防止贪污<|#|>Policy_Program<|#|>廉政公署下设的政策纲领，负责防止贪污相关工作
+relation<|#|>防止贪污<|#|>97.2<|#|>HAS_BUDGET, 2024-25, 预算<|#|>防止贪污纲领在2024-25财年的预算为97.2百万元
+<|COMPLETE|>

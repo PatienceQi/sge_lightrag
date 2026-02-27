@@ -35,11 +35,14 @@ from stage3.prompt_injector import generate_system_prompt, generate_user_prompt_
 from stage3.integrator import patch_lightrag
 
 
-def _run_stage2(meta_schema, features, mode: str):
+def _run_stage2(meta_schema, features, csv_path: str, mode: str):
     """
     Run Stage 2 schema induction with the specified mode.
 
     Args:
+        meta_schema: Stage 1 meta-schema dict
+        features: Stage 1 FeatureSet
+        csv_path: path to the original CSV (needed by LLM inducer)
         mode: "llm"  — use LLM-enhanced induction only (fail if error)
               "rule" — use rule-based induction only
               "auto" — try LLM first, fall back to rule-based on any error
@@ -54,7 +57,19 @@ def _run_stage2(meta_schema, features, mode: str):
     # mode == "llm" or "auto"
     try:
         from stage2_llm.inductor import induce_schema as llm_induce
-        schema = llm_induce(meta_schema, features)
+        schema = llm_induce(csv_path)
+        # LLM schema lacks column_roles needed by Stage 3 serializer.
+        # Merge rule-based column_roles into the LLM schema.
+        if "column_roles" not in schema:
+            from stage2.inducer import induce_schema as rule_induce
+            rule_schema = rule_induce(meta_schema, features)
+            schema["column_roles"] = rule_schema["column_roles"]
+            if "parsed_time_headers" not in schema:
+                schema["parsed_time_headers"] = rule_schema.get("parsed_time_headers", [])
+            if "entity_extraction_template" not in schema:
+                schema["entity_extraction_template"] = rule_schema.get("entity_extraction_template", "")
+            if "relation_extraction_template" not in schema:
+                schema["relation_extraction_template"] = rule_schema.get("relation_extraction_template", "")
         return schema, "llm"
     except Exception as exc:
         if mode == "llm":
@@ -140,7 +155,7 @@ def main():
     print("=" * 60)
 
     try:
-        extraction_schema, used_mode = _run_stage2(meta_schema, features, args.stage2_mode)
+        extraction_schema, used_mode = _run_stage2(meta_schema, features, str(csv_path), args.stage2_mode)
     except RuntimeError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         sys.exit(1)
