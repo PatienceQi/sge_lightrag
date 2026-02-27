@@ -178,6 +178,11 @@ def _serialize_type_iii(df: pd.DataFrame, column_roles: dict) -> list[str]:
     Serialize Type III rows with sparse-fill for composite key columns.
     Format: "Category: X > SubCategory: Y > Item: Z | 2021: V1 | 2022: V2 | Remark: ..."
     One chunk per row.
+
+    Metadata columns whose values look like indicator/metric names (non-numeric,
+    no leading annotation markers, reasonable length) are promoted into the
+    hierarchy path as additional key levels, so the LLM treats them as entity
+    identifiers rather than remarks.
     """
     # Collect key levels in order
     key_levels: list[tuple[int, str]] = []
@@ -191,21 +196,53 @@ def _serialize_type_iii(df: pd.DataFrame, column_roles: dict) -> list[str]:
     value_cols    = [c for c, r in column_roles.items() if r == "value"]
     metadata_cols = [c for c, r in column_roles.items() if r == "metadata"]
 
+    # Separate metadata cols into "promotable" (indicator names) vs true remarks.
+    # A metadata column is promotable if:
+    #   1. Most of its non-empty values look like indicator names
+    #   2. It has a high fill rate (>= 70%) — remarks columns are usually sparse
+    promotable_cols: list[str] = []
+    remark_cols: list[str] = []
+    for col in metadata_cols:
+        if col not in df.columns:
+            remark_cols.append(col)
+            continue
+        vals = df[col].dropna().astype(str).str.strip()
+        vals = vals[vals != ""]
+        total_rows = len(df)
+        fill_rate = len(vals) / total_rows if total_rows > 0 else 0
+        if len(vals) == 0 or fill_rate < 0.7:
+            remark_cols.append(col)
+            continue
+        indicator_like = vals.apply(_looks_like_indicator)
+        if indicator_like.mean() >= 0.5:
+            promotable_cols.append(col)
+        else:
+            remark_cols.append(col)
+
+    # Build effective key columns: original keys + promoted metadata cols
+    next_level = len(key_cols)
+    promoted_levels: list[tuple[int, str]] = []
+    for col in promotable_cols:
+        promoted_levels.append((next_level, col))
+        next_level += 1
+
+    all_key_cols = key_cols + [col for _, col in promoted_levels]
+
     # Sparse-fill: track last non-empty value per key column
-    last_key_vals: dict[str, str] = {col: "" for col in key_cols}
+    last_key_vals: dict[str, str] = {col: "" for col in all_key_cols}
 
     chunks = []
 
     for _, row in df.iterrows():
         # Update sparse-fill state
-        for col in key_cols:
+        for col in all_key_cols:
             if col in row and _is_valid(row[col]):
                 last_key_vals[col] = str(row[col])
 
         # Build hierarchy path
         key_parts = []
-        level_labels = ["Category", "SubCategory", "Item", "SubItem"]
-        for i, col in enumerate(key_cols):
+        level_labels = ["Category", "SubCategory", "Item", "SubItem", "Detail"]
+        for i, col in enumerate(all_key_cols):
             val = last_key_vals.get(col, "")
             if val:
                 label = level_labels[i] if i < len(level_labels) else f"Level{i}"
@@ -223,9 +260,9 @@ def _serialize_type_iii(df: pd.DataFrame, column_roles: dict) -> list[str]:
                 clean = _clean_col_name(col)
                 value_parts.append(f"{clean}: {row[col]}")
 
-        # Build metadata parts
+        # Build metadata parts (only true remark columns)
         meta_parts = []
-        for col in metadata_cols:
+        for col in remark_cols:
             if col in row and _is_valid(row[col]):
                 meta_parts.append(f"Remark: {row[col]}")
 
@@ -235,6 +272,23 @@ def _serialize_type_iii(df: pd.DataFrame, column_roles: dict) -> list[str]:
         chunks.append(chunk)
 
     return chunks
+
+
+def _looks_like_indicator(val: str) -> bool:
+    """
+    Heuristic: does this string look like a metric/indicator name?
+    True if: non-numeric, no leading annotation marker (* # †), length 2-80.
+    """
+    val = val.strip()
+    if not val or len(val) < 2 or len(val) > 80:
+        return False
+    # Pure number or number with unit
+    if re.match(r"^[\d,.\-+%]+\s*\S{0,4}$", val):
+        return False
+    # Annotation markers
+    if val[0] in ("*", "#", "†", "‡", "※"):
+        return False
+    return True
 
 
 # ---------------------------------------------------------------------------
