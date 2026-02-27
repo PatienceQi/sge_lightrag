@@ -5,8 +5,12 @@ evaluate.py — SGE-LightRAG Gold Standard Evaluation Script
 Computes Precision, Recall, F1 at entity and relation level,
 plus graph topology metrics (isolated node ratio, average degree).
 
+Relation matching supports three levels:
+  - strict  : subject + relation_type + object all match
+  - relaxed : subject + object match (relation type ignored)
+
 Usage:
-    python3 evaluate.py --graph <graphml_path> --gold <jsonl_path>
+    python3 evaluate.py --graph <graphml_path> --gold <jsonl_path> [--relation-map <json_path>]
 """
 
 import argparse
@@ -21,10 +25,55 @@ except ImportError:
     sys.exit(1)
 
 
+# ---------------------------------------------------------------------------
+# Default keyword → gold relation-type mapping
+# Keys are lowercase substrings to search for in LightRAG keyword strings.
+# Values are the canonical gold relation type names.
+# ---------------------------------------------------------------------------
+DEFAULT_RELATION_TYPE_MAP: dict[str, str] = {
+    # HAS_BUDGET
+    "budget": "HAS_BUDGET",
+    "预算": "HAS_BUDGET",
+    # HAS_VALUE
+    "value": "HAS_VALUE",
+    "数值": "HAS_VALUE",
+    "amount": "HAS_VALUE",
+    "金额": "HAS_VALUE",
+    # HAS_SUB_ITEM
+    "sub": "HAS_SUB_ITEM",
+    "子": "HAS_SUB_ITEM",
+    "包含": "HAS_SUB_ITEM",
+    "item": "HAS_SUB_ITEM",
+    "分项": "HAS_SUB_ITEM",
+}
+
+
+def load_relation_type_map(json_path: str | None) -> dict[str, str]:
+    """Load relation type map from JSON file, merging with defaults."""
+    mapping = dict(DEFAULT_RELATION_TYPE_MAP)
+    if json_path:
+        with open(json_path, "r", encoding="utf-8") as f:
+            custom = json.load(f)
+        mapping.update({k.lower(): v for k, v in custom.items()})
+    return mapping
+
+
+def normalize_relation_type(keyword_str: str, rel_map: dict[str, str]) -> str | None:
+    """
+    Map a LightRAG keyword string to a gold relation type.
+    Returns the first matching gold type, or None if no match.
+    """
+    kw_lower = keyword_str.lower()
+    for keyword, rel_type in rel_map.items():
+        if keyword in kw_lower:
+            return rel_type
+    return None
+
+
 def load_gold(jsonl_path: str):
     """Load gold triples from a JSONL file."""
-    gold_entities = set()
-    gold_relations = set()
+    gold_entities: set[str] = set()
+    gold_relations: set[tuple[str, str, str]] = set()
 
     with open(jsonl_path, "r", encoding="utf-8") as f:
         for line in f:
@@ -54,11 +103,10 @@ def load_graph(graphml_path: str):
     """Load a LightRAG graphml file and extract entities and relations."""
     G = nx.read_graphml(graphml_path)
 
-    pred_entities = set()
-    pred_relations = set()
+    pred_entities: set[str] = set()
+    pred_relations: set[tuple[str, str, str]] = set()
 
     for node_id, data in G.nodes(data=True):
-        # LightRAG stores entity name in node id or 'entity_name' attribute
         name = data.get("entity_name") or data.get("name") or node_id
         if name:
             pred_entities.add(str(name).strip())
@@ -72,22 +120,19 @@ def load_graph(graphml_path: str):
     return G, pred_entities, pred_relations
 
 
-def fuzzy_match_entities(gold_entities: set, pred_entities: set):
+def fuzzy_match_entities(gold_entities: set, pred_entities: set) -> set:
     """
     Match gold entities against predicted entities.
     Uses exact match first, then substring containment as fallback.
-    Returns set of matched gold entities.
     """
-    matched = set()
+    matched: set[str] = set()
     pred_lower = {e.lower(): e for e in pred_entities}
 
     for gold_e in gold_entities:
         gold_lower = gold_e.lower()
-        # Exact match
         if gold_lower in pred_lower:
             matched.add(gold_e)
             continue
-        # Substring match: gold entity appears inside any predicted entity or vice versa
         for pred_e_lower in pred_lower:
             if gold_lower in pred_e_lower or pred_e_lower in gold_lower:
                 matched.add(gold_e)
@@ -96,37 +141,60 @@ def fuzzy_match_entities(gold_entities: set, pred_entities: set):
     return matched
 
 
-def fuzzy_match_relations(gold_relations: set, pred_relations: set):
+def fuzzy_match_relations(
+    gold_relations: set,
+    pred_relations: set,
+    rel_map: dict[str, str],
+) -> tuple[set, set]:
     """
     Match gold relations against predicted relations.
-    Uses exact triple match first, then subject+object substring match.
+
+    Returns:
+        (strict_matched, relaxed_matched)
+        - strict_matched  : gold triples where subject, normalized-relation-type, AND object all match
+        - relaxed_matched : gold triples where subject AND object match (relation type ignored)
+
+    Matching logic per gold triple (gs, gr, go):
+      1. Exact triple match (all three lowercased).
+      2. Fuzzy subject+object substring match; if also relation-type matches → strict, else → relaxed only.
     """
-    matched = set()
+    strict_matched: set[tuple] = set()
+    relaxed_matched: set[tuple] = set()
     pred_list = list(pred_relations)
+
+    # Pre-build lowercased pred set for fast exact lookup
+    pred_lower_set = {(s.lower(), r.lower(), o.lower()) for s, r, o in pred_list}
 
     for (gs, gr, go) in gold_relations:
         gs_l, gr_l, go_l = gs.lower(), gr.lower(), go.lower()
-        found = False
 
-        # Exact match
-        if (gs_l, gr_l, go_l) in {(s.lower(), r.lower(), o.lower()) for s, r, o in pred_list}:
-            matched.add((gs, gr, go))
-            found = True
+        # 1. Exact triple match
+        if (gs_l, gr_l, go_l) in pred_lower_set:
+            strict_matched.add((gs, gr, go))
+            relaxed_matched.add((gs, gr, go))
+            continue
 
-        if not found:
-            # Fuzzy: subject and object both appear (substring) in some predicted triple
-            for (ps, pr, po) in pred_list:
-                ps_l, po_l = ps.lower(), po.lower()
-                subj_match = gs_l in ps_l or ps_l in gs_l
-                obj_match = go_l in po_l or po_l in go_l
-                if subj_match and obj_match:
-                    matched.add((gs, gr, go))
-                    break
+        # 2. Fuzzy subject+object match
+        for (ps, pr, po) in pred_list:
+            ps_l, po_l = ps.lower(), po.lower()
+            subj_match = gs_l in ps_l or ps_l in gs_l
+            obj_match = go_l in po_l or po_l in go_l
+            if not (subj_match and obj_match):
+                continue
 
-    return matched
+            # Subject+object matched → relaxed hit
+            relaxed_matched.add((gs, gr, go))
+
+            # Check if relation type also matches
+            normalized = normalize_relation_type(pr, rel_map)
+            if normalized and normalized.lower() == gr_l:
+                strict_matched.add((gs, gr, go))
+            break
+
+    return strict_matched, relaxed_matched
 
 
-def compute_prf(gold: set, matched: set, pred_count: int):
+def compute_prf(gold: set, matched: set, pred_count: int) -> dict:
     """Compute Precision, Recall, F1."""
     tp = len(matched)
     fp = max(0, pred_count - tp)
@@ -146,7 +214,7 @@ def compute_prf(gold: set, matched: set, pred_count: int):
     }
 
 
-def compute_topology(G: nx.Graph):
+def compute_topology(G: nx.Graph) -> dict:
     """Compute graph topology metrics."""
     num_nodes = G.number_of_nodes()
     num_edges = G.number_of_edges()
@@ -182,6 +250,16 @@ def main():
     parser.add_argument("--output", default=None, help="Optional path to write JSON results")
     parser.add_argument("--fuzzy", action="store_true", default=True,
                         help="Use fuzzy (substring) matching (default: True)")
+    parser.add_argument(
+        "--relation-map",
+        default=None,
+        metavar="JSON_PATH",
+        help=(
+            "Path to a JSON file mapping lowercase keyword substrings to gold relation types. "
+            "Merged with built-in defaults. "
+            "Example: {\"cost\": \"HAS_BUDGET\", \"费用\": \"HAS_BUDGET\"}"
+        ),
+    )
     args = parser.parse_args()
 
     # Validate paths
@@ -191,6 +269,11 @@ def main():
     if not Path(args.gold).exists():
         print(f"ERROR: Gold file not found: {args.gold}", file=sys.stderr)
         sys.exit(1)
+    if args.relation_map and not Path(args.relation_map).exists():
+        print(f"ERROR: Relation map file not found: {args.relation_map}", file=sys.stderr)
+        sys.exit(1)
+
+    rel_map = load_relation_type_map(args.relation_map)
 
     print(f"Loading gold triples from: {args.gold}")
     gold_entities, gold_relations = load_gold(args.gold)
@@ -200,23 +283,36 @@ def main():
     G, pred_entities, pred_relations = load_graph(args.graph)
     print(f"  Predicted entities: {len(pred_entities)}, Predicted relations: {len(pred_relations)}")
 
-    # Match
+    # Match entities
     if args.fuzzy:
         matched_entities = fuzzy_match_entities(gold_entities, pred_entities)
-        matched_relations = fuzzy_match_relations(gold_relations, pred_relations)
     else:
         matched_entities = gold_entities & pred_entities
-        matched_relations = gold_relations & pred_relations
+
+    # Match relations (always uses rel_map for type-aware matching)
+    if args.fuzzy:
+        strict_matched, relaxed_matched = fuzzy_match_relations(gold_relations, pred_relations, rel_map)
+    else:
+        # Exact mode: strict = exact triple, relaxed = subject+object exact
+        strict_matched = gold_relations & pred_relations
+        relaxed_matched = {
+            (gs, gr, go)
+            for (gs, gr, go) in gold_relations
+            if any(ps == gs and po == go for ps, _, po in pred_relations)
+        }
 
     # Compute metrics
     entity_metrics = compute_prf(gold_entities, matched_entities, len(pred_entities))
-    relation_metrics = compute_prf(gold_relations, matched_relations, len(pred_relations))
+    relation_strict_metrics = compute_prf(gold_relations, strict_matched, len(pred_relations))
+    relation_relaxed_metrics = compute_prf(gold_relations, relaxed_matched, len(pred_relations))
     topology = compute_topology(G)
 
     results = {
         "match_mode": "fuzzy" if args.fuzzy else "exact",
+        "relation_map_file": args.relation_map,
         "entity_metrics": entity_metrics,
-        "relation_metrics": relation_metrics,
+        "relation_metrics_strict": relation_strict_metrics,
+        "relation_metrics_relaxed": relation_relaxed_metrics,
         "graph_topology": topology,
     }
 
@@ -230,11 +326,17 @@ def main():
     print(f"  F1        : {entity_metrics['f1']:.4f}")
     print(f"  TP={entity_metrics['true_positives']}  FP={entity_metrics['false_positives']}  FN={entity_metrics['false_negatives']}")
 
-    print(f"\n[Relation-Level]")
-    print(f"  Precision : {relation_metrics['precision']:.4f}")
-    print(f"  Recall    : {relation_metrics['recall']:.4f}")
-    print(f"  F1        : {relation_metrics['f1']:.4f}")
-    print(f"  TP={relation_metrics['true_positives']}  FP={relation_metrics['false_positives']}  FN={relation_metrics['false_negatives']}")
+    print(f"\n[Relation-Level — Strict  (subj + rel_type + obj match)]")
+    print(f"  Precision : {relation_strict_metrics['precision']:.4f}")
+    print(f"  Recall    : {relation_strict_metrics['recall']:.4f}")
+    print(f"  F1        : {relation_strict_metrics['f1']:.4f}")
+    print(f"  TP={relation_strict_metrics['true_positives']}  FP={relation_strict_metrics['false_positives']}  FN={relation_strict_metrics['false_negatives']}")
+
+    print(f"\n[Relation-Level — Relaxed (subj + obj match only)]")
+    print(f"  Precision : {relation_relaxed_metrics['precision']:.4f}")
+    print(f"  Recall    : {relation_relaxed_metrics['recall']:.4f}")
+    print(f"  F1        : {relation_relaxed_metrics['f1']:.4f}")
+    print(f"  TP={relation_relaxed_metrics['true_positives']}  FP={relation_relaxed_metrics['false_positives']}  FN={relation_relaxed_metrics['false_negatives']}")
 
     print(f"\n[Graph Topology]")
     print(f"  Nodes              : {topology['num_nodes']}")
