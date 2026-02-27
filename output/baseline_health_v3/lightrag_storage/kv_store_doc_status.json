@@ -1,0 +1,138 @@
+{
+  "doc-705be77841ba71ecb7ae6942b5447f0a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-705be77841ba71ecb7ae6942b5447f0a"
+    ],
+    "content_summary": "Entity: 注册医生数目(1)\nYear: 2024 | Value: 2.2\nYear: 2023 | Value: 2.1\nYear: 2022 | Value: 2.1\nYear: 2021 | Value: 2.1\nYear: 2020 | Value: 2.1\nYear: 2019 | Value: 2.0\nYear: 2018 | Value: 2.0\nYear: 2017 | Value: 1.9\nYear: 2016 | Value: 1.9\nYear: 2015 | Val...",
+    "content_length": 257,
+    "created_at": "2026-02-27T11:13:19.683237+00:00",
+    "updated_at": "2026-02-27T11:13:27.900789+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191319_924cd0dd",
+    "metadata": {
+      "processing_start_time": 1772190799,
+      "processing_end_time": 1772190807
+    }
+  },
+  "doc-1fc58a1681869924068618b623ec1c31": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1fc58a1681869924068618b623ec1c31"
+    ],
+    "content_summary": "Entity: 注册护士数目(2)\nYear: 2024 | Value: 9.6\nYear: 2023 | Value: 9.1\nYear: 2022 | Value: 8.9\nYear: 2021 | Value: 8.7\nYear: 2020 | Value: 8.3\nYear: 2019 | Value: 7.9\nYear: 2018 | Value: 7.6\nYear: 2017 | Value: 7.3\nYear: 2016 | Value: 7.1\nYear: 2015 | Val...",
+    "content_length": 257,
+    "created_at": "2026-02-27T11:13:27.960486+00:00",
+    "updated_at": "2026-02-27T11:13:37.037092+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191327_0165fc8a",
+    "metadata": {
+      "processing_start_time": 1772190807,
+      "processing_end_time": 1772190817
+    }
+  },
+  "doc-1330ee8b5819c48fe18d3eaf0a7a38ed": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1330ee8b5819c48fe18d3eaf0a7a38ed"
+    ],
+    "content_summary": "Entity: 病床 / A系列 (3)\nYear: 2024 | Value: 4.9\nYear: 2023 | Value: 4.9\nYear: 2022 | Value: 4.9\nYear: 2021 | Value: 4.9\nYear: 2020 | Value: 4.8\nYear: 2019 | Value: 4.7\nYear: 2018 | Value: 4.6\nYear: 2017 | Value: 4.6\nYear: 2016 | Value: 4.5\nYear: 2015 | ...",
+    "content_length": 260,
+    "created_at": "2026-02-27T11:13:37.040247+00:00",
+    "updated_at": "2026-02-27T11:13:46.651685+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191337_97e862be",
+    "metadata": {
+      "processing_start_time": 1772190817,
+      "processing_end_time": 1772190826
+    }
+  },
+  "doc-6f865deb97ce784f08871e8a3650d33c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6f865deb97ce784f08871e8a3650d33c"
+    ],
+    "content_summary": "Entity: B系列 (4)\nYear: 2024 | Value: 4.3\nYear: 2023 | Value: 4.3\nYear: 2022 | Value: 4.3\nYear: 2021 | Value: 4.3\nYear: 2020 | Value: 4.2\nYear: 2019 | Value: 4.2\nYear: 2018 | Value: 4.1\nYear: 2017 | Value: 4.1\nYear: 2016 | Value: 4.0\nYear: 2015 | Value...",
+    "content_length": 255,
+    "created_at": "2026-02-27T11:13:46.669309+00:00",
+    "updated_at": "2026-02-27T11:13:56.847140+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191346_c0882a58",
+    "metadata": {
+      "processing_start_time": 1772190826,
+      "processing_end_time": 1772190836
+    }
+  },
+  "doc-1a86648097529117558c4f957f3208cd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1a86648097529117558c4f957f3208cd"
+    ],
+    "content_summary": "[BASELINE]\nEntity: 注册医生数目(1)\nYear: 2024 | Value: 2.2\nYear: 2023 | Value: 2.1\nYear: 2022 | Value: 2.1\nYear: 2021 | Value: 2.1\nYear: 2020 | Value: 2.1\nYear: 2019 | Value: 2.0\nYear: 2018 | Value: 2.0\nYear: 2017 | Value: 1.9\nYear: 2016 | Value: 1.9\nYear:...",
+    "content_length": 268,
+    "created_at": "2026-02-27T11:13:56.864939+00:00",
+    "updated_at": "2026-02-27T11:14:07.682466+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191356_420389fa",
+    "metadata": {
+      "processing_start_time": 1772190836,
+      "processing_end_time": 1772190847
+    }
+  },
+  "doc-8ee27de3f3548a086157e85565cd86d2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8ee27de3f3548a086157e85565cd86d2"
+    ],
+    "content_summary": "[BASELINE]\nEntity: 注册护士数目(2)\nYear: 2024 | Value: 9.6\nYear: 2023 | Value: 9.1\nYear: 2022 | Value: 8.9\nYear: 2021 | Value: 8.7\nYear: 2020 | Value: 8.3\nYear: 2019 | Value: 7.9\nYear: 2018 | Value: 7.6\nYear: 2017 | Value: 7.3\nYear: 2016 | Value: 7.1\nYear:...",
+    "content_length": 268,
+    "created_at": "2026-02-27T11:14:07.695983+00:00",
+    "updated_at": "2026-02-27T11:14:19.129946+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191407_d08338da",
+    "metadata": {
+      "processing_start_time": 1772190847,
+      "processing_end_time": 1772190859
+    }
+  },
+  "doc-525e1ea1579ee04330dc5b1db5a14cc6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-525e1ea1579ee04330dc5b1db5a14cc6"
+    ],
+    "content_summary": "[BASELINE]\nEntity: 病床 / A系列 (3)\nYear: 2024 | Value: 4.9\nYear: 2023 | Value: 4.9\nYear: 2022 | Value: 4.9\nYear: 2021 | Value: 4.9\nYear: 2020 | Value: 4.8\nYear: 2019 | Value: 4.7\nYear: 2018 | Value: 4.6\nYear: 2017 | Value: 4.6\nYear: 2016 | Value: 4.5\nYe...",
+    "content_length": 271,
+    "created_at": "2026-02-27T11:14:19.136705+00:00",
+    "updated_at": "2026-02-27T11:14:27.598559+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191419_446e71a1",
+    "metadata": {
+      "processing_start_time": 1772190859,
+      "processing_end_time": 1772190867
+    }
+  },
+  "doc-563357219d56fdca6d4667f630a4f54a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-563357219d56fdca6d4667f630a4f54a"
+    ],
+    "content_summary": "[BASELINE]\nEntity: B系列 (4)\nYear: 2024 | Value: 4.3\nYear: 2023 | Value: 4.3\nYear: 2022 | Value: 4.3\nYear: 2021 | Value: 4.3\nYear: 2020 | Value: 4.2\nYear: 2019 | Value: 4.2\nYear: 2018 | Value: 4.1\nYear: 2017 | Value: 4.1\nYear: 2016 | Value: 4.0\nYear: 2...",
+    "content_length": 266,
+    "created_at": "2026-02-27T11:14:27.609089+00:00",
+    "updated_at": "2026-02-27T11:14:39.178770+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_191427_71b3e03b",
+    "metadata": {
+      "processing_start_time": 1772190867,
+      "processing_end_time": 1772190879
+    }
+  }
+}

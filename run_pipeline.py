@@ -156,6 +156,11 @@ def main():
 
     try:
         extraction_schema, used_mode = _run_stage2(meta_schema, features, str(csv_path), args.stage2_mode)
+
+        # Propagate time_dimension from meta_schema so Stage 3 serializer
+        # can detect transposed tables.
+        if 'time_dimension' not in extraction_schema:
+            extraction_schema['time_dimension'] = meta_schema.get('time_dimension', {})
     except RuntimeError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         sys.exit(1)

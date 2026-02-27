@@ -41,7 +41,12 @@ You MUST follow the Domain Schema below. Do NOT extract entities or relationship
     "Each non-year column is a 1 metric entity.",
     "Create HAS_VALUE relations with year attribute from the row label."
   ],
-  "parsed_time_headers": []
+  "parsed_time_headers": [],
+  "time_dimension": {
+    "is_present": true,
+    "location": "rows",
+    "columns": []
+  }
 }
 ```
 

@@ -1,0 +1,58 @@
+{
+  "doc-705be77841ba71ecb7ae6942b5447f0a": {
+    "content": "Entity: 注册医生数目(1)\nYear: 2024 | Value: 2.2\nYear: 2023 | Value: 2.1\nYear: 2022 | Value: 2.1\nYear: 2021 | Value: 2.1\nYear: 2020 | Value: 2.1\nYear: 2019 | Value: 2.0\nYear: 2018 | Value: 2.0\nYear: 2017 | Value: 1.9\nYear: 2016 | Value: 1.9\nYear: 2015 | Value: 1.9",
+    "file_path": "unknown_source",
+    "create_time": 1772190799,
+    "update_time": 1772190799,
+    "_id": "doc-705be77841ba71ecb7ae6942b5447f0a"
+  },
+  "doc-1fc58a1681869924068618b623ec1c31": {
+    "content": "Entity: 注册护士数目(2)\nYear: 2024 | Value: 9.6\nYear: 2023 | Value: 9.1\nYear: 2022 | Value: 8.9\nYear: 2021 | Value: 8.7\nYear: 2020 | Value: 8.3\nYear: 2019 | Value: 7.9\nYear: 2018 | Value: 7.6\nYear: 2017 | Value: 7.3\nYear: 2016 | Value: 7.1\nYear: 2015 | Value: 6.9",
+    "file_path": "unknown_source",
+    "create_time": 1772190807,
+    "update_time": 1772190807,
+    "_id": "doc-1fc58a1681869924068618b623ec1c31"
+  },
+  "doc-1330ee8b5819c48fe18d3eaf0a7a38ed": {
+    "content": "Entity: 病床 / A系列 (3)\nYear: 2024 | Value: 4.9\nYear: 2023 | Value: 4.9\nYear: 2022 | Value: 4.9\nYear: 2021 | Value: 4.9\nYear: 2020 | Value: 4.8\nYear: 2019 | Value: 4.7\nYear: 2018 | Value: 4.6\nYear: 2017 | Value: 4.6\nYear: 2016 | Value: 4.5\nYear: 2015 | Value: 4.5",
+    "file_path": "unknown_source",
+    "create_time": 1772190817,
+    "update_time": 1772190817,
+    "_id": "doc-1330ee8b5819c48fe18d3eaf0a7a38ed"
+  },
+  "doc-6f865deb97ce784f08871e8a3650d33c": {
+    "content": "Entity: B系列 (4)\nYear: 2024 | Value: 4.3\nYear: 2023 | Value: 4.3\nYear: 2022 | Value: 4.3\nYear: 2021 | Value: 4.3\nYear: 2020 | Value: 4.2\nYear: 2019 | Value: 4.2\nYear: 2018 | Value: 4.1\nYear: 2017 | Value: 4.1\nYear: 2016 | Value: 4.0\nYear: 2015 | Value: 4.0",
+    "file_path": "unknown_source",
+    "create_time": 1772190826,
+    "update_time": 1772190826,
+    "_id": "doc-6f865deb97ce784f08871e8a3650d33c"
+  },
+  "doc-1a86648097529117558c4f957f3208cd": {
+    "content": "[BASELINE]\nEntity: 注册医生数目(1)\nYear: 2024 | Value: 2.2\nYear: 2023 | Value: 2.1\nYear: 2022 | Value: 2.1\nYear: 2021 | Value: 2.1\nYear: 2020 | Value: 2.1\nYear: 2019 | Value: 2.0\nYear: 2018 | Value: 2.0\nYear: 2017 | Value: 1.9\nYear: 2016 | Value: 1.9\nYear: 2015 | Value: 1.9",
+    "file_path": "unknown_source",
+    "create_time": 1772190836,
+    "update_time": 1772190836,
+    "_id": "doc-1a86648097529117558c4f957f3208cd"
+  },
+  "doc-8ee27de3f3548a086157e85565cd86d2": {
+    "content": "[BASELINE]\nEntity: 注册护士数目(2)\nYear: 2024 | Value: 9.6\nYear: 2023 | Value: 9.1\nYear: 2022 | Value: 8.9\nYear: 2021 | Value: 8.7\nYear: 2020 | Value: 8.3\nYear: 2019 | Value: 7.9\nYear: 2018 | Value: 7.6\nYear: 2017 | Value: 7.3\nYear: 2016 | Value: 7.1\nYear: 2015 | Value: 6.9",
+    "file_path": "unknown_source",
+    "create_time": 1772190847,
+    "update_time": 1772190847,
+    "_id": "doc-8ee27de3f3548a086157e85565cd86d2"
+  },
+  "doc-525e1ea1579ee04330dc5b1db5a14cc6": {
+    "content": "[BASELINE]\nEntity: 病床 / A系列 (3)\nYear: 2024 | Value: 4.9\nYear: 2023 | Value: 4.9\nYear: 2022 | Value: 4.9\nYear: 2021 | Value: 4.9\nYear: 2020 | Value: 4.8\nYear: 2019 | Value: 4.7\nYear: 2018 | Value: 4.6\nYear: 2017 | Value: 4.6\nYear: 2016 | Value: 4.5\nYear: 2015 | Value: 4.5",
+    "file_path": "unknown_source",
+    "create_time": 1772190859,
+    "update_time": 1772190859,
+    "_id": "doc-525e1ea1579ee04330dc5b1db5a14cc6"
+  },
+  "doc-563357219d56fdca6d4667f630a4f54a": {
+    "content": "[BASELINE]\nEntity: B系列 (4)\nYear: 2024 | Value: 4.3\nYear: 2023 | Value: 4.3\nYear: 2022 | Value: 4.3\nYear: 2021 | Value: 4.3\nYear: 2020 | Value: 4.2\nYear: 2019 | Value: 4.2\nYear: 2018 | Value: 4.1\nYear: 2017 | Value: 4.1\nYear: 2016 | Value: 4.0\nYear: 2015 | Value: 4.0",
+    "file_path": "unknown_source",
+    "create_time": 1772190867,
+    "update_time": 1772190867,
+    "_id": "doc-563357219d56fdca6d4667f630a4f54a"
+  }
+}

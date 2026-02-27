@@ -135,6 +135,73 @@ def _serialize_type_ii(df: pd.DataFrame, column_roles: dict, schema: dict) -> li
 
     chunks = []
 
+    # Detect transposed tables (time in rows, metrics in columns)
+    transposed = (schema.get("time_dimension", schema.get("_meta_schema", {}).get("time_dimension", {})).get("location") == "rows")
+    value_cols = [c for c, r in column_roles.items() if r == "value"]
+
+    if transposed and not time_value_cols and value_cols:
+        # Transposed Type II: rows are metrics, value columns hold yearly data.
+        # Find the year-label row: scan first few rows for one with mostly year-like values.
+        year_labels = {}  # col_index -> year string
+        year_row_idx = None
+        import re
+        _yr = re.compile(r"^(19|20)\d{2}(\.\d)?$")
+        for i in range(min(8, len(df))):
+            hits = 0
+            for vc in value_cols:
+                v = str(df.iloc[i].get(vc, "")).strip()
+                if _yr.match(v):
+                    hits += 1
+            if hits >= 3:
+                year_row_idx = i
+                for vc in value_cols:
+                    v = str(df.iloc[i].get(vc, "")).strip()
+                    if _yr.match(v):
+                        year_labels[vc] = v.replace(".0", "")
+                break
+
+        # Entity name column: first subject column
+        name_col = subject_cols[0] if subject_cols else df.columns[0]
+        # Secondary name columns for composite keys (e.g. "病床" + "A系列")
+        extra_name_cols = subject_cols[1:] if len(subject_cols) > 1 else []
+
+        # Data rows start after the year-label row
+        data_start = (year_row_idx + 1) if year_row_idx is not None else 0
+
+        for i in range(data_start, len(df)):
+            row = df.iloc[i]
+            # Build entity name from subject columns
+            name_parts = []
+            for nc in [name_col] + extra_name_cols:
+                val = row.get(nc, "")
+                if _is_valid(val):
+                    name_parts.append(str(val).strip())
+            entity_name = " / ".join(name_parts) if name_parts else f"Row_{i}"
+
+            # Skip note/annotation rows
+            if entity_name.startswith(("注释", "资料来源", "1.", "2.", "3.", "4.")):
+                continue
+            if not entity_name or entity_name == "nan":
+                continue
+
+            lines = [f"Entity: {entity_name}"]
+            has_data = False
+            for vc in value_cols:
+                data_val = row.get(vc, "")
+                if not _is_valid(data_val):
+                    continue
+                try:
+                    float(str(data_val))
+                except ValueError:
+                    continue
+                year = year_labels.get(vc, str(vc))
+                lines.append(f"Year: {year} | Value: {data_val}")
+                has_data = True
+
+            if has_data:
+                chunks.append("\n".join(lines))
+        return chunks
+
     for _, row in df.iterrows():
         # Entity identifier
         if subject_cols:

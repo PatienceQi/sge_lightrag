@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="病床">
+  <data key="d0">病床</data>
+  <data key="d1">a系列</data>
+  <data key="d2">"医疗设备或资源类别")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2024">
+  <data key="d0">2024</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2023">
+  <data key="d0">2023</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2022">
+  <data key="d0">2022</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2021">
+  <data key="d0">2021</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2020">
+  <data key="d0">2020</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2019">
+  <data key="d0">2019</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2018">
+  <data key="d0">2018</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2017">
+  <data key="d0">2017</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2016">
+  <data key="d0">2016</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+  <data key="d1">年份</data>
+  <data key="d2">"时间标识")</data>
+  <data key="d3">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed&lt;SEP&gt;chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190825</data>
+  <data key="d6"></data>
+</node>
+<node id="B系列">
+  <data key="d0">B系列</data>
+  <data key="d1">数据系列</data>
+  <data key="d2">B系列是一个包含多年数值数据的实体，记录了从2015年到2024年的年度数值变化)</data>
+  <data key="d3">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1772190835</data>
+  <data key="d6"></data>
+</node>
+<edge source="病床" target="2024">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.9</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2023">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.9</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2022">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.9</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2021">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.9</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2020">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.8</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2019">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.7</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2018">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.6</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2017">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.6</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2016">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.5</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床" target="2015">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">在该年份的数值为4.5</data>
+  <data key="d10">chunk-1330ee8b5819c48fe18d3eaf0a7a38ed</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.3</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.3</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.3</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2021" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.3</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2020" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.2</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2019" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.2</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2018" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.1</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2017" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.1</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.0</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="B系列">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">该年度数值为4.0</data>
+  <data key="d10">chunk-6f865deb97ce784f08871e8a3650d33c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1772190836</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

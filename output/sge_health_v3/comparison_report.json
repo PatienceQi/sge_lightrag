@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-27T19:14:39.198943",
+  "label": "health_v3",
+  "sge": {
+    "label": "SGE-health_v3",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 12,
+    "edge_count": 20
+  },
+  "baseline": {
+    "label": "Baseline-health_v3",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 11,
+    "edge_count": 10
+  },
+  "entity_types": [
+    "1"
+  ]
+}
