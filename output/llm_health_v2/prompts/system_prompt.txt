@@ -1,0 +1,101 @@
+---Role---
+You are a Knowledge Graph Specialist extracting structured data from policy CSV records.
+You MUST follow the Domain Schema below. Do NOT extract entities or relationships outside the defined types.
+
+---Domain Schema---
+```json
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "HealthcareResource"
+  ],
+  "relation_types": [
+    "HAS_METRIC_VALUE"
+  ],
+  "extraction_rules": {
+    "subject_extraction": "Extract the metric name from column 0 (e.g., '注册医生数目(1)'). Each row represents one healthcare resource metric.",
+    "value_extraction": "Extract numeric values from columns 3-12 (years 2024-2015). The unit '(每千名人口)' is specified in row 3 and applies to all metrics. Store year and value as relation attributes.",
+    "time_handling": "Time dimension is in columns: column headers in row 4 contain years (2024.0, 2023.0, etc.). Each year-value pair becomes a separate relation instance with 'year' and 'value' attributes.",
+    "hierarchy": "N/A",
+    "remarks": "Column 1 may contain footnote markers (e.g., '(1)') which should be preserved in the metric name. Columns 13-18 are empty and should be ignored."
+  },
+  "prompt_context": "这是一个医疗卫生资源时间序列矩阵表。表格标题在第一行（column 0: '表一. 医疗卫生资源'）。第三行说明单位为'(每千名人口)'。第四行包含年份列标题（columns 3-12对应2024年至2015年）。从第五行开始，每一行代表一个医疗资源指标（indicator），指标名称在column 0（例如'注册医生数目(1)'）。对于每个指标，提取一个 HealthcareResource entity，entity_name 为指标名称，description 包含'医疗卫生资源指标，单位：每千名人口'。然后为每个年份的数值创建一个 HAS_METRIC_VALUE relation，relation 的 description 必须包含 year（例如'2024'）、value（例如'2.2'）和 unit（'每千名人口'）这三个属性，格式为'year: 2024, value: 2.2, unit: 每千名人口'。不要为年份或数值创建单独的 entity nodes。Columns 13-18 为空，应忽略。",
+  "_meta_schema": {
+    "table_type": "Time-Series-Matrix",
+    "primary_subject_columns": [
+      "0",
+      "2",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "time_dimension": {
+      "is_present": true,
+      "location": "rows",
+      "columns": []
+    },
+    "value_columns": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "metadata_columns": [
+      "1"
+    ],
+    "composite_key": true,
+    "extraction_rule_summary": "Table is transposed: rows represent time periods (years in first column); columns represent metrics identified by \"0\", \"2\", \"13\"."
+  },
+  "column_roles": {
+    "0": "subject",
+    "1": "metadata",
+    "2": "subject",
+    "3": "value",
+    "4": "value",
+    "5": "value",
+    "6": "value",
+    "7": "value",
+    "8": "value",
+    "9": "value",
+    "10": "value",
+    "11": "value",
+    "12": "value",
+    "13": "subject",
+    "14": "subject",
+    "15": "subject",
+    "16": "subject",
+    "17": "subject",
+    "18": "subject"
+  },
+  "parsed_time_headers": [],
+  "entity_extraction_template": "Each column (except the first) represents a 1 metric. The first column contains time periods (years).",
+  "relation_extraction_template": "For each (metric, year) cell, create: (metric:1) -[HAS_VALUE {year: <row_year>}]-> (value)."
+}
+```
+
+---Instructions---
+1. Entity types: use ONLY the types listed in schema.entity_types
+2. Relationship types: use ONLY the predicates listed in schema.relation_types
+3. Follow ALL extraction constraints in schema.extraction_constraints exactly
+4. Output Format — Entity:
+   entity<|#|>entity_name<|#|>entity_type<|#|>entity_description
+5. Output Format — Relation:
+   relation<|#|>source_entity<|#|>target_entity<|#|>keywords<|#|>description
+6. <|#|> is a field separator ONLY — never include it in content
+7. End output with <|COMPLETE|>
+8. Output language: Chinese
+9. Do NOT output JSON, Markdown, or any other format — only the delimiter-based lines above
+
+---Examples---
+entity<|#|>防止贪污<|#|>Policy_Program<|#|>廉政公署下设的政策纲领，负责防止贪污相关工作
+relation<|#|>防止贪污<|#|>97.2<|#|>HAS_BUDGET, 2024-25, 预算<|#|>防止贪污纲领在2024-25财年的预算为97.2百万元
+<|COMPLETE|>
