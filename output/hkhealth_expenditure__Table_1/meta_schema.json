@@ -1,0 +1,24 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "primary_subject_columns": [
+    "_col_0",
+    "医疗卫生经常性开支 (当时价格)",
+    "公共医疗卫生经常性开支 (当时价格)",
+    "私人医疗卫生经常性开支 (当时价格)",
+    "人均医疗卫生经常性开支 (当时价格)",
+    "人均公共医疗卫生经常性开支 (当时价格)",
+    "人均私人医疗卫生经常性开支 (当时价格)",
+    "医疗卫生经常性开支相对本地生产总值的百分比",
+    "公共医疗卫生经常性开支相对本地生产总值的百分比",
+    "私人医疗卫生经常性开支相对本地生产总值的百分比"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [],
+  "metadata_columns": [],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is identified by a composite key across \"_col_0\", \"医疗卫生经常性开支 (当时价格)\", \"公共医疗卫生经常性开支 (当时价格)\"; numeric values follow the key columns; remarks column may contain annotations."
+}

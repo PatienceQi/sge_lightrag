@@ -1,0 +1,46 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "primary_subject_columns": [
+    "_col_0",
+    "_col_2",
+    "_col_13",
+    "_col_14",
+    "_col_15",
+    "_col_16",
+    "_col_17",
+    "_col_18"
+  ],
+  "time_dimension": {
+    "is_present": true,
+    "location": "headers",
+    "columns": [
+      "2024.0",
+      "2023.0",
+      "2022.0",
+      "2021.0",
+      "2020.0",
+      "2019.0",
+      "2018.0",
+      "2017.0",
+      "2016.0",
+      "2015"
+    ]
+  },
+  "value_columns": [
+    "2024.0",
+    "2023.0",
+    "2022.0",
+    "2021.0",
+    "2020.0",
+    "2019.0",
+    "2018.0",
+    "2017.0",
+    "2016.0",
+    "2015"
+  ],
+  "metadata_columns": [
+    "_col_1"
+  ],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is an entity identified by \"_col_0\", \"_col_2\", \"_col_13\"; 10 time-period column(s) in the header hold numeric values."
+}

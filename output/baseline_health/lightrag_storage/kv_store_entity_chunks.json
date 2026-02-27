@@ -1,0 +1,563 @@
+{
+  "食物安全": {
+    "chunk_ids": [
+      "chunk-c5836bd43ff86ac3cfd82a312d573a68",
+      "chunk-e7cb603a1d5670276914f27f2ac71579",
+      "chunk-7595c417dedc7afd2ee6851bf72995c3",
+      "chunk-dec76b3bece28b9d8cf094cca167941c",
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 5,
+    "update_time": 1772128161,
+    "_id": "食物安全"
+  },
+  "在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-c5836bd43ff86ac3cfd82a312d573a68"
+    ],
+    "count": 1,
+    "create_time": 1772128066,
+    "update_time": 1772128066,
+    "_id": "在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "2021": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "2021"
+  },
+  "2022": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "2022"
+  },
+  "2023": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "2023"
+  },
+  "2024": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "2024"
+  },
+  "74991": {
+    "chunk_ids": [
+      "chunk-e7cb603a1d5670276914f27f2ac71579"
+    ],
+    "count": 1,
+    "create_time": 1772128076,
+    "update_time": 1772128076,
+    "_id": "74991"
+  },
+  "72694": {
+    "chunk_ids": [
+      "chunk-e7cb603a1d5670276914f27f2ac71579"
+    ],
+    "count": 1,
+    "create_time": 1772128076,
+    "update_time": 1772128076,
+    "_id": "72694"
+  },
+  "106424": {
+    "chunk_ids": [
+      "chunk-e7cb603a1d5670276914f27f2ac71579"
+    ],
+    "count": 1,
+    "create_time": 1772128076,
+    "update_time": 1772128076,
+    "_id": "106424"
+  },
+  "152184": {
+    "chunk_ids": [
+      "chunk-e7cb603a1d5670276914f27f2ac71579"
+    ],
+    "count": 1,
+    "create_time": 1772128076,
+    "update_time": 1772128076,
+    "_id": "152184"
+  },
+  "日本进口食物样本": {
+    "chunk_ids": [
+      "chunk-e7cb603a1d5670276914f27f2ac71579",
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 2,
+    "update_time": 1772128161,
+    "_id": "日本进口食物样本"
+  },
+  "检查的标签数目": {
+    "chunk_ids": [
+      "chunk-7595c417dedc7afd2ee6851bf72995c3"
+    ],
+    "count": 1,
+    "create_time": 1772128083,
+    "update_time": 1772128083,
+    "_id": "检查的标签数目"
+  },
+  "防治虫鼠": {
+    "chunk_ids": [
+      "chunk-08f4b30711e62feeca1cfe908964cccd",
+      "chunk-7c7d0e510941c2bf6c7305e4960afa3d",
+      "chunk-31522c8bd616410a1b8a6050cbea8af9",
+      "chunk-76ce74ffe3db39a29bd94cdd6ba9a0b5",
+      "chunk-894a8a110842cfd0f01d6b2d74732486",
+      "chunk-50dcd12ba73b0051ecc2c150e171644f",
+      "chunk-6ce1d852572264c3133d2c2fa596359a",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66",
+      "chunk-3353b7c8062d13014409ee0d0a20934a"
+    ],
+    "count": 9,
+    "update_time": 1772128247,
+    "_id": "防治虫鼠"
+  },
+  "与虫媒病有关的调查研究数目": {
+    "chunk_ids": [
+      "chunk-08f4b30711e62feeca1cfe908964cccd"
+    ],
+    "count": 1,
+    "create_time": 1772128101,
+    "update_time": 1772128101,
+    "_id": "与虫媒病有关的调查研究数目"
+  },
+  "虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-7c7d0e510941c2bf6c7305e4960afa3d",
+      "chunk-31522c8bd616410a1b8a6050cbea8af9",
+      "chunk-76ce74ffe3db39a29bd94cdd6ba9a0b5",
+      "chunk-894a8a110842cfd0f01d6b2d74732486",
+      "chunk-50dcd12ba73b0051ecc2c150e171644f",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66",
+      "chunk-3353b7c8062d13014409ee0d0a20934a"
+    ],
+    "count": 7,
+    "update_time": 1772128247,
+    "_id": "虫鼠事务咨询"
+  },
+  "害虫样本鉴定数目": {
+    "chunk_ids": [
+      "chunk-31522c8bd616410a1b8a6050cbea8af9"
+    ],
+    "count": 1,
+    "create_time": 1772128117,
+    "update_time": 1772128117,
+    "_id": "害虫样本鉴定数目"
+  },
+  "为公众人士举办的研讨会/演讲/讲座数目": {
+    "chunk_ids": [
+      "chunk-894a8a110842cfd0f01d6b2d74732486"
+    ],
+    "count": 1,
+    "create_time": 1772128132,
+    "update_time": 1772128132,
+    "_id": "为公众人士举办的研讨会/演讲/讲座数目"
+  },
+  "出席研讨会/演讲/讲座的人数": {
+    "chunk_ids": [
+      "chunk-50dcd12ba73b0051ecc2c150e171644f"
+    ],
+    "count": 1,
+    "create_time": 1772128138,
+    "update_time": 1772128138,
+    "_id": "出席研讨会/演讲/讲座的人数"
+  },
+  "食物管制站": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "食物管制站"
+  },
+  "文锦渡食物管制办事处": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "文锦渡食物管制办事处"
+  },
+  "运送食物的车辆": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "运送食物的车辆"
+  },
+  "运送蔬菜的车辆": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "运送蔬菜的车辆"
+  },
+  "重点检查": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "重点检查"
+  },
+  "2020年": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "2020年"
+  },
+  "2021年": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 2,
+    "update_time": 1772128220,
+    "_id": "2021年"
+  },
+  "2022年": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 2,
+    "update_time": 1772128220,
+    "_id": "2022年"
+  },
+  "2023年": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 2,
+    "update_time": 1772128220,
+    "_id": "2023年"
+  },
+  "2024年": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c",
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 2,
+    "update_time": 1772128220,
+    "_id": "2024年"
+  },
+  "12304": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "12304"
+  },
+  "12057": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "12057"
+  },
+  "12678": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "12678"
+  },
+  "13212": {
+    "chunk_ids": [
+      "chunk-dec76b3bece28b9d8cf094cca167941c"
+    ],
+    "count": 1,
+    "create_time": 1772128150,
+    "update_time": 1772128150,
+    "_id": "13212"
+  },
+  "食物样本": {
+    "chunk_ids": [
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 1,
+    "create_time": 1772128161,
+    "update_time": 1772128161,
+    "_id": "食物样本"
+  },
+  "化验": {
+    "chunk_ids": [
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 1,
+    "create_time": 1772128161,
+    "update_time": 1772128161,
+    "_id": "化验"
+  },
+  "辐射水平测试": {
+    "chunk_ids": [
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 1,
+    "create_time": 1772128161,
+    "update_time": 1772128161,
+    "_id": "辐射水平测试"
+  },
+  "日本": {
+    "chunk_ids": [
+      "chunk-f3d06b68838481fa5916a8958bce659f"
+    ],
+    "count": 1,
+    "create_time": 1772128161,
+    "update_time": 1772128161,
+    "_id": "日本"
+  },
+  "活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-aa1ed7a0a89f593490a52446f3f8415f",
+      "chunk-e5b622e72d3ad57255b3589a3b48a0eb"
+    ],
+    "count": 2,
+    "update_time": 1772128190,
+    "_id": "活食用牲口检验及测试"
+  },
+  "入口家禽": {
+    "chunk_ids": [
+      "chunk-aa1ed7a0a89f593490a52446f3f8415f"
+    ],
+    "count": 1,
+    "create_time": 1772128180,
+    "update_time": 1772128180,
+    "_id": "入口家禽"
+  },
+  "检查次数": {
+    "chunk_ids": [
+      "chunk-aa1ed7a0a89f593490a52446f3f8415f"
+    ],
+    "count": 1,
+    "create_time": 1772128180,
+    "update_time": 1772128180,
+    "_id": "检查次数"
+  },
+  "猪只": {
+    "chunk_ids": [
+      "chunk-e5b622e72d3ad57255b3589a3b48a0eb"
+    ],
+    "count": 1,
+    "create_time": 1772128190,
+    "update_time": 1772128190,
+    "_id": "猪只"
+  },
+  "尿液样本": {
+    "chunk_ids": [
+      "chunk-e5b622e72d3ad57255b3589a3b48a0eb"
+    ],
+    "count": 1,
+    "create_time": 1772128191,
+    "update_time": 1772128191,
+    "_id": "尿液样本"
+  },
+  "乙类促效剂": {
+    "chunk_ids": [
+      "chunk-e5b622e72d3ad57255b3589a3b48a0eb"
+    ],
+    "count": 1,
+    "create_time": 1772128191,
+    "update_time": 1772128191,
+    "_id": "乙类促效剂"
+  },
+  "乙类促效剂测试": {
+    "chunk_ids": [
+      "chunk-e5b622e72d3ad57255b3589a3b48a0eb"
+    ],
+    "count": 1,
+    "create_time": 1772128191,
+    "update_time": 1772128191,
+    "_id": "乙类促效剂测试"
+  },
+  "虫媒病": {
+    "chunk_ids": [
+      "chunk-6ce1d852572264c3133d2c2fa596359a"
+    ],
+    "count": 1,
+    "create_time": 1772128207,
+    "update_time": 1772128207,
+    "_id": "虫媒病"
+  },
+  "调查研究": {
+    "chunk_ids": [
+      "chunk-6ce1d852572264c3133d2c2fa596359a"
+    ],
+    "count": 1,
+    "create_time": 1772128207,
+    "update_time": 1772128207,
+    "_id": "调查研究"
+  },
+  "政府部门": {
+    "chunk_ids": [
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 1,
+    "create_time": 1772128220,
+    "update_time": 1772128220,
+    "_id": "政府部门"
+  },
+  "354": {
+    "chunk_ids": [
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 1,
+    "create_time": 1772128220,
+    "update_time": 1772128220,
+    "_id": "354"
+  },
+  "262": {
+    "chunk_ids": [
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 1,
+    "create_time": 1772128220,
+    "update_time": 1772128220,
+    "_id": "262"
+  },
+  "250": {
+    "chunk_ids": [
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 1,
+    "create_time": 1772128220,
+    "update_time": 1772128220,
+    "_id": "250"
+  },
+  "257": {
+    "chunk_ids": [
+      "chunk-bacfc8ffc2c6c46c5d2b38f120b91e66"
+    ],
+    "count": 1,
+    "create_time": 1772128220,
+    "update_time": 1772128220,
+    "_id": "257"
+  },
+  "除害剂成效测试": {
+    "chunk_ids": [
+      "chunk-3353b7c8062d13014409ee0d0a20934a"
+    ],
+    "count": 1,
+    "create_time": 1772128247,
+    "update_time": 1772128247,
+    "_id": "除害剂成效测试"
+  },
+  "指标": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945"
+    ],
+    "count": 1,
+    "create_time": 1772128278,
+    "update_time": 1772128278,
+    "_id": "指标"
+  },
+  "病床A系列(3)": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "病床A系列(3)"
+  },
+  "2020": {
+    "chunk_ids": [
+      "chunk-add8fd13a5199a0829b4f96eef710945",
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-5b68c5a02da92f06aface2b1412ab006"
+    ],
+    "count": 3,
+    "update_time": 1772128314,
+    "_id": "2020"
+  },
+  "2019": {
+    "chunk_ids": [
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128304,
+    "_id": "2019"
+  },
+  "2018": {
+    "chunk_ids": [
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128304,
+    "_id": "2018"
+  },
+  "2017": {
+    "chunk_ids": [
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128304,
+    "_id": "2017"
+  },
+  "2016": {
+    "chunk_ids": [
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128305,
+    "_id": "2016"
+  },
+  "2015": {
+    "chunk_ids": [
+      "chunk-b03533fc9dd13b918542e9a5a6b46995",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128305,
+    "_id": "2015"
+  },
+  "B系列(4)": {
+    "chunk_ids": [
+      "chunk-1bef4999a9b46cc29a0687d06c87c649",
+      "chunk-687b2088f1aaa374d79a38d7a1ae4c26"
+    ],
+    "count": 2,
+    "update_time": 1772128304,
+    "_id": "B系列(4)"
+  }
+}

@@ -1,0 +1,12 @@
+Entity: 出生时平均
+预期寿命(年) (甲) / 男性
+Year: 2024 | Value: 82.7
+Year: 2023 | Value: 82.5
+Year: 2022 | Value: 80.7
+Year: 2021 | Value: 83.2
+Year: 2020 | Value: 83.4
+Year: 2019 | Value: 82.4
+Year: 2018 | Value: 82.3
+Year: 2017 | Value: 81.9
+Year: 2016 | Value: 81.3
+Year: 2015 | Value: 81.4

@@ -1,0 +1,37 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/有关人口的专题文章 - 住户开支统计调查结果/B71608FB2016XXXXB01/2014_15_HES_Table 1.CSV",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1",
+  "timestamp": "2026-02-27T01:39:41.629876",
+  "stages": {
+    "stage1": {
+      "table_type": "Hierarchical-Hybrid",
+      "column_count": 6,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1/meta_schema.json"
+    },
+    "stage2": {
+      "entity_types": [
+        "表一"
+      ],
+      "relation_types": [
+        "HAS_SUB_ITEM",
+        "HAS_VALUE",
+        "HAS_METADATA"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 16,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hes__2014_15_HES_Table_1/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "表一"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="指标">
+      <data key="d0">指标</data>
+      <data key="d1">2024</data>
+      <data key="d2">2024是病床A系列(3)的年份，对应数值为4.9)&lt;SEP&gt;2023是病床A系列(3)的年份，对应数值为4.9)&lt;SEP&gt;2022是病床A系列(3)的年份，对应数值为4.9)&lt;SEP&gt;2021是病床A系列(3)的年份，对应数值为4.9)&lt;SEP&gt;2020是病床A系列(3)的年份，对应数值为4.8)</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128278</data>
+      <data key="d6" />
+    </node>
+    <node id="2024">
+      <data key="d0">2024</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d2">8)&lt;SEP&gt;2024是B系列(4)指标的记录年份，数值为4.3)</data>
+      <data key="d1">年份</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128295</data>
+      <data key="d6" />
+    </node>
+    <node id="病床A系列(3)">
+      <data key="d0">病床A系列(3)</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d2">8)&lt;SEP&gt;一个时间序列指标，记录了2015年至2019年的数值变化，数值范围从4.5到4.7)</data>
+      <data key="d1">指标</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128287</data>
+      <data key="d6" />
+    </node>
+    <node id="2023">
+      <data key="d0">2023</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d2">8)&lt;SEP&gt;2023是B系列(4)指标的记录年份，数值为4.3)</data>
+      <data key="d1">年份</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128295</data>
+      <data key="d6" />
+    </node>
+    <node id="2022">
+      <data key="d0">2022</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d2">8)&lt;SEP&gt;2022是B系列(4)指标的记录年份，数值为4.3)</data>
+      <data key="d1">年份</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128295</data>
+      <data key="d6" />
+    </node>
+    <node id="2021">
+      <data key="d0">2021</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d2">8)&lt;SEP&gt;2021是B系列(4)指标的记录年份，数值为4.3)</data>
+      <data key="d1">年份</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128295</data>
+      <data key="d6" />
+    </node>
+    <node id="2020">
+      <data key="d0">2020</data>
+      <data key="d3">chunk-add8fd13a5199a0829b4f96eef710945&lt;SEP&gt;chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d2">8)&lt;SEP&gt;2020是B系列(4)指标的记录年份，数值为4.2)</data>
+      <data key="d1">年份</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128295</data>
+      <data key="d6" />
+    </node>
+    <node id="2019">
+      <data key="d0">2019</data>
+      <data key="d1">指标</data>
+      <data key="d2">病床A系列(3)在2019年的数值为4.7)&lt;SEP&gt;B系列(4)的年份，对应数值4.2)</data>
+      <data key="d3">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128304</data>
+      <data key="d6" />
+    </node>
+    <node id="2018">
+      <data key="d0">2018</data>
+      <data key="d1">指标</data>
+      <data key="d2">病床A系列(3)在2018年的数值为4.6)&lt;SEP&gt;B系列(4)的年份，对应数值4.1)</data>
+      <data key="d3">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128304</data>
+      <data key="d6" />
+    </node>
+    <node id="2017">
+      <data key="d0">2017</data>
+      <data key="d1">指标</data>
+      <data key="d2">病床A系列(3)在2017年的数值为4.6)&lt;SEP&gt;B系列(4)的年份，对应数值4.1)</data>
+      <data key="d3">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128304</data>
+      <data key="d6" />
+    </node>
+    <node id="2016">
+      <data key="d0">2016</data>
+      <data key="d1">指标</data>
+      <data key="d2">病床A系列(3)在2016年的数值为4.5)&lt;SEP&gt;B系列(4)的年份，对应数值4.0)</data>
+      <data key="d3">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128305</data>
+      <data key="d6" />
+    </node>
+    <node id="2015">
+      <data key="d0">2015</data>
+      <data key="d1">指标</data>
+      <data key="d2">病床A系列(3)在2015年的数值为4.5)&lt;SEP&gt;B系列(4)的年份，对应数值4.0)</data>
+      <data key="d3">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128305</data>
+      <data key="d6" />
+    </node>
+    <node id="B系列(4)">
+      <data key="d0">B系列(4)</data>
+      <data key="d1">指标</data>
+      <data key="d2">B系列(4)是一个指标实体，在2020年至2024年期间记录了数值数据)&lt;SEP&gt;一个数据系列，包含2015年至2019年的年度数值数据)</data>
+      <data key="d3">chunk-1bef4999a9b46cc29a0687d06c87c649&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1772128304</data>
+      <data key="d6" />
+    </node>
+    <edge source="2024" target="病床A系列(3)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">在2024年数值为4.9</data>
+      <data key="d10">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128278</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2024" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2024年的数值为4.3</data>
+      <data key="d10">chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128296</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2023">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">在2023年数值为4.9</data>
+      <data key="d10">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128278</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2022">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">在2022年数值为4.9</data>
+      <data key="d10">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128278</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2021">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">在2021年数值为4.9</data>
+      <data key="d10">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128279</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2020">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">在2020年数值为4.8</data>
+      <data key="d10">chunk-add8fd13a5199a0829b4f96eef710945</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128279</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2019">
+      <data key="d7">1.0</data>
+      <data key="d8">7)</data>
+      <data key="d9">病床A系列(3)在2019年的数值为4.7</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128288</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2018">
+      <data key="d7">1.0</data>
+      <data key="d8">7)</data>
+      <data key="d9">病床A系列(3)在2018年的数值为4.6</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128288</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2017">
+      <data key="d7">1.0</data>
+      <data key="d8">7)</data>
+      <data key="d9">病床A系列(3)在2017年的数值为4.6</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128288</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2016">
+      <data key="d7">1.0</data>
+      <data key="d8">7)</data>
+      <data key="d9">病床A系列(3)在2016年的数值为4.5</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128288</data>
+      <data key="d13" />
+    </edge>
+    <edge source="病床A系列(3)" target="2015">
+      <data key="d7">1.0</data>
+      <data key="d8">7)</data>
+      <data key="d9">病床A系列(3)在2015年的数值为4.5</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128288</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2023" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2023年的数值为4.3</data>
+      <data key="d10">chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128296</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2022" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2022年的数值为4.3</data>
+      <data key="d10">chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128296</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2021" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2021年的数值为4.3</data>
+      <data key="d10">chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128296</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2020" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2020年的数值为4.2</data>
+      <data key="d10">chunk-1bef4999a9b46cc29a0687d06c87c649</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128296</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2019" target="2018">
+      <data key="d7">2.0</data>
+      <data key="d8">6)&lt;SEP&gt;7)</data>
+      <data key="d9">2018年是2019年的前一年,B系列(4)数值从4.1增长到4.2,病床A系列(3)数值从4.6增长到4.7</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2019" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2019年的数值为4.2</data>
+      <data key="d10">chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2018" target="2017">
+      <data key="d7">2.0</data>
+      <data key="d8">6)&lt;SEP&gt;7)</data>
+      <data key="d9">2017年是2018年的前一年,B系列(4)数值保持在4.1,病床A系列(3)数值保持在4.6</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2018" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2018年的数值为4.1</data>
+      <data key="d10">chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2017" target="2016">
+      <data key="d7">2.0</data>
+      <data key="d8">6)&lt;SEP&gt;7)</data>
+      <data key="d9">2016年是2017年的前一年,B系列(4)数值从4.0增长到4.1,病床A系列(3)数值从4.5增长到4.6</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2017" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2017年的数值为4.1</data>
+      <data key="d10">chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2016" target="2015">
+      <data key="d7">2.0</data>
+      <data key="d8">6)&lt;SEP&gt;7)</data>
+      <data key="d9">2015年是2016年的前一年,B系列(4)数值保持在4.0,病床A系列(3)数值保持在4.5</data>
+      <data key="d10">chunk-b03533fc9dd13b918542e9a5a6b46995&lt;SEP&gt;chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2016" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2016年的数值为4.0</data>
+      <data key="d10">chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+    <edge source="2015" target="B系列(4)">
+      <data key="d7">1.0</data>
+      <data key="d8">8)</data>
+      <data key="d9">B系列(4)在2015年的数值为4.0</data>
+      <data key="d10">chunk-687b2088f1aaa374d79a38d7a1ae4c26</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1772128305</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-02-27T01:36:00",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/年度预算/annualbudget_sc.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_budget/lightrag_storage",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "graph_file_size": 6809,
+    "node_count": 7,
+    "edge_count": 6
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "output/baseline_budget/lightrag_storage",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "graph_file_size": 20244,
+    "node_count": 19,
+    "edge_count": 24
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Policy_Program"
+    ],
+    "relation_types": [
+      "HAS_BUDGET"
+    ]
+  },
+  "comparison": {
+    "sge_nodes": 7,
+    "baseline_nodes": 19,
+    "sge_edges": 6,
+    "baseline_edges": 24,
+    "node_delta": -12,
+    "edge_delta": -18,
+    "note": "SGE constrains entity types to schema-defined types only (Policy_Program). Baseline uses default LightRAG entity types (organization, person, geo, event, etc.), producing more but less domain-specific nodes."
+  }
+}

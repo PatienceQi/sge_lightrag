@@ -1,0 +1,11 @@
+Entity: 粗死亡率(7) (乙) / 女性
+Year: 2024 | Value: 7.0
+Year: 2023 | Value: 7.5
+Year: 2022 | Value: 8.4
+Year: 2021 | Value: 7.0
+Year: 2020 | Value: 6.8
+Year: 2019 | Value: 6.5
+Year: 2018 | Value: 6.4
+Year: 2017 | Value: 6.2
+Year: 2016 | Value: 6.4
+Year: 2015 | Value: 6.4

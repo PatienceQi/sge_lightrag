@@ -1,0 +1,33 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "Data_Category",
+    "Content_Type"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE",
+    "HAS_METADATA"
+  ],
+  "column_roles": {
+    "数据内容": "key_level_0",
+    "内容分类": "key_level_1",
+    "项目": "metadata",
+    "2021": "value",
+    "2022": "value",
+    "2023": "value",
+    "2024": "value",
+    "备注": "metadata"
+  },
+  "entity_extraction_template": "Composite key columns: '数据内容' → '内容分类'. Empty cells inherit the last non-empty value from the same column above. Top-level key '数据内容' → Data_Category entity. Second-level key '内容分类' → Content_Type entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Data_Category) -[HAS_SUB_ITEM]-> (Content_Type). Create HAS_VALUE relations from leaf entities to numeric columns: \"2021\", \"2022\", \"2023\", \"2024\". Attach remarks columns ['项目', '备注'] as metadata properties on the leaf entity.",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key '数据内容' defines the root entity (Data_Category).",
+    "Second-level key '内容分类' defines child entities (Content_Type) linked to their parent via HAS_SUB_ITEM.",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": []
+}

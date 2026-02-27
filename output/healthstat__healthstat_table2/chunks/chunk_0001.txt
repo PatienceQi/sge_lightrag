@@ -1,0 +1,11 @@
+Entity: 年中人口 ('000) (甲)
+Year: 2024 | Value: 7 524
+Year: 2023 | Value: 7 536
+Year: 2022 | Value: 7 346
+Year: 2021 | Value: 7 413
+Year: 2020 | Value: 7 481
+Year: 2019 | Value: 7 508
+Year: 2018 | Value: 7 453
+Year: 2017 | Value: 7 393
+Year: 2016 | Value: 7 337
+Year: 2015 | Value: 7 291

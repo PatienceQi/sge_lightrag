@@ -1,0 +1,60 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "Policy_Program"
+  ],
+  "relation_types": [
+    "HAS_BUDGET"
+  ],
+  "column_roles": {
+    "纲领编号": "value",
+    "纲领": "subject",
+    "2022-23\n(实际)\n(百万元)": "time_value",
+    "2023-24\n(原来预算)\n(百万元)": "time_value",
+    "2023-24\n(修订)\n(百万元)": "time_value",
+    "2024-25\n(预算)\n(百万元)": "time_value"
+  },
+  "entity_extraction_template": "For each row, extract the value of '纲领' as a Policy_Program entity node.",
+  "relation_extraction_template": "For each time column, create: (Policy_Program) -[HAS_BUDGET {year: X, status: Y, unit: Z}]-> (value). Example time columns: {2022-23, 实际, 百万元}; {2023-24, 原来预算, 百万元}; {2023-24, 修订, 百万元}.",
+  "extraction_constraints": [
+    "Each row represents one Policy_Program entity identified by '纲领'.",
+    "Time columns encode fiscal year, status, and unit in compound headers.",
+    "Parse compound headers (newline-separated) into year/status/unit attributes.",
+    "Create one HAS_BUDGET relation per (entity, time_column) pair.",
+    "Skip cells with null or non-numeric values."
+  ],
+  "parsed_time_headers": [
+    {
+      "raw": "2022-23\n(实际)\n(百万元)",
+      "year": "2022-23",
+      "status": "实际",
+      "unit": "百万元",
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2023-24\n(原来预算)\n(百万元)",
+      "year": "2023-24",
+      "status": "原来预算",
+      "unit": "百万元",
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2023-24\n(修订)\n(百万元)",
+      "year": "2023-24",
+      "status": "修订",
+      "unit": "百万元",
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2024-25\n(预算)\n(百万元)",
+      "year": "2024-25",
+      "status": "预算",
+      "unit": "百万元",
+      "label": null,
+      "is_time_column": true
+    }
+  ]
+}

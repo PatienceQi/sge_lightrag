@@ -1,0 +1,23 @@
+{
+  "table_type": "Flat-Entity",
+  "entity_types": [
+    "指标"
+  ],
+  "relation_types": [
+    "HAS_ATTRIBUTE"
+  ],
+  "column_roles": {
+    "指标": "subject",
+    "年份": "value",
+    "数值": "value"
+  },
+  "entity_extraction_template": "For each row, extract the value of '指标' as a 指标 entity node.",
+  "relation_extraction_template": "For each 指标 entity, create HAS_ATTRIBUTE relations to numeric values in columns: \"年份\", \"数值\".",
+  "extraction_constraints": [
+    "Each row represents one distinct 指标 entity.",
+    "Use '指标' as the entity identifier.",
+    "Numeric columns become attribute values linked via HAS_ATTRIBUTE.",
+    "Skip rows where the subject column is empty or null."
+  ],
+  "parsed_time_headers": []
+}

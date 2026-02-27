@@ -1,0 +1,29 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "表一"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE",
+    "HAS_METADATA"
+  ],
+  "column_roles": {
+    "表一": "key_level_0",
+    ":": "metadata",
+    "2004/05年、2009/10年及2014/15年的住戶每月平均開支比較": "metadata",
+    "Unnamed: 3": "value",
+    "Unnamed: 4": "metadata",
+    "Unnamed: 5": "metadata"
+  },
+  "entity_extraction_template": "Composite key columns: '表一'. Empty cells inherit the last non-empty value from the same column above. Top-level key '表一' → 表一 entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (表一) -[HAS_SUB_ITEM]-> (Item). Create HAS_VALUE relations from leaf entities to numeric columns: \"Unnamed: 3\". Attach remarks columns [':', 'Unnamed: 5', 'Unnamed: 4', '2004/05年、2009/10年及2014/15年的住戶每月平均開支比較'] as metadata properties on the leaf entity.",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key '表一' defines the root entity (表一).",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": []
+}

@@ -1,0 +1,5 @@
+Entity: 争取支持
+Year: 2022-23 | Status: 实际 | Value: 93.8 | Unit: 百万元
+Year: 2023-24 | Status: 原来预算 | Value: 99.6 | Unit: 百万元
+Year: 2023-24 | Status: 修订 | Value: 99.9 | Unit: 百万元
+Year: 2024-25 | Status: 预算 | Value: 105.6 | Unit: 百万元

@@ -1,0 +1,35 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "primary_subject_columns": [
+    "_col_1",
+    "公共支出",
+    "私人支出",
+    "总计",
+    "_col_6",
+    "_col_7",
+    "_col_8",
+    "_col_9",
+    "_col_10",
+    "_col_11",
+    "_col_12",
+    "_col_13",
+    "_col_14",
+    "_col_15",
+    "_col_16",
+    "_col_17",
+    "_col_18",
+    "_col_19"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [],
+  "metadata_columns": [
+    "_col_5",
+    "_col_0"
+  ],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is identified by a composite key across \"_col_1\", \"公共支出\", \"私人支出\"; numeric values follow the key columns; remarks column may contain annotations."
+}

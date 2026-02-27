@@ -1,0 +1,9 @@
+{
+  "label": "Baseline-health",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_health/lightrag_storage",
+  "chunks_inserted": 4,
+  "graph_file_exists": true,
+  "graph_file_size": 5867,
+  "node_count": 6,
+  "edge_count": 5
+}

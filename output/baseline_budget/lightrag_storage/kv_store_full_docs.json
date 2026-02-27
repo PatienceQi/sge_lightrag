@@ -1,0 +1,30 @@
+{
+  "doc-ceb61908508c5b0152e7c54b1321e373": {
+    "content": "[BASELINE]\nEntity: 防止贪污\nYear: 2022-23 | Status: 实际 | Value: 91.5 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 100.8 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 101.3 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 97.2 | Unit: 百万元",
+    "file_path": "unknown_source",
+    "create_time": 1772127762,
+    "update_time": 1772127762,
+    "_id": "doc-ceb61908508c5b0152e7c54b1321e373"
+  },
+  "doc-2b1a914d2deaba4d86ddba821a4c46a2": {
+    "content": "[BASELINE]\nEntity: 执法工作\nYear: 2022-23 | Status: 实际 | Value: 1013.7 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 1031.8 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 1067.2 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 1080.9 | Unit: 百万元",
+    "file_path": "unknown_source",
+    "create_time": 1772127771,
+    "update_time": 1772127771,
+    "_id": "doc-2b1a914d2deaba4d86ddba821a4c46a2"
+  },
+  "doc-8318079dac20534f1c3b11004efaadf7": {
+    "content": "[BASELINE]\nEntity: 倡廉教育\nYear: 2022-23 | Status: 实际 | Value: 93.8 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 99.6 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 99.9 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 105.6 | Unit: 百万元",
+    "file_path": "unknown_source",
+    "create_time": 1772127791,
+    "update_time": 1772127791,
+    "_id": "doc-8318079dac20534f1c3b11004efaadf7"
+  },
+  "doc-49c9ce09f1aefd7064599242369ea25f": {
+    "content": "[BASELINE]\nEntity: 争取支持\nYear: 2022-23 | Status: 实际 | Value: 93.8 | Unit: 百万元\nYear: 2023-24 | Status: 原来预算 | Value: 99.6 | Unit: 百万元\nYear: 2023-24 | Status: 修订 | Value: 99.9 | Unit: 百万元\nYear: 2024-25 | Status: 预算 | Value: 105.6 | Unit: 百万元",
+    "file_path": "unknown_source",
+    "create_time": 1772127801,
+    "update_time": 1772127801,
+    "_id": "doc-49c9ce09f1aefd7064599242369ea25f"
+  }
+}

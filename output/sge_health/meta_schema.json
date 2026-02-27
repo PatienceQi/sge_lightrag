@@ -1,0 +1,18 @@
+{
+  "table_type": "Flat-Entity",
+  "primary_subject_columns": [
+    "指标"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [
+    "年份",
+    "数值"
+  ],
+  "metadata_columns": [],
+  "composite_key": false,
+  "extraction_rule_summary": "Each row is a distinct entity described by \"指标\" and associated numeric attributes."
+}

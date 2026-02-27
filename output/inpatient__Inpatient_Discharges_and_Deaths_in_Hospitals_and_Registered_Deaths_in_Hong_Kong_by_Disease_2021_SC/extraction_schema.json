@@ -1,0 +1,33 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "Unnamed"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE",
+    "HAS_METADATA"
+  ],
+  "column_roles": {
+    "二零二一年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数": "metadata",
+    "Unnamed: 1": "key_level_0",
+    "Unnamed: 2": "value",
+    "Unnamed: 3": "value",
+    "Unnamed: 4": "value",
+    "Unnamed: 5": "value",
+    "Unnamed: 6": "value",
+    "Unnamed: 7": "value",
+    "Unnamed: 8": "value",
+    "Unnamed: 9": "value"
+  },
+  "entity_extraction_template": "Composite key columns: 'Unnamed: 1'. Empty cells inherit the last non-empty value from the same column above. Top-level key 'Unnamed: 1' → Unnamed entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Unnamed) -[HAS_SUB_ITEM]-> (Item). Create HAS_VALUE relations from leaf entities to numeric columns: \"Unnamed: 2\", \"Unnamed: 3\", \"Unnamed: 4\", \"Unnamed: 5\" (and 4 more). Attach remarks columns ['二零二一年按疾病类别划分的住院病人出院及死亡人次及全港登记死亡人数'] as metadata properties on the leaf entity.",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key 'Unnamed: 1' defines the root entity (Unnamed).",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": []
+}

@@ -1,0 +1,65 @@
+{
+  "防止贪污": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121"
+    ],
+    "count": 1,
+    "create_time": 1772127692,
+    "update_time": 1772127692,
+    "_id": "防止贪污"
+  },
+  "2022-23年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-893021db3e2d398200fdedff183e1b7d"
+    ],
+    "count": 2,
+    "update_time": 1772127698,
+    "_id": "2022-23年度"
+  },
+  "2023-24年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-893021db3e2d398200fdedff183e1b7d"
+    ],
+    "count": 2,
+    "update_time": 1772127698,
+    "_id": "2023-24年度"
+  },
+  "2024-25年度": {
+    "chunk_ids": [
+      "chunk-c5ecb51bcfe377310efac2a7b158b121",
+      "chunk-893021db3e2d398200fdedff183e1b7d"
+    ],
+    "count": 2,
+    "update_time": 1772127698,
+    "_id": "2024-25年度"
+  },
+  "执法工作": {
+    "chunk_ids": [
+      "chunk-893021db3e2d398200fdedff183e1b7d"
+    ],
+    "count": 1,
+    "create_time": 1772127698,
+    "update_time": 1772127698,
+    "_id": "执法工作"
+  },
+  "倡廉教育": {
+    "chunk_ids": [
+      "chunk-cce8156a1b83f04a5ce62fadd77db468"
+    ],
+    "count": 1,
+    "create_time": 1772127702,
+    "update_time": 1772127702,
+    "_id": "倡廉教育"
+  },
+  "争取支持": {
+    "chunk_ids": [
+      "chunk-c5eadd35717bcd29c5bdbe9c68c78f66"
+    ],
+    "count": 1,
+    "create_time": 1772127707,
+    "update_time": 1772127707,
+    "_id": "争取支持"
+  }
+}

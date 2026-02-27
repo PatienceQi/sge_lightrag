@@ -1,0 +1,28 @@
+{
+  "table_type": "Flat-Entity",
+  "primary_subject_columns": [
+    "整体医疗卫生经常性开支相对本地生产总值的百分比(%)",
+    "公共医疗卫生经常性开支相对本地生产总值的百分比 (%)",
+    "私人医疗卫生经常性开支相对本地生产总值的百分比 (%)",
+    "整体公共开支相对本地生产总值的百分比 (%)",
+    "公共医疗卫生经常性开支相对税收的百分比 (%)",
+    "最高个人入息税边际税率* (%) 截至2025年9月",
+    "销售税率(%) 截至2025年9月",
+    "税收收入相对本地生产总值的百分比 (%)",
+    "65岁及以上人口百分比"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [
+    "参照年份",
+    "人口 (百万)"
+  ],
+  "metadata_columns": [
+    "经济体"
+  ],
+  "composite_key": false,
+  "extraction_rule_summary": "Each row is a distinct entity described by \"整体医疗卫生经常性开支相对本地生产总值的百分比(%)\", \"公共医疗卫生经常性开支相对本地生产总值的百分比 (%)\", \"私人医疗卫生经常性开支相对本地生产总值的百分比 (%)\" and associated numeric attributes."
+}

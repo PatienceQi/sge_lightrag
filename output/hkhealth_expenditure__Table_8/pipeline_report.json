@@ -1,0 +1,42 @@
+{
+  "csv_file": "/private/var/folders/yj/f2p815qs10xf7_wr2x7rkdf80000gn/T/sge_preprocessed_jt8bbb3l.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8",
+  "timestamp": "2026-02-27T01:39:45.233794",
+  "stages": {
+    "stage1": {
+      "table_type": "Hierarchical-Hybrid",
+      "column_count": 14,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8/meta_schema.json"
+    },
+    "stage2": {
+      "entity_types": [
+        "Col",
+        "长期护理__社会_",
+        "食物及饮用水质量控制",
+        "环境干预__除与食物及饮用水有关_"
+      ],
+      "relation_types": [
+        "HAS_SUB_ITEM",
+        "HAS_VALUE"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 75,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_8/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Col",
+        "长期护理__社会_",
+        "食物及饮用水质量控制",
+        "环境干预__除与食物及饮用水有关_"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

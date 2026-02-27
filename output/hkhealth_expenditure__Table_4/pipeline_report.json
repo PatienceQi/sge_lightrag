@@ -1,0 +1,35 @@
+{
+  "csv_file": "/private/var/folders/yj/f2p815qs10xf7_wr2x7rkdf80000gn/T/sge_preprocessed_p3xw51g7.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4",
+  "timestamp": "2026-02-27T01:39:44.169270",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 37,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4/meta_schema.json"
+    },
+    "stage2": {
+      "entity_types": [
+        "Col"
+      ],
+      "relation_types": [
+        "HAS_VALUE"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 82,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/hkhealth_expenditure__Table_4/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Col"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Entity: 抚养比率 (甲) / 少年儿童(2)
+Year: 2024 | Value: 149
+Year: 2023 | Value: 153
+Year: 2022 | Value: 153
+Year: 2021 | Value: 157
+Year: 2020 | Value: 159
+Year: 2019 | Value: 160
+Year: 2018 | Value: 159
+Year: 2017 | Value: 157
+Year: 2016 | Value: 155
+Year: 2015 | Value: 154

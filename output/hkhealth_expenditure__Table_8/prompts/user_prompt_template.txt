@@ -1,0 +1,15 @@
+---Task---
+Extract entities and relationships from the input text below.
+Use ONLY the entity types and relation types defined in the system prompt schema.
+Output ONLY delimiter-based lines. End with <|COMPLETE|>.
+
+---Data to be Processed---
+<Entity_types>
+[Col, 长期护理__社会_, 食物及饮用水质量控制, 环境干预__除与食物及饮用水有关_]
+
+<Input Text>
+```
+{input_text}
+```
+
+<Output>

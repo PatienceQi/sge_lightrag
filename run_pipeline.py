@@ -1,0 +1,180 @@
+#!/usr/bin/env python3
+"""
+run_pipeline.py — Full Stage 1 → Stage 2 → Stage 3 pipeline CLI.
+
+Usage:
+    python3 run_pipeline.py <csv_path> [--output-dir <dir>]
+
+Outputs:
+    <output-dir>/
+        meta_schema.json              — Stage 1 output
+        extraction_schema.json        — Stage 2 output
+        chunks/
+            chunk_0001.txt            — serialized text chunks
+            chunk_0002.txt
+            ...
+        prompts/
+            system_prompt.txt         — schema-aware system prompt for LightRAG
+            user_prompt_template.txt  — user prompt template ({input_text} placeholder)
+        pipeline_report.json          — summary of all stages
+"""
+
+import sys
+import json
+import argparse
+from pathlib import Path
+from datetime import datetime
+
+sys.path.insert(0, str(Path(__file__).parent))
+
+from stage1.features import extract_features
+from stage1.classifier import classify
+from stage1.schema import build_meta_schema
+from stage2.inducer import induce_schema
+from stage3.serializer import serialize_csv
+from stage3.prompt_injector import generate_system_prompt, generate_user_prompt_template
+from stage3.integrator import patch_lightrag
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="SGE-LightRAG full pipeline: Stage 1 → Stage 2 → Stage 3"
+    )
+    parser.add_argument("csv_path", help="Path to the input CSV file")
+    parser.add_argument(
+        "--output-dir", "-o",
+        default=None,
+        help="Output directory (default: ./sge_output/<csv_stem>)",
+    )
+    args = parser.parse_args()
+
+    csv_path = Path(args.csv_path).expanduser().resolve()
+    if not csv_path.exists():
+        print(f"Error: file not found: {csv_path}", file=sys.stderr)
+        sys.exit(1)
+
+    output_dir = Path(args.output_dir).expanduser().resolve() if args.output_dir else (
+        Path.cwd() / "sge_output" / csv_path.stem
+    )
+    output_dir.mkdir(parents=True, exist_ok=True)
+    (output_dir / "chunks").mkdir(exist_ok=True)
+    (output_dir / "prompts").mkdir(exist_ok=True)
+
+    report = {
+        "csv_file": str(csv_path),
+        "output_dir": str(output_dir),
+        "timestamp": datetime.now().isoformat(),
+        "stages": {},
+    }
+
+    # ── Stage 1 ──────────────────────────────────────────────────────────────
+    print("=" * 60)
+    print("STAGE 1 — Topological Pattern Recognition")
+    print("=" * 60)
+
+    features   = extract_features(str(csv_path))
+    table_type = classify(features)
+    meta_schema = build_meta_schema(features, table_type)
+
+    print(f"Table Type : {table_type}")
+    print(f"Columns    : {len(features.raw_columns)}")
+
+    meta_schema_path = output_dir / "meta_schema.json"
+    meta_schema_path.write_text(
+        json.dumps(meta_schema, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Written    : {meta_schema_path}")
+
+    report["stages"]["stage1"] = {
+        "table_type": table_type,
+        "column_count": len(features.raw_columns),
+        "output_file": str(meta_schema_path),
+    }
+
+    # ── Stage 2 ──────────────────────────────────────────────────────────────
+    print()
+    print("=" * 60)
+    print("STAGE 2 — Rule-Based Schema Induction")
+    print("=" * 60)
+
+    extraction_schema = induce_schema(meta_schema, features)
+
+    print(f"Entity Types   : {extraction_schema['entity_types']}")
+    print(f"Relation Types : {extraction_schema['relation_types']}")
+
+    schema_path = output_dir / "extraction_schema.json"
+    schema_path.write_text(
+        json.dumps(extraction_schema, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Written        : {schema_path}")
+
+    report["stages"]["stage2"] = {
+        "entity_types": extraction_schema["entity_types"],
+        "relation_types": extraction_schema["relation_types"],
+        "output_file": str(schema_path),
+    }
+
+    # ── Stage 3 ──────────────────────────────────────────────────────────────
+    print()
+    print("=" * 60)
+    print("STAGE 3 — Constrained Extraction Preparation")
+    print("=" * 60)
+
+    # 3a. Serialize CSV into text chunks
+    chunks = serialize_csv(str(csv_path), extraction_schema)
+    print(f"Chunks produced : {len(chunks)}")
+
+    chunks_dir = output_dir / "chunks"
+    for i, chunk in enumerate(chunks, start=1):
+        chunk_file = chunks_dir / f"chunk_{i:04d}.txt"
+        chunk_file.write_text(chunk, encoding="utf-8")
+
+    print(f"Written to      : {chunks_dir}/")
+
+    # 3b. Generate prompts
+    system_prompt = generate_system_prompt(extraction_schema)
+    user_prompt_tmpl = generate_user_prompt_template(extraction_schema)
+
+    sys_prompt_path = output_dir / "prompts" / "system_prompt.txt"
+    usr_prompt_path = output_dir / "prompts" / "user_prompt_template.txt"
+
+    sys_prompt_path.write_text(system_prompt, encoding="utf-8")
+    usr_prompt_path.write_text(user_prompt_tmpl, encoding="utf-8")
+
+    print(f"System prompt   : {sys_prompt_path}")
+    print(f"User template   : {usr_prompt_path}")
+
+    # 3c. LightRAG integration payload
+    payload = patch_lightrag(extraction_schema)
+
+    report["stages"]["stage3"] = {
+        "chunk_count": len(chunks),
+        "chunks_dir": str(chunks_dir),
+        "system_prompt_file": str(sys_prompt_path),
+        "user_prompt_template_file": str(usr_prompt_path),
+        "lightrag_entity_types": payload["entity_types"],
+        "lightrag_addon_params_keys": list(payload["addon_params"].keys()),
+    }
+
+    # ── Pipeline report ───────────────────────────────────────────────────────
+    report_path = output_dir / "pipeline_report.json"
+    report_path.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    print()
+    print("=" * 60)
+    print("PIPELINE COMPLETE")
+    print("=" * 60)
+    print(f"Output dir      : {output_dir}")
+    print(f"Report          : {report_path}")
+    print()
+    print("Output files:")
+    for f in sorted(output_dir.rglob("*")):
+        if f.is_file():
+            size = f.stat().st_size
+            print(f"  {f.relative_to(output_dir)}  ({size} bytes)")
+
+
+if __name__ == "__main__":
+    main()

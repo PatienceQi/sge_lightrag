@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gold Standard Triple Annotation Schema",
+  "description": "Schema for annotating gold standard knowledge graph triples from SGE datasets",
+  "type": "object",
+  "required": ["source_file", "row_index", "triple", "annotator", "confidence"],
+  "properties": {
+    "source_file": {
+      "type": "string",
+      "description": "Source CSV filename",
+      "example": "annualbudget_sc.csv"
+    },
+    "row_index": {
+      "type": "integer",
+      "description": "0-based row index in the source CSV (excluding header)",
+      "minimum": 0
+    },
+    "triple": {
+      "type": "object",
+      "required": ["subject", "subject_type", "relation", "object", "object_type"],
+      "properties": {
+        "subject": {
+          "type": "string",
+          "description": "Subject entity text"
+        },
+        "subject_type": {
+          "type": "string",
+          "description": "Entity type of subject",
+          "enum": ["Policy_Program", "Category", "SubCategory", "BudgetAmount", "StatValue", "Year", "Organization", "Metric"]
+        },
+        "relation": {
+          "type": "string",
+          "description": "Relation type",
+          "enum": ["HAS_BUDGET", "HAS_VALUE", "HAS_SUB_ITEM", "BELONGS_TO", "HAS_PROGRAM_ID", "IN_YEAR", "HAS_STATUS"]
+        },
+        "object": {
+          "type": "string",
+          "description": "Object entity text or literal value"
+        },
+        "object_type": {
+          "type": "string",
+          "description": "Entity type of object",
+          "enum": ["Policy_Program", "Category", "SubCategory", "BudgetAmount", "StatValue", "Year", "Organization", "Metric", "Literal"]
+        },
+        "attributes": {
+          "type": "object",
+          "description": "Additional attributes for the triple",
+          "properties": {
+            "year": {"type": "string"},
+            "status": {"type": "string", "enum": ["实际", "原来预算", "修订", "预算"]},
+            "unit": {"type": "string"}
+          }
+        }
+      }
+    },
+    "annotator": {
+      "type": "string",
+      "description": "Annotator name or ID (leave empty for pre-filled gold triples)"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Annotator confidence in this triple"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional annotation notes or caveats"
+    }
+  },
+  "example": {
+    "source_file": "annualbudget_sc.csv",
+    "row_index": 0,
+    "triple": {
+      "subject": "防止贪污",
+      "subject_type": "Policy_Program",
+      "relation": "HAS_BUDGET",
+      "object": "91.5",
+      "object_type": "BudgetAmount",
+      "attributes": {"year": "2022-23", "status": "实际", "unit": "百万元"}
+    },
+    "annotator": "",
+    "confidence": "high",
+    "notes": ""
+  }
+}

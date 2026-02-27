@@ -1,0 +1,11 @@
+Entity: 长者人口的比例 (%) (1) (甲)
+Year: 2024 | Value: 22.8
+Year: 2023 | Value: 21.8
+Year: 2022 | Value: 20.8
+Year: 2021 | Value: 19.6
+Year: 2020 | Value: 18.5
+Year: 2019 | Value: 17.7
+Year: 2018 | Value: 17.0
+Year: 2017 | Value: 16.4
+Year: 2016 | Value: 15.9
+Year: 2015 | Value: 15.3
