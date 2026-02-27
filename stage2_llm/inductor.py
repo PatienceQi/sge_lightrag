@@ -128,11 +128,21 @@ def induce_schema(csv_path: str) -> dict:
     meta_schema_json = json.dumps(meta_schema, ensure_ascii=False, indent=2)
     user_prompt = build_user_prompt(table_type, meta_schema_json, csv_snippet)
 
-    # ── LLM call ──────────────────────────────────────────────────────────────
-    raw_response = call_llm(SYSTEM_PROMPT, user_prompt)
-
-    # ── Parse & validate ──────────────────────────────────────────────────────
-    schema = _parse_schema_response(raw_response)
+    # ── LLM call with retry on parse failure ──────────────────────────────────
+    max_attempts = 3
+    last_error = None
+    for attempt in range(1, max_attempts + 1):
+        raw_response = call_llm(SYSTEM_PROMPT, user_prompt)
+        try:
+            schema = _parse_schema_response(raw_response)
+            break
+        except ValueError as exc:
+            last_error = exc
+            if attempt < max_attempts:
+                import time
+                time.sleep(1)
+                continue
+            raise ValueError(f"Failed to parse LLM response after {max_attempts} attempts: {last_error}") from exc
 
     # Attach Stage 1 meta-schema for downstream reference
     schema["_meta_schema"] = meta_schema

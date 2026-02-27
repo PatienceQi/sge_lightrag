@@ -1,0 +1,128 @@
+{
+  "入口家禽的检查次数<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1772187697,
+    "update_time": 1772187697,
+    "_id": "入口家禽的检查次数<SEP>活食用牲口检验及测试"
+  },
+  "2021<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1772187698,
+    "update_time": 1772187698,
+    "_id": "2021<SEP>入口家禽的检查次数"
+  },
+  "2022<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1772187698,
+    "update_time": 1772187698,
+    "_id": "2022<SEP>入口家禽的检查次数"
+  },
+  "2023<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1772187698,
+    "update_time": 1772187698,
+    "_id": "2023<SEP>入口家禽的检查次数"
+  },
+  "2024<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1772187698,
+    "update_time": 1772187698,
+    "_id": "2024<SEP>入口家禽的检查次数"
+  },
+  "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1772187703,
+    "update_time": 1772187703,
+    "_id": "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>活食用牲口检验及测试"
+  },
+  "与虫媒病有关的调查研究数目<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1772187713,
+    "update_time": 1772187713,
+    "_id": "与虫媒病有关的调查研究数目<SEP>防治虫鼠"
+  },
+  "害虫样本鉴定数目<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1772187741,
+    "update_time": 1772187741,
+    "_id": "害虫样本鉴定数目<SEP>防治虫鼠"
+  },
+  "害虫样本鉴定数目<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1772187742,
+    "update_time": 1772187742,
+    "_id": "害虫样本鉴定数目<SEP>虫鼠事务咨询"
+  },
+  "防治虫鼠<SEP>除害剂成效测试数目": {
+    "chunk_ids": [
+      "chunk-3e912176e4ced2508339424d4e3b7fe9"
+    ],
+    "count": 1,
+    "create_time": 1772187747,
+    "update_time": 1772187747,
+    "_id": "防治虫鼠<SEP>除害剂成效测试数目"
+  },
+  "虫鼠事务咨询<SEP>除害剂成效测试数目": {
+    "chunk_ids": [
+      "chunk-3e912176e4ced2508339424d4e3b7fe9"
+    ],
+    "count": 1,
+    "create_time": 1772187748,
+    "update_time": 1772187748,
+    "_id": "虫鼠事务咨询<SEP>除害剂成效测试数目"
+  },
+  "出席研讨会/演讲/讲座的人数<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2"
+    ],
+    "count": 1,
+    "create_time": 1772187765,
+    "update_time": 1772187765,
+    "_id": "出席研讨会/演讲/讲座的人数<SEP>防治虫鼠"
+  },
+  "虫鼠事务咨询<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2"
+    ],
+    "count": 1,
+    "create_time": 1772187765,
+    "update_time": 1772187765,
+    "_id": "虫鼠事务咨询<SEP>防治虫鼠"
+  },
+  "出席研讨会/演讲/讲座的人数<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2"
+    ],
+    "count": 1,
+    "create_time": 1772187765,
+    "update_time": 1772187765,
+    "_id": "出席研讨会/演讲/讲座的人数<SEP>虫鼠事务咨询"
+  }
+}

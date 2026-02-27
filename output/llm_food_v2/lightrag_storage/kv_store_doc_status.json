@@ -1,0 +1,223 @@
+{
+  "doc-07a4eec341d2fd3869ab4fd0666557f0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 在食物管制站对运送食物的车辆进行重点检查数目* | 2021: 12304 | 2022: 12057 | 2023: 12678 | 2024: 13212 | Remark: * 由2020年起，指标「在文锦渡食物管制办事处检查运送蔬菜的车辆」已由新指标「在食物管制站对运送食物的车辆进行重点检查」取代。",
+    "content_length": 177,
+    "created_at": "2026-02-27T10:21:13.388388+00:00",
+    "updated_at": "2026-02-27T10:21:22.941171+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182113_9dd1c7e0",
+    "metadata": {
+      "processing_start_time": 1772187673,
+      "processing_end_time": 1772187682
+    }
+  },
+  "doc-135ae1d0f86126cfb7722efd71042025": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 抽取作化验的食物样本数目 | 2021: 74991 | 2022: 72694 | 2023: 106424 | 2024: 152184 | Remark: 包括已进行辐射水平测试的日本进口食物样本",
+    "content_length": 124,
+    "created_at": "2026-02-27T10:21:23.013966+00:00",
+    "updated_at": "2026-02-27T10:21:27.810265+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182123_d4b86678",
+    "metadata": {
+      "processing_start_time": 1772187683,
+      "processing_end_time": 1772187687
+    }
+  },
+  "doc-71464070223ed787e8a10929d1d24944": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 检查的标签数目 | 2021: 55196 | 2022: 55192 | 2023: 55208 | 2024: 55365",
+    "content_length": 86,
+    "created_at": "2026-02-27T10:21:27.918051+00:00",
+    "updated_at": "2026-02-27T10:21:31.439330+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182127_71993d86",
+    "metadata": {
+      "processing_start_time": 1772187687,
+      "processing_end_time": 1772187691
+    }
+  },
+  "doc-84aa0fd3031ed0c57b67db64d96b1990": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 入口家禽的检查次数 | 2021: 0 | 2022: 0 | 2023: 0 | 2024: 0",
+    "content_length": 78,
+    "created_at": "2026-02-27T10:21:31.465130+00:00",
+    "updated_at": "2026-02-27T10:21:38.799663+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182131_1de9fde1",
+    "metadata": {
+      "processing_start_time": 1772187691,
+      "processing_end_time": 1772187698
+    }
+  },
+  "doc-4864dd7fa7e53fff7f6799ac45e4513a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 抽取猪只尿液样本进行乙类促效剂测试的数目 | 2021: 28027 | 2022: 29050 | 2023: 28638 | 2024: 28118",
+    "content_length": 105,
+    "created_at": "2026-02-27T10:21:38.817888+00:00",
+    "updated_at": "2026-02-27T10:21:43.644909+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182138_63f00fc8",
+    "metadata": {
+      "processing_start_time": 1772187698,
+      "processing_end_time": 1772187703
+    }
+  },
+  "doc-5b8d0973df982df8b5df4ce6fcbaf0e2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 从食用动物抽取尿液、组织及血清样本测试有否残余禽畜药物的总数目 | 2021: 30131 | 2022: 29996 | 2023: 29613 | 2024: 29068",
+    "content_length": 116,
+    "created_at": "2026-02-27T10:21:43.662442+00:00",
+    "updated_at": "2026-02-27T10:21:47.678585+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182143_f62880bb",
+    "metadata": {
+      "processing_start_time": 1772187703,
+      "processing_end_time": 1772187707
+    }
+  },
+  "doc-3d9bb684b137bbaa8b43513f636d04c0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "content_summary": "Category: 防治虫鼠 > Item: 与虫媒病有关的调查研究数目 | 2021: 84 | 2022: 300 | 2023: 160 | 2024: 278",
+    "content_length": 83,
+    "created_at": "2026-02-27T10:21:47.694317+00:00",
+    "updated_at": "2026-02-27T10:21:54.022019+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182147_37ab7c90",
+    "metadata": {
+      "processing_start_time": 1772187707,
+      "processing_end_time": 1772187714
+    }
+  },
+  "doc-d950195772d2194083fd41aa7463f5ba": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 政府部门要求提供咨询的数目 | 2021: 354 | 2022: 262 | 2023: 250 | 2024: 257 | Remark: 2022年数字于2024年2月修订。",
+    "content_length": 135,
+    "created_at": "2026-02-27T10:21:54.047121+00:00",
+    "updated_at": "2026-02-27T10:21:58.530338+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182154_b74fc7cd",
+    "metadata": {
+      "processing_start_time": 1772187714,
+      "processing_end_time": 1772187718
+    }
+  },
+  "doc-03bda189e0350618462d49b218f1005b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-03bda189e0350618462d49b218f1005b"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 市民要求提供咨询的数目 | 2021: 372 | 2022: 423 | 2023: 440 | 2024: 272 | Remark: 2022年数字于2024年2月修订。",
+    "content_length": 133,
+    "created_at": "2026-02-27T10:21:58.544123+00:00",
+    "updated_at": "2026-02-27T10:22:15.810152+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182158_8da3bd78",
+    "metadata": {
+      "processing_start_time": 1772187718,
+      "processing_end_time": 1772187735
+    }
+  },
+  "doc-e04d2327ef7e721fe0266c26aa84e7f9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 害虫样本鉴定数目 | 2021: 7171 | 2022: 6504 | 2023: 2564 | 2024: 3063",
+    "content_length": 105,
+    "created_at": "2026-02-27T10:22:15.826502+00:00",
+    "updated_at": "2026-02-27T10:22:22.233634+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182215_0be14e09",
+    "metadata": {
+      "processing_start_time": 1772187735,
+      "processing_end_time": 1772187742
+    }
+  },
+  "doc-3e912176e4ced2508339424d4e3b7fe9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3e912176e4ced2508339424d4e3b7fe9"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 除害剂成效测试数目 | 2021: 31 | 2022: 31 | 2023: 31 | 2024: 28",
+    "content_length": 98,
+    "created_at": "2026-02-27T10:22:22.256683+00:00",
+    "updated_at": "2026-02-27T10:22:28.387614+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182222_f85c9b2f",
+    "metadata": {
+      "processing_start_time": 1772187742,
+      "processing_end_time": 1772187748
+    }
+  },
+  "doc-22ee7e60827d3ad7d7bda643418044eb": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 为公众人士举办的研讨会/演讲/讲座数目 | 2021: 76 | 2022: 72 | 2023: 95 | 2024: 120",
+    "content_length": 109,
+    "created_at": "2026-02-27T10:22:28.409704+00:00",
+    "updated_at": "2026-02-27T10:22:37.773946+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182228_738d7d55",
+    "metadata": {
+      "processing_start_time": 1772187748,
+      "processing_end_time": 1772187757
+    }
+  },
+  "doc-729ca11c90f53112cf4ecd9c53d8cfa2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2"
+    ],
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 出席研讨会/演讲/讲座的人数 | 2021: 2206 | 2022: 2735 | 2023: 2289 | 2024: 5062",
+    "content_length": 111,
+    "created_at": "2026-02-27T10:22:37.800973+00:00",
+    "updated_at": "2026-02-27T10:22:46.054216+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260227_182237_2f033f46",
+    "metadata": {
+      "processing_start_time": 1772187757,
+      "processing_end_time": 1772187766
+    }
+  }
+}

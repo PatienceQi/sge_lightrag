@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-27T18:24:45.891048",
+  "label": "llm_food_v2",
+  "sge": {
+    "label": "SGE-llm_food_v2",
+    "chunks_inserted": 13,
+    "graph_file_exists": true,
+    "node_count": 23,
+    "edge_count": 14
+  },
+  "baseline": {
+    "label": "Baseline-llm_food_v2",
+    "chunks_inserted": 13,
+    "graph_file_exists": true,
+    "node_count": 29,
+    "edge_count": 35
+  },
+  "entity_types": [
+    "FoodSafetyMetric"
+  ]
+}

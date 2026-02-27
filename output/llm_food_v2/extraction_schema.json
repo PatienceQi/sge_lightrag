@@ -1,0 +1,55 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "FoodSafetyMetric"
+  ],
+  "relation_types": [
+    "HAS_ANNUAL_VALUE",
+    "HAS_REMARK"
+  ],
+  "extraction_rules": {
+    "subject_extraction": "Use composite key from '数据内容' (primary category) and '内容分类' (subcategory, may be empty) and '项目' (specific metric name) to form unique metric identifier. When '内容分类' is empty, use '数据内容' + '项目' as the full metric name.",
+    "value_extraction": "Extract numeric values from year columns (2021, 2022, 2023, 2024) as relation attributes with year and amount. Each year-value pair creates one HAS_ANNUAL_VALUE relation.",
+    "time_handling": "Year columns are embedded in column headers. Each numeric cell represents a metric value for that specific year. Create separate relations for each year-value pair.",
+    "hierarchy": "Two-level hierarchy: '数据内容' is the parent category (e.g., 食物安全, 活食用牲口检验及测试), '项目' is the specific metric under that category. '内容分类' serves as an optional middle layer but is empty in this dataset.",
+    "remarks": "Extract '备注' column content as HAS_REMARK relation when non-empty. Remarks provide context, methodology changes, or scope clarifications for the metric."
+  },
+  "prompt_context": "这是一个食品安全监管指标的层级混合表格。每一行代表一个具体的监管指标（FoodSafetyMetric实体），由'数据内容'（主类别）和'项目'（具体指标名称）共同定义。对于每个指标实体，需要提取以下关系：(1) 使用HAS_ANNUAL_VALUE关系连接指标与其年度数值，关系属性必须包含year（年份：2021/2022/2023/2024）和amount（数值），以及unit（单位，从'项目'列推断，如'数目'、'次数'等）；(2) 当'备注'列非空时，使用HAS_REMARK关系连接指标与备注说明文本。实体描述应包含完整的指标路径（数据内容 > 项目）。不要为年份或数值创建独立的实体节点，它们应作为关系的属性存储。",
+  "_meta_schema": {
+    "table_type": "Hierarchical-Hybrid",
+    "primary_subject_columns": [
+      "数据内容",
+      "内容分类"
+    ],
+    "time_dimension": {
+      "is_present": false,
+      "location": null,
+      "columns": []
+    },
+    "value_columns": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "metadata_columns": [
+      "项目",
+      "备注"
+    ],
+    "composite_key": true,
+    "extraction_rule_summary": "Each row is identified by a composite key across \"数据内容\", \"内容分类\"; numeric values follow the key columns; remarks column may contain annotations."
+  },
+  "column_roles": {
+    "数据内容": "key_level_0",
+    "内容分类": "key_level_1",
+    "项目": "metadata",
+    "2021": "value",
+    "2022": "value",
+    "2023": "value",
+    "2024": "value",
+    "备注": "metadata"
+  },
+  "parsed_time_headers": [],
+  "entity_extraction_template": "Composite key columns: '数据内容' → '内容分类'. Empty cells inherit the last non-empty value from the same column above. Top-level key '数据内容' → Data_Category entity. Second-level key '内容分类' → Content_Type entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Data_Category) -[HAS_SUB_ITEM]-> (Content_Type). Create HAS_VALUE relations from leaf entities to numeric columns: \"2021\", \"2022\", \"2023\", \"2024\". Attach remarks columns ['项目', '备注'] as metadata properties on the leaf entity."
+}
