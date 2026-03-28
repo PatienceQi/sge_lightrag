@@ -55,8 +55,11 @@ def classify(features: FeatureSet) -> str:
     n_time_headers = len(features.time_cols_in_headers)
     has_composite_key = features.leading_text_col_count >= 2
 
-    # Rule 1: composite key takes priority when year columns are just value columns
-    if has_composite_key and n_time_headers <= _MAX_YEAR_COLS_FOR_HYBRID_OVERRIDE:
+    # Rule 1: composite key takes priority when year columns are just value columns.
+    # Requires numeric columns to be present — a table with only text columns is
+    # a flat entity registry (Type I), not a hierarchical hybrid (Type III).
+    has_numeric_values = features.n_numeric_cols > 0
+    if has_composite_key and has_numeric_values and n_time_headers <= _MAX_YEAR_COLS_FOR_HYBRID_OVERRIDE:
         # But only if there's no strong time-series signal beyond the header years
         # (i.e. no transposed year rows, no fiscal-year compound headers)
         has_fiscal_year_headers = any(

@@ -1,0 +1,25 @@
+Entity: LBY / WHOSIS_000001
+Year: 2000 | Value: 74.0447285
+Year: 2001 | Value: 73.7423441
+Year: 2002 | Value: 73.4501765
+Year: 2003 | Value: 73.51059338
+Year: 2004 | Value: 73.84878468
+Year: 2005 | Value: 74.01467345
+Year: 2006 | Value: 74.61102298
+Year: 2007 | Value: 74.50020642
+Year: 2008 | Value: 74.20131986
+Year: 2009 | Value: 74.13441802
+Year: 2010 | Value: 74.11333
+Year: 2011 | Value: 71.43952101
+Year: 2012 | Value: 73.92406847
+Year: 2013 | Value: 74.21873286
+Year: 2014 | Value: 72.6011445
+Year: 2015 | Value: 72.65332031
+Year: 2016 | Value: 72.63664308
+Year: 2017 | Value: 73.15169822
+Year: 2018 | Value: 73.52909525
+Year: 2019 | Value: 73.54365475
+Year: 2020 | Value: 72.64874878
+Year: 2021 | Value: 72.17844009
+Remark: Libya
+Remark: Life expectancy at birth (years)

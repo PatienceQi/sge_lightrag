@@ -1,0 +1,25 @@
+Entity: BWA / WHOSIS_000001
+Year: 2000 | Value: 47.16383585
+Year: 2001 | Value: 46.70431922
+Year: 2002 | Value: 46.95490275
+Year: 2003 | Value: 48.30164814
+Year: 2004 | Value: 50.64076648
+Year: 2005 | Value: 53.16798551
+Year: 2006 | Value: 54.88555112
+Year: 2007 | Value: 55.77024629
+Year: 2008 | Value: 56.1793813
+Year: 2009 | Value: 56.8865344
+Year: 2010 | Value: 57.62665956
+Year: 2011 | Value: 58.41247242
+Year: 2012 | Value: 59.74879487
+Year: 2013 | Value: 60.61242628
+Year: 2014 | Value: 61.38291822
+Year: 2015 | Value: 62.04575871
+Year: 2016 | Value: 62.99012308
+Year: 2017 | Value: 64.01180659
+Year: 2018 | Value: 64.53046521
+Year: 2019 | Value: 64.91884565
+Year: 2020 | Value: 65.16840503
+Year: 2021 | Value: 61.23119159
+Remark: Botswana
+Remark: Life expectancy at birth (years)

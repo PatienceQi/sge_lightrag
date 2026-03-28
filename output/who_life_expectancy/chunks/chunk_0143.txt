@@ -1,0 +1,25 @@
+Entity: PSE / WHOSIS_000001
+Year: 2000 | Value: 69.88946674
+Year: 2001 | Value: 69.33250971
+Year: 2002 | Value: 68.63142308
+Year: 2003 | Value: 69.63177214
+Year: 2004 | Value: 69.48491624
+Year: 2005 | Value: 70.5600974
+Year: 2006 | Value: 69.22549809
+Year: 2007 | Value: 70.80594736
+Year: 2008 | Value: 68.97864967
+Year: 2009 | Value: 69.43075818
+Year: 2010 | Value: 72.64524424
+Year: 2011 | Value: 72.78320408
+Year: 2012 | Value: 73.09729954
+Year: 2013 | Value: 74.20101603
+Year: 2014 | Value: 74.19704282
+Year: 2015 | Value: 74.56005234
+Year: 2016 | Value: 74.99064876
+Year: 2017 | Value: 75.45369565
+Year: 2018 | Value: 75.71172174
+Year: 2019 | Value: 75.83098235
+Year: 2020 | Value: 75.1341365
+Year: 2021 | Value: 73.49178033
+Remark: occupied Palestinian territory, including east Jerusalem
+Remark: Life expectancy at birth (years)

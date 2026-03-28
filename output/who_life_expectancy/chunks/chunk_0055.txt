@@ -1,0 +1,25 @@
+Entity: ESP / WHOSIS_000001
+Year: 2000 | Value: 79.09037288
+Year: 2001 | Value: 79.39483865
+Year: 2002 | Value: 79.48845207
+Year: 2003 | Value: 79.41351479
+Year: 2004 | Value: 79.99552369
+Year: 2005 | Value: 80.00981734
+Year: 2006 | Value: 80.67223061
+Year: 2007 | Value: 80.67591348
+Year: 2008 | Value: 80.97341639
+Year: 2009 | Value: 81.32919045
+Year: 2010 | Value: 81.693057
+Year: 2011 | Value: 81.81256597
+Year: 2012 | Value: 81.9595375
+Year: 2013 | Value: 82.47881258
+Year: 2014 | Value: 82.58446278
+Year: 2015 | Value: 82.32940416
+Year: 2016 | Value: 82.73070599
+Year: 2017 | Value: 82.67579627
+Year: 2018 | Value: 82.76765981
+Year: 2019 | Value: 83.13561895
+Year: 2020 | Value: 81.92498871
+Year: 2021 | Value: 82.66267258
+Remark: Spain
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: MAR / WHOSIS_000001
+Year: 2000 | Value: 70.19460372
+Year: 2001 | Value: 70.45857649
+Year: 2002 | Value: 70.73932756
+Year: 2003 | Value: 70.88040999
+Year: 2004 | Value: 71.03043411
+Year: 2005 | Value: 71.23383994
+Year: 2006 | Value: 71.42901619
+Year: 2007 | Value: 71.60883866
+Year: 2008 | Value: 71.88491111
+Year: 2009 | Value: 72.16145438
+Year: 2010 | Value: 72.37286998
+Year: 2011 | Value: 72.57738576
+Year: 2012 | Value: 72.78046277
+Year: 2013 | Value: 72.96566532
+Year: 2014 | Value: 73.12038211
+Year: 2015 | Value: 73.26259745
+Year: 2016 | Value: 73.4071743
+Year: 2017 | Value: 73.53352195
+Year: 2018 | Value: 73.60592779
+Year: 2019 | Value: 73.7488551
+Year: 2020 | Value: 72.50615909
+Year: 2021 | Value: 72.61868352
+Remark: Morocco
+Remark: Life expectancy at birth (years)

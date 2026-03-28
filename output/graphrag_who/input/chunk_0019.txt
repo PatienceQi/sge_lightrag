@@ -1,0 +1,25 @@
+Entity: BHR / WHOSIS_000001
+Year: 2000 | Value: 69.68563925
+Year: 2001 | Value: 70.36971635
+Year: 2002 | Value: 70.59694491
+Year: 2003 | Value: 70.65076259
+Year: 2004 | Value: 70.9253368
+Year: 2005 | Value: 71.32084892
+Year: 2006 | Value: 71.69627417
+Year: 2007 | Value: 72.38722676
+Year: 2008 | Value: 72.89097198
+Year: 2009 | Value: 73.40666919
+Year: 2010 | Value: 73.86198294
+Year: 2011 | Value: 74.19533253
+Year: 2012 | Value: 74.57322126
+Year: 2013 | Value: 75.02710867
+Year: 2014 | Value: 75.64496177
+Year: 2015 | Value: 75.75082454
+Year: 2016 | Value: 75.65906707
+Year: 2017 | Value: 75.71095601
+Year: 2018 | Value: 75.93620907
+Year: 2019 | Value: 76.02945447
+Year: 2020 | Value: 74.85398109
+Year: 2021 | Value: 74.38371772
+Remark: Bahrain
+Remark: Life expectancy at birth (years)

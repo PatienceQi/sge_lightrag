@@ -1,0 +1,25 @@
+Entity: MWI / WHOSIS_000001
+Year: 2000 | Value: 44.64126346
+Year: 2001 | Value: 45.39400815
+Year: 2002 | Value: 46.23607096
+Year: 2003 | Value: 47.14250921
+Year: 2004 | Value: 48.06087588
+Year: 2005 | Value: 49.35021214
+Year: 2006 | Value: 50.92538724
+Year: 2007 | Value: 52.54577058
+Year: 2008 | Value: 54.26093144
+Year: 2009 | Value: 55.72789905
+Year: 2010 | Value: 56.87054565
+Year: 2011 | Value: 58.10856356
+Year: 2012 | Value: 59.42059707
+Year: 2013 | Value: 60.5549131
+Year: 2014 | Value: 61.34710538
+Year: 2015 | Value: 61.82512095
+Year: 2016 | Value: 62.19781015
+Year: 2017 | Value: 62.5519407
+Year: 2018 | Value: 62.91863389
+Year: 2019 | Value: 63.22930485
+Year: 2020 | Value: 63.46287777
+Year: 2021 | Value: 62.48652597
+Remark: Malawi
+Remark: Life expectancy at birth (years)

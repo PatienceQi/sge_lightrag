@@ -1,0 +1,25 @@
+Entity: BDI / WHOSIS_000001
+Year: 2000 | Value: 44.3609182
+Year: 2001 | Value: 45.560229
+Year: 2002 | Value: 46.77202104
+Year: 2003 | Value: 47.93043118
+Year: 2004 | Value: 49.43158352
+Year: 2005 | Value: 50.9090504
+Year: 2006 | Value: 54.95514765
+Year: 2007 | Value: 56.45412415
+Year: 2008 | Value: 57.79081906
+Year: 2009 | Value: 58.71584557
+Year: 2010 | Value: 59.59915923
+Year: 2011 | Value: 60.40539714
+Year: 2012 | Value: 61.17471181
+Year: 2013 | Value: 61.79608792
+Year: 2014 | Value: 62.32268744
+Year: 2015 | Value: 62.7069542
+Year: 2016 | Value: 63.24117705
+Year: 2017 | Value: 63.68241574
+Year: 2018 | Value: 64.02759286
+Year: 2019 | Value: 64.3185906
+Year: 2020 | Value: 64.59433751
+Year: 2021 | Value: 64.00694993
+Remark: Burundi
+Remark: Life expectancy at birth (years)

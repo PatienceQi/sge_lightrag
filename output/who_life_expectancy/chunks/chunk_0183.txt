@@ -1,0 +1,25 @@
+Entity: VCT / WHOSIS_000001
+Year: 2000 | Value: 71.66187212
+Year: 2001 | Value: 71.90344128
+Year: 2002 | Value: 72.01069433
+Year: 2003 | Value: 72.24268792
+Year: 2004 | Value: 72.36667565
+Year: 2005 | Value: 72.5595686
+Year: 2006 | Value: 72.92616303
+Year: 2007 | Value: 73.25297188
+Year: 2008 | Value: 73.51667142
+Year: 2009 | Value: 73.56239685
+Year: 2010 | Value: 73.48342047
+Year: 2011 | Value: 73.21012386
+Year: 2012 | Value: 72.98728933
+Year: 2013 | Value: 72.60483816
+Year: 2014 | Value: 72.73600877
+Year: 2015 | Value: 72.79473614
+Year: 2016 | Value: 72.98153488
+Year: 2017 | Value: 73.09125438
+Year: 2018 | Value: 73.17900227
+Year: 2019 | Value: 73.10795228
+Year: 2020 | Value: 72.74742918
+Year: 2021 | Value: 72.55709418
+Remark: Saint Vincent and the Grenadines
+Remark: Life expectancy at birth (years)

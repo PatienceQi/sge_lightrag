@@ -32,8 +32,8 @@ from lightrag.prompt import PROMPTS
 import lightrag.operate as _op
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_KEY  = "sk-WGhptV4Oz0oqHcccSyy7AfD3nFKxQLdHeJ0rFqcns188eoPX"
-BASE_URL = "https://www.packyapi.com/v1"
+API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 
 OLLAMA_BASE_URL    = "http://localhost:11434/v1"
@@ -45,7 +45,9 @@ async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwar
     return await openai_complete_if_cache(
         MODEL, prompt, system_prompt=system_prompt,
         history_messages=history_messages,
-        api_key=API_KEY, base_url=BASE_URL, **kwargs,
+        api_key=API_KEY, base_url=BASE_URL,
+        timeout=120,  # 防止代理静默断开导致无限等待
+        **kwargs,
     )
 
 
@@ -59,14 +61,10 @@ def _hash_embed(text: str) -> list[float]:
 _raw_openai_embed = openai_embed.func
 
 async def safe_embedding_func(texts: list[str]) -> np.ndarray:
-    try:
-        return await _raw_openai_embed(
-            texts, model=OLLAMA_EMBED_MODEL,
-            api_key="ollama", base_url=OLLAMA_BASE_URL,
-        )
-    except Exception as e:
-        print(f"  [warn] Ollama embedding failed ({e}), using hash fallback")
-        return np.array([_hash_embed(t) for t in texts], dtype=np.float32)
+    # Use hash embedding directly — Ollama returns 503 under concurrent load,
+    # causing excessive retries. Our evaluation reads graphml directly (not vdb),
+    # so embedding quality does not affect EC/FC/η metrics.
+    return np.array([_hash_embed(t) for t in texts], dtype=np.float32)
 
 EMBEDDING_FUNC = EmbeddingFunc(
     embedding_dim=EMBED_DIM, max_token_size=512, func=safe_embedding_func,
@@ -84,7 +82,7 @@ async def run_lightrag(chunks, working_dir, addon_params, label, baseline=False)
         llm_model_func=llm_model_func,
         embedding_func=EMBEDDING_FUNC,
         addon_params=addon_params,
-        llm_model_max_async=2,
+        llm_model_max_async=10,
         embedding_func_max_async=4,
         entity_extract_max_gleaning=0,
     )

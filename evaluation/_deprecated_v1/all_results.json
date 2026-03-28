@@ -1,0 +1,65 @@
+[
+  {
+    "dataset": "Annual Budget (ZH, Type-II)",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "baseline_ec": 1.0,
+    "baseline_fc": 1.0,
+    "graphrag_ec": 1.0,
+    "graphrag_fc": 1.0
+  },
+  {
+    "dataset": "WHO Life Expectancy (EN, Type-II)",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "baseline_ec": 0.875,
+    "baseline_fc": 0.3,
+    "graphrag_ec": 0.125,
+    "graphrag_fc": 0.1
+  },
+  {
+    "dataset": "Inpatient Stats (ZH, Type-III)",
+    "sge_ec": 1.0,
+    "sge_fc": 0.9375,
+    "baseline_ec": 1.0,
+    "baseline_fc": 0.4375,
+    "graphrag_ec": 0.0,
+    "graphrag_fc": 0.0
+  },
+  {
+    "dataset": "WB Child Mortality (EN, Type-II)",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "baseline_ec": 0.5714,
+    "baseline_fc": 0.6,
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  },
+  {
+    "dataset": "Health Stats (ZH, Type-II-Trans)",
+    "sge_ec": 1.0,
+    "sge_fc": 0.7857,
+    "baseline_ec": 1.0,
+    "baseline_fc": 0.6429,
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  },
+  {
+    "dataset": "WB Population (EN, Type-II)",
+    "sge_ec": 1.0,
+    "sge_fc": 0.4,
+    "baseline_ec": 1.0,
+    "baseline_fc": 0.1,
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  },
+  {
+    "dataset": "WB Maternal Mortality (EN, Type-II)",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "baseline_ec": 1.0,
+    "baseline_fc": 0.8,
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  }
+]

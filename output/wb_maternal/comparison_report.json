@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-28T15:20:57.065529",
+  "label": "wb_maternal",
+  "sge": {
+    "label": "SGE-wb_maternal",
+    "chunks_inserted": 242,
+    "graph_file_exists": true,
+    "node_count": 3764,
+    "edge_count": 5299
+  },
+  "baseline": {
+    "label": "Baseline-wb_maternal",
+    "chunks_inserted": 242,
+    "graph_file_exists": true,
+    "node_count": 355,
+    "edge_count": 1475
+  },
+  "entity_types": [
+    "Country",
+    "StatValue"
+  ]
+}

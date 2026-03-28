@@ -99,7 +99,30 @@ def load_graph(graphml_path: str):
         rev_text = f"{kw} {desc} {u_name}"
         entity_text.setdefault(v_name, []).append(rev_text)
 
-    return G, nodes, entity_text
+    # Build node_id -> name mapping for 2-hop expansion
+    node_id_to_name = {}
+    for node_id, data in G.nodes(data=True):
+        name = data.get("entity_name") or data.get("name") or node_id
+        node_id_to_name[node_id] = str(name).strip()
+
+    # 2-hop expansion: for each entity, also include texts from immediate neighbors.
+    # This is needed for hierarchical graphs where values are stored on sub-item nodes
+    # (e.g., Disease → ICD_Code_SubItem → numeric_value via HAS_VALUE/HAS_SUB_ITEM).
+    entity_text_2hop = {}
+    for node_id in G.nodes():
+        name = node_id_to_name[node_id]
+        texts = list(entity_text.get(name, []))
+        # Add neighbor texts and descriptions (1-hop)
+        for nb_id in G.neighbors(node_id):
+            nb_name = node_id_to_name.get(nb_id, nb_id)
+            texts.extend(entity_text.get(nb_name, []))
+            # Also include neighbor node description for value propagation
+            nb_desc = nodes.get(nb_name, {}).get("description", "")
+            if nb_desc:
+                texts.append(nb_desc)
+        entity_text_2hop[name] = texts
+
+    return G, nodes, entity_text_2hop
 
 
 def check_entity_coverage(gold_entities: set, graph_nodes: dict):
@@ -113,9 +136,20 @@ def check_entity_coverage(gold_entities: set, graph_nodes: dict):
         if ge_lower in node_names_lower:
             matched.add(ge)
             continue
-        # Substring
+        # Substring on node name
+        found = False
         for nn in node_names_lower:
             if ge_lower in nn or nn in ge_lower:
+                matched.add(ge)
+                found = True
+                break
+        if found:
+            continue
+        # Fallback: check if gold entity code appears in any node description
+        # (handles country codes like CHN appearing in "China ... code CHN")
+        for nn, orig_name in node_names_lower.items():
+            node_desc = graph_nodes.get(orig_name, {}).get("description", "").lower()
+            if ge_lower in node_desc:
                 matched.add(ge)
                 break
 
@@ -150,6 +184,13 @@ def check_fact_coverage(facts: list, graph_nodes: dict, entity_text: dict):
             for nn in node_names_lower:
                 if subj_lower in nn or nn in subj_lower:
                     matched_node = node_names_lower[nn]
+                    break
+        # Fallback: check if subject code appears in any node description
+        if not matched_node:
+            for nn, orig_name in node_names_lower.items():
+                node_desc = graph_nodes.get(orig_name, {}).get("description", "").lower()
+                if subj_lower in node_desc:
+                    matched_node = orig_name
                     break
 
         if not matched_node:

@@ -1,0 +1,25 @@
+Entity: MRT / WHOSIS_000001
+Year: 2000 | Value: 62.9207429
+Year: 2001 | Value: 63.48748709
+Year: 2002 | Value: 64.15779119
+Year: 2003 | Value: 64.83743491
+Year: 2004 | Value: 65.40083987
+Year: 2005 | Value: 65.90883345
+Year: 2006 | Value: 66.62015995
+Year: 2007 | Value: 67.11455039
+Year: 2008 | Value: 67.64336926
+Year: 2009 | Value: 68.08446898
+Year: 2010 | Value: 68.45329118
+Year: 2011 | Value: 68.79857098
+Year: 2012 | Value: 69.09222123
+Year: 2013 | Value: 69.22463674
+Year: 2014 | Value: 69.29386756
+Year: 2015 | Value: 69.45426817
+Year: 2016 | Value: 69.65770027
+Year: 2017 | Value: 69.81185094
+Year: 2018 | Value: 69.9973737
+Year: 2019 | Value: 70.17546548
+Year: 2020 | Value: 68.92697523
+Year: 2021 | Value: 68.86843813
+Remark: Mauritania
+Remark: Life expectancy at birth (years)

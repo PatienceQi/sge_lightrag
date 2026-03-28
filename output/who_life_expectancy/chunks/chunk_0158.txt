@@ -1,0 +1,25 @@
+Entity: SSD / WHOSIS_000001
+Year: 2000 | Value: 51.90046634
+Year: 2001 | Value: 52.94166517
+Year: 2002 | Value: 53.71928707
+Year: 2003 | Value: 54.40318481
+Year: 2004 | Value: 55.24391875
+Year: 2005 | Value: 55.89935062
+Year: 2006 | Value: 56.35280945
+Year: 2007 | Value: 57.0352965
+Year: 2008 | Value: 57.67870573
+Year: 2009 | Value: 57.82228027
+Year: 2010 | Value: 58.75152485
+Year: 2011 | Value: 58.95406766
+Year: 2012 | Value: 59.31057362
+Year: 2013 | Value: 59.03400442
+Year: 2014 | Value: 59.09264997
+Year: 2015 | Value: 59.27637583
+Year: 2016 | Value: 59.18616055
+Year: 2017 | Value: 58.88284459
+Year: 2018 | Value: 58.86129412
+Year: 2019 | Value: 58.99663561
+Year: 2020 | Value: 58.94518456
+Year: 2021 | Value: 58.57353884
+Remark: South Sudan
+Remark: Life expectancy at birth (years)

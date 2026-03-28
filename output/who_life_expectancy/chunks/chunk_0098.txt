@@ -1,0 +1,25 @@
+Entity: LAO / WHOSIS_000001
+Year: 2000 | Value: 58.27571315
+Year: 2001 | Value: 58.88681637
+Year: 2002 | Value: 59.61142102
+Year: 2003 | Value: 60.19558269
+Year: 2004 | Value: 60.73825821
+Year: 2005 | Value: 61.3511366
+Year: 2006 | Value: 61.98382706
+Year: 2007 | Value: 62.60763355
+Year: 2008 | Value: 63.1872824
+Year: 2009 | Value: 63.79585544
+Year: 2010 | Value: 64.42237003
+Year: 2011 | Value: 65.03889894
+Year: 2012 | Value: 65.52691412
+Year: 2013 | Value: 65.9670211
+Year: 2014 | Value: 66.43037564
+Year: 2015 | Value: 66.87363139
+Year: 2016 | Value: 67.33210713
+Year: 2017 | Value: 67.7232745
+Year: 2018 | Value: 68.05389772
+Year: 2019 | Value: 68.35701918
+Year: 2020 | Value: 68.74340275
+Year: 2021 | Value: 68.23189407
+Remark: Lao People's Democratic Republic
+Remark: Life expectancy at birth (years)

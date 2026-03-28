@@ -7,8 +7,8 @@ Uses the openai SDK pointed at https://api.packy.ai/v1.
 import time
 from openai import OpenAI
 
-_DEFAULT_BASE_URL = "https://www.packyapi.com/v1"
-_DEFAULT_API_KEY  = "sk-WGhptV4Oz0oqHcccSyy7AfD3nFKxQLdHeJ0rFqcns188eoPX"
+_DEFAULT_BASE_URL = "https://wolfai.top/v1"
+_DEFAULT_API_KEY  = "sk-7S8fU9gBMpK5Banzc0mM8DdOac7XFW0Mt7WCRbjSNTErrHPG"
 _DEFAULT_MODEL    = "claude-haiku-4-5-20251001"
 
 _MAX_RETRIES = 3

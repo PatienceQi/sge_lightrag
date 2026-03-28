@@ -1,0 +1,38 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023",
+  "timestamp": "2026-03-27T17:07:37.319456",
+  "stages": {
+    "stage1": {
+      "table_type": "Hierarchical-Hybrid",
+      "column_count": 10,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "rule",
+      "entity_types": [
+        "Disease"
+      ],
+      "relation_types": [
+        "HAS_SUB_ITEM",
+        "HAS_VALUE",
+        "HAS_METADATA"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 317,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/inpatient_2023/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Disease"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

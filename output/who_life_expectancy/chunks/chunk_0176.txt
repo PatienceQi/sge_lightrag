@@ -1,0 +1,25 @@
+Entity: TUR / WHOSIS_000001
+Year: 2000 | Value: 73.31499528
+Year: 2001 | Value: 74.03517034
+Year: 2002 | Value: 74.77351879
+Year: 2003 | Value: 75.30413279
+Year: 2004 | Value: 75.833599
+Year: 2005 | Value: 76.19636776
+Year: 2006 | Value: 76.53841522
+Year: 2007 | Value: 76.70654932
+Year: 2008 | Value: 76.65466357
+Year: 2009 | Value: 76.34599074
+Year: 2010 | Value: 76.50699578
+Year: 2011 | Value: 76.69522957
+Year: 2012 | Value: 76.83621576
+Year: 2013 | Value: 76.83417226
+Year: 2014 | Value: 76.74876869
+Year: 2015 | Value: 76.68525905
+Year: 2016 | Value: 76.66589183
+Year: 2017 | Value: 77.07084923
+Year: 2018 | Value: 77.55827507
+Year: 2019 | Value: 77.61966184
+Year: 2020 | Value: 76.17525576
+Year: 2021 | Value: 75.27238945
+Remark: Türkiye
+Remark: Life expectancy at birth (years)

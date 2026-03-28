@@ -1,0 +1,25 @@
+Entity: BRN / WHOSIS_000001
+Year: 2000 | Value: 75.50502993
+Year: 2001 | Value: 75.6811134
+Year: 2002 | Value: 75.90522385
+Year: 2003 | Value: 76.10651217
+Year: 2004 | Value: 76.2980122
+Year: 2005 | Value: 76.47714892
+Year: 2006 | Value: 76.58480393
+Year: 2007 | Value: 76.66441769
+Year: 2008 | Value: 76.7179356
+Year: 2009 | Value: 76.87788068
+Year: 2010 | Value: 76.97095289
+Year: 2011 | Value: 76.98951902
+Year: 2012 | Value: 76.89700471
+Year: 2013 | Value: 76.81966837
+Year: 2014 | Value: 76.65808603
+Year: 2015 | Value: 76.55761257
+Year: 2016 | Value: 76.41822612
+Year: 2017 | Value: 76.40513341
+Year: 2018 | Value: 76.40808264
+Year: 2019 | Value: 76.67529662
+Year: 2020 | Value: 76.76421584
+Year: 2021 | Value: 76.92260844
+Remark: Brunei Darussalam
+Remark: Life expectancy at birth (years)

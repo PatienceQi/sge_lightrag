@@ -126,19 +126,25 @@ def type_ii_templates(
 ) -> dict:
     """Generate extraction templates for Type II (Time-Series-Matrix) tables."""
     if transposed:
+        # time_cols here contains metric column names (non-first columns of the transposed table)
+        metric_examples = ", ".join(f"'{c}'" for c in time_cols[:4]) if time_cols else "each metric column"
         entity_tmpl = (
-            f"Each column (except the first) represents a {entity_name} metric. "
-            f"The first column contains time periods (years)."
+            f"Each column (except the first) represents one {entity_name} metric. "
+            f"Metric column examples: {metric_examples}. "
+            f"The first column contains time period labels (years)."
         )
         relation_tmpl = (
-            f"For each (metric, year) cell, create: "
-            f"(metric:{entity_name}) -[{relation_name} {{year: <row_year>}}]-> (value)."
+            f"For every non-null (metric_column, year_row) cell, you MUST create: "
+            f"({entity_name}: <metric_name>) -[{relation_name}]-> (<numeric_value>). "
+            f"Set the 'year' keyword on each edge to the year label from the first column of that row. "
+            f"Do NOT skip any row — each year in the first column generates one {relation_name} edge per metric."
         )
         constraints = [
-            "Table is transposed: rows are time periods, columns are metrics.",
-            "First column contains year labels.",
-            f"Each non-year column is a {entity_name} metric entity.",
-            f"Create {relation_name} relations with year attribute from the row label.",
+            "CRITICAL: This table is TRANSPOSED — rows are time periods, columns are metrics.",
+            "First column values are year labels (e.g. 2020, 2021, 2022). Use them as the 'year' edge attribute.",
+            f"Each non-first column is a SEPARATE {entity_name} entity. Examples: {metric_examples}.",
+            f"Create one {relation_name} edge for EACH (metric_column, year_row) cell that has a numeric value.",
+            "You MUST create edges — do not just create entity nodes with no relations.",
         ]
     else:
         # Build a sample time-column description

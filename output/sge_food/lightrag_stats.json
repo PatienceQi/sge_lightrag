@@ -1,9 +1,0 @@
-{
-  "label": "SGE-food",
-  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_food/lightrag_storage",
-  "chunks_inserted": 13,
-  "graph_file_exists": true,
-  "graph_file_size": 16503,
-  "node_count": 18,
-  "edge_count": 14
-}

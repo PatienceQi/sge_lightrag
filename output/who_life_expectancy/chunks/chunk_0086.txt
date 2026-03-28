@@ -1,0 +1,25 @@
+Entity: ISR / WHOSIS_000001
+Year: 2000 | Value: 78.54383666
+Year: 2001 | Value: 78.80591438
+Year: 2002 | Value: 78.56218757
+Year: 2003 | Value: 79.09724844
+Year: 2004 | Value: 79.54240915
+Year: 2005 | Value: 79.7067797
+Year: 2006 | Value: 79.95901874
+Year: 2007 | Value: 80.12300616
+Year: 2008 | Value: 80.42212771
+Year: 2009 | Value: 81.12924437
+Year: 2010 | Value: 81.53399975
+Year: 2011 | Value: 81.64888794
+Year: 2012 | Value: 81.57002049
+Year: 2013 | Value: 81.92176085
+Year: 2014 | Value: 81.37964957
+Year: 2015 | Value: 81.91113219
+Year: 2016 | Value: 82.22430729
+Year: 2017 | Value: 82.38134543
+Year: 2018 | Value: 82.59262272
+Year: 2019 | Value: 82.57325579
+Year: 2020 | Value: 82.36508912
+Year: 2021 | Value: 81.74464677
+Remark: Israel
+Remark: Life expectancy at birth (years)

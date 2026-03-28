@@ -1,0 +1,25 @@
+Entity: HRV / WHOSIS_000001
+Year: 2000 | Value: 74.75166907
+Year: 2001 | Value: 75.00312259
+Year: 2002 | Value: 75.01293534
+Year: 2003 | Value: 74.86052687
+Year: 2004 | Value: 75.62048664
+Year: 2005 | Value: 75.47609796
+Year: 2006 | Value: 76.02870627
+Year: 2007 | Value: 75.91802017
+Year: 2008 | Value: 76.07190817
+Year: 2009 | Value: 76.44559714
+Year: 2010 | Value: 76.79829944
+Year: 2011 | Value: 77.21146034
+Year: 2012 | Value: 77.35911283
+Year: 2013 | Value: 77.85314853
+Year: 2014 | Value: 78.05645984
+Year: 2015 | Value: 77.60709528
+Year: 2016 | Value: 78.28594377
+Year: 2017 | Value: 78.12551064
+Year: 2018 | Value: 78.33929688
+Year: 2019 | Value: 78.60209541
+Year: 2020 | Value: 77.86469683
+Year: 2021 | Value: 76.8616792
+Remark: Croatia
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: BOL / WHOSIS_000001
+Year: 2000 | Value: 66.09385895
+Year: 2001 | Value: 66.7449711
+Year: 2002 | Value: 67.18430642
+Year: 2003 | Value: 67.7351254
+Year: 2004 | Value: 68.28111683
+Year: 2005 | Value: 68.73158288
+Year: 2006 | Value: 69.1623043
+Year: 2007 | Value: 69.47053335
+Year: 2008 | Value: 69.78566323
+Year: 2009 | Value: 70.13714581
+Year: 2010 | Value: 70.42881387
+Year: 2011 | Value: 70.72011626
+Year: 2012 | Value: 71.0361986
+Year: 2013 | Value: 71.33805685
+Year: 2014 | Value: 71.64868401
+Year: 2015 | Value: 71.94895895
+Year: 2016 | Value: 72.22076039
+Year: 2017 | Value: 72.44784311
+Year: 2018 | Value: 72.69070111
+Year: 2019 | Value: 72.91976198
+Year: 2020 | Value: 67.11714577
+Year: 2021 | Value: 65.41062535
+Remark: Bolivia (Plurinational State of)
+Remark: Life expectancy at birth (years)

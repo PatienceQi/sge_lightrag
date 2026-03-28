@@ -1,0 +1,25 @@
+Entity: FJI / WHOSIS_000001
+Year: 2000 | Value: 65.82507716
+Year: 2001 | Value: 66.34541639
+Year: 2002 | Value: 66.70441423
+Year: 2003 | Value: 66.62544107
+Year: 2004 | Value: 67.12182465
+Year: 2005 | Value: 67.08454719
+Year: 2006 | Value: 67.08069927
+Year: 2007 | Value: 67.10363711
+Year: 2008 | Value: 67.02758771
+Year: 2009 | Value: 67.25290005
+Year: 2010 | Value: 67.3135839
+Year: 2011 | Value: 67.39745191
+Year: 2012 | Value: 67.51183712
+Year: 2013 | Value: 67.62910016
+Year: 2014 | Value: 67.72103011
+Year: 2015 | Value: 67.8018416
+Year: 2016 | Value: 67.7499939
+Year: 2017 | Value: 67.87169424
+Year: 2018 | Value: 67.86709271
+Year: 2019 | Value: 67.86595098
+Year: 2020 | Value: 67.71119355
+Year: 2021 | Value: 65.50058445
+Remark: Fiji
+Remark: Life expectancy at birth (years)

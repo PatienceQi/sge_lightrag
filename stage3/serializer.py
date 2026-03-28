@@ -17,6 +17,8 @@ import pandas as pd
 from pathlib import Path
 from typing import Optional
 
+from .compact_representation import should_use_compact, compact_serialize_type_ii
+
 TYPE_I   = "Flat-Entity"
 TYPE_II  = "Time-Series-Matrix"
 TYPE_III = "Hierarchical-Hybrid"
@@ -42,6 +44,11 @@ def serialize_csv(csv_path: str, schema: dict) -> list[str]:
     column_roles = schema.get("column_roles", {})
 
     df = _read_csv(csv_path)
+
+    # Compact mode: large Type-II tables collapse all year-value pairs into
+    # one chunk per entity to prevent StatValue node explosion in LightRAG.
+    if should_use_compact(schema, len(df)):
+        return compact_serialize_type_ii(df, schema)
 
     # Align column_roles keys with DataFrame column types.
     # Stage 1 stores column names as strings (e.g. '0'), but headerless
@@ -376,12 +383,57 @@ def _looks_like_indicator(val: str) -> bool:
 # Helpers
 # ---------------------------------------------------------------------------
 
+def _is_worldbank_format(csv_path: str, enc: str) -> bool:
+    """Return True if the file has the World Bank 4-row metadata header."""
+    try:
+        with open(csv_path, encoding=enc, errors="ignore") as fh:
+            first_line = fh.readline()
+        return "Data Source" in first_line or "World Development Indicators" in first_line
+    except Exception:
+        return False
+
+
+def _detect_skiprows(csv_path: str, enc: str) -> int:
+    """
+    Detect how many leading rows to skip before the real header.
+
+    Heuristics:
+    1. World Bank 4-row metadata (first line contains "Data Source"): skip 4
+    2. Title-then-empty pattern (first row has ≤1 non-empty field, second row
+       is blank): skip 2 — handles HK government inpatient/hierarchical CSVs
+    """
+    try:
+        with open(csv_path, encoding=enc, errors="ignore") as fh:
+            lines = [fh.readline() for _ in range(2)]
+        first_line = lines[0]
+
+        # World Bank
+        if "Data Source" in first_line or "World Development Indicators" in first_line:
+            return 4
+
+        # Title + empty row pattern
+        row0_cells = [c.strip().strip('"') for c in first_line.split(",")]
+        row0_nonempty = sum(1 for c in row0_cells if c)
+        if len(lines) > 1:
+            row1_cells = [c.strip().strip('"') for c in lines[1].split(",")]
+            row1_nonempty = sum(1 for c in row1_cells if c)
+            if row0_nonempty <= 1 and row1_nonempty == 0:
+                return 2
+    except Exception:
+        pass
+    return 0
+
+
 def _read_csv(csv_path: str) -> pd.DataFrame:
     """Read CSV with encoding fallback.
 
     UTF-16 files (common in HK gov data) are read with header=None and
     sep=tab to match Stage 1 feature extraction, ensuring column names
     are consistent (integer indices) across the pipeline.
+
+    Automatically skips leading title/metadata rows:
+    - World Bank API_*.csv: skiprows=4
+    - HK government tables with title row + empty row: skiprows=2
     """
     import chardet
     with open(csv_path, "rb") as f:
@@ -394,7 +446,8 @@ def _read_csv(csv_path: str) -> pd.DataFrame:
 
     for enc in ("utf-8", "utf-8-sig", "gbk", "big5hkscs", "big5"):
         try:
-            return pd.read_csv(csv_path, encoding=enc, header=0)
+            skiprows = _detect_skiprows(csv_path, enc)
+            return pd.read_csv(csv_path, encoding=enc, header=0, skiprows=skiprows)
         except (UnicodeDecodeError, Exception):
             continue
     raise ValueError(f"Cannot read CSV: {csv_path}")

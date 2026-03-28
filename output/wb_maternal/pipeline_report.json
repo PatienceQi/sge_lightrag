@@ -1,0 +1,36 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/世界银行数据/maternal_mortality/API_SH.STA.MMRT_DS2_en_csv_v2_708.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal",
+  "timestamp": "2026-03-27T17:03:16.112972",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 71,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "rule",
+      "entity_types": [
+        "Country_Code"
+      ],
+      "relation_types": [
+        "HAS_VALUE"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 266,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/wb_maternal/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Country_Code"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

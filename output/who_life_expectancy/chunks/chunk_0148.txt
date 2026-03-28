@@ -1,0 +1,25 @@
+Entity: SAU / WHOSIS_000001
+Year: 2000 | Value: 70.56634565
+Year: 2001 | Value: 70.80307838
+Year: 2002 | Value: 71.0757645
+Year: 2003 | Value: 71.30662801
+Year: 2004 | Value: 71.6044008
+Year: 2005 | Value: 71.81634573
+Year: 2006 | Value: 72.03628203
+Year: 2007 | Value: 72.35473902
+Year: 2008 | Value: 72.99776938
+Year: 2009 | Value: 73.90009021
+Year: 2010 | Value: 74.89591575
+Year: 2011 | Value: 76.13164239
+Year: 2012 | Value: 77.02520885
+Year: 2013 | Value: 77.33139242
+Year: 2014 | Value: 77.22323995
+Year: 2015 | Value: 76.88889936
+Year: 2016 | Value: 76.75114086
+Year: 2017 | Value: 76.74293531
+Year: 2018 | Value: 76.81092084
+Year: 2019 | Value: 76.93147355
+Year: 2020 | Value: 76.05844679
+Year: 2021 | Value: 76.42921259
+Remark: Saudi Arabia
+Remark: Life expectancy at birth (years)

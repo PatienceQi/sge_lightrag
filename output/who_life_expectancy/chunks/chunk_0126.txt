@@ -1,0 +1,25 @@
+Entity: NGA / WHOSIS_000001
+Year: 2000 | Value: 54.05766545
+Year: 2001 | Value: 54.47371595
+Year: 2002 | Value: 54.96389545
+Year: 2003 | Value: 55.58470303
+Year: 2004 | Value: 56.18946769
+Year: 2005 | Value: 56.9174905
+Year: 2006 | Value: 57.55220397
+Year: 2007 | Value: 58.17779892
+Year: 2008 | Value: 58.74901559
+Year: 2009 | Value: 59.30198282
+Year: 2010 | Value: 59.78799099
+Year: 2011 | Value: 60.1981229
+Year: 2012 | Value: 60.64324912
+Year: 2013 | Value: 61.04119261
+Year: 2014 | Value: 61.37523759
+Year: 2015 | Value: 61.73359862
+Year: 2016 | Value: 62.04834174
+Year: 2017 | Value: 62.36209316
+Year: 2018 | Value: 62.68563037
+Year: 2019 | Value: 63.06578367
+Year: 2020 | Value: 62.83540426
+Year: 2021 | Value: 63.3974984
+Remark: Nigeria
+Remark: Life expectancy at birth (years)

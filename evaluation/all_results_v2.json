@@ -1,0 +1,138 @@
+[
+  {
+    "dataset": "WHO",
+    "label": "WHO Life Expectancy (EN, Type-II) [v2: 25c×6y=150f]",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "sge_ec_matched": 25,
+    "sge_ec_total": 25,
+    "sge_fc_covered": 150,
+    "sge_fc_total": 150,
+    "sge_ec_ci": [
+      1.0,
+      1.0
+    ],
+    "sge_fc_ci": [
+      1.0,
+      1.0
+    ],
+    "baseline_ec": 0.92,
+    "baseline_fc": 0.1667,
+    "baseline_ec_matched": 23,
+    "baseline_ec_total": 25,
+    "baseline_fc_covered": 25,
+    "baseline_fc_total": 150,
+    "baseline_ec_ci": [
+      0.8,
+      1.0
+    ],
+    "baseline_fc_ci": [
+      0.11333333333333333,
+      0.22666666666666666
+    ],
+    "graphrag_ec": 0.16,
+    "graphrag_fc": 0.16
+  },
+  {
+    "dataset": "WB_CM",
+    "label": "WB Child Mortality (EN, Type-II) [v2: 25c×6y=150f]",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "sge_ec_matched": 25,
+    "sge_ec_total": 25,
+    "sge_fc_covered": 150,
+    "sge_fc_total": 150,
+    "sge_ec_ci": [
+      1.0,
+      1.0
+    ],
+    "sge_fc_ci": [
+      1.0,
+      1.0
+    ],
+    "baseline_ec": 0.76,
+    "baseline_fc": 0.4733,
+    "baseline_ec_matched": 19,
+    "baseline_ec_total": 25,
+    "baseline_fc_covered": 71,
+    "baseline_fc_total": 150,
+    "baseline_ec_ci": [
+      0.6,
+      0.92
+    ],
+    "baseline_fc_ci": [
+      0.3933333333333333,
+      0.56
+    ],
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  },
+  {
+    "dataset": "WB_Pop",
+    "label": "WB Population (EN, Type-II) [v2: 25c×6y=150f, precision fixed]",
+    "sge_ec": 1.0,
+    "sge_fc": 1.0,
+    "sge_ec_matched": 25,
+    "sge_ec_total": 25,
+    "sge_fc_covered": 150,
+    "sge_fc_total": 150,
+    "sge_ec_ci": [
+      1.0,
+      1.0
+    ],
+    "sge_fc_ci": [
+      1.0,
+      1.0
+    ],
+    "baseline_ec": 0.88,
+    "baseline_fc": 0.1867,
+    "baseline_ec_matched": 22,
+    "baseline_ec_total": 25,
+    "baseline_fc_covered": 28,
+    "baseline_fc_total": 150,
+    "baseline_ec_ci": [
+      0.76,
+      1.0
+    ],
+    "baseline_fc_ci": [
+      0.12666666666666668,
+      0.24666666666666667
+    ],
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  },
+  {
+    "dataset": "WB_Mat",
+    "label": "WB Maternal Mortality (EN, Type-II) [v2: 25c×6y=150f]",
+    "sge_ec": 1.0,
+    "sge_fc": 0.9667,
+    "sge_ec_matched": 25,
+    "sge_ec_total": 25,
+    "sge_fc_covered": 145,
+    "sge_fc_total": 150,
+    "sge_ec_ci": [
+      1.0,
+      1.0
+    ],
+    "sge_fc_ci": [
+      0.9333333333333333,
+      0.9933333333333333
+    ],
+    "baseline_ec": 0.96,
+    "baseline_fc": 0.7867,
+    "baseline_ec_matched": 24,
+    "baseline_ec_total": 25,
+    "baseline_fc_covered": 118,
+    "baseline_fc_total": 150,
+    "baseline_ec_ci": [
+      0.88,
+      1.0
+    ],
+    "baseline_fc_ci": [
+      0.7266666666666667,
+      0.8466666666666667
+    ],
+    "graphrag_ec": null,
+    "graphrag_fc": null
+  }
+]

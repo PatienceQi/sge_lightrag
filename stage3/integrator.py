@@ -26,6 +26,7 @@ from .prompt_injector import (
     TUPLE_DELIMITER,
     COMPLETION_DELIMITER,
 )
+from .compact_representation import should_use_compact, build_compact_system_prompt
 
 
 def patch_lightrag(schema: dict, language: str = "Chinese") -> dict:
@@ -56,6 +57,39 @@ def patch_lightrag(schema: dict, language: str = "Chinese") -> dict:
     -------
     dict with keys: system_prompt, context_base_extra, addon_params, entity_types
     """
+    # Adaptive mode: small/simple tables use baseline (no schema injection)
+    if schema.get("use_baseline_mode", False):
+        return {
+            "system_prompt": None,          # None → Stage 3 keeps LightRAG default
+            "context_base_extra": {},
+            "addon_params": {"language": language},
+            "entity_types": [],
+            "use_baseline_mode": True,
+            "adaptive_reason": schema.get("adaptive_reason", ""),
+        }
+
+    # Compact mode: large Type-II tables use a compact timeseries system prompt
+    # that instructs LightRAG to create ONE entity node per country and embed
+    # all year-value data in the description (prevents StatValue node explosion).
+    n_rows = schema.get("_n_rows", 0)
+    if should_use_compact(schema, n_rows):
+        compact_prompt = build_compact_system_prompt(schema, language=language)
+        entity_types_compact = [t for t in schema.get("entity_types", ["Country_Code"])
+                                 if t != "StatValue"]
+        if not entity_types_compact:
+            entity_types_compact = ["Country_Code"]
+        return {
+            "system_prompt": compact_prompt,
+            "context_base_extra": {},
+            "addon_params": {
+                "language": language,
+                "entity_types": entity_types_compact,
+            },
+            "entity_types": entity_types_compact,
+            "use_baseline_mode": False,
+            "use_compact_mode": True,
+        }
+
     entity_types = schema.get("entity_types", ["Entity"])
     schema_json_str = json.dumps(schema, ensure_ascii=False)
 
@@ -78,6 +112,7 @@ def patch_lightrag(schema: dict, language: str = "Chinese") -> dict:
         "context_base_extra": context_base_extra,
         "addon_params": addon_params,
         "entity_types": entity_types,
+        "use_baseline_mode": False,
     }
 
 

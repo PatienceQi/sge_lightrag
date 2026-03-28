@@ -1,0 +1,25 @@
+Entity: BLZ / WHOSIS_000001
+Year: 2000 | Value: 70.09513226
+Year: 2001 | Value: 70.61498891
+Year: 2002 | Value: 71.34369042
+Year: 2003 | Value: 71.80038956
+Year: 2004 | Value: 72.03089544
+Year: 2005 | Value: 72.3988756
+Year: 2006 | Value: 72.62147619
+Year: 2007 | Value: 73.05180238
+Year: 2008 | Value: 73.53821496
+Year: 2009 | Value: 73.6700987
+Year: 2010 | Value: 73.60567774
+Year: 2011 | Value: 73.84911498
+Year: 2012 | Value: 74.18063851
+Year: 2013 | Value: 74.31081667
+Year: 2014 | Value: 74.2195742
+Year: 2015 | Value: 74.30568158
+Year: 2016 | Value: 74.39638983
+Year: 2017 | Value: 74.56128899
+Year: 2018 | Value: 74.57665716
+Year: 2019 | Value: 74.86586064
+Year: 2020 | Value: 74.69437572
+Year: 2021 | Value: 73.32055336
+Remark: Belize
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: SDN / WHOSIS_000001
+Year: 2000 | Value: 62.48898469
+Year: 2001 | Value: 62.9787096
+Year: 2002 | Value: 63.22443726
+Year: 2003 | Value: 63.67737719
+Year: 2004 | Value: 63.6815858
+Year: 2005 | Value: 64.87410418
+Year: 2006 | Value: 65.28684508
+Year: 2007 | Value: 65.760154
+Year: 2008 | Value: 66.10814996
+Year: 2009 | Value: 66.44393468
+Year: 2010 | Value: 66.94489813
+Year: 2011 | Value: 67.06889355
+Year: 2012 | Value: 67.58268855
+Year: 2013 | Value: 67.75900519
+Year: 2014 | Value: 68.08985985
+Year: 2015 | Value: 68.32706556
+Year: 2016 | Value: 68.65126932
+Year: 2017 | Value: 69.04016145
+Year: 2018 | Value: 69.24813878
+Year: 2019 | Value: 69.46506253
+Year: 2020 | Value: 68.44077001
+Year: 2021 | Value: 67.58515204
+Remark: Sudan
+Remark: Life expectancy at birth (years)

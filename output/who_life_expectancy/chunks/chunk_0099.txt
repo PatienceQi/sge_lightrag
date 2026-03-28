@@ -1,0 +1,25 @@
+Entity: LBN / WHOSIS_000001
+Year: 2000 | Value: 75.71500924
+Year: 2001 | Value: 76.1562609
+Year: 2002 | Value: 76.55400992
+Year: 2003 | Value: 76.80310121
+Year: 2004 | Value: 77.0970413
+Year: 2005 | Value: 77.17133641
+Year: 2006 | Value: 76.79700172
+Year: 2007 | Value: 77.46682627
+Year: 2008 | Value: 77.52542218
+Year: 2009 | Value: 77.79033646
+Year: 2010 | Value: 77.96731586
+Year: 2011 | Value: 77.97377185
+Year: 2012 | Value: 78.05803939
+Year: 2013 | Value: 78.16479469
+Year: 2014 | Value: 78.22558226
+Year: 2015 | Value: 78.43741249
+Year: 2016 | Value: 78.81840788
+Year: 2017 | Value: 79.03043282
+Year: 2018 | Value: 79.36847038
+Year: 2019 | Value: 79.28679608
+Year: 2020 | Value: 77.70116098
+Year: 2021 | Value: 74.34207035
+Remark: Lebanon
+Remark: Life expectancy at birth (years)

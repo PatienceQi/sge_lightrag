@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-28T13:18:29.526801",
+  "label": "health_v5",
+  "sge": {
+    "label": "SGE-health_v5",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 44,
+    "edge_count": 40
+  },
+  "baseline": {
+    "label": "Baseline-health_v5",
+    "chunks_inserted": 4,
+    "graph_file_exists": true,
+    "node_count": 27,
+    "edge_count": 33
+  },
+  "entity_types": [
+    "HealthcareResource",
+    "StatValue"
+  ]
+}

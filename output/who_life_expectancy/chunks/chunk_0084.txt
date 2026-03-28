@@ -1,0 +1,25 @@
+Entity: IRQ / WHOSIS_000001
+Year: 2000 | Value: 69.48152045
+Year: 2001 | Value: 69.81029867
+Year: 2002 | Value: 70.04461594
+Year: 2003 | Value: 68.91366628
+Year: 2004 | Value: 69.06294468
+Year: 2005 | Value: 68.68305138
+Year: 2006 | Value: 67.66517621
+Year: 2007 | Value: 67.80830577
+Year: 2008 | Value: 69.80976267
+Year: 2009 | Value: 70.61725364
+Year: 2010 | Value: 71.06507591
+Year: 2011 | Value: 71.39863224
+Year: 2012 | Value: 71.6393156
+Year: 2013 | Value: 71.2340952
+Year: 2014 | Value: 70.22637913
+Year: 2015 | Value: 71.00605468
+Year: 2016 | Value: 71.1253103
+Year: 2017 | Value: 71.60611249
+Year: 2018 | Value: 73.06286041
+Year: 2019 | Value: 72.90009776
+Year: 2020 | Value: 70.41410059
+Year: 2021 | Value: 71.46632369
+Remark: Iraq
+Remark: Life expectancy at birth (years)

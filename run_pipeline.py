@@ -35,7 +35,7 @@ from stage3.prompt_injector import generate_system_prompt, generate_user_prompt_
 from stage3.integrator import patch_lightrag
 
 
-def _run_stage2(meta_schema, features, csv_path: str, mode: str):
+def _run_stage2(meta_schema, features, csv_path: str, mode: str, table_type: str):
     """
     Run Stage 2 schema induction with the specified mode.
 
@@ -46,13 +46,14 @@ def _run_stage2(meta_schema, features, csv_path: str, mode: str):
         mode: "llm"  — use LLM-enhanced induction only (fail if error)
               "rule" — use rule-based induction only
               "auto" — try LLM first, fall back to rule-based on any error
+        table_type: Stage 1 classification result
 
     Returns:
         (extraction_schema, used_mode)  where used_mode is "llm" or "rule"
     """
     if mode == "rule":
-        from stage2.inducer import induce_schema as rule_induce
-        return rule_induce(meta_schema, features), "rule"
+        from stage2.inductor import induce_schema_from_meta
+        return induce_schema_from_meta(features, table_type, meta_schema), "rule"
 
     # mode == "llm" or "auto"
     try:
@@ -75,10 +76,10 @@ def _run_stage2(meta_schema, features, csv_path: str, mode: str):
         if mode == "llm":
             # Hard failure — propagate
             raise RuntimeError(f"LLM Stage 2 failed (use --stage2-mode auto for fallback): {exc}") from exc
-        # mode == "auto" — fall back to rule-based
+        # mode == "auto" — fall back to rule-based (through inductor for adaptive mode)
         print(f"  [WARN] LLM Stage 2 failed ({type(exc).__name__}: {exc}), falling back to rule-based.")
-        from stage2.inducer import induce_schema as rule_induce
-        return rule_induce(meta_schema, features), "rule"
+        from stage2.inductor import induce_schema_from_meta
+        return induce_schema_from_meta(features, table_type, meta_schema), "rule"
 
 
 def main():
@@ -155,17 +156,23 @@ def main():
     print("=" * 60)
 
     try:
-        extraction_schema, used_mode = _run_stage2(meta_schema, features, str(csv_path), args.stage2_mode)
+        extraction_schema, used_mode = _run_stage2(meta_schema, features, str(csv_path), args.stage2_mode, table_type)
 
         # Propagate time_dimension from meta_schema so Stage 3 serializer
         # can detect transposed tables.
         if 'time_dimension' not in extraction_schema:
             extraction_schema['time_dimension'] = meta_schema.get('time_dimension', {})
+        # Pass actual row count so Stage 3 compact-mode check works correctly.
+        extraction_schema['_n_rows'] = features.n_rows
     except RuntimeError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         sys.exit(1)
 
     print(f"Mode used      : {used_mode}")
+    if extraction_schema.get("use_baseline_mode"):
+        print(f"[Adaptive]     : BASELINE MODE (n_rows={features.n_rows} < 20, type={table_type})")
+        print(f"                 Reason: {extraction_schema.get('adaptive_reason','')}")
+        print(f"                 Schema injection skipped — LightRAG default prompts will be used")
     print(f"Entity Types   : {extraction_schema['entity_types']}")
     print(f"Relation Types : {extraction_schema['relation_types']}")
 
@@ -199,9 +206,13 @@ def main():
 
     print(f"Written to      : {chunks_dir}/")
 
-    # 3b. Generate prompts
-    system_prompt = generate_system_prompt(extraction_schema)
-    user_prompt_tmpl = generate_user_prompt_template(extraction_schema)
+    # 3b. Generate prompts (skip if adaptive baseline mode)
+    if extraction_schema.get("use_baseline_mode"):
+        system_prompt = "[BASELINE MODE — using LightRAG default prompts, no schema injection]"
+        user_prompt_tmpl = "[BASELINE MODE — using LightRAG default prompts]"
+    else:
+        system_prompt = generate_system_prompt(extraction_schema)
+        user_prompt_tmpl = generate_user_prompt_template(extraction_schema)
 
     sys_prompt_path = output_dir / "prompts" / "system_prompt.txt"
     usr_prompt_path = output_dir / "prompts" / "user_prompt_template.txt"
@@ -214,6 +225,9 @@ def main():
 
     # 3c. LightRAG integration payload
     payload = patch_lightrag(extraction_schema)
+    if payload.get("use_compact_mode"):
+        print(f"[Compact Mode]  : COMPACT REPRESENTATION (n_rows={features.n_rows} > 100)")
+        print(f"                  Entity types: {payload['entity_types']}")
 
     report["stages"]["stage3"] = {
         "chunk_count": len(chunks),

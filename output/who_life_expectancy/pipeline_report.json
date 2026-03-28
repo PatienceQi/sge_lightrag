@@ -1,0 +1,36 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/dataset/WHO/API_WHO_WHOSIS_000001_life_expectancy.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy",
+  "timestamp": "2026-03-27T17:03:17.086758",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 26,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "rule",
+      "entity_types": [
+        "Country_Code"
+      ],
+      "relation_types": [
+        "HAS_VALUE"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 196,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Country_Code"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

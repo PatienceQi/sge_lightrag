@@ -1,0 +1,25 @@
+Entity: AZE / WHOSIS_000001
+Year: 2000 | Value: 65.23458004
+Year: 2001 | Value: 66.31096148
+Year: 2002 | Value: 66.7152002
+Year: 2003 | Value: 66.74212235
+Year: 2004 | Value: 67.38631087
+Year: 2005 | Value: 67.44595807
+Year: 2006 | Value: 67.63797731
+Year: 2007 | Value: 69.26431968
+Year: 2008 | Value: 68.71279885
+Year: 2009 | Value: 69.37470529
+Year: 2010 | Value: 69.81386619
+Year: 2011 | Value: 70.38906117
+Year: 2012 | Value: 71.2113018
+Year: 2013 | Value: 72.08992478
+Year: 2014 | Value: 72.71925019
+Year: 2015 | Value: 73.62700051
+Year: 2016 | Value: 73.96997105
+Year: 2017 | Value: 74.6254737
+Year: 2018 | Value: 75.13145241
+Year: 2019 | Value: 75.79966602
+Year: 2020 | Value: 71.43112767
+Year: 2021 | Value: 72.9129401
+Remark: Azerbaijan
+Remark: Life expectancy at birth (years)

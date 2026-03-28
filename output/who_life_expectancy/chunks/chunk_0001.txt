@@ -1,0 +1,25 @@
+Entity: AFG / WHOSIS_000001
+Year: 2000 | Value: 53.82332641
+Year: 2001 | Value: 53.91018761
+Year: 2002 | Value: 55.15447775
+Year: 2003 | Value: 56.08520691
+Year: 2004 | Value: 56.47652053
+Year: 2005 | Value: 56.79050349
+Year: 2006 | Value: 56.992143
+Year: 2007 | Value: 57.2548387
+Year: 2008 | Value: 57.9008556
+Year: 2009 | Value: 58.52946588
+Year: 2010 | Value: 59.00377167
+Year: 2011 | Value: 59.54863714
+Year: 2012 | Value: 59.92210578
+Year: 2013 | Value: 60.43497705
+Year: 2014 | Value: 60.42859204
+Year: 2015 | Value: 60.32951348
+Year: 2016 | Value: 60.39366208
+Year: 2017 | Value: 60.8752198
+Year: 2018 | Value: 60.48797975
+Year: 2019 | Value: 61.22381311
+Year: 2020 | Value: 60.49099642
+Year: 2021 | Value: 59.12690224
+Remark: Afghanistan
+Remark: Life expectancy at birth (years)

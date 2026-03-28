@@ -1,0 +1,25 @@
+Entity: NIC / WHOSIS_000001
+Year: 2000 | Value: 76.18011127
+Year: 2001 | Value: 76.09169207
+Year: 2002 | Value: 75.92476263
+Year: 2003 | Value: 75.81400954
+Year: 2004 | Value: 75.88808385
+Year: 2005 | Value: 75.7199093
+Year: 2006 | Value: 76.73424987
+Year: 2007 | Value: 76.42101694
+Year: 2008 | Value: 76.35592363
+Year: 2009 | Value: 76.56414767
+Year: 2010 | Value: 77.06996179
+Year: 2011 | Value: 76.94363065
+Year: 2012 | Value: 77.05200653
+Year: 2013 | Value: 77.25621199
+Year: 2014 | Value: 77.51891848
+Year: 2015 | Value: 78.26048387
+Year: 2016 | Value: 77.92580193
+Year: 2017 | Value: 78.50836352
+Year: 2018 | Value: 78.45090354
+Year: 2019 | Value: 78.87404349
+Year: 2020 | Value: 75.04233435
+Year: 2021 | Value: 75.02796138
+Remark: Nicaragua
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,745 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="食物安全">
+  <data key="d0">食物安全</data>
+  <data key="d1">concept</data>
+  <data key="d2">食物安全是指确保食物质量和安全的管理领域。&lt;SEP&gt;食物安全是指确保食物不含有害物质和病原体的领域。&lt;SEP&gt;食物安全是指食品的安全性和质量，涉及对食品标签的检查。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0&lt;SEP&gt;chunk-135ae1d0f86126cfb7722efd71042025&lt;SEP&gt;chunk-71464070223ed787e8a10929d1d24944&lt;SEP&gt;chunk-956c0c6de8c258a3ee6cbfd8c232f76d&lt;SEP&gt;chunk-54a2464dc9a4f2e54f2a6a435e2c91cc&lt;SEP&gt;chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622074</data>
+  <data key="d6"></data>
+</node>
+<node id="食物管制站">
+  <data key="d0">食物管制站</data>
+  <data key="d1">organization</data>
+  <data key="d2">食物管制站是进行食物运送车辆检查的机构。</data>
+  <data key="d3">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622063</data>
+  <data key="d6"></data>
+</node>
+<node id="运送食物的车辆">
+  <data key="d0">运送食物的车辆</data>
+  <data key="d1">artifact</data>
+  <data key="d2">运送食物的车辆是被食物管制站进行重点检查的对象。</data>
+  <data key="d3">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622063</data>
+  <data key="d6"></data>
+</node>
+<node id="文锦渡食物管制办事处">
+  <data key="d0">文锦渡食物管制办事处</data>
+  <data key="d1">organization</data>
+  <data key="d2">文锦渡食物管制办事处是之前负责检查运送蔬菜车辆的机构，已被新指标取代。</data>
+  <data key="d3">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622063</data>
+  <data key="d6"></data>
+</node>
+<node id="重点检查">
+  <data key="d0">重点检查</data>
+  <data key="d1">method</data>
+  <data key="d2">重点检查是食物管制站对运送食物车辆采用的检查方法。</data>
+  <data key="d3">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622063</data>
+  <data key="d6"></data>
+</node>
+<node id="运送蔬菜的车辆">
+  <data key="d0">运送蔬菜的车辆</data>
+  <data key="d1">artifact</data>
+  <data key="d2">运送蔬菜的车辆是文锦渡食物管制办事处之前检查的对象。</data>
+  <data key="d3">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622063</data>
+  <data key="d6"></data>
+</node>
+<node id="食物样本">
+  <data key="d0">食物样本</data>
+  <data key="d1">data</data>
+  <data key="d2">食物样本是为了进行化验而抽取的食物，用于检测安全性。</data>
+  <data key="d3">chunk-54a2464dc9a4f2e54f2a6a435e2c91cc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622068</data>
+  <data key="d6"></data>
+</node>
+<node id="辐射水平测试">
+  <data key="d0">辐射水平测试</data>
+  <data key="d1">method</data>
+  <data key="d2">辐射水平测试是用于检测食物中辐射水平的测试方法。</data>
+  <data key="d3">chunk-54a2464dc9a4f2e54f2a6a435e2c91cc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622068</data>
+  <data key="d6"></data>
+</node>
+<node id="日本进口食物">
+  <data key="d0">日本进口食物</data>
+  <data key="d1">data</data>
+  <data key="d2">日本进口食物是来自日本的进口食物产品，其中部分样本已进行辐射水平测试。</data>
+  <data key="d3">chunk-54a2464dc9a4f2e54f2a6a435e2c91cc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622068</data>
+  <data key="d6"></data>
+</node>
+<node id="检查的标签数目">
+  <data key="d0">检查的标签数目</data>
+  <data key="d1">data</data>
+  <data key="d2">检查的标签数目是一项衡量食物安全监管活动的数据指标，在2021年至2024年间进行了追踪。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944&lt;SEP&gt;chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622074</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年">
+  <data key="d0">2021年</data>
+  <data key="d1">event</data>
+  <data key="d2">2021年是数据记录的起始年份，当年检查的标签数目为55196。&lt;SEP&gt;2021年是数据记录的一个时间点，该年与虫媒病有关的调查研究数目为84。&lt;SEP&gt;2021年是害虫样本鉴定数目为7171的统计年份。</data>
+  <data key="d3">chunk-f474fe44911dcbacd811e34b74d3e621&lt;SEP&gt;chunk-43c5d4644c8f6a14b56e1cda1061de2b&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622121</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年">
+  <data key="d0">2022年</data>
+  <data key="d1">event</data>
+  <data key="d2">2022年是数据记录的第二年，当年检查的标签数目为55192。&lt;SEP&gt;2022年是数据记录的一个时间点，该年与虫媒病有关的调查研究数目为300。&lt;SEP&gt;2022年是害虫样本鉴定数目为6504的统计年份。</data>
+  <data key="d3">chunk-f474fe44911dcbacd811e34b74d3e621&lt;SEP&gt;chunk-43c5d4644c8f6a14b56e1cda1061de2b&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622121</data>
+  <data key="d6"></data>
+</node>
+<node id="2023年">
+  <data key="d0">2023年</data>
+  <data key="d1">event</data>
+  <data key="d2">2023年是数据记录的第三年，当年检查的标签数目为55208。&lt;SEP&gt;2023年是数据记录的一个时间点，该年与虫媒病有关的调查研究数目为160。&lt;SEP&gt;2023年是害虫样本鉴定数目为2564的统计年份。</data>
+  <data key="d3">chunk-f474fe44911dcbacd811e34b74d3e621&lt;SEP&gt;chunk-43c5d4644c8f6a14b56e1cda1061de2b&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622121</data>
+  <data key="d6"></data>
+</node>
+<node id="2024年">
+  <data key="d0">2024年</data>
+  <data key="d1">event</data>
+  <data key="d2">2024年是数据记录的最后一年，当年检查的标签数目为55365。&lt;SEP&gt;2024年是数据记录的一个时间点，该年与虫媒病有关的调查研究数目为278。&lt;SEP&gt;2024年是害虫样本鉴定数目为3063的统计年份。</data>
+  <data key="d3">chunk-f474fe44911dcbacd811e34b74d3e621&lt;SEP&gt;chunk-43c5d4644c8f6a14b56e1cda1061de2b&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622121</data>
+  <data key="d6"></data>
+</node>
+<node id="活食用牲口检验及测试">
+  <data key="d0">活食用牲口检验及测试</data>
+  <data key="d1">concept</data>
+  <data key="d2">活食用牲口检验及测试是一个检验和测试活的食用牲畜的概念。&lt;SEP&gt;活食用牲口检验及测试是一个涉及对活体食用牲畜进行检验和测试的概念。&lt;SEP&gt;活食用牲口检验及测试是一项检验计划，用于测试食用动物中的残余禽畜药物。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990&lt;SEP&gt;chunk-4864dd7fa7e53fff7f6799ac45e4513a&lt;SEP&gt;chunk-5b8d0973df982df8b5df4ce6fcbaf0e2&lt;SEP&gt;chunk-71b971dceee2bf00fb0709da166e140c&lt;SEP&gt;chunk-7799fac78be7c7dd7d2b3020b20deea2&lt;SEP&gt;chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622097</data>
+  <data key="d6"></data>
+</node>
+<node id="入口家禽的检查次数">
+  <data key="d0">入口家禽的检查次数</data>
+  <data key="d1">data</data>
+  <data key="d2">入口家禽的检查次数是指进口家禽的检查次数数据，在2021年至2024年期间均为0次。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990&lt;SEP&gt;chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622081</data>
+  <data key="d6"></data>
+</node>
+<node id="2021">
+  <data key="d0">2021</data>
+  <data key="d1">data</data>
+  <data key="d2">2021年是数据记录的一个时间点，入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622081</data>
+  <data key="d6"></data>
+</node>
+<node id="2022">
+  <data key="d0">2022</data>
+  <data key="d1">data</data>
+  <data key="d2">2022年是数据记录的一个时间点，入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622081</data>
+  <data key="d6"></data>
+</node>
+<node id="2023">
+  <data key="d0">2023</data>
+  <data key="d1">data</data>
+  <data key="d2">2023年是数据记录的一个时间点，入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622081</data>
+  <data key="d6"></data>
+</node>
+<node id="2024">
+  <data key="d0">2024</data>
+  <data key="d1">data</data>
+  <data key="d2">2024年是数据记录的一个时间点，入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622081</data>
+  <data key="d6"></data>
+</node>
+<node id="抽取猪只尿液样本进行乙类促效剂测试">
+  <data key="d0">抽取猪只尿液样本进行乙类促效剂测试</data>
+  <data key="d1">method</data>
+  <data key="d2">抽取猪只尿液样本进行乙类促效剂测试是一种检测方法，用于检验猪只是否含有乙类促效剂。</data>
+  <data key="d3">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622088</data>
+  <data key="d6"></data>
+</node>
+<node id="猪只">
+  <data key="d0">猪只</data>
+  <data key="d1">creature</data>
+  <data key="d2">猪只是进行尿液样本检测的对象。</data>
+  <data key="d3">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622088</data>
+  <data key="d6"></data>
+</node>
+<node id="乙类促效剂">
+  <data key="d0">乙类促效剂</data>
+  <data key="d1">concept</data>
+  <data key="d2">乙类促效剂是在猪只检测中被监测的物质。</data>
+  <data key="d3">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622088</data>
+  <data key="d6"></data>
+</node>
+<node id="尿液样本">
+  <data key="d0">尿液样本</data>
+  <data key="d1">data</data>
+  <data key="d2">尿液样本是从猪只中抽取用于乙类促效剂测试的生物样本。</data>
+  <data key="d3">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622088</data>
+  <data key="d6"></data>
+</node>
+<node id="食用动物">
+  <data key="d0">食用动物</data>
+  <data key="d1">creature</data>
+  <data key="d2">食用动物是检验对象，从中抽取尿液、组织及血清样本进行药物残余测试。</data>
+  <data key="d3">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622097</data>
+  <data key="d6"></data>
+</node>
+<node id="尿液、组织及血清样本">
+  <data key="d0">尿液、组织及血清样本</data>
+  <data key="d1">data</data>
+  <data key="d2">尿液、组织及血清样本是从食用动物中抽取的生物样本，用于检测残余禽畜药物。</data>
+  <data key="d3">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622097</data>
+  <data key="d6"></data>
+</node>
+<node id="残余禽畜药物">
+  <data key="d0">残余禽畜药物</data>
+  <data key="d1">concept</data>
+  <data key="d2">残余禽畜药物是检验的对象，用于确定食用动物体内是否存在药物残留。</data>
+  <data key="d3">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622097</data>
+  <data key="d6"></data>
+</node>
+<node id="防治虫鼠">
+  <data key="d0">防治虫鼠</data>
+  <data key="d1">concept</data>
+  <data key="d2">防治虫鼠是指防止和控制虫类和鼠类的概念。&lt;SEP&gt;防治虫鼠是一个涉及虫害和鼠害防治的概念领域。&lt;SEP&gt;防治虫鼠是一个涉及虫害和鼠害防治的概念类别。&lt;SEP&gt;防治虫鼠是一个涵盖虫鼠防治工作的概念范畴。&lt;SEP&gt;防治虫鼠是一个涵盖虫鼠防治工作的概念范畴。&lt;SEP&gt;防治虫鼠是一个涵盖虫鼠防治相关事务的概念类别。&lt;SEP&gt;防治虫鼠是一个涉及虫害和鼠害防治的主要类别。</data>
+  <data key="d3">chunk-3d9bb684b137bbaa8b43513f636d04c0&lt;SEP&gt;chunk-d950195772d2194083fd41aa7463f5ba&lt;SEP&gt;chunk-03bda189e0350618462d49b218f1005b&lt;SEP&gt;chunk-e04d2327ef7e721fe0266c26aa84e7f9&lt;SEP&gt;chunk-3e912176e4ced2508339424d4e3b7fe9&lt;SEP&gt;chunk-22ee7e60827d3ad7d7bda643418044eb&lt;SEP&gt;chunk-729ca11c90f53112cf4ecd9c53d8cfa2&lt;SEP&gt;chunk-43c5d4644c8f6a14b56e1cda1061de2b&lt;SEP&gt;chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f&lt;SEP&gt;chunk-b62760d1162751a530e0bd4f8e1d1818&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8&lt;SEP&gt;chunk-ff060b6c46d241aaeb835e1b88f972d6&lt;SEP&gt;chunk-ff78f462a485cc47d8f65ae35d653581&lt;SEP&gt;chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622138</data>
+  <data key="d6"></data>
+</node>
+<node id="与虫媒病有关的调查研究">
+  <data key="d0">与虫媒病有关的调查研究</data>
+  <data key="d1">data</data>
+  <data key="d2">与虫媒病有关的调查研究是关于由昆虫传播的疾病的调查研究工作。</data>
+  <data key="d3">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622103</data>
+  <data key="d6"></data>
+</node>
+<node id="虫鼠事务咨询">
+  <data key="d0">虫鼠事务咨询</data>
+  <data key="d1">concept</data>
+  <data key="d2">虫鼠事务咨询是关于虫害和鼠害事务的咨询服务。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠下的一个子类别，涉及向市民提供相关咨询服务。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠范畴下的一个子类别，涉及虫鼠相关事务的咨询服务。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠范畴下的一个子类别，涉及虫鼠相关事务的咨询工作。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠下的一个子类别，涉及为公众提供咨询服务。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠类别下的一个子类别，涉及相关咨询服务。</data>
+  <data key="d3">chunk-d950195772d2194083fd41aa7463f5ba&lt;SEP&gt;chunk-03bda189e0350618462d49b218f1005b&lt;SEP&gt;chunk-e04d2327ef7e721fe0266c26aa84e7f9&lt;SEP&gt;chunk-3e912176e4ced2508339424d4e3b7fe9&lt;SEP&gt;chunk-22ee7e60827d3ad7d7bda643418044eb&lt;SEP&gt;chunk-729ca11c90f53112cf4ecd9c53d8cfa2&lt;SEP&gt;chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f&lt;SEP&gt;chunk-b62760d1162751a530e0bd4f8e1d1818&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8&lt;SEP&gt;chunk-ff060b6c46d241aaeb835e1b88f972d6&lt;SEP&gt;chunk-ff78f462a485cc47d8f65ae35d653581&lt;SEP&gt;chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622138</data>
+  <data key="d6"></data>
+</node>
+<node id="政府部门">
+  <data key="d0">政府部门</data>
+  <data key="d1">organization</data>
+  <data key="d2">政府部门是要求提供虫鼠事务咨询的机构。</data>
+  <data key="d3">chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622108</data>
+  <data key="d6"></data>
+</node>
+<node id="咨询数目">
+  <data key="d0">咨询数目</data>
+  <data key="d1">data</data>
+  <data key="d2">咨询数目是政府部门要求提供的虫鼠事务咨询的数量统计，2021年为354，2022年为262，2023年为250，2024年为257。</data>
+  <data key="d3">chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622108</data>
+  <data key="d6"></data>
+</node>
+<node id="市民要求提供咨询的数目">
+  <data key="d0">市民要求提供咨询的数目</data>
+  <data key="d1">data</data>
+  <data key="d2">市民要求提供咨询的数目是一项数据指标，记录了2021年至2024年间市民咨询请求的数量，分别为372、423、440和272。</data>
+  <data key="d3">chunk-b62760d1162751a530e0bd4f8e1d1818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622114</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年数据修订">
+  <data key="d0">2022年数据修订</data>
+  <data key="d1">event</data>
+  <data key="d2">2022年数据修订是指2022年的咨询数字于2024年2月进行了修订。</data>
+  <data key="d3">chunk-b62760d1162751a530e0bd4f8e1d1818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622114</data>
+  <data key="d6"></data>
+</node>
+<node id="害虫样本鉴定">
+  <data key="d0">害虫样本鉴定</data>
+  <data key="d1">data</data>
+  <data key="d2">害虫样本鉴定是一项数据指标，用于统计鉴定的害虫样本数目。</data>
+  <data key="d3">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622121</data>
+  <data key="d6"></data>
+</node>
+<node id="除害剂成效测试数目">
+  <data key="d0">除害剂成效测试数目</data>
+  <data key="d1">data</data>
+  <data key="d2">除害剂成效测试数目是一项数据指标，记录了2021年至2024年间的测试数量，分别为31、31、31和28。</data>
+  <data key="d3">chunk-ff060b6c46d241aaeb835e1b88f972d6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622126</data>
+  <data key="d6"></data>
+</node>
+<node id="为公众人士举办的研讨会/演讲/讲座">
+  <data key="d0">为公众人士举办的研讨会/演讲/讲座</data>
+  <data key="d1">event</data>
+  <data key="d2">为公众人士举办的研讨会、演讲和讲座是向公众传播虫鼠防治知识的活动，2021年76场，2022年72场，2023年95场，2024年120场。</data>
+  <data key="d3">chunk-ff78f462a485cc47d8f65ae35d653581</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622132</data>
+  <data key="d6"></data>
+</node>
+<node id="研讨会/演讲/讲座">
+  <data key="d0">研讨会/演讲/讲座</data>
+  <data key="d1">event</data>
+  <data key="d2">研讨会、演讲和讲座是虫鼠事务咨询中的活动形式，用于传播相关知识和信息。</data>
+  <data key="d3">chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622138</data>
+  <data key="d6"></data>
+</node>
+<node id="出席人数数据">
+  <data key="d0">出席人数数据</data>
+  <data key="d1">data</data>
+  <data key="d2">出席研讨会、演讲和讲座的人数统计数据，涵盖2021年至2024年的记录。</data>
+  <data key="d3">chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774622138</data>
+  <data key="d6"></data>
+</node>
+<edge source="食物安全" target="食物管制站">
+  <data key="d7">1.0</data>
+  <data key="d8">食物管制站是食物安全管理的执行机构。</data>
+  <data key="d9">监管,管理</data>
+  <data key="d10">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622063</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物安全" target="食物样本">
+  <data key="d7">1.0</data>
+  <data key="d8">食物样本通过化验用于确保食物安全。</data>
+  <data key="d9">检测,质量保证</data>
+  <data key="d10">chunk-54a2464dc9a4f2e54f2a6a435e2c91cc</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622068</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物安全" target="检查的标签数目">
+  <data key="d7">1.0</data>
+  <data key="d8">检查的标签数目是食物安全监管的重要指标。</data>
+  <data key="d9">监管指标,质量控制</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944&lt;SEP&gt;chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622074</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物管制站" target="运送食物的车辆">
+  <data key="d7">1.0</data>
+  <data key="d8">食物管制站对运送食物的车辆进行重点检查。</data>
+  <data key="d9">检查,监管</data>
+  <data key="d10">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622063</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物管制站" target="重点检查">
+  <data key="d7">1.0</data>
+  <data key="d8">食物管制站采用重点检查方法对车辆进行检查。</data>
+  <data key="d9">检查方法,食物安全</data>
+  <data key="d10">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622063</data>
+  <data key="d13"></data>
+</edge>
+<edge source="文锦渡食物管制办事处" target="运送蔬菜的车辆">
+  <data key="d7">1.0</data>
+  <data key="d8">文锦渡食物管制办事处曾检查运送蔬菜的车辆。</data>
+  <data key="d9">检查,监管</data>
+  <data key="d10">chunk-956c0c6de8c258a3ee6cbfd8c232f76d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622063</data>
+  <data key="d13"></data>
+</edge>
+<edge source="辐射水平测试" target="日本进口食物">
+  <data key="d7">1.0</data>
+  <data key="d8">日本进口食物样本已进行辐射水平测试以确保安全。</data>
+  <data key="d9">安全评估,检测</data>
+  <data key="d10">chunk-54a2464dc9a4f2e54f2a6a435e2c91cc</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622068</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2021年">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年检查的标签数目为55196。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622074</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2022年">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年检查的标签数目为55192。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622074</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2023年">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年检查的标签数目为55208。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622074</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2024年">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年检查的标签数目为55365。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-f474fe44911dcbacd811e34b74d3e621</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622074</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2021年" target="与虫媒病有关的调查研究">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年与虫媒病有关的调查研究数目为84。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622103</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2021年" target="害虫样本鉴定">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年害虫样本鉴定数目为7171。</data>
+  <data key="d9">年度数据,统计结果</data>
+  <data key="d10">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622121</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022年" target="与虫媒病有关的调查研究">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年与虫媒病有关的调查研究数目为300。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622103</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2022年" target="害虫样本鉴定">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年害虫样本鉴定数目为6504。</data>
+  <data key="d9">年度数据,统计结果</data>
+  <data key="d10">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622121</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023年" target="与虫媒病有关的调查研究">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年与虫媒病有关的调查研究数目为160。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622103</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2023年" target="害虫样本鉴定">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年害虫样本鉴定数目为2564。</data>
+  <data key="d9">年度数据,统计结果</data>
+  <data key="d10">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622121</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024年" target="与虫媒病有关的调查研究">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年与虫媒病有关的调查研究数目为278。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622103</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2024年" target="害虫样本鉴定">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年害虫样本鉴定数目为3063。</data>
+  <data key="d9">年度数据,统计结果</data>
+  <data key="d10">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622121</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="入口家禽的检查次数">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数是活食用牲口检验及测试类别下的一个具体检验项目。</data>
+  <data key="d9">数据分类,检验项目</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990&lt;SEP&gt;chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622081</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="抽取猪只尿液样本进行乙类促效剂测试">
+  <data key="d7">1.0</data>
+  <data key="d8">抽取猪只尿液样本进行乙类促效剂测试是活食用牲口检验及测试的一个具体项目。</data>
+  <data key="d9">检验分类,测试项目</data>
+  <data key="d10">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622088</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="食用动物">
+  <data key="d7">1.0</data>
+  <data key="d8">活食用牲口检验及测试从食用动物中抽取样本进行检验。</data>
+  <data key="d9">样本采集,检验对象</data>
+  <data key="d10">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622097</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="尿液、组织及血清样本">
+  <data key="d7">1.0</data>
+  <data key="d8">活食用牲口检验及测试通过检测尿液、组织及血清样本来进行。</data>
+  <data key="d9">样本类型,检验方法</data>
+  <data key="d10">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622097</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2021">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年入口家禽的检查次数为0。</data>
+  <data key="d9">年度数据,检查记录</data>
+  <data key="d10">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622081</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2022">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年入口家禽的检查次数为0。</data>
+  <data key="d9">年度数据,检查记录</data>
+  <data key="d10">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622081</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2023">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年入口家禽的检查次数为0。</data>
+  <data key="d9">年度数据,检查记录</data>
+  <data key="d10">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622081</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2024">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年入口家禽的检查次数为0。</data>
+  <data key="d9">年度数据,检查记录</data>
+  <data key="d10">chunk-71b971dceee2bf00fb0709da166e140c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622081</data>
+  <data key="d13"></data>
+</edge>
+<edge source="抽取猪只尿液样本进行乙类促效剂测试" target="猪只">
+  <data key="d7">1.0</data>
+  <data key="d8">该测试方法从猪只中抽取尿液样本。</data>
+  <data key="d9">样本采集,检测对象</data>
+  <data key="d10">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622088</data>
+  <data key="d13"></data>
+</edge>
+<edge source="抽取猪只尿液样本进行乙类促效剂测试" target="尿液样本">
+  <data key="d7">1.0</data>
+  <data key="d8">该测试方法使用尿液样本作为检测材料。</data>
+  <data key="d9">样本类型,检测材料</data>
+  <data key="d10">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622088</data>
+  <data key="d13"></data>
+</edge>
+<edge source="抽取猪只尿液样本进行乙类促效剂测试" target="乙类促效剂">
+  <data key="d7">1.0</data>
+  <data key="d8">该测试方法用于检测尿液样本中的乙类促效剂。</data>
+  <data key="d9">检测目标,监测物质</data>
+  <data key="d10">chunk-7799fac78be7c7dd7d2b3020b20deea2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622088</data>
+  <data key="d13"></data>
+</edge>
+<edge source="尿液、组织及血清样本" target="残余禽畜药物">
+  <data key="d7">1.0</data>
+  <data key="d8">尿液、组织及血清样本被用于测试是否存在残余禽畜药物。</data>
+  <data key="d9">检验内容,药物检测</data>
+  <data key="d10">chunk-7ccdda9ca74186b6ed1c7c5265072465</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622097</data>
+  <data key="d13"></data>
+</edge>
+<edge source="防治虫鼠" target="与虫媒病有关的调查研究">
+  <data key="d7">1.0</data>
+  <data key="d8">与虫媒病有关的调查研究属于防治虫鼠的范畴。</data>
+  <data key="d9">分类关系,研究范畴</data>
+  <data key="d10">chunk-43c5d4644c8f6a14b56e1cda1061de2b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622103</data>
+  <data key="d13"></data>
+</edge>
+<edge source="防治虫鼠" target="虫鼠事务咨询">
+  <data key="d7">5.0</data>
+  <data key="d8">虫鼠事务咨询是防治虫鼠的一个子类别。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠范畴下的子类别。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠范畴下的子类别。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠的一个子类别。&lt;SEP&gt;虫鼠事务咨询是防治虫鼠类别下的子类别。</data>
+  <data key="d9">从属关系,分类关系,层级结构</data>
+  <data key="d10">chunk-d950195772d2194083fd41aa7463f5ba&lt;SEP&gt;chunk-03bda189e0350618462d49b218f1005b&lt;SEP&gt;chunk-e04d2327ef7e721fe0266c26aa84e7f9&lt;SEP&gt;chunk-3e912176e4ced2508339424d4e3b7fe9&lt;SEP&gt;chunk-22ee7e60827d3ad7d7bda643418044eb&lt;SEP&gt;chunk-729ca11c90f53112cf4ecd9c53d8cfa2&lt;SEP&gt;chunk-b62760d1162751a530e0bd4f8e1d1818&lt;SEP&gt;chunk-e035f13eb2e45267018d7021aabed4d8&lt;SEP&gt;chunk-ff060b6c46d241aaeb835e1b88f972d6&lt;SEP&gt;chunk-ff78f462a485cc47d8f65ae35d653581&lt;SEP&gt;chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622138</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="政府部门">
+  <data key="d7">1.0</data>
+  <data key="d8">政府部门要求提供虫鼠事务咨询服务。</data>
+  <data key="d9">咨询需求,服务请求</data>
+  <data key="d10">chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622108</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="咨询数目">
+  <data key="d7">1.0</data>
+  <data key="d8">虫鼠事务咨询的数目通过年度统计数据进行记录和追踪。</data>
+  <data key="d9">数据统计,服务量</data>
+  <data key="d10">chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622108</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="市民要求提供咨询的数目">
+  <data key="d7">1.0</data>
+  <data key="d8">市民要求提供咨询的数目是虫鼠事务咨询的一项统计指标。</data>
+  <data key="d9">数据统计、咨询服务</data>
+  <data key="d10">chunk-b62760d1162751a530e0bd4f8e1d1818</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622114</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="害虫样本鉴定">
+  <data key="d7">1.0</data>
+  <data key="d8">害虫样本鉴定是虫鼠事务咨询下的一个统计项目。</data>
+  <data key="d9">数据指标,统计项目</data>
+  <data key="d10">chunk-e035f13eb2e45267018d7021aabed4d8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622121</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="除害剂成效测试数目">
+  <data key="d7">1.0</data>
+  <data key="d8">除害剂成效测试数目是虫鼠事务咨询范畴下的一项具体数据指标。</data>
+  <data key="d9">数据指标,测量关系</data>
+  <data key="d10">chunk-ff060b6c46d241aaeb835e1b88f972d6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622126</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="为公众人士举办的研讨会/演讲/讲座">
+  <data key="d7">1.0</data>
+  <data key="d8">为公众人士举办的研讨会、演讲和讲座是虫鼠事务咨询的具体实施形式。</data>
+  <data key="d9">活动统计、公众教育</data>
+  <data key="d10">chunk-ff78f462a485cc47d8f65ae35d653581</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622132</data>
+  <data key="d13"></data>
+</edge>
+<edge source="虫鼠事务咨询" target="研讨会/演讲/讲座">
+  <data key="d7">1.0</data>
+  <data key="d8">研讨会、演讲和讲座是虫鼠事务咨询的具体活动形式。</data>
+  <data key="d9">咨询服务,活动形式</data>
+  <data key="d10">chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622138</data>
+  <data key="d13"></data>
+</edge>
+<edge source="市民要求提供咨询的数目" target="2022年数据修订">
+  <data key="d7">1.0</data>
+  <data key="d8">市民要求提供咨询的数目中的2022年数据于2024年2月进行了修订。</data>
+  <data key="d9">数据更正、版本管理</data>
+  <data key="d10">chunk-b62760d1162751a530e0bd4f8e1d1818</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622114</data>
+  <data key="d13"></data>
+</edge>
+<edge source="研讨会/演讲/讲座" target="出席人数数据">
+  <data key="d7">1.0</data>
+  <data key="d8">出席人数数据记录了参加研讨会、演讲和讲座的人员数量。</data>
+  <data key="d9">参与统计,活动规模</data>
+  <data key="d10">chunk-e292838b440da2ee2be0c95d06b2ae40</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774622138</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

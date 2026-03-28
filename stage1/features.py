@@ -60,6 +60,9 @@ class FeatureSet:
     # --- Whether the file had no real header (auto-indexed columns) ---
     headerless: bool
 
+    # --- Actual data row count (exact for small CSVs, min(_SAMPLE_ROWS+5) for large) ---
+    n_rows: int = 0
+
 
 def _detect_encoding(path: str) -> str:
     """
@@ -102,6 +105,37 @@ def _detect_encoding(path: str) -> str:
     return "big5hkscs"
 
 
+def _detect_skiprows(path: str, encoding: str) -> int:
+    """
+    Detect how many leading rows to skip before the real header.
+
+    Heuristics:
+    1. World Bank 4-row metadata (first line contains "Data Source"): skip 4
+    2. Title-then-empty pattern (first row has ≤1 non-empty field, second row
+       is blank): skip 2 — handles HK government inpatient/hierarchical CSVs
+    """
+    try:
+        with open(path, encoding=encoding, errors="ignore") as fh:
+            lines = [fh.readline() for _ in range(2)]
+        first_line = lines[0]
+
+        # World Bank
+        if "Data Source" in first_line or "World Development Indicators" in first_line:
+            return 4
+
+        # Title + empty row pattern
+        row0_cells = [c.strip().strip('"') for c in first_line.split(",")]
+        row0_nonempty = sum(1 for c in row0_cells if c)
+        if len(lines) > 1:
+            row1_cells = [c.strip().strip('"') for c in lines[1].split(",")]
+            row1_nonempty = sum(1 for c in row1_cells if c)
+            if row0_nonempty <= 1 and row1_nonempty == 0:
+                return 2
+    except Exception:
+        pass
+    return 0
+
+
 def _read_csv(path: str) -> tuple[pd.DataFrame, bool]:
     """
     Try to read the CSV with automatic encoding + separator detection.
@@ -109,6 +143,10 @@ def _read_csv(path: str) -> tuple[pd.DataFrame, bool]:
 
     headerless=True means the file had no real header row (e.g. UTF-16 tab files
     from HK government that start with a title row, not column names).
+
+    Leading metadata/title rows are automatically detected and skipped:
+    - World Bank API_*.csv: skip 4 rows
+    - HK government tables with title row + empty row: skip 2 rows
     """
     encoding = _detect_encoding(path)
 
@@ -118,10 +156,13 @@ def _read_csv(path: str) -> tuple[pd.DataFrame, bool]:
                          header=None, nrows=_SAMPLE_ROWS + 5)
         return df, True
 
+    skiprows = _detect_skiprows(path, encoding)
+
     # Standard comma-separated — try multiple encodings
     for enc in [encoding, "utf-8-sig", "utf-8", "gbk", "big5hkscs"]:
         try:
-            df = pd.read_csv(path, encoding=enc, nrows=_SAMPLE_ROWS + 5)
+            df = pd.read_csv(path, encoding=enc, skiprows=skiprows,
+                             nrows=_SAMPLE_ROWS + 5)
             return df, False
         except (UnicodeDecodeError, Exception):
             continue
@@ -243,4 +284,5 @@ def extract_features(path: str) -> FeatureSet:
         remarks_cols=remarks_cols,
         raw_columns=raw_columns,
         headerless=headerless,
+        n_rows=len(df),
     )

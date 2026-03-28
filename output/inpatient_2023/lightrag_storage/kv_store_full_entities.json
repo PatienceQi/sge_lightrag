@@ -1,0 +1,3738 @@
+{
+  "doc-9b7e00895d9d4c0bdc5ed5c4642da29f": {
+    "entity_names": [
+      "A00",
+      "住院病人出院及死亡人次-惩教署辖下医院: 0.0",
+      "霍乱",
+      "全港登记死亡人数-男性: 0.0",
+      "全港登记死亡人数-女性: 0.0",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 1.0",
+      "住院病人出院及死亡人次-私家医院: 2.0",
+      "全港登记死亡人数-性别不详: 0.0",
+      "住院病人出院及死亡人次-合计: 3.0",
+      "全港登记死亡人数-合计: 0.0"
+    ],
+    "count": 10,
+    "create_time": 1774603254,
+    "update_time": 1774603254,
+    "_id": "doc-9b7e00895d9d4c0bdc5ed5c4642da29f"
+  },
+  "doc-b9b59fe21eb9b75b9f86967547c179e0": {
+    "entity_names": [
+      "伤寒和副伤寒",
+      "A01"
+    ],
+    "count": 2,
+    "create_time": 1774603268,
+    "update_time": 1774603268,
+    "_id": "doc-b9b59fe21eb9b75b9f86967547c179e0"
+  },
+  "doc-f234bad25d7a2f15bcacbdb73d1200a0": {
+    "entity_names": [
+      "志贺菌病",
+      "住院病人出院及死亡人次-私家医院: 5.0",
+      "住院病人出院及死亡人次-合计: 6.0",
+      "A03"
+    ],
+    "count": 4,
+    "create_time": 1774603280,
+    "update_time": 1774603280,
+    "_id": "doc-f234bad25d7a2f15bcacbdb73d1200a0"
+  },
+  "doc-89418b7105c3110570b459d8a0af92ff": {
+    "entity_names": [
+      "阿米巴病",
+      "A06"
+    ],
+    "count": 2,
+    "create_time": 1774603295,
+    "update_time": 1774603295,
+    "_id": "doc-89418b7105c3110570b459d8a0af92ff"
+  },
+  "doc-8613f9f1db74389bb86e236ab29e71ec": {
+    "entity_names": [
+      "其他肠道传染病",
+      "3989.0",
+      "A02, A04-A05, A07-A08",
+      "3584.0",
+      "7573.0"
+    ],
+    "count": 5,
+    "create_time": 1774603311,
+    "update_time": 1774603311,
+    "_id": "doc-8613f9f1db74389bb86e236ab29e71ec"
+  },
+  "doc-b43a04dd48ca338922b79a05b9c10534": {
+    "entity_names": [
+      "13066.0",
+      "其他传染性或未特指病因的胃肠炎和结肠炎",
+      "A09",
+      "3316.0",
+      "16382.0"
+    ],
+    "count": 5,
+    "create_time": 1774603325,
+    "update_time": 1774603325,
+    "_id": "doc-b43a04dd48ca338922b79a05b9c10534"
+  },
+  "doc-b33e98a79e75fd8f2bf2cc1dc63c7407": {
+    "entity_names": [
+      "A15-A16",
+      "2051.0",
+      "呼吸道结核病",
+      "2139.0",
+      "呼吸道结核病_A15-A16"
+    ],
+    "count": 5,
+    "create_time": 1774603336,
+    "update_time": 1774603336,
+    "_id": "doc-b33e98a79e75fd8f2bf2cc1dc63c7407"
+  },
+  "doc-d34dcd1b256fec532560a8f1e42a0dd4": {
+    "entity_names": [
+      "A17-A19",
+      "其他结核病"
+    ],
+    "count": 2,
+    "create_time": 1774603349,
+    "update_time": 1774603349,
+    "_id": "doc-d34dcd1b256fec532560a8f1e42a0dd4"
+  },
+  "doc-7504c1308f4bab71787b2cad2c76ae34": {
+    "entity_names": [
+      "鼠疫",
+      "A20"
+    ],
+    "count": 2,
+    "create_time": 1774603366,
+    "update_time": 1774603366,
+    "_id": "doc-7504c1308f4bab71787b2cad2c76ae34"
+  },
+  "doc-84db9049ea5146c515c1d11ca1b88762": {
+    "entity_names": [
+      "A23",
+      "布鲁氏菌病"
+    ],
+    "count": 2,
+    "create_time": 1774603376,
+    "update_time": 1774603376,
+    "_id": "doc-84db9049ea5146c515c1d11ca1b88762"
+  },
+  "doc-13be6f4b1aca67623c94aa7b9f2f13ea": {
+    "entity_names": [
+      "麻风",
+      "A30"
+    ],
+    "count": 2,
+    "create_time": 1774603389,
+    "update_time": 1774603389,
+    "_id": "doc-13be6f4b1aca67623c94aa7b9f2f13ea"
+  },
+  "doc-6522ed936c4d7ebc5147a1d310129ab1": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-惩教署辖下医院: 0.0",
+      "新生儿破伤风",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 0.0",
+      "ICD-10编码: A33",
+      "住院病人出院及死亡人次*-合计: 0.0",
+      "A33",
+      "住院病人出院及死亡人次*-私家医院: 0.0"
+    ],
+    "count": 7,
+    "create_time": 1774603401,
+    "update_time": 1774603401,
+    "_id": "doc-6522ed936c4d7ebc5147a1d310129ab1"
+  },
+  "doc-b3397e9537378a2f41d14f158006e9a0": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-合计: 2.0",
+      "其他破伤风",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 2.0",
+      "A34-A35"
+    ],
+    "count": 4,
+    "create_time": 1774603412,
+    "update_time": 1774603412,
+    "_id": "doc-b3397e9537378a2f41d14f158006e9a0"
+  },
+  "doc-4e39b8c67d1c0a513664767cce655f16": {
+    "entity_names": [
+      "白喉",
+      "A36",
+      "0.0(惩教署辖下医院住院病人出院及死亡人次)",
+      "4.0(医院管理局辖下医院住院病人出院及死亡人次)",
+      "0.0(全港登记死亡人数-女性)",
+      "0.0(全港登记死亡人数-男性)",
+      "0.0(私家医院住院病人出院及死亡人次)",
+      "0.0(全港登记死亡人数-合计)",
+      "4.0(住院病人出院及死亡人次合计)",
+      "0.0(全港登记死亡人数-性别不详)"
+    ],
+    "count": 10,
+    "create_time": 1774603429,
+    "update_time": 1774603429,
+    "_id": "doc-4e39b8c67d1c0a513664767cce655f16"
+  },
+  "doc-386054c5ea1e24d639a9fc6d4f103b16": {
+    "entity_names": [
+      "A37",
+      "住院病人出院及死亡人次-合计: 18.0",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 13.0",
+      "ICD-10编码: A37",
+      "百日咳"
+    ],
+    "count": 5,
+    "create_time": 1774603447,
+    "update_time": 1774603447,
+    "_id": "doc-386054c5ea1e24d639a9fc6d4f103b16"
+  },
+  "doc-4931ded0b1466e9f53e2870dfafbea6d": {
+    "entity_names": [
+      "脑膜炎球菌感染",
+      "A39"
+    ],
+    "count": 2,
+    "create_time": 1774603459,
+    "update_time": 1774603459,
+    "_id": "doc-4931ded0b1466e9f53e2870dfafbea6d"
+  },
+  "doc-d5c7c738bdb4bf13e2984027826ce163": {
+    "entity_names": [
+      "败血病",
+      "A40-A41",
+      "1330.0",
+      "11121.0",
+      "11652.0"
+    ],
+    "count": 5,
+    "create_time": 1774603469,
+    "update_time": 1774603469,
+    "_id": "doc-d5c7c738bdb4bf13e2984027826ce163"
+  },
+  "doc-37e76233278c0be05a9bcd53808115f8": {
+    "entity_names": [
+      "3935.0",
+      "A21-A22, A24-A28, A31-A32, A38, A42-A49",
+      "其他细菌性疾病",
+      "3630.0"
+    ],
+    "count": 4,
+    "create_time": 1774603495,
+    "update_time": 1774603495,
+    "_id": "doc-37e76233278c0be05a9bcd53808115f8"
+  },
+  "doc-ffdc01eb9598060deb4cc5ef96ef9a58": {
+    "entity_names": [
+      "先天性梅毒",
+      "A50"
+    ],
+    "count": 2,
+    "create_time": 1774603518,
+    "update_time": 1774603518,
+    "_id": "doc-ffdc01eb9598060deb4cc5ef96ef9a58"
+  },
+  "doc-ee389fda622db7a0271944c7f437a60c": {
+    "entity_names": [
+      "住院病人出院及死亡人次-医院管理局辖下医院: 20.0",
+      "住院病人出院及死亡人次-私家医院: 0.0",
+      "早期梅毒",
+      "A51",
+      "住院病人出院及死亡人次-合计: 20.0"
+    ],
+    "count": 5,
+    "create_time": 1774603529,
+    "update_time": 1774603529,
+    "_id": "doc-ee389fda622db7a0271944c7f437a60c"
+  },
+  "doc-4a8177396dba616f755e86433be602c5": {
+    "entity_names": [
+      "其他梅毒",
+      "A52-A53"
+    ],
+    "count": 2,
+    "create_time": 1774603543,
+    "update_time": 1774603543,
+    "_id": "doc-4a8177396dba616f755e86433be602c5"
+  },
+  "doc-ce960520eb9ce9e7976048e1ab3eef7d": {
+    "entity_names": [
+      "A54",
+      "淋球菌感染"
+    ],
+    "count": 2,
+    "create_time": 1774603566,
+    "update_time": 1774603566,
+    "_id": "doc-ce960520eb9ce9e7976048e1ab3eef7d"
+  },
+  "doc-d27455f856d24b3eaec8b69c0902227c": {
+    "entity_names": [
+      "性传播的衣原体疾病",
+      "A55-A56"
+    ],
+    "count": 2,
+    "create_time": 1774603578,
+    "update_time": 1774603578,
+    "_id": "doc-d27455f856d24b3eaec8b69c0902227c"
+  },
+  "doc-e545930bae8c7c3dafc1cc9363be8ae6": {
+    "entity_names": [
+      "其他主要为性传播模式的感染",
+      "A57-A64"
+    ],
+    "count": 2,
+    "create_time": 1774603589,
+    "update_time": 1774603589,
+    "_id": "doc-e545930bae8c7c3dafc1cc9363be8ae6"
+  },
+  "doc-868f9311c7afe3ff96163f4d70182ed3": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 5.0",
+      "回归热",
+      "A68",
+      "住院病人出院及死亡人次*-私家医院: 1.0",
+      "住院病人出院及死亡人次*-合计: 6.0"
+    ],
+    "count": 5,
+    "create_time": 1774603601,
+    "update_time": 1774603601,
+    "_id": "doc-868f9311c7afe3ff96163f4d70182ed3"
+  },
+  "doc-ad35b7fd39aeeb9189e05d4fcedf2013": {
+    "entity_names": [
+      "沙眼",
+      "A71"
+    ],
+    "count": 2,
+    "create_time": 1774603618,
+    "update_time": 1774603618,
+    "_id": "doc-ad35b7fd39aeeb9189e05d4fcedf2013"
+  },
+  "doc-897a840197a2c9b6e89174b9bcc1e8a0": {
+    "entity_names": [
+      "A75",
+      "斑疹伤寒"
+    ],
+    "count": 2,
+    "create_time": 1774603631,
+    "update_time": 1774603631,
+    "_id": "doc-897a840197a2c9b6e89174b9bcc1e8a0"
+  },
+  "doc-365d79e026bee682b3dc178cf00ffe8a": {
+    "entity_names": [
+      "A80",
+      "急性脊髓灰质炎_A80",
+      "急性脊髓灰质炎"
+    ],
+    "count": 3,
+    "create_time": 1774603649,
+    "update_time": 1774603649,
+    "_id": "doc-365d79e026bee682b3dc178cf00ffe8a"
+  },
+  "doc-53914a4ddb58e39f6a23d3a009722a3b": {
+    "entity_names": [
+      "狂犬病",
+      "狂犬病_A82",
+      "A82"
+    ],
+    "count": 3,
+    "create_time": 1774603664,
+    "update_time": 1774603664,
+    "_id": "doc-53914a4ddb58e39f6a23d3a009722a3b"
+  },
+  "doc-beae90815c6caf2b4b4bded2ab725c44": {
+    "entity_names": [
+      "病毒性脑炎",
+      "A83-A86",
+      "病毒性脑炎_A83-A86"
+    ],
+    "count": 3,
+    "create_time": 1774603679,
+    "update_time": 1774603679,
+    "_id": "doc-beae90815c6caf2b4b4bded2ab725c44"
+  },
+  "doc-706dd0c1ad0b1453e0b419d032726250": {
+    "entity_names": [
+      "ICD-10编码A95",
+      "黄热病",
+      "A95"
+    ],
+    "count": 3,
+    "create_time": 1774603693,
+    "update_time": 1774603693,
+    "_id": "doc-706dd0c1ad0b1453e0b419d032726250"
+  },
+  "doc-9d2701d5061680bdeb3af7d6992ab53c": {
+    "entity_names": [
+      "其他节肢动物媒介的病毒性发热和病毒性出血热_A90-A94_A96-A99",
+      "其他节肢动物媒介的病毒性发热和病毒性出血热",
+      "A90-A94, A96-A99"
+    ],
+    "count": 3,
+    "create_time": 1774603713,
+    "update_time": 1774603713,
+    "_id": "doc-9d2701d5061680bdeb3af7d6992ab53c"
+  },
+  "doc-6e0a095d8bc24481c826a37262faa590": {
+    "entity_names": [
+      "疱疹病毒感染",
+      "B00"
+    ],
+    "count": 2,
+    "create_time": 1774603723,
+    "update_time": 1774603723,
+    "_id": "doc-6e0a095d8bc24481c826a37262faa590"
+  },
+  "doc-984129e2b22960e300b528d28a622e08": {
+    "entity_names": [
+      "B01-B02",
+      "水痘和带状疱疹",
+      "1858.0",
+      "1672.0"
+    ],
+    "count": 4,
+    "create_time": 1774603735,
+    "update_time": 1774603735,
+    "_id": "doc-984129e2b22960e300b528d28a622e08"
+  },
+  "doc-99d0f3d7472f6b3ef6c8e6a2c596d6a6": {
+    "entity_names": [
+      "B05",
+      "麻疹"
+    ],
+    "count": 2,
+    "create_time": 1774603748,
+    "update_time": 1774603748,
+    "_id": "doc-99d0f3d7472f6b3ef6c8e6a2c596d6a6"
+  },
+  "doc-26e47b94f6d363170da4c564d5c522a2": {
+    "entity_names": [
+      "0.0(惩教署辖下医院)",
+      "B06",
+      "风疹-B06",
+      "0.0(男性死亡)",
+      "0.0(性别不详死亡)",
+      "0.0(医院管理局辖下医院)",
+      "0.0(合计-住院)",
+      "0.0(女性死亡)",
+      "0.0(合计-死亡)",
+      "风疹",
+      "0.0(私家医院)"
+    ],
+    "count": 11,
+    "create_time": 1774603761,
+    "update_time": 1774603761,
+    "_id": "doc-26e47b94f6d363170da4c564d5c522a2"
+  },
+  "doc-77a4dd94e751698b4d6d26c727fb1317": {
+    "entity_names": [
+      "急性甲型肝炎",
+      "B15",
+      "急性甲型肝炎_B15"
+    ],
+    "count": 3,
+    "create_time": 1774603775,
+    "update_time": 1774603775,
+    "_id": "doc-77a4dd94e751698b4d6d26c727fb1317"
+  },
+  "doc-5d591e3ab57107c4ca3f77e53bd38653": {
+    "entity_names": [
+      "急性乙型肝炎",
+      "B16"
+    ],
+    "count": 2,
+    "create_time": 1774603787,
+    "update_time": 1774603787,
+    "_id": "doc-5d591e3ab57107c4ca3f77e53bd38653"
+  },
+  "doc-332e3970556bb86b923e2bcc5531cd4d": {
+    "entity_names": [
+      "其他急性病毒性肝炎",
+      "B17"
+    ],
+    "count": 2,
+    "create_time": 1774603798,
+    "update_time": 1774603798,
+    "_id": "doc-332e3970556bb86b923e2bcc5531cd4d"
+  },
+  "doc-5ae836e6d854b560e8858e6f56449c83": {
+    "entity_names": [
+      "慢性病毒性肝炎",
+      "B18"
+    ],
+    "count": 2,
+    "create_time": 1774603809,
+    "update_time": 1774603809,
+    "_id": "doc-5ae836e6d854b560e8858e6f56449c83"
+  },
+  "doc-65625254af2bc7fcf738c9a2285b4b7f": {
+    "entity_names": [
+      "未特指的病毒性肝炎",
+      "B19"
+    ],
+    "count": 2,
+    "create_time": 1774603820,
+    "update_time": 1774603820,
+    "_id": "doc-65625254af2bc7fcf738c9a2285b4b7f"
+  },
+  "doc-1b0631692264c1b2812be5988d4d016e": {
+    "entity_names": [
+      "B20-B24",
+      "人类免疫缺陷病毒病"
+    ],
+    "count": 2,
+    "create_time": 1774603831,
+    "update_time": 1774603831,
+    "_id": "doc-1b0631692264c1b2812be5988d4d016e"
+  },
+  "doc-5fbea190109fbedfdaca41bf19588e11": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 4.0",
+      "住院病人出院及死亡人次*-合计: 5.0",
+      "ICD-10编码: B26",
+      "B26",
+      "流行性腮腺炎"
+    ],
+    "count": 5,
+    "create_time": 1774603844,
+    "update_time": 1774603844,
+    "_id": "doc-5fbea190109fbedfdaca41bf19588e11"
+  },
+  "doc-80fbe61fe934c54ac32bb87189c64cc5": {
+    "entity_names": [
+      "3328.0",
+      "A81, A87-A89, B03-B04, B07-B09, B25, B27-B34",
+      "其他病毒性疾病",
+      "20881.0",
+      "17553.0"
+    ],
+    "count": 5,
+    "create_time": 1774603856,
+    "update_time": 1774603856,
+    "_id": "doc-80fbe61fe934c54ac32bb87189c64cc5"
+  },
+  "doc-a3327556cd95d4b6c6ef00aa1e7260ca": {
+    "entity_names": [
+      "B35-B49",
+      "霉菌病"
+    ],
+    "count": 2,
+    "create_time": 1774603867,
+    "update_time": 1774603867,
+    "_id": "doc-a3327556cd95d4b6c6ef00aa1e7260ca"
+  },
+  "doc-26671edea3079a635a7a86cdcfc7acf0": {
+    "entity_names": [
+      "B50-B54",
+      "疟疾"
+    ],
+    "count": 2,
+    "create_time": 1774603878,
+    "update_time": 1774603878,
+    "_id": "doc-26671edea3079a635a7a86cdcfc7acf0"
+  },
+  "doc-6c793ae505a2ec2c0c9ffcba0a8e76d3": {
+    "entity_names": [
+      "B55",
+      "利什曼病"
+    ],
+    "count": 2,
+    "create_time": 1774603897,
+    "update_time": 1774603897,
+    "_id": "doc-6c793ae505a2ec2c0c9ffcba0a8e76d3"
+  },
+  "doc-58a4ea3e69ef4f26dc87c1770e1c9ec1": {
+    "entity_names": [
+      "B56-B57",
+      "锥虫病"
+    ],
+    "count": 2,
+    "create_time": 1774603914,
+    "update_time": 1774603914,
+    "_id": "doc-58a4ea3e69ef4f26dc87c1770e1c9ec1"
+  },
+  "doc-6ad02f3bd6f285e0f04c083530ec7d2b": {
+    "entity_names": [
+      "血吸虫病",
+      "B65"
+    ],
+    "count": 2,
+    "create_time": 1774603926,
+    "update_time": 1774603926,
+    "_id": "doc-6ad02f3bd6f285e0f04c083530ec7d2b"
+  },
+  "doc-1f3b877a6a22b2ccf350fd65709bb375": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 9.0",
+      "ICD-10编码: B66",
+      "B66",
+      "其他吸虫感染",
+      "住院病人出院及死亡人次*-合计: 10.0"
+    ],
+    "count": 5,
+    "create_time": 1774603943,
+    "update_time": 1774603943,
+    "_id": "doc-1f3b877a6a22b2ccf350fd65709bb375"
+  },
+  "doc-cee9bb110d32f2cb893ad1242a944aa4": {
+    "entity_names": [
+      "棘球蚴病",
+      "B67"
+    ],
+    "count": 2,
+    "create_time": 1774603956,
+    "update_time": 1774603956,
+    "_id": "doc-cee9bb110d32f2cb893ad1242a944aa4"
+  },
+  "doc-ca178192060aad4bb88d07ddb8795357": {
+    "entity_names": [
+      "B72",
+      "麦地那丝虫病"
+    ],
+    "count": 2,
+    "create_time": 1774603962,
+    "update_time": 1774603962,
+    "_id": "doc-ca178192060aad4bb88d07ddb8795357"
+  },
+  "doc-1ae5b361f73a0fbc395395050dff2f7f": {
+    "entity_names": [
+      "盘尾丝虫病",
+      "B73"
+    ],
+    "count": 2,
+    "create_time": 1774603976,
+    "update_time": 1774603976,
+    "_id": "doc-1ae5b361f73a0fbc395395050dff2f7f"
+  },
+  "doc-81ab66781df534614232b63c3c0bad8b": {
+    "entity_names": [
+      "丝虫病",
+      "B74"
+    ],
+    "count": 2,
+    "create_time": 1774603988,
+    "update_time": 1774603988,
+    "_id": "doc-81ab66781df534614232b63c3c0bad8b"
+  },
+  "doc-1d74df80c24a0df583c5d95f50d905a1": {
+    "entity_names": [
+      "B76",
+      "钩虫病"
+    ],
+    "count": 2,
+    "create_time": 1774604001,
+    "update_time": 1774604001,
+    "_id": "doc-1d74df80c24a0df583c5d95f50d905a1"
+  },
+  "doc-736b10d7efa6b0a9f95eea4af3f9b565": {
+    "entity_names": [
+      "B68-B71, B75, B77-B83",
+      "其他蠕虫病"
+    ],
+    "count": 2,
+    "create_time": 1774604012,
+    "update_time": 1774604012,
+    "_id": "doc-736b10d7efa6b0a9f95eea4af3f9b565"
+  },
+  "doc-ffb144cb64d9a28d3bea4ab19d154ec3": {
+    "entity_names": [
+      "结核病后遗症",
+      "B90"
+    ],
+    "count": 2,
+    "create_time": 1774604027,
+    "update_time": 1774604027,
+    "_id": "doc-ffb144cb64d9a28d3bea4ab19d154ec3"
+  },
+  "doc-a15799aaf7bbfa51880061ad12e22a70": {
+    "entity_names": [
+      "B91",
+      "脊髓灰质炎后遗症"
+    ],
+    "count": 2,
+    "create_time": 1774604040,
+    "update_time": 1774604040,
+    "_id": "doc-a15799aaf7bbfa51880061ad12e22a70"
+  },
+  "doc-85c532da4f82de2388c80b7393c8c891": {
+    "entity_names": [
+      "麻风后遗症",
+      "B92"
+    ],
+    "count": 2,
+    "create_time": 1774604053,
+    "update_time": 1774604053,
+    "_id": "doc-85c532da4f82de2388c80b7393c8c891"
+  },
+  "doc-65fccdff980f701583cbba2744bfc373": {
+    "entity_names": [
+      "其他传染病和寄生虫病",
+      "A65-A67, A69-A70, A74, A77-A79, B58-B64, B85-B89, B94, B98-B99"
+    ],
+    "count": 2,
+    "create_time": 1774604071,
+    "update_time": 1774604071,
+    "_id": "doc-65fccdff980f701583cbba2744bfc373"
+  },
+  "doc-a1ab20738ba2f74500ba48772f6b2ae2": {
+    "entity_names": [
+      "鼻咽恶性肿瘤",
+      "7267.0",
+      "C11",
+      "6852.0"
+    ],
+    "count": 4,
+    "create_time": 1774604086,
+    "update_time": 1774604086,
+    "_id": "doc-a1ab20738ba2f74500ba48772f6b2ae2"
+  },
+  "doc-d1a62e26298ae1318d6f188e9f9c577c": {
+    "entity_names": [
+      "3474.0",
+      "C00-C10, C12-C14",
+      "唇、口腔和咽(鼻咽除外)恶性肿瘤",
+      "3025.0"
+    ],
+    "count": 4,
+    "create_time": 1774604100,
+    "update_time": 1774604100,
+    "_id": "doc-d1a62e26298ae1318d6f188e9f9c577c"
+  },
+  "doc-2165b68fe96f03b38bd6d1899ef49d25": {
+    "entity_names": [
+      "食管恶性肿瘤",
+      "2309.0",
+      "1999.0",
+      "C15"
+    ],
+    "count": 4,
+    "create_time": 1774604112,
+    "update_time": 1774604112,
+    "_id": "doc-2165b68fe96f03b38bd6d1899ef49d25"
+  },
+  "doc-368c9a43d2977ec3be9c15d9b2fc05ce": {
+    "entity_names": [
+      "4968.0",
+      "5707.0",
+      "胃恶性肿瘤",
+      "C16"
+    ],
+    "count": 4,
+    "create_time": 1774604122,
+    "update_time": 1774604122,
+    "_id": "doc-368c9a43d2977ec3be9c15d9b2fc05ce"
+  },
+  "doc-8a4b48bec43af2a49775290db117abbb": {
+    "entity_names": [
+      "1593.0",
+      "结肠恶性肿瘤",
+      "20805.0",
+      "1791.0",
+      "19014.0",
+      "C18"
+    ],
+    "count": 6,
+    "create_time": 1774604137,
+    "update_time": 1774604137,
+    "_id": "doc-8a4b48bec43af2a49775290db117abbb"
+  },
+  "doc-b9ae216afc95db5f8197cba9ffcf9959": {
+    "entity_names": [
+      "12713.0",
+      "C19-C21",
+      "11802.0",
+      "直肠乙状结肠连接处、直肠、肛门和肛管恶性肿瘤"
+    ],
+    "count": 4,
+    "create_time": 1774604150,
+    "update_time": 1774604150,
+    "_id": "doc-b9ae216afc95db5f8197cba9ffcf9959"
+  },
+  "doc-9c51ddabf5fb435ba818f5b2328518fb": {
+    "entity_names": [
+      "9627.0",
+      "10910.0",
+      "1283.0",
+      "肝和肝内胆管恶性肿瘤",
+      "1031.0",
+      "C22",
+      "1408.0"
+    ],
+    "count": 7,
+    "create_time": 1774604162,
+    "update_time": 1774604162,
+    "_id": "doc-9c51ddabf5fb435ba818f5b2328518fb"
+  },
+  "doc-4cf9a8d1951d61ab48528e7740ac8028": {
+    "entity_names": [
+      "5983.0",
+      "C25",
+      "1241.0",
+      "胰恶性肿瘤",
+      "7224.0"
+    ],
+    "count": 5,
+    "create_time": 1774604172,
+    "update_time": 1774604172,
+    "_id": "doc-4cf9a8d1951d61ab48528e7740ac8028"
+  },
+  "doc-867bd352afa479e042414dfc9a899ff9": {
+    "entity_names": [
+      "C17, C23-C24, C26",
+      "2536.0",
+      "2764.0",
+      "消化器官其他恶性肿瘤"
+    ],
+    "count": 4,
+    "create_time": 1774604189,
+    "update_time": 1774604189,
+    "_id": "doc-867bd352afa479e042414dfc9a899ff9"
+  },
+  "doc-6ef7bd0256e7cf1006a53030f42dc81a": {
+    "entity_names": [
+      "C32",
+      "喉恶性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604202,
+    "update_time": 1774604202,
+    "_id": "doc-6ef7bd0256e7cf1006a53030f42dc81a"
+  },
+  "doc-4a15a6f7495c7c96efccbbf223ecf90f": {
+    "entity_names": [
+      "气管、支气管和肺恶性肿瘤",
+      "2476.0",
+      "3320.0",
+      "1404.0",
+      "C33-C34",
+      "38655.0",
+      "3880.0",
+      "35335.0"
+    ],
+    "count": 8,
+    "create_time": 1774604213,
+    "update_time": 1774604213,
+    "_id": "doc-4a15a6f7495c7c96efccbbf223ecf90f"
+  },
+  "doc-f161c133a99349b9e315d600ea304449": {
+    "entity_names": [
+      "1137.0",
+      "呼吸和胸腔内器官其他恶性肿瘤",
+      "C30-C31, C37-C39"
+    ],
+    "count": 3,
+    "create_time": 1774604227,
+    "update_time": 1774604227,
+    "_id": "doc-f161c133a99349b9e315d600ea304449"
+  },
+  "doc-ab20c4aeadee3c53644556e50e2a053a": {
+    "entity_names": [
+      "C40-C41",
+      "骨和软骨恶性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604249,
+    "update_time": 1774604249,
+    "_id": "doc-ab20c4aeadee3c53644556e50e2a053a"
+  },
+  "doc-7d8fc75fa71acbf8f2afd9e9d282526c": {
+    "entity_names": [
+      "皮肤恶性黑色素瘤",
+      "C43"
+    ],
+    "count": 2,
+    "create_time": 1774604266,
+    "update_time": 1774604266,
+    "_id": "doc-7d8fc75fa71acbf8f2afd9e9d282526c"
+  },
+  "doc-12b1dd90ebf5c8be1c61749c6fc2c13a": {
+    "entity_names": [
+      "C44",
+      "1548.0",
+      "1333.0",
+      "皮肤其他恶性肿瘤"
+    ],
+    "count": 4,
+    "create_time": 1774604281,
+    "update_time": 1774604281,
+    "_id": "doc-12b1dd90ebf5c8be1c61749c6fc2c13a"
+  },
+  "doc-897450fd3bc21c4322394af9a660f39b": {
+    "entity_names": [
+      "3305.0",
+      "间皮组织和软组织恶性肿瘤",
+      "3802.0",
+      "C45-C49"
+    ],
+    "count": 4,
+    "create_time": 1774604291,
+    "update_time": 1774604291,
+    "_id": "doc-897450fd3bc21c4322394af9a660f39b"
+  },
+  "doc-601e95ebdbe7e8bc309f84e4943e147e": {
+    "entity_names": [
+      "4671.0",
+      "C50",
+      "乳房恶性肿瘤",
+      "47955.0",
+      "52626.0"
+    ],
+    "count": 5,
+    "create_time": 1774604306,
+    "update_time": 1774604306,
+    "_id": "doc-601e95ebdbe7e8bc309f84e4943e147e"
+  },
+  "doc-e1419054f7890abb85aa526e163be227": {
+    "entity_names": [
+      "4258.0",
+      "宫颈恶性肿瘤",
+      "3818.0",
+      "C53"
+    ],
+    "count": 4,
+    "create_time": 1774604321,
+    "update_time": 1774604321,
+    "_id": "doc-e1419054f7890abb85aa526e163be227"
+  },
+  "doc-501fc5f68226117f846122a163610187": {
+    "entity_names": [
+      "C54-C55",
+      "5478.0",
+      "子宫其他和未特指部位的恶性肿瘤",
+      "4632.0"
+    ],
+    "count": 4,
+    "create_time": 1774604334,
+    "update_time": 1774604334,
+    "_id": "doc-501fc5f68226117f846122a163610187"
+  },
+  "doc-668179379eb713dbd62dd10d67ba92f1": {
+    "entity_names": [
+      "女性生殖器官其他恶性肿瘤",
+      "5929.0",
+      "C51-C52, C56-C58",
+      "6795.0"
+    ],
+    "count": 4,
+    "create_time": 1774604346,
+    "update_time": 1774604346,
+    "_id": "doc-668179379eb713dbd62dd10d67ba92f1"
+  },
+  "doc-039231f982d82409f977683797627ecd": {
+    "entity_names": [
+      "6950.0",
+      "前列腺恶性肿瘤",
+      "C61",
+      "5755.0",
+      "1195.0"
+    ],
+    "count": 5,
+    "create_time": 1774604365,
+    "update_time": 1774604365,
+    "_id": "doc-039231f982d82409f977683797627ecd"
+  },
+  "doc-d1f685d34cada6bb30995ca6b39fb414": {
+    "entity_names": [
+      "C60, C62-C63",
+      "男性生殖器官其他恶性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604379,
+    "update_time": 1774604379,
+    "_id": "doc-d1f685d34cada6bb30995ca6b39fb414"
+  },
+  "doc-b7f2c10e77f6d2c6ece4cd1393344b78": {
+    "entity_names": [
+      "膀胱恶性肿瘤_C67",
+      "C67",
+      "膀胱恶性肿瘤",
+      "5635.0",
+      "4927.0"
+    ],
+    "count": 5,
+    "create_time": 1774604395,
+    "update_time": 1774604395,
+    "_id": "doc-b7f2c10e77f6d2c6ece4cd1393344b78"
+  },
+  "doc-d63403054cc74c05f4f02a5e89a217f1": {
+    "entity_names": [
+      "泌尿道其他恶性肿瘤",
+      "3048.0",
+      "3556.0",
+      "C64-C66, C68"
+    ],
+    "count": 4,
+    "create_time": 1774604410,
+    "update_time": 1774604410,
+    "_id": "doc-d63403054cc74c05f4f02a5e89a217f1"
+  },
+  "doc-ae0d8dd8683eefeabfb5105b2a9ee402": {
+    "entity_names": [
+      "C69",
+      "眼和附器恶性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604421,
+    "update_time": 1774604421,
+    "_id": "doc-ae0d8dd8683eefeabfb5105b2a9ee402"
+  },
+  "doc-d2144579a9578be7c32adf622a0ba0e7": {
+    "entity_names": [
+      "C71",
+      "脑恶性肿瘤",
+      "1086.0",
+      "1313.0"
+    ],
+    "count": 4,
+    "create_time": 1774604433,
+    "update_time": 1774604433,
+    "_id": "doc-d2144579a9578be7c32adf622a0ba0e7"
+  },
+  "doc-88cd5060329ce11fc4f6bd6f8d9cfc71": {
+    "entity_names": [
+      "C70, C72",
+      "中枢神经系统其他部位的恶性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604450,
+    "update_time": 1774604450,
+    "_id": "doc-88cd5060329ce11fc4f6bd6f8d9cfc71"
+  },
+  "doc-560354bb8d6343269968ac866431fe8c": {
+    "entity_names": [
+      "C73-C80, C97",
+      "其他、不明确、继发、未特指及多部位的恶性肿瘤",
+      "6896.0",
+      "3457.0",
+      "10353.0"
+    ],
+    "count": 5,
+    "create_time": 1774604462,
+    "update_time": 1774604462,
+    "_id": "doc-560354bb8d6343269968ac866431fe8c"
+  },
+  "doc-c88ae190f172ff14eecc5a9046c92ce5": {
+    "entity_names": [
+      "C81",
+      "1288.0",
+      "1154.0",
+      "霍奇金[何杰金]淋巴瘤"
+    ],
+    "count": 4,
+    "create_time": 1774604474,
+    "update_time": 1774604474,
+    "_id": "doc-c88ae190f172ff14eecc5a9046c92ce5"
+  },
+  "doc-8aea09a87d391025096d4e38982b6096": {
+    "entity_names": [
+      "14834.0",
+      "15914.0",
+      "C82-C85",
+      "1080.0",
+      "非霍奇金淋巴瘤"
+    ],
+    "count": 5,
+    "create_time": 1774604486,
+    "update_time": 1774604486,
+    "_id": "doc-8aea09a87d391025096d4e38982b6096"
+  },
+  "doc-60dd57788de875ac633dcabcb476532a": {
+    "entity_names": [
+      "18751.0",
+      "白血病",
+      "C91-C95",
+      "19321.0"
+    ],
+    "count": 4,
+    "create_time": 1774604499,
+    "update_time": 1774604499,
+    "_id": "doc-60dd57788de875ac633dcabcb476532a"
+  },
+  "doc-7d3d7400e917cb7c48745add33949499": {
+    "entity_names": [
+      "C86, C88-C90, C96",
+      "17665.0",
+      "17254.0",
+      "淋巴、造血和有关组织其他恶性肿瘤"
+    ],
+    "count": 4,
+    "create_time": 1774604512,
+    "update_time": 1774604512,
+    "_id": "doc-7d3d7400e917cb7c48745add33949499"
+  },
+  "doc-8ea3e5994ad6fc98d533ba31555145c2": {
+    "entity_names": [
+      "D06",
+      "宫颈原位癌"
+    ],
+    "count": 2,
+    "create_time": 1774604523,
+    "update_time": 1774604523,
+    "_id": "doc-8ea3e5994ad6fc98d533ba31555145c2"
+  },
+  "doc-5e03d5d5155922479524014d2650e985": {
+    "entity_names": [
+      "1340.0",
+      "皮肤良性肿瘤_D22-D23",
+      "D22-D23",
+      "1734.0",
+      "皮肤良性肿瘤"
+    ],
+    "count": 5,
+    "create_time": 1774604545,
+    "update_time": 1774604545,
+    "_id": "doc-5e03d5d5155922479524014d2650e985"
+  },
+  "doc-1de46eb82cd07183541ec76660e08be6": {
+    "entity_names": [
+      "乳房良性肿瘤",
+      "D24"
+    ],
+    "count": 2,
+    "create_time": 1774604560,
+    "update_time": 1774604560,
+    "_id": "doc-1de46eb82cd07183541ec76660e08be6"
+  },
+  "doc-e94e3d7dd8489c537c0c7ef0a99e5af0": {
+    "entity_names": [
+      "3813.0",
+      "D25",
+      "3307.0",
+      "子宫平滑肌瘤",
+      "7120.0",
+      "子宫平滑肌瘤_D25"
+    ],
+    "count": 6,
+    "create_time": 1774604576,
+    "update_time": 1774604576,
+    "_id": "doc-e94e3d7dd8489c537c0c7ef0a99e5af0"
+  },
+  "doc-3d95427a80d9c5a214779a31a8da4fec": {
+    "entity_names": [
+      "卵巢良性肿瘤",
+      "1108.0",
+      "D27"
+    ],
+    "count": 3,
+    "create_time": 1774604586,
+    "update_time": 1774604586,
+    "_id": "doc-3d95427a80d9c5a214779a31a8da4fec"
+  },
+  "doc-15953feb1de3b48222980ed52bee3b90": {
+    "entity_names": [
+      "D30",
+      "泌尿器官良性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604604,
+    "update_time": 1774604604,
+    "_id": "doc-15953feb1de3b48222980ed52bee3b90"
+  },
+  "doc-eeb1b3aee54e80e0a02a1fe7aee6f8bd": {
+    "entity_names": [
+      "D33",
+      "脑和中枢神经系统其他部位的良性肿瘤"
+    ],
+    "count": 2,
+    "create_time": 1774604622,
+    "update_time": 1774604622,
+    "_id": "doc-eeb1b3aee54e80e0a02a1fe7aee6f8bd"
+  },
+  "doc-3f2c436fc508accd78245330b984b088": {
+    "entity_names": [
+      "16511.0",
+      "D00-D05, D07-D21, D26, D28-D29, D31-D32, D34-D48",
+      "44728.0",
+      "其他原位、良性、动态未定或动态未知的肿瘤",
+      "28217.0"
+    ],
+    "count": 5,
+    "create_time": 1774604636,
+    "update_time": 1774604636,
+    "_id": "doc-3f2c436fc508accd78245330b984b088"
+  },
+  "doc-225b84b906b2346a9a756314dd887ab1": {
+    "entity_names": [
+      "缺铁性贫血",
+      "4400.0",
+      "D50",
+      "4711.0"
+    ],
+    "count": 4,
+    "create_time": 1774604649,
+    "update_time": 1774604649,
+    "_id": "doc-225b84b906b2346a9a756314dd887ab1"
+  },
+  "doc-c91fa4e8284c6801218aaad2f7157187": {
+    "entity_names": [
+      "22405.0",
+      "其他贫血",
+      "21553.0",
+      "D51-D64"
+    ],
+    "count": 4,
+    "create_time": 1774604661,
+    "update_time": 1774604661,
+    "_id": "doc-c91fa4e8284c6801218aaad2f7157187"
+  },
+  "doc-98442460f88ae85bf4c41413d18511ec": {
+    "entity_names": [
+      "6828.0",
+      "血液和造血器官的出血性情况及其他疾病",
+      "D65-D77",
+      "6430.0"
+    ],
+    "count": 4,
+    "create_time": 1774604673,
+    "update_time": 1774604673,
+    "_id": "doc-98442460f88ae85bf4c41413d18511ec"
+  },
+  "doc-451a07900af3ac531d448af22e000ff8": {
+    "entity_names": [
+      "D80-D89",
+      "1343.0",
+      "1272.0",
+      "某些涉及免疫机制的疾患"
+    ],
+    "count": 4,
+    "create_time": 1774604686,
+    "update_time": 1774604686,
+    "_id": "doc-451a07900af3ac531d448af22e000ff8"
+  },
+  "doc-af9861a558c14856e169b5ced8987729": {
+    "entity_names": [
+      "E00-E02",
+      "碘缺乏相关性甲状腺疾患"
+    ],
+    "count": 2,
+    "create_time": 1774604699,
+    "update_time": 1774604699,
+    "_id": "doc-af9861a558c14856e169b5ced8987729"
+  },
+  "doc-04091d65c16d60d4f0096c7129b9503d": {
+    "entity_names": [
+      "E05",
+      "3243.0",
+      "3984.0",
+      "甲状腺毒症"
+    ],
+    "count": 4,
+    "create_time": 1774604707,
+    "update_time": 1774604707,
+    "_id": "doc-04091d65c16d60d4f0096c7129b9503d"
+  },
+  "doc-41e0bfdaca483f0dabbc22266e16c49a": {
+    "entity_names": [
+      "4139.0",
+      "甲状腺其他疾患",
+      "1374.0",
+      "E03-E04, E06-E07",
+      "5519.0"
+    ],
+    "count": 5,
+    "create_time": 1774604721,
+    "update_time": 1774604721,
+    "_id": "doc-41e0bfdaca483f0dabbc22266e16c49a"
+  },
+  "doc-d94334d9aade19dce048b1272c4b3ae6": {
+    "entity_names": [
+      "11975.0",
+      "E10-E14",
+      "糖尿病",
+      "11373.0"
+    ],
+    "count": 4,
+    "create_time": 1774604736,
+    "update_time": 1774604736,
+    "_id": "doc-d94334d9aade19dce048b1272c4b3ae6"
+  },
+  "doc-9025c6d199232f0d51718b7f849e6fda": {
+    "entity_names": [
+      "E40-E46",
+      "营养不良"
+    ],
+    "count": 2,
+    "create_time": 1774604745,
+    "update_time": 1774604745,
+    "_id": "doc-9025c6d199232f0d51718b7f849e6fda"
+  },
+  "doc-04f35c94552fabe06655e596a38c333a": {
+    "entity_names": [
+      "E50",
+      "维生素A缺乏"
+    ],
+    "count": 2,
+    "create_time": 1774604760,
+    "update_time": 1774604760,
+    "_id": "doc-04f35c94552fabe06655e596a38c333a"
+  },
+  "doc-5864b602becd3e481a0a3f77b5d8391d": {
+    "entity_names": [
+      "E51-E56",
+      "其他维生素缺乏"
+    ],
+    "count": 2,
+    "create_time": 1774604775,
+    "update_time": 1774604775,
+    "_id": "doc-5864b602becd3e481a0a3f77b5d8391d"
+  },
+  "doc-8b2824583d39e79f66b95c13c01db5e8": {
+    "entity_names": [
+      "营养不良和其他营养缺乏的后遗症",
+      "E64"
+    ],
+    "count": 2,
+    "create_time": 1774604787,
+    "update_time": 1774604787,
+    "_id": "doc-8b2824583d39e79f66b95c13c01db5e8"
+  },
+  "doc-6fbeb30c2b14df546473972f2ed5ecac": {
+    "entity_names": [
+      "1832.0",
+      "肥胖",
+      "1817.0",
+      "E66"
+    ],
+    "count": 4,
+    "create_time": 1774604801,
+    "update_time": 1774604801,
+    "_id": "doc-6fbeb30c2b14df546473972f2ed5ecac"
+  },
+  "doc-34f65e0623e90f11e4397e9806e89b95": {
+    "entity_names": [
+      "E86",
+      "1833.0",
+      "血容量缺失"
+    ],
+    "count": 3,
+    "create_time": 1774604813,
+    "update_time": 1774604813,
+    "_id": "doc-34f65e0623e90f11e4397e9806e89b95"
+  },
+  "doc-c7cf2131c6d65f9b3a6659dfe9b705ff": {
+    "entity_names": [
+      "其他内分泌、营养和代谢疾患",
+      "33414.0",
+      "E15-E35, E58-E63, E65, E67-E85, E87-E90",
+      "32527.0"
+    ],
+    "count": 4,
+    "create_time": 1774604829,
+    "update_time": 1774604829,
+    "_id": "doc-c7cf2131c6d65f9b3a6659dfe9b705ff"
+  },
+  "doc-720a1581cd5c4fb8f73311157d253eaa": {
+    "entity_names": [
+      "5582.0",
+      "5436.0",
+      "F00-F03",
+      "认知障碍症",
+      "1537.0"
+    ],
+    "count": 5,
+    "create_time": 1774604840,
+    "update_time": 1774604840,
+    "_id": "doc-720a1581cd5c4fb8f73311157d253eaa"
+  },
+  "doc-3b9d9d5266053f4c0424422a7ce76e86": {
+    "entity_names": [
+      "由于使用酒精引起的精神和行为障碍",
+      "F10",
+      "1610.0"
+    ],
+    "count": 3,
+    "create_time": 1774604851,
+    "update_time": 1774604851,
+    "_id": "doc-3b9d9d5266053f4c0424422a7ce76e86"
+  },
+  "doc-250c3688a41e874237cdba2d85030534": {
+    "entity_names": [
+      "F11-F19",
+      "2756.0",
+      "使用其他精神活性物质引起的精神和行为障碍",
+      "4448.0",
+      "1685.0"
+    ],
+    "count": 5,
+    "create_time": 1774604862,
+    "update_time": 1774604862,
+    "_id": "doc-250c3688a41e874237cdba2d85030534"
+  },
+  "doc-1cd293dc6f47076d49b4e3ce2926dca0": {
+    "entity_names": [
+      "F20-F29",
+      "精神分裂症、分裂型障碍和妄想性障碍",
+      "9094.0",
+      "9337.0"
+    ],
+    "count": 4,
+    "create_time": 1774604876,
+    "update_time": 1774604876,
+    "_id": "doc-1cd293dc6f47076d49b4e3ce2926dca0"
+  },
+  "doc-202e6cf2b805071206d64bd75b8b9b11": {
+    "entity_names": [
+      "5978.0",
+      "心境[情感]障碍",
+      "F30-F39",
+      "6161.0"
+    ],
+    "count": 4,
+    "create_time": 1774604885,
+    "update_time": 1774604885,
+    "_id": "doc-202e6cf2b805071206d64bd75b8b9b11"
+  },
+  "doc-96b97af441f315c01ae01f7fa4bf5d72": {
+    "entity_names": [
+      "5090.0",
+      "神经症性、应激相关的以及躯体形式的障碍",
+      "5162.0",
+      "F40-F48"
+    ],
+    "count": 4,
+    "create_time": 1774604898,
+    "update_time": 1774604898,
+    "_id": "doc-96b97af441f315c01ae01f7fa4bf5d72"
+  },
+  "doc-3de2fb1950260a19a02995b30e7aaa1c": {
+    "entity_names": [
+      "精神发育迟滞",
+      "2374.0",
+      "F70-F79",
+      "2375.0"
+    ],
+    "count": 4,
+    "create_time": 1774604910,
+    "update_time": 1774604910,
+    "_id": "doc-3de2fb1950260a19a02995b30e7aaa1c"
+  },
+  "doc-c38a7f09da55956cbf3e45eff2bf90b8": {
+    "entity_names": [
+      "F04-F09, F50-F69, F80-F99",
+      "4966.0",
+      "4553.0",
+      "其他精神和行为障碍"
+    ],
+    "count": 4,
+    "create_time": 1774604925,
+    "update_time": 1774604925,
+    "_id": "doc-c38a7f09da55956cbf3e45eff2bf90b8"
+  },
+  "doc-49008b2418de8e4d06c07b2f157a009d": {
+    "entity_names": [
+      "1126.0",
+      "中枢神经系统炎性疾病",
+      "G00-G09",
+      "1009.0",
+      "中枢神经系统炎性疾病_G00-G09"
+    ],
+    "count": 5,
+    "create_time": 1774604938,
+    "update_time": 1774604938,
+    "_id": "doc-49008b2418de8e4d06c07b2f157a009d"
+  },
+  "doc-ddfb8f38c777b663610072ceffc40258": {
+    "entity_names": [
+      "帕金森病_G20",
+      "G20",
+      "帕金森病",
+      "1848.0",
+      "1748.0"
+    ],
+    "count": 5,
+    "create_time": 1774604950,
+    "update_time": 1774604950,
+    "_id": "doc-ddfb8f38c777b663610072ceffc40258"
+  },
+  "doc-3d6f180bf47e0941bfa553f2ec70755c": {
+    "entity_names": [
+      "G30",
+      "阿尔茨海默病"
+    ],
+    "count": 2,
+    "create_time": 1774604975,
+    "update_time": 1774604975,
+    "_id": "doc-3d6f180bf47e0941bfa553f2ec70755c"
+  },
+  "doc-3e281bf3d0b88cf5d814922de9562893": {
+    "entity_names": [
+      "多发性硬化",
+      "G35"
+    ],
+    "count": 2,
+    "create_time": 1774604986,
+    "update_time": 1774604986,
+    "_id": "doc-3e281bf3d0b88cf5d814922de9562893"
+  },
+  "doc-5b936994e91d3a69d83375d6ef45e9b9": {
+    "entity_names": [
+      "癫痫",
+      "2941.0",
+      "G40-G41",
+      "3163.0"
+    ],
+    "count": 4,
+    "create_time": 1774604999,
+    "update_time": 1774604999,
+    "_id": "doc-5b936994e91d3a69d83375d6ef45e9b9"
+  },
+  "doc-b51243ff4cf046b4e2461610078ceebf": {
+    "entity_names": [
+      "G43-G44",
+      "偏头痛和其他头痛综合症"
+    ],
+    "count": 2,
+    "create_time": 1774605017,
+    "update_time": 1774605017,
+    "_id": "doc-b51243ff4cf046b4e2461610078ceebf"
+  },
+  "doc-5d249f835915cbcfa42ea0a178028b25": {
+    "entity_names": [
+      "短暂性大脑缺血性发作和相关的综合症",
+      "2781.0",
+      "G45",
+      "2522.0"
+    ],
+    "count": 4,
+    "create_time": 1774605032,
+    "update_time": 1774605032,
+    "_id": "doc-5d249f835915cbcfa42ea0a178028b25"
+  },
+  "doc-b6b32c23d1c3ebdb3a8d48f3ca979dee": {
+    "entity_names": [
+      "神经、神经根和神经丛疾患",
+      "G50-G59",
+      "3814.0",
+      "2953.0"
+    ],
+    "count": 4,
+    "create_time": 1774605055,
+    "update_time": 1774605055,
+    "_id": "doc-b6b32c23d1c3ebdb3a8d48f3ca979dee"
+  },
+  "doc-53ca3e23615d4f2d03bd9c1862174a01": {
+    "entity_names": [
+      "大脑性麻痹[瘫痪]和其他麻痹[瘫痪]综合症",
+      "G80-G83"
+    ],
+    "count": 2,
+    "create_time": 1774605067,
+    "update_time": 1774605067,
+    "_id": "doc-53ca3e23615d4f2d03bd9c1862174a01"
+  },
+  "doc-6b5df51bdfaeb56dd3003c25040d0cd2": {
+    "entity_names": [
+      "神经系统其他疾患",
+      "20444.0",
+      "3645.0",
+      "G10-G14, G21-G26, G31-G32, G36-G37, G46-G47, G60-G73, G90-G99",
+      "16713.0"
+    ],
+    "count": 5,
+    "create_time": 1774605083,
+    "update_time": 1774605083,
+    "_id": "doc-6b5df51bdfaeb56dd3003c25040d0cd2"
+  },
+  "doc-f89c9921e10b1228c493cf03c3e946e3": {
+    "entity_names": [
+      "眼睑炎症",
+      "H00-H01"
+    ],
+    "count": 2,
+    "create_time": 1774605103,
+    "update_time": 1774605103,
+    "_id": "doc-f89c9921e10b1228c493cf03c3e946e3"
+  },
+  "doc-e57579f5acd22d97fd66257e4d3ce594": {
+    "entity_names": [
+      "结膜炎和结膜的其他疾患",
+      "1117.0",
+      "1189.0",
+      "H10-H13"
+    ],
+    "count": 4,
+    "create_time": 1774605117,
+    "update_time": 1774605117,
+    "_id": "doc-e57579f5acd22d97fd66257e4d3ce594"
+  },
+  "doc-0780c5492b76973bd0c818eaf74ca51f": {
+    "entity_names": [
+      "角膜炎以及巩膜和角膜的其他疾患",
+      "H15-H19"
+    ],
+    "count": 2,
+    "create_time": 1774605127,
+    "update_time": 1774605127,
+    "_id": "doc-0780c5492b76973bd0c818eaf74ca51f"
+  },
+  "doc-237318b3e3f44a750979ae2d4955eae6": {
+    "entity_names": [
+      "3536.0",
+      "白内障和晶状体的其他疾患",
+      "25256.0",
+      "H25-H28",
+      "28794.0"
+    ],
+    "count": 5,
+    "create_time": 1774605139,
+    "update_time": 1774605139,
+    "_id": "doc-237318b3e3f44a750979ae2d4955eae6"
+  },
+  "doc-baed5f5a8370da051313ab8997e21e13": {
+    "entity_names": [
+      "1554.0",
+      "1223.0",
+      "视网膜脱离及断裂",
+      "H33"
+    ],
+    "count": 4,
+    "create_time": 1774605156,
+    "update_time": 1774605156,
+    "_id": "doc-baed5f5a8370da051313ab8997e21e13"
+  },
+  "doc-9430c92606ea7106ccb65aff103fc8c7": {
+    "entity_names": [
+      "1859.0",
+      "H40-H42",
+      "青光眼",
+      "1658.0"
+    ],
+    "count": 4,
+    "create_time": 1774605168,
+    "update_time": 1774605168,
+    "_id": "doc-9430c92606ea7106ccb65aff103fc8c7"
+  },
+  "doc-baefdb4258601460a41faa0e5d88254d": {
+    "entity_names": [
+      "1198.0",
+      "斜视",
+      "1504.0",
+      "H49-H50"
+    ],
+    "count": 4,
+    "create_time": 1774605182,
+    "update_time": 1774605182,
+    "_id": "doc-baefdb4258601460a41faa0e5d88254d"
+  },
+  "doc-f0d0c32dad4dfecb0758f1d38916959d": {
+    "entity_names": [
+      "屈光和调节疾患",
+      "H52"
+    ],
+    "count": 2,
+    "create_time": 1774605193,
+    "update_time": 1774605193,
+    "_id": "doc-f0d0c32dad4dfecb0758f1d38916959d"
+  },
+  "doc-8ce2629c2786f17d5f8c000400e3798c": {
+    "entity_names": [
+      "视力损害包括盲(双眼或单眼)",
+      "H54"
+    ],
+    "count": 2,
+    "create_time": 1774605202,
+    "update_time": 1774605202,
+    "_id": "doc-8ce2629c2786f17d5f8c000400e3798c"
+  },
+  "doc-7c49beddde74ad35f14c1fb5e5d7f4fd": {
+    "entity_names": [
+      "12691.0",
+      "1476.0",
+      "眼和附器其他疾病",
+      "14169.0"
+    ],
+    "count": 4,
+    "create_time": 1774605214,
+    "update_time": 1774605214,
+    "_id": "doc-7c49beddde74ad35f14c1fb5e5d7f4fd"
+  },
+  "doc-208d43dc49aaf56674d385e731914e2c": {
+    "entity_names": [
+      "H65-H75",
+      "2114.0",
+      "2775.0",
+      "中耳炎以及中耳和乳突其他疾患"
+    ],
+    "count": 4,
+    "create_time": 1774605228,
+    "update_time": 1774605228,
+    "_id": "doc-208d43dc49aaf56674d385e731914e2c"
+  },
+  "doc-18d5b6edab7fe3fd0a9c69904dbbc475": {
+    "entity_names": [
+      "3337.0",
+      "听觉丧失",
+      "3175.0",
+      "H90-H91"
+    ],
+    "count": 4,
+    "create_time": 1774605238,
+    "update_time": 1774605238,
+    "_id": "doc-18d5b6edab7fe3fd0a9c69904dbbc475"
+  },
+  "doc-6011314d82fd1005983a2d3c960a7895": {
+    "entity_names": [
+      "3905.0",
+      "H60-H62, H80-H83, H92-H95",
+      "1590.0",
+      "中耳和乳突其他疾患",
+      "2315.0"
+    ],
+    "count": 5,
+    "create_time": 1774605251,
+    "update_time": 1774605251,
+    "_id": "doc-6011314d82fd1005983a2d3c960a7895"
+  },
+  "doc-dfd58ecf8f589d1a577a02b25e0f5193": {
+    "entity_names": [
+      "I00-I02",
+      "急性风湿热",
+      "急性风湿热_I00-I02"
+    ],
+    "count": 3,
+    "create_time": 1774605263,
+    "update_time": 1774605263,
+    "_id": "doc-dfd58ecf8f589d1a577a02b25e0f5193"
+  },
+  "doc-591d9d2812fb5c82be1fb9eb0e6a2181": {
+    "entity_names": [
+      "1802.0",
+      "慢性风湿性心脏病",
+      "I05-I09"
+    ],
+    "count": 3,
+    "create_time": 1774605276,
+    "update_time": 1774605276,
+    "_id": "doc-591d9d2812fb5c82be1fb9eb0e6a2181"
+  },
+  "doc-2747e0df75e53a4f8f500aa446edf67b": {
+    "entity_names": [
+      "18244.0",
+      "I10",
+      "1339.0",
+      "特发性(原发性)高血压"
+    ],
+    "count": 4,
+    "create_time": 1774605287,
+    "update_time": 1774605287,
+    "_id": "doc-2747e0df75e53a4f8f500aa446edf67b"
+  },
+  "doc-bee3fe3bf2775a0acfdb2a6fb9edf0df": {
+    "entity_names": [
+      "1097.0",
+      "高血压性心脏病",
+      "I11"
+    ],
+    "count": 3,
+    "create_time": 1774605298,
+    "update_time": 1774605298,
+    "_id": "doc-bee3fe3bf2775a0acfdb2a6fb9edf0df"
+  },
+  "doc-72ba5424c4cd9143c9739fcb800059ad": {
+    "entity_names": [
+      "高血压性肾脏病",
+      "I12"
+    ],
+    "count": 2,
+    "create_time": 1774605308,
+    "update_time": 1774605308,
+    "_id": "doc-72ba5424c4cd9143c9739fcb800059ad"
+  },
+  "doc-c518a7bb521931c370848ae7e026ad25": {
+    "entity_names": [
+      "高血压性心脏和肾脏病",
+      "I13"
+    ],
+    "count": 2,
+    "create_time": 1774605322,
+    "update_time": 1774605322,
+    "_id": "doc-c518a7bb521931c370848ae7e026ad25"
+  },
+  "doc-52dbe02af0e82d71c90306d48b079080": {
+    "entity_names": [
+      "继发性高血压",
+      "I15"
+    ],
+    "count": 2,
+    "create_time": 1774605334,
+    "update_time": 1774605334,
+    "_id": "doc-52dbe02af0e82d71c90306d48b079080"
+  },
+  "doc-43f34c3367fa45ea0e5cfbf81b0dda06": {
+    "entity_names": [
+      "I21-I22",
+      "急性心肌梗死",
+      "7186.0",
+      "1462.0",
+      "7453.0"
+    ],
+    "count": 5,
+    "create_time": 1774605346,
+    "update_time": 1774605346,
+    "_id": "doc-43f34c3367fa45ea0e5cfbf81b0dda06"
+  },
+  "doc-a2b0efc966c687d5f33c7d2e412dc9b2": {
+    "entity_names": [
+      "2648.0",
+      "9776.0",
+      "26785.0",
+      "17007.0",
+      "其他缺血性心脏病",
+      "I20, I23-I25"
+    ],
+    "count": 6,
+    "create_time": 1774605357,
+    "update_time": 1774605357,
+    "_id": "doc-a2b0efc966c687d5f33c7d2e412dc9b2"
+  },
+  "doc-0470cb47a5022fe14bb2cf0324f569e6": {
+    "entity_names": [
+      "全港登记死亡人数-合计: 102.0",
+      "I26",
+      "肺栓塞",
+      "ICD编码: I26",
+      "住院病人出院及死亡人次-私家医院: 72.0",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 996.0",
+      "全港登记死亡人数-男性: 43.0",
+      "全港登记死亡人数-女性: 59.0",
+      "住院病人出院及死亡人次-合计: 1068.0"
+    ],
+    "count": 9,
+    "create_time": 1774605370,
+    "update_time": 1774605370,
+    "_id": "doc-0470cb47a5022fe14bb2cf0324f569e6"
+  },
+  "doc-b3a4851dc7aaca2387fa5a1cddcbf485": {
+    "entity_names": [
+      "I44-I49",
+      "20554.0",
+      "传导疾患和心律失常",
+      "18606.0",
+      "1946.0"
+    ],
+    "count": 5,
+    "create_time": 1774605382,
+    "update_time": 1774605382,
+    "_id": "doc-b3a4851dc7aaca2387fa5a1cddcbf485"
+  },
+  "doc-afbe76c913e3529f10bf244c2c5a90e6": {
+    "entity_names": [
+      "19650.0",
+      "心力衰竭",
+      "1175.0",
+      "I50",
+      "18918.0"
+    ],
+    "count": 5,
+    "create_time": 1774605395,
+    "update_time": 1774605395,
+    "_id": "doc-afbe76c913e3529f10bf244c2c5a90e6"
+  },
+  "doc-c5eaa7666f5482288efd45c1bc7f4608": {
+    "entity_names": [
+      "7359.0",
+      "其他心脏病",
+      "I27-I43, I51-I52",
+      "6701.0"
+    ],
+    "count": 4,
+    "create_time": 1774605408,
+    "update_time": 1774605408,
+    "_id": "doc-c5eaa7666f5482288efd45c1bc7f4608"
+  },
+  "doc-6e534e071f844bfa2ee821cb570a9bd6": {
+    "entity_names": [
+      "7456.0",
+      "7707.0",
+      "I60-I62",
+      "颅内出血",
+      "1336.0"
+    ],
+    "count": 5,
+    "create_time": 1774605420,
+    "update_time": 1774605420,
+    "_id": "doc-6e534e071f844bfa2ee821cb570a9bd6"
+  },
+  "doc-ae760ae3c04c63b6ef128d7ec481afff": {
+    "entity_names": [
+      "9803.0",
+      "脑梗死",
+      "9301.0",
+      "I63"
+    ],
+    "count": 4,
+    "create_time": 1774605432,
+    "update_time": 1774605432,
+    "_id": "doc-ae760ae3c04c63b6ef128d7ec481afff"
+  },
+  "doc-fd5eb1dc74eda33d82358007ddf9a4b9": {
+    "entity_names": [
+      "4156.0",
+      "1018.0",
+      "I64",
+      "4497.0",
+      "中风，未特指为出血或梗死"
+    ],
+    "count": 5,
+    "create_time": 1774605445,
+    "update_time": 1774605445,
+    "_id": "doc-fd5eb1dc74eda33d82358007ddf9a4b9"
+  },
+  "doc-2363bc76eb904bc5bc37bca5cd3dd863": {
+    "entity_names": [
+      "4062.0",
+      "其他脑血管病",
+      "I65-I69",
+      "4590.0"
+    ],
+    "count": 4,
+    "create_time": 1774605455,
+    "update_time": 1774605455,
+    "_id": "doc-2363bc76eb904bc5bc37bca5cd3dd863"
+  },
+  "doc-a02cbaeee54f3d3d8ab3122e039389d4": {
+    "entity_names": [
+      "I70",
+      "动脉粥样硬化症"
+    ],
+    "count": 2,
+    "create_time": 1774605474,
+    "update_time": 1774605474,
+    "_id": "doc-a02cbaeee54f3d3d8ab3122e039389d4"
+  },
+  "doc-39b01384728e672c7f534796c0f53720": {
+    "entity_names": [
+      "I73",
+      "1054.0",
+      "其他周围血管疾病"
+    ],
+    "count": 3,
+    "create_time": 1774605488,
+    "update_time": 1774605488,
+    "_id": "doc-39b01384728e672c7f534796c0f53720"
+  },
+  "doc-aef184e97d3ecd36a3ebcbb348e6b6c0": {
+    "entity_names": [
+      "I74",
+      "动脉栓塞和血栓形成"
+    ],
+    "count": 2,
+    "create_time": 1774605501,
+    "update_time": 1774605501,
+    "_id": "doc-aef184e97d3ecd36a3ebcbb348e6b6c0"
+  },
+  "doc-a3d5af7018210abfbebb62243470ac76": {
+    "entity_names": [
+      "I71",
+      "1962.0",
+      "1887.0",
+      "主动脉动脉瘤和动脉壁夹层形成"
+    ],
+    "count": 4,
+    "create_time": 1774605519,
+    "update_time": 1774605519,
+    "_id": "doc-a3d5af7018210abfbebb62243470ac76"
+  },
+  "doc-21a11250772709616327886d80a4fbf4": {
+    "entity_names": [
+      "1434.0",
+      "I72, I77-I79",
+      "其他动脉、小动脉和毛细管的其他疾病",
+      "1143.0"
+    ],
+    "count": 4,
+    "create_time": 1774605537,
+    "update_time": 1774605537,
+    "_id": "doc-21a11250772709616327886d80a4fbf4"
+  },
+  "doc-9453ba00dec37b70cad0537b1e5aa1b9": {
+    "entity_names": [
+      "1632.0",
+      "1464.0",
+      "I80-I82",
+      "静脉炎、血栓静脉炎、静脉栓塞和血栓形成"
+    ],
+    "count": 4,
+    "create_time": 1774605552,
+    "update_time": 1774605552,
+    "_id": "doc-9453ba00dec37b70cad0537b1e5aa1b9"
+  },
+  "doc-629cc722e8c0336a07bfb9c31e3e80b9": {
+    "entity_names": [
+      "3451.0",
+      "I83",
+      "2577.0",
+      "下肢静脉曲张"
+    ],
+    "count": 4,
+    "create_time": 1774605563,
+    "update_time": 1774605563,
+    "_id": "doc-629cc722e8c0336a07bfb9c31e3e80b9"
+  },
+  "doc-6536ef9185fd3056e8a836d0e365c509": {
+    "entity_names": [
+      "痔",
+      "7397.0",
+      "14787.0",
+      "7389.0",
+      "I84"
+    ],
+    "count": 5,
+    "create_time": 1774605576,
+    "update_time": 1774605576,
+    "_id": "doc-6536ef9185fd3056e8a836d0e365c509"
+  },
+  "doc-83304203b2016b1582a1ab00b88d9b0d": {
+    "entity_names": [
+      "循环系统其他疾病",
+      "6385.0",
+      "I85-I99",
+      "5838.0"
+    ],
+    "count": 4,
+    "create_time": 1774605588,
+    "update_time": 1774605588,
+    "_id": "doc-83304203b2016b1582a1ab00b88d9b0d"
+  },
+  "doc-335b9916f86889ab220535fb7e538072": {
+    "entity_names": [
+      "J02-J03",
+      "1112.0",
+      "2473.0",
+      "急性咽炎和急性扁桃体炎",
+      "1361.0"
+    ],
+    "count": 5,
+    "create_time": 1774605600,
+    "update_time": 1774605600,
+    "_id": "doc-335b9916f86889ab220535fb7e538072"
+  },
+  "doc-124f29b8599a20a95dedf90d534f9b0d": {
+    "entity_names": [
+      "急性喉炎和气管炎",
+      "J04"
+    ],
+    "count": 2,
+    "create_time": 1774605611,
+    "update_time": 1774605611,
+    "_id": "doc-124f29b8599a20a95dedf90d534f9b0d"
+  },
+  "doc-78d5840f0f872f630b7f0311558e5859": {
+    "entity_names": [
+      "J00-J01, J05-J06",
+      "其他急性上呼吸道感染",
+      "17529.0",
+      "12709.0",
+      "4248.0"
+    ],
+    "count": 5,
+    "create_time": 1774605624,
+    "update_time": 1774605624,
+    "_id": "doc-78d5840f0f872f630b7f0311558e5859"
+  },
+  "doc-6135a9f94b73c59ec4e9430db6815854": {
+    "entity_names": [
+      "流行性感冒",
+      "13236.0",
+      "16806.0",
+      "3458.0",
+      "J09-J11",
+      "流行性感冒_J09-J11"
+    ],
+    "count": 6,
+    "create_time": 1774605641,
+    "update_time": 1774605641,
+    "_id": "doc-6135a9f94b73c59ec4e9430db6815854"
+  },
+  "doc-95fe4928b3b09be38b2e0e20ac5121be": {
+    "entity_names": [
+      "6166.0",
+      "5168.0",
+      "5127.0",
+      "J12-J18",
+      "11334.0",
+      "60614.0",
+      "55487.0",
+      "肺炎"
+    ],
+    "count": 8,
+    "create_time": 1774605653,
+    "update_time": 1774605653,
+    "_id": "doc-95fe4928b3b09be38b2e0e20ac5121be"
+  },
+  "doc-f04cbfc6e4731fef98bf59b006e7a4b4": {
+    "entity_names": [
+      "4609.0",
+      "J20-J21",
+      "11034.0",
+      "6425.0",
+      "急性支气管炎和急性细支气管炎"
+    ],
+    "count": 5,
+    "create_time": 1774605666,
+    "update_time": 1774605666,
+    "_id": "doc-f04cbfc6e4731fef98bf59b006e7a4b4"
+  },
+  "doc-8ae70cfd13ffb34bcdd52442dec85f78": {
+    "entity_names": [
+      "J32",
+      "1044.0",
+      "慢性鼻窦炎"
+    ],
+    "count": 3,
+    "create_time": 1774605678,
+    "update_time": 1774605678,
+    "_id": "doc-8ae70cfd13ffb34bcdd52442dec85f78"
+  },
+  "doc-679fa942141a9451ce048ed2ef97ea51": {
+    "entity_names": [
+      "2485.0",
+      "4804.0",
+      "2317.0",
+      "鼻和鼻窦其他疾病"
+    ],
+    "count": 4,
+    "create_time": 1774605695,
+    "update_time": 1774605695,
+    "_id": "doc-679fa942141a9451ce048ed2ef97ea51"
+  },
+  "doc-2469caeb5e413bd48cb6435e7ceb715d": {
+    "entity_names": [
+      "J35",
+      "1152.0",
+      "扁桃体和腺样体慢性疾病"
+    ],
+    "count": 3,
+    "create_time": 1774605707,
+    "update_time": 1774605707,
+    "_id": "doc-2469caeb5e413bd48cb6435e7ceb715d"
+  },
+  "doc-ae2fc7e1b41269dda4b5381d22ea14e2": {
+    "entity_names": [
+      "4029.0",
+      "J36-J39",
+      "上呼吸道其他疾病",
+      "2918.0"
+    ],
+    "count": 4,
+    "create_time": 1774605726,
+    "update_time": 1774605726,
+    "_id": "doc-ae2fc7e1b41269dda4b5381d22ea14e2"
+  },
+  "doc-c8783c8b2f4aaaac0bf8b85b563aa092": {
+    "entity_names": [
+      "支气管炎、肺气肿和其他慢性阻塞性肺病",
+      "1804.0",
+      "J40-J44",
+      "16539.0",
+      "18343.0"
+    ],
+    "count": 5,
+    "create_time": 1774605739,
+    "update_time": 1774605739,
+    "_id": "doc-c8783c8b2f4aaaac0bf8b85b563aa092"
+  },
+  "doc-bb341685cd861db265116be610d08fda": {
+    "entity_names": [
+      "8020.0",
+      "J45-J46",
+      "哮喘",
+      "7374.0"
+    ],
+    "count": 4,
+    "create_time": 1774605756,
+    "update_time": 1774605756,
+    "_id": "doc-bb341685cd861db265116be610d08fda"
+  },
+  "doc-3bc4b145e51452e9af642f4b9490d85f": {
+    "entity_names": [
+      "支气管扩张症",
+      "J47",
+      "全港登记死亡人数-女性: 110",
+      "住院病人出院及死亡人次-合计: 2504",
+      "住院病人出院及死亡人次-惩教署辖下医院: 0",
+      "全港登记死亡人数-合计: 200",
+      "全港登记死亡人数-性别不详: 0",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 2245",
+      "ICD-10编码: J47",
+      "住院病人出院及死亡人次-私家医院: 259",
+      "全港登记死亡人数-男性: 90"
+    ],
+    "count": 11,
+    "create_time": 1774605769,
+    "update_time": 1774605769,
+    "_id": "doc-3bc4b145e51452e9af642f4b9490d85f"
+  },
+  "doc-7d6cf336b93b94adcfcd5476d7913c24": {
+    "entity_names": [
+      "J60-J65",
+      "尘肺"
+    ],
+    "count": 2,
+    "create_time": 1774605797,
+    "update_time": 1774605797,
+    "_id": "doc-7d6cf336b93b94adcfcd5476d7913c24"
+  },
+  "doc-20e1396d4f8f095a3ffbe713854f4227": {
+    "entity_names": [
+      "3384.0",
+      "3466.0",
+      "60787.0",
+      "1505.0",
+      "1961.0",
+      "J22, J66-J99",
+      "呼吸系统其他疾病",
+      "64740.0"
+    ],
+    "count": 8,
+    "create_time": 1774605815,
+    "update_time": 1774605815,
+    "_id": "doc-20e1396d4f8f095a3ffbe713854f4227"
+  },
+  "doc-1522d0c18fd9429190bbe610de174ff5": {
+    "entity_names": [
+      "K02",
+      "龋(齿)"
+    ],
+    "count": 2,
+    "create_time": 1774605826,
+    "update_time": 1774605826,
+    "_id": "doc-1522d0c18fd9429190bbe610de174ff5"
+  },
+  "doc-9af6a985edda3b1d6b3fd4b43dbe7d54": {
+    "entity_names": [
+      "2803.0",
+      "牙齿及支持结构的其他疾患",
+      "K00-K01, K03-K08",
+      "2620.0"
+    ],
+    "count": 4,
+    "create_time": 1774605839,
+    "update_time": 1774605839,
+    "_id": "doc-9af6a985edda3b1d6b3fd4b43dbe7d54"
+  },
+  "doc-7a1ffdb66c2d791788b139c44c75d6fd": {
+    "entity_names": [
+      "3102.0",
+      "K09-K14",
+      "3786.0",
+      "口腔、涎腺和颌的其他疾病"
+    ],
+    "count": 4,
+    "create_time": 1774605853,
+    "update_time": 1774605853,
+    "_id": "doc-7a1ffdb66c2d791788b139c44c75d6fd"
+  },
+  "doc-95e118d56e2c8f74246a8a6253fb85e3": {
+    "entity_names": [
+      "K25-K27",
+      "7627.0",
+      "胃和十二指肠溃疡",
+      "10799.0",
+      "3164.0"
+    ],
+    "count": 5,
+    "create_time": 1774605866,
+    "update_time": 1774605866,
+    "_id": "doc-95e118d56e2c8f74246a8a6253fb85e3"
+  },
+  "doc-065585c77cbcc3bf2f627517c59da558": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-合计: 48411.0",
+      "K29",
+      "全港登记死亡人数-男性: 7.0",
+      "胃炎和十二指肠炎",
+      "全港登记死亡人数-合计: 9.0",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 16446.0",
+      "住院病人出院及死亡人次*-私家医院: 31965.0",
+      "全港登记死亡人数-女性: 2.0"
+    ],
+    "count": 8,
+    "create_time": 1774605887,
+    "update_time": 1774605887,
+    "_id": "doc-065585c77cbcc3bf2f627517c59da558"
+  },
+  "doc-3e0a15e9789e0a75ab973dad9a0ea1ef": {
+    "entity_names": [
+      "9676.0",
+      "8728.0",
+      "食管、胃和十二指肠其他疾病",
+      "18427.0",
+      "K20-K23, K28, K30-K31"
+    ],
+    "count": 5,
+    "create_time": 1774605900,
+    "update_time": 1774605900,
+    "_id": "doc-3e0a15e9789e0a75ab973dad9a0ea1ef"
+  },
+  "doc-2dd977db5d77cd89650a5d9776c74d90": {
+    "entity_names": [
+      "1196.0",
+      "阑尾疾病",
+      "3949.0",
+      "K35-K38",
+      "2749.0"
+    ],
+    "count": 5,
+    "create_time": 1774605913,
+    "update_time": 1774605913,
+    "_id": "doc-2dd977db5d77cd89650a5d9776c74d90"
+  },
+  "doc-0419c38117d3af403a91eec067b13321": {
+    "entity_names": [
+      "腹股沟疝",
+      "6073.0",
+      "K40",
+      "9122.0"
+    ],
+    "count": 4,
+    "create_time": 1774605925,
+    "update_time": 1774605925,
+    "_id": "doc-0419c38117d3af403a91eec067b13321"
+  },
+  "doc-2846c9f3f544cb148c2a5c1c0cb5e582": {
+    "entity_names": [
+      "其他疝",
+      "2871.0",
+      "2332.0",
+      "K41-K46"
+    ],
+    "count": 4,
+    "create_time": 1774605943,
+    "update_time": 1774605943,
+    "_id": "doc-2846c9f3f544cb148c2a5c1c0cb5e582"
+  },
+  "doc-a9c3e16cda1cbc42d12e18f5133c0c25": {
+    "entity_names": [
+      "K50-K51",
+      "4786.0",
+      "4190.0",
+      "克罗恩[克隆]病和溃伤性结肠炎"
+    ],
+    "count": 4,
+    "create_time": 1774605960,
+    "update_time": 1774605960,
+    "_id": "doc-a9c3e16cda1cbc42d12e18f5133c0c25"
+  },
+  "doc-9c1fca37b267e2f4b0dff3a92374c6c4": {
+    "entity_names": [
+      "K56",
+      "4546.0",
+      "无力性肠梗阻和肠梗阻不伴有疝",
+      "4075.0"
+    ],
+    "count": 4,
+    "create_time": 1774605974,
+    "update_time": 1774605974,
+    "_id": "doc-9c1fca37b267e2f4b0dff3a92374c6c4"
+  },
+  "doc-ca2037be7caf01383c5b911b95754477": {
+    "entity_names": [
+      "K57",
+      "1360.0",
+      "肠憩室性疾病",
+      "6636.0",
+      "5276.0"
+    ],
+    "count": 5,
+    "create_time": 1774605988,
+    "update_time": 1774605988,
+    "_id": "doc-ca2037be7caf01383c5b911b95754477"
+  },
+  "doc-8fcc6d340e44a93407c52b0b569abcba": {
+    "entity_names": [
+      "46942.0",
+      "15996.0",
+      "62965.0",
+      "K52-K55, K58-K67",
+      "肠和腹膜其他疾病"
+    ],
+    "count": 5,
+    "create_time": 1774606009,
+    "update_time": 1774606009,
+    "_id": "doc-8fcc6d340e44a93407c52b0b569abcba"
+  },
+  "doc-88b4620c9dd1b91ef8e9bdab040ab096": {
+    "entity_names": [
+      "酒精性肝病",
+      "K70"
+    ],
+    "count": 2,
+    "create_time": 1774606019,
+    "update_time": 1774606019,
+    "_id": "doc-88b4620c9dd1b91ef8e9bdab040ab096"
+  },
+  "doc-f2c58995244882e550c59d191ceeadd1": {
+    "entity_names": [
+      "K73-K74",
+      "全港登记死亡人数-合计: 251",
+      "慢性肝病及肝硬化",
+      "住院病人出院及死亡人次*-私家医院: 86",
+      "住院病人出院及死亡人次*-合计: 848",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 762",
+      "全港登记死亡人数-男性: 140",
+      "全港登记死亡人数-女性: 111",
+      "住院病人出院及死亡人次*-惩教署辖下医院: 0"
+    ],
+    "count": 9,
+    "create_time": 1774606030,
+    "update_time": 1774606030,
+    "_id": "doc-f2c58995244882e550c59d191ceeadd1"
+  },
+  "doc-4de6146e14170c4d98ec79b8cab1f34c": {
+    "entity_names": [
+      "K71-K72, K75-K76",
+      "6573.0",
+      "其他肝病",
+      "6062.0"
+    ],
+    "count": 4,
+    "create_time": 1774606043,
+    "update_time": 1774606043,
+    "_id": "doc-4de6146e14170c4d98ec79b8cab1f34c"
+  },
+  "doc-31110c364ce8d1a862fb745ad9dc2c6a": {
+    "entity_names": [
+      "15908.0",
+      "3650.0",
+      "12258.0",
+      "K80-K81",
+      "胆石病和胆囊炎"
+    ],
+    "count": 5,
+    "create_time": 1774606056,
+    "update_time": 1774606056,
+    "_id": "doc-31110c364ce8d1a862fb745ad9dc2c6a"
+  },
+  "doc-80700dd4947db26544c11cad1306406c": {
+    "entity_names": [
+      "急性胰腺炎和胰腺其他疾病"
+    ],
+    "count": 1,
+    "create_time": 1774606072,
+    "update_time": 1774606072,
+    "_id": "doc-80700dd4947db26544c11cad1306406c"
+  },
+  "doc-81e0a6945f3e6149cf5f9f53acf4be49": {
+    "entity_names": [
+      "10752.0",
+      "消化系统其他疾病",
+      "11601.0",
+      "K82-K83, K87-K93"
+    ],
+    "count": 4,
+    "create_time": 1774606084,
+    "update_time": 1774606084,
+    "_id": "doc-81e0a6945f3e6149cf5f9f53acf4be49"
+  },
+  "doc-c75c97ecfbccbe4d7f097defc16c00e9": {
+    "entity_names": [
+      "19159.0",
+      "2369.0",
+      "皮肤和皮下组织感染_L00-L08",
+      "L00-L08",
+      "21542.0",
+      "皮肤和皮下组织感染"
+    ],
+    "count": 6,
+    "create_time": 1774606099,
+    "update_time": 1774606099,
+    "_id": "doc-c75c97ecfbccbe4d7f097defc16c00e9"
+  },
+  "doc-b399caed8908985379564720bc12c44e": {
+    "entity_names": [
+      "3013.0",
+      "22779.0",
+      "L10-L99",
+      "皮肤和皮下组织其他疾病",
+      "19693.0"
+    ],
+    "count": 5,
+    "create_time": 1774606111,
+    "update_time": 1774606111,
+    "_id": "doc-b399caed8908985379564720bc12c44e"
+  },
+  "doc-c4c0071bb3f4ce40e7d3f06ccbaa3496": {
+    "entity_names": [
+      "类风湿性关节炎和其他炎性多关节病",
+      "10010.0",
+      "M05-M14",
+      "10877.0"
+    ],
+    "count": 4,
+    "create_time": 1774606125,
+    "update_time": 1774606125,
+    "_id": "doc-c4c0071bb3f4ce40e7d3f06ccbaa3496"
+  },
+  "doc-842e3a6ce5eb4875c96a74f47bb23a03": {
+    "entity_names": [
+      "4470.0",
+      "12807.0",
+      "M15-M19",
+      "关节病",
+      "8337.0"
+    ],
+    "count": 5,
+    "create_time": 1774606136,
+    "update_time": 1774606136,
+    "_id": "doc-842e3a6ce5eb4875c96a74f47bb23a03"
+  },
+  "doc-c49de2a4eb5eccbc7c8d78f30994b959": {
+    "entity_names": [
+      "1399.0",
+      "M20-M21",
+      "四肢后天性变形",
+      "1750.0"
+    ],
+    "count": 4,
+    "create_time": 1774606146,
+    "update_time": 1774606146,
+    "_id": "doc-c49de2a4eb5eccbc7c8d78f30994b959"
+  },
+  "doc-6e4eb898254b7786abd7f6b6cd183e63": {
+    "entity_names": [
+      "13178.0",
+      "1648.0",
+      "其他关节疾患",
+      "11527.0",
+      "M00-M03, M22-M25"
+    ],
+    "count": 5,
+    "create_time": 1774606159,
+    "update_time": 1774606159,
+    "_id": "doc-6e4eb898254b7786abd7f6b6cd183e63"
+  },
+  "doc-499f2f3cd6f5624d3e1506bebd351af3": {
+    "entity_names": [
+      "6134.0",
+      "全身性结缔组织疾患",
+      "5692.0",
+      "M30-M36"
+    ],
+    "count": 4,
+    "create_time": 1774606174,
+    "update_time": 1774606174,
+    "_id": "doc-499f2f3cd6f5624d3e1506bebd351af3"
+  },
+  "doc-33b30725aee60f3a76a293e66e764573": {
+    "entity_names": [
+      "2119.0",
+      "颈和其他椎间盘疾患",
+      "M50-M51"
+    ],
+    "count": 3,
+    "create_time": 1774606183,
+    "update_time": 1774606183,
+    "_id": "doc-33b30725aee60f3a76a293e66e764573"
+  },
+  "doc-7949efce73deefbab99763181429feea": {
+    "entity_names": [
+      "29671.0",
+      "其他背部病",
+      "25591.0",
+      "M40-M49, M53-M54",
+      "4058.0"
+    ],
+    "count": 5,
+    "create_time": 1774606194,
+    "update_time": 1774606194,
+    "_id": "doc-7949efce73deefbab99763181429feea"
+  },
+  "doc-d0a863a801ebcf8a216b8a25f0635aaa": {
+    "entity_names": [
+      "软组织疾患",
+      "8867.0",
+      "M60-M79",
+      "11330.0",
+      "2462.0"
+    ],
+    "count": 5,
+    "create_time": 1774606206,
+    "update_time": 1774606206,
+    "_id": "doc-d0a863a801ebcf8a216b8a25f0635aaa"
+  },
+  "doc-731a9f6d441d6908a1929b9587af0e2b": {
+    "entity_names": [
+      "骨密度和结构的疾患",
+      "3301.0",
+      "M80-M85",
+      "3535.0"
+    ],
+    "count": 4,
+    "create_time": 1774606216,
+    "update_time": 1774606216,
+    "_id": "doc-731a9f6d441d6908a1929b9587af0e2b"
+  },
+  "doc-a02e4d0cd053eb823169976d1893279d": {
+    "entity_names": [
+      "M86",
+      "骨髓炎"
+    ],
+    "count": 2,
+    "create_time": 1774606227,
+    "update_time": 1774606227,
+    "_id": "doc-a02e4d0cd053eb823169976d1893279d"
+  },
+  "doc-278f2883a9a207765ff1742e14b49a17": {
+    "entity_names": [
+      "2135.0",
+      "2115.0",
+      "4250.0",
+      "M87-M99",
+      "肌肉骨骼系统和结缔组织其他疾病"
+    ],
+    "count": 5,
+    "create_time": 1774606241,
+    "update_time": 1774606241,
+    "_id": "doc-278f2883a9a207765ff1742e14b49a17"
+  },
+  "doc-d8a1d2736add60aa7709a2680c418f60": {
+    "entity_names": [
+      "N00-N01",
+      "急性肾炎综合症和急进型肾炎综合症"
+    ],
+    "count": 2,
+    "create_time": 1774606252,
+    "update_time": 1774606252,
+    "_id": "doc-d8a1d2736add60aa7709a2680c418f60"
+  },
+  "doc-f284c2c4e46faa24fa5e0c0fe783601f": {
+    "entity_names": [
+      "N02-N08",
+      "1686.0",
+      "1441.0",
+      "其他肾小球疾病"
+    ],
+    "count": 4,
+    "create_time": 1774606276,
+    "update_time": 1774606276,
+    "_id": "doc-f284c2c4e46faa24fa5e0c0fe783601f"
+  },
+  "doc-58b0774b9888156847f136f38c200350": {
+    "entity_names": [
+      "N10-N16",
+      "5893.0",
+      "肾小管间质疾病",
+      "7503.0",
+      "1609.0"
+    ],
+    "count": 5,
+    "create_time": 1774606286,
+    "update_time": 1774606286,
+    "_id": "doc-58b0774b9888156847f136f38c200350"
+  },
+  "doc-4960939a58cdfdd4ed5127d71167c4d2": {
+    "entity_names": [
+      "190562.0",
+      "N17-N19",
+      "196617.0",
+      "1605.0",
+      "6051.0",
+      "肾衰竭"
+    ],
+    "count": 6,
+    "create_time": 1774606298,
+    "update_time": 1774606298,
+    "_id": "doc-4960939a58cdfdd4ed5127d71167c4d2"
+  },
+  "doc-1a38ccdcdfa084edd06493761efe0b0f": {
+    "entity_names": [
+      "9497.0",
+      "N20-N23",
+      "14951.0",
+      "尿石病",
+      "5454.0"
+    ],
+    "count": 5,
+    "create_time": 1774606309,
+    "update_time": 1774606309,
+    "_id": "doc-1a38ccdcdfa084edd06493761efe0b0f"
+  },
+  "doc-5fae13c681cdcd910af6e96280972ffe": {
+    "entity_names": [
+      "N25-N27",
+      "其他肾脏疾病"
+    ],
+    "count": 2,
+    "create_time": 1774606321,
+    "update_time": 1774606321,
+    "_id": "doc-5fae13c681cdcd910af6e96280972ffe"
+  },
+  "doc-b01cc1f538be32dc2432738a40232cfc": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-惩教署辖下医院: 1.0",
+      "住院病人出院及死亡人次*-私家医院: 1752.0",
+      "N30",
+      "住院病人出院及死亡人次*-合计: 4619.0",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 2866.0",
+      "ICD-10编码: N30",
+      "膀胱炎"
+    ],
+    "count": 7,
+    "create_time": 1774606333,
+    "update_time": 1774606333,
+    "_id": "doc-b01cc1f538be32dc2432738a40232cfc"
+  },
+  "doc-230623facdb9e2a1374515aa32f48c95": {
+    "entity_names": [
+      "泌尿系统其他疾病",
+      "2388.0",
+      "28671.0",
+      "N28-N29, N31-N39",
+      "26273.0"
+    ],
+    "count": 5,
+    "create_time": 1774606347,
+    "update_time": 1774606347,
+    "_id": "doc-230623facdb9e2a1374515aa32f48c95"
+  },
+  "doc-62d91bfee334476329737d935b5e6cfc": {
+    "entity_names": [
+      "6893.0",
+      "9531.0",
+      "N40",
+      "2638.0",
+      "前列腺增生"
+    ],
+    "count": 5,
+    "create_time": 1774606372,
+    "update_time": 1774606372,
+    "_id": "doc-62d91bfee334476329737d935b5e6cfc"
+  },
+  "doc-307a774666a6e979d8fc3add24329d29": {
+    "entity_names": [
+      "N41-N42",
+      "前列腺其他疾患"
+    ],
+    "count": 2,
+    "create_time": 1774606383,
+    "update_time": 1774606383,
+    "_id": "doc-307a774666a6e979d8fc3add24329d29"
+  },
+  "doc-e859489868f4cab84c65fc86eca90522": {
+    "entity_names": [
+      "水囊肿[睪丸鞘膜积液]和精子囊肿",
+      "N43"
+    ],
+    "count": 2,
+    "create_time": 1774606397,
+    "update_time": 1774606397,
+    "_id": "doc-e859489868f4cab84c65fc86eca90522"
+  },
+  "doc-5886540c9d0b173c1eea2f6073777e1e": {
+    "entity_names": [
+      "N47",
+      "1180.0",
+      "包皮过长、包茎和包茎嵌顿",
+      "1552.0"
+    ],
+    "count": 4,
+    "create_time": 1774606408,
+    "update_time": 1774606408,
+    "_id": "doc-5886540c9d0b173c1eea2f6073777e1e"
+  },
+  "doc-432a3aa91df37794035243db45a3a44d": {
+    "entity_names": [
+      "2979.0",
+      "N44-N46, N48-N51",
+      "6188.0",
+      "男性生殖器官其他疾病",
+      "3208.0"
+    ],
+    "count": 5,
+    "create_time": 1774606425,
+    "update_time": 1774606425,
+    "_id": "doc-432a3aa91df37794035243db45a3a44d"
+  },
+  "doc-2f5b10bfa002090b19348c400144ce01": {
+    "entity_names": [
+      "2033.0",
+      "乳房疾患",
+      "4413.0",
+      "N60-N64",
+      "6452.0"
+    ],
+    "count": 5,
+    "create_time": 1774606435,
+    "update_time": 1774606435,
+    "_id": "doc-2f5b10bfa002090b19348c400144ce01"
+  },
+  "doc-137ed2eb8e577639b21afd3590509974": {
+    "entity_names": [
+      "N70",
+      "输卵管炎和卵巢炎"
+    ],
+    "count": 2,
+    "create_time": 1774606447,
+    "update_time": 1774606447,
+    "_id": "doc-137ed2eb8e577639b21afd3590509974"
+  },
+  "doc-34b9dad8357dbcee4f815db1ab99ecfd": {
+    "entity_names": [
+      "宫颈炎性疾病",
+      "N72"
+    ],
+    "count": 2,
+    "create_time": 1774606462,
+    "update_time": 1774606462,
+    "_id": "doc-34b9dad8357dbcee4f815db1ab99ecfd"
+  },
+  "doc-8fa39935d5b512e4fb163dc9a1b974cb": {
+    "entity_names": [
+      "N71, N73-N77",
+      "2784.0",
+      "1881.0",
+      "女性盆腔器官其他炎性疾病"
+    ],
+    "count": 4,
+    "create_time": 1774606477,
+    "update_time": 1774606477,
+    "_id": "doc-8fa39935d5b512e4fb163dc9a1b974cb"
+  },
+  "doc-9a1d8217c120032e6f534704e38b93a2": {
+    "entity_names": [
+      "1687.0",
+      "N80",
+      "子宫内膜异位",
+      "1066.0"
+    ],
+    "count": 4,
+    "create_time": 1774606488,
+    "update_time": 1774606488,
+    "_id": "doc-9a1d8217c120032e6f534704e38b93a2"
+  },
+  "doc-b8b371c896a83329692a0d786a5cae98": {
+    "entity_names": [
+      "1219.0",
+      "1386.0",
+      "N81",
+      "女性生殖器脱垂"
+    ],
+    "count": 4,
+    "create_time": 1774606498,
+    "update_time": 1774606498,
+    "_id": "doc-b8b371c896a83329692a0d786a5cae98"
+  },
+  "doc-e1de41046912b9ae0d5670d523af40a5": {
+    "entity_names": [
+      "3309.0",
+      "1266.0",
+      "2043.0",
+      "卵巢、输卵管和阔韧带的非炎性疾患",
+      "N83"
+    ],
+    "count": 5,
+    "create_time": 1774606514,
+    "update_time": 1774606514,
+    "_id": "doc-e1de41046912b9ae0d5670d523af40a5"
+  },
+  "doc-079b57eb2a686851cf5a20c27467e95b": {
+    "entity_names": [
+      "3475.0",
+      "月经疾患",
+      "4382.0",
+      "N91-N92"
+    ],
+    "count": 4,
+    "create_time": 1774606523,
+    "update_time": 1774606523,
+    "_id": "doc-079b57eb2a686851cf5a20c27467e95b"
+  },
+  "doc-a7e50dec7b72b1d64fa6d595383513b7": {
+    "entity_names": [
+      "3165.0",
+      "N95",
+      "绝经期和其他围绝经期的疾患",
+      "3777.0"
+    ],
+    "count": 4,
+    "create_time": 1774606531,
+    "update_time": 1774606531,
+    "_id": "doc-a7e50dec7b72b1d64fa6d595383513b7"
+  },
+  "doc-7b84cf8a8c3f58bbe5120adc4a4a88c8": {
+    "entity_names": [
+      "女性不育症",
+      "N97",
+      "4473.0",
+      "4466.0"
+    ],
+    "count": 4,
+    "create_time": 1774606546,
+    "update_time": 1774606546,
+    "_id": "doc-7b84cf8a8c3f58bbe5120adc4a4a88c8"
+  },
+  "doc-868c0f6e2830f218943786eb8c526999": {
+    "entity_names": [
+      "18773.0",
+      "泌尿生殖道其他疾患",
+      "10676.0",
+      "8096.0",
+      "N82, N84-N90, N93-N94, N96, N98-N99"
+    ],
+    "count": 5,
+    "create_time": 1774606558,
+    "update_time": 1774606558,
+    "_id": "doc-868c0f6e2830f218943786eb8c526999"
+  },
+  "doc-e1eec2c2bccacd95e0c550e7f94a32ba": {
+    "entity_names": [
+      "自然流产",
+      "O03",
+      "1775.0",
+      "2243.0"
+    ],
+    "count": 4,
+    "create_time": 1774606571,
+    "update_time": 1774606571,
+    "_id": "doc-e1eec2c2bccacd95e0c550e7f94a32ba"
+  },
+  "doc-da79404504b7113982ddacaae28e575d": {
+    "entity_names": [
+      "O04",
+      "3260.0",
+      "医疗性流产",
+      "3460.0"
+    ],
+    "count": 4,
+    "create_time": 1774606583,
+    "update_time": 1774606583,
+    "_id": "doc-da79404504b7113982ddacaae28e575d"
+  },
+  "doc-3b927b95f982b1b5733f1b97b40a7ee7": {
+    "entity_names": [
+      "其他流产结局的妊娠",
+      "4259.0",
+      "3673.0",
+      "O00-O02, O05-O08",
+      "其他流产结局的妊娠_O00-O02, O05-O08"
+    ],
+    "count": 5,
+    "create_time": 1774606596,
+    "update_time": 1774606596,
+    "_id": "doc-3b927b95f982b1b5733f1b97b40a7ee7"
+  },
+  "doc-697b4e5b09d210295a2490739d7b4546": {
+    "entity_names": [
+      "O10-O16",
+      "妊娠、分娩和产褥期的水肿、蛋白尿和高血压疾患",
+      "1585.0",
+      "1523.0"
+    ],
+    "count": 4,
+    "create_time": 1774606613,
+    "update_time": 1774606613,
+    "_id": "doc-697b4e5b09d210295a2490739d7b4546"
+  },
+  "doc-78e1430eaa3593502013c05b2715bb54": {
+    "entity_names": [
+      "前置胎盘、胎盘的过早分离和产前出血",
+      "2319.0",
+      "O44-O46",
+      "2233.0"
+    ],
+    "count": 4,
+    "create_time": 1774606625,
+    "update_time": 1774606625,
+    "_id": "doc-78e1430eaa3593502013c05b2715bb54"
+  },
+  "doc-1f0f9cd694a7dc75f17fe28e3de54b31": {
+    "entity_names": [
+      "1909.0",
+      "12124.0",
+      "与胎儿和羊膜腔及可能的分娩问题有关的其他孕产妇医疗",
+      "14035.0",
+      "O30-O43, O47-O48"
+    ],
+    "count": 5,
+    "create_time": 1774606639,
+    "update_time": 1774606639,
+    "_id": "doc-1f0f9cd694a7dc75f17fe28e3de54b31"
+  },
+  "doc-5614caca3d4f800e41e5e2785e449ada": {
+    "entity_names": [
+      "O64-O66",
+      "梗阻性分娩"
+    ],
+    "count": 2,
+    "create_time": 1774606649,
+    "update_time": 1774606649,
+    "_id": "doc-5614caca3d4f800e41e5e2785e449ada"
+  },
+  "doc-8cb682ea3fef17d34c74759a7ba1c6a1": {
+    "entity_names": [
+      "O72",
+      "产后出血"
+    ],
+    "count": 2,
+    "create_time": 1774606661,
+    "update_time": 1774606661,
+    "_id": "doc-8cb682ea3fef17d34c74759a7ba1c6a1"
+  },
+  "doc-8f07fbe072fece2b71f1a4fba8351be9": {
+    "entity_names": [
+      "O20-O29, O60-O63, O67-O71, O73-O75, O81-O84",
+      "15339.0",
+      "妊娠和分娩的其他并发症",
+      "23072.0",
+      "7715.0"
+    ],
+    "count": 5,
+    "create_time": 1774606674,
+    "update_time": 1774606674,
+    "_id": "doc-8f07fbe072fece2b71f1a4fba8351be9"
+  },
+  "doc-2431e7ba62a527c80766d7b1780a87c9": {
+    "entity_names": [
+      "6469.0",
+      "O80",
+      "9286.0",
+      "2815.0",
+      "单胎顺产"
+    ],
+    "count": 5,
+    "create_time": 1774606687,
+    "update_time": 1774606687,
+    "_id": "doc-2431e7ba62a527c80766d7b1780a87c9"
+  },
+  "doc-cd970832d769102051eedd830c1c9c03": {
+    "entity_names": [
+      "主要与产褥期和其他产科情况有关的并发症，不可归类在他处者",
+      "6454.0",
+      "6386.0",
+      "O85-O99"
+    ],
+    "count": 4,
+    "create_time": 1774606700,
+    "update_time": 1774606700,
+    "_id": "doc-cd970832d769102051eedd830c1c9c03"
+  },
+  "doc-bc91cbc283bf380192fb781b1180e3b5": {
+    "entity_names": [
+      "1345.0",
+      "P00-P04",
+      "胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响"
+    ],
+    "count": 3,
+    "create_time": 1774606711,
+    "update_time": 1774606711,
+    "_id": "doc-bc91cbc283bf380192fb781b1180e3b5"
+  },
+  "doc-314d7a52f992b7f9494670ca31f5c3b3": {
+    "entity_names": [
+      "胎儿生长缓慢、胎儿营养不良和与孕期短和低出生体重有关的疾患",
+      "1854.0",
+      "1908.0",
+      "P05-P07"
+    ],
+    "count": 4,
+    "create_time": 1774606735,
+    "update_time": 1774606735,
+    "_id": "doc-314d7a52f992b7f9494670ca31f5c3b3"
+  },
+  "doc-d27425cac7d65cdc0804b0fc954629bc": {
+    "entity_names": [
+      "产伤",
+      "P10-P15"
+    ],
+    "count": 2,
+    "create_time": 1774606748,
+    "update_time": 1774606748,
+    "_id": "doc-d27425cac7d65cdc0804b0fc954629bc"
+  },
+  "doc-65bdfdc4b974ba4347896a81a678012e": {
+    "entity_names": [
+      "子宫内低氧症和出生窒息",
+      "P20-P21"
+    ],
+    "count": 2,
+    "create_time": 1774606759,
+    "update_time": 1774606759,
+    "_id": "doc-65bdfdc4b974ba4347896a81a678012e"
+  },
+  "doc-7eabe8bb5b0cf1afe867c004aa15a3a8": {
+    "entity_names": [
+      "2013.0",
+      "P22-P28",
+      "起源于围生期的其他呼吸性疾患"
+    ],
+    "count": 3,
+    "create_time": 1774606775,
+    "update_time": 1774606775,
+    "_id": "doc-7eabe8bb5b0cf1afe867c004aa15a3a8"
+  },
+  "doc-a2c8a1955016ec2321de027bf5e562ab": {
+    "entity_names": [
+      "P35-P37",
+      "先天性传染病和寄生虫病"
+    ],
+    "count": 2,
+    "create_time": 1774606787,
+    "update_time": 1774606787,
+    "_id": "doc-a2c8a1955016ec2321de027bf5e562ab"
+  },
+  "doc-382dd0650acf633131419592ba3e7fb0": {
+    "entity_names": [
+      "特发于围生期的其他感染",
+      "P38-P39"
+    ],
+    "count": 2,
+    "create_time": 1774606797,
+    "update_time": 1774606797,
+    "_id": "doc-382dd0650acf633131419592ba3e7fb0"
+  },
+  "doc-e5c129b2e63a338ea6e050dff5ae1d88": {
+    "entity_names": [
+      "P55",
+      "胎儿和新生儿的溶血性疾病"
+    ],
+    "count": 2,
+    "create_time": 1774606809,
+    "update_time": 1774606809,
+    "_id": "doc-e5c129b2e63a338ea6e050dff5ae1d88"
+  },
+  "doc-08b4d52520ca66e8cbbf8ddd32405197": {
+    "entity_names": [
+      "11877.0",
+      "起源于围生期的其他情况",
+      "11486.0",
+      "P08, P29, P50-P54, P56-P96"
+    ],
+    "count": 4,
+    "create_time": 1774606831,
+    "update_time": 1774606831,
+    "_id": "doc-08b4d52520ca66e8cbbf8ddd32405197"
+  },
+  "doc-f2afd9f34f50a7a7614802f5fbdc1477": {
+    "entity_names": [
+      "脊柱裂",
+      "Q05"
+    ],
+    "count": 2,
+    "create_time": 1774606842,
+    "update_time": 1774606842,
+    "_id": "doc-f2afd9f34f50a7a7614802f5fbdc1477"
+  },
+  "doc-a0ef74ec98e666376a8f49c3486e3353": {
+    "entity_names": [
+      "Q00-Q04, Q06-Q07",
+      "神经系统其他先天性畸形"
+    ],
+    "count": 2,
+    "create_time": 1774606857,
+    "update_time": 1774606857,
+    "_id": "doc-a0ef74ec98e666376a8f49c3486e3353"
+  },
+  "doc-d1e699f654daa6351a296e75c17da27a": {
+    "entity_names": [
+      "Q20-Q28",
+      "循环系统先天性畸形",
+      "3065.0"
+    ],
+    "count": 3,
+    "create_time": 1774606869,
+    "update_time": 1774606869,
+    "_id": "doc-d1e699f654daa6351a296e75c17da27a"
+  },
+  "doc-4bc17388a159d6386edb9067f365aa37": {
+    "entity_names": [
+      "Q35-Q37",
+      "唇裂和颚裂"
+    ],
+    "count": 2,
+    "create_time": 1774606879,
+    "update_time": 1774606879,
+    "_id": "doc-4bc17388a159d6386edb9067f365aa37"
+  },
+  "doc-7b7bac60e0e514d22f5f148d9e98f557": {
+    "entity_names": [
+      "小肠先天性缺如、闭锁和狭窄",
+      "Q41"
+    ],
+    "count": 2,
+    "create_time": 1774606889,
+    "update_time": 1774606889,
+    "_id": "doc-7b7bac60e0e514d22f5f148d9e98f557"
+  },
+  "doc-602ef770c9a53373f5b0fb31871d67bb": {
+    "entity_names": [
+      "Q38-Q40, Q42-Q45",
+      "消化系统其他先天性畸形"
+    ],
+    "count": 2,
+    "create_time": 1774606906,
+    "update_time": 1774606906,
+    "_id": "doc-602ef770c9a53373f5b0fb31871d67bb"
+  },
+  "doc-f904082895fab54c44fabe6cccd50e1f": {
+    "entity_names": [
+      "睪丸未降",
+      "Q53"
+    ],
+    "count": 2,
+    "create_time": 1774606916,
+    "update_time": 1774606916,
+    "_id": "doc-f904082895fab54c44fabe6cccd50e1f"
+  },
+  "doc-e58bbb4860fd043ed4a2d5fc3883e1f8": {
+    "entity_names": [
+      "Q50-Q52, Q54-Q64",
+      "1025.0",
+      "泌尿生殖系统其他畸形"
+    ],
+    "count": 3,
+    "create_time": 1774606929,
+    "update_time": 1774606929,
+    "_id": "doc-e58bbb4860fd043ed4a2d5fc3883e1f8"
+  },
+  "doc-c30d129beeac34e0b4ff2bb9a05b4c91": {
+    "entity_names": [
+      "髋先天性变形",
+      "Q65"
+    ],
+    "count": 2,
+    "create_time": 1774606938,
+    "update_time": 1774606938,
+    "_id": "doc-c30d129beeac34e0b4ff2bb9a05b4c91"
+  },
+  "doc-68f070c1d1002910f4db97f165189ac1": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-私家医院: 7.0",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 116.0",
+      "住院病人出院及死亡人次*-合计: 123.0",
+      "足先天性变形",
+      "Q66"
+    ],
+    "count": 5,
+    "create_time": 1774606948,
+    "update_time": 1774606948,
+    "_id": "doc-68f070c1d1002910f4db97f165189ac1"
+  },
+  "doc-10cd0a38f6134116be0a1fd95660e362": {
+    "entity_names": [
+      "住院病人出院及死亡人次*-合计: 743.0",
+      "全港登记死亡人数-男性: 2.0",
+      "住院病人出院及死亡人次*-私家医院: 51.0",
+      "Q67-Q79",
+      "肌肉骨骼系统其他先天性畸形和变形",
+      "全港登记死亡人数-合计: 2.0",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 692.0"
+    ],
+    "count": 7,
+    "create_time": 1774606962,
+    "update_time": 1774606962,
+    "_id": "doc-10cd0a38f6134116be0a1fd95660e362"
+  },
+  "doc-6d81e800fda89ad3b090e6536f149667": {
+    "entity_names": [
+      "其他先天性畸形_Q10-Q18_Q30-Q34_Q80-Q89",
+      "其他先天性畸形",
+      "2014.0",
+      "1860.0",
+      "Q10-Q18, Q30-Q34, Q80-Q89"
+    ],
+    "count": 5,
+    "create_time": 1774606977,
+    "update_time": 1774606977,
+    "_id": "doc-6d81e800fda89ad3b090e6536f149667"
+  },
+  "doc-3a275073ae626d1db4dbf51116710693": {
+    "entity_names": [
+      "Q90-Q99",
+      "染色体异常，不可归类在他处者"
+    ],
+    "count": 2,
+    "create_time": 1774606987,
+    "update_time": 1774606987,
+    "_id": "doc-3a275073ae626d1db4dbf51116710693"
+  },
+  "doc-c3b1ffbe401dda01edbad01aa8ee580d": {
+    "entity_names": [
+      "2324.0",
+      "32412.0",
+      "29930.0",
+      "腹部和盆腔痛",
+      "R10"
+    ],
+    "count": 5,
+    "create_time": 1774607000,
+    "update_time": 1774607000,
+    "_id": "doc-c3b1ffbe401dda01edbad01aa8ee580d"
+  },
+  "doc-c3f6979a45d03d7c931b254fd2db24d9": {
+    "entity_names": [
+      "21437.0",
+      "其他原因和原因不明的发热",
+      "R50",
+      "20848.0"
+    ],
+    "count": 4,
+    "create_time": 1774607010,
+    "update_time": 1774607010,
+    "_id": "doc-c3f6979a45d03d7c931b254fd2db24d9"
+  },
+  "doc-44511a9e7d9f1ddfea438ac1305fdb6d": {
+    "entity_names": [
+      "衰老",
+      "全港登记死亡人数-合计: 1710.0",
+      "全港登记死亡人数-女性: 1054.0",
+      "住院病人出院及死亡人次*-合计: 140.0",
+      "住院病人出院及死亡人次*-私家医院: 13.0",
+      "ICD编码: R54",
+      "R54",
+      "住院病人出院及死亡人次*-惩教署辖下医院: 75.0",
+      "全港登记死亡人数-男性: 656.0",
+      "住院病人出院及死亡人次*-医院管理局辖下医院: 52.0"
+    ],
+    "count": 10,
+    "create_time": 1774607023,
+    "update_time": 1774607023,
+    "_id": "doc-44511a9e7d9f1ddfea438ac1305fdb6d"
+  },
+  "doc-8eba8442d12e4237f3ee757cd72f162c": {
+    "entity_names": [
+      "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+      "3562.0",
+      "R00-R09, R11-R49, R51-R53, R55-R99",
+      "190680.0",
+      "12412.0",
+      "174706.0"
+    ],
+    "count": 6,
+    "create_time": 1774607037,
+    "update_time": 1774607037,
+    "_id": "doc-8eba8442d12e4237f3ee757cd72f162c"
+  },
+  "doc-74661321aa0f1b33348a1e2d73574e06": {
+    "entity_names": [
+      "1276.0",
+      "颅骨和面骨骨折",
+      "S02"
+    ],
+    "count": 3,
+    "create_time": 1774607204,
+    "update_time": 1774607204,
+    "_id": "doc-74661321aa0f1b33348a1e2d73574e06"
+  },
+  "doc-3033ed080d84c29844a458d56ccd6e81": {
+    "entity_names": [
+      "颈部、胸部或骨盆骨折",
+      "S12, S22, S32, T08",
+      "4554.0"
+    ],
+    "count": 3,
+    "create_time": 1774607214,
+    "update_time": 1774607214,
+    "_id": "doc-3033ed080d84c29844a458d56ccd6e81"
+  },
+  "doc-f37090290c67b998a7429824ec89e228": {
+    "entity_names": [
+      "11442.0",
+      "11944.0",
+      "股骨骨折",
+      "S72"
+    ],
+    "count": 4,
+    "create_time": 1774607229,
+    "update_time": 1774607229,
+    "_id": "doc-f37090290c67b998a7429824ec89e228"
+  },
+  "doc-01abde9ec659c4b1399810e92a594422": {
+    "entity_names": [
+      "S42, S52, S62, S82, S92, T10, T12",
+      "其他四肢骨的骨折",
+      "4162.0",
+      "23288.0",
+      "27458.0"
+    ],
+    "count": 5,
+    "create_time": 1774607244,
+    "update_time": 1774607244,
+    "_id": "doc-01abde9ec659c4b1399810e92a594422"
+  },
+  "doc-72eb77005044be8a9d45b5f3974414be": {
+    "entity_names": [
+      "累及身体多个部位的骨折",
+      "T02"
+    ],
+    "count": 2,
+    "create_time": 1774607252,
+    "update_time": 1774607252,
+    "_id": "doc-72eb77005044be8a9d45b5f3974414be"
+  },
+  "doc-8c8e7ace5806c9f8ad0dfa9b28f65d98": {
+    "entity_names": [
+      "S03, S13, S23, S33, S43, S53, S63, S73, S83, S93, T03",
+      "特指和身体多个部位的脱位、扭伤和劳损",
+      "3969.0",
+      "特指和身体多个部位的脱位、扭伤和劳损_S03, S13, S23, S33, S43, S53, S63, S73, S83, S93, T03",
+      "4724.0",
+      "8713.0"
+    ],
+    "count": 6,
+    "create_time": 1774607269,
+    "update_time": 1774607269,
+    "_id": "doc-8c8e7ace5806c9f8ad0dfa9b28f65d98"
+  },
+  "doc-362ad937e847bb7f81841038beb233fe": {
+    "entity_names": [
+      "住院病人出院及死亡人次-私家医院: 51.0",
+      "眼和眶损伤",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 205.0",
+      "S05",
+      "ICD编码: S05",
+      "住院病人出院及死亡人次-惩教署辖下医院: 1.0",
+      "住院病人出院及死亡人次-合计: 257.0"
+    ],
+    "count": 7,
+    "create_time": 1774607280,
+    "update_time": 1774607280,
+    "_id": "doc-362ad937e847bb7f81841038beb233fe"
+  },
+  "doc-c1da90ba2684ebe932029d3f80bc8f61": {
+    "entity_names": [
+      "14355.0",
+      "S06",
+      "14198.0",
+      "颅内损伤"
+    ],
+    "count": 4,
+    "create_time": 1774607289,
+    "update_time": 1774607289,
+    "_id": "doc-c1da90ba2684ebe932029d3f80bc8f61"
+  },
+  "doc-1b2bec2a81d44baab659c6603593f26d": {
+    "entity_names": [
+      "其他内部器官损伤",
+      "S26-S27, S36-S37"
+    ],
+    "count": 2,
+    "create_time": 1774607305,
+    "update_time": 1774607305,
+    "_id": "doc-1b2bec2a81d44baab659c6603593f26d"
+  },
+  "doc-5b759b034b7c09a1e7e46992e468e2d2": {
+    "entity_names": [
+      "特指和身体多个部位的挤压伤和创伤性截断_S07-S08, S17-S18, S28, S38, S47-S48, S57-S58, S67-S68, S77-S78, S87-S88, S97-S98, T04-T05",
+      "特指和身体多个部位的挤压伤和创伤性截断",
+      "S07-S08, S17-S18, S28, S38, S47-S48, S57-S58, S67-S68, S77-S78, S87-S88, S97-S98, T04-T05",
+      "1071.0",
+      "1007.0"
+    ],
+    "count": 5,
+    "create_time": 1774607321,
+    "update_time": 1774607321,
+    "_id": "doc-5b759b034b7c09a1e7e46992e468e2d2"
+  },
+  "doc-20391dda36795c5bc1c6dffd1a888475": {
+    "entity_names": [
+      "27300.0",
+      "6589.0",
+      "特指、未特指和身体多个部位的其他损伤",
+      "S00-S01, S04, S09-S11, S14-S16, S19-S21, S24-S25, S29-S31, S34-S35, S39-S41, S44-S46, S49-S51, S54-S56, S59-S61, S64-S66, S69-S71, S74-S76, S79-S81, S84-S86, S89-S91, S94-S96, S99, T00-T01, T06-T07, T09, T11, T13-T14",
+      "20643.0"
+    ],
+    "count": 5,
+    "create_time": 1774607343,
+    "update_time": 1774607343,
+    "_id": "doc-20391dda36795c5bc1c6dffd1a888475"
+  },
+  "doc-65424668d4d8a9c305ac3066eae214c3": {
+    "entity_names": [
+      "T15-T19",
+      "通过自然腔口进入异物的效应",
+      "2698.0",
+      "2275.0"
+    ],
+    "count": 4,
+    "create_time": 1774607356,
+    "update_time": 1774607356,
+    "_id": "doc-65424668d4d8a9c305ac3066eae214c3"
+  },
+  "doc-8f759d749641ac33c9cad758c36c602b": {
+    "entity_names": [
+      "烧伤和腐蚀伤",
+      "1075.0",
+      "T20-T32",
+      "1132.0"
+    ],
+    "count": 4,
+    "create_time": 1774607367,
+    "update_time": 1774607367,
+    "_id": "doc-8f759d749641ac33c9cad758c36c602b"
+  },
+  "doc-ddf04ea49be45b4259cc05204c4cbe16": {
+    "entity_names": [
+      "T36-T50",
+      "药物和生物制品中毒",
+      "2640.0",
+      "2671.0"
+    ],
+    "count": 4,
+    "create_time": 1774607386,
+    "update_time": 1774607386,
+    "_id": "doc-ddf04ea49be45b4259cc05204c4cbe16"
+  },
+  "doc-b6c65b974c675fd55a61bede59705504": {
+    "entity_names": [
+      "主要为非药用物质的毒性效应",
+      "T51-T65"
+    ],
+    "count": 2,
+    "create_time": 1774607398,
+    "update_time": 1774607398,
+    "_id": "doc-b6c65b974c675fd55a61bede59705504"
+  },
+  "doc-eac9fa2223b127268184908a4a90bd07": {
+    "entity_names": [
+      "全港登记死亡人数-合计：0",
+      "虐待综合症",
+      "T74",
+      "全港登记死亡人数-女性：0",
+      "全港登记死亡人数-性别不详：0",
+      "住院病人出院及死亡人次-合计：1260",
+      "住院病人出院及死亡人次-惩教署辖下医院：0",
+      "ICD-10编码：T74",
+      "住院病人出院及死亡人次-私家医院：0",
+      "住院病人出院及死亡人次-医院管理局辖下医院：1260",
+      "全港登记死亡人数-男性：0"
+    ],
+    "count": 11,
+    "create_time": 1774607410,
+    "update_time": 1774607410,
+    "_id": "doc-eac9fa2223b127268184908a4a90bd07"
+  },
+  "doc-3c5acb2a317d2e4c99e0bd4f709c5b1d": {
+    "entity_names": [
+      "外因的其他和未特指效应",
+      "2839.0",
+      "2624.0",
+      "T33-T35, T66-T73, T75-T78"
+    ],
+    "count": 4,
+    "create_time": 1774607421,
+    "update_time": 1774607421,
+    "_id": "doc-3c5acb2a317d2e4c99e0bd4f709c5b1d"
+  },
+  "doc-a82a5653bc07c35c3385256205c804f0": {
+    "entity_names": [
+      "13086.0",
+      "13585.0",
+      "创伤的某些早期并发症以及手术和医疗并发症，不可归类在他处者",
+      "T79-T88"
+    ],
+    "count": 4,
+    "create_time": 1774607446,
+    "update_time": 1774607446,
+    "_id": "doc-a82a5653bc07c35c3385256205c804f0"
+  },
+  "doc-ebf621afaffaaadf20fe1cae2bd9a2f5": {
+    "entity_names": [
+      "损伤、中毒和外因的其他后果的后遗症",
+      "T90-T98"
+    ],
+    "count": 2,
+    "create_time": 1774607458,
+    "update_time": 1774607458,
+    "_id": "doc-ebf621afaffaaadf20fe1cae2bd9a2f5"
+  },
+  "doc-138c747fd976db7d88a8d39291f6224e": {
+    "entity_names": [
+      "51871.0",
+      "1138.0",
+      "Z00-Z13",
+      "54526.0",
+      "1517.0",
+      "为检查和调查而与保健机构接触的人"
+    ],
+    "count": 6,
+    "create_time": 1774607468,
+    "update_time": 1774607468,
+    "_id": "doc-138c747fd976db7d88a8d39291f6224e"
+  },
+  "doc-2f639a6afb9fae5838d233b3ea40b223": {
+    "entity_names": [
+      "无症状的人类免疫缺陷病毒感染状态",
+      "Z21"
+    ],
+    "count": 2,
+    "create_time": 1774607478,
+    "update_time": 1774607478,
+    "_id": "doc-2f639a6afb9fae5838d233b3ea40b223"
+  },
+  "doc-7e9a56aeafb62dac8fd5934b797aa091": {
+    "entity_names": [
+      "具有与传染病有关的潜在健康危害的其他人",
+      "Z20, Z22-Z29"
+    ],
+    "count": 2,
+    "create_time": 1774607490,
+    "update_time": 1774607490,
+    "_id": "doc-7e9a56aeafb62dac8fd5934b797aa091"
+  },
+  "doc-736aa94ca5954f59ccefae8c334ac0d1": {
+    "entity_names": [
+      "避孕问题",
+      "Z30"
+    ],
+    "count": 2,
+    "create_time": 1774607498,
+    "update_time": 1774607498,
+    "_id": "doc-736aa94ca5954f59ccefae8c334ac0d1"
+  },
+  "doc-f55dd50d43c41d2e83c3edefe3c67dec": {
+    "entity_names": [
+      "出生前筛选和其他妊娠监督",
+      "6555.0",
+      "Z34-Z36",
+      "6592.0"
+    ],
+    "count": 4,
+    "create_time": 1774607510,
+    "update_time": 1774607510,
+    "_id": "doc-f55dd50d43c41d2e83c3edefe3c67dec"
+  },
+  "doc-17ca5e15b7c7ff148d46089308bced0b": {
+    "entity_names": [
+      "Z38",
+      "12199.0",
+      "按照出生地点划分活产婴儿",
+      "20720.0",
+      "8521.0"
+    ],
+    "count": 5,
+    "create_time": 1774607528,
+    "update_time": 1774607528,
+    "_id": "doc-17ca5e15b7c7ff148d46089308bced0b"
+  },
+  "doc-1d63cdae0027da58978a6851a510d8f3": {
+    "entity_names": [
+      "住院病人出院及死亡人次-私家医院: 10.0",
+      "ICD-10编码: Z39",
+      "住院病人出院及死亡人次-医院管理局辖下医院: 7.0",
+      "Z39",
+      "住院病人出院及死亡人次-合计: 17.0",
+      "产后医疗和检查"
+    ],
+    "count": 6,
+    "create_time": 1774607539,
+    "update_time": 1774607539,
+    "_id": "doc-1d63cdae0027da58978a6851a510d8f3"
+  },
+  "doc-e97b61525cf36c912baeb5f852c15474": {
+    "entity_names": [
+      "2721.0",
+      "14884.0",
+      "2559.0",
+      "9604.0",
+      "Z40-Z54",
+      "为特殊操作和卫生保健而与保健机构接触的人"
+    ],
+    "count": 6,
+    "create_time": 1774607552,
+    "update_time": 1774607552,
+    "_id": "doc-e97b61525cf36c912baeb5f852c15474"
+  },
+  "doc-a92b49ec14ceff8716f9dfe71f869702": {
+    "entity_names": [
+      "Z31-Z33, Z37, Z55-Z99",
+      "22549.0",
+      "21776.0",
+      "为其他原因而与保健机构接触的人"
+    ],
+    "count": 4,
+    "create_time": 1774607567,
+    "update_time": 1774607567,
+    "_id": "doc-a92b49ec14ceff8716f9dfe71f869702"
+  },
+  "doc-39a894c9f2daf2b6fd366bb793eba5cb": {
+    "entity_names": [
+      "Z31-Z33, Z37, Z55-Z99",
+      "诊断不详"
+    ],
+    "count": 2,
+    "create_time": 1774607578,
+    "update_time": 1774607578,
+    "_id": "doc-39a894c9f2daf2b6fd366bb793eba5cb"
+  },
+  "doc-491f5f3092bcfbb6d7a642959cc77ec4": {
+    "entity_names": [
+      "1905905.0",
+      "2266303.0",
+      "合计",
+      "25353.0",
+      "345761.0",
+      "14637.0",
+      "31421.0",
+      "Z31-Z33, Z37, Z55-Z99",
+      "56776.0"
+    ],
+    "count": 9,
+    "create_time": 1774607593,
+    "update_time": 1774607593,
+    "_id": "doc-491f5f3092bcfbb6d7a642959cc77ec4"
+  },
+  "doc-07f40c55fd8443150b7fcd0dc6c6e928": {
+    "entity_names": [
+      "合计",
+      "Z31-Z33, Z37, Z55-Z99"
+    ],
+    "count": 2,
+    "create_time": 1774607600,
+    "update_time": 1774607600,
+    "_id": "doc-07f40c55fd8443150b7fcd0dc6c6e928"
+  },
+  "doc-66616b30d578e91ae5f778db086d2f40": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607607,
+    "update_time": 1774607607,
+    "_id": "doc-66616b30d578e91ae5f778db086d2f40"
+  },
+  "doc-4829e2b9f75c3ee4a2f72525edd9ebc1": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607612,
+    "update_time": 1774607612,
+    "_id": "doc-4829e2b9f75c3ee4a2f72525edd9ebc1"
+  },
+  "doc-22310e44866737cbd575d42d4922e987": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607625,
+    "update_time": 1774607625,
+    "_id": "doc-22310e44866737cbd575d42d4922e987"
+  },
+  "doc-e5d5d4ea89261564b125f24b240618bd": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607631,
+    "update_time": 1774607631,
+    "_id": "doc-e5d5d4ea89261564b125f24b240618bd"
+  },
+  "doc-6a14e08e2c5edbf64b633dbaeecbde14": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607635,
+    "update_time": 1774607635,
+    "_id": "doc-6a14e08e2c5edbf64b633dbaeecbde14"
+  },
+  "doc-7bd8a8d1b25443b290316b02ffb7af01": {
+    "entity_names": [
+      "合计"
+    ],
+    "count": 1,
+    "create_time": 1774607649,
+    "update_time": 1774607649,
+    "_id": "doc-7bd8a8d1b25443b290316b02ffb7af01"
+  }
+}

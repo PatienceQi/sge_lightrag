@@ -1,0 +1,25 @@
+Entity: ARG / WHOSIS_000001
+Year: 2000 | Value: 74.28695107
+Year: 2001 | Value: 74.27061688
+Year: 2002 | Value: 74.2583112
+Year: 2003 | Value: 74.25492535
+Year: 2004 | Value: 74.90566583
+Year: 2005 | Value: 75.25530861
+Year: 2006 | Value: 75.5327089
+Year: 2007 | Value: 75.05610078
+Year: 2008 | Value: 75.69496821
+Year: 2009 | Value: 75.85194237
+Year: 2010 | Value: 75.76938267
+Year: 2011 | Value: 75.94927296
+Year: 2012 | Value: 76.1760553
+Year: 2013 | Value: 76.20888199
+Year: 2014 | Value: 76.51452536
+Year: 2015 | Value: 76.5300965
+Year: 2016 | Value: 76.12474817
+Year: 2017 | Value: 76.64354126
+Year: 2018 | Value: 76.88825006
+Year: 2019 | Value: 77.01582731
+Year: 2020 | Value: 76.22884718
+Year: 2021 | Value: 74.56898059
+Remark: Argentina
+Remark: Life expectancy at birth (years)

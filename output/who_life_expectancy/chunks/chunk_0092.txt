@@ -1,0 +1,25 @@
+Entity: KEN / WHOSIS_000001
+Year: 2000 | Value: 54.09203911
+Year: 2001 | Value: 54.33283599
+Year: 2002 | Value: 54.58698847
+Year: 2003 | Value: 54.91168271
+Year: 2004 | Value: 55.51027953
+Year: 2005 | Value: 56.3951405
+Year: 2006 | Value: 57.46429328
+Year: 2007 | Value: 58.55063756
+Year: 2008 | Value: 59.48455643
+Year: 2009 | Value: 60.49062126
+Year: 2010 | Value: 61.28276083
+Year: 2011 | Value: 61.98126671
+Year: 2012 | Value: 62.61585724
+Year: 2013 | Value: 63.11575218
+Year: 2014 | Value: 63.63694431
+Year: 2015 | Value: 64.29968929
+Year: 2016 | Value: 65.03249549
+Year: 2017 | Value: 65.61126491
+Year: 2018 | Value: 66.06922549
+Year: 2019 | Value: 66.50141922
+Year: 2020 | Value: 66.79345007
+Year: 2021 | Value: 66.76221995
+Remark: Kenya
+Remark: Life expectancy at birth (years)

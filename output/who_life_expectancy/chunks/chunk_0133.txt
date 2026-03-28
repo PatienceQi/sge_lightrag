@@ -1,0 +1,25 @@
+Entity: PAK / WHOSIS_000001
+Year: 2000 | Value: 61.40857442
+Year: 2001 | Value: 61.67754226
+Year: 2002 | Value: 61.92897932
+Year: 2003 | Value: 62.14630981
+Year: 2004 | Value: 62.44387744
+Year: 2005 | Value: 61.99158191
+Year: 2006 | Value: 63.07149815
+Year: 2007 | Value: 63.38445782
+Year: 2008 | Value: 63.66141289
+Year: 2009 | Value: 63.92267166
+Year: 2010 | Value: 64.14819561
+Year: 2011 | Value: 64.54188869
+Year: 2012 | Value: 64.82124843
+Year: 2013 | Value: 65.10777782
+Year: 2014 | Value: 65.39254995
+Year: 2015 | Value: 65.69975806
+Year: 2016 | Value: 66.05197225
+Year: 2017 | Value: 66.3818317
+Year: 2018 | Value: 66.73689511
+Year: 2019 | Value: 67.02931501
+Year: 2020 | Value: 65.84948383
+Year: 2021 | Value: 65.99092295
+Remark: Pakistan
+Remark: Life expectancy at birth (years)

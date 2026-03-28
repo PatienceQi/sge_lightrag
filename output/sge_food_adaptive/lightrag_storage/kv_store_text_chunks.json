@@ -1,0 +1,80 @@
+{
+  "chunk-07a4eec341d2fd3869ab4fd0666557f0": {
+    "tokens": 117,
+    "content": "Category: 食物安全 > Item: 在食物管制站对运送食物的车辆进行重点检查数目* | 2021: 12304 | 2022: 12057 | 2023: 12678 | 2024: 13212 | Remark: * 由2020年起，指标「在文锦渡食物管制办事处检查运送蔬菜的车辆」已由新指标「在食物管制站对运送食物的车辆进行重点检查」取代。",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-07a4eec341d2fd3869ab4fd0666557f0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1422d5143ab0e62a120bfb4eb07dbd00"
+    ],
+    "create_time": 1774695033,
+    "update_time": 1774695043,
+    "_id": "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+  },
+  "chunk-135ae1d0f86126cfb7722efd71042025": {
+    "tokens": 72,
+    "content": "Category: 食物安全 > Item: 抽取作化验的食物样本数目 | 2021: 74991 | 2022: 72694 | 2023: 106424 | 2024: 152184 | Remark: 包括已进行辐射水平测试的日本进口食物样本",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-135ae1d0f86126cfb7722efd71042025",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:885929dccd629a7eaeaf63bffb22c52d"
+    ],
+    "create_time": 1774695043,
+    "update_time": 1774695050,
+    "_id": "chunk-135ae1d0f86126cfb7722efd71042025"
+  },
+  "chunk-71464070223ed787e8a10929d1d24944": {
+    "tokens": 47,
+    "content": "Category: 食物安全 > Item: 检查的标签数目 | 2021: 55196 | 2022: 55192 | 2023: 55208 | 2024: 55365",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-71464070223ed787e8a10929d1d24944",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:135ce78c9d63ed01697b4e93b7faafc3"
+    ],
+    "create_time": 1774695050,
+    "update_time": 1774695058,
+    "_id": "chunk-71464070223ed787e8a10929d1d24944"
+  },
+  "chunk-84aa0fd3031ed0c57b67db64d96b1990": {
+    "tokens": 49,
+    "content": "Category: 活食用牲口检验及测试 > Item: 入口家禽的检查次数 | 2021: 0 | 2022: 0 | 2023: 0 | 2024: 0",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-84aa0fd3031ed0c57b67db64d96b1990",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e164f97c474ab8378bb533b84c0fbbc4"
+    ],
+    "create_time": 1774695058,
+    "update_time": 1774695067,
+    "_id": "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+  },
+  "chunk-4864dd7fa7e53fff7f6799ac45e4513a": {
+    "tokens": 65,
+    "content": "Category: 活食用牲口检验及测试 > Item: 抽取猪只尿液样本进行乙类促效剂测试的数目 | 2021: 28027 | 2022: 29050 | 2023: 28638 | 2024: 28118",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4864dd7fa7e53fff7f6799ac45e4513a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9b4ceb356ae36ac1e11d4b303562da91"
+    ],
+    "create_time": 1774695067,
+    "update_time": 1774695073,
+    "_id": "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+  },
+  "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2": {
+    "tokens": 75,
+    "content": "Category: 活食用牲口检验及测试 > Item: 从食用动物抽取尿液、组织及血清样本测试有否残余禽畜药物的总数目 | 2021: 30131 | 2022: 29996 | 2023: 29613 | 2024: 29068",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5b8d0973df982df8b5df4ce6fcbaf0e2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b0e5c4f95bcd5b6bc00c6bf0f5a4db17"
+    ],
+    "create_time": 1774695073,
+    "update_time": 1774695083,
+    "_id": "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+  }
+}

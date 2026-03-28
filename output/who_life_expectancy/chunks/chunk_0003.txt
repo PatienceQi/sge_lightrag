@@ -1,0 +1,25 @@
+Entity: AGO / WHOSIS_000001
+Year: 2000 | Value: 49.36774351
+Year: 2001 | Value: 50.06036648
+Year: 2002 | Value: 51.05750193
+Year: 2003 | Value: 51.74053195
+Year: 2004 | Value: 52.3558271
+Year: 2005 | Value: 53.34585395
+Year: 2006 | Value: 54.27926946
+Year: 2007 | Value: 55.35489997
+Year: 2008 | Value: 56.22016209
+Year: 2009 | Value: 57.07394875
+Year: 2010 | Value: 57.96461105
+Year: 2011 | Value: 58.75334146
+Year: 2012 | Value: 59.46233734
+Year: 2013 | Value: 60.21682799
+Year: 2014 | Value: 61.13534716
+Year: 2015 | Value: 61.59307464
+Year: 2016 | Value: 61.84956314
+Year: 2017 | Value: 62.03682911
+Year: 2018 | Value: 62.27158067
+Year: 2019 | Value: 62.49147407
+Year: 2020 | Value: 62.64827403
+Year: 2021 | Value: 62.13113467
+Remark: Angola
+Remark: Life expectancy at birth (years)

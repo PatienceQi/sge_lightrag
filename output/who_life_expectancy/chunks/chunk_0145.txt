@@ -1,0 +1,25 @@
+Entity: ROU / WHOSIS_000001
+Year: 2000 | Value: 71.14174922
+Year: 2001 | Value: 71.21463166
+Year: 2002 | Value: 70.90278508
+Year: 2003 | Value: 71.23111832
+Year: 2004 | Value: 71.76511513
+Year: 2005 | Value: 72.09847343
+Year: 2006 | Value: 72.58593443
+Year: 2007 | Value: 73.13558178
+Year: 2008 | Value: 73.30477662
+Year: 2009 | Value: 73.44267621
+Year: 2010 | Value: 73.69918195
+Year: 2011 | Value: 74.44084112
+Year: 2012 | Value: 74.34204624
+Year: 2013 | Value: 75.00346495
+Year: 2014 | Value: 74.86061311
+Year: 2015 | Value: 74.90936922
+Year: 2016 | Value: 75.08359177
+Year: 2017 | Value: 75.11122981
+Year: 2018 | Value: 75.12257592
+Year: 2019 | Value: 75.4603753
+Year: 2020 | Value: 74.09623224
+Year: 2021 | Value: 72.76430945
+Remark: Romania
+Remark: Life expectancy at birth (years)

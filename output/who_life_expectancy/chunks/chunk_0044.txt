@@ -1,0 +1,25 @@
+Entity: CYP / WHOSIS_000001
+Year: 2000 | Value: 78.83247264
+Year: 2001 | Value: 78.86668678
+Year: 2002 | Value: 78.99615853
+Year: 2003 | Value: 79.11243929
+Year: 2004 | Value: 79.27834154
+Year: 2005 | Value: 79.53715992
+Year: 2006 | Value: 79.83910882
+Year: 2007 | Value: 80.21271187
+Year: 2008 | Value: 80.589293
+Year: 2009 | Value: 80.92281877
+Year: 2010 | Value: 81.17822871
+Year: 2011 | Value: 81.38772648
+Year: 2012 | Value: 81.61972744
+Year: 2013 | Value: 81.84969587
+Year: 2014 | Value: 81.84705653
+Year: 2015 | Value: 81.80149333
+Year: 2016 | Value: 81.7149767
+Year: 2017 | Value: 81.86957092
+Year: 2018 | Value: 82.05668584
+Year: 2019 | Value: 82.17744701
+Year: 2020 | Value: 82.06263041
+Year: 2021 | Value: 81.912741
+Remark: Cyprus
+Remark: Life expectancy at birth (years)

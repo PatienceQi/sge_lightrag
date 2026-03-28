@@ -1,0 +1,25 @@
+Entity: DOM / WHOSIS_000001
+Year: 2000 | Value: 73.39790354
+Year: 2001 | Value: 73.59849431
+Year: 2002 | Value: 73.59133884
+Year: 2003 | Value: 73.229535
+Year: 2004 | Value: 72.74531085
+Year: 2005 | Value: 72.80023496
+Year: 2006 | Value: 72.80245873
+Year: 2007 | Value: 72.98138698
+Year: 2008 | Value: 73.27970118
+Year: 2009 | Value: 73.54510674
+Year: 2010 | Value: 73.80111624
+Year: 2011 | Value: 74.02906414
+Year: 2012 | Value: 73.71953299
+Year: 2013 | Value: 73.27936819
+Year: 2014 | Value: 73.26353439
+Year: 2015 | Value: 73.29460988
+Year: 2016 | Value: 73.33430363
+Year: 2017 | Value: 73.41062894
+Year: 2018 | Value: 73.52093617
+Year: 2019 | Value: 73.91314074
+Year: 2020 | Value: 73.56757121
+Year: 2021 | Value: 73.32102758
+Remark: Dominican Republic
+Remark: Life expectancy at birth (years)

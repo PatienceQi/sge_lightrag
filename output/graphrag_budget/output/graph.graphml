@@ -1,0 +1,87 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="&#20105;&#21462;&#25903;&#25345;" />
+    <node id="93.8_MILLION_HKD_2022-23_ACTUAL" />
+    <node id="99.6_MILLION_HKD_2023-24_ORIGINAL_BUDGET" />
+    <node id="99.9_MILLION_HKD_2023-24_REVISED" />
+    <node id="105.6_MILLION_HKD_2024-25_BUDGET" />
+    <node id="2022-23" />
+    <node id="2023-24" />
+    <node id="2024-25" />
+    <node id="&#25191;&#27861;&#24037;&#20316;" />
+    <node id="1013.7_MILLION_HKD_2022-23_ACTUAL" />
+    <node id="1031.8_MILLION_HKD_2023-24_ORIGINAL_BUDGET" />
+    <node id="1067.2_MILLION_HKD_2023-24_REVISED" />
+    <node id="1080.9_MILLION_HKD_2024-25_BUDGET" />
+    <node id="&#20513;&#24265;&#25945;&#32946;" />
+    <node id="&#38450;&#27490;&#36138;&#27745;" />
+    <node id="91.5_MILLION_HKD_2022-23_ACTUAL" />
+    <node id="100.8_MILLION_HKD_2023-24_ORIGINAL_BUDGET" />
+    <node id="101.3_MILLION_HKD_2023-24_REVISED" />
+    <node id="97.2_MILLION_HKD_2024-25_BUDGET" />
+    <edge source="&#20105;&#21462;&#25903;&#25345;" target="93.8_MILLION_HKD_2022-23_ACTUAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20105;&#21462;&#25903;&#25345;" target="99.6_MILLION_HKD_2023-24_ORIGINAL_BUDGET">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20105;&#21462;&#25903;&#25345;" target="99.9_MILLION_HKD_2023-24_REVISED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20105;&#21462;&#25903;&#25345;" target="105.6_MILLION_HKD_2024-25_BUDGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="93.8_MILLION_HKD_2022-23_ACTUAL" target="2022-23">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="93.8_MILLION_HKD_2022-23_ACTUAL" target="&#20513;&#24265;&#25945;&#32946;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="99.6_MILLION_HKD_2023-24_ORIGINAL_BUDGET" target="2023-24">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="99.6_MILLION_HKD_2023-24_ORIGINAL_BUDGET" target="&#20513;&#24265;&#25945;&#32946;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="99.9_MILLION_HKD_2023-24_REVISED" target="2023-24">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="99.9_MILLION_HKD_2023-24_REVISED" target="&#20513;&#24265;&#25945;&#32946;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="105.6_MILLION_HKD_2024-25_BUDGET" target="2024-25">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="105.6_MILLION_HKD_2024-25_BUDGET" target="&#20513;&#24265;&#25945;&#32946;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#25191;&#27861;&#24037;&#20316;" target="1013.7_MILLION_HKD_2022-23_ACTUAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#25191;&#27861;&#24037;&#20316;" target="1031.8_MILLION_HKD_2023-24_ORIGINAL_BUDGET">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#25191;&#27861;&#24037;&#20316;" target="1067.2_MILLION_HKD_2023-24_REVISED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#25191;&#27861;&#24037;&#20316;" target="1080.9_MILLION_HKD_2024-25_BUDGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#38450;&#27490;&#36138;&#27745;" target="91.5_MILLION_HKD_2022-23_ACTUAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#38450;&#27490;&#36138;&#27745;" target="100.8_MILLION_HKD_2023-24_ORIGINAL_BUDGET">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#38450;&#27490;&#36138;&#27745;" target="101.3_MILLION_HKD_2023-24_REVISED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#38450;&#27490;&#36138;&#27745;" target="97.2_MILLION_HKD_2024-25_BUDGET">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="100.8_MILLION_HKD_2023-24_ORIGINAL_BUDGET" target="101.3_MILLION_HKD_2023-24_REVISED">
+      <data key="d0">1.0</data>
+    </edge>
+  </graph>
+</graphml>

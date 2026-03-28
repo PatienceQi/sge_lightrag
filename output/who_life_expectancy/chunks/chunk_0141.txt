@@ -1,0 +1,25 @@
+Entity: PRT / WHOSIS_000001
+Year: 2000 | Value: 76.58820219
+Year: 2001 | Value: 76.92951203
+Year: 2002 | Value: 77.14647451
+Year: 2003 | Value: 77.31485554
+Year: 2004 | Value: 78.12094465
+Year: 2005 | Value: 77.99178078
+Year: 2006 | Value: 78.74114417
+Year: 2007 | Value: 78.95554595
+Year: 2008 | Value: 79.19526814
+Year: 2009 | Value: 79.40582714
+Year: 2010 | Value: 79.74021661
+Year: 2011 | Value: 80.24005801
+Year: 2012 | Value: 80.21024339
+Year: 2013 | Value: 80.52727852
+Year: 2014 | Value: 80.89996435
+Year: 2015 | Value: 80.89189476
+Year: 2016 | Value: 80.90466136
+Year: 2017 | Value: 81.14657369
+Year: 2018 | Value: 81.06316039
+Year: 2019 | Value: 81.36750616
+Year: 2020 | Value: 80.81837464
+Year: 2021 | Value: 81.17961003
+Remark: Portugal
+Remark: Life expectancy at birth (years)

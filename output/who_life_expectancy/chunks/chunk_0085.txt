@@ -1,0 +1,25 @@
+Entity: ISL / WHOSIS_000001
+Year: 2000 | Value: 79.6920726
+Year: 2001 | Value: 79.99493866
+Year: 2002 | Value: 80.30310703
+Year: 2003 | Value: 80.56916041
+Year: 2004 | Value: 80.76637117
+Year: 2005 | Value: 80.90304444
+Year: 2006 | Value: 81.03602001
+Year: 2007 | Value: 81.14698057
+Year: 2008 | Value: 81.29367071
+Year: 2009 | Value: 81.49587558
+Year: 2010 | Value: 81.68175374
+Year: 2011 | Value: 81.86017778
+Year: 2012 | Value: 81.9847692
+Year: 2013 | Value: 82.07380529
+Year: 2014 | Value: 82.09822512
+Year: 2015 | Value: 82.12605142
+Year: 2016 | Value: 82.17563351
+Year: 2017 | Value: 82.27340584
+Year: 2018 | Value: 82.37332681
+Year: 2019 | Value: 82.4706163
+Year: 2020 | Value: 82.56117418
+Year: 2021 | Value: 82.57766731
+Remark: Iceland
+Remark: Life expectancy at birth (years)

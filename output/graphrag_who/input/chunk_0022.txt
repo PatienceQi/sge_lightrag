@@ -1,0 +1,25 @@
+Entity: BLR / WHOSIS_000001
+Year: 2000 | Value: 68.79296699
+Year: 2001 | Value: 68.38068954
+Year: 2002 | Value: 67.90677805
+Year: 2003 | Value: 68.37573872
+Year: 2004 | Value: 68.80163482
+Year: 2005 | Value: 68.69743153
+Year: 2006 | Value: 69.30529977
+Year: 2007 | Value: 70.20054242
+Year: 2008 | Value: 70.33830973
+Year: 2009 | Value: 70.47736788
+Year: 2010 | Value: 70.35076033
+Year: 2011 | Value: 70.57181476
+Year: 2012 | Value: 72.11133932
+Year: 2013 | Value: 72.59208184
+Year: 2014 | Value: 73.15346125
+Year: 2015 | Value: 73.73950531
+Year: 2016 | Value: 73.8924593
+Year: 2017 | Value: 74.22729868
+Year: 2018 | Value: 74.34647413
+Year: 2019 | Value: 74.8186819
+Year: 2020 | Value: 73.01027649
+Year: 2021 | Value: 73.12324771
+Remark: Belarus
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: JPN / WHOSIS_000001
+Year: 2000 | Value: 81.5301793
+Year: 2001 | Value: 81.84225924
+Year: 2002 | Value: 82.10074471
+Year: 2003 | Value: 82.14025197
+Year: 2004 | Value: 82.37003875
+Year: 2005 | Value: 82.23817071
+Year: 2006 | Value: 82.59216336
+Year: 2007 | Value: 82.7592849
+Year: 2008 | Value: 82.83288975
+Year: 2009 | Value: 83.15818254
+Year: 2010 | Value: 83.08330199
+Year: 2011 | Value: 82.82691604
+Year: 2012 | Value: 83.32740995
+Year: 2013 | Value: 83.56021789
+Year: 2014 | Value: 83.79493082
+Year: 2015 | Value: 83.99957263
+Year: 2016 | Value: 84.15707196
+Year: 2017 | Value: 84.25809871
+Year: 2018 | Value: 84.35134487
+Year: 2019 | Value: 84.46675304
+Year: 2020 | Value: 84.66324868
+Year: 2021 | Value: 84.46067178
+Remark: Japan
+Remark: Life expectancy at birth (years)

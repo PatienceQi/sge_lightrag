@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="食物安全">
+  <data key="d0">食物安全</data>
+  <data key="d1">concept</data>
+  <data key="d2">食物安全是指食物管制和监督的相关概念，涵盖对运送食物车辆的检查和控制。&lt;SEP&gt;食物安全是指确保食物无害和适合人类消费的质量和安全标准。&lt;SEP&gt;食物安全是指食品在生产、加工、储存和消费过程中不含有害物质，确保消费者健康的概念。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0&lt;SEP&gt;chunk-135ae1d0f86126cfb7722efd71042025&lt;SEP&gt;chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="食物管制站">
+  <data key="d0">食物管制站</data>
+  <data key="d1">location</data>
+  <data key="d2">食物管制站是进行食物车辆重点检查的地点。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695043</data>
+  <data key="d6"></data>
+</node>
+<node id="运送食物的车辆">
+  <data key="d0">运送食物的车辆</data>
+  <data key="d1">artifact</data>
+  <data key="d2">运送食物的车辆是接受食物管制站重点检查的对象。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695043</data>
+  <data key="d6"></data>
+</node>
+<node id="在食物管制站对运送食物的车辆进行重点检查数目">
+  <data key="d0">在食物管制站对运送食物的车辆进行重点检查数目</data>
+  <data key="d1">data</data>
+  <data key="d2">该指标记录在食物管制站对运送食物车辆进行重点检查的数量，2021年为12304辆，2022年为12057辆，2023年为12678辆，2024年为13212辆。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695043</data>
+  <data key="d6"></data>
+</node>
+<node id="文锦渡食物管制办事处">
+  <data key="d0">文锦渡食物管制办事处</data>
+  <data key="d1">location</data>
+  <data key="d2">文锦渡食物管制办事处是曾经负责检查运送蔬菜车辆的机构，其相关指标已被新指标取代。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695043</data>
+  <data key="d6"></data>
+</node>
+<node id="在文锦渡食物管制办事处检查运送蔬菜的车辆">
+  <data key="d0">在文锦渡食物管制办事处检查运送蔬菜的车辆</data>
+  <data key="d1">data</data>
+  <data key="d2">该指标是旧的检查指标，自2020年起已被新指标取代。</data>
+  <data key="d3">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695043</data>
+  <data key="d6"></data>
+</node>
+<node id="抽取作化验的食物样本">
+  <data key="d0">抽取作化验的食物样本</data>
+  <data key="d1">data</data>
+  <data key="d2">抽取作化验的食物样本是指为了进行食物安全检验而收集的食物样本数据。</data>
+  <data key="d3">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695050</data>
+  <data key="d6"></data>
+</node>
+<node id="日本进口食物样本">
+  <data key="d0">日本进口食物样本</data>
+  <data key="d1">data</data>
+  <data key="d2">日本进口食物样本是指来自日本的进口食物样本，包括已进行辐射水平测试的样本。</data>
+  <data key="d3">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695050</data>
+  <data key="d6"></data>
+</node>
+<node id="辐射水平测试">
+  <data key="d0">辐射水平测试</data>
+  <data key="d1">method</data>
+  <data key="d2">辐射水平测试是一种检验食物样本中辐射水平的测试方法。</data>
+  <data key="d3">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695050</data>
+  <data key="d6"></data>
+</node>
+<node id="检查的标签数目">
+  <data key="d0">检查的标签数目</data>
+  <data key="d1">data</data>
+  <data key="d2">检查的标签数目是指在食物安全监管中被检查的食品标签总数的数据指标。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年食物安全标签检查数据">
+  <data key="d0">2021年食物安全标签检查数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2021年期间检查的食品标签数目为55196个。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年食物安全标签检查数据">
+  <data key="d0">2022年食物安全标签检查数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2022年期间检查的食品标签数目为55192个。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="2023年食物安全标签检查数据">
+  <data key="d0">2023年食物安全标签检查数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2023年期间检查的食品标签数目为55208个。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="2024年食物安全标签检查数据">
+  <data key="d0">2024年食物安全标签检查数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2024年期间检查的食品标签数目为55365个。</data>
+  <data key="d3">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695058</data>
+  <data key="d6"></data>
+</node>
+<node id="活食用牲口检验及测试">
+  <data key="d0">活食用牲口检验及测试</data>
+  <data key="d1">content</data>
+  <data key="d2">活食用牲口检验及测试是一个涉及对活体食用动物进行检验和测试的概念类别。&lt;SEP&gt;活食用牲口检验及测试是针对活食用牲口进行的检验和测试的总体范畴。&lt;SEP&gt;这是一个检验和测试类别，专门用于活食用动物的检验工作。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990&lt;SEP&gt;chunk-4864dd7fa7e53fff7f6799ac45e4513a&lt;SEP&gt;chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="入口家禽的检查次数">
+  <data key="d0">入口家禽的检查次数</data>
+  <data key="d1">data</data>
+  <data key="d2">入口家禽的检查次数是指进口家禽的检查数据统计，记录了2021年至2024年间的检查次数。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695067</data>
+  <data key="d6"></data>
+</node>
+<node id="2021">
+  <data key="d0">2021</data>
+  <data key="d1">data</data>
+  <data key="d2">2021年是统计周期中的一个年份，该年入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695067</data>
+  <data key="d6"></data>
+</node>
+<node id="2022">
+  <data key="d0">2022</data>
+  <data key="d1">data</data>
+  <data key="d2">2022年是统计周期中的一个年份，该年入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695067</data>
+  <data key="d6"></data>
+</node>
+<node id="2023">
+  <data key="d0">2023</data>
+  <data key="d1">data</data>
+  <data key="d2">2023年是统计周期中的一个年份，该年入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695067</data>
+  <data key="d6"></data>
+</node>
+<node id="2024">
+  <data key="d0">2024</data>
+  <data key="d1">data</data>
+  <data key="d2">2024年是统计周期中的一个年份，该年入口家禽的检查次数为0。</data>
+  <data key="d3">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695067</data>
+  <data key="d6"></data>
+</node>
+<node id="猪只尿液样本">
+  <data key="d0">猪只尿液样本</data>
+  <data key="d1">data</data>
+  <data key="d2">猪只尿液样本是从活食用猪只中抽取的生物样本，用于进行乙类促效剂测试。</data>
+  <data key="d3">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695073</data>
+  <data key="d6"></data>
+</node>
+<node id="乙类促效剂测试">
+  <data key="d0">乙类促效剂测试</data>
+  <data key="d1">method</data>
+  <data key="d2">乙类促效剂测试是一种对猪只尿液样本进行的检验方法，用于检测促效剂残留。</data>
+  <data key="d3">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695073</data>
+  <data key="d6"></data>
+</node>
+<node id="抽取猪只尿液样本进行乙类促效剂测试的数目">
+  <data key="d0">抽取猪只尿液样本进行乙类促效剂测试的数目</data>
+  <data key="d1">data</data>
+  <data key="d2">该数据记录了每年进行乙类促效剂测试的猪只尿液样本数量统计。</data>
+  <data key="d3">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695073</data>
+  <data key="d6"></data>
+</node>
+<node id="食用动物">
+  <data key="d0">食用动物</data>
+  <data key="d1">concept</data>
+  <data key="d2">食用动物是指被用于食品生产的动物，本检验项目对其进行药物残余检测。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="尿液样本">
+  <data key="d0">尿液样本</data>
+  <data key="d1">data</data>
+  <data key="d2">从食用动物中抽取的尿液样本，用于检测禽畜药物残余。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="组织样本">
+  <data key="d0">组织样本</data>
+  <data key="d1">data</data>
+  <data key="d2">从食用动物中抽取的组织样本，用于检测禽畜药物残余。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="血清样本">
+  <data key="d0">血清样本</data>
+  <data key="d1">data</data>
+  <data key="d2">从食用动物中抽取的血清样本，用于检测禽畜药物残余。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="禽畜药物残余检测">
+  <data key="d0">禽畜药物残余检测</data>
+  <data key="d1">method</data>
+  <data key="d2">一种测试方法，用于检验食用动物样本中是否存在禽畜药物残余。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年检测数据">
+  <data key="d0">2021年检测数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2021年进行的禽畜药物残余检测总数为30131。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年检测数据">
+  <data key="d0">2022年检测数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2022年进行的禽畜药物残余检测总数为29996。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="2023年检测数据">
+  <data key="d0">2023年检测数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2023年进行的禽畜药物残余检测总数为29613。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<node id="2024年检测数据">
+  <data key="d0">2024年检测数据</data>
+  <data key="d1">data</data>
+  <data key="d2">2024年进行的禽畜药物残余检测总数为29068。</data>
+  <data key="d3">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774695083</data>
+  <data key="d6"></data>
+</node>
+<edge source="食物安全" target="在食物管制站对运送食物的车辆进行重点检查数目">
+  <data key="d7">1.0</data>
+  <data key="d8">该检查数目是食物安全监管的重要数据指标。</data>
+  <data key="d9">数据指标,监督管理</data>
+  <data key="d10">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695043</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物安全" target="抽取作化验的食物样本">
+  <data key="d7">1.0</data>
+  <data key="d8">食物样本的抽取和化验是食物安全监管和质量保证的重要组成部分。</data>
+  <data key="d9">检验、质量控制</data>
+  <data key="d10">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695050</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物安全" target="检查的标签数目">
+  <data key="d7">1.0</data>
+  <data key="d8">检查的标签数目是食物安全监管的重要数据指标，用于衡量食品标签检查的工作量。</data>
+  <data key="d9">安全检查,监管指标</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695058</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食物管制站" target="运送食物的车辆">
+  <data key="d7">1.0</data>
+  <data key="d8">食物管制站对运送食物的车辆进行重点检查以确保食物安全。</data>
+  <data key="d9">安全控制,检查监督</data>
+  <data key="d10">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695043</data>
+  <data key="d13"></data>
+</edge>
+<edge source="在食物管制站对运送食物的车辆进行重点检查数目" target="在文锦渡食物管制办事处检查运送蔬菜的车辆">
+  <data key="d7">1.0</data>
+  <data key="d8">旧指标已自2020年起被新指标取代。</data>
+  <data key="d9">指标替代,政策调整</data>
+  <data key="d10">chunk-07a4eec341d2fd3869ab4fd0666557f0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695043</data>
+  <data key="d13"></data>
+</edge>
+<edge source="抽取作化验的食物样本" target="日本进口食物样本">
+  <data key="d7">1.0</data>
+  <data key="d8">日本进口食物样本是被抽取进行化验的食物样本的一个重要类别。</data>
+  <data key="d9">样本来源、进口检验</data>
+  <data key="d10">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695050</data>
+  <data key="d13"></data>
+</edge>
+<edge source="日本进口食物样本" target="辐射水平测试">
+  <data key="d7">1.0</data>
+  <data key="d8">日本进口食物样本已进行辐射水平测试以确保其安全性。</data>
+  <data key="d9">检验方法、安全监测</data>
+  <data key="d10">chunk-135ae1d0f86126cfb7722efd71042025</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695050</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2021年食物安全标签检查数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年的标签检查数据为检查的标签数目这一指标提供了具体的统计数值。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695058</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2022年食物安全标签检查数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年的标签检查数据为检查的标签数目这一指标提供了具体的统计数值。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695058</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2023年食物安全标签检查数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年的标签检查数据为检查的标签数目这一指标提供了具体的统计数值。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695058</data>
+  <data key="d13"></data>
+</edge>
+<edge source="检查的标签数目" target="2024年食物安全标签检查数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年的标签检查数据为检查的标签数目这一指标提供了具体的统计数值。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-71464070223ed787e8a10929d1d24944</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695058</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="入口家禽的检查次数">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数是活食用牲口检验及测试这一概念类别下的具体检查项目。</data>
+  <data key="d9">分类关系,数据统计</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695067</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="乙类促效剂测试">
+  <data key="d7">1.0</data>
+  <data key="d8">乙类促效剂测试是活食用牲口检验及测试范畴中的一种具体方法。</data>
+  <data key="d9">检验方法,检验范畴</data>
+  <data key="d10">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695073</data>
+  <data key="d13"></data>
+</edge>
+<edge source="活食用牲口检验及测试" target="禽畜药物残余检测">
+  <data key="d7">1.0</data>
+  <data key="d8">禽畜药物残余检测是活食用牲口检验及测试分类下的具体检验项目。</data>
+  <data key="d9">分类、检验项目</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2021">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数在2021年的统计值为0。</data>
+  <data key="d9">数据年份,统计数据</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695067</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2022">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数在2022年的统计值为0。</data>
+  <data key="d9">数据年份,统计数据</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695067</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2023">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数在2023年的统计值为0。</data>
+  <data key="d9">数据年份,统计数据</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695067</data>
+  <data key="d13"></data>
+</edge>
+<edge source="入口家禽的检查次数" target="2024">
+  <data key="d7">1.0</data>
+  <data key="d8">入口家禽的检查次数在2024年的统计值为0。</data>
+  <data key="d9">数据年份,统计数据</data>
+  <data key="d10">chunk-84aa0fd3031ed0c57b67db64d96b1990</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695067</data>
+  <data key="d13"></data>
+</edge>
+<edge source="猪只尿液样本" target="乙类促效剂测试">
+  <data key="d7">1.0</data>
+  <data key="d8">猪只尿液样本是进行乙类促效剂测试的检验对象。</data>
+  <data key="d9">检验对象,测试方法</data>
+  <data key="d10">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695073</data>
+  <data key="d13"></data>
+</edge>
+<edge source="猪只尿液样本" target="抽取猪只尿液样本进行乙类促效剂测试的数目">
+  <data key="d7">1.0</data>
+  <data key="d8">该数据统计了猪只尿液样本的年度检测数量。</data>
+  <data key="d9">样本数量,统计数据</data>
+  <data key="d10">chunk-4864dd7fa7e53fff7f6799ac45e4513a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695073</data>
+  <data key="d13"></data>
+</edge>
+<edge source="食用动物" target="禽畜药物残余检测">
+  <data key="d7">1.0</data>
+  <data key="d8">禽畜药物残余检测以食用动物为检验对象，从其身上采集样本。</data>
+  <data key="d9">检测对象、样本采集</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="尿液样本" target="禽畜药物残余检测">
+  <data key="d7">1.0</data>
+  <data key="d8">禽畜药物残余检测包括对尿液样本的分析。</data>
+  <data key="d9">检测方法、样本类型</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="组织样本" target="禽畜药物残余检测">
+  <data key="d7">1.0</data>
+  <data key="d8">禽畜药物残余检测包括对组织样本的分析。</data>
+  <data key="d9">检测方法、样本类型</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="血清样本" target="禽畜药物残余检测">
+  <data key="d7">1.0</data>
+  <data key="d8">禽畜药物残余检测包括对血清样本的分析。</data>
+  <data key="d9">检测方法、样本类型</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="禽畜药物残余检测" target="2021年检测数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年的禽畜药物残余检测总数为30131。</data>
+  <data key="d9">年份数据、检测结果</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="禽畜药物残余检测" target="2022年检测数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年的禽畜药物残余检测总数为29996。</data>
+  <data key="d9">年份数据、检测结果</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="禽畜药物残余检测" target="2023年检测数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年的禽畜药物残余检测总数为29613。</data>
+  <data key="d9">年份数据、检测结果</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+<edge source="禽畜药物残余检测" target="2024年检测数据">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年的禽畜药物残余检测总数为29068。</data>
+  <data key="d9">年份数据、检测结果</data>
+  <data key="d10">chunk-5b8d0973df982df8b5df4ce6fcbaf0e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774695083</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

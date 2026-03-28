@@ -1,0 +1,25 @@
+Entity: PNG / WHOSIS_000001
+Year: 2000 | Value: 63.35685153
+Year: 2001 | Value: 63.3735659
+Year: 2002 | Value: 63.43343076
+Year: 2003 | Value: 63.55882521
+Year: 2004 | Value: 63.6270316
+Year: 2005 | Value: 63.68705774
+Year: 2006 | Value: 63.77212081
+Year: 2007 | Value: 64.07514301
+Year: 2008 | Value: 64.35307086
+Year: 2009 | Value: 64.63295489
+Year: 2010 | Value: 64.88774886
+Year: 2011 | Value: 65.03278821
+Year: 2012 | Value: 65.16940213
+Year: 2013 | Value: 65.47647701
+Year: 2014 | Value: 65.75249158
+Year: 2015 | Value: 66.00102041
+Year: 2016 | Value: 66.19035356
+Year: 2017 | Value: 66.39410121
+Year: 2018 | Value: 66.51753655
+Year: 2019 | Value: 66.67377821
+Year: 2020 | Value: 66.27049986
+Year: 2021 | Value: 65.48786529
+Remark: Papua New Guinea
+Remark: Life expectancy at birth (years)

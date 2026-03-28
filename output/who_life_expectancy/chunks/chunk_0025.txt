@@ -1,0 +1,25 @@
+Entity: BRA / WHOSIS_000001
+Year: 2000 | Value: 71.4995438
+Year: 2001 | Value: 71.80355904
+Year: 2002 | Value: 72.03662703
+Year: 2003 | Value: 72.30491342
+Year: 2004 | Value: 72.50201054
+Year: 2005 | Value: 73.14791265
+Year: 2006 | Value: 73.33073271
+Year: 2007 | Value: 73.5789865
+Year: 2008 | Value: 73.71397618
+Year: 2009 | Value: 73.8424263
+Year: 2010 | Value: 73.92337469
+Year: 2011 | Value: 74.01518436
+Year: 2012 | Value: 74.28196582
+Year: 2013 | Value: 74.42169527
+Year: 2014 | Value: 74.63621389
+Year: 2015 | Value: 74.711289
+Year: 2016 | Value: 74.56188231
+Year: 2017 | Value: 74.98912241
+Year: 2018 | Value: 75.31944699
+Year: 2019 | Value: 75.47815778
+Year: 2020 | Value: 74.11393563
+Year: 2021 | Value: 72.38840694
+Remark: Brazil
+Remark: Life expectancy at birth (years)

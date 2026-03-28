@@ -1,0 +1,54 @@
+{
+  "chunk-705be77841ba71ecb7ae6942b5447f0a": {
+    "tokens": 138,
+    "content": "Entity: 注册医生数目(1)\nYear: 2024 | Value: 2.2\nYear: 2023 | Value: 2.1\nYear: 2022 | Value: 2.1\nYear: 2021 | Value: 2.1\nYear: 2020 | Value: 2.1\nYear: 2019 | Value: 2.0\nYear: 2018 | Value: 2.0\nYear: 2017 | Value: 1.9\nYear: 2016 | Value: 1.9\nYear: 2015 | Value: 1.9",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-705be77841ba71ecb7ae6942b5447f0a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d324bb2e7ef81966d246d98b3cb0e46d"
+    ],
+    "create_time": 1774606152,
+    "update_time": 1774606161,
+    "_id": "chunk-705be77841ba71ecb7ae6942b5447f0a"
+  },
+  "chunk-1fc58a1681869924068618b623ec1c31": {
+    "tokens": 138,
+    "content": "Entity: 注册护士数目(2)\nYear: 2024 | Value: 9.6\nYear: 2023 | Value: 9.1\nYear: 2022 | Value: 8.9\nYear: 2021 | Value: 8.7\nYear: 2020 | Value: 8.3\nYear: 2019 | Value: 7.9\nYear: 2018 | Value: 7.6\nYear: 2017 | Value: 7.3\nYear: 2016 | Value: 7.1\nYear: 2015 | Value: 6.9",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1fc58a1681869924068618b623ec1c31",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:91002568928d3321572e1008d9491503"
+    ],
+    "create_time": 1774606161,
+    "update_time": 1774606171,
+    "_id": "chunk-1fc58a1681869924068618b623ec1c31"
+  },
+  "chunk-1330ee8b5819c48fe18d3eaf0a7a38ed": {
+    "tokens": 141,
+    "content": "Entity: 病床 / A系列 (3)\nYear: 2024 | Value: 4.9\nYear: 2023 | Value: 4.9\nYear: 2022 | Value: 4.9\nYear: 2021 | Value: 4.9\nYear: 2020 | Value: 4.8\nYear: 2019 | Value: 4.7\nYear: 2018 | Value: 4.6\nYear: 2017 | Value: 4.6\nYear: 2016 | Value: 4.5\nYear: 2015 | Value: 4.5",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-1330ee8b5819c48fe18d3eaf0a7a38ed",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9e6a0dce26133675e6cf77ab77a9d783"
+    ],
+    "create_time": 1774606171,
+    "update_time": 1774606186,
+    "_id": "chunk-1330ee8b5819c48fe18d3eaf0a7a38ed"
+  },
+  "chunk-6f865deb97ce784f08871e8a3650d33c": {
+    "tokens": 137,
+    "content": "Entity: B系列 (4)\nYear: 2024 | Value: 4.3\nYear: 2023 | Value: 4.3\nYear: 2022 | Value: 4.3\nYear: 2021 | Value: 4.3\nYear: 2020 | Value: 4.2\nYear: 2019 | Value: 4.2\nYear: 2018 | Value: 4.1\nYear: 2017 | Value: 4.1\nYear: 2016 | Value: 4.0\nYear: 2015 | Value: 4.0",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-6f865deb97ce784f08871e8a3650d33c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:27281bfeadae80ac8e908e7526d5e24b"
+    ],
+    "create_time": 1774606186,
+    "update_time": 1774606202,
+    "_id": "chunk-6f865deb97ce784f08871e8a3650d33c"
+  }
+}

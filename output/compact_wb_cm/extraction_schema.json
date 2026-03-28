@@ -1,0 +1,694 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "Country_Code"
+  ],
+  "relation_types": [
+    "HAS_VALUE"
+  ],
+  "column_roles": {
+    "Country Name": "metadata",
+    "Country Code": "subject",
+    "Indicator Name": "metadata",
+    "Indicator Code": "subject",
+    "1960": "time_value",
+    "1961": "time_value",
+    "1962": "time_value",
+    "1963": "time_value",
+    "1964": "time_value",
+    "1965": "time_value",
+    "1966": "time_value",
+    "1967": "time_value",
+    "1968": "time_value",
+    "1969": "time_value",
+    "1970": "time_value",
+    "1971": "time_value",
+    "1972": "time_value",
+    "1973": "time_value",
+    "1974": "time_value",
+    "1975": "time_value",
+    "1976": "time_value",
+    "1977": "time_value",
+    "1978": "time_value",
+    "1979": "time_value",
+    "1980": "time_value",
+    "1981": "time_value",
+    "1982": "time_value",
+    "1983": "time_value",
+    "1984": "time_value",
+    "1985": "time_value",
+    "1986": "time_value",
+    "1987": "time_value",
+    "1988": "time_value",
+    "1989": "time_value",
+    "1990": "time_value",
+    "1991": "time_value",
+    "1992": "time_value",
+    "1993": "time_value",
+    "1994": "time_value",
+    "1995": "time_value",
+    "1996": "time_value",
+    "1997": "time_value",
+    "1998": "time_value",
+    "1999": "time_value",
+    "2000": "time_value",
+    "2001": "time_value",
+    "2002": "time_value",
+    "2003": "time_value",
+    "2004": "time_value",
+    "2005": "time_value",
+    "2006": "time_value",
+    "2007": "time_value",
+    "2008": "time_value",
+    "2009": "time_value",
+    "2010": "time_value",
+    "2011": "time_value",
+    "2012": "time_value",
+    "2013": "time_value",
+    "2014": "time_value",
+    "2015": "time_value",
+    "2016": "time_value",
+    "2017": "time_value",
+    "2018": "time_value",
+    "2019": "time_value",
+    "2020": "time_value",
+    "2021": "time_value",
+    "2022": "time_value",
+    "2023": "time_value",
+    "2024": "time_value",
+    "2025": "time_value",
+    "Unnamed: 70": "subject"
+  },
+  "entity_extraction_template": "For each row, extract the value of 'Country Code' as a Country_Code entity node.",
+  "relation_extraction_template": "For each time column, create: (Country_Code) -[HAS_VALUE {year: X, status: Y, unit: Z}]-> (value). Example time columns: {1960}; {1961}; {1962}.",
+  "extraction_constraints": [
+    "Each row represents one Country_Code entity identified by 'Country Code'.",
+    "Time columns encode fiscal year, status, and unit in compound headers.",
+    "Parse compound headers (newline-separated) into year/status/unit attributes.",
+    "Create one HAS_VALUE relation per (entity, time_column) pair.",
+    "Skip cells with null or non-numeric values."
+  ],
+  "parsed_time_headers": [
+    {
+      "raw": "1960",
+      "year": "1960",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1961",
+      "year": "1961",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1962",
+      "year": "1962",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1963",
+      "year": "1963",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1964",
+      "year": "1964",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1965",
+      "year": "1965",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1966",
+      "year": "1966",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1967",
+      "year": "1967",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1968",
+      "year": "1968",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1969",
+      "year": "1969",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1970",
+      "year": "1970",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1971",
+      "year": "1971",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1972",
+      "year": "1972",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1973",
+      "year": "1973",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1974",
+      "year": "1974",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1975",
+      "year": "1975",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1976",
+      "year": "1976",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1977",
+      "year": "1977",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1978",
+      "year": "1978",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1979",
+      "year": "1979",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1980",
+      "year": "1980",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1981",
+      "year": "1981",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1982",
+      "year": "1982",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1983",
+      "year": "1983",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1984",
+      "year": "1984",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1985",
+      "year": "1985",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1986",
+      "year": "1986",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1987",
+      "year": "1987",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1988",
+      "year": "1988",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1989",
+      "year": "1989",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1990",
+      "year": "1990",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1991",
+      "year": "1991",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1992",
+      "year": "1992",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1993",
+      "year": "1993",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1994",
+      "year": "1994",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1995",
+      "year": "1995",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1996",
+      "year": "1996",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1997",
+      "year": "1997",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1998",
+      "year": "1998",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "1999",
+      "year": "1999",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2000",
+      "year": "2000",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2001",
+      "year": "2001",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2002",
+      "year": "2002",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2003",
+      "year": "2003",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2004",
+      "year": "2004",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2005",
+      "year": "2005",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2006",
+      "year": "2006",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2007",
+      "year": "2007",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2008",
+      "year": "2008",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2009",
+      "year": "2009",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2010",
+      "year": "2010",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2011",
+      "year": "2011",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2012",
+      "year": "2012",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2013",
+      "year": "2013",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2014",
+      "year": "2014",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2015",
+      "year": "2015",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2016",
+      "year": "2016",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2017",
+      "year": "2017",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2018",
+      "year": "2018",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2019",
+      "year": "2019",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2020",
+      "year": "2020",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2021",
+      "year": "2021",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2022",
+      "year": "2022",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2023",
+      "year": "2023",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2024",
+      "year": "2024",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2025",
+      "year": "2025",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    }
+  ],
+  "time_dimension": {
+    "is_present": true,
+    "location": "headers",
+    "columns": [
+      "1960",
+      "1961",
+      "1962",
+      "1963",
+      "1964",
+      "1965",
+      "1966",
+      "1967",
+      "1968",
+      "1969",
+      "1970",
+      "1971",
+      "1972",
+      "1973",
+      "1974",
+      "1975",
+      "1976",
+      "1977",
+      "1978",
+      "1979",
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988",
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ]
+  },
+  "_n_rows": 266
+}

@@ -1,0 +1,254 @@
+{
+  "在食物管制站对运送食物的车辆进行重点检查数目<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1774695043,
+    "update_time": 1774695043,
+    "_id": "在食物管制站对运送食物的车辆进行重点检查数目<SEP>食物安全"
+  },
+  "运送食物的车辆<SEP>食物管制站": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1774695043,
+    "update_time": 1774695043,
+    "_id": "运送食物的车辆<SEP>食物管制站"
+  },
+  "在文锦渡食物管制办事处检查运送蔬菜的车辆<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1774695043,
+    "update_time": 1774695043,
+    "_id": "在文锦渡食物管制办事处检查运送蔬菜的车辆<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "抽取作化验的食物样本<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "抽取作化验的食物样本<SEP>食物安全"
+  },
+  "日本进口食物样本<SEP>辐射水平测试": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "日本进口食物样本<SEP>辐射水平测试"
+  },
+  "抽取作化验的食物样本<SEP>日本进口食物样本": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "抽取作化验的食物样本<SEP>日本进口食物样本"
+  },
+  "检查的标签数目<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "检查的标签数目<SEP>食物安全"
+  },
+  "2021年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2021年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2022年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2022年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2023年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2023年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2024年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2024年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "入口家禽的检查次数<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1774695067,
+    "update_time": 1774695067,
+    "_id": "入口家禽的检查次数<SEP>活食用牲口检验及测试"
+  },
+  "2021<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1774695067,
+    "update_time": 1774695067,
+    "_id": "2021<SEP>入口家禽的检查次数"
+  },
+  "2022<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1774695067,
+    "update_time": 1774695067,
+    "_id": "2022<SEP>入口家禽的检查次数"
+  },
+  "2023<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1774695067,
+    "update_time": 1774695067,
+    "_id": "2023<SEP>入口家禽的检查次数"
+  },
+  "2024<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "count": 1,
+    "create_time": 1774695067,
+    "update_time": 1774695067,
+    "_id": "2024<SEP>入口家禽的检查次数"
+  },
+  "乙类促效剂测试<SEP>猪只尿液样本": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "乙类促效剂测试<SEP>猪只尿液样本"
+  },
+  "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>猪只尿液样本": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>猪只尿液样本"
+  },
+  "乙类促效剂测试<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "乙类促效剂测试<SEP>活食用牲口检验及测试"
+  },
+  "禽畜药物残余检测<SEP>食用动物": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>食用动物"
+  },
+  "尿液样本<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "尿液样本<SEP>禽畜药物残余检测"
+  },
+  "禽畜药物残余检测<SEP>组织样本": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>组织样本"
+  },
+  "禽畜药物残余检测<SEP>血清样本": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>血清样本"
+  },
+  "活食用牲口检验及测试<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "活食用牲口检验及测试<SEP>禽畜药物残余检测"
+  },
+  "2021年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2021年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2022年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2022年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2023年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2023年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2024年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2024年检测数据<SEP>禽畜药物残余检测"
+  }
+}

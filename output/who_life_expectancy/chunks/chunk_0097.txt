@@ -1,0 +1,25 @@
+Entity: KWT / WHOSIS_000001
+Year: 2000 | Value: 77.57714875
+Year: 2001 | Value: 78.81293796
+Year: 2002 | Value: 78.20659931
+Year: 2003 | Value: 78.76242947
+Year: 2004 | Value: 78.50276726
+Year: 2005 | Value: 78.37752584
+Year: 2006 | Value: 78.57389835
+Year: 2007 | Value: 79.05909554
+Year: 2008 | Value: 78.26367194
+Year: 2009 | Value: 79.20188159
+Year: 2010 | Value: 80.49475441
+Year: 2011 | Value: 81.44805413
+Year: 2012 | Value: 81.34259433
+Year: 2013 | Value: 81.73672815
+Year: 2014 | Value: 81.88077916
+Year: 2015 | Value: 81.44722022
+Year: 2016 | Value: 82.54800559
+Year: 2017 | Value: 82.62315795
+Year: 2018 | Value: 82.93662831
+Year: 2019 | Value: 82.50221054
+Year: 2020 | Value: 78.76948984
+Year: 2021 | Value: 78.95211671
+Remark: Kuwait
+Remark: Life expectancy at birth (years)

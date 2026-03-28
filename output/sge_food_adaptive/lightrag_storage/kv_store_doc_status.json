@@ -1,0 +1,209 @@
+{
+  "doc-07a4eec341d2fd3869ab4fd0666557f0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 在食物管制站对运送食物的车辆进行重点检查数目* | 2021: 12304 | 2022: 12057 | 2023: 12678 | 2024: 13212 | Remark: * 由2020年起，指标「在文锦渡食物管制办事处检查运送蔬菜的车辆」已由新指标「在食物管制站对运送食物的车辆进行重点检查」取代。",
+    "content_length": 177,
+    "created_at": "2026-03-28T10:50:33.119902+00:00",
+    "updated_at": "2026-03-28T10:50:43.790928+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185033_42090c79",
+    "metadata": {
+      "processing_start_time": 1774695033,
+      "processing_end_time": 1774695043
+    }
+  },
+  "doc-135ae1d0f86126cfb7722efd71042025": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 抽取作化验的食物样本数目 | 2021: 74991 | 2022: 72694 | 2023: 106424 | 2024: 152184 | Remark: 包括已进行辐射水平测试的日本进口食物样本",
+    "content_length": 124,
+    "created_at": "2026-03-28T10:50:43.847181+00:00",
+    "updated_at": "2026-03-28T10:50:50.270327+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185043_7bb65061",
+    "metadata": {
+      "processing_start_time": 1774695043,
+      "processing_end_time": 1774695050
+    }
+  },
+  "doc-71464070223ed787e8a10929d1d24944": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "content_summary": "Category: 食物安全 > Item: 检查的标签数目 | 2021: 55196 | 2022: 55192 | 2023: 55208 | 2024: 55365",
+    "content_length": 86,
+    "created_at": "2026-03-28T10:50:50.277770+00:00",
+    "updated_at": "2026-03-28T10:50:58.804803+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185050_fe2d770d",
+    "metadata": {
+      "processing_start_time": 1774695050,
+      "processing_end_time": 1774695058
+    }
+  },
+  "doc-84aa0fd3031ed0c57b67db64d96b1990": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 入口家禽的检查次数 | 2021: 0 | 2022: 0 | 2023: 0 | 2024: 0",
+    "content_length": 78,
+    "created_at": "2026-03-28T10:50:58.813753+00:00",
+    "updated_at": "2026-03-28T10:51:07.091320+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185058_b4c3c3ca",
+    "metadata": {
+      "processing_start_time": 1774695058,
+      "processing_end_time": 1774695067
+    }
+  },
+  "doc-4864dd7fa7e53fff7f6799ac45e4513a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 抽取猪只尿液样本进行乙类促效剂测试的数目 | 2021: 28027 | 2022: 29050 | 2023: 28638 | 2024: 28118",
+    "content_length": 105,
+    "created_at": "2026-03-28T10:51:07.102758+00:00",
+    "updated_at": "2026-03-28T10:51:13.847755+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185107_337955e5",
+    "metadata": {
+      "processing_start_time": 1774695067,
+      "processing_end_time": 1774695073
+    }
+  },
+  "doc-5b8d0973df982df8b5df4ce6fcbaf0e2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "content_summary": "Category: 活食用牲口检验及测试 > Item: 从食用动物抽取尿液、组织及血清样本测试有否残余禽畜药物的总数目 | 2021: 30131 | 2022: 29996 | 2023: 29613 | 2024: 29068",
+    "content_length": 116,
+    "created_at": "2026-03-28T10:51:13.854403+00:00",
+    "updated_at": "2026-03-28T10:51:23.144850+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185113_7ce44d2e",
+    "metadata": {
+      "processing_start_time": 1774695073,
+      "processing_end_time": 1774695083
+    }
+  },
+  "doc-3d9bb684b137bbaa8b43513f636d04c0": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-3d9bb684b137bbaa8b43513f636d04c0: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105152380756325lydCvOJh) (request id: 20260328185152308153642ip21xxd4)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > Item: 与虫媒病有关的调查研究数目 | 2021: 84 | 2022: 300 | 2023: 160 | 2024: 278",
+    "content_length": 83,
+    "created_at": "2026-03-28T10:51:23.156389+00:00",
+    "updated_at": "2026-03-28T10:51:52.992783+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185123_19966e2d",
+    "metadata": {
+      "processing_start_time": 1774695110,
+      "processing_end_time": 1774695112
+    },
+    "chunks_list": []
+  },
+  "doc-d950195772d2194083fd41aa7463f5ba": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-d950195772d2194083fd41aa7463f5ba: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105152380608660cLmHqS5e) (request id: 20260328185152279359824jvhcFJSD)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 政府部门要求提供咨询的数目 | 2021: 354 | 2022: 262 | 2023: 250 | 2024: 257 | Remark: 2022年数字于2024年2月修订。",
+    "content_length": 135,
+    "created_at": "2026-03-28T10:51:25.232711+00:00",
+    "updated_at": "2026-03-28T10:51:52.922769+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185125_67a4062a",
+    "metadata": {
+      "processing_start_time": 1774695110,
+      "processing_end_time": 1774695112
+    },
+    "chunks_list": []
+  },
+  "doc-03bda189e0350618462d49b218f1005b": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-03bda189e0350618462d49b218f1005b: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105154441215527b8FP7ulf) (request id: 20260328185154335791987nawH3cst)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 市民要求提供咨询的数目 | 2021: 372 | 2022: 423 | 2023: 440 | 2024: 272 | Remark: 2022年数字于2024年2月修订。",
+    "content_length": 133,
+    "created_at": "2026-03-28T10:51:27.747253+00:00",
+    "updated_at": "2026-03-28T10:51:54.987680+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185127_84ae78d1",
+    "metadata": {
+      "processing_start_time": 1774695112,
+      "processing_end_time": 1774695114
+    },
+    "chunks_list": []
+  },
+  "doc-e04d2327ef7e721fe0266c26aa84e7f9": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-e04d2327ef7e721fe0266c26aa84e7f9: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105154864166906GYdiAD8j) (request id: 20260328185154763163953nnajwegd)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 害虫样本鉴定数目 | 2021: 7171 | 2022: 6504 | 2023: 2564 | 2024: 3063",
+    "content_length": 105,
+    "created_at": "2026-03-28T10:51:32.374501+00:00",
+    "updated_at": "2026-03-28T10:51:55.405082+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185132_906bb749",
+    "metadata": {
+      "processing_start_time": 1774695112,
+      "processing_end_time": 1774695115
+    },
+    "chunks_list": []
+  },
+  "doc-3e912176e4ced2508339424d4e3b7fe9": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-3e912176e4ced2508339424d4e3b7fe9: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105156879875474o7UKk5ma) (request id: 202603281851567789979611qHT8b80)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 除害剂成效测试数目 | 2021: 31 | 2022: 31 | 2023: 31 | 2024: 28",
+    "content_length": 98,
+    "created_at": "2026-03-28T10:51:36.602187+00:00",
+    "updated_at": "2026-03-28T10:51:57.444332+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185136_08f47fdc",
+    "metadata": {
+      "processing_start_time": 1774695114,
+      "processing_end_time": 1774695117
+    },
+    "chunks_list": []
+  },
+  "doc-22ee7e60827d3ad7d7bda643418044eb": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-22ee7e60827d3ad7d7bda643418044eb: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 2026032810515783179823Fdsu7p8p) (request id: 2026032818515747282872tcEYItvg)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 为公众人士举办的研讨会/演讲/讲座数目 | 2021: 76 | 2022: 72 | 2023: 95 | 2024: 120",
+    "content_length": 109,
+    "created_at": "2026-03-28T10:51:43.219165+00:00",
+    "updated_at": "2026-03-28T10:51:57.552043+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185143_bb88295a",
+    "metadata": {
+      "processing_start_time": 1774695115,
+      "processing_end_time": 1774695117
+    },
+    "chunks_list": []
+  },
+  "doc-729ca11c90f53112cf4ecd9c53d8cfa2": {
+    "status": "failed",
+    "error_msg": "C[1/1]: chunk-729ca11c90f53112cf4ecd9c53d8cfa2: BadRequestError: Error code: 400 - {'error': {'message': 'Model \"claude-haiku-4.5\" is not available for any configured account. (request id: 20260328105158965269759ylmBkVv0) (request id: 202603281851588637960622WGAcRZI)', 'type': '<nil>', 'param': '', 'code': None}} (Original exception could not be reconstructed: APIStatusError.__init__() missing 2 required keyword-only arguments: 'response' and 'body')",
+    "content_summary": "Category: 防治虫鼠 > SubCategory: 虫鼠事务咨询 > Item: 出席研讨会/演讲/讲座的人数 | 2021: 2206 | 2022: 2735 | 2023: 2289 | 2024: 5062",
+    "content_length": 111,
+    "created_at": "2026-03-28T10:51:50.454168+00:00",
+    "updated_at": "2026-03-28T10:51:59.427991+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260328_185150_80ae173f",
+    "metadata": {
+      "processing_start_time": 1774695117,
+      "processing_end_time": 1774695119
+    },
+    "chunks_list": []
+  }
+}

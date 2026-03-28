@@ -1,0 +1,25 @@
+Entity: GRD / WHOSIS_000001
+Year: 2000 | Value: 71.59448817
+Year: 2001 | Value: 71.53484581
+Year: 2002 | Value: 71.12022945
+Year: 2003 | Value: 70.832783
+Year: 2004 | Value: 70.40655547
+Year: 2005 | Value: 70.64904308
+Year: 2006 | Value: 70.91199156
+Year: 2007 | Value: 71.03136798
+Year: 2008 | Value: 70.92544169
+Year: 2009 | Value: 70.93802753
+Year: 2010 | Value: 71.08230057
+Year: 2011 | Value: 72.12250252
+Year: 2012 | Value: 72.68392882
+Year: 2013 | Value: 72.62189848
+Year: 2014 | Value: 72.54366171
+Year: 2015 | Value: 72.54736101
+Year: 2016 | Value: 72.49134059
+Year: 2017 | Value: 72.61647079
+Year: 2018 | Value: 72.78877041
+Year: 2019 | Value: 72.72978901
+Year: 2020 | Value: 75.35142309
+Year: 2021 | Value: 72.77322454
+Remark: Grenada
+Remark: Life expectancy at birth (years)

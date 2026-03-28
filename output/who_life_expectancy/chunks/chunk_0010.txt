@@ -1,0 +1,25 @@
+Entity: AUS / WHOSIS_000001
+Year: 2000 | Value: 79.69831946
+Year: 2001 | Value: 80.12984228
+Year: 2002 | Value: 80.19005718
+Year: 2003 | Value: 80.56634063
+Year: 2004 | Value: 80.75565777
+Year: 2005 | Value: 80.84134964
+Year: 2006 | Value: 81.04245453
+Year: 2007 | Value: 81.37282665
+Year: 2008 | Value: 81.32192176
+Year: 2009 | Value: 81.75260531
+Year: 2010 | Value: 81.91408232
+Year: 2011 | Value: 81.93172968
+Year: 2012 | Value: 82.27247326
+Year: 2013 | Value: 82.46342447
+Year: 2014 | Value: 82.36885018
+Year: 2015 | Value: 82.287472
+Year: 2016 | Value: 82.59341791
+Year: 2017 | Value: 82.67971308
+Year: 2018 | Value: 83.02313357
+Year: 2019 | Value: 82.64234014
+Year: 2020 | Value: 83.36758916
+Year: 2021 | Value: 83.10183853
+Remark: Australia
+Remark: Life expectancy at birth (years)

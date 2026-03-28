@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="注册医生数目">
+  <data key="d0">注册医生数目</data>
+  <data key="d1">data</data>
+  <data key="d2">注册医生数目是衡量每千人口中注册医生数量的统计指标，数据涵盖2015年至2024年，呈现逐年缓慢增长的趋势，从2015年的1.9增长至2024年的2.2。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2024年">
+  <data key="d0">2024年</data>
+  <data key="d1">event</data>
+  <data key="d2">2024年注册医生数目的统计年份，对应数值为2.2。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2023年">
+  <data key="d0">2023年</data>
+  <data key="d1">event</data>
+  <data key="d2">2023年注册医生数目的统计年份，对应数值为2.1。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年">
+  <data key="d0">2022年</data>
+  <data key="d1">event</data>
+  <data key="d2">2022年注册医生数目的统计年份，对应数值为2.1。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年">
+  <data key="d0">2021年</data>
+  <data key="d1">event</data>
+  <data key="d2">2021年注册医生数目的统计年份，对应数值为2.1。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2020年">
+  <data key="d0">2020年</data>
+  <data key="d1">event</data>
+  <data key="d2">2020年注册医生数目的统计年份，对应数值为2.1。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2019年">
+  <data key="d0">2019年</data>
+  <data key="d1">event</data>
+  <data key="d2">2019年注册医生数目的统计年份，对应数值为2.0。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2018年">
+  <data key="d0">2018年</data>
+  <data key="d1">event</data>
+  <data key="d2">2018年注册医生数目的统计年份，对应数值为2.0。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2017年">
+  <data key="d0">2017年</data>
+  <data key="d1">event</data>
+  <data key="d2">2017年注册医生数目的统计年份，对应数值为1.9。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2016年">
+  <data key="d0">2016年</data>
+  <data key="d1">event</data>
+  <data key="d2">2016年注册医生数目的统计年份，对应数值为1.9。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="2015年">
+  <data key="d0">2015年</data>
+  <data key="d1">event</data>
+  <data key="d2">2015年注册医生数目的统计年份，对应数值为1.9。</data>
+  <data key="d3">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606217</data>
+  <data key="d6"></data>
+</node>
+<node id="注册护士数目">
+  <data key="d0">注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">注册护士数目是衡量每千人口中注册护士数量的统计指标，数据跨越2015年至2024年，呈逐年增长趋势，从2015年的6.9增至2024年的9.6。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2015年注册护士数目">
+  <data key="d0">2015年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2015年注册护士数目的统计值为6.9(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2016年注册护士数目">
+  <data key="d0">2016年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2016年注册护士数目的统计值为7.1(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2017年注册护士数目">
+  <data key="d0">2017年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2017年注册护士数目的统计值为7.3(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2018年注册护士数目">
+  <data key="d0">2018年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2018年注册护士数目的统计值为7.6(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2019年注册护士数目">
+  <data key="d0">2019年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2019年注册护士数目的统计值为7.9(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2020年注册护士数目">
+  <data key="d0">2020年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2020年注册护士数目的统计值为8.3(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年注册护士数目">
+  <data key="d0">2021年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2021年注册护士数目的统计值为8.7(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年注册护士数目">
+  <data key="d0">2022年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2022年注册护士数目的统计值为8.9(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2023年注册护士数目">
+  <data key="d0">2023年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2023年注册护士数目的统计值为9.1(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="2024年注册护士数目">
+  <data key="d0">2024年注册护士数目</data>
+  <data key="d1">data</data>
+  <data key="d2">2024年注册护士数目的统计值为9.6(每千人口)。</data>
+  <data key="d3">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606233</data>
+  <data key="d6"></data>
+</node>
+<node id="病床 / A系列">
+  <data key="d0">病床 / A系列</data>
+  <data key="d1">data</data>
+  <data key="d2">病床 / A系列是一项基准数据实体，记录了2015年至2024年间每年的数值，数值范围从4.5增长至4.9，反映了相关指标的历史变化趋势。</data>
+  <data key="d3">chunk-525e1ea1579ee04330dc5b1db5a14cc6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606242</data>
+  <data key="d6"></data>
+</node>
+<node id="基准数据(BASELINE)">
+  <data key="d0">基准数据(BASELINE)</data>
+  <data key="d1">concept</data>
+  <data key="d2">基准数据(BASELINE)是用于衡量和比较特定指标历史表现的参考数据集，本文中用于记录病床 / A系列在2015年至2024年间的年度数值。</data>
+  <data key="d3">chunk-525e1ea1579ee04330dc5b1db5a14cc6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606242</data>
+  <data key="d6"></data>
+</node>
+<node id="B系列(4)">
+  <data key="d0">B系列(4)</data>
+  <data key="d1">data</data>
+  <data key="d2">B系列(4)是一组基准数据实体，记录了2015年至2024年间的年度数值，数值范围从4.0逐步增长至4.3。</data>
+  <data key="d3">chunk-6f865deb97ce784f08871e8a3650d33c&lt;SEP&gt;chunk-563357219d56fdca6d4667f630a4f54a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606250</data>
+  <data key="d6"></data>
+</node>
+<node id="基准数据集">
+  <data key="d0">基准数据集</data>
+  <data key="d1">data</data>
+  <data key="d2">基准数据集(BASELINE)包含B系列(4)从2015年到2024年的年度历史数值记录。</data>
+  <data key="d3">chunk-563357219d56fdca6d4667f630a4f54a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774606250</data>
+  <data key="d6"></data>
+</node>
+<edge source="注册医生数目" target="2024年">
+  <data key="d7">1.0</data>
+  <data key="d8">2024年注册医生数目的统计数值为2.2，是该指标序列中的最高值。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2023年">
+  <data key="d7">1.0</data>
+  <data key="d8">2023年注册医生数目的统计数值为2.1。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2022年">
+  <data key="d7">1.0</data>
+  <data key="d8">2022年注册医生数目的统计数值为2.1。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2021年">
+  <data key="d7">1.0</data>
+  <data key="d8">2021年注册医生数目的统计数值为2.1。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2020年">
+  <data key="d7">1.0</data>
+  <data key="d8">2020年注册医生数目的统计数值为2.1。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2019年">
+  <data key="d7">1.0</data>
+  <data key="d8">2019年注册医生数目的统计数值为2.0。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2018年">
+  <data key="d7">1.0</data>
+  <data key="d8">2018年注册医生数目的统计数值为2.0。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2017年">
+  <data key="d7">1.0</data>
+  <data key="d8">2017年注册医生数目的统计数值为1.9。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2016年">
+  <data key="d7">1.0</data>
+  <data key="d8">2016年注册医生数目的统计数值为1.9。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册医生数目" target="2015年">
+  <data key="d7">1.0</data>
+  <data key="d8">2015年注册医生数目的统计数值为1.9，是该指标序列中的最低值。</data>
+  <data key="d9">年度数值,统计数据</data>
+  <data key="d10">chunk-1a86648097529117558c4f957f3208cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2015年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2015年的统计值为6.9。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2016年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2016年的统计值为7.1。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2017年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2017年的统计值为7.3。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2018年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2018年的统计值为7.6。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2019年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2019年的统计值为7.9。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2020年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2020年的统计值为8.3。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2021年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2021年的统计值为8.7。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2022年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2022年的统计值为8.9。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2023年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2023年的统计值为9.1。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="注册护士数目" target="2024年注册护士数目">
+  <data key="d7">1.0</data>
+  <data key="d8">注册护士数目指标在2024年的统计值为9.6。</data>
+  <data key="d9">年度统计,数据记录</data>
+  <data key="d10">chunk-8ee27de3f3548a086157e85565cd86d2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606233</data>
+  <data key="d13"></data>
+</edge>
+<edge source="病床 / A系列" target="基准数据(BASELINE)">
+  <data key="d7">1.0</data>
+  <data key="d8">病床 / A系列的年度数值作为基准数据(BASELINE)的组成部分，被系统性地记录和呈现。</data>
+  <data key="d9">指标记录,数据归属</data>
+  <data key="d10">chunk-525e1ea1579ee04330dc5b1db5a14cc6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606242</data>
+  <data key="d13"></data>
+</edge>
+<edge source="B系列(4)" target="基准数据集">
+  <data key="d7">1.0</data>
+  <data key="d8">B系列(4)是基准数据集(BASELINE)中的一个数据实体，其年度数值被记录在该基准数据集中。</data>
+  <data key="d9">数据归属,时间序列</data>
+  <data key="d10">chunk-563357219d56fdca6d4667f630a4f54a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774606250</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

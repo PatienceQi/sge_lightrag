@@ -1,0 +1,25 @@
+Entity: MKD / WHOSIS_000001
+Year: 2000 | Value: 72.94763036
+Year: 2001 | Value: 73.26733128
+Year: 2002 | Value: 72.91273812
+Year: 2003 | Value: 73.22933201
+Year: 2004 | Value: 73.62319794
+Year: 2005 | Value: 73.73592756
+Year: 2006 | Value: 73.8246386
+Year: 2007 | Value: 73.65892824
+Year: 2008 | Value: 74.31760094
+Year: 2009 | Value: 74.58841867
+Year: 2010 | Value: 74.84175417
+Year: 2011 | Value: 74.96127325
+Year: 2012 | Value: 74.93753664
+Year: 2013 | Value: 75.43073243
+Year: 2014 | Value: 75.25754035
+Year: 2015 | Value: 75.34082067
+Year: 2016 | Value: 75.56274435
+Year: 2017 | Value: 75.98451895
+Year: 2018 | Value: 76.46395817
+Year: 2019 | Value: 76.14804901
+Year: 2020 | Value: 74.37069175
+Year: 2021 | Value: 72.99535604
+Remark: North Macedonia
+Remark: Life expectancy at birth (years)

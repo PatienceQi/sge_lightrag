@@ -1,0 +1,25 @@
+Entity: VEN / WHOSIS_000001
+Year: 2000 | Value: 74.03248641
+Year: 2001 | Value: 73.89650756
+Year: 2002 | Value: 74.25516144
+Year: 2003 | Value: 73.64690409
+Year: 2004 | Value: 74.41023981
+Year: 2005 | Value: 74.71197022
+Year: 2006 | Value: 74.69093059
+Year: 2007 | Value: 74.52946535
+Year: 2008 | Value: 74.27958667
+Year: 2009 | Value: 74.56885736
+Year: 2010 | Value: 74.662242
+Year: 2011 | Value: 74.58939214
+Year: 2012 | Value: 74.44482492
+Year: 2013 | Value: 74.60132769
+Year: 2014 | Value: 74.05573564
+Year: 2015 | Value: 73.93795547
+Year: 2016 | Value: 72.39034431
+Year: 2017 | Value: 72.98365736
+Year: 2018 | Value: 72.81771282
+Year: 2019 | Value: 72.71401189
+Year: 2020 | Value: 72.40374475
+Year: 2021 | Value: 71.22082891
+Remark: Venezuela (Bolivarian Republic of)
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: MMR / WHOSIS_000001
+Year: 2000 | Value: 59.37966802
+Year: 2001 | Value: 59.77708716
+Year: 2002 | Value: 60.19994618
+Year: 2003 | Value: 60.64224077
+Year: 2004 | Value: 61.06960565
+Year: 2005 | Value: 61.61985762
+Year: 2006 | Value: 62.15642058
+Year: 2007 | Value: 62.77565744
+Year: 2008 | Value: 56.90830711
+Year: 2009 | Value: 63.9906783
+Year: 2010 | Value: 64.64371806
+Year: 2011 | Value: 65.22860154
+Year: 2012 | Value: 65.86631653
+Year: 2013 | Value: 66.44771624
+Year: 2014 | Value: 67.0395851
+Year: 2015 | Value: 67.42672255
+Year: 2016 | Value: 67.8624826
+Year: 2017 | Value: 67.95077876
+Year: 2018 | Value: 68.55999093
+Year: 2019 | Value: 68.80517618
+Year: 2020 | Value: 68.86849549
+Year: 2021 | Value: 67.84580637
+Remark: Myanmar
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Annual Budget (ZH, Type-II)",
+    "entity_coverage": {
+      "coverage": 1.0,
+      "covered": 4,
+      "total": 4
+    },
+    "fact_coverage": {
+      "coverage": 0.95,
+      "covered": 19,
+      "total": 20
+    },
+    "triples_extracted": 16
+  },
+  {
+    "label": "WHO Life Expectancy (EN, Type-II)",
+    "entity_coverage": {
+      "coverage": 1.0,
+      "covered": 8,
+      "total": 8
+    },
+    "fact_coverage": {
+      "coverage": 1.0,
+      "covered": 10,
+      "total": 10
+    },
+    "triples_extracted": 4844
+  },
+  {
+    "label": "WB Child Mortality (EN, Type-II)",
+    "entity_coverage": {
+      "coverage": 0.8571428571428571,
+      "covered": 6,
+      "total": 7
+    },
+    "fact_coverage": {
+      "coverage": 0.8,
+      "covered": 8,
+      "total": 10
+    },
+    "triples_extracted": 5638
+  }
+]

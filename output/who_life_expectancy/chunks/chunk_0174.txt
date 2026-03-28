@@ -1,0 +1,25 @@
+Entity: TTO / WHOSIS_000001
+Year: 2000 | Value: 70.4199372
+Year: 2001 | Value: 70.55567603
+Year: 2002 | Value: 71.08783441
+Year: 2003 | Value: 70.96473433
+Year: 2004 | Value: 71.34856579
+Year: 2005 | Value: 71.67544737
+Year: 2006 | Value: 72.20904818
+Year: 2007 | Value: 72.39472984
+Year: 2008 | Value: 72.03571655
+Year: 2009 | Value: 72.84103384
+Year: 2010 | Value: 73.32339874
+Year: 2011 | Value: 74.01459781
+Year: 2012 | Value: 74.64546221
+Year: 2013 | Value: 74.31731073
+Year: 2014 | Value: 74.31626767
+Year: 2015 | Value: 74.35412517
+Year: 2016 | Value: 73.83467512
+Year: 2017 | Value: 74.00520612
+Year: 2018 | Value: 73.99505843
+Year: 2019 | Value: 74.09327397
+Year: 2020 | Value: 73.63599489
+Year: 2021 | Value: 71.70712647
+Remark: Trinidad and Tobago
+Remark: Life expectancy at birth (years)

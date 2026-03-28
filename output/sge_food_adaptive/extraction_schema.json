@@ -1,0 +1,29 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "Entity"
+  ],
+  "relation_types": [
+    "HAS_VALUE"
+  ],
+  "extraction_rules": {},
+  "prompt_context": "",
+  "use_baseline_mode": true,
+  "adaptive_reason": "small_table_adaptive",
+  "column_roles": {
+    "数据内容": "key_level_0",
+    "内容分类": "key_level_1",
+    "项目": "metadata",
+    "2021": "value",
+    "2022": "value",
+    "2023": "value",
+    "2024": "value",
+    "备注": "metadata"
+  },
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "_n_rows": 13
+}

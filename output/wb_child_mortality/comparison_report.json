@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-03-28T02:04:08.333601",
+  "label": "wb_child_mortality",
+  "sge": {
+    "label": "SGE-wb_child_mortality",
+    "chunks_inserted": 244,
+    "graph_file_exists": true,
+    "node_count": 5218,
+    "edge_count": 5509
+  },
+  "baseline": {
+    "label": "Baseline-wb_child_mortality",
+    "chunks_inserted": 244,
+    "graph_file_exists": true,
+    "node_count": 383,
+    "edge_count": 653
+  },
+  "entity_types": [
+    "Country_Code",
+    "StatValue"
+  ]
+}

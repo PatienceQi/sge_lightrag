@@ -1,0 +1,22 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": ["Country", "StatValue"],
+  "relation_types": ["POPULATION"],
+  "entity_extraction_template": "Each 'Record:' line introduces one Country entity. The country name (before the parenthesis) is the primary entity identifier. Example: 'Record: China (CHN), indicator=Total_Population' → Country entity named 'China'.",
+  "relation_extraction_template": "For each observation line 'NAME observed population_yearYYYY=VALUE persons.', create: (Country: NAME) -[POPULATION]-> (StatValue) where StatValue describes the measurement as a phrase like 'population_year2023=1410710000_persons'. Include the EXACT numeric value in the StatValue entity name.",
+  "extraction_constraints": [
+    "IMPORTANT: Create a POPULATION edge for EVERY observation line in the chunk.",
+    "The source entity is the country name (e.g., 'China', 'India', 'United States').",
+    "The StatValue entity name MUST include the numeric value — e.g., 'population_year2023=1410710000_persons'.",
+    "The edge description MUST mention both the year and the exact numeric value.",
+    "Include both country name and country code (from the Record header) in the Country entity description.",
+    "Do NOT skip any observation line — every line generates one POPULATION edge."
+  ],
+  "column_roles": {
+    "Country Name": "subject",
+    "Country Code": "metadata",
+    "Indicator Name": "metadata",
+    "Indicator Code": "metadata"
+  },
+  "parsed_time_headers": []
+}

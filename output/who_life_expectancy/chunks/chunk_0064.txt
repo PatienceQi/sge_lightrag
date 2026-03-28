@@ -1,0 +1,25 @@
+Entity: GBR / WHOSIS_000001
+Year: 2000 | Value: 77.85839464
+Year: 2001 | Value: 77.95184342
+Year: 2002 | Value: 78.07797235
+Year: 2003 | Value: 78.14795765
+Year: 2004 | Value: 78.67634871
+Year: 2005 | Value: 78.91215
+Year: 2006 | Value: 79.22561092
+Year: 2007 | Value: 79.41525763
+Year: 2008 | Value: 79.53700634
+Year: 2009 | Value: 80.03183927
+Year: 2010 | Value: 80.25257339
+Year: 2011 | Value: 80.64139781
+Year: 2012 | Value: 80.64107832
+Year: 2013 | Value: 80.68571114
+Year: 2014 | Value: 80.93676029
+Year: 2015 | Value: 80.65863594
+Year: 2016 | Value: 80.81034292
+Year: 2017 | Value: 80.92411386
+Year: 2018 | Value: 80.6238199
+Year: 2019 | Value: 81.22319266
+Year: 2020 | Value: 80.14044898
+Year: 2021 | Value: 80.10062783
+Remark: United Kingdom of Great Britain and Northern Ireland
+Remark: Life expectancy at birth (years)

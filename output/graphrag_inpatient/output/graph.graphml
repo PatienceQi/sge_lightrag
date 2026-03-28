@@ -1,0 +1,1200 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="&#22238;&#24402;&#28909;" />
+    <node id="A68" />
+    <node id="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" />
+    <node id="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" />
+    <node id="&#31169;&#23478;&#21307;&#38498;" />
+    <node id="5.0" />
+    <node id="0.0" />
+    <node id="1.0" />
+    <node id="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" />
+    <node id="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" />
+    <node id="&#30007;&#24615;" />
+    <node id="&#22899;&#24615;" />
+    <node id="&#24615;&#21035;&#19981;&#35814;" />
+    <node id="CONGENITAL SYPHILIS" />
+    <node id="HOSPITAL AUTHORITY HOSPITALS" />
+    <node id="CORRECTIONAL SERVICES HOSPITALS" />
+    <node id="PRIVATE HOSPITALS" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES" />
+    <node id="REGISTERED DEATHS MALE" />
+    <node id="REGISTERED DEATHS FEMALE" />
+    <node id="4.0" />
+    <node id="TOTAL INPATIENT DISCHARGE AND DEATH CASES" />
+    <node id="REGISTERED DEATHS UNSPECIFIED GENDER" />
+    <node id="REGISTERED DEATHS TOTAL" />
+    <node id="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;" />
+    <node id="3935.0" />
+    <node id="79.0" />
+    <node id="3630.0" />
+    <node id="305.0" />
+    <node id="48.0" />
+    <node id="31.0" />
+    <node id="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" />
+    <node id="A57-A64" />
+    <node id="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" />
+    <node id="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" />
+    <node id="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#31169;&#23478;&#21307;&#38498;" />
+    <node id="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21512;&#35745;" />
+    <node id="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#21512;&#35745;" />
+    <node id="92.0" />
+    <node id="178.0" />
+    <node id="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#30007;&#24615;" />
+    <node id="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#22899;&#24615;" />
+    <node id="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#24615;&#21035;&#19981;&#35814;" />
+    <node id="VIRAL ENCEPHALITIS" />
+    <node id="INPATIENT DISCHARGES AND DEATHS" />
+    <node id="TOTAL REGISTERED DEATHS" />
+    <node id="24.0" />
+    <node id="3.0" />
+    <node id="27.0" />
+    <node id="2.0" />
+    <node id="&#27801;&#30524;" />
+    <node id="A71" />
+    <node id="&#26001;&#30137;&#20260;&#23506;" />
+    <node id="A75" />
+    <node id="37.0" />
+    <node id="&#21512;&#35745;" />
+    <node id="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE" />
+    <node id="HOSPITAL AUTHORITY" />
+    <node id="CORRECTIONAL SERVICES HOSPITAL" />
+    <node id="PRIVATE HOSPITAL" />
+    <node id="REGISTERED DEATH COUNT" />
+    <node id="MALE" />
+    <node id="FEMALE" />
+    <node id="GENDER UNKNOWN" />
+    <node id="GONOCOCCAL INFECTION" />
+    <node id="INPATIENT DISCHARGES AND DEATHS - HOSPITAL AUTHORITY" />
+    <node id="INPATIENT DISCHARGES AND DEATHS - CORRECTIONAL SERVICES" />
+    <node id="INPATIENT DISCHARGES AND DEATHS - PRIVATE" />
+    <node id="INPATIENT DISCHARGES AND DEATHS - TOTAL" />
+    <node id="REGISTERED DEATHS - TOTAL" />
+    <node id="32.0" />
+    <node id="REGISTERED DEATHS - MALE" />
+    <node id="REGISTERED DEATHS - FEMALE" />
+    <node id="REGISTERED DEATHS - GENDER UNKNOWN" />
+    <node id="OTHER TUBERCULOSIS" />
+    <node id="311.0" />
+    <node id="13.0" />
+    <node id="324.0" />
+    <node id="16.0" />
+    <node id="29.0" />
+    <node id="EARLY SYPHILIS" />
+    <node id="20.0" />
+    <node id="REGISTERED DEATHS UNKNOWN GENDER" />
+    <node id="OTHER SYPHILIS" />
+    <node id="752.0" />
+    <node id="754.0" />
+    <node id="PLAGUE" />
+    <node id="REGISTERED DEATHS GENDER UNKNOWN" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES HOSPITAL AUTHORITY" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES CORRECTIONAL SERVICES" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES PRIVATE HOSPITALS" />
+    <node id="BRUCELLOSIS" />
+    <node id="HOSPITAL AUTHORITY DISCHARGES" />
+    <node id="CORRECTIONAL SERVICES DISCHARGES" />
+    <node id="PRIVATE HOSPITAL DISCHARGES" />
+    <node id="TOTAL DISCHARGES" />
+    <node id="MALE DEATHS" />
+    <node id="FEMALE DEATHS" />
+    <node id="&#38463;&#31859;&#24052;&#30149;" />
+    <node id="A06" />
+    <node id="23.0" />
+    <node id="36.0" />
+    <node id="&#20854;&#20182;&#32928;&#36947;&#20256;&#26579;&#30149;" />
+    <node id="7573.0" />
+    <node id="26.0" />
+    <node id="A04-A05" />
+    <node id="A07-A08" />
+    <node id="LEPROSY" />
+    <node id="RESPIRATORY TUBERCULOSIS" />
+    <node id="2051.0" />
+    <node id="88.0" />
+    <node id="2139.0" />
+    <node id="100.0" />
+    <node id="43.0" />
+    <node id="143.0" />
+    <node id="&#20854;&#20182;&#30772;&#20260;&#39118;" />
+    <node id="A34-A35" />
+    <node id="NEONATAL TETANUS" />
+    <node id="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;" />
+    <node id="A09" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE" />
+    <node id="CORRECTIONAL SERVICES DEPARTMENT HOSPITAL" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES - TOTAL" />
+    <node id="REGISTERED DEATHS - UNSPECIFIED GENDER" />
+    <node id="3316.0" />
+    <node id="16382.0" />
+    <node id="19.0" />
+    <node id="38.0" />
+    <node id="TYPHOID AND PARATYPHOID" />
+    <node id="INPATIENT DISCHARGE AND DEATH COUNT" />
+    <node id="REGISTERED DEATH COUNT BY GENDER" />
+    <node id="MENINGOCOCCAL INFECTION" />
+    <node id="&#36133;&#34880;&#30149;" />
+    <node id="11121.0" />
+    <node id="531.0" />
+    <node id="11652.0" />
+    <node id="680.0" />
+    <node id="650.0" />
+    <node id="1330.0" />
+    <node id="SHIGELLOSIS" />
+    <node id="REGISTERED DEATHS HONG KONG" />
+    <node id="GENDER UNSPECIFIED" />
+    <node id="RABIES" />
+    <node id="&#30334;&#26085;&#21683;" />
+    <node id="A37" />
+    <node id="18.0" />
+    <node id="CHOLERA" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE HOSPITALS" />
+    <node id="DIPHTHERIA" />
+    <node id="INPATIENT DISCHARGE AND DEATH CASES PRIVATE" />
+    <node id="REGISTERED DEATHS MALE TOTAL" />
+    <node id="REGISTERED DEATHS FEMALE TOTAL" />
+    <node id="ACUTE POLIOMYELITIS" />
+    <node id="HOSPITAL AUTHORITY HOSPITALS DISCHARGE AND DEATH CASES" />
+    <node id="CORRECTIONAL SERVICES HOSPITALS DISCHARGE AND DEATH CASES" />
+    <node id="PRIVATE HOSPITALS DISCHARGE AND DEATH CASES" />
+    <node id="TOTAL DISCHARGE AND DEATH CASES" />
+    <node id="UNSPECIFIED GENDER DEATHS" />
+    <edge source="&#22238;&#24402;&#28909;" target="A68">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#22238;&#24402;&#28909;" target="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#22238;&#24402;&#28909;" target="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#22238;&#24402;&#28909;" target="&#31169;&#23478;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#22238;&#24402;&#28909;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#22238;&#24402;&#28909;" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="5.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;">
+      <data key="d0">25.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="3630.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#27801;&#30524;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="23.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#20854;&#20182;&#30772;&#20260;&#39118;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="11121.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="&#30334;&#26085;&#21683;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;" target="13.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="0.0">
+      <data key="d0">28.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;">
+      <data key="d0">25.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#27801;&#30524;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#20854;&#20182;&#30772;&#20260;&#39118;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;" target="&#30334;&#26085;&#21683;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="1.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;">
+      <data key="d0">25.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="305.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#31169;&#23478;&#21307;&#38498;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#27801;&#30524;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="13.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#20854;&#20182;&#30772;&#20260;&#39118;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="531.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="&#30334;&#26085;&#21683;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#31169;&#23478;&#21307;&#38498;" target="5.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="5.0" target="INPATIENT DISCHARGES AND DEATHS - PRIVATE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="5.0" target="INPATIENT DISCHARGE AND DEATH COUNT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS MALE">
+      <data key="d0">56.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">48.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS UNSPECIFIED GENDER">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS TOTAL">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="0.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="0.0" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#30007;&#24615;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#22899;&#24615;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#24615;&#21035;&#19981;&#35814;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#21512;&#35745;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="0.0" target="CORRECTIONAL SERVICES HOSPITALS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="0.0" target="27.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="0.0" target="2.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="0.0" target="CORRECTIONAL SERVICES HOSPITAL">
+      <data key="d0">12.0</data>
+    </edge>
+    <edge source="0.0" target="PRIVATE HOSPITAL">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="0.0" target="MALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="0.0" target="FEMALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="0.0" target="GENDER UNKNOWN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGES AND DEATHS - CORRECTIONAL SERVICES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS - MALE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS - FEMALE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS - GENDER UNKNOWN">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS - TOTAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="0.0" target="PRIVATE HOSPITALS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS UNKNOWN GENDER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="0.0" target="TOTAL REGISTERED DEATHS">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGE AND DEATH CASES HOSPITAL AUTHORITY">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGE AND DEATH CASES CORRECTIONAL SERVICES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGE AND DEATH CASES PRIVATE HOSPITALS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="TOTAL INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS GENDER UNKNOWN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="0.0" target="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="REGISTERED DEATHS - UNSPECIFIED GENDER">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="0.0" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="1.0" target="2.0">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="1.0" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="1.0" target="REGISTERED DEATHS MALE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="1.0" target="REGISTERED DEATHS UNSPECIFIED GENDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="1.0" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="1.0" target="PRIVATE HOSPITAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="3935.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#27801;&#30524;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#30007;&#24615;">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#22899;&#24615;">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#24615;&#21035;&#19981;&#35814;">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#26001;&#30137;&#20260;&#23506;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#21512;&#35745;">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#20854;&#20182;&#32928;&#36947;&#20256;&#26579;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="7573.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#36133;&#34880;&#30149;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="11121.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="531.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="11652.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="&#30334;&#26085;&#21683;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;" target="18.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#30007;&#24615;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#22899;&#24615;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#24615;&#21035;&#19981;&#35814;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#20854;&#20182;&#32454;&#33740;&#24615;&#30142;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="79.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="48.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="31.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#27801;&#30524;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#26001;&#30137;&#20260;&#23506;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="37.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#21512;&#35745;">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#38463;&#31859;&#24052;&#30149;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#20854;&#20182;&#32928;&#36947;&#20256;&#26579;&#30149;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="26.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#20854;&#20182;&#30772;&#20260;&#39118;">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#36133;&#34880;&#30149;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="680.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="650.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="1330.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;" target="&#30334;&#26085;&#21683;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="HOSPITAL AUTHORITY HOSPITALS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="CORRECTIONAL SERVICES HOSPITALS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="PRIVATE HOSPITALS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="REGISTERED DEATHS MALE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONGENITAL SYPHILIS" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">34.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="VIRAL ENCEPHALITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="24.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="GONOCOCCAL INFECTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="REGISTERED DEATHS MALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="EARLY SYPHILIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="INPATIENT DISCHARGES AND DEATHS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="20.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="752.0">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="PLAGUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="HOSPITAL AUTHORITY DISCHARGES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="LEPROSY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="RESPIRATORY TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="2051.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="NEONATAL TETANUS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="RABIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="CHOLERA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="DIPHTHERIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY HOSPITALS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">24.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="VIRAL ENCEPHALITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="GONOCOCCAL INFECTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="REGISTERED DEATHS MALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="EARLY SYPHILIS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="INPATIENT DISCHARGES AND DEATHS">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="PLAGUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="CORRECTIONAL SERVICES DISCHARGES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="LEPROSY">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="RESPIRATORY TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="NEONATAL TETANUS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="SHIGELLOSIS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="RABIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="CHOLERA">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="DIPHTHERIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITALS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="VIRAL ENCEPHALITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="3.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="GONOCOCCAL INFECTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="REGISTERED DEATHS MALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="EARLY SYPHILIS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="INPATIENT DISCHARGES AND DEATHS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="2.0">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="PLAGUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="PRIVATE HOSPITAL DISCHARGES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="LEPROSY">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="RESPIRATORY TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="88.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="NEONATAL TETANUS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="SHIGELLOSIS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="RABIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="CHOLERA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE HOSPITALS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="DIPHTHERIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITALS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="4.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="OTHER TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="311.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="13.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="324.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="OTHER SYPHILIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="754.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="PLAGUE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="BRUCELLOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="LEPROSY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="3.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="RESPIRATORY TUBERCULOSIS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="2139.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="NEONATAL TETANUS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="SHIGELLOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="HOSPITAL AUTHORITY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="RABIES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES" target="ACUTE POLIOMYELITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="TOTAL REGISTERED DEATHS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="OTHER TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="16.0">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="REGISTERED DEATHS FEMALE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="29.0">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="OTHER SYPHILIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="PLAGUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="100.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="NEONATAL TETANUS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="RABIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS MALE" target="DIPHTHERIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="TOTAL REGISTERED DEATHS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="OTHER TUBERCULOSIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="13.0">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="29.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="OTHER SYPHILIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="PLAGUE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="43.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="NEONATAL TETANUS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="RABIES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS FEMALE" target="DIPHTHERIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="4.0" target="TOTAL INPATIENT DISCHARGE AND DEATH CASES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="4.0" target="HOSPITAL AUTHORITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS UNSPECIFIED GENDER" target="TOTAL REGISTERED DEATHS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="BRUCELLOSIS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="MALE DEATHS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="FEMALE DEATHS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="GENDER UNKNOWN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="MENINGOCOCCAL INFECTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS TOTAL" target="DIPHTHERIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="A57-A64">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21307;&#38498;&#31649;&#29702;&#23616;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#24809;&#25945;&#32626;&#36758;&#19979;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#31169;&#23478;&#21307;&#38498;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21512;&#35745;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20027;&#35201;&#20026;&#24615;&#20256;&#25773;&#27169;&#24335;&#30340;&#24863;&#26579;" target="&#20840;&#28207;&#30331;&#35760;&#27515;&#20129;&#20154;&#25968;-&#21512;&#35745;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#31169;&#23478;&#21307;&#38498;" target="92.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20303;&#38498;&#30149;&#20154;&#20986;&#38498;&#21450;&#27515;&#20129;&#20154;&#27425;-&#21512;&#35745;" target="178.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="VIRAL ENCEPHALITIS" target="INPATIENT DISCHARGES AND DEATHS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="VIRAL ENCEPHALITIS" target="TOTAL REGISTERED DEATHS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGES AND DEATHS" target="EARLY SYPHILIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="EARLY SYPHILIS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="PLAGUE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="LEPROSY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="RESPIRATORY TUBERCULOSIS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="143.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="NEONATAL TETANUS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="RABIES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="REGISTERED DEATHS UNKNOWN GENDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TOTAL REGISTERED DEATHS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="24.0" target="27.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="3.0" target="27.0">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#27801;&#30524;" target="A71">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#26001;&#30137;&#20260;&#23506;" target="A75">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="37.0" target="INPATIENT DISCHARGES AND DEATHS - TOTAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE" target="HOSPITAL AUTHORITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE" target="CORRECTIONAL SERVICES HOSPITAL">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE" target="PRIVATE HOSPITAL">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="SEXUALLY TRANSMITTED CHLAMYDIAL DISEASE" target="REGISTERED DEATH COUNT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY" target="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY" target="TYPHOID AND PARATYPHOID">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY" target="MENINGOCOCCAL INFECTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY" target="INPATIENT DISCHARGE AND DEATH COUNT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY" target="SHIGELLOSIS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITAL" target="TYPHOID AND PARATYPHOID">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITAL" target="MENINGOCOCCAL INFECTION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES HOSPITAL" target="INPATIENT DISCHARGE AND DEATH COUNT">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITAL" target="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITAL" target="TYPHOID AND PARATYPHOID">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITAL" target="MENINGOCOCCAL INFECTION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITAL" target="INPATIENT DISCHARGE AND DEATH COUNT">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATH COUNT" target="MALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGISTERED DEATH COUNT" target="FEMALE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGISTERED DEATH COUNT" target="GENDER UNKNOWN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MALE" target="REGISTERED DEATH COUNT BY GENDER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MALE" target="REGISTERED DEATHS HONG KONG">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FEMALE" target="REGISTERED DEATH COUNT BY GENDER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FEMALE" target="REGISTERED DEATHS HONG KONG">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="GENDER UNKNOWN" target="REGISTERED DEATH COUNT BY GENDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="GONOCOCCAL INFECTION" target="INPATIENT DISCHARGES AND DEATHS - HOSPITAL AUTHORITY">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="GONOCOCCAL INFECTION" target="INPATIENT DISCHARGES AND DEATHS - CORRECTIONAL SERVICES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="GONOCOCCAL INFECTION" target="INPATIENT DISCHARGES AND DEATHS - PRIVATE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="GONOCOCCAL INFECTION" target="INPATIENT DISCHARGES AND DEATHS - TOTAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="GONOCOCCAL INFECTION" target="REGISTERED DEATHS - TOTAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGES AND DEATHS - HOSPITAL AUTHORITY" target="INPATIENT DISCHARGES AND DEATHS - TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGES AND DEATHS - HOSPITAL AUTHORITY" target="32.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGES AND DEATHS - CORRECTIONAL SERVICES" target="INPATIENT DISCHARGES AND DEATHS - TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGES AND DEATHS - PRIVATE" target="INPATIENT DISCHARGES AND DEATHS - TOTAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="REGISTERED DEATHS - MALE">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="REGISTERED DEATHS - FEMALE">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="REGISTERED DEATHS - UNSPECIFIED GENDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="38.0">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="CHOLERA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - TOTAL" target="REGISTERED DEATHS - GENDER UNKNOWN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - MALE" target="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - MALE" target="19.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - FEMALE" target="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS - FEMALE" target="19.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS UNKNOWN GENDER" target="RABIES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PLAGUE" target="REGISTERED DEATHS GENDER UNKNOWN">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES HOSPITAL AUTHORITY" target="DIPHTHERIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES CORRECTIONAL SERVICES" target="DIPHTHERIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HOSPITAL AUTHORITY DISCHARGES" target="TOTAL DISCHARGES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CORRECTIONAL SERVICES DISCHARGES" target="TOTAL DISCHARGES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PRIVATE HOSPITAL DISCHARGES" target="TOTAL DISCHARGES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MALE DEATHS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FEMALE DEATHS" target="ACUTE POLIOMYELITIS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#38463;&#31859;&#24052;&#30149;" target="A06">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#38463;&#31859;&#24052;&#30149;" target="36.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#32928;&#36947;&#20256;&#26579;&#30149;" target="A04-A05">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#32928;&#36947;&#20256;&#26579;&#30149;" target="A07-A08">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#30772;&#20260;&#39118;" target="A34-A35">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;" target="A09">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;" target="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;" target="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#20854;&#20182;&#20256;&#26579;&#24615;&#25110;&#26410;&#29305;&#25351;&#30149;&#22240;&#30340;&#32963;&#32928;&#28814;&#21644;&#32467;&#32928;&#28814;" target="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY" target="INPATIENT DISCHARGE AND DEATH CASES - TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - HOSPITAL AUTHORITY" target="CHOLERA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES" target="CORRECTIONAL SERVICES DEPARTMENT HOSPITAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES" target="INPATIENT DISCHARGE AND DEATH CASES - TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - CORRECTIONAL SERVICES" target="CHOLERA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE" target="INPATIENT DISCHARGE AND DEATH CASES - TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE" target="3316.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - TOTAL" target="16382.0">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH CASES - TOTAL" target="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE HOSPITALS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TYPHOID AND PARATYPHOID" target="INPATIENT DISCHARGE AND DEATH COUNT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TYPHOID AND PARATYPHOID" target="REGISTERED DEATH COUNT BY GENDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="INPATIENT DISCHARGE AND DEATH COUNT" target="MENINGOCOCCAL INFECTION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SHIGELLOSIS" target="REGISTERED DEATHS HONG KONG">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGISTERED DEATHS HONG KONG" target="GENDER UNSPECIFIED">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="&#30334;&#26085;&#21683;" target="A37">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CHOLERA" target="INPATIENT DISCHARGE AND DEATH CASES - PRIVATE HOSPITALS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIPHTHERIA" target="INPATIENT DISCHARGE AND DEATH CASES PRIVATE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DIPHTHERIA" target="REGISTERED DEATHS MALE TOTAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DIPHTHERIA" target="REGISTERED DEATHS FEMALE TOTAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ACUTE POLIOMYELITIS" target="HOSPITAL AUTHORITY HOSPITALS DISCHARGE AND DEATH CASES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUTE POLIOMYELITIS" target="CORRECTIONAL SERVICES HOSPITALS DISCHARGE AND DEATH CASES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUTE POLIOMYELITIS" target="PRIVATE HOSPITALS DISCHARGE AND DEATH CASES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUTE POLIOMYELITIS" target="TOTAL DISCHARGE AND DEATH CASES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUTE POLIOMYELITIS" target="UNSPECIFIED GENDER DEATHS">
+      <data key="d0">1.0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,25 @@
+Entity: DNK / WHOSIS_000001
+Year: 2000 | Value: 76.93482299
+Year: 2001 | Value: 77.04219494
+Year: 2002 | Value: 77.0288458
+Year: 2003 | Value: 77.31785032
+Year: 2004 | Value: 77.68985024
+Year: 2005 | Value: 78.13130379
+Year: 2006 | Value: 78.19096238
+Year: 2007 | Value: 78.29892667
+Year: 2008 | Value: 78.63896492
+Year: 2009 | Value: 78.87762743
+Year: 2010 | Value: 79.16903741
+Year: 2011 | Value: 79.68812406
+Year: 2012 | Value: 79.96581949
+Year: 2013 | Value: 80.1645831
+Year: 2014 | Value: 80.51401409
+Year: 2015 | Value: 80.59412958
+Year: 2016 | Value: 80.71406105
+Year: 2017 | Value: 80.94104357
+Year: 2018 | Value: 80.82345271
+Year: 2019 | Value: 81.27895276
+Year: 2020 | Value: 81.36821984
+Year: 2021 | Value: 81.18400442
+Remark: Denmark
+Remark: Life expectancy at birth (years)

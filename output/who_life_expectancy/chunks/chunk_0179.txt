@@ -1,0 +1,25 @@
+Entity: UKR / WHOSIS_000001
+Year: 2000 | Value: 67.55459596
+Year: 2001 | Value: 67.7115647
+Year: 2002 | Value: 67.49385199
+Year: 2003 | Value: 67.52472284
+Year: 2004 | Value: 67.43010343
+Year: 2005 | Value: 67.10598289
+Year: 2006 | Value: 67.7845536
+Year: 2007 | Value: 67.5915603
+Year: 2008 | Value: 67.905744
+Year: 2009 | Value: 69.49300841
+Year: 2010 | Value: 70.14904515
+Year: 2011 | Value: 70.93317751
+Year: 2012 | Value: 71.09437239
+Year: 2013 | Value: 71.55330688
+Year: 2014 | Value: 70.89072091
+Year: 2015 | Value: 72.14894514
+Year: 2016 | Value: 72.62863559
+Year: 2017 | Value: 73.00099017
+Year: 2018 | Value: 72.71826067
+Year: 2019 | Value: 73.00449182
+Year: 2020 | Value: 72.49786713
+Year: 2021 | Value: 70.90674708
+Remark: Ukraine
+Remark: Life expectancy at birth (years)

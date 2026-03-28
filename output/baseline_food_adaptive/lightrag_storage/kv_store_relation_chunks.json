@@ -1,0 +1,665 @@
+{
+  "在食物管制站对运送食物的车辆进行重点检查数目<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1774695043,
+    "update_time": 1774695043,
+    "_id": "在食物管制站对运送食物的车辆进行重点检查数目<SEP>食物安全"
+  },
+  "运送食物的车辆<SEP>食物管制站": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0",
+      "chunk-956c0c6de8c258a3ee6cbfd8c232f76d"
+    ],
+    "count": 2,
+    "update_time": 1774695278,
+    "_id": "运送食物的车辆<SEP>食物管制站"
+  },
+  "在文锦渡食物管制办事处检查运送蔬菜的车辆<SEP>在食物管制站对运送食物的车辆进行重点检查数目": {
+    "chunk_ids": [
+      "chunk-07a4eec341d2fd3869ab4fd0666557f0"
+    ],
+    "count": 1,
+    "create_time": 1774695043,
+    "update_time": 1774695043,
+    "_id": "在文锦渡食物管制办事处检查运送蔬菜的车辆<SEP>在食物管制站对运送食物的车辆进行重点检查数目"
+  },
+  "抽取作化验的食物样本<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "抽取作化验的食物样本<SEP>食物安全"
+  },
+  "日本进口食物样本<SEP>辐射水平测试": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "日本进口食物样本<SEP>辐射水平测试"
+  },
+  "抽取作化验的食物样本<SEP>日本进口食物样本": {
+    "chunk_ids": [
+      "chunk-135ae1d0f86126cfb7722efd71042025"
+    ],
+    "count": 1,
+    "create_time": 1774695050,
+    "update_time": 1774695050,
+    "_id": "抽取作化验的食物样本<SEP>日本进口食物样本"
+  },
+  "检查的标签数目<SEP>食物安全": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944",
+      "chunk-f474fe44911dcbacd811e34b74d3e621"
+    ],
+    "count": 2,
+    "update_time": 1774695285,
+    "_id": "检查的标签数目<SEP>食物安全"
+  },
+  "2021年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2021年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2022年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2022年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2023年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2023年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "2024年食物安全标签检查数据<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-71464070223ed787e8a10929d1d24944"
+    ],
+    "count": 1,
+    "create_time": 1774695058,
+    "update_time": 1774695058,
+    "_id": "2024年食物安全标签检查数据<SEP>检查的标签数目"
+  },
+  "入口家禽的检查次数<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990",
+      "chunk-71b971dceee2bf00fb0709da166e140c"
+    ],
+    "count": 2,
+    "update_time": 1774695236,
+    "_id": "入口家禽的检查次数<SEP>活食用牲口检验及测试"
+  },
+  "2021<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990",
+      "chunk-71b971dceee2bf00fb0709da166e140c"
+    ],
+    "count": 2,
+    "update_time": 1774695236,
+    "_id": "2021<SEP>入口家禽的检查次数"
+  },
+  "2022<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990",
+      "chunk-71b971dceee2bf00fb0709da166e140c"
+    ],
+    "count": 2,
+    "update_time": 1774695236,
+    "_id": "2022<SEP>入口家禽的检查次数"
+  },
+  "2023<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990",
+      "chunk-71b971dceee2bf00fb0709da166e140c"
+    ],
+    "count": 2,
+    "update_time": 1774695236,
+    "_id": "2023<SEP>入口家禽的检查次数"
+  },
+  "2024<SEP>入口家禽的检查次数": {
+    "chunk_ids": [
+      "chunk-84aa0fd3031ed0c57b67db64d96b1990",
+      "chunk-71b971dceee2bf00fb0709da166e140c"
+    ],
+    "count": 2,
+    "update_time": 1774695236,
+    "_id": "2024<SEP>入口家禽的检查次数"
+  },
+  "乙类促效剂测试<SEP>猪只尿液样本": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "乙类促效剂测试<SEP>猪只尿液样本"
+  },
+  "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>猪只尿液样本": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "抽取猪只尿液样本进行乙类促效剂测试的数目<SEP>猪只尿液样本"
+  },
+  "乙类促效剂测试<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-4864dd7fa7e53fff7f6799ac45e4513a"
+    ],
+    "count": 1,
+    "create_time": 1774695073,
+    "update_time": 1774695073,
+    "_id": "乙类促效剂测试<SEP>活食用牲口检验及测试"
+  },
+  "禽畜药物残余检测<SEP>食用动物": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>食用动物"
+  },
+  "尿液样本<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "尿液样本<SEP>禽畜药物残余检测"
+  },
+  "禽畜药物残余检测<SEP>组织样本": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>组织样本"
+  },
+  "禽畜药物残余检测<SEP>血清样本": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "禽畜药物残余检测<SEP>血清样本"
+  },
+  "活食用牲口检验及测试<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "活食用牲口检验及测试<SEP>禽畜药物残余检测"
+  },
+  "2021年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2021年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2022年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2022年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2023年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2023年检测数据<SEP>禽畜药物残余检测"
+  },
+  "2024年检测数据<SEP>禽畜药物残余检测": {
+    "chunk_ids": [
+      "chunk-5b8d0973df982df8b5df4ce6fcbaf0e2"
+    ],
+    "count": 1,
+    "create_time": 1774695083,
+    "update_time": 1774695083,
+    "_id": "2024年检测数据<SEP>禽畜药物残余检测"
+  },
+  "抽取猪只尿液样本进行乙类促效剂测试<SEP>猪只": {
+    "chunk_ids": [
+      "chunk-7799fac78be7c7dd7d2b3020b20deea2"
+    ],
+    "count": 1,
+    "create_time": 1774695238,
+    "update_time": 1774695238,
+    "_id": "抽取猪只尿液样本进行乙类促效剂测试<SEP>猪只"
+  },
+  "尿液样本<SEP>抽取猪只尿液样本进行乙类促效剂测试": {
+    "chunk_ids": [
+      "chunk-7799fac78be7c7dd7d2b3020b20deea2"
+    ],
+    "count": 1,
+    "create_time": 1774695238,
+    "update_time": 1774695238,
+    "_id": "尿液样本<SEP>抽取猪只尿液样本进行乙类促效剂测试"
+  },
+  "乙类促效剂<SEP>抽取猪只尿液样本进行乙类促效剂测试": {
+    "chunk_ids": [
+      "chunk-7799fac78be7c7dd7d2b3020b20deea2"
+    ],
+    "count": 1,
+    "create_time": 1774695238,
+    "update_time": 1774695238,
+    "_id": "乙类促效剂<SEP>抽取猪只尿液样本进行乙类促效剂测试"
+  },
+  "抽取猪只尿液样本进行乙类促效剂测试<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-7799fac78be7c7dd7d2b3020b20deea2"
+    ],
+    "count": 1,
+    "create_time": 1774695238,
+    "update_time": 1774695238,
+    "_id": "抽取猪只尿液样本进行乙类促效剂测试<SEP>活食用牲口检验及测试"
+  },
+  "活食用牲口检验及测试<SEP>食用动物": {
+    "chunk_ids": [
+      "chunk-7ccdda9ca74186b6ed1c7c5265072465"
+    ],
+    "count": 1,
+    "create_time": 1774695242,
+    "update_time": 1774695242,
+    "_id": "活食用牲口检验及测试<SEP>食用动物"
+  },
+  "尿液、组织及血清样本<SEP>活食用牲口检验及测试": {
+    "chunk_ids": [
+      "chunk-7ccdda9ca74186b6ed1c7c5265072465"
+    ],
+    "count": 1,
+    "create_time": 1774695242,
+    "update_time": 1774695242,
+    "_id": "尿液、组织及血清样本<SEP>活食用牲口检验及测试"
+  },
+  "尿液、组织及血清样本<SEP>残余禽畜药物": {
+    "chunk_ids": [
+      "chunk-7ccdda9ca74186b6ed1c7c5265072465"
+    ],
+    "count": 1,
+    "create_time": 1774695242,
+    "update_time": 1774695242,
+    "_id": "尿液、组织及血清样本<SEP>残余禽畜药物"
+  },
+  "2021年<SEP>与虫媒病有关的调查研究": {
+    "chunk_ids": [
+      "chunk-43c5d4644c8f6a14b56e1cda1061de2b"
+    ],
+    "count": 1,
+    "create_time": 1774695245,
+    "update_time": 1774695245,
+    "_id": "2021年<SEP>与虫媒病有关的调查研究"
+  },
+  "2022年<SEP>与虫媒病有关的调查研究": {
+    "chunk_ids": [
+      "chunk-43c5d4644c8f6a14b56e1cda1061de2b"
+    ],
+    "count": 1,
+    "create_time": 1774695245,
+    "update_time": 1774695245,
+    "_id": "2022年<SEP>与虫媒病有关的调查研究"
+  },
+  "2023年<SEP>与虫媒病有关的调查研究": {
+    "chunk_ids": [
+      "chunk-43c5d4644c8f6a14b56e1cda1061de2b"
+    ],
+    "count": 1,
+    "create_time": 1774695245,
+    "update_time": 1774695245,
+    "_id": "2023年<SEP>与虫媒病有关的调查研究"
+  },
+  "2024年<SEP>与虫媒病有关的调查研究": {
+    "chunk_ids": [
+      "chunk-43c5d4644c8f6a14b56e1cda1061de2b"
+    ],
+    "count": 1,
+    "create_time": 1774695245,
+    "update_time": 1774695245,
+    "_id": "2024年<SEP>与虫媒病有关的调查研究"
+  },
+  "与虫媒病有关的调查研究<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-43c5d4644c8f6a14b56e1cda1061de2b"
+    ],
+    "count": 1,
+    "create_time": 1774695245,
+    "update_time": 1774695245,
+    "_id": "与虫媒病有关的调查研究<SEP>防治虫鼠"
+  },
+  "政府部门<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f",
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 2,
+    "update_time": 1774695255,
+    "_id": "政府部门<SEP>虫鼠事务咨询"
+  },
+  "咨询数目<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-bed1a3cbfeb17ce3660c0e5265a1ff6f",
+      "chunk-d950195772d2194083fd41aa7463f5ba"
+    ],
+    "count": 2,
+    "update_time": 1774695255,
+    "_id": "咨询数目<SEP>虫鼠事务咨询"
+  },
+  "虫媒病<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1774695255,
+    "update_time": 1774695255,
+    "_id": "虫媒病<SEP>防治虫鼠"
+  },
+  "与虫媒病有关的调查研究<SEP>虫媒病": {
+    "chunk_ids": [
+      "chunk-3d9bb684b137bbaa8b43513f636d04c0"
+    ],
+    "count": 1,
+    "create_time": 1774695255,
+    "update_time": 1774695255,
+    "_id": "与虫媒病有关的调查研究<SEP>虫媒病"
+  },
+  "市民要求提供咨询的数目<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-03bda189e0350618462d49b218f1005b",
+      "chunk-b62760d1162751a530e0bd4f8e1d1818"
+    ],
+    "count": 2,
+    "update_time": 1774695290,
+    "_id": "市民要求提供咨询的数目<SEP>虫鼠事务咨询"
+  },
+  "虫鼠事务咨询<SEP>防治虫鼠": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9",
+      "chunk-3e912176e4ced2508339424d4e3b7fe9",
+      "chunk-22ee7e60827d3ad7d7bda643418044eb",
+      "chunk-b62760d1162751a530e0bd4f8e1d1818",
+      "chunk-e035f13eb2e45267018d7021aabed4d8",
+      "chunk-ff060b6c46d241aaeb835e1b88f972d6",
+      "chunk-ff78f462a485cc47d8f65ae35d653581",
+      "chunk-e292838b440da2ee2be0c95d06b2ae40"
+    ],
+    "count": 8,
+    "update_time": 1774695311,
+    "_id": "虫鼠事务咨询<SEP>防治虫鼠"
+  },
+  "害虫样本鉴定<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9",
+      "chunk-e035f13eb2e45267018d7021aabed4d8"
+    ],
+    "count": 2,
+    "update_time": 1774695296,
+    "_id": "害虫样本鉴定<SEP>虫鼠事务咨询"
+  },
+  "2021年害虫样本鉴定数目<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1774695262,
+    "update_time": 1774695262,
+    "_id": "2021年害虫样本鉴定数目<SEP>害虫样本鉴定"
+  },
+  "2022年害虫样本鉴定数目<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1774695262,
+    "update_time": 1774695262,
+    "_id": "2022年害虫样本鉴定数目<SEP>害虫样本鉴定"
+  },
+  "2023年害虫样本鉴定数目<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1774695262,
+    "update_time": 1774695262,
+    "_id": "2023年害虫样本鉴定数目<SEP>害虫样本鉴定"
+  },
+  "2024年害虫样本鉴定数目<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e04d2327ef7e721fe0266c26aa84e7f9"
+    ],
+    "count": 1,
+    "create_time": 1774695262,
+    "update_time": 1774695262,
+    "_id": "2024年害虫样本鉴定数目<SEP>害虫样本鉴定"
+  },
+  "虫鼠事务咨询<SEP>除害剂成效测试数目": {
+    "chunk_ids": [
+      "chunk-3e912176e4ced2508339424d4e3b7fe9",
+      "chunk-ff060b6c46d241aaeb835e1b88f972d6"
+    ],
+    "count": 2,
+    "update_time": 1774695301,
+    "_id": "虫鼠事务咨询<SEP>除害剂成效测试数目"
+  },
+  "为公众人士举办的研讨会/演讲/讲座<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb",
+      "chunk-ff78f462a485cc47d8f65ae35d653581"
+    ],
+    "count": 2,
+    "update_time": 1774695305,
+    "_id": "为公众人士举办的研讨会/演讲/讲座<SEP>虫鼠事务咨询"
+  },
+  "2021年<SEP>为公众人士举办的研讨会/演讲/讲座": {
+    "chunk_ids": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb"
+    ],
+    "count": 1,
+    "create_time": 1774695273,
+    "update_time": 1774695273,
+    "_id": "2021年<SEP>为公众人士举办的研讨会/演讲/讲座"
+  },
+  "2022年<SEP>为公众人士举办的研讨会/演讲/讲座": {
+    "chunk_ids": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb"
+    ],
+    "count": 1,
+    "create_time": 1774695273,
+    "update_time": 1774695273,
+    "_id": "2022年<SEP>为公众人士举办的研讨会/演讲/讲座"
+  },
+  "2023年<SEP>为公众人士举办的研讨会/演讲/讲座": {
+    "chunk_ids": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb"
+    ],
+    "count": 1,
+    "create_time": 1774695273,
+    "update_time": 1774695273,
+    "_id": "2023年<SEP>为公众人士举办的研讨会/演讲/讲座"
+  },
+  "2024年<SEP>为公众人士举办的研讨会/演讲/讲座": {
+    "chunk_ids": [
+      "chunk-22ee7e60827d3ad7d7bda643418044eb"
+    ],
+    "count": 1,
+    "create_time": 1774695273,
+    "update_time": 1774695273,
+    "_id": "2024年<SEP>为公众人士举办的研讨会/演讲/讲座"
+  },
+  "研讨会/演讲/讲座<SEP>虫鼠事务咨询": {
+    "chunk_ids": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2",
+      "chunk-e292838b440da2ee2be0c95d06b2ae40"
+    ],
+    "count": 2,
+    "update_time": 1774695314,
+    "_id": "研讨会/演讲/讲座<SEP>虫鼠事务咨询"
+  },
+  "出席人数数据<SEP>研讨会/演讲/讲座": {
+    "chunk_ids": [
+      "chunk-729ca11c90f53112cf4ecd9c53d8cfa2",
+      "chunk-e292838b440da2ee2be0c95d06b2ae40"
+    ],
+    "count": 2,
+    "update_time": 1774695314,
+    "_id": "出席人数数据<SEP>研讨会/演讲/讲座"
+  },
+  "文锦渡食物管制办事处<SEP>运送蔬菜的车辆": {
+    "chunk_ids": [
+      "chunk-956c0c6de8c258a3ee6cbfd8c232f76d"
+    ],
+    "count": 1,
+    "create_time": 1774695278,
+    "update_time": 1774695278,
+    "_id": "文锦渡食物管制办事处<SEP>运送蔬菜的车辆"
+  },
+  "重点检查<SEP>食物管制站": {
+    "chunk_ids": [
+      "chunk-956c0c6de8c258a3ee6cbfd8c232f76d"
+    ],
+    "count": 1,
+    "create_time": 1774695278,
+    "update_time": 1774695278,
+    "_id": "重点检查<SEP>食物管制站"
+  },
+  "食物安全<SEP>食物管制站": {
+    "chunk_ids": [
+      "chunk-956c0c6de8c258a3ee6cbfd8c232f76d"
+    ],
+    "count": 1,
+    "create_time": 1774695278,
+    "update_time": 1774695278,
+    "_id": "食物安全<SEP>食物管制站"
+  },
+  "食物安全<SEP>食物样本": {
+    "chunk_ids": [
+      "chunk-54a2464dc9a4f2e54f2a6a435e2c91cc"
+    ],
+    "count": 1,
+    "create_time": 1774695278,
+    "update_time": 1774695278,
+    "_id": "食物安全<SEP>食物样本"
+  },
+  "日本进口食物<SEP>辐射水平测试": {
+    "chunk_ids": [
+      "chunk-54a2464dc9a4f2e54f2a6a435e2c91cc"
+    ],
+    "count": 1,
+    "create_time": 1774695278,
+    "update_time": 1774695278,
+    "_id": "日本进口食物<SEP>辐射水平测试"
+  },
+  "2021年<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-f474fe44911dcbacd811e34b74d3e621"
+    ],
+    "count": 1,
+    "create_time": 1774695285,
+    "update_time": 1774695285,
+    "_id": "2021年<SEP>检查的标签数目"
+  },
+  "2022年<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-f474fe44911dcbacd811e34b74d3e621"
+    ],
+    "count": 1,
+    "create_time": 1774695285,
+    "update_time": 1774695285,
+    "_id": "2022年<SEP>检查的标签数目"
+  },
+  "2023年<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-f474fe44911dcbacd811e34b74d3e621"
+    ],
+    "count": 1,
+    "create_time": 1774695285,
+    "update_time": 1774695285,
+    "_id": "2023年<SEP>检查的标签数目"
+  },
+  "2024年<SEP>检查的标签数目": {
+    "chunk_ids": [
+      "chunk-f474fe44911dcbacd811e34b74d3e621"
+    ],
+    "count": 1,
+    "create_time": 1774695285,
+    "update_time": 1774695285,
+    "_id": "2024年<SEP>检查的标签数目"
+  },
+  "2022年数据修订<SEP>市民要求提供咨询的数目": {
+    "chunk_ids": [
+      "chunk-b62760d1162751a530e0bd4f8e1d1818"
+    ],
+    "count": 1,
+    "create_time": 1774695290,
+    "update_time": 1774695290,
+    "_id": "2022年数据修订<SEP>市民要求提供咨询的数目"
+  },
+  "2021年<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e035f13eb2e45267018d7021aabed4d8"
+    ],
+    "count": 1,
+    "create_time": 1774695296,
+    "update_time": 1774695296,
+    "_id": "2021年<SEP>害虫样本鉴定"
+  },
+  "2022年<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e035f13eb2e45267018d7021aabed4d8"
+    ],
+    "count": 1,
+    "create_time": 1774695296,
+    "update_time": 1774695296,
+    "_id": "2022年<SEP>害虫样本鉴定"
+  },
+  "2023年<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e035f13eb2e45267018d7021aabed4d8"
+    ],
+    "count": 1,
+    "create_time": 1774695296,
+    "update_time": 1774695296,
+    "_id": "2023年<SEP>害虫样本鉴定"
+  },
+  "2024年<SEP>害虫样本鉴定": {
+    "chunk_ids": [
+      "chunk-e035f13eb2e45267018d7021aabed4d8"
+    ],
+    "count": 1,
+    "create_time": 1774695296,
+    "update_time": 1774695296,
+    "_id": "2024年<SEP>害虫样本鉴定"
+  }
+}

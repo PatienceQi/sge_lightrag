@@ -1,0 +1,25 @@
+Entity: ALB / WHOSIS_000001
+Year: 2000 | Value: 73.68285742
+Year: 2001 | Value: 76.04202157
+Year: 2002 | Value: 75.48885772
+Year: 2003 | Value: 74.94215534
+Year: 2004 | Value: 75.42557931
+Year: 2005 | Value: 74.20683098
+Year: 2006 | Value: 74.22366059
+Year: 2007 | Value: 74.53678554
+Year: 2008 | Value: 74.9883157
+Year: 2009 | Value: 75.55770059
+Year: 2010 | Value: 76.21290189
+Year: 2011 | Value: 76.61868023
+Year: 2012 | Value: 77.34194982
+Year: 2013 | Value: 77.77410839
+Year: 2014 | Value: 78.01445206
+Year: 2015 | Value: 77.76638448
+Year: 2016 | Value: 77.87870915
+Year: 2017 | Value: 77.91038596
+Year: 2018 | Value: 77.93851855
+Year: 2019 | Value: 77.9406744
+Year: 2020 | Value: 76.53104591
+Year: 2021 | Value: 76.39089034
+Remark: Albania
+Remark: Life expectancy at birth (years)

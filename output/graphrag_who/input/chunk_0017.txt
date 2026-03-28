@@ -1,0 +1,25 @@
+Entity: BGD / WHOSIS_000001
+Year: 2000 | Value: 65.36178128
+Year: 2001 | Value: 65.95954098
+Year: 2002 | Value: 66.35390682
+Year: 2003 | Value: 66.7835174
+Year: 2004 | Value: 67.36950715
+Year: 2005 | Value: 67.78759761
+Year: 2006 | Value: 68.09324389
+Year: 2007 | Value: 68.42856138
+Year: 2008 | Value: 69.03267464
+Year: 2009 | Value: 69.60483119
+Year: 2010 | Value: 70.06425679
+Year: 2011 | Value: 71.08337441
+Year: 2012 | Value: 72.09310158
+Year: 2013 | Value: 72.59072924
+Year: 2014 | Value: 72.77669075
+Year: 2015 | Value: 73.19207211
+Year: 2016 | Value: 73.44362068
+Year: 2017 | Value: 73.37868377
+Year: 2018 | Value: 73.67380343
+Year: 2019 | Value: 73.94958231
+Year: 2020 | Value: 73.29812993
+Year: 2021 | Value: 73.10251672
+Remark: Bangladesh
+Remark: Life expectancy at birth (years)

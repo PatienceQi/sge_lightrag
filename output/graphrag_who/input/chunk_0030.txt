@@ -1,0 +1,25 @@
+Entity: CAF / WHOSIS_000001
+Year: 2000 | Value: 44.23425766
+Year: 2001 | Value: 44.47178561
+Year: 2002 | Value: 44.77185837
+Year: 2003 | Value: 45.20505974
+Year: 2004 | Value: 45.61618547
+Year: 2005 | Value: 46.14092523
+Year: 2006 | Value: 46.69775624
+Year: 2007 | Value: 47.39415912
+Year: 2008 | Value: 48.29879732
+Year: 2009 | Value: 48.86668457
+Year: 2010 | Value: 49.20179696
+Year: 2011 | Value: 49.46797321
+Year: 2012 | Value: 49.82204247
+Year: 2013 | Value: 49.31139043
+Year: 2014 | Value: 49.17728884
+Year: 2015 | Value: 50.96983096
+Year: 2016 | Value: 51.50031283
+Year: 2017 | Value: 51.26742466
+Year: 2018 | Value: 52.13733768
+Year: 2019 | Value: 52.93260744
+Year: 2020 | Value: 53.07817181
+Year: 2021 | Value: 52.30772755
+Remark: Central African Republic
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-03-27T19:22:31.489074",
+  "label": "who_life",
+  "sge": {
+    "label": "SGE-who_life",
+    "chunks_inserted": 196,
+    "graph_file_exists": true,
+    "node_count": 4508,
+    "edge_count": 4312
+  },
+  "baseline": {
+    "label": "Baseline-who_life",
+    "chunks_inserted": 196,
+    "graph_file_exists": true,
+    "node_count": 402,
+    "edge_count": 647
+  },
+  "entity_types": [
+    "Country_Code"
+  ]
+}

@@ -1,0 +1,25 @@
+Entity: ARM / WHOSIS_000001
+Year: 2000 | Value: 71.62172824
+Year: 2001 | Value: 71.79061149
+Year: 2002 | Value: 71.58333169
+Year: 2003 | Value: 71.70802942
+Year: 2004 | Value: 72.03083518
+Year: 2005 | Value: 72.0754129
+Year: 2006 | Value: 72.0117653
+Year: 2007 | Value: 72.53070418
+Year: 2008 | Value: 72.48685716
+Year: 2009 | Value: 72.73278531
+Year: 2010 | Value: 73.01384261
+Year: 2011 | Value: 73.30611739
+Year: 2012 | Value: 73.66922093
+Year: 2013 | Value: 74.18785118
+Year: 2014 | Value: 74.19757704
+Year: 2015 | Value: 74.27859114
+Year: 2016 | Value: 74.40594896
+Year: 2017 | Value: 75.18435169
+Year: 2018 | Value: 75.62030513
+Year: 2019 | Value: 75.66635568
+Year: 2020 | Value: 69.32859192
+Year: 2021 | Value: 72.98458202
+Remark: Armenia
+Remark: Life expectancy at birth (years)

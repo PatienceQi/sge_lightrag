@@ -1,0 +1,24 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "primary_subject_columns": [
+    "数据内容",
+    "内容分类"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "metadata_columns": [
+    "备注",
+    "项目"
+  ],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is identified by a composite key across \"数据内容\", \"内容分类\"; numeric values follow the key columns; remarks column may contain annotations."
+}

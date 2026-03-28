@@ -115,8 +115,9 @@ def _induce_type_ii(meta_schema: dict, features: "FeatureSet") -> dict:
 
     # Determine time column names
     if transposed:
-        # Transposed: years are in the first column's values, not headers
-        time_col_names: list[str] = []
+        # Transposed: years are row values (first col); metric names are column headers (non-first cols).
+        # Pass all non-first column names as "time_col_names" so templates can show metric examples.
+        time_col_names: list[str] = features.raw_columns[1:] if len(features.raw_columns) > 1 else []
         subject_col = features.raw_columns[1] if len(features.raw_columns) > 1 else "metric"
     else:
         time_col_names = [ph.raw for ph in time_parsed]

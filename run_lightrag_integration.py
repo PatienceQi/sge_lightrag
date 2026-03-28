@@ -41,8 +41,8 @@ from lightrag.prompt import PROMPTS
 import lightrag.operate as _op
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_KEY  = "sk-WGhptV4Oz0oqHcccSyy7AfD3nFKxQLdHeJ0rFqcns188eoPX"
-BASE_URL = "https://www.packyapi.com/v1"
+API_KEY  = "sk-7S8fU9gBMpK5Banzc0mM8DdOac7XFW0Mt7WCRbjSNTErrHPG"
+BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 
 OLLAMA_BASE_URL    = "http://localhost:11434/v1"

@@ -1,0 +1,25 @@
+Entity: BIH / WHOSIS_000001
+Year: 2000 | Value: 75.4599475
+Year: 2001 | Value: 75.85448253
+Year: 2002 | Value: 76.09726725
+Year: 2003 | Value: 76.3852253
+Year: 2004 | Value: 76.62934847
+Year: 2005 | Value: 76.54879498
+Year: 2006 | Value: 76.79616301
+Year: 2007 | Value: 76.26128187
+Year: 2008 | Value: 76.76846848
+Year: 2009 | Value: 76.7825838
+Year: 2010 | Value: 76.98324032
+Year: 2011 | Value: 77.05795229
+Year: 2012 | Value: 77.27133436
+Year: 2013 | Value: 77.21186094
+Year: 2014 | Value: 77.17772515
+Year: 2015 | Value: 76.9957646
+Year: 2016 | Value: 77.13183233
+Year: 2017 | Value: 77.24910311
+Year: 2018 | Value: 77.32123917
+Year: 2019 | Value: 77.09808482
+Year: 2020 | Value: 75.70792926
+Year: 2021 | Value: 74.84944487
+Remark: Bosnia and Herzegovina
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,63 @@
+---Role---
+You are a Knowledge Graph Specialist extracting structured data from policy CSV records.
+You MUST follow the Domain Schema below. Do NOT extract entities or relationships outside the defined types.
+
+---Domain Schema---
+```json
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "Disease"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE",
+    "HAS_METADATA"
+  ],
+  "column_roles": {
+    "《疾病和有关健康问题的国际统计分类》第十次修订本的详细序号": "metadata",
+    "疾病类别": "key_level_0",
+    "住院病人出院及死亡人次*-医院管理局辖下医院": "value",
+    "住院病人出院及死亡人次*-惩教署辖下医院": "value",
+    "住院病人出院及死亡人次*-私家医院": "value",
+    "住院病人出院及死亡人次*-合计": "value",
+    "全港登记死亡人数-男性": "value",
+    "全港登记死亡人数-女性": "value",
+    "全港登记死亡人数-性别不详": "value",
+    "全港登记死亡人数-合计": "value"
+  },
+  "entity_extraction_template": "Composite key columns: '疾病类别'. Empty cells inherit the last non-empty value from the same column above. Top-level key '疾病类别' → Disease entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Disease) -[HAS_SUB_ITEM]-> (Item). Create HAS_VALUE relations from leaf entities to numeric columns: \"住院病人出院及死亡人次*-医院管理局辖下医院\", \"住院病人出院及死亡人次*-惩教署辖下医院\", \"住院病人出院及死亡人次*-私家医院\", \"住院病人出院及死亡人次*-合计\" (and 4 more). Attach remarks columns ['《疾病和有关健康问题的国际统计分类》第十次修订本的详细序号'] as metadata properties on the leaf entity.",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key '疾病类别' defines the root entity (Disease).",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": [],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  }
+}
+```
+
+---Instructions---
+1. Entity types: use ONLY the types listed in schema.entity_types
+2. Relationship types: use ONLY the predicates listed in schema.relation_types
+3. Follow ALL extraction constraints in schema.extraction_constraints exactly
+4. Output Format — Entity:
+   entity<|#|>entity_name<|#|>entity_type<|#|>entity_description
+5. Output Format — Relation:
+   relation<|#|>source_entity<|#|>target_entity<|#|>keywords<|#|>description
+6. <|#|> is a field separator ONLY — never include it in content
+7. End output with <|COMPLETE|>
+8. Output language: Chinese
+9. Do NOT output JSON, Markdown, or any other format — only the delimiter-based lines above
+
+---Examples---
+entity<|#|>防止贪污<|#|>Policy_Program<|#|>廉政公署下设的政策纲领，负责防止贪污相关工作
+relation<|#|>防止贪污<|#|>97.2<|#|>HAS_BUDGET, 2024-25, 预算<|#|>防止贪污纲领在2024-25财年的预算为97.2百万元
+<|COMPLETE|>

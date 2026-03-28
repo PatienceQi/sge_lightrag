@@ -1,0 +1,25 @@
+Entity: NAM / WHOSIS_000001
+Year: 2000 | Value: 53.02475546
+Year: 2001 | Value: 52.37399446
+Year: 2002 | Value: 51.74325949
+Year: 2003 | Value: 51.39447349
+Year: 2004 | Value: 51.6479279
+Year: 2005 | Value: 52.83409474
+Year: 2006 | Value: 54.69956495
+Year: 2007 | Value: 56.83641554
+Year: 2008 | Value: 58.62203403
+Year: 2009 | Value: 59.50436576
+Year: 2010 | Value: 60.12459181
+Year: 2011 | Value: 60.88311335
+Year: 2012 | Value: 61.49462249
+Year: 2013 | Value: 61.87769769
+Year: 2014 | Value: 61.94948428
+Year: 2015 | Value: 61.8615054
+Year: 2016 | Value: 62.05755741
+Year: 2017 | Value: 62.37183813
+Year: 2018 | Value: 62.82854728
+Year: 2019 | Value: 63.49265302
+Year: 2020 | Value: 63.75209779
+Year: 2021 | Value: 60.35994599
+Remark: Namibia
+Remark: Life expectancy at birth (years)

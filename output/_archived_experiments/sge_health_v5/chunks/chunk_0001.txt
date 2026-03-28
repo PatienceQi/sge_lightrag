@@ -1,0 +1,11 @@
+Record: 注册医生数目(1), indicator=Registered_Doctors_per_1000_population
+注册医生数目(1) observed healthcare_rate_year2024=2.2 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2023=2.1 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2022=2.1 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2021=2.1 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2020=2.1 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2019=2.0 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2018=2.0 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2017=1.9 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2016=1.9 per 1,000 population.
+注册医生数目(1) observed healthcare_rate_year2015=1.9 per 1,000 population.

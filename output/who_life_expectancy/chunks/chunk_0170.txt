@@ -1,0 +1,25 @@
+Entity: TJK / WHOSIS_000001
+Year: 2000 | Value: 65.64695846
+Year: 2001 | Value: 66.35716048
+Year: 2002 | Value: 66.94490991
+Year: 2003 | Value: 67.57088192
+Year: 2004 | Value: 67.99767342
+Year: 2005 | Value: 68.16382022
+Year: 2006 | Value: 68.48925177
+Year: 2007 | Value: 68.67357175
+Year: 2008 | Value: 69.0368299
+Year: 2009 | Value: 69.34531105
+Year: 2010 | Value: 69.92200868
+Year: 2011 | Value: 70.42452045
+Year: 2012 | Value: 70.97199509
+Year: 2013 | Value: 71.7590921
+Year: 2014 | Value: 72.02059888
+Year: 2015 | Value: 72.37216019
+Year: 2016 | Value: 72.72427435
+Year: 2017 | Value: 73.18915767
+Year: 2018 | Value: 73.49599296
+Year: 2019 | Value: 73.80997068
+Year: 2020 | Value: 70.55595856
+Year: 2021 | Value: 71.814877
+Remark: Tajikistan
+Remark: Life expectancy at birth (years)

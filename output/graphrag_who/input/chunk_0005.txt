@@ -1,0 +1,24 @@
+Entity: AMR / WHOSIS_000001
+Year: 2000 | Value: 74.0865499
+Year: 2001 | Value: 74.30398059
+Year: 2002 | Value: 74.50152763
+Year: 2003 | Value: 74.69714507
+Year: 2004 | Value: 75.07444467
+Year: 2005 | Value: 75.28865511
+Year: 2006 | Value: 75.62335043
+Year: 2007 | Value: 75.82834415
+Year: 2008 | Value: 75.93790985
+Year: 2009 | Value: 76.16933635
+Year: 2010 | Value: 75.79804084
+Year: 2011 | Value: 76.46212795
+Year: 2012 | Value: 76.62675954
+Year: 2013 | Value: 76.73116014
+Year: 2014 | Value: 76.83106727
+Year: 2015 | Value: 76.79070798
+Year: 2016 | Value: 76.70935415
+Year: 2017 | Value: 76.8394961
+Year: 2018 | Value: 76.98308457
+Year: 2019 | Value: 77.07402622
+Year: 2020 | Value: 75.0691549
+Year: 2021 | Value: 74.11268797
+Remark: Life expectancy at birth (years)

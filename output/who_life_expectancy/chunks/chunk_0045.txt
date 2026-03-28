@@ -1,0 +1,25 @@
+Entity: CZE / WHOSIS_000001
+Year: 2000 | Value: 75.0301441
+Year: 2001 | Value: 75.30051991
+Year: 2002 | Value: 75.36384265
+Year: 2003 | Value: 75.26103133
+Year: 2004 | Value: 75.78544673
+Year: 2005 | Value: 75.99869845
+Year: 2006 | Value: 76.60775206
+Year: 2007 | Value: 76.86519129
+Year: 2008 | Value: 77.1537423
+Year: 2009 | Value: 77.27519564
+Year: 2010 | Value: 77.55051822
+Year: 2011 | Value: 77.78639074
+Year: 2012 | Value: 77.96926876
+Year: 2013 | Value: 78.1114359
+Year: 2014 | Value: 78.68016445
+Year: 2015 | Value: 78.48257933
+Year: 2016 | Value: 78.93030378
+Year: 2017 | Value: 78.85473024
+Year: 2018 | Value: 78.89195159
+Year: 2019 | Value: 79.13720815
+Year: 2020 | Value: 78.12978194
+Year: 2021 | Value: 77.07730392
+Remark: Czechia
+Remark: Life expectancy at birth (years)

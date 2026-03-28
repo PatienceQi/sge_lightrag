@@ -1,0 +1,25 @@
+Entity: GNQ / WHOSIS_000001
+Year: 2000 | Value: 54.03083545
+Year: 2001 | Value: 54.84349385
+Year: 2002 | Value: 55.47366319
+Year: 2003 | Value: 55.73628907
+Year: 2004 | Value: 56.18357801
+Year: 2005 | Value: 56.77339509
+Year: 2006 | Value: 57.74387549
+Year: 2007 | Value: 58.62674902
+Year: 2008 | Value: 59.26655739
+Year: 2009 | Value: 59.83637977
+Year: 2010 | Value: 60.00998447
+Year: 2011 | Value: 59.83129965
+Year: 2012 | Value: 60.11028327
+Year: 2013 | Value: 60.96850359
+Year: 2014 | Value: 61.53172347
+Year: 2015 | Value: 61.12739135
+Year: 2016 | Value: 60.85942801
+Year: 2017 | Value: 61.20572328
+Year: 2018 | Value: 61.42093734
+Year: 2019 | Value: 61.38714512
+Year: 2020 | Value: 61.15866176
+Year: 2021 | Value: 61.60542301
+Remark: Equatorial Guinea
+Remark: Life expectancy at birth (years)

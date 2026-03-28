@@ -1,0 +1,2870 @@
+{
+  "doc-74f2823accc9f23e0e38fe5ef2cfa508": {
+    "relation_pairs": [
+      [
+        "AFE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696349,
+    "update_time": 1774696349,
+    "_id": "doc-74f2823accc9f23e0e38fe5ef2cfa508"
+  },
+  "doc-39c0ac4bfb3fa1ebd38a53376c7b3f2f": {
+    "relation_pairs": [
+      [
+        "AFG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696354,
+    "update_time": 1774696354,
+    "_id": "doc-39c0ac4bfb3fa1ebd38a53376c7b3f2f"
+  },
+  "doc-7ab281a8b614ea83148945650abd1b79": {
+    "relation_pairs": [
+      [
+        "AFW",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696359,
+    "update_time": 1774696359,
+    "_id": "doc-7ab281a8b614ea83148945650abd1b79"
+  },
+  "doc-db0d65a608bb23dc1c4dd2ba89e7a642": {
+    "relation_pairs": [
+      [
+        "AGO",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696364,
+    "update_time": 1774696364,
+    "_id": "doc-db0d65a608bb23dc1c4dd2ba89e7a642"
+  },
+  "doc-d37bc2fa5a6a5d4d2a2e23a4b97798f3": {
+    "relation_pairs": [
+      [
+        "ALB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696368,
+    "update_time": 1774696368,
+    "_id": "doc-d37bc2fa5a6a5d4d2a2e23a4b97798f3"
+  },
+  "doc-e4d05704de0a45dd2a445091920bb564": {
+    "relation_pairs": [
+      [
+        "AND",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696373,
+    "update_time": 1774696373,
+    "_id": "doc-e4d05704de0a45dd2a445091920bb564"
+  },
+  "doc-2d1a294fa69e47e6899ecc0ae1397cb3": {
+    "relation_pairs": [
+      [
+        "ARB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696377,
+    "update_time": 1774696377,
+    "_id": "doc-2d1a294fa69e47e6899ecc0ae1397cb3"
+  },
+  "doc-b9b56e300130e244fdf971446b66d327": {
+    "relation_pairs": [
+      [
+        "ARE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696383,
+    "update_time": 1774696383,
+    "_id": "doc-b9b56e300130e244fdf971446b66d327"
+  },
+  "doc-ff8a18624a0dd1e92b65cf1c63b923a1": {
+    "relation_pairs": [
+      [
+        "ARG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696388,
+    "update_time": 1774696388,
+    "_id": "doc-ff8a18624a0dd1e92b65cf1c63b923a1"
+  },
+  "doc-bf34ebc838f558ca15c189000c3a520b": {
+    "relation_pairs": [
+      [
+        "ARM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696393,
+    "update_time": 1774696393,
+    "_id": "doc-bf34ebc838f558ca15c189000c3a520b"
+  },
+  "doc-d264fb80dce1743e64496a2662f60452": {
+    "relation_pairs": [
+      [
+        "ATG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696399,
+    "update_time": 1774696399,
+    "_id": "doc-d264fb80dce1743e64496a2662f60452"
+  },
+  "doc-05336ae21279dfa4e032257d05e71232": {
+    "relation_pairs": [
+      [
+        "AUS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696404,
+    "update_time": 1774696404,
+    "_id": "doc-05336ae21279dfa4e032257d05e71232"
+  },
+  "doc-3c91c87cf469f71b2787d56c990445a4": {
+    "relation_pairs": [
+      [
+        "AUT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696410,
+    "update_time": 1774696410,
+    "_id": "doc-3c91c87cf469f71b2787d56c990445a4"
+  },
+  "doc-b973a479f222961caef61185d9bbaa03": {
+    "relation_pairs": [
+      [
+        "AZE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696414,
+    "update_time": 1774696414,
+    "_id": "doc-b973a479f222961caef61185d9bbaa03"
+  },
+  "doc-4f74b29f0bb56b1e15248b7ba1cb6999": {
+    "relation_pairs": [
+      [
+        "BDI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696420,
+    "update_time": 1774696420,
+    "_id": "doc-4f74b29f0bb56b1e15248b7ba1cb6999"
+  },
+  "doc-0f80e3c662bd7938be409854d5341e4f": {
+    "relation_pairs": [
+      [
+        "BEL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696425,
+    "update_time": 1774696425,
+    "_id": "doc-0f80e3c662bd7938be409854d5341e4f"
+  },
+  "doc-9db5653e24020c3c62a54e9c74557179": {
+    "relation_pairs": [
+      [
+        "BEN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696433,
+    "update_time": 1774696433,
+    "_id": "doc-9db5653e24020c3c62a54e9c74557179"
+  },
+  "doc-6aafebf5acaa7da3f5d947d3a55d520a": {
+    "relation_pairs": [
+      [
+        "BFA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696444,
+    "update_time": 1774696444,
+    "_id": "doc-6aafebf5acaa7da3f5d947d3a55d520a"
+  },
+  "doc-14fae81a084b6cb670fddccf9d09694a": {
+    "relation_pairs": [
+      [
+        "BGD",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696450,
+    "update_time": 1774696450,
+    "_id": "doc-14fae81a084b6cb670fddccf9d09694a"
+  },
+  "doc-2c703e0b7f794b23fbcb465ac724541b": {
+    "relation_pairs": [
+      [
+        "BGR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696455,
+    "update_time": 1774696455,
+    "_id": "doc-2c703e0b7f794b23fbcb465ac724541b"
+  },
+  "doc-7dd24aeb47f815a7a8db60dce017553c": {
+    "relation_pairs": [
+      [
+        "BHR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696461,
+    "update_time": 1774696461,
+    "_id": "doc-7dd24aeb47f815a7a8db60dce017553c"
+  },
+  "doc-9fcb21f2502cbafeeb9879a369868e04": {
+    "relation_pairs": [
+      [
+        "BHS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696466,
+    "update_time": 1774696466,
+    "_id": "doc-9fcb21f2502cbafeeb9879a369868e04"
+  },
+  "doc-b987ea54c69e4e1f44bd16a4e124f5d5": {
+    "relation_pairs": [
+      [
+        "BIH",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696470,
+    "update_time": 1774696470,
+    "_id": "doc-b987ea54c69e4e1f44bd16a4e124f5d5"
+  },
+  "doc-bf29ca1e638f436e7b94e49bae59b991": {
+    "relation_pairs": [
+      [
+        "BLZ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696479,
+    "update_time": 1774696479,
+    "_id": "doc-bf29ca1e638f436e7b94e49bae59b991"
+  },
+  "doc-bc2ee0ecf1d4db7829cb67146a3beec4": {
+    "relation_pairs": [
+      [
+        "BOL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696485,
+    "update_time": 1774696485,
+    "_id": "doc-bc2ee0ecf1d4db7829cb67146a3beec4"
+  },
+  "doc-0450f59f3509109db3373018d05d9c41": {
+    "relation_pairs": [
+      [
+        "BRA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696491,
+    "update_time": 1774696491,
+    "_id": "doc-0450f59f3509109db3373018d05d9c41"
+  },
+  "doc-948dc6aabcf025dd94aa923ce1f19f74": {
+    "relation_pairs": [
+      [
+        "BRB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696496,
+    "update_time": 1774696496,
+    "_id": "doc-948dc6aabcf025dd94aa923ce1f19f74"
+  },
+  "doc-3b4283739025d6a34bd527e4643bc856": {
+    "relation_pairs": [
+      [
+        "BRN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696501,
+    "update_time": 1774696501,
+    "_id": "doc-3b4283739025d6a34bd527e4643bc856"
+  },
+  "doc-ed3eb4caac7b086f7cc15dd180ed829c": {
+    "relation_pairs": [
+      [
+        "BTN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696507,
+    "update_time": 1774696507,
+    "_id": "doc-ed3eb4caac7b086f7cc15dd180ed829c"
+  },
+  "doc-9b1e20c6a99251f2d581d98a508b34c6": {
+    "relation_pairs": [
+      [
+        "BWA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696512,
+    "update_time": 1774696512,
+    "_id": "doc-9b1e20c6a99251f2d581d98a508b34c6"
+  },
+  "doc-84227826c5ee571acb6bad63db81bde5": {
+    "relation_pairs": [
+      [
+        "CAF",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696518,
+    "update_time": 1774696518,
+    "_id": "doc-84227826c5ee571acb6bad63db81bde5"
+  },
+  "doc-f46c506f7bbe6bcc5fb5ca450fdd041c": {
+    "relation_pairs": [
+      [
+        "CAN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696524,
+    "update_time": 1774696524,
+    "_id": "doc-f46c506f7bbe6bcc5fb5ca450fdd041c"
+  },
+  "doc-bdaad31a2940e5d488516bfadc48887d": {
+    "relation_pairs": [
+      [
+        "CEB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696530,
+    "update_time": 1774696530,
+    "_id": "doc-bdaad31a2940e5d488516bfadc48887d"
+  },
+  "doc-2b2a636bc66f40ad38f06ecf6c2ad844": {
+    "relation_pairs": [
+      [
+        "CHE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696535,
+    "update_time": 1774696535,
+    "_id": "doc-2b2a636bc66f40ad38f06ecf6c2ad844"
+  },
+  "doc-d8dbdeac41122178e990e91060d3e753": {
+    "relation_pairs": [
+      [
+        "CHL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696541,
+    "update_time": 1774696541,
+    "_id": "doc-d8dbdeac41122178e990e91060d3e753"
+  },
+  "doc-913c0d520edd9108f15aff0531c25799": {
+    "relation_pairs": [
+      [
+        "CHN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696546,
+    "update_time": 1774696546,
+    "_id": "doc-913c0d520edd9108f15aff0531c25799"
+  },
+  "doc-41d6f4bcb721b5266cac08b99ae0f178": {
+    "relation_pairs": [
+      [
+        "CIV",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696552,
+    "update_time": 1774696552,
+    "_id": "doc-41d6f4bcb721b5266cac08b99ae0f178"
+  },
+  "doc-6a953a1eba0721499688670bbad47c7e": {
+    "relation_pairs": [
+      [
+        "CMR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696560,
+    "update_time": 1774696560,
+    "_id": "doc-6a953a1eba0721499688670bbad47c7e"
+  },
+  "doc-8e25635fe92cd5fce32d4561a1ac6c25": {
+    "relation_pairs": [
+      [
+        "COD",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696565,
+    "update_time": 1774696565,
+    "_id": "doc-8e25635fe92cd5fce32d4561a1ac6c25"
+  },
+  "doc-effc374c633d10b2ebbbf063f3260b6a": {
+    "relation_pairs": [
+      [
+        "COG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696571,
+    "update_time": 1774696571,
+    "_id": "doc-effc374c633d10b2ebbbf063f3260b6a"
+  },
+  "doc-a401ec321608f19d0aa7a3e0791c8bed": {
+    "relation_pairs": [
+      [
+        "COL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696576,
+    "update_time": 1774696576,
+    "_id": "doc-a401ec321608f19d0aa7a3e0791c8bed"
+  },
+  "doc-d800a84d0b6a5ea63f9084016762137b": {
+    "relation_pairs": [
+      [
+        "COM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696581,
+    "update_time": 1774696581,
+    "_id": "doc-d800a84d0b6a5ea63f9084016762137b"
+  },
+  "doc-ae56f307784bea97c6ebf32c352fb4be": {
+    "relation_pairs": [
+      [
+        "CPV",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696586,
+    "update_time": 1774696586,
+    "_id": "doc-ae56f307784bea97c6ebf32c352fb4be"
+  },
+  "doc-a48581ca9daba464648274c5515587f1": {
+    "relation_pairs": [
+      [
+        "CRI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696593,
+    "update_time": 1774696593,
+    "_id": "doc-a48581ca9daba464648274c5515587f1"
+  },
+  "doc-645d5420bca23651e98d5992f7bb8064": {
+    "relation_pairs": [
+      [
+        "CSS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696599,
+    "update_time": 1774696599,
+    "_id": "doc-645d5420bca23651e98d5992f7bb8064"
+  },
+  "doc-832f244d5681c2f29250462f7c635f93": {
+    "relation_pairs": [
+      [
+        "CUB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696607,
+    "update_time": 1774696607,
+    "_id": "doc-832f244d5681c2f29250462f7c635f93"
+  },
+  "doc-b77553d50074293fa61a96046f657261": {
+    "relation_pairs": [
+      [
+        "CYP",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696612,
+    "update_time": 1774696612,
+    "_id": "doc-b77553d50074293fa61a96046f657261"
+  },
+  "doc-af290b313de81a319848e2d1ec6bc241": {
+    "relation_pairs": [
+      [
+        "CZE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696622,
+    "update_time": 1774696622,
+    "_id": "doc-af290b313de81a319848e2d1ec6bc241"
+  },
+  "doc-2a83b1adb56a0182cf8a44c6938631ba": {
+    "relation_pairs": [
+      [
+        "DEU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696627,
+    "update_time": 1774696627,
+    "_id": "doc-2a83b1adb56a0182cf8a44c6938631ba"
+  },
+  "doc-145b25e459304354aea3c00e86d4eb76": {
+    "relation_pairs": [
+      [
+        "DJI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696631,
+    "update_time": 1774696631,
+    "_id": "doc-145b25e459304354aea3c00e86d4eb76"
+  },
+  "doc-b7e2bf8eb501ca9f3cdb79e305e09f5e": {
+    "relation_pairs": [
+      [
+        "DMA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696637,
+    "update_time": 1774696637,
+    "_id": "doc-b7e2bf8eb501ca9f3cdb79e305e09f5e"
+  },
+  "doc-641f167305cce81abc258500b6d1e228": {
+    "relation_pairs": [
+      [
+        "DNK",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696644,
+    "update_time": 1774696644,
+    "_id": "doc-641f167305cce81abc258500b6d1e228"
+  },
+  "doc-7e8647761f3c10318585e5b58e6aac3e": {
+    "relation_pairs": [
+      [
+        "DOM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696650,
+    "update_time": 1774696650,
+    "_id": "doc-7e8647761f3c10318585e5b58e6aac3e"
+  },
+  "doc-712fb65844b58af95138f4721ac9d818": {
+    "relation_pairs": [
+      [
+        "DZA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696656,
+    "update_time": 1774696656,
+    "_id": "doc-712fb65844b58af95138f4721ac9d818"
+  },
+  "doc-a70e1dd265dd61cee64ec784113e338f": {
+    "relation_pairs": [
+      [
+        "EAP",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696663,
+    "update_time": 1774696663,
+    "_id": "doc-a70e1dd265dd61cee64ec784113e338f"
+  },
+  "doc-4585e81880412e32e1a131acaebb768d": {
+    "relation_pairs": [
+      [
+        "EAR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696668,
+    "update_time": 1774696668,
+    "_id": "doc-4585e81880412e32e1a131acaebb768d"
+  },
+  "doc-5b8169ef73db5f8ec23337ad6606b67a": {
+    "relation_pairs": [
+      [
+        "EAS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696673,
+    "update_time": 1774696673,
+    "_id": "doc-5b8169ef73db5f8ec23337ad6606b67a"
+  },
+  "doc-5aae6e718f658f055b312dac0dcb2472": {
+    "relation_pairs": [
+      [
+        "ECA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696677,
+    "update_time": 1774696677,
+    "_id": "doc-5aae6e718f658f055b312dac0dcb2472"
+  },
+  "doc-4325415b76d75b440ed0462d3ede34ea": {
+    "relation_pairs": [
+      [
+        "ECS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696682,
+    "update_time": 1774696682,
+    "_id": "doc-4325415b76d75b440ed0462d3ede34ea"
+  },
+  "doc-eafc901301436d6d7ce9f5f7d2509995": {
+    "relation_pairs": [
+      [
+        "ECU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696687,
+    "update_time": 1774696687,
+    "_id": "doc-eafc901301436d6d7ce9f5f7d2509995"
+  },
+  "doc-5174deec105cd868f5074a5b20d03f56": {
+    "relation_pairs": [
+      [
+        "EGY",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696693,
+    "update_time": 1774696693,
+    "_id": "doc-5174deec105cd868f5074a5b20d03f56"
+  },
+  "doc-02555efb4b3a310ce0c6eb0490ae77f7": {
+    "relation_pairs": [
+      [
+        "EMU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696698,
+    "update_time": 1774696698,
+    "_id": "doc-02555efb4b3a310ce0c6eb0490ae77f7"
+  },
+  "doc-09bfbad58e0b95b0a2df67c8c2f2974d": {
+    "relation_pairs": [
+      [
+        "ERI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696703,
+    "update_time": 1774696703,
+    "_id": "doc-09bfbad58e0b95b0a2df67c8c2f2974d"
+  },
+  "doc-e738a340b22d05acae5a0fe3b0ae27d1": {
+    "relation_pairs": [
+      [
+        "ESP",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696710,
+    "update_time": 1774696710,
+    "_id": "doc-e738a340b22d05acae5a0fe3b0ae27d1"
+  },
+  "doc-e80ff334c3befe5e71a520c6695574c9": {
+    "relation_pairs": [
+      [
+        "EST",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696715,
+    "update_time": 1774696715,
+    "_id": "doc-e80ff334c3befe5e71a520c6695574c9"
+  },
+  "doc-44aa1c2fef85ace3865b88d27b7168e3": {
+    "relation_pairs": [
+      [
+        "ETH",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696722,
+    "update_time": 1774696722,
+    "_id": "doc-44aa1c2fef85ace3865b88d27b7168e3"
+  },
+  "doc-2c592040e4845f089809ee13467f9aff": {
+    "relation_pairs": [
+      [
+        "EUU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696729,
+    "update_time": 1774696729,
+    "_id": "doc-2c592040e4845f089809ee13467f9aff"
+  },
+  "doc-8019944fc3f4cd33c2b0af85c38d5ca2": {
+    "relation_pairs": [
+      [
+        "FCS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696734,
+    "update_time": 1774696734,
+    "_id": "doc-8019944fc3f4cd33c2b0af85c38d5ca2"
+  },
+  "doc-4f7177037793ce0c70cae0dc17e33de3": {
+    "relation_pairs": [
+      [
+        "FIN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696740,
+    "update_time": 1774696740,
+    "_id": "doc-4f7177037793ce0c70cae0dc17e33de3"
+  },
+  "doc-295fcfb862d82a5719a0a0a56ac4c0db": {
+    "relation_pairs": [
+      [
+        "FJI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696746,
+    "update_time": 1774696746,
+    "_id": "doc-295fcfb862d82a5719a0a0a56ac4c0db"
+  },
+  "doc-07d3a90808826f2f09e38c399d7bcc7e": {
+    "relation_pairs": [
+      [
+        "FRA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696752,
+    "update_time": 1774696752,
+    "_id": "doc-07d3a90808826f2f09e38c399d7bcc7e"
+  },
+  "doc-eaba2953deb37e8d84cdc565d97d102a": {
+    "relation_pairs": [
+      [
+        "FSM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696759,
+    "update_time": 1774696759,
+    "_id": "doc-eaba2953deb37e8d84cdc565d97d102a"
+  },
+  "doc-6255bdaac24af9245d6e6f54922ed248": {
+    "relation_pairs": [
+      [
+        "GAB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696776,
+    "update_time": 1774696776,
+    "_id": "doc-6255bdaac24af9245d6e6f54922ed248"
+  },
+  "doc-7ebfde2af3b19652b1d8b1a9cae095cd": {
+    "relation_pairs": [
+      [
+        "GBR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696782,
+    "update_time": 1774696782,
+    "_id": "doc-7ebfde2af3b19652b1d8b1a9cae095cd"
+  },
+  "doc-0f9a5ade21d2844898dd93527d3a9938": {
+    "relation_pairs": [
+      [
+        "GEO",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696787,
+    "update_time": 1774696787,
+    "_id": "doc-0f9a5ade21d2844898dd93527d3a9938"
+  },
+  "doc-e81a9a4d144473363b9359b7c8c23c59": {
+    "relation_pairs": [
+      [
+        "GHA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696792,
+    "update_time": 1774696792,
+    "_id": "doc-e81a9a4d144473363b9359b7c8c23c59"
+  },
+  "doc-e31ad7dd1768adb77aabe83c78746ceb": {
+    "relation_pairs": [
+      [
+        "GIN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696801,
+    "update_time": 1774696801,
+    "_id": "doc-e31ad7dd1768adb77aabe83c78746ceb"
+  },
+  "doc-ea77a5002f07a2997d6445c9270b39ff": {
+    "relation_pairs": [
+      [
+        "GMB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696807,
+    "update_time": 1774696807,
+    "_id": "doc-ea77a5002f07a2997d6445c9270b39ff"
+  },
+  "doc-1388aaa9bb9a2576c6378a8b1b625ce0": {
+    "relation_pairs": [
+      [
+        "GNB",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696811,
+    "update_time": 1774696811,
+    "_id": "doc-1388aaa9bb9a2576c6378a8b1b625ce0"
+  },
+  "doc-3ed57943d1bcae6711dcccc3e2a756f7": {
+    "relation_pairs": [
+      [
+        "GNQ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696816,
+    "update_time": 1774696816,
+    "_id": "doc-3ed57943d1bcae6711dcccc3e2a756f7"
+  },
+  "doc-79b81c4b11fa2ae1591bc7836efb3d47": {
+    "relation_pairs": [
+      [
+        "GRC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696821,
+    "update_time": 1774696821,
+    "_id": "doc-79b81c4b11fa2ae1591bc7836efb3d47"
+  },
+  "doc-8f340f47cdf732a94fc572c97902bd23": {
+    "relation_pairs": [
+      [
+        "GRD",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696826,
+    "update_time": 1774696826,
+    "_id": "doc-8f340f47cdf732a94fc572c97902bd23"
+  },
+  "doc-391b3c1a6a22c4e7e0e239de74eab642": {
+    "relation_pairs": [
+      [
+        "GTM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696833,
+    "update_time": 1774696833,
+    "_id": "doc-391b3c1a6a22c4e7e0e239de74eab642"
+  },
+  "doc-72f6531d158ddf0236e04908f202ca8f": {
+    "relation_pairs": [
+      [
+        "GUY",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696839,
+    "update_time": 1774696839,
+    "_id": "doc-72f6531d158ddf0236e04908f202ca8f"
+  },
+  "doc-39d3d3406936011e0e3c899a9d131431": {
+    "relation_pairs": [
+      [
+        "HIC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696843,
+    "update_time": 1774696843,
+    "_id": "doc-39d3d3406936011e0e3c899a9d131431"
+  },
+  "doc-3507e2775497f118403d6c6eb4270704": {
+    "relation_pairs": [
+      [
+        "HND",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696849,
+    "update_time": 1774696849,
+    "_id": "doc-3507e2775497f118403d6c6eb4270704"
+  },
+  "doc-c8849f54f6d81576bbd5d442070fa50f": {
+    "relation_pairs": [
+      [
+        "HPC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696854,
+    "update_time": 1774696854,
+    "_id": "doc-c8849f54f6d81576bbd5d442070fa50f"
+  },
+  "doc-9dcf0ca20797d967786619e2ff8e5444": {
+    "relation_pairs": [
+      [
+        "HRV",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696858,
+    "update_time": 1774696858,
+    "_id": "doc-9dcf0ca20797d967786619e2ff8e5444"
+  },
+  "doc-2f951adc4ae0a4660a37c09f3def661c": {
+    "relation_pairs": [
+      [
+        "HTI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696863,
+    "update_time": 1774696863,
+    "_id": "doc-2f951adc4ae0a4660a37c09f3def661c"
+  },
+  "doc-393825c9c6be2db16b70a89a1c6cfd50": {
+    "relation_pairs": [
+      [
+        "HUN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696869,
+    "update_time": 1774696869,
+    "_id": "doc-393825c9c6be2db16b70a89a1c6cfd50"
+  },
+  "doc-e469648b83a74281c061566f4746720a": {
+    "relation_pairs": [
+      [
+        "Mortality rate, under-5",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696874,
+    "update_time": 1774696874,
+    "_id": "doc-e469648b83a74281c061566f4746720a"
+  },
+  "doc-42008f4ad49529b2805fccff8f99ea55": {
+    "relation_pairs": [
+      [
+        "IDA & IBRD total",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696878,
+    "update_time": 1774696878,
+    "_id": "doc-42008f4ad49529b2805fccff8f99ea55"
+  },
+  "doc-3086e55ca5a0a153b37c795600cc5d1a": {
+    "relation_pairs": [
+      [
+        "IDA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696884,
+    "update_time": 1774696884,
+    "_id": "doc-3086e55ca5a0a153b37c795600cc5d1a"
+  },
+  "doc-139b52d0abde089c2f1ab87b0bebfeab": {
+    "relation_pairs": [
+      [
+        "IDA blend",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696891,
+    "update_time": 1774696891,
+    "_id": "doc-139b52d0abde089c2f1ab87b0bebfeab"
+  },
+  "doc-17fd5c936aaeab3d21643663990bcf9f": {
+    "relation_pairs": [
+      [
+        "IDN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696896,
+    "update_time": 1774696896,
+    "_id": "doc-17fd5c936aaeab3d21643663990bcf9f"
+  },
+  "doc-7301cd477b4222bdab5bd71de3ca0cca": {
+    "relation_pairs": [
+      [
+        "IDX",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696901,
+    "update_time": 1774696901,
+    "_id": "doc-7301cd477b4222bdab5bd71de3ca0cca"
+  },
+  "doc-e09862185ca29fe1cf66af6b98d1c917": {
+    "relation_pairs": [
+      [
+        "IND",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696908,
+    "update_time": 1774696908,
+    "_id": "doc-e09862185ca29fe1cf66af6b98d1c917"
+  },
+  "doc-ec7f59fcb5b7a671b69343dc87a510bb": {
+    "relation_pairs": [
+      [
+        "IRL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696914,
+    "update_time": 1774696914,
+    "_id": "doc-ec7f59fcb5b7a671b69343dc87a510bb"
+  },
+  "doc-6d0fa0003f8eb699ab52f187082b0772": {
+    "relation_pairs": [
+      [
+        "IRN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696919,
+    "update_time": 1774696919,
+    "_id": "doc-6d0fa0003f8eb699ab52f187082b0772"
+  },
+  "doc-57f067b57239359c80ede3005dcad569": {
+    "relation_pairs": [
+      [
+        "IRQ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696927,
+    "update_time": 1774696927,
+    "_id": "doc-57f067b57239359c80ede3005dcad569"
+  },
+  "doc-334f3d29cabd4dd5401415f318350c50": {
+    "relation_pairs": [
+      [
+        "ISL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696932,
+    "update_time": 1774696932,
+    "_id": "doc-334f3d29cabd4dd5401415f318350c50"
+  },
+  "doc-d3947b608e680e90ef1a8ab3d74b2b4c": {
+    "relation_pairs": [
+      [
+        "ISR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696938,
+    "update_time": 1774696938,
+    "_id": "doc-d3947b608e680e90ef1a8ab3d74b2b4c"
+  },
+  "doc-50e9dd91056897161855012dc72d9355": {
+    "relation_pairs": [
+      [
+        "ITA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696943,
+    "update_time": 1774696943,
+    "_id": "doc-50e9dd91056897161855012dc72d9355"
+  },
+  "doc-1b52a10bf821852daa7dfd067609b3af": {
+    "relation_pairs": [
+      [
+        "JAM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696948,
+    "update_time": 1774696948,
+    "_id": "doc-1b52a10bf821852daa7dfd067609b3af"
+  },
+  "doc-9bc2f6193ab92875fd6d17dd32dba745": {
+    "relation_pairs": [
+      [
+        "JOR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696955,
+    "update_time": 1774696955,
+    "_id": "doc-9bc2f6193ab92875fd6d17dd32dba745"
+  },
+  "doc-4720dff225802e2ec5fdfa044ba2d8a5": {
+    "relation_pairs": [
+      [
+        "JPN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696961,
+    "update_time": 1774696961,
+    "_id": "doc-4720dff225802e2ec5fdfa044ba2d8a5"
+  },
+  "doc-b312aada8b5dd0dea71c0626e8cc3162": {
+    "relation_pairs": [
+      [
+        "KAZ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696965,
+    "update_time": 1774696965,
+    "_id": "doc-b312aada8b5dd0dea71c0626e8cc3162"
+  },
+  "doc-c2e3292397d76631de4545557ca443a9": {
+    "relation_pairs": [
+      [
+        "KEN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696971,
+    "update_time": 1774696971,
+    "_id": "doc-c2e3292397d76631de4545557ca443a9"
+  },
+  "doc-e75ae37d718be2e8a461e01171f0b9b2": {
+    "relation_pairs": [
+      [
+        "KGZ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696975,
+    "update_time": 1774696975,
+    "_id": "doc-e75ae37d718be2e8a461e01171f0b9b2"
+  },
+  "doc-675f820c815b091add5627e4808b6c4b": {
+    "relation_pairs": [
+      [
+        "KHM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696980,
+    "update_time": 1774696980,
+    "_id": "doc-675f820c815b091add5627e4808b6c4b"
+  },
+  "doc-de2ba54917a487a9726acc146cf9e1aa": {
+    "relation_pairs": [
+      [
+        "KIR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696986,
+    "update_time": 1774696986,
+    "_id": "doc-de2ba54917a487a9726acc146cf9e1aa"
+  },
+  "doc-874428975927260a810142ea175ff36a": {
+    "relation_pairs": [
+      [
+        "KNA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696992,
+    "update_time": 1774696992,
+    "_id": "doc-874428975927260a810142ea175ff36a"
+  },
+  "doc-13056117ad011015eabb38affc84a790": {
+    "relation_pairs": [
+      [
+        "KOR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774696997,
+    "update_time": 1774696997,
+    "_id": "doc-13056117ad011015eabb38affc84a790"
+  },
+  "doc-c70b345895f2e1d9195232dfac7bc2b3": {
+    "relation_pairs": [
+      [
+        "KWT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697002,
+    "update_time": 1774697002,
+    "_id": "doc-c70b345895f2e1d9195232dfac7bc2b3"
+  },
+  "doc-13bfc2aea2506ba58f18d737f5f806e0": {
+    "relation_pairs": [
+      [
+        "LAC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697016,
+    "update_time": 1774697016,
+    "_id": "doc-13bfc2aea2506ba58f18d737f5f806e0"
+  },
+  "doc-ee1e5bd7c49bfa2a89a7454817e51322": {
+    "relation_pairs": [
+      [
+        "LAO",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697022,
+    "update_time": 1774697022,
+    "_id": "doc-ee1e5bd7c49bfa2a89a7454817e51322"
+  },
+  "doc-f823ce83604ef4ab5f7575275bf7e758": {
+    "relation_pairs": [
+      [
+        "LBN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697029,
+    "update_time": 1774697029,
+    "_id": "doc-f823ce83604ef4ab5f7575275bf7e758"
+  },
+  "doc-17a2701966f6e5c28d4f77301f4155ab": {
+    "relation_pairs": [
+      [
+        "LBR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697034,
+    "update_time": 1774697034,
+    "_id": "doc-17a2701966f6e5c28d4f77301f4155ab"
+  },
+  "doc-ae6b5b6ab5b9a8225b91d84a9adceac6": {
+    "relation_pairs": [
+      [
+        "LBY",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697041,
+    "update_time": 1774697041,
+    "_id": "doc-ae6b5b6ab5b9a8225b91d84a9adceac6"
+  },
+  "doc-3f31657f1efff1c6f6e655a6639fb9ae": {
+    "relation_pairs": [
+      [
+        "LCA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697055,
+    "update_time": 1774697055,
+    "_id": "doc-3f31657f1efff1c6f6e655a6639fb9ae"
+  },
+  "doc-6ba9e48b8c5f7cae375af0da253df2d3": {
+    "relation_pairs": [
+      [
+        "LCN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697061,
+    "update_time": 1774697061,
+    "_id": "doc-6ba9e48b8c5f7cae375af0da253df2d3"
+  },
+  "doc-00c5eb8ffba0ff7ddddfda60bff40c3f": {
+    "relation_pairs": [
+      [
+        "LDC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697066,
+    "update_time": 1774697066,
+    "_id": "doc-00c5eb8ffba0ff7ddddfda60bff40c3f"
+  },
+  "doc-24f81037c21ac885035d289053ccd67a": {
+    "relation_pairs": [
+      [
+        "LIC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697071,
+    "update_time": 1774697071,
+    "_id": "doc-24f81037c21ac885035d289053ccd67a"
+  },
+  "doc-4839831144abf2bdbc68410f80072105": {
+    "relation_pairs": [
+      [
+        "LKA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697076,
+    "update_time": 1774697076,
+    "_id": "doc-4839831144abf2bdbc68410f80072105"
+  },
+  "doc-5b79c5bd6b25c60def2a40c8f0709a40": {
+    "relation_pairs": [
+      [
+        "LMC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697081,
+    "update_time": 1774697081,
+    "_id": "doc-5b79c5bd6b25c60def2a40c8f0709a40"
+  },
+  "doc-dd5e5ca17c546cb23fe5370189d24bae": {
+    "relation_pairs": [
+      [
+        "LMY",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697086,
+    "update_time": 1774697086,
+    "_id": "doc-dd5e5ca17c546cb23fe5370189d24bae"
+  },
+  "doc-f7da0777898e68bacdce8a0329e99874": {
+    "relation_pairs": [
+      [
+        "LSO",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697091,
+    "update_time": 1774697091,
+    "_id": "doc-f7da0777898e68bacdce8a0329e99874"
+  },
+  "doc-68531dd0a7d8acdc21b69b406ea25e65": {
+    "relation_pairs": [
+      [
+        "LTE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697097,
+    "update_time": 1774697097,
+    "_id": "doc-68531dd0a7d8acdc21b69b406ea25e65"
+  },
+  "doc-3ca014d2dbc306089fec9dfbf96b7e4c": {
+    "relation_pairs": [
+      [
+        "LTU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697101,
+    "update_time": 1774697101,
+    "_id": "doc-3ca014d2dbc306089fec9dfbf96b7e4c"
+  },
+  "doc-295f49bfda2fde1a918b14d2977df9be": {
+    "relation_pairs": [
+      [
+        "LUX",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697109,
+    "update_time": 1774697109,
+    "_id": "doc-295f49bfda2fde1a918b14d2977df9be"
+  },
+  "doc-ae7854d7d43208e00cfa063a6972877b": {
+    "relation_pairs": [
+      [
+        "LVA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697113,
+    "update_time": 1774697113,
+    "_id": "doc-ae7854d7d43208e00cfa063a6972877b"
+  },
+  "doc-4de809316b24a8802b7b92e4f6771deb": {
+    "relation_pairs": [
+      [
+        "MAR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697118,
+    "update_time": 1774697118,
+    "_id": "doc-4de809316b24a8802b7b92e4f6771deb"
+  },
+  "doc-62b4570a2009b6465fe862b87650103e": {
+    "relation_pairs": [
+      [
+        "MCO",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697123,
+    "update_time": 1774697123,
+    "_id": "doc-62b4570a2009b6465fe862b87650103e"
+  },
+  "doc-cb44b82219eafb485e9f97535db8689e": {
+    "relation_pairs": [
+      [
+        "MDA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697128,
+    "update_time": 1774697128,
+    "_id": "doc-cb44b82219eafb485e9f97535db8689e"
+  },
+  "doc-c944e638d7a39f8339444799d9424dc6": {
+    "relation_pairs": [
+      [
+        "MDG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697133,
+    "update_time": 1774697133,
+    "_id": "doc-c944e638d7a39f8339444799d9424dc6"
+  },
+  "doc-eca3f40b0ba1b68b5b173e0780e9698a": {
+    "relation_pairs": [
+      [
+        "MDV",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697140,
+    "update_time": 1774697140,
+    "_id": "doc-eca3f40b0ba1b68b5b173e0780e9698a"
+  },
+  "doc-0c553c2df1e2814a3ff7f1117441a208": {
+    "relation_pairs": [
+      [
+        "MEA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697144,
+    "update_time": 1774697144,
+    "_id": "doc-0c553c2df1e2814a3ff7f1117441a208"
+  },
+  "doc-9dfd5686ba40c502db6117ec5e461cfb": {
+    "relation_pairs": [
+      [
+        "MEX",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697150,
+    "update_time": 1774697150,
+    "_id": "doc-9dfd5686ba40c502db6117ec5e461cfb"
+  },
+  "doc-a306c78cf85aa98c3eb7ad941e46bc5c": {
+    "relation_pairs": [
+      [
+        "MHL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697155,
+    "update_time": 1774697155,
+    "_id": "doc-a306c78cf85aa98c3eb7ad941e46bc5c"
+  },
+  "doc-8262e17a67dae9086a482352dfac9252": {
+    "relation_pairs": [
+      [
+        "MIC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697160,
+    "update_time": 1774697160,
+    "_id": "doc-8262e17a67dae9086a482352dfac9252"
+  },
+  "doc-0e568babff8c0c2b28e721238d4d3115": {
+    "relation_pairs": [
+      [
+        "MKD",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697165,
+    "update_time": 1774697165,
+    "_id": "doc-0e568babff8c0c2b28e721238d4d3115"
+  },
+  "doc-28a468ff4b5e3a737cf1d4699394111d": {
+    "relation_pairs": [
+      [
+        "MLI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697170,
+    "update_time": 1774697170,
+    "_id": "doc-28a468ff4b5e3a737cf1d4699394111d"
+  },
+  "doc-41dad6297e0d7d32277da2500f9684ec": {
+    "relation_pairs": [
+      [
+        "MLT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697177,
+    "update_time": 1774697177,
+    "_id": "doc-41dad6297e0d7d32277da2500f9684ec"
+  },
+  "doc-fc96106e79cb99d36b8504a87e39f3ef": {
+    "relation_pairs": [
+      [
+        "MMR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697183,
+    "update_time": 1774697183,
+    "_id": "doc-fc96106e79cb99d36b8504a87e39f3ef"
+  },
+  "doc-d2e706ca91b4447e2ff294bad92ae726": {
+    "relation_pairs": [
+      [
+        "MNA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697189,
+    "update_time": 1774697189,
+    "_id": "doc-d2e706ca91b4447e2ff294bad92ae726"
+  },
+  "doc-06f7d7b002f2d0bd0980e2a860b7d70e": {
+    "relation_pairs": [
+      [
+        "MNE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697196,
+    "update_time": 1774697196,
+    "_id": "doc-06f7d7b002f2d0bd0980e2a860b7d70e"
+  },
+  "doc-58f3d4f07d5d7416ed24d72d3e084b83": {
+    "relation_pairs": [
+      [
+        "MNG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697201,
+    "update_time": 1774697201,
+    "_id": "doc-58f3d4f07d5d7416ed24d72d3e084b83"
+  },
+  "doc-e6b84554fcaf0047b228751d2ec9240a": {
+    "relation_pairs": [
+      [
+        "MOZ",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697208,
+    "update_time": 1774697208,
+    "_id": "doc-e6b84554fcaf0047b228751d2ec9240a"
+  },
+  "doc-d119ecb7870fbead408bddb7fcd08ae8": {
+    "relation_pairs": [
+      [
+        "MRT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697214,
+    "update_time": 1774697214,
+    "_id": "doc-d119ecb7870fbead408bddb7fcd08ae8"
+  },
+  "doc-a42eaf1f672edfacb95aca13c9ce1eb4": {
+    "relation_pairs": [
+      [
+        "MUS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697222,
+    "update_time": 1774697222,
+    "_id": "doc-a42eaf1f672edfacb95aca13c9ce1eb4"
+  },
+  "doc-d29732c466e0e5ab015f775bdf4da284": {
+    "relation_pairs": [
+      [
+        "MWI",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697231,
+    "update_time": 1774697231,
+    "_id": "doc-d29732c466e0e5ab015f775bdf4da284"
+  },
+  "doc-5c785c1e67147de72d15a82d1c7ef3d4": {
+    "relation_pairs": [
+      [
+        "MYS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697238,
+    "update_time": 1774697238,
+    "_id": "doc-5c785c1e67147de72d15a82d1c7ef3d4"
+  },
+  "doc-dd5e31649aa27f05d81880796de4896c": {
+    "relation_pairs": [
+      [
+        "NAC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697242,
+    "update_time": 1774697242,
+    "_id": "doc-dd5e31649aa27f05d81880796de4896c"
+  },
+  "doc-30fafc95bb4c1ee8867979dd524f2b06": {
+    "relation_pairs": [
+      [
+        "NAM",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697248,
+    "update_time": 1774697248,
+    "_id": "doc-30fafc95bb4c1ee8867979dd524f2b06"
+  },
+  "doc-a01c75afc3afda4784faa31862174f0e": {
+    "relation_pairs": [
+      [
+        "NER",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697255,
+    "update_time": 1774697255,
+    "_id": "doc-a01c75afc3afda4784faa31862174f0e"
+  },
+  "doc-3262c397d93463b15298923cc43a3ef1": {
+    "relation_pairs": [
+      [
+        "NGA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697262,
+    "update_time": 1774697262,
+    "_id": "doc-3262c397d93463b15298923cc43a3ef1"
+  },
+  "doc-d18f907dbe5c77fb0a2299ec80af0700": {
+    "relation_pairs": [
+      [
+        "NIC",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697272,
+    "update_time": 1774697272,
+    "_id": "doc-d18f907dbe5c77fb0a2299ec80af0700"
+  },
+  "doc-47f080422d6d0d097e0d1e74aa898143": {
+    "relation_pairs": [
+      [
+        "NLD",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697280,
+    "update_time": 1774697280,
+    "_id": "doc-47f080422d6d0d097e0d1e74aa898143"
+  },
+  "doc-61679a4e9717137954211c6a83d4f955": {
+    "relation_pairs": [
+      [
+        "NOR",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697286,
+    "update_time": 1774697286,
+    "_id": "doc-61679a4e9717137954211c6a83d4f955"
+  },
+  "doc-6af209093bfe63f5a6def86e4750bf77": {
+    "relation_pairs": [
+      [
+        "NPL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697292,
+    "update_time": 1774697292,
+    "_id": "doc-6af209093bfe63f5a6def86e4750bf77"
+  },
+  "doc-7cef133d5a10a01231f5b73357f8e796": {
+    "relation_pairs": [
+      [
+        "NRU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697298,
+    "update_time": 1774697298,
+    "_id": "doc-7cef133d5a10a01231f5b73357f8e796"
+  },
+  "doc-7998532895179a15373e83fc936a6f6f": {
+    "relation_pairs": [
+      [
+        "NZL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697304,
+    "update_time": 1774697304,
+    "_id": "doc-7998532895179a15373e83fc936a6f6f"
+  },
+  "doc-70f4dfdfc2d7e8a47d2fb777feb88605": {
+    "relation_pairs": [
+      [
+        "OED",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697308,
+    "update_time": 1774697308,
+    "_id": "doc-70f4dfdfc2d7e8a47d2fb777feb88605"
+  },
+  "doc-4fe9e3dcd83abb2b2f04ca98187fca06": {
+    "relation_pairs": [
+      [
+        "OMN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697314,
+    "update_time": 1774697314,
+    "_id": "doc-4fe9e3dcd83abb2b2f04ca98187fca06"
+  },
+  "doc-527b873de4ca6d78ab8df4efdb78f8dc": {
+    "relation_pairs": [
+      [
+        "OSS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697321,
+    "update_time": 1774697321,
+    "_id": "doc-527b873de4ca6d78ab8df4efdb78f8dc"
+  },
+  "doc-3ba15f2aa239166d58bda6a17106418e": {
+    "relation_pairs": [
+      [
+        "PAK",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697327,
+    "update_time": 1774697327,
+    "_id": "doc-3ba15f2aa239166d58bda6a17106418e"
+  },
+  "doc-c7e160e564f6dae14b14bf34869dbba9": {
+    "relation_pairs": [
+      [
+        "PAN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697333,
+    "update_time": 1774697333,
+    "_id": "doc-c7e160e564f6dae14b14bf34869dbba9"
+  },
+  "doc-e330c97c5cd89fff6b7c8a75d23ba5c0": {
+    "relation_pairs": [
+      [
+        "PER",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697339,
+    "update_time": 1774697339,
+    "_id": "doc-e330c97c5cd89fff6b7c8a75d23ba5c0"
+  },
+  "doc-41ff64af7a6ff3cbc2c30917016972ae": {
+    "relation_pairs": [
+      [
+        "PHL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697345,
+    "update_time": 1774697345,
+    "_id": "doc-41ff64af7a6ff3cbc2c30917016972ae"
+  },
+  "doc-2f0d42f001089c34fb0bbb49733b9e50": {
+    "relation_pairs": [
+      [
+        "PLW",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697352,
+    "update_time": 1774697352,
+    "_id": "doc-2f0d42f001089c34fb0bbb49733b9e50"
+  },
+  "doc-6c63650cbcf556709c62a30216859dd1": {
+    "relation_pairs": [
+      [
+        "PNG",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697359,
+    "update_time": 1774697359,
+    "_id": "doc-6c63650cbcf556709c62a30216859dd1"
+  },
+  "doc-f933301dd958f57cff72362582d786d4": {
+    "relation_pairs": [
+      [
+        "POL",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697365,
+    "update_time": 1774697365,
+    "_id": "doc-f933301dd958f57cff72362582d786d4"
+  },
+  "doc-8fc7fa1b9d4984957223b471e0f6a5da": {
+    "relation_pairs": [
+      [
+        "PRE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697371,
+    "update_time": 1774697371,
+    "_id": "doc-8fc7fa1b9d4984957223b471e0f6a5da"
+  },
+  "doc-498ba95ca128d833d9ef4b984e6a6f54": {
+    "relation_pairs": [
+      [
+        "PRK",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697378,
+    "update_time": 1774697378,
+    "_id": "doc-498ba95ca128d833d9ef4b984e6a6f54"
+  },
+  "doc-49cb562895bc7b6ce276928c670d9e13": {
+    "relation_pairs": [
+      [
+        "PRT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697394,
+    "update_time": 1774697394,
+    "_id": "doc-49cb562895bc7b6ce276928c670d9e13"
+  },
+  "doc-97597b94be71d9a2ac327bdc9f927846": {
+    "relation_pairs": [
+      [
+        "PRY",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697401,
+    "update_time": 1774697401,
+    "_id": "doc-97597b94be71d9a2ac327bdc9f927846"
+  },
+  "doc-b7bcd2520969b928f9dc5f9d61142e55": {
+    "relation_pairs": [
+      [
+        "PSE",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697407,
+    "update_time": 1774697407,
+    "_id": "doc-b7bcd2520969b928f9dc5f9d61142e55"
+  },
+  "doc-0d86b4de040a0500541ca0cccbb86c4c": {
+    "relation_pairs": [
+      [
+        "PSS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697412,
+    "update_time": 1774697412,
+    "_id": "doc-0d86b4de040a0500541ca0cccbb86c4c"
+  },
+  "doc-df37b08eb2b46b18746ad036255f286d": {
+    "relation_pairs": [
+      [
+        "PST",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697420,
+    "update_time": 1774697420,
+    "_id": "doc-df37b08eb2b46b18746ad036255f286d"
+  },
+  "doc-123cd6605fad9a7bc0247b334bc97e77": {
+    "relation_pairs": [
+      [
+        "QAT",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697429,
+    "update_time": 1774697429,
+    "_id": "doc-123cd6605fad9a7bc0247b334bc97e77"
+  },
+  "doc-59e626031ea1cb49c26539f05ecf70fd": {
+    "relation_pairs": [
+      [
+        "ROU",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697435,
+    "update_time": 1774697435,
+    "_id": "doc-59e626031ea1cb49c26539f05ecf70fd"
+  },
+  "doc-aba0170f4147b9f079a7a1085da0c8d4": {
+    "relation_pairs": [
+      [
+        "RUS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697442,
+    "update_time": 1774697442,
+    "_id": "doc-aba0170f4147b9f079a7a1085da0c8d4"
+  },
+  "doc-7cc66efa7d1ca9f0dff6ad162b04d05c": {
+    "relation_pairs": [
+      [
+        "RWA",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697448,
+    "update_time": 1774697448,
+    "_id": "doc-7cc66efa7d1ca9f0dff6ad162b04d05c"
+  },
+  "doc-24f9943a42e741532799b27904210c86": {
+    "relation_pairs": [
+      [
+        "SAS",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697454,
+    "update_time": 1774697454,
+    "_id": "doc-24f9943a42e741532799b27904210c86"
+  },
+  "doc-09e2430ba7cdbb13ff8b6c4735213e55": {
+    "relation_pairs": [
+      [
+        "SDN",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697472,
+    "update_time": 1774697472,
+    "_id": "doc-09e2430ba7cdbb13ff8b6c4735213e55"
+  },
+  "doc-b1f48eecfc8287e2c570e33d7750ac7d": {
+    "relation_pairs": [
+      [
+        "SGP",
+        "SH.DYN.MORT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697488,
+    "update_time": 1774697488,
+    "_id": "doc-b1f48eecfc8287e2c570e33d7750ac7d"
+  },
+  "doc-2920f74074f50e468fa87d9192668144": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SLB"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697494,
+    "update_time": 1774697494,
+    "_id": "doc-2920f74074f50e468fa87d9192668144"
+  },
+  "doc-884dbdacf7adc8c3f1da3263f4c9bcb5": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SLE"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697500,
+    "update_time": 1774697500,
+    "_id": "doc-884dbdacf7adc8c3f1da3263f4c9bcb5"
+  },
+  "doc-d316686b5ba71ab8170f67ff2ebf5685": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SLV"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697513,
+    "update_time": 1774697513,
+    "_id": "doc-d316686b5ba71ab8170f67ff2ebf5685"
+  },
+  "doc-64845cf59d7122fea2a04a6c063ef54b": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SMR"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697522,
+    "update_time": 1774697522,
+    "_id": "doc-64845cf59d7122fea2a04a6c063ef54b"
+  },
+  "doc-f77f1d9e08430d922f31f25689f4641b": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SRB"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697531,
+    "update_time": 1774697531,
+    "_id": "doc-f77f1d9e08430d922f31f25689f4641b"
+  },
+  "doc-be23ee2abe26f461da9a6a6800248288": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SSA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697536,
+    "update_time": 1774697536,
+    "_id": "doc-be23ee2abe26f461da9a6a6800248288"
+  },
+  "doc-4e1f8e779cd34b04f671f1a2b3a8a08b": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SSD"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697542,
+    "update_time": 1774697542,
+    "_id": "doc-4e1f8e779cd34b04f671f1a2b3a8a08b"
+  },
+  "doc-7dcb7495198d91369b7ce900c555d1b7": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SSF"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697553,
+    "update_time": 1774697553,
+    "_id": "doc-7dcb7495198d91369b7ce900c555d1b7"
+  },
+  "doc-9712e55d361b79174343ebea4553e1de": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SST"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697560,
+    "update_time": 1774697560,
+    "_id": "doc-9712e55d361b79174343ebea4553e1de"
+  },
+  "doc-30b10819622d3b321a199429d4c393d0": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "STP"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697567,
+    "update_time": 1774697567,
+    "_id": "doc-30b10819622d3b321a199429d4c393d0"
+  },
+  "doc-19debdbd7568681b0d35fc4fbc9606ff": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SUR"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697572,
+    "update_time": 1774697572,
+    "_id": "doc-19debdbd7568681b0d35fc4fbc9606ff"
+  },
+  "doc-0a1342f27c09da4d80029b23c76be353": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SVK"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697577,
+    "update_time": 1774697577,
+    "_id": "doc-0a1342f27c09da4d80029b23c76be353"
+  },
+  "doc-f03ba0984cd371ff6e8a15715667b4a1": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SVN"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697582,
+    "update_time": 1774697582,
+    "_id": "doc-f03ba0984cd371ff6e8a15715667b4a1"
+  },
+  "doc-1208cb7b0c46be875ca19cc2f3f580cd": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SWE"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697587,
+    "update_time": 1774697587,
+    "_id": "doc-1208cb7b0c46be875ca19cc2f3f580cd"
+  },
+  "doc-b3d9c4e4fffe65b697a829410586dbe4": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SWZ"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697592,
+    "update_time": 1774697592,
+    "_id": "doc-b3d9c4e4fffe65b697a829410586dbe4"
+  },
+  "doc-f9fcd45bfcaf756b447c244b87c1c269": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SYC"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697598,
+    "update_time": 1774697598,
+    "_id": "doc-f9fcd45bfcaf756b447c244b87c1c269"
+  },
+  "doc-1ce7095796dc23528e07015acd823ca1": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "SYR"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697603,
+    "update_time": 1774697603,
+    "_id": "doc-1ce7095796dc23528e07015acd823ca1"
+  },
+  "doc-5be8ab1c5fa2eef01735f0e98db731eb": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TCA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697609,
+    "update_time": 1774697609,
+    "_id": "doc-5be8ab1c5fa2eef01735f0e98db731eb"
+  },
+  "doc-0a9273c75b14e20b65fdf0681f480947": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TCD"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697616,
+    "update_time": 1774697616,
+    "_id": "doc-0a9273c75b14e20b65fdf0681f480947"
+  },
+  "doc-0345c60c0fc2b70af090defe6771e638": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TEA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697621,
+    "update_time": 1774697621,
+    "_id": "doc-0345c60c0fc2b70af090defe6771e638"
+  },
+  "doc-bf3f7c6dd447f1b02703f8620fca132c": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TEC"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697626,
+    "update_time": 1774697626,
+    "_id": "doc-bf3f7c6dd447f1b02703f8620fca132c"
+  },
+  "doc-38be7f16725638656e00f330370c8f9c": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TGO"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697632,
+    "update_time": 1774697632,
+    "_id": "doc-38be7f16725638656e00f330370c8f9c"
+  },
+  "doc-0912605400719202eb8e708dd5044e5c": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "THA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697637,
+    "update_time": 1774697637,
+    "_id": "doc-0912605400719202eb8e708dd5044e5c"
+  },
+  "doc-df89ce0a2c031d8a727a320e1fb7a932": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TJK"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697643,
+    "update_time": 1774697643,
+    "_id": "doc-df89ce0a2c031d8a727a320e1fb7a932"
+  },
+  "doc-af3f16f57c0ee917dc4be2e168ff5449": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TKM"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697649,
+    "update_time": 1774697649,
+    "_id": "doc-af3f16f57c0ee917dc4be2e168ff5449"
+  },
+  "doc-8be4d36f19534a59e124e2156e827f1a": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TLA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697656,
+    "update_time": 1774697656,
+    "_id": "doc-8be4d36f19534a59e124e2156e827f1a"
+  },
+  "doc-a70def35541d0d5d85772ca7e85c5cfb": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TLS"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697663,
+    "update_time": 1774697663,
+    "_id": "doc-a70def35541d0d5d85772ca7e85c5cfb"
+  },
+  "doc-33eca96155a71a1fa3dc30f2d0f5ea2e": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TMN"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697669,
+    "update_time": 1774697669,
+    "_id": "doc-33eca96155a71a1fa3dc30f2d0f5ea2e"
+  },
+  "doc-d5c6bc0fb8076374d770eae12a1118a6": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TON"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697674,
+    "update_time": 1774697674,
+    "_id": "doc-d5c6bc0fb8076374d770eae12a1118a6"
+  },
+  "doc-761dfa388dbff1ae123181f7c5b5ee7f": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TSA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697679,
+    "update_time": 1774697679,
+    "_id": "doc-761dfa388dbff1ae123181f7c5b5ee7f"
+  },
+  "doc-1ea6e8e9f9b118848cfb8a3ed3202966": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TSS"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697697,
+    "update_time": 1774697697,
+    "_id": "doc-1ea6e8e9f9b118848cfb8a3ed3202966"
+  },
+  "doc-6f64cd89bf3d3657a0ea74970c8ddfe0": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TTO"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697704,
+    "update_time": 1774697704,
+    "_id": "doc-6f64cd89bf3d3657a0ea74970c8ddfe0"
+  },
+  "doc-3bbda1fef71a5f6c132ce67b812376df": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TUN"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697714,
+    "update_time": 1774697714,
+    "_id": "doc-3bbda1fef71a5f6c132ce67b812376df"
+  },
+  "doc-cf0b13dcfa21aab4741bd4c5285acc06": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TUR"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697725,
+    "update_time": 1774697725,
+    "_id": "doc-cf0b13dcfa21aab4741bd4c5285acc06"
+  },
+  "doc-e567b20e7548e4be6656ed453baa7f61": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TUV"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697731,
+    "update_time": 1774697731,
+    "_id": "doc-e567b20e7548e4be6656ed453baa7f61"
+  },
+  "doc-8359214e63f991084a7c268497571e27": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "TZA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697736,
+    "update_time": 1774697736,
+    "_id": "doc-8359214e63f991084a7c268497571e27"
+  },
+  "doc-8af862f13b2be02ae03361fe5e752915": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "UGA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697741,
+    "update_time": 1774697741,
+    "_id": "doc-8af862f13b2be02ae03361fe5e752915"
+  },
+  "doc-d1c0f8a7eaa964befdafd93c39a551ba": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "UKR"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697747,
+    "update_time": 1774697747,
+    "_id": "doc-d1c0f8a7eaa964befdafd93c39a551ba"
+  },
+  "doc-e4142ca8ef80298d2224602889772818": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "UMC"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697751,
+    "update_time": 1774697751,
+    "_id": "doc-e4142ca8ef80298d2224602889772818"
+  },
+  "doc-d733ddd1c0606753d5b09ae782656f8d": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "URY"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697756,
+    "update_time": 1774697756,
+    "_id": "doc-d733ddd1c0606753d5b09ae782656f8d"
+  },
+  "doc-bf24c3e6629869601304daa9a78d635f": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "USA"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697763,
+    "update_time": 1774697763,
+    "_id": "doc-bf24c3e6629869601304daa9a78d635f"
+  },
+  "doc-e7e2a46ad3b5a91d0035350b01d4d383": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "UZB"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697772,
+    "update_time": 1774697772,
+    "_id": "doc-e7e2a46ad3b5a91d0035350b01d4d383"
+  },
+  "doc-b9ded8f1dddb72395ba5405f021a8630": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "VCT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697777,
+    "update_time": 1774697777,
+    "_id": "doc-b9ded8f1dddb72395ba5405f021a8630"
+  },
+  "doc-1a5a0674fa2e19d212d501d354276b32": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "VEN"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697783,
+    "update_time": 1774697783,
+    "_id": "doc-1a5a0674fa2e19d212d501d354276b32"
+  },
+  "doc-6bba1fc8ae085eca221bbcfa8ea6d6ad": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "VGB"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697789,
+    "update_time": 1774697789,
+    "_id": "doc-6bba1fc8ae085eca221bbcfa8ea6d6ad"
+  },
+  "doc-2b53dce1e9864078464cb2bbf7667c7e": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "VNM"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697795,
+    "update_time": 1774697795,
+    "_id": "doc-2b53dce1e9864078464cb2bbf7667c7e"
+  },
+  "doc-cee390afee16d83332ed24555fe9d67e": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "VUT"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697802,
+    "update_time": 1774697802,
+    "_id": "doc-cee390afee16d83332ed24555fe9d67e"
+  },
+  "doc-b3aa2c1cafc5a448b69e6e21400bc87b": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "WSM"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697812,
+    "update_time": 1774697812,
+    "_id": "doc-b3aa2c1cafc5a448b69e6e21400bc87b"
+  },
+  "doc-de8a49e74435269271736c85c12842e3": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "XKX"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697816,
+    "update_time": 1774697816,
+    "_id": "doc-de8a49e74435269271736c85c12842e3"
+  },
+  "doc-6d19a280d8e9fb6699a7684138edaa77": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "YEM"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697822,
+    "update_time": 1774697822,
+    "_id": "doc-6d19a280d8e9fb6699a7684138edaa77"
+  },
+  "doc-57399f15db3fa7c16748598477106bf7": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "ZAF"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697827,
+    "update_time": 1774697827,
+    "_id": "doc-57399f15db3fa7c16748598477106bf7"
+  },
+  "doc-488d1e402868e3cc55be850b425777cd": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "ZMB"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697834,
+    "update_time": 1774697834,
+    "_id": "doc-488d1e402868e3cc55be850b425777cd"
+  },
+  "doc-2a80f2d31f93c8c40a654d4ed27feb39": {
+    "relation_pairs": [
+      [
+        "SH.DYN.MORT",
+        "ZWE"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774697839,
+    "update_time": 1774697839,
+    "_id": "doc-2a80f2d31f93c8c40a654d4ed27feb39"
+  }
+}

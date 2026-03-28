@@ -1,0 +1,25 @@
+Entity: BTN / WHOSIS_000001
+Year: 2000 | Value: 65.98956136
+Year: 2001 | Value: 67.18030943
+Year: 2002 | Value: 67.84566543
+Year: 2003 | Value: 68.38453582
+Year: 2004 | Value: 68.88514264
+Year: 2005 | Value: 69.36895355
+Year: 2006 | Value: 69.95563044
+Year: 2007 | Value: 70.47630807
+Year: 2008 | Value: 70.90903814
+Year: 2009 | Value: 71.27007127
+Year: 2010 | Value: 71.72710313
+Year: 2011 | Value: 72.1269544
+Year: 2012 | Value: 72.45535288
+Year: 2013 | Value: 72.72164626
+Year: 2014 | Value: 72.91360226
+Year: 2015 | Value: 73.07489389
+Year: 2016 | Value: 73.28424565
+Year: 2017 | Value: 73.54716542
+Year: 2018 | Value: 73.75301201
+Year: 2019 | Value: 73.93027807
+Year: 2020 | Value: 74.45119684
+Year: 2021 | Value: 74.87642848
+Remark: Bhutan
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: GRC / WHOSIS_000001
+Year: 2000 | Value: 78.42147917
+Year: 2001 | Value: 78.82217341
+Year: 2002 | Value: 78.97253017
+Year: 2003 | Value: 79.0919372
+Year: 2004 | Value: 79.2117166
+Year: 2005 | Value: 79.40149641
+Year: 2006 | Value: 79.74258324
+Year: 2007 | Value: 79.45113677
+Year: 2008 | Value: 79.9292479
+Year: 2009 | Value: 80.02249419
+Year: 2010 | Value: 80.23861699
+Year: 2011 | Value: 80.35771121
+Year: 2012 | Value: 80.23315335
+Year: 2013 | Value: 80.77961776
+Year: 2014 | Value: 80.83818972
+Year: 2015 | Value: 80.41608244
+Year: 2016 | Value: 80.71256832
+Year: 2017 | Value: 80.69403193
+Year: 2018 | Value: 81.05191982
+Year: 2019 | Value: 80.90744762
+Year: 2020 | Value: 80.6317386
+Year: 2021 | Value: 79.59785025
+Remark: Greece
+Remark: Life expectancy at birth (years)

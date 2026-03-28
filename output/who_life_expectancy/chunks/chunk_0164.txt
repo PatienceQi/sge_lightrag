@@ -1,0 +1,25 @@
+Entity: SWZ / WHOSIS_000001
+Year: 2000 | Value: 46.7774174
+Year: 2001 | Value: 44.97441053
+Year: 2002 | Value: 43.63857902
+Year: 2003 | Value: 42.59286029
+Year: 2004 | Value: 41.87434793
+Year: 2005 | Value: 41.77987727
+Year: 2006 | Value: 42.74148839
+Year: 2007 | Value: 43.59627355
+Year: 2008 | Value: 44.27535626
+Year: 2009 | Value: 45.04734029
+Year: 2010 | Value: 46.38823095
+Year: 2011 | Value: 48.07568339
+Year: 2012 | Value: 49.10836702
+Year: 2013 | Value: 49.97813792
+Year: 2014 | Value: 50.93411451
+Year: 2015 | Value: 52.11336327
+Year: 2016 | Value: 53.13250876
+Year: 2017 | Value: 53.80924436
+Year: 2018 | Value: 54.73682091
+Year: 2019 | Value: 55.74729385
+Year: 2020 | Value: 55.96824586
+Year: 2021 | Value: 54.59266973
+Remark: Eswatini
+Remark: Life expectancy at birth (years)

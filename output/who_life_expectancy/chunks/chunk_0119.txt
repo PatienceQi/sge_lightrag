@@ -1,0 +1,25 @@
+Entity: MOZ / WHOSIS_000001
+Year: 2000 | Value: 50.95314578
+Year: 2001 | Value: 51.31528926
+Year: 2002 | Value: 51.47014119
+Year: 2003 | Value: 51.67123667
+Year: 2004 | Value: 51.81518653
+Year: 2005 | Value: 51.92845833
+Year: 2006 | Value: 52.16412753
+Year: 2007 | Value: 52.58518387
+Year: 2008 | Value: 53.06339796
+Year: 2009 | Value: 53.32648003
+Year: 2010 | Value: 53.33150279
+Year: 2011 | Value: 53.5270243
+Year: 2012 | Value: 53.74174488
+Year: 2013 | Value: 54.24267779
+Year: 2014 | Value: 55.02757929
+Year: 2015 | Value: 55.85530982
+Year: 2016 | Value: 56.63490108
+Year: 2017 | Value: 57.33253714
+Year: 2018 | Value: 57.94330191
+Year: 2019 | Value: 58.50505639
+Year: 2020 | Value: 58.6314583
+Year: 2021 | Value: 57.66202708
+Remark: Mozambique
+Remark: Life expectancy at birth (years)

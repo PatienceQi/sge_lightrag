@@ -1,0 +1,1 @@
+[BASELINE MODE — using LightRAG default prompts]

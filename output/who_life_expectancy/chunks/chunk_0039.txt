@@ -1,0 +1,25 @@
+Entity: COL / WHOSIS_000001
+Year: 2000 | Value: 72.53854433
+Year: 2001 | Value: 72.62895792
+Year: 2002 | Value: 72.8310481
+Year: 2003 | Value: 73.54484514
+Year: 2004 | Value: 73.98320442
+Year: 2005 | Value: 74.43998835
+Year: 2006 | Value: 74.69666325
+Year: 2007 | Value: 75.19865773
+Year: 2008 | Value: 75.40888643
+Year: 2009 | Value: 75.75932913
+Year: 2010 | Value: 75.96054748
+Year: 2011 | Value: 76.68552906
+Year: 2012 | Value: 76.94484313
+Year: 2013 | Value: 77.2278702
+Year: 2014 | Value: 77.36559952
+Year: 2015 | Value: 77.34484367
+Year: 2016 | Value: 77.57662615
+Year: 2017 | Value: 77.7944403
+Year: 2018 | Value: 77.82372796
+Year: 2019 | Value: 77.9535847
+Year: 2020 | Value: 76.17457612
+Year: 2021 | Value: 74.53297363
+Remark: Colombia
+Remark: Life expectancy at birth (years)

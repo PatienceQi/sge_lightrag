@@ -1,25 +1,72 @@
-# SGE-LightRAG 黄金标准标注指南
+# SGE-LightRAG 评估框架
 
 ## 概述
 
-本目录包含用于评估 LightRAG 知识图谱抽取质量的黄金标准三元组（Gold Standard Triples）。
+本目录包含 SGE-LightRAG 的完整评估框架，支持：
+- **EC/FC 信息覆盖率评估**（子串匹配 + 2-hop 邻居搜索）
+- **v2 Gold Standard**（4 个国际数据集 × 25 国 × 150 事实 = 600 事实 + 116 本地事实 = 716 总事实）
+- **Bootstrap 95% 置信区间**（n=1000 次重采样）
+- **下游 QA 评估**（60 题：47 直接 + 13 推理）
+- **Direct LLM 基线对比**
 
 ---
 
 ## 文件说明
 
+### 评估脚本
+
 | 文件 | 说明 |
 |------|------|
-| `annotation_schema.json` | 三元组标注的 JSON Schema，定义字段格式与枚举值 |
-| `gold_budget.jsonl` | 年度预算数据集的黄金三元组（4个纲领 × 4个时期 = 20条） |
-| `gold_food_sample.jsonl` | 食物安全数据集前5行的黄金三元组（含层级关系） |
-| `evaluate.py` | 评估脚本，计算 P/R/F1 及图拓扑指标 |
+| `evaluate.py` | 传统三元组匹配评估（P/R/F1 + 图拓扑指标） |
+| `evaluate_coverage.py` | EC/FC 信息覆盖率评估（子串匹配 + 2-hop） |
+| `generate_gold_standards.py` | v2 Gold Standard 自动生成（从 CSV 直接提取） |
+| `run_evaluations_v2.py` | v2 全量评估 + Bootstrap CI + 结果汇总 |
+| `run_qa_eval.py` | 下游 QA 评估（60 题，含推理型） |
+| `run_all_evaluations.py` | 批量评估所有数据集 |
+| `direct_llm_baseline.py` | Direct LLM 基线（直接喂 CSV 给 LLM 提取三元组） |
+| `graph_loaders.py` | GraphML/JSON 图谱加载与解析 |
+
+### Gold Standard 文件
+
+#### 本地数据集（手动标注）
+
+| 文件 | 数据集 | 类型 | 规模 |
+|------|--------|------|------|
+| `gold_budget.jsonl` | 年度预算 | Type-II | 4 实体 × 20 事实 |
+| `gold_food_sample.jsonl` | 食物安全 | Type-III | 17 实体 × 52 事实 |
+| `gold_health.jsonl` | 健康统计 | Type-II-T | 3 实体 × 14 事实 |
+| `gold_inpatient_2023.jsonl` | 住院统计 | Type-III | 8 实体 × 16 事实 |
+
+#### 国际数据集 v2（自动生成，25 国 × 6 年 × 150 事实）
+
+| 文件 | 数据集 | 来源 |
+|------|--------|------|
+| `gold_who_life_expectancy_v2.jsonl` | WHO 全球预期寿命（196 国） | WHO GHO |
+| `gold_wb_child_mortality_v2.jsonl` | WB 儿童死亡率（244 国） | World Bank |
+| `gold_wb_population_v2.jsonl` | WB 人口（265 国） | World Bank |
+| `gold_wb_maternal_v2.jsonl` | WB 产妇死亡率 | World Bank |
+
+v2 Gold Standard 直接从实验用 CSV 生成（`generate_gold_standards.py`），25 个目标国家按 GDP 排名 + 地理分布均衡选取，6 个目标年份（2000/2005/2010/2015/2020/2022），数值直接从 CSV 单元格读取，无截断或外部来源。
+
+### QA 评估
+
+| 文件 | 说明 |
+|------|------|
+| `qa_questions.jsonl` | 60 题 QA 问题集（47 直接 + 13 推理） |
+| `qa_results_v2.json` | v2 评估结果 |
+
+### 评估结果
+
+| 文件 | 说明 |
+|------|------|
+| `all_results_v2.json` | v2 全量 EC/FC 评估结果 |
+| `direct_llm_results.json` | Direct LLM 基线结果 |
 
 ---
 
 ## 标注格式
 
-每行一个 JSON 对象，字段如下：
+每行一个 JSON 对象：
 
 ```json
 {
@@ -41,41 +88,16 @@
 
 ---
 
-## 实体类型（subject_type / object_type）
+## 评估指标
 
-| 类型 | 说明 |
-|------|------|
-| `Policy_Program` | 政策纲领（如：防止贪污、执法工作） |
-| `Category` | 数据大类（如：食物安全、防治虫鼠） |
-| `SubCategory` | 数据子类 |
-| `Metric` | 统计指标名称 |
-| `BudgetAmount` | 预算金额（数值） |
-| `StatValue` | 统计数值 |
-| `Year` | 年份实体 |
-| `Organization` | 机构名称 |
-| `Literal` | 原始字面量（如编号） |
-
----
-
-## 关系类型（relation）
-
-| 关系 | 说明 |
-|------|------|
-| `HAS_BUDGET` | 纲领拥有某年度预算金额 |
-| `HAS_VALUE` | 指标在某年的统计值 |
-| `HAS_SUB_ITEM` | 类别包含子指标（层级关系） |
-| `BELONGS_TO` | 实体归属于某类别 |
-| `HAS_PROGRAM_ID` | 纲领编号 |
-| `IN_YEAR` | 数值对应的年份 |
-| `HAS_STATUS` | 预算状态（实际/原来预算/修订/预算） |
-
----
-
-## 标注置信度
-
-- `high`：三元组明确来自原始数据，无歧义
-- `medium`：需要一定推断，但合理
-- `low`：存在歧义或不确定性，需复核
+| 指标 | 定义 | 用途 |
+|------|------|------|
+| **EC（实体覆盖率）** | Gold Standard 实体在图谱中的子串匹配比例 | 实体识别能力 |
+| **FC（事实覆盖率）** | Gold Standard 三元组在图谱 2-hop 邻居中的捕获比例 | 事实完整性 |
+| **η（信息密度）** | (FC_SGE/\|V_SGE\|) / (FC_base/\|V_base\|) | 单节点效率（小图适用） |
+| **Bootstrap 95% CI** | n=1000 次重采样的置信区间 | 统计显著性 |
+| **Fisher's exact test** | 2×2 列联表精确检验 | 小样本显著性（n<30） |
+| **QA Accuracy** | 问答正确率（直接题 + 推理题） | 下游任务有效性 |
 
 ---
 
@@ -84,33 +106,31 @@
 ```bash
 cd ~/Desktop/SGE/sge_lightrag
 
-# 评估预算数据集
-python3 evaluate.py \
+# 1. 生成 v2 Gold Standard
+python3 evaluation/generate_gold_standards.py
+
+# 2. 运行 v2 全量评估（EC/FC + Bootstrap CI）
+python3 evaluation/run_evaluations_v2.py
+
+# 3. 运行 QA 评估
+python3 evaluation/run_qa_eval.py
+
+# 4. 单数据集传统评估
+python3 evaluation/evaluate.py \
   --graph output/sge_budget/lightrag_storage/graph_chunk_entity_relation.graphml \
   --gold evaluation/gold_budget.jsonl
-
-# 保存结果到 JSON 文件
-python3 evaluate.py \
-  --graph output/sge_budget/lightrag_storage/graph_chunk_entity_relation.graphml \
-  --gold evaluation/gold_budget.jsonl \
-  --output evaluation/results_budget.json
 ```
 
 ---
 
-## 新增标注说明
+## 核心结果速览（v2）
 
-1. 复制 `annotation_schema.json` 中的 `example` 字段作为模板
-2. 填写 `source_file`、`row_index`、`triple` 字段
-3. 填写 `annotator`（你的姓名）和 `confidence`
-4. 追加到对应的 `.jsonl` 文件末尾（每行一个 JSON 对象）
-5. 运行 `evaluate.py` 验证结果变化
+| 数据集 | SGE FC | Base FC | SGE/Base | Bootstrap CI 重叠 |
+|--------|--------|---------|----------|-------------------|
+| WHO 预期寿命 | 1.000 | 0.167 | 6.0× | 无重叠 ✓ |
+| WB 儿童死亡率 | 1.000 | 0.473 | 2.11× | 无重叠 ✓ |
+| WB 人口 | 1.000 | 0.187 | 5.35× | 无重叠 ✓ |
+| WB 产妇死亡率 | 0.967 | 0.787 | 1.23× | 无重叠 ✓ |
+| 住院统计 | 0.938 | 0.438 | 2.14× | Fisher p≈0.003 ✓ |
 
----
-
-## 注意事项
-
-- JSONL 格式：每行必须是合法的 JSON，不能有多余逗号
-- 实体名称应与原始数据保持一致（包括空格、标点）
-- 数值类型（BudgetAmount、StatValue）的 `object` 字段填写字符串形式的数字
-- 评估脚本默认使用**模糊匹配**（子字符串包含），以应对 LightRAG 实体名称变体
+QA：SGE 95%（57/60）vs Baseline 60%（36/60），推理题 SGE 100%（13/13）。

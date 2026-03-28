@@ -1,0 +1,24 @@
+Entity: AFR / WHOSIS_000001
+Year: 2000 | Value: 52.98151168
+Year: 2001 | Value: 53.46919051
+Year: 2002 | Value: 53.8387504
+Year: 2003 | Value: 54.27104176
+Year: 2004 | Value: 54.8859284
+Year: 2005 | Value: 55.63713976
+Year: 2006 | Value: 56.4398241
+Year: 2007 | Value: 57.29451181
+Year: 2008 | Value: 58.09440209
+Year: 2009 | Value: 58.84133306
+Year: 2010 | Value: 59.57096304
+Year: 2011 | Value: 60.26246615
+Year: 2012 | Value: 60.93267407
+Year: 2013 | Value: 61.51649833
+Year: 2014 | Value: 61.97191179
+Year: 2015 | Value: 62.45046693
+Year: 2016 | Value: 62.92447284
+Year: 2017 | Value: 63.36220568
+Year: 2018 | Value: 63.77580177
+Year: 2019 | Value: 64.16988115
+Year: 2020 | Value: 63.96143556
+Year: 2021 | Value: 63.55243899
+Remark: Life expectancy at birth (years)
