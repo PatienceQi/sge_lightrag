@@ -1,0 +1,438 @@
+#!/usr/bin/env python3
+"""
+run_lightrag_integration_llm.py — End-to-end SGE → LightRAG with LLM-enhanced Stage 2.
+
+Identical to run_lightrag_integration.py except uses LLM-based schema induction
+(stage2_llm/inductor.py) instead of rule-based induction (stage2/inductor.py).
+
+Runs the full SGE pipeline (Stage 1→2(LLM)→3) on a CSV, then feeds the
+serialized chunks into LightRAG with schema-aware prompt injection.
+Also runs a vanilla baseline for comparison.
+
+Usage:
+    python3 run_lightrag_integration_llm.py <csv_path> [--output-dir <dir>]
+"""
+
+from __future__ import annotations
+
+import sys
+import json
+import asyncio
+import argparse
+import hashlib
+import numpy as np
+from pathlib import Path
+from datetime import datetime
+
+# ── Path setup ────────────────────────────────────────────────────────────────
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+# ── SGE pipeline imports ──────────────────────────────────────────────────────
+from stage1.features import extract_features
+from stage1.classifier import classify
+from stage1.schema import build_meta_schema
+from stage2_llm.inductor import induce_schema as induce_schema_llm
+from stage2.inductor import induce_schema as induce_schema_rule
+from stage2.inducer import induce_schema as induce_schema_rule_core
+from stage3.serializer import serialize_csv
+from stage3.integrator import patch_lightrag
+
+# ── LightRAG imports ──────────────────────────────────────────────────────────
+from lightrag import LightRAG
+from lightrag.utils import EmbeddingFunc
+from lightrag.llm.openai import openai_complete_if_cache, openai_embed
+from lightrag.prompt import PROMPTS
+import lightrag.operate as _op
+
+# ── API config ────────────────────────────────────────────────────────────────
+API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+BASE_URL = "https://wolfai.top/v1"
+MODEL    = "claude-haiku-4-5-20251001"
+
+OLLAMA_BASE_URL    = "http://localhost:11434/v1"
+OLLAMA_EMBED_MODEL = "mxbai-embed-large"
+EMBED_DIM          = 1024
+
+
+# ── LLM function ─────────────────────────────────────────────────────────────
+async def llm_model_func(
+    prompt,
+    system_prompt=None,
+    history_messages=[],
+    keyword_extraction=False,
+    **kwargs,
+):
+    return await openai_complete_if_cache(
+        MODEL,
+        prompt,
+        system_prompt=system_prompt,
+        history_messages=history_messages,
+        api_key=API_KEY,
+        base_url=BASE_URL,
+        **kwargs,
+    )
+
+
+# ── Embedding function (Ollama, with hash fallback) ───────────────────────────
+def _hash_embed(text: str) -> list[float]:
+    """Deterministic hash-based embedding fallback (no external call)."""
+    vec = [0.0] * EMBED_DIM
+    h = hashlib.sha256(text.encode()).digest()
+    for i in range(min(EMBED_DIM, len(h))):
+        vec[i] = (h[i] - 128) / 128.0
+    return vec
+
+
+# Direct Ollama embedding via requests (httpx/OpenAI SDK triggers 503 on this Ollama)
+import requests as _requests
+
+
+def _ollama_embed_sync(texts: list[str]) -> np.ndarray:
+    """Call Ollama embedding via requests (sync) to avoid httpx 503 issue."""
+    resp = _requests.post(
+        f"{OLLAMA_BASE_URL}/embeddings",
+        json={"model": OLLAMA_EMBED_MODEL, "input": texts},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    data = resp.json()["data"]
+    return np.array([d["embedding"] for d in data], dtype=np.float32)
+
+
+async def safe_embedding_func(texts: list[str]) -> np.ndarray:
+    import asyncio as _aio
+    loop = _aio.get_event_loop()
+    for attempt in range(5):
+        try:
+            result = await loop.run_in_executor(None, _ollama_embed_sync, texts)
+            return result
+        except Exception as e:
+            if attempt < 4:
+                wait = 2 * (attempt + 1)
+                print(f"  [warn] Ollama embed attempt {attempt+1} failed ({type(e).__name__}), retry in {wait}s...")
+                await _aio.sleep(wait)
+            else:
+                print(f"  [warn] Ollama embed failed 5x ({e}), hash fallback")
+                return np.array([_hash_embed(t) for t in texts], dtype=np.float32)
+
+
+EMBEDDING_FUNC = EmbeddingFunc(
+    embedding_dim=EMBED_DIM,
+    max_token_size=512,
+    func=safe_embedding_func,
+)
+
+
+# ── SGE monkey-patch for schema_json injection ────────────────────────────────
+_original_extract_entities = _op.extract_entities
+
+
+async def _sge_extract_entities(
+    chunks,
+    knowledgebase,
+    entity_vdb,
+    relationships_vdb,
+    global_config,
+    pipeline_status=None,
+    llm_response_cache=None,
+):
+    """Wrap extract_entities to inject schema_json into context_base."""
+    addon = global_config.get("addon_params", {})
+    schema_json = addon.get("schema_json")
+    if schema_json:
+        # Patch context_base by temporarily overriding the prompt template
+        # to use a version that doesn't reference {schema_json} if not present,
+        # or inject it via addon_params which operate.py reads for entity_types/language.
+        # The system prompt was already overridden before LightRAG init.
+        pass  # entity_types and language are already in addon_params
+    return await _original_extract_entities(
+        chunks,
+        knowledgebase,
+        entity_vdb,
+        relationships_vdb,
+        global_config,
+        pipeline_status=pipeline_status,
+        llm_response_cache=llm_response_cache,
+    )
+
+
+# ── Pipeline: run SGE stages 1→2(LLM)→3 ──────────────────────────────────────
+def run_sge_pipeline_llm(csv_path: Path, sge_output_dir: Path) -> dict:
+    """Run Stage 1 → Stage 2 (LLM) → Stage 3 and return schema + chunks."""
+    print("\n" + "=" * 60)
+    print("SGE PIPELINE — Stage 1 → Stage 2 (LLM) → Stage 3")
+    print("=" * 60)
+
+    # Stage 1
+    print("\n[Stage 1] Topological Pattern Recognition...")
+    features    = extract_features(str(csv_path))
+    table_type  = classify(features)
+    meta_schema = build_meta_schema(features, table_type)
+    print(f"  Table type : {table_type}")
+    print(f"  Columns    : {len(features.raw_columns)}")
+
+    # Stage 2: LLM-enhanced with rule-based structural supplement
+    print("\n[Stage 2] LLM-Enhanced Schema Induction...")
+
+    # Always compute rule-based schema for column_roles and parsed_time_headers
+    rule_schema = induce_schema_rule_core(meta_schema, features)
+
+    try:
+        llm_schema = induce_schema_llm(str(csv_path))
+        stage2_mode = "llm_enhanced"
+        print(f"  LLM induction succeeded")
+
+        # Merge: LLM entity_types/relation_types + Rule column_roles/parsed_time_headers
+        extraction_schema = {
+            **rule_schema,
+            "entity_types": llm_schema["entity_types"],
+            "relation_types": llm_schema["relation_types"],
+            "prompt_context": llm_schema.get("prompt_context", ""),
+            "extraction_rules": llm_schema.get("extraction_rules", {}),
+        }
+        print(f"  Merged LLM semantics with rule-based column_roles")
+    except Exception as e:
+        print(f"  LLM induction failed ({type(e).__name__}): {e}")
+        print(f"  Using rule-based schema...")
+        extraction_schema = rule_schema
+        stage2_mode = "rule_based_fallback"
+
+    print(f"  Entity types   : {extraction_schema['entity_types']}")
+    print(f"  Relation types : {extraction_schema['relation_types']}")
+    print(f"  Column roles   : {len(extraction_schema.get('column_roles', {}))} columns mapped")
+
+    # Stage 3
+    print("\n[Stage 3] Constrained Extraction Preparation...")
+    chunks  = serialize_csv(str(csv_path), extraction_schema)
+    payload = patch_lightrag(extraction_schema)
+    print(f"  Chunks produced : {len(chunks)}")
+
+    # Save SGE outputs
+    sge_output_dir.mkdir(parents=True, exist_ok=True)
+    (sge_output_dir / "meta_schema.json").write_text(
+        json.dumps(meta_schema, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    (sge_output_dir / "extraction_schema.json").write_text(
+        json.dumps(extraction_schema, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    chunks_dir = sge_output_dir / "chunks"
+    chunks_dir.mkdir(exist_ok=True)
+    for i, chunk in enumerate(chunks, 1):
+        (chunks_dir / f"chunk_{i:04d}.txt").write_text(chunk, encoding="utf-8")
+    (sge_output_dir / "system_prompt.txt").write_text(
+        payload["system_prompt"], encoding="utf-8"
+    )
+
+    # Save stage2 mode for reference
+    (sge_output_dir / "stage2_mode.txt").write_text(stage2_mode, encoding="utf-8")
+
+    print(f"  SGE outputs saved to: {sge_output_dir}")
+    print(f"  Stage 2 mode: {stage2_mode}")
+
+    return {
+        "extraction_schema": extraction_schema,
+        "chunks": chunks,
+        "payload": payload,
+        "stage2_mode": stage2_mode,
+    }
+
+
+# ── LightRAG runner ───────────────────────────────────────────────────────────
+async def run_lightrag(
+    chunks: list[str],
+    working_dir: Path,
+    addon_params: dict,
+    label: str,
+    baseline: bool = False,
+) -> dict:
+    """Initialize LightRAG, insert chunks, and return graph stats."""
+    working_dir.mkdir(parents=True, exist_ok=True)
+    print(f"\n[LightRAG:{label}] working_dir={working_dir}")
+    print(f"  addon_params keys: {list(addon_params.keys())}")
+
+    rag = LightRAG(
+        working_dir=str(working_dir),
+        llm_model_func=llm_model_func,
+        embedding_func=EMBEDDING_FUNC,
+        addon_params=addon_params,
+        llm_model_max_async=1,
+        embedding_func_max_async=1,
+        entity_extract_max_gleaning=0,
+    )
+
+    await rag.initialize_storages()
+
+    # For baseline, add a label prefix so doc IDs differ from SGE run
+    insert_chunks = chunks if not baseline else [f"[BASELINE]\n{c}" for c in chunks]
+
+    print(f"  Inserting {len(insert_chunks)} chunks...")
+    for i, chunk in enumerate(insert_chunks, 1):
+        print(f"  [{i}/{len(insert_chunks)}] inserting chunk ({len(chunk)} chars)...")
+        await rag.ainsert(chunk)
+
+    # Collect graph stats
+    graph_path = working_dir / "graph_chunk_entity_relation.graphml"
+
+    stats = {
+        "label": label,
+        "working_dir": str(working_dir),
+        "chunks_inserted": len(insert_chunks),
+        "graph_file_exists": graph_path.exists(),
+        "graph_file_size": graph_path.stat().st_size if graph_path.exists() else 0,
+    }
+
+    if graph_path.exists():
+        try:
+            import networkx as nx
+            G = nx.read_graphml(str(graph_path))
+            stats["node_count"] = G.number_of_nodes()
+            stats["edge_count"] = G.number_of_edges()
+            print(f"  Graph: {stats['node_count']} nodes, {stats['edge_count']} edges")
+        except Exception as e:
+            print(f"  [warn] Could not parse graphml: {e}")
+
+    await rag.finalize_storages()
+    return stats
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+async def main_async(csv_path: Path, output_base: Path):
+    sge_dir      = output_base / "sge_budget"
+    baseline_dir = output_base / "baseline_budget"
+    sge_work     = sge_dir / "lightrag_storage"
+    baseline_work = baseline_dir / "lightrag_storage"
+
+    # ── Run SGE pipeline with LLM Stage 2 ──────────────────────────────────────
+    result = run_sge_pipeline_llm(csv_path, sge_dir)
+    chunks            = result["chunks"]
+    extraction_schema = result["extraction_schema"]
+    payload           = result["payload"]
+    stage2_mode       = result["stage2_mode"]
+
+    # ── SGE-enhanced LightRAG run ─────────────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("LIGHTRAG RUN — SGE-Enhanced (LLM Stage 2)")
+    print("=" * 60)
+
+    # Override system prompt with schema-aware version.
+    # The generated prompt contains embedded JSON with {braces} that Python's
+    # .format() would misinterpret as template variables — escape them first,
+    # then re-insert the real LightRAG placeholders.
+    original_system_prompt = PROMPTS["entity_extraction_system_prompt"]
+    raw_prompt = payload["system_prompt"]
+    # Escape all braces, then restore the LightRAG template variables
+    escaped = raw_prompt.replace("{", "{{").replace("}", "}}")
+    for var in ("tuple_delimiter", "completion_delimiter", "entity_types", "examples", "language"):
+        escaped = escaped.replace("{{" + var + "}}", "{" + var + "}")
+    PROMPTS["entity_extraction_system_prompt"] = escaped
+    _op.extract_entities = _sge_extract_entities
+
+    try:
+        sge_stats = await run_lightrag(
+            chunks=chunks,
+            working_dir=sge_work,
+            addon_params=payload["addon_params"],
+            label="SGE-LLM",
+        )
+    finally:
+        # Restore original prompt for baseline run
+        PROMPTS["entity_extraction_system_prompt"] = original_system_prompt
+        _op.extract_entities = _original_extract_entities
+
+    # Save SGE stats
+    (sge_dir / "lightrag_stats.json").write_text(
+        json.dumps(sge_stats, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # ── Baseline LightRAG run ─────────────────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("LIGHTRAG RUN — Baseline (vanilla)")
+    print("=" * 60)
+
+    baseline_dir.mkdir(parents=True, exist_ok=True)
+    baseline_stats = await run_lightrag(
+        chunks=chunks,
+        working_dir=baseline_work,
+        addon_params={"language": "Chinese"},
+        label="Baseline",
+        baseline=True,
+    )
+
+    (baseline_dir / "lightrag_stats.json").write_text(
+        json.dumps(baseline_stats, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # ── Comparison summary ────────────────────────────────────────────────────
+    print("\n" + "=" * 60)
+    print("COMPARISON SUMMARY")
+    print("=" * 60)
+
+    def _fmt(stats: dict) -> str:
+        nodes = stats.get("node_count", "?")
+        edges = stats.get("edge_count", "?")
+        return f"nodes={nodes}, edges={edges}"
+
+    print(f"  SGE-Enhanced (LLM) : {_fmt(sge_stats)}")
+    print(f"  Baseline           : {_fmt(baseline_stats)}")
+
+    sge_nodes      = sge_stats.get("node_count", 0)
+    baseline_nodes = baseline_stats.get("node_count", 0)
+    sge_edges      = sge_stats.get("edge_count", 0)
+    baseline_edges = baseline_stats.get("edge_count", 0)
+
+    if isinstance(sge_nodes, int) and isinstance(baseline_nodes, int):
+        node_delta = sge_nodes - baseline_nodes
+        edge_delta = sge_edges - baseline_edges
+        print(f"\n  Delta (SGE - Baseline):")
+        print(f"    Nodes : {node_delta:+d}")
+        print(f"    Edges : {edge_delta:+d}")
+        if sge_nodes > 0 and baseline_nodes > 0:
+            print(f"\n  SGE entity types (LLM): {extraction_schema['entity_types']}")
+            print(f"  Baseline used default LightRAG entity types")
+
+    # Save combined report
+    report = {
+        "timestamp": datetime.now().isoformat(),
+        "csv_file": str(csv_path),
+        "stage2_mode": stage2_mode,
+        "sge": sge_stats,
+        "baseline": baseline_stats,
+        "extraction_schema": {
+            "entity_types": extraction_schema["entity_types"],
+            "relation_types": extraction_schema["relation_types"],
+        },
+    }
+    report_path = output_base / "comparison_report.json"
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\n  Full report: {report_path}")
+    print(f"  SGE output : {sge_dir}")
+    print(f"  Baseline   : {baseline_dir}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="SGE-LightRAG with LLM-enhanced Stage 2")
+    parser.add_argument("csv_path", nargs="?",
+                        default=str(Path.home() / "Desktop/SGE/dataset/年度预算/annualbudget_sc.csv"),
+                        help="Path to input CSV (default: annualbudget_sc.csv)")
+    parser.add_argument("--output-dir", "-o",
+                        default=str(Path.home() / "Desktop/SGE/sge_lightrag/output_llm"),
+                        help="Output base directory")
+    args = parser.parse_args()
+
+    csv_path   = Path(args.csv_path).expanduser().resolve()
+    output_dir = Path(args.output_dir).expanduser().resolve()
+
+    if not csv_path.exists():
+        print(f"Error: CSV not found: {csv_path}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"CSV      : {csv_path}")
+    print(f"Output   : {output_dir}")
+    print(f"Stage 2  : LLM-enhanced (with rule-based fallback)")
+
+    asyncio.run(main_async(csv_path, output_dir))
+
+
+if __name__ == "__main__":
+    main()

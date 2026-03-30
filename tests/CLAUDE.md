@@ -8,7 +8,7 @@ Unit tests for all three pipeline stages and the compact representation module. 
 
 | File | Coverage | Key Validations |
 |------|----------|----------------|
-| `test_stage1.py` | Feature extraction + classification | Year pattern detection, composite key identification, remark column detection, all 27 files classified correctly |
+| `test_stage1.py` | Feature extraction + classification | Year pattern detection, composite key identification, remark column detection, all 33 files classified correctly (in-sample) |
 | `test_stage2.py` | Schema induction (rule-based) | Entity name derivation, relation extraction, column role assignment, adaptive mode (n_rows < 20 → baseline) |
 | `test_stage3.py` | Serialization + prompt injection | Chunk structure, entity-time-value patterns, delimiter compatibility, Type-I/II/III serialization |
 | `test_compact.py` | Compact representation | Node reduction validation, threshold logic, year-value format, system prompt generation (27 tests) |

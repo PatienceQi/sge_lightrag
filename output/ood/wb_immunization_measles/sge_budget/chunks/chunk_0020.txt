@@ -1,0 +1,24 @@
+Entity: South Africa
+Year: 2000 | Value: 72
+Year: 2001 | Value: 69
+Year: 2002 | Value: 65
+Year: 2003 | Value: 62
+Year: 2004 | Value: 63
+Year: 2005 | Value: 64
+Year: 2006 | Value: 69
+Year: 2007 | Value: 68
+Year: 2008 | Value: 73
+Year: 2009 | Value: 77
+Year: 2010 | Value: 72
+Year: 2011 | Value: 77
+Year: 2012 | Value: 79
+Year: 2013 | Value: 78
+Year: 2014 | Value: 84
+Year: 2015 | Value: 86
+Year: 2016 | Value: 84
+Year: 2017 | Value: 81
+Year: 2018 | Value: 81
+Year: 2019 | Value: 83
+Year: 2020 | Value: 84
+Year: 2021 | Value: 87
+Year: 2022 | Value: 86

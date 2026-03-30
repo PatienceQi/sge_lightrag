@@ -1,0 +1,80 @@
+[
+  {
+    "dataset": "WHO Life Expectancy",
+    "n_facts": 150,
+    "sge_fc": 1.0,
+    "base_fc": 0.1667,
+    "a_both_pos": 25,
+    "b_sge_only": 125,
+    "c_base_only": 0,
+    "d_both_neg": 0,
+    "mcnemar_chi2": 125.0,
+    "mcnemar_chi2_p": 0.0,
+    "mcnemar_exact_p": 0.0
+  },
+  {
+    "dataset": "WB Child Mortality",
+    "n_facts": 150,
+    "sge_fc": 1.0,
+    "base_fc": 0.4733,
+    "a_both_pos": 71,
+    "b_sge_only": 79,
+    "c_base_only": 0,
+    "d_both_neg": 0,
+    "mcnemar_chi2": 79.0,
+    "mcnemar_chi2_p": 0.0,
+    "mcnemar_exact_p": 0.0
+  },
+  {
+    "dataset": "WB Population",
+    "n_facts": 150,
+    "sge_fc": 1.0,
+    "base_fc": 0.1867,
+    "a_both_pos": 28,
+    "b_sge_only": 122,
+    "c_base_only": 0,
+    "d_both_neg": 0,
+    "mcnemar_chi2": 122.0,
+    "mcnemar_chi2_p": 0.0,
+    "mcnemar_exact_p": 0.0
+  },
+  {
+    "dataset": "WB Maternal Mortality",
+    "n_facts": 150,
+    "sge_fc": 0.9667,
+    "base_fc": 0.7867,
+    "a_both_pos": 115,
+    "b_sge_only": 30,
+    "c_base_only": 3,
+    "d_both_neg": 2,
+    "mcnemar_chi2": 22.09,
+    "mcnemar_chi2_p": 3e-06,
+    "mcnemar_exact_p": 1e-06
+  },
+  {
+    "dataset": "Inpatient 2023",
+    "n_facts": 16,
+    "sge_fc": 0.9375,
+    "base_fc": 0.4375,
+    "a_both_pos": 7,
+    "b_sge_only": 8,
+    "c_base_only": 0,
+    "d_both_neg": 1,
+    "mcnemar_chi2": 8.0,
+    "mcnemar_chi2_p": 0.004678,
+    "mcnemar_exact_p": 0.007812
+  },
+  {
+    "dataset": "Health Stats",
+    "n_facts": 14,
+    "sge_fc": 0.4286,
+    "base_fc": 0.1429,
+    "a_both_pos": 2,
+    "b_sge_only": 4,
+    "c_base_only": 0,
+    "d_both_neg": 8,
+    "mcnemar_chi2": 4.0,
+    "mcnemar_chi2_p": 0.0455,
+    "mcnemar_exact_p": 0.125
+  }
+]

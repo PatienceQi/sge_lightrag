@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">location</data>
+  <data key="d2">Argentina是一个国家，其数据涵盖2000年至2022年期间的年度数值。</data>
+  <data key="d3">chunk-9f5adf435510921310f961751f828e6a&lt;SEP&gt;chunk-4b4d1ff2a5e8b56df69f7052992e5f78</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866224</data>
+  <data key="d6"></data>
+</node>
+<node id="Argentina数据集">
+  <data key="d0">Argentina数据集</data>
+  <data key="d1">data</data>
+  <data key="d2">Argentina数据集包含从2000年到2022年的23年年度数值记录，数值范围从26,147,049到91,584,261.2。</data>
+  <data key="d3">chunk-4b4d1ff2a5e8b56df69f7052992e5f78</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866224</data>
+  <data key="d6"></data>
+</node>
+<node id="Australia">
+  <data key="d0">Australia</data>
+  <data key="d1">location</data>
+  <data key="d2">Australia是一个国家，在2000年至2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-9192916f65dfdd415c127521a9870db7&lt;SEP&gt;chunk-f49ccd09584dd5c434da95ae289e7685</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866236</data>
+  <data key="d6"></data>
+</node>
+<node id="Baseline Data">
+  <data key="d0">Baseline Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Baseline Data是澳大利亚从2000年到2022年的年度数值记录集合。&lt;SEP&gt;Baseline Data是从2000年到2022年期间Egypt, Arab Rep.的年度数值记录集合。&lt;SEP&gt;Baseline Data包含印度从2000年到2022年的年度数值记录。&lt;SEP&gt;Baseline Data represents a collection of annual values for Poland from 2000 to 2022.</data>
+  <data key="d3">chunk-f49ccd09584dd5c434da95ae289e7685&lt;SEP&gt;chunk-5d822f0441df4e27cb71848b6116f8e9&lt;SEP&gt;chunk-0069bed1f4102f37fd86dc0de2a01ab9&lt;SEP&gt;chunk-52dc1ffde0bb80fd7fdd8d50108c00e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866406</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">location</data>
+  <data key="d2">Brazil is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-90c5aa7e7c164a3904553964affd4e63&lt;SEP&gt;chunk-c9e9db9780f13583694f1fe1cfbdeeb4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866245</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Data">
+  <data key="d0">Annual Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Annual data represents yearly values for Brazil ranging from 46527201.96 in 2000 to 135742766.74 in 2022.&lt;SEP&gt;Annual Data是从2000年到2022年期间France的年度数值记录。&lt;SEP&gt;Annual Data represents yearly values for Italy spanning from 2000 to 2022, with values ranging from approximately 14.3 million to 23.3 million.&lt;SEP&gt;Annual Data represents yearly values for Japan spanning from 2000 to 2022, with values ranging from approximately 10.8 million to 12.8 million.&lt;SEP&gt;Annual Data represents yearly values for Philippines spanning from 2000 to 2022, ranging from 16901159.42 to 28247959.21.&lt;SEP&gt;Annual Data represents yearly values for Thailand spanning from 2000 to 2022, with values ranging from approximately 30.5 million to 43.4 million.</data>
+  <data key="d3">chunk-c9e9db9780f13583694f1fe1cfbdeeb4&lt;SEP&gt;chunk-ef531814dbda4fbfd39627515d40eb12&lt;SEP&gt;chunk-e5966c1f71bffa63d900eaf3a5052a86&lt;SEP&gt;chunk-c6a38f35ab0d9e65b6ec6c64ecff24d6&lt;SEP&gt;chunk-22c15800d21ee8b710e3c4da000fab1c&lt;SEP&gt;chunk-149850bbc0739e330a3f8ea0b5e84377</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866419</data>
+  <data key="d6"></data>
+</node>
+<node id="Canada">
+  <data key="d0">Canada</data>
+  <data key="d1">location</data>
+  <data key="d2">Canada是一个国家，在2000年至2022年期间有年度数值记录。</data>
+  <data key="d3">chunk-ec5c3b35c99640138ebbdbe90256f0d6&lt;SEP&gt;chunk-28600550f2e46f260ba9975fffb35897</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866252</data>
+  <data key="d6"></data>
+</node>
+<node id="年度数值数据">
+  <data key="d0">年度数值数据</data>
+  <data key="d1">data</data>
+  <data key="d2">年度数值数据是从2000年到2022年期间为Canada记录的一系列数值，范围从36046900.0到66535401.0。</data>
+  <data key="d3">chunk-28600550f2e46f260ba9975fffb35897</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866252</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">location</data>
+  <data key="d2">China is a country with recorded data values spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-c24ba771d6e8c1965d96bccf9fb68c01&lt;SEP&gt;chunk-7e67ffb588d5b4132da51cc653cf7a9e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866258</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Data Series">
+  <data key="d0">Annual Data Series</data>
+  <data key="d1">data</data>
+  <data key="d2">Annual Data Series represents the yearly values recorded for China from 2000 to 2022.&lt;SEP&gt;Annual Data Series包含从2000年到2022年的年度数值记录。</data>
+  <data key="d3">chunk-7e67ffb588d5b4132da51cc653cf7a9e&lt;SEP&gt;chunk-11e5fc1685734394ced23b8fd1830524</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866347</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">location</data>
+  <data key="d2">Colombia是一个国家，其数据跨越2000年至2022年期间。</data>
+  <data key="d3">chunk-57c072a1ce4dd3750377de8c5cd9cd94&lt;SEP&gt;chunk-f268b8e997c3c1af0fa83fb07feb7b16</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866263</data>
+  <data key="d6"></data>
+</node>
+<node id="年度数据">
+  <data key="d0">年度数据</data>
+  <data key="d1">data</data>
+  <data key="d2">年度数据是指从2000年到2022年期间为多个国家记录的年度数值集合。该数据涵盖Colombia、Germany、Korea, Rep.、Malaysia、Mexico、Nigeria、Turkiye和United States等八个国家的统计记录。
+
+对于提供了具体数值范围的国家，年度数据显示了以下特征：Germany的数值范围从37,948,100到52,010,400；Malaysia的数值范围从2,094,995.0到2,844,983.0；Turkiye的数值范围从29,250,013到38,667,033。其他国家（Colombia、Korea, Rep.、Mexico、Nigeria和United States）的年度数据同样涵盖2000年至2022年的完整时间跨度，但未在描述中明确指出具体的数值范围。
+
+年度数据作为一个统一的数据集合，为这些国家在23年间的发展趋势提供了量化记录，可用于跨国比较分析和历史趋势研究。&lt;SEP&gt;年度数据是从2000年到2022年期间Viet Nam的年度数值记录。</data>
+  <data key="d3">chunk-f268b8e997c3c1af0fa83fb07feb7b16&lt;SEP&gt;chunk-15f2b5d45e9c35aea73bb4b3547d2759&lt;SEP&gt;chunk-c04cd46b51abe2f046425a6de853d036&lt;SEP&gt;chunk-0b8f2f17568cdcdbe31ff38a9a65a842&lt;SEP&gt;chunk-f32d5cd3c14b296ce0e7f42e6666b3f0&lt;SEP&gt;chunk-7257ed58d7c1201cf3c92fc28ed5ab2f&lt;SEP&gt;chunk-2f1da325e38cdf501f8cf153eaaf68d1&lt;SEP&gt;chunk-ee0bce79cf49493a65b6d2884a426afb&lt;SEP&gt;chunk-6948ef6a4f9dd26885f1f03dc481da02</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866453</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">Egypt, Arab Rep. 是一个国家，在2000年至2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-ecfc38fa0d36c72cab5d49751c24e8e4&lt;SEP&gt;chunk-5d822f0441df4e27cb71848b6116f8e9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866284</data>
+  <data key="d6"></data>
+</node>
+<node id="France">
+  <data key="d0">France</data>
+  <data key="d1">location</data>
+  <data key="d2">France是一个国家，在2000年至2022年期间有年度数据记录。</data>
+  <data key="d3">chunk-edb555ca0ed5bbbb8929bb4a256b1ea4&lt;SEP&gt;chunk-ef531814dbda4fbfd39627515d40eb12</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866319</data>
+  <data key="d6"></data>
+</node>
+<node id="Germany">
+  <data key="d0">Germany</data>
+  <data key="d1">location</data>
+  <data key="d2">Germany是一个国家，在2000年至2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-dc7d97be0f4ff4b8bea2408490b1e552&lt;SEP&gt;chunk-15f2b5d45e9c35aea73bb4b3547d2759</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866329</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">location</data>
+  <data key="d2">India是一个国家，其数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-0caa5ac0f2337dd911aa662e0b7cfe6e&lt;SEP&gt;chunk-0069bed1f4102f37fd86dc0de2a01ab9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866339</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">location</data>
+  <data key="d2">Indonesia是一个国家，其数据跨越2000年至2022年期间。</data>
+  <data key="d3">chunk-b4b6f96ffa4f7c707e8acb6892ed2f4e&lt;SEP&gt;chunk-11e5fc1685734394ced23b8fd1830524</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866347</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">location</data>
+  <data key="d2">Italy is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-567d2ebfbf6146383afc1bae2b6838a1&lt;SEP&gt;chunk-e5966c1f71bffa63d900eaf3a5052a86</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866353</data>
+  <data key="d6"></data>
+</node>
+<node id="Japan">
+  <data key="d0">Japan</data>
+  <data key="d1">location</data>
+  <data key="d2">Japan is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-5121aadb0dc7b74f966c96cc6a867c5d&lt;SEP&gt;chunk-c6a38f35ab0d9e65b6ec6c64ecff24d6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866360</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">Korea, Rep. 是一个国家，在2000年至2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-77370224a23c0695829786be3c1e71ab&lt;SEP&gt;chunk-c04cd46b51abe2f046425a6de853d036</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866368</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">location</data>
+  <data key="d2">Malaysia是一个国家，拥有从2000年到2022年的年度数据记录。</data>
+  <data key="d3">chunk-1ad794c044baa6c9f2d5898c8f8bc9db&lt;SEP&gt;chunk-0b8f2f17568cdcdbe31ff38a9a65a842</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866377</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">location</data>
+  <data key="d2">Mexico是一个国家，其数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-99bbee2e2e8743080d37d2962cf6ee0e&lt;SEP&gt;chunk-f32d5cd3c14b296ce0e7f42e6666b3f0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866386</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">location</data>
+  <data key="d2">Nigeria是一个国家，其数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-c65e113c294aebbac97d11a0599b8b11&lt;SEP&gt;chunk-7257ed58d7c1201cf3c92fc28ed5ab2f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866392</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">location</data>
+  <data key="d2">Philippines is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-b44ebbac35035ec2870344acec4ff1e1&lt;SEP&gt;chunk-22c15800d21ee8b710e3c4da000fab1c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866401</data>
+  <data key="d6"></data>
+</node>
+<node id="Poland">
+  <data key="d0">Poland</data>
+  <data key="d1">location</data>
+  <data key="d2">Poland is a country with recorded data values spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-097e6ccc316750dbab0c8098cdb16cb6&lt;SEP&gt;chunk-52dc1ffde0bb80fd7fdd8d50108c00e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866406</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">location</data>
+  <data key="d2">South Africa is a country with annual data values recorded from 2000 to 2022</data>
+  <data key="d3">chunk-144e3fce87ac39eba5ad277174ae476b&lt;SEP&gt;chunk-ace966653a4336f2602a15aff5677f0e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866412</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">location</data>
+  <data key="d2">Thailand is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-bfa31efcd8536bb7b4c2af39ed7a1516&lt;SEP&gt;chunk-149850bbc0739e330a3f8ea0b5e84377</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866419</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">location</data>
+  <data key="d2">Turkiye是一个国家，拥有从2000年到2022年的年度数据记录。</data>
+  <data key="d3">chunk-8cbfa78e05f69730dc0ff3ff8e87dc37&lt;SEP&gt;chunk-2f1da325e38cdf501f8cf153eaaf68d1</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866425</data>
+  <data key="d6"></data>
+</node>
+<node id="United Kingdom">
+  <data key="d0">United Kingdom</data>
+  <data key="d1">location</data>
+  <data key="d2">联合王国是数据集中的地理实体，其年度数值数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-5e41a80c632897fcc69e59f97a94f7c4&lt;SEP&gt;chunk-c2d7141910d15cbe82eef493eeb7e043</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866431</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Values">
+  <data key="d0">Annual Values</data>
+  <data key="d1">data</data>
+  <data key="d2">年度数值是从2000年到2022年期间为联合王国记录的数据点集合。</data>
+  <data key="d3">chunk-c2d7141910d15cbe82eef493eeb7e043</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866431</data>
+  <data key="d6"></data>
+</node>
+<node id="United States">
+  <data key="d0">United States</data>
+  <data key="d1">location</data>
+  <data key="d2">United States是一个国家，拥有从2000年到2022年的年度数据记录。</data>
+  <data key="d3">chunk-52a949ebdc681da844ab8aacca06c691&lt;SEP&gt;chunk-ee0bce79cf49493a65b6d2884a426afb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866436</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">location</data>
+  <data key="d2">Viet Nam是一个国家，其数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-2190990d00db06fa9b0ba5591a9691ee&lt;SEP&gt;chunk-6948ef6a4f9dd26885f1f03dc481da02</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866453</data>
+  <data key="d6"></data>
+</node>
+<edge source="Argentina" target="Argentina数据集">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina数据集记录了Argentina在2000年至2022年期间的年度数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-4b4d1ff2a5e8b56df69f7052992e5f78</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866224</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Australia" target="Baseline Data">
+  <data key="d7">1.0</data>
+  <data key="d8">澳大利亚与其基准数据相关联，该数据跨越2000年至2022年的23年时间段。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-f49ccd09584dd5c434da95ae289e7685</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866236</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Egypt, Arab Rep.">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep. 与Baseline Data相关联，包含该国在指定时间段内的年度数值。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-5d822f0441df4e27cb71848b6116f8e9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866285</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="India">
+  <data key="d7">1.0</data>
+  <data key="d8">India的Baseline Data记录了该国在2000年至2022年期间的年度数值变化。</data>
+  <data key="d9">地理统计,数据关联</data>
+  <data key="d10">chunk-0069bed1f4102f37fd86dc0de2a01ab9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866339</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Poland">
+  <data key="d7">1.0</data>
+  <data key="d8">Poland is the subject entity associated with the baseline data spanning 23 years of recorded values.</data>
+  <data key="d9">data association,temporal records</data>
+  <data key="d10">chunk-52dc1ffde0bb80fd7fdd8d50108c00e0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866406</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="Annual Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Brazil has associated annual data values spanning from 2000 to 2022.</data>
+  <data key="d9">data recording,temporal measurement</data>
+  <data key="d10">chunk-c9e9db9780f13583694f1fe1cfbdeeb4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866245</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="France">
+  <data key="d7">1.0</data>
+  <data key="d8">France在2000年至2022年期间的年度数据显示了其随时间变化的数值。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ef531814dbda4fbfd39627515d40eb12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866320</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Italy">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy has associated annual data values recorded across a 23-year period from 2000 to 2022.</data>
+  <data key="d9">data collection,temporal records</data>
+  <data key="d10">chunk-e5966c1f71bffa63d900eaf3a5052a86</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866354</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Japan">
+  <data key="d7">1.0</data>
+  <data key="d8">Japan has associated annual data values recorded across a 23-year period from 2000 to 2022.</data>
+  <data key="d9">data recording,temporal measurement</data>
+  <data key="d10">chunk-c6a38f35ab0d9e65b6ec6c64ecff24d6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866361</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has associated annual data values recorded across a 23-year period from 2000 to 2022.</data>
+  <data key="d9">data recording,temporal measurement</data>
+  <data key="d10">chunk-22c15800d21ee8b710e3c4da000fab1c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866401</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Thailand">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand has associated annual data values recorded across a 23-year period from 2000 to 2022.</data>
+  <data key="d9">data collection,temporal records</data>
+  <data key="d10">chunk-149850bbc0739e330a3f8ea0b5e84377</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866419</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Canada" target="年度数值数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Canada与年度数值数据相关联，该数据跨越23年的时间段。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-28600550f2e46f260ba9975fffb35897</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866252</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="Annual Data Series">
+  <data key="d7">1.0</data>
+  <data key="d8">China has an associated annual data series with values recorded for each year from 2000 to 2022.</data>
+  <data key="d9">data collection,temporal measurement</data>
+  <data key="d10">chunk-7e67ffb588d5b4132da51cc653cf7a9e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866258</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data Series" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia的年度数据被记录在Annual Data Series中，涵盖2000年至2022年期间的数值变化。</data>
+  <data key="d9">data collection,temporal records</data>
+  <data key="d10">chunk-11e5fc1685734394ced23b8fd1830524</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866347</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="年度数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia与其年度数据相关联，显示了从2000年到2022年期间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-f268b8e997c3c1af0fa83fb07feb7b16</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866263</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Germany">
+  <data key="d7">1.0</data>
+  <data key="d8">Germany与年度数据相关联，记录了该国在2000年至2022年期间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-15f2b5d45e9c35aea73bb4b3547d2759</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866330</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Korea, Rep.">
+  <data key="d7">1.0</data>
+  <data key="d8">Korea, Rep.与年度数据相关联，数据跨越2000年至2022年的时间范围。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-c04cd46b51abe2f046425a6de853d036</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866368</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Malaysia">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia的年度数据记录了该国从2000年至2022年期间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-0b8f2f17568cdcdbe31ff38a9a65a842</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866377</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico与其年度数据相关联，记录了23年间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-f32d5cd3c14b296ce0e7f42e6666b3f0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866386</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Nigeria">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria与其年度数据相关联，显示从2000年到2022年的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-7257ed58d7c1201cf3c92fc28ed5ab2f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866392</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Turkiye">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye与其年度数据相关联，记录了该国在2000年至2022年期间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-2f1da325e38cdf501f8cf153eaaf68d1</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866425</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="United States">
+  <data key="d7">1.0</data>
+  <data key="d8">United States与其年度数据相关联，数据跨越2000年至2022年的时间范围。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-ee0bce79cf49493a65b6d2884a426afb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866442</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Viet Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam与其年度数据相关联，显示了从2000年到2022年的数值变化趋势。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-6948ef6a4f9dd26885f1f03dc481da02</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866453</data>
+  <data key="d13"></data>
+</edge>
+<edge source="United Kingdom" target="Annual Values">
+  <data key="d7">1.0</data>
+  <data key="d8">联合王国与其年度数值数据相关联，显示了从2000年到2022年期间的时间序列记录。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-c2d7141910d15cbe82eef493eeb7e043</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866431</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

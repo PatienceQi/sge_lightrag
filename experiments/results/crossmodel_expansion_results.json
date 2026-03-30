@@ -1,0 +1,11 @@
+{
+  "wb_mat": {
+    "label": "gpt-5-mini-wb_mat",
+    "model": "gpt-5-mini",
+    "dataset": "WB Maternal Mortality",
+    "chunks": 242,
+    "timestamp": "2026-03-30T05:54:13.041899",
+    "nodes": 3242,
+    "edges": 4488
+  }
+}

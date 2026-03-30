@@ -1,0 +1,1102 @@
+{
+  "experiment": "graph_native_downstream_probe",
+  "description": "Pure graph-traversal queries requiring multi-entity aggregation. No LLM used — deterministic rule-based answering from extracted graph values. Tests whether higher graph construction fidelity (SGE FC=1.000 vs Baseline FC=0.167) translates to superior downstream task performance on structure-dependent queries.",
+  "method": "graph_traversal + deterministic_computation",
+  "dataset": "WHO Life Expectancy (25 countries x 6 years)",
+  "graph_extraction_stats": {
+    "sge": {
+      "countries_found": 25,
+      "total_year_values": 551
+    },
+    "baseline": {
+      "countries_found": 20,
+      "total_year_values": 121
+    }
+  },
+  "summary": {
+    "total_queries": 15,
+    "sge_correct": 15,
+    "sge_accuracy": 1.0,
+    "baseline_correct": 0,
+    "baseline_accuracy": 0.0,
+    "delta": 15
+  },
+  "per_category": {
+    "cross_entity_aggregation": {
+      "total": 3,
+      "sge_correct": 3,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_filtering": {
+      "total": 3,
+      "sge_correct": 3,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_ranking": {
+      "total": 5,
+      "sge_correct": 5,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_trend": {
+      "total": 4,
+      "sge_correct": 4,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    }
+  },
+  "queries": [
+    {
+      "id": "rank_01",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the highest life expectancy in 2015?",
+      "reference_answer": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "value": 83.99
+        },
+        {
+          "code": "KOR",
+          "name": "Republic of Korea",
+          "value": 82.4
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "value": 82.32
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "value": 82.28
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "value": 82.2
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "JPN",
+            "KOR",
+            "ESP",
+            "AUS",
+            "ITA"
+          ],
+          "retrieved_values": {
+            "JPN": 83.99957263,
+            "KOR": 82.40187033,
+            "ESP": 82.32940416,
+            "AUS": 82.287472,
+            "ITA": 82.20433624
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['AUS', 'ESP', 'ITA', 'JPN', 'KOR'], expected: ['AUS', 'ESP', 'ITA', 'JPN', 'KOR'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [],
+          "retrieved_values": {},
+          "total_countries_found": 0
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/5 (retrieved: [], expected: ['AUS', 'ESP', 'ITA', 'JPN', 'KOR'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_02",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the lowest life expectancy in 2021?",
+      "reference_answer": [
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "value": 61.49
+        },
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "value": 63.39
+        },
+        {
+          "code": "PAK",
+          "name": "Pakistan",
+          "value": 65.99
+        },
+        {
+          "code": "IND",
+          "name": "India",
+          "value": 67.3
+        },
+        {
+          "code": "IDN",
+          "name": "Indonesia",
+          "value": 68.26
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "ZAF",
+            "NGA",
+            "PAK",
+            "IND",
+            "IDN"
+          ],
+          "retrieved_values": {
+            "ZAF": 61.49918805,
+            "NGA": 63.3974984,
+            "PAK": 65.99092295,
+            "IND": 67.30780612,
+            "IDN": 68.26167935
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['IDN', 'IND', 'NGA', 'PAK', 'ZAF'], expected: ['IDN', 'IND', 'NGA', 'PAK', 'ZAF'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG",
+            "AUS",
+            "BGD",
+            "BRA",
+            "CHN"
+          ],
+          "retrieved_values": {
+            "ARG": 76.84,
+            "AUS": 76.84,
+            "BGD": 76.84,
+            "BRA": 76.84,
+            "CHN": 76.84
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/5 (retrieved: ['ARG', 'AUS', 'BGD', 'BRA', 'CHN'], expected: ['IDN', 'IND', 'NGA', 'PAK', 'ZAF'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_03",
+      "category": "cross_entity_ranking",
+      "query": "Which 3 countries had the highest life expectancy in 2000?",
+      "reference_answer": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "value": 81.53
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "value": 79.69
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "value": 79.36
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "JPN",
+            "AUS",
+            "ITA"
+          ],
+          "retrieved_values": {
+            "JPN": 81.5301793,
+            "AUS": 79.69831946,
+            "ITA": 79.36611399
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['AUS', 'ITA', 'JPN'], expected: ['AUS', 'ITA', 'JPN'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "DEU",
+            "AUS",
+            "BGD"
+          ],
+          "retrieved_values": {
+            "DEU": 80.49,
+            "AUS": 74.61,
+            "BGD": 74.61
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 1,
+          "expected": 3,
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "details": "matched 1/3 (retrieved: ['AUS', 'BGD', 'DEU'], expected: ['AUS', 'ITA', 'JPN'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_04",
+      "category": "cross_entity_ranking",
+      "query": "Which country had the highest life expectancy in 2019?",
+      "reference_answer": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "value": 84.46
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "JPN"
+          ],
+          "retrieved_values": {
+            "JPN": 84.46675304
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['JPN'], expected: ['JPN'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG"
+          ],
+          "retrieved_values": {
+            "ARG": 77.02
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['ARG'], expected: ['JPN'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_05",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the highest life expectancy in 2010?",
+      "reference_answer": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "value": 83.08
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "value": 81.91
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "value": 81.89
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "value": 81.69
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "value": 81.22
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "JPN",
+            "AUS",
+            "ITA",
+            "ESP",
+            "FRA"
+          ],
+          "retrieved_values": {
+            "JPN": 83.08330199,
+            "AUS": 81.91408232,
+            "ITA": 81.89505601,
+            "ESP": 81.693057,
+            "FRA": 81.2215994
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['AUS', 'ESP', 'FRA', 'ITA', 'JPN'], expected: ['AUS', 'ESP', 'FRA', 'ITA', 'JPN'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [],
+          "retrieved_values": {},
+          "total_countries_found": 0
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 5,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/5 (retrieved: [], expected: ['AUS', 'ESP', 'FRA', 'ITA', 'JPN'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_01",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had life expectancy above 80 years in 2021?",
+      "reference_answer": [
+        {
+          "code": "JPN",
+          "name": "Japan",
+          "value": 84.46
+        },
+        {
+          "code": "KOR",
+          "name": "Republic of Korea",
+          "value": 83.79
+        },
+        {
+          "code": "AUS",
+          "name": "Australia",
+          "value": 83.1
+        },
+        {
+          "code": "ESP",
+          "name": "Spain",
+          "value": 82.66
+        },
+        {
+          "code": "ITA",
+          "name": "Italy",
+          "value": 82.19
+        },
+        {
+          "code": "FRA",
+          "name": "France",
+          "value": 81.92
+        },
+        {
+          "code": "CAN",
+          "name": "Canada",
+          "value": 81.58
+        },
+        {
+          "code": "DEU",
+          "name": "Germany",
+          "value": 80.49
+        },
+        {
+          "code": "GBR",
+          "name": "United Kingdom of Great Britain and Northern Ireland",
+          "value": 80.1
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "AUS",
+            "CAN",
+            "DEU",
+            "ESP",
+            "FRA",
+            "GBR",
+            "ITA",
+            "JPN",
+            "KOR"
+          ],
+          "retrieved_values": {
+            "AUS": 83.10183853,
+            "CAN": 81.58276248,
+            "DEU": 80.49140555,
+            "ESP": 82.66267258,
+            "FRA": 81.92274175,
+            "GBR": 80.10062783,
+            "ITA": 82.19747411,
+            "JPN": 84.46067178,
+            "KOR": 83.79982334
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 9,
+          "expected_size": 9,
+          "retrieved_size": 9,
+          "details": "P=1.0 R=1.0 (retrieved: ['AUS', 'CAN', 'DEU', 'ESP', 'FRA', 'GBR', 'ITA', 'JPN', 'KOR'], expected: ['AUS', 'CAN', 'DEU', 'ESP', 'FRA', 'GBR', 'ITA', 'JPN', 'KOR'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [],
+          "retrieved_values": {},
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "overlap": 0,
+          "expected_size": 9,
+          "retrieved_size": 0,
+          "details": "P=0.0 R=0.0 (retrieved: [], expected: ['AUS', 'CAN', 'DEU', 'ESP', 'FRA', 'GBR', 'ITA', 'JPN', 'KOR'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_02",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had life expectancy below 60 years in 2000?",
+      "reference_answer": [
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "value": 54.05
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "value": 57.11
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "NGA",
+            "ZAF"
+          ],
+          "retrieved_values": {
+            "NGA": 54.05766545,
+            "ZAF": 57.11947907
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 2,
+          "expected_size": 2,
+          "retrieved_size": 2,
+          "details": "P=1.0 R=1.0 (retrieved: ['NGA', 'ZAF'], expected: ['NGA', 'ZAF'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [],
+          "retrieved_values": {},
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "overlap": 0,
+          "expected_size": 2,
+          "retrieved_size": 0,
+          "details": "P=0.0 R=0.0 (retrieved: [], expected: ['NGA', 'ZAF'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_03",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had life expectancy between 75 and 80 years in 2019?",
+      "reference_answer": [
+        {
+          "code": "BRA",
+          "name": "Brazil",
+          "value": 75.47
+        },
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "value": 75.83
+        },
+        {
+          "code": "THA",
+          "name": "Thailand",
+          "value": 76.92
+        },
+        {
+          "code": "SAU",
+          "name": "Saudi Arabia",
+          "value": 76.93
+        },
+        {
+          "code": "ARG",
+          "name": "Argentina",
+          "value": 77.01
+        },
+        {
+          "code": "CHN",
+          "name": "China",
+          "value": 77.31
+        },
+        {
+          "code": "TUR",
+          "name": "Türkiye",
+          "value": 77.61
+        },
+        {
+          "code": "USA",
+          "name": "United States of America",
+          "value": 78.73
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG",
+            "BRA",
+            "CHN",
+            "MEX",
+            "SAU",
+            "THA",
+            "TUR",
+            "USA"
+          ],
+          "retrieved_values": {
+            "ARG": 77.01582731,
+            "BRA": 75.47815778,
+            "CHN": 77.31273653,
+            "MEX": 75.8344286,
+            "SAU": 76.93147355,
+            "THA": 76.92495279,
+            "TUR": 77.61966184,
+            "USA": 78.73923827
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 8,
+          "expected_size": 8,
+          "retrieved_size": 8,
+          "details": "P=1.0 R=1.0 (retrieved: ['ARG', 'BRA', 'CHN', 'MEX', 'SAU', 'THA', 'TUR', 'USA'], expected: ['ARG', 'BRA', 'CHN', 'MEX', 'SAU', 'THA', 'TUR', 'USA'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG"
+          ],
+          "retrieved_values": {
+            "ARG": 77.02
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.125,
+          "overlap": 1,
+          "expected_size": 8,
+          "retrieved_size": 1,
+          "details": "P=1.0 R=0.125 (retrieved: ['ARG'], expected: ['ARG', 'BRA', 'CHN', 'MEX', 'SAU', 'THA', 'TUR', 'USA'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_01",
+      "category": "cross_entity_trend",
+      "query": "Which country had the largest increase in life expectancy from 2000 to 2021?",
+      "reference_answer": [
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "increase": 9.34
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "NGA"
+          ],
+          "retrieved_values": {
+            "NGA": 9.34
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['NGA'], expected: ['NGA'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG"
+          ],
+          "retrieved_values": {
+            "ARG": 2.55
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['ARG'], expected: ['NGA'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_02",
+      "category": "cross_entity_trend",
+      "query": "Which country experienced the largest drop in life expectancy from 2019 to 2021?",
+      "reference_answer": [
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "decrease": 5.0
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "MEX"
+          ],
+          "retrieved_values": {
+            "MEX": 5.0
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['MEX'], expected: ['MEX'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG"
+          ],
+          "retrieved_values": {
+            "ARG": 0.18
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['ARG'], expected: ['MEX'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_03",
+      "category": "cross_entity_trend",
+      "query": "Which 3 countries had the largest life expectancy gain from 2000 to 2019?",
+      "reference_answer": [
+        {
+          "code": "NGA",
+          "name": "Nigeria",
+          "gain": 9.01
+        },
+        {
+          "code": "ZAF",
+          "name": "South Africa",
+          "gain": 8.72
+        },
+        {
+          "code": "BGD",
+          "name": "Bangladesh",
+          "gain": 8.58
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "NGA",
+            "ZAF",
+            "BGD"
+          ],
+          "retrieved_values": {
+            "NGA": 9.01,
+            "ZAF": 8.72,
+            "BGD": 8.59
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['BGD', 'NGA', 'ZAF'], expected: ['BGD', 'NGA', 'ZAF'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "ARG",
+            "AUS",
+            "BGD"
+          ],
+          "retrieved_values": {
+            "ARG": 2.73,
+            "AUS": -3.25,
+            "BGD": -3.25
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 1,
+          "expected": 3,
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "details": "matched 1/3 (retrieved: ['ARG', 'AUS', 'BGD'], expected: ['BGD', 'NGA', 'ZAF'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_04",
+      "category": "cross_entity_trend",
+      "query": "Which countries had a lower life expectancy in 2021 compared to 2000?",
+      "reference_answer": [
+        {
+          "code": "MEX",
+          "name": "Mexico",
+          "change": -3.38
+        },
+        {
+          "code": "USA",
+          "name": "United States of America",
+          "change": -0.28
+        },
+        {
+          "code": "EGY",
+          "name": "Egypt",
+          "change": -0.04
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "MEX",
+            "USA",
+            "EGY"
+          ],
+          "retrieved_values": {
+            "MEX": -3.39,
+            "USA": -0.28,
+            "EGY": -0.04
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 3,
+          "expected_size": 3,
+          "retrieved_size": 3,
+          "details": "P=1.0 R=1.0 (retrieved: ['EGY', 'MEX', 'USA'], expected: ['EGY', 'MEX', 'USA'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "DEU"
+          ],
+          "retrieved_values": {
+            "DEU": -3.65
+          },
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "overlap": 0,
+          "expected_size": 3,
+          "retrieved_size": 1,
+          "details": "P=0.0 R=0.0 (retrieved: ['DEU'], expected: ['EGY', 'MEX', 'USA'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_01",
+      "category": "cross_entity_aggregation",
+      "query": "What is the average life expectancy across all 25 countries in 2015?",
+      "reference_answer": {
+        "average": 75.83,
+        "count": 25
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 75.83,
+          "count_used": 25,
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 75.83,
+          "reference": 75.83,
+          "difference": 0.0,
+          "tolerance": 1.0,
+          "details": "computed=75.83, reference=75.83, diff=0.0, tol=1.0"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": null,
+          "count_used": 0,
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "details": "no value computed from graph"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_02",
+      "category": "cross_entity_aggregation",
+      "query": "What is the range (max minus min) of life expectancy across all 25 countries in 2021?",
+      "reference_answer": {
+        "range": 22.97,
+        "max": 84.46,
+        "min": 61.49
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 22.96,
+          "max": 84.46067178,
+          "min": 61.49918805,
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 22.96,
+          "reference": 22.97,
+          "difference": 0.01,
+          "tolerance": 1.0,
+          "details": "computed=22.96, reference=22.97, diff=0.01, tol=1.0"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 0.0,
+          "max": 76.84,
+          "min": 76.84,
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 0.0,
+          "reference": 22.97,
+          "difference": 22.97,
+          "tolerance": 1.0,
+          "details": "computed=0.0, reference=22.97, diff=22.97, tol=1.0"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_03",
+      "category": "cross_entity_aggregation",
+      "query": "How many countries had life expectancy above 75 in both 2000 and 2021?",
+      "reference_answer": {
+        "count": 10,
+        "countries": [
+          {
+            "code": "AUS",
+            "name": "Australia"
+          },
+          {
+            "code": "CAN",
+            "name": "Canada"
+          },
+          {
+            "code": "DEU",
+            "name": "Germany"
+          },
+          {
+            "code": "ESP",
+            "name": "Spain"
+          },
+          {
+            "code": "FRA",
+            "name": "France"
+          },
+          {
+            "code": "GBR",
+            "name": "United Kingdom of Great Britain and Northern Ireland"
+          },
+          {
+            "code": "ITA",
+            "name": "Italy"
+          },
+          {
+            "code": "JPN",
+            "name": "Japan"
+          },
+          {
+            "code": "KOR",
+            "name": "Republic of Korea"
+          },
+          {
+            "code": "USA",
+            "name": "United States of America"
+          }
+        ]
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 10,
+          "matching_codes": [
+            "AUS",
+            "CAN",
+            "DEU",
+            "ESP",
+            "FRA",
+            "GBR",
+            "ITA",
+            "JPN",
+            "KOR",
+            "USA"
+          ],
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 10,
+          "reference": 10,
+          "difference": 0,
+          "tolerance": 0,
+          "details": "computed=10, reference=10, diff=0, tol=0"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 1,
+          "matching_codes": [
+            "DEU"
+          ],
+          "total_countries_found": 20
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 1,
+          "reference": 10,
+          "difference": 9,
+          "tolerance": 0,
+          "details": "computed=1, reference=10, diff=9, tol=0"
+        },
+        "correct": false
+      }
+    }
+  ]
+}

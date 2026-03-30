@@ -1,0 +1,9 @@
+{
+  "label": "Baseline",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_education_spending/baseline_budget/lightrag_storage",
+  "chunks_inserted": 24,
+  "graph_file_exists": true,
+  "graph_file_size": 29090,
+  "node_count": 36,
+  "edge_count": 26
+}

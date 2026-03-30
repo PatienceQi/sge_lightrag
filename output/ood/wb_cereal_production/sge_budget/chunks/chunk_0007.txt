@@ -1,0 +1,24 @@
+Entity: Egypt, Arab Rep.
+Year: 2000 | Value: 20105573.0
+Year: 2001 | Value: 18561065.0
+Year: 2002 | Value: 20194329.0
+Year: 2003 | Value: 20681928.0
+Year: 2004 | Value: 20823161.0
+Year: 2005 | Value: 22423470.0
+Year: 2006 | Value: 22518430.0
+Year: 2007 | Value: 21599234.0
+Year: 2008 | Value: 23743022.0
+Year: 2009 | Value: 22756929.0
+Year: 2010 | Value: 19464743.0
+Year: 2011 | Value: 22014225.25
+Year: 2012 | Value: 23755745.0
+Year: 2013 | Value: 24123416.0
+Year: 2014 | Value: 23323608.72
+Year: 2015 | Value: 23141275.32
+Year: 2016 | Value: 23385497.4
+Year: 2017 | Value: 22923640.0
+Year: 2018 | Value: 17565644.01
+Year: 2019 | Value: 21916624.05
+Year: 2020 | Value: 22457339.3
+Year: 2021 | Value: 23091464.6
+Year: 2022 | Value: 22002297.0

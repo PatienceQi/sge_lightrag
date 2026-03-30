@@ -1,0 +1,24 @@
+Entity: South Africa
+Year: 2000 | Value: 22.788
+Year: 2001 | Value: 22.652
+Year: 2002 | Value: 22.579
+Year: 2003 | Value: 22.679
+Year: 2004 | Value: 22.567
+Year: 2005 | Value: 22.472
+Year: 2006 | Value: 22.304
+Year: 2007 | Value: 22.26
+Year: 2008 | Value: 22.407
+Year: 2009 | Value: 23.523
+Year: 2010 | Value: 24.683
+Year: 2011 | Value: 24.639
+Year: 2012 | Value: 24.727
+Year: 2013 | Value: 24.561
+Year: 2014 | Value: 24.89
+Year: 2015 | Value: 25.149
+Year: 2016 | Value: 26.536
+Year: 2017 | Value: 27.035
+Year: 2018 | Value: 26.906
+Year: 2019 | Value: 28.468
+Year: 2020 | Value: 29.217
+Year: 2021 | Value: 34.007
+Year: 2022 | Value: 33.268

@@ -1,0 +1,24 @@
+Entity: Malaysia
+Year: 2000 | Value: 2140800.0
+Year: 2001 | Value: 2094995.0
+Year: 2002 | Value: 2197351.0
+Year: 2003 | Value: 2257000.0
+Year: 2004 | Value: 2264000.0
+Year: 2005 | Value: 2314000.0
+Year: 2006 | Value: 2187000.0
+Year: 2007 | Value: 2375000.0
+Year: 2008 | Value: 2353000.0
+Year: 2009 | Value: 2511043.0
+Year: 2010 | Value: 2464830.0
+Year: 2011 | Value: 2575988.0
+Year: 2012 | Value: 2599382.0
+Year: 2013 | Value: 2603654.0
+Year: 2014 | Value: 2844983.0
+Year: 2015 | Value: 2741404.0
+Year: 2016 | Value: 2739606.0
+Year: 2017 | Value: 2570513.0
+Year: 2018 | Value: 2639202.0
+Year: 2019 | Value: 2352870.0
+Year: 2020 | Value: 2356391.9
+Year: 2021 | Value: 2442070.8
+Year: 2022 | Value: 2282576.1

@@ -1,0 +1,327 @@
+{
+  "chunk-5e0ec8e02c83c34647ecdcd3ce444a75": {
+    "tokens": 394,
+    "content": "Entity: Argentina\nYear: 2000 | Value: 1.13312807570195\nYear: 2001 | Value: 1.09794672757946\nYear: 2002 | Value: 1.06941318335345\nYear: 2003 | Value: 1.0331399769648\nYear: 2004 | Value: 1.01407652046238\nYear: 2005 | Value: 1.02745772191722\nYear: 2006 | Value: 1.02824760534561\nYear: 2007 | Value: 0.991101935066697\nYear: 2008 | Value: 1.01288878477428\nYear: 2009 | Value: 1.05977470732485\nYear: 2010 | Value: 1.05636332156278\nYear: 2011 | Value: 1.06474009749784\nYear: 2012 | Value: 1.0276613644946\nYear: 2013 | Value: 0.992958989681133\nYear: 2014 | Value: 1.0317435786984\nYear: 2015 | Value: 1.04725888735726\nYear: 2016 | Value: 0.968911125580978\nYear: 2017 | Value: 0.881249595012674\nYear: 2018 | Value: 0.822969480473088\nYear: 2019 | Value: 0.710900853077743\nYear: 2020 | Value: 0.484665636741261\nYear: 2021 | Value: 0.265879395046274\nYear: 2022 | Value: 0.210808731072658",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5e0ec8e02c83c34647ecdcd3ce444a75",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bccaae3298c4451fc23e156fce1f3b7d"
+    ],
+    "create_time": 1774866721,
+    "update_time": 1774866730,
+    "_id": "chunk-5e0ec8e02c83c34647ecdcd3ce444a75"
+  },
+  "chunk-57cd883cc92ef849a737f001cc068fdd": {
+    "tokens": 393,
+    "content": "Entity: Australia\nYear: 2000 | Value: 1.14447285147721\nYear: 2001 | Value: 1.28396809127349\nYear: 2002 | Value: 1.1375387361946\nYear: 2003 | Value: 1.15019273319182\nYear: 2004 | Value: 1.06919812205752\nYear: 2005 | Value: 1.21729073052406\nYear: 2006 | Value: 1.34945083098893\nYear: 2007 | Value: 1.82499679529254\nYear: 2008 | Value: 2.00391140524272\nYear: 2009 | Value: 2.06083316277243\nYear: 2010 | Value: 1.55570626204128\nYear: 2011 | Value: 1.38952731561803\nYear: 2012 | Value: 1.74582000067359\nYear: 2013 | Value: 1.721151439989\nYear: 2014 | Value: 1.49156648912847\nYear: 2015 | Value: 1.43921665259925\nYear: 2016 | Value: 1.56194049810399\nYear: 2017 | Value: 1.64682779735017\nYear: 2018 | Value: 1.49599671041328\nYear: 2019 | Value: 1.47749071058438\nYear: 2020 | Value: 1.23342825131378\nYear: 2021 | Value: 0.14089508329287\nYear: 2022 | Value: 1.28931130985537",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-57cd883cc92ef849a737f001cc068fdd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1c2926fee4fea679a98ae51ec083708b"
+    ],
+    "create_time": 1774866733,
+    "update_time": 1774866737,
+    "_id": "chunk-57cd883cc92ef849a737f001cc068fdd"
+  },
+  "chunk-87a336eea06d83c70f7159cec5a641ad": {
+    "tokens": 394,
+    "content": "Entity: Brazil\nYear: 2000 | Value: 1.37521128317928\nYear: 2001 | Value: 1.30335503159977\nYear: 2002 | Value: 1.24142062598122\nYear: 2003 | Value: 1.18021395482771\nYear: 2004 | Value: 1.12991417032023\nYear: 2005 | Value: 1.09590612526605\nYear: 2006 | Value: 1.05833842529955\nYear: 2007 | Value: 1.01236820635667\nYear: 2008 | Value: 0.957984635895359\nYear: 2009 | Value: 0.895632239477021\nYear: 2010 | Value: 0.84088322514573\nYear: 2011 | Value: 0.81381388423754\nYear: 2012 | Value: 0.811598483382088\nYear: 2013 | Value: 0.810511647523289\nYear: 2014 | Value: 0.806314177734439\nYear: 2015 | Value: 0.791721773592796\nYear: 2016 | Value: 0.761972670496742\nYear: 2017 | Value: 0.72824666001736\nYear: 2018 | Value: 0.683439571425594\nYear: 2019 | Value: 0.651994346081362\nYear: 2020 | Value: 0.579350709708032\nYear: 2021 | Value: 0.425360907216456\nYear: 2022 | Value: 0.360180890872169",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-87a336eea06d83c70f7159cec5a641ad",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:06a0c9a310208458b4fa65efca761495"
+    ],
+    "create_time": 1774866737,
+    "update_time": 1774866746,
+    "_id": "chunk-87a336eea06d83c70f7159cec5a641ad"
+  },
+  "chunk-6d1272d544c8c43f71aa453dd0b1f9a3": {
+    "tokens": 393,
+    "content": "Entity: Canada\nYear: 2000 | Value: 0.931281553452429\nYear: 2001 | Value: 1.0861994547665\nYear: 2002 | Value: 1.08479328329522\nYear: 2003 | Value: 0.899226809998674\nYear: 2004 | Value: 0.932186964148048\nYear: 2005 | Value: 0.94708626967041\nYear: 2006 | Value: 1.01355939144957\nYear: 2007 | Value: 0.970654173316653\nYear: 2008 | Value: 1.083871149194\nYear: 2009 | Value: 1.14470768476526\nYear: 2010 | Value: 1.11135202971694\nYear: 2011 | Value: 0.97540725097113\nYear: 2012 | Value: 1.08374652233653\nYear: 2013 | Value: 1.05338098055318\nYear: 2014 | Value: 1.00142284689661\nYear: 2015 | Value: 0.760300145238936\nYear: 2016 | Value: 1.13153974027004\nYear: 2017 | Value: 1.19543575451553\nYear: 2018 | Value: 1.43322615679352\nYear: 2019 | Value: 1.46171259938134\nYear: 2020 | Value: 1.08436897113225\nYear: 2021 | Value: 0.553902422386893\nYear: 2022 | Value: 1.80390457488184",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-6d1272d544c8c43f71aa453dd0b1f9a3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:040063e9407f20fd314edd6733ddc305"
+    ],
+    "create_time": 1774866750,
+    "update_time": 1774866758,
+    "_id": "chunk-6d1272d544c8c43f71aa453dd0b1f9a3"
+  },
+  "chunk-166a7f85a3116ba40a9c321f6d8fcea6": {
+    "tokens": 396,
+    "content": "Entity: China\nYear: 2000 | Value: 0.787956592953992\nYear: 2001 | Value: 0.726380637838525\nYear: 2002 | Value: 0.669999567758626\nYear: 2003 | Value: 0.622860936133583\nYear: 2004 | Value: 0.593932815112141\nYear: 2005 | Value: 0.588124989556992\nYear: 2006 | Value: 0.558374367373002\nYear: 2007 | Value: 0.522271866392275\nYear: 2008 | Value: 0.51238693163744\nYear: 2009 | Value: 0.497381400884935\nYear: 2010 | Value: 0.482959688678361\nYear: 2011 | Value: 0.546457594880274\nYear: 2012 | Value: 0.678345458846803\nYear: 2013 | Value: 0.666072977690069\nYear: 2014 | Value: 0.630326389541893\nYear: 2015 | Value: 0.581456146657648\nYear: 2016 | Value: 0.573050906069647\nYear: 2017 | Value: 0.605245013482969\nYear: 2018 | Value: 0.467672053461959\nYear: 2019 | Value: 0.354740890170827\nYear: 2020 | Value: 0.238040870229883\nYear: 2021 | Value: 0.0892522000412526\nYear: 2022 | Value: -0.0130995013525784",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-166a7f85a3116ba40a9c321f6d8fcea6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3e7bf773395669d80f2bd91a5638ba1b"
+    ],
+    "create_time": 1774866761,
+    "update_time": 1774866769,
+    "_id": "chunk-166a7f85a3116ba40a9c321f6d8fcea6"
+  },
+  "chunk-f0f91448231fa98042623446ba41790c": {
+    "tokens": 394,
+    "content": "Entity: Colombia\nYear: 2000 | Value: 1.63798274950516\nYear: 2001 | Value: 1.57194688390217\nYear: 2002 | Value: 1.53792282248162\nYear: 2003 | Value: 1.5081090586904\nYear: 2004 | Value: 1.46883725533231\nYear: 2005 | Value: 1.4002642115634\nYear: 2006 | Value: 1.32542990992624\nYear: 2007 | Value: 1.26689099629201\nYear: 2008 | Value: 1.20339154806457\nYear: 2009 | Value: 1.16491370094378\nYear: 2010 | Value: 1.13596836363633\nYear: 2011 | Value: 1.07133727666266\nYear: 2012 | Value: 1.00290782655336\nYear: 2013 | Value: 0.948709328751527\nYear: 2014 | Value: 0.892711563926366\nYear: 2015 | Value: 0.864942376762699\nYear: 2016 | Value: 0.990548549326914\nYear: 2017 | Value: 1.45147726169193\nYear: 2018 | Value: 1.83913784861099\nYear: 2019 | Value: 1.78615507724394\nYear: 2020 | Value: 1.43632167326968\nYear: 2021 | Value: 1.09642825395961\nYear: 2022 | Value: 1.06829295530618",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f0f91448231fa98042623446ba41790c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6c0c6208e8051f0c4cdacd399c7e48a0"
+    ],
+    "create_time": 1774866772,
+    "update_time": 1774866780,
+    "_id": "chunk-f0f91448231fa98042623446ba41790c"
+  },
+  "chunk-e157395640326769320f5d83a2c72bc6": {
+    "tokens": 397,
+    "content": "Entity: Egypt, Arab Rep.\nYear: 2000 | Value: 2.16091978529782\nYear: 2001 | Value: 2.12380362345226\nYear: 2002 | Value: 2.10372359745955\nYear: 2003 | Value: 2.09545323003183\nYear: 2004 | Value: 2.06437734857129\nYear: 2005 | Value: 2.02220952721924\nYear: 2006 | Value: 1.95291342300488\nYear: 2007 | Value: 1.88753217077119\nYear: 2008 | Value: 1.86740413264217\nYear: 2009 | Value: 1.88836522446639\nYear: 2010 | Value: 1.91795124102801\nYear: 2011 | Value: 2.1044607622412\nYear: 2012 | Value: 2.24475795490011\nYear: 2013 | Value: 2.30526364315625\nYear: 2014 | Value: 2.27643956620182\nYear: 2015 | Value: 2.09892554805563\nYear: 2016 | Value: 2.03468294927084\nYear: 2017 | Value: 1.99817843887244\nYear: 2018 | Value: 1.89713831833082\nYear: 2019 | Value: 1.75497438173801\nYear: 2020 | Value: 1.62495386951696\nYear: 2021 | Value: 1.4908053906311\nYear: 2022 | Value: 1.48609697540294",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e157395640326769320f5d83a2c72bc6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:10662bfab7e17b2ed7bcf73681cf3e86"
+    ],
+    "create_time": 1774866784,
+    "update_time": 1774866795,
+    "_id": "chunk-e157395640326769320f5d83a2c72bc6"
+  },
+  "chunk-04708a8205d632f380a65897fc9be822": {
+    "tokens": 394,
+    "content": "Entity: France\nYear: 2000 | Value: 0.686335719566776\nYear: 2001 | Value: 0.7289939490983\nYear: 2002 | Value: 0.727033002641047\nYear: 2003 | Value: 0.705638836747311\nYear: 2004 | Value: 0.732625502527391\nYear: 2005 | Value: 0.751885116821619\nYear: 2006 | Value: 0.696338574828463\nYear: 2007 | Value: 0.618225682593305\nYear: 2008 | Value: 0.558020613148126\nYear: 2009 | Value: 0.513351013325229\nYear: 2010 | Value: 0.492976371032656\nYear: 2011 | Value: 0.482667411007127\nYear: 2012 | Value: 0.483714919435185\nYear: 2013 | Value: 0.516915013016667\nYear: 2014 | Value: 0.474847846171767\nYear: 2015 | Value: 0.355569240058298\nYear: 2016 | Value: 0.263868788565368\nYear: 2017 | Value: 0.29020211635109\nYear: 2018 | Value: 0.358494581816163\nYear: 2019 | Value: 0.332559129027963\nYear: 2020 | Value: 0.324557781035362\nYear: 2021 | Value: 0.356902332389048\nYear: 2022 | Value: 0.502320929337976",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-04708a8205d632f380a65897fc9be822",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dc6f68069f25fed95910cbf35055b7a9"
+    ],
+    "create_time": 1774866798,
+    "update_time": 1774866808,
+    "_id": "chunk-04708a8205d632f380a65897fc9be822"
+  },
+  "chunk-d951ed4a966e0644a74ca7b755b5acb5": {
+    "tokens": 399,
+    "content": "Entity: Germany\nYear: 2000 | Value: 0.135431600393084\nYear: 2001 | Value: 0.168225361337335\nYear: 2002 | Value: 0.168128319406931\nYear: 2003 | Value: 0.0553633035873241\nYear: 2004 | Value: -0.021709727650009\nYear: 2005 | Value: -0.0567782618352031\nYear: 2006 | Value: -0.112797497644931\nYear: 2007 | Value: -0.133718572600486\nYear: 2008 | Value: -0.190142844695674\nYear: 2009 | Value: -0.253383410163402\nYear: 2010 | Value: -0.153198446937304\nYear: 2011 | Value: -1.8537146287573\nYear: 2012 | Value: 0.187727800567293\nYear: 2013 | Value: 0.272900214681538\nYear: 2014 | Value: 0.416877359168292\nYear: 2015 | Value: 0.865702643950251\nYear: 2016 | Value: 0.807218538573871\nYear: 2017 | Value: 0.373724559895838\nYear: 2018 | Value: 0.300526701992065\nYear: 2019 | Value: 0.22551987421288\nYear: 2020 | Value: 0.0816931586494595\nYear: 2021 | Value: 0.0423270572552137\nYear: 2022 | Value: -0.0219565701848977",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d951ed4a966e0644a74ca7b755b5acb5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:96b6fced9438d0b5b542fd4d78089476"
+    ],
+    "create_time": 1774866812,
+    "update_time": 1774866820,
+    "_id": "chunk-d951ed4a966e0644a74ca7b755b5acb5"
+  },
+  "chunk-d85f9cb40b30107e6bb28700ca9a237e": {
+    "tokens": 394,
+    "content": "Entity: India\nYear: 2000 | Value: 1.87939826197393\nYear: 2001 | Value: 1.87060822112685\nYear: 2002 | Value: 1.81129424097937\nYear: 2003 | Value: 1.73438204419235\nYear: 2004 | Value: 1.7035704679088\nYear: 2005 | Value: 1.63142146860079\nYear: 2006 | Value: 1.56412522526913\nYear: 2007 | Value: 1.50599144392136\nYear: 2008 | Value: 1.43877181746736\nYear: 2009 | Value: 1.44601731955273\nYear: 2010 | Value: 1.45460361883041\nYear: 2011 | Value: 1.41682761544376\nYear: 2012 | Value: 1.37405616603306\nYear: 2013 | Value: 1.33270430507476\nYear: 2014 | Value: 1.26129027125347\nYear: 2015 | Value: 1.19285563384335\nYear: 2016 | Value: 1.19162966402099\nYear: 2017 | Value: 1.1623961434697\nYear: 2018 | Value: 1.09729906702925\nYear: 2019 | Value: 1.04001395098104\nYear: 2020 | Value: 0.973438646910149\nYear: 2021 | Value: 0.822648220128724\nYear: 2022 | Value: 0.790200540609834",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d85f9cb40b30107e6bb28700ca9a237e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:aa2e9b8b4805aa00f0fb44410e664cd3"
+    ],
+    "create_time": 1774866824,
+    "update_time": 1774866836,
+    "_id": "chunk-d85f9cb40b30107e6bb28700ca9a237e"
+  },
+  "chunk-f140f6adb879009e9b656a0a477f97a6": {
+    "tokens": 394,
+    "content": "Entity: Indonesia\nYear: 2000 | Value: 1.43244007763682\nYear: 2001 | Value: 1.38801892806803\nYear: 2002 | Value: 1.35572575488289\nYear: 2003 | Value: 1.32378197652859\nYear: 2004 | Value: 1.27101139474106\nYear: 2005 | Value: 1.28380661170743\nYear: 2006 | Value: 1.32525502272966\nYear: 2007 | Value: 1.32086532413059\nYear: 2008 | Value: 1.29735043016571\nYear: 2009 | Value: 1.26698625068088\nYear: 2010 | Value: 1.26054140134601\nYear: 2011 | Value: 1.27668830646548\nYear: 2012 | Value: 1.28583816632167\nYear: 2013 | Value: 1.24038001568984\nYear: 2014 | Value: 1.17536091203837\nYear: 2015 | Value: 1.12233981761262\nYear: 2016 | Value: 1.0744882002252\nYear: 2017 | Value: 1.02232939771064\nYear: 2018 | Value: 0.969743409524713\nYear: 2019 | Value: 0.935604959235128\nYear: 2020 | Value: 0.849801187379341\nYear: 2021 | Value: 0.704601321926319\nYear: 2022 | Value: 0.746050469653246",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f140f6adb879009e9b656a0a477f97a6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7c2380007d6ff026a59555f7948248c5"
+    ],
+    "create_time": 1774866839,
+    "update_time": 1774866847,
+    "_id": "chunk-f140f6adb879009e9b656a0a477f97a6"
+  },
+  "chunk-8ec28138e11cbd76d0e7b93911566fc1": {
+    "tokens": 396,
+    "content": "Entity: Italy\nYear: 2000 | Value: 0.045303631138613\nYear: 2001 | Value: 0.0612241572425483\nYear: 2002 | Value: 0.197854295667482\nYear: 2003 | Value: 0.540420007681938\nYear: 2004 | Value: 0.744609563112575\nYear: 2005 | Value: 0.583653375692943\nYear: 2006 | Value: 0.400079310970985\nYear: 2007 | Value: 0.608396959196212\nYear: 2008 | Value: 0.771291301351719\nYear: 2009 | Value: 0.579748620940622\nYear: 2010 | Value: 0.442226157086815\nYear: 2011 | Value: 0.346167211080488\nYear: 2012 | Value: 0.273513088134657\nYear: 2013 | Value: 0.199772918304074\nYear: 2014 | Value: 0.0150772197985246\nYear: 2015 | Value: -0.151143561276007\nYear: 2016 | Value: -0.190090486385849\nYear: 2017 | Value: -0.188100912559894\nYear: 2018 | Value: 0.243703643127712\nYear: 2019 | Value: -0.700011055973408\nYear: 2020 | Value: -0.487095091717782\nYear: 2021 | Value: -0.515599998844444\nYear: 2022 | Value: -0.20230086688254",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8ec28138e11cbd76d0e7b93911566fc1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:35a4ca3122c82bcfcbb3b8718f6c77bd"
+    ],
+    "create_time": 1774866850,
+    "update_time": 1774866863,
+    "_id": "chunk-8ec28138e11cbd76d0e7b93911566fc1"
+  },
+  "chunk-62775dc6694f23956fe124a5c9c8a1d3": {
+    "tokens": 401,
+    "content": "Entity: Japan\nYear: 2000 | Value: 0.167275578113187\nYear: 2001 | Value: 0.240952587521069\nYear: 2002 | Value: 0.232527187105684\nYear: 2003 | Value: 0.213980948779682\nYear: 2004 | Value: 0.0336622582725446\nYear: 2005 | Value: 0.0093920965576633\nYear: 2006 | Value: 0.0633735894181335\nYear: 2007 | Value: 0.114908847726211\nYear: 2008 | Value: 0.0484253945978966\nYear: 2009 | Value: -0.0124946312294096\nYear: 2010 | Value: 0.0179605415195644\nYear: 2011 | Value: -0.185226486410846\nYear: 2012 | Value: -0.159710675844347\nYear: 2013 | Value: -0.144271883387076\nYear: 2014 | Value: -0.132694222147042\nYear: 2015 | Value: -0.106124993746747\nYear: 2016 | Value: -0.0511374152133631\nYear: 2017 | Value: -0.081874296046114\nYear: 2018 | Value: -0.126880068088791\nYear: 2019 | Value: -0.140464977878172\nYear: 2020 | Value: -0.294194617750067\nYear: 2021 | Value: -0.459952415807642\nYear: 2022 | Value: -0.443851919148528",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-62775dc6694f23956fe124a5c9c8a1d3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bee0a5db9b6b6f14c7e84d8fc30e2136"
+    ],
+    "create_time": 1774866866,
+    "update_time": 1774866874,
+    "_id": "chunk-62775dc6694f23956fe124a5c9c8a1d3"
+  },
+  "chunk-39614a9365cd1d02d1b601a438f08cf7": {
+    "tokens": 396,
+    "content": "Entity: Korea, Rep.\nYear: 2000 | Value: 0.836180864297766\nYear: 2001 | Value: 0.767241774760276\nYear: 2002 | Value: 0.577957276814842\nYear: 2003 | Value: 0.518321452985646\nYear: 2004 | Value: 0.396331436697806\nYear: 2005 | Value: 0.211997784117548\nYear: 2006 | Value: 0.525199940498775\nYear: 2007 | Value: 0.505234032920336\nYear: 2008 | Value: 0.759316681850927\nYear: 2009 | Value: 0.514682827535803\nYear: 2010 | Value: 0.49822508440111\nYear: 2011 | Value: 0.768971758582589\nYear: 2012 | Value: 0.525713660600414\nYear: 2013 | Value: 0.455218622164662\nYear: 2014 | Value: 0.628149861433639\nYear: 2015 | Value: 0.527288497407793\nYear: 2016 | Value: 0.396851823381145\nYear: 2017 | Value: 0.280968018301691\nYear: 2018 | Value: 0.433519027613049\nYear: 2019 | Value: 0.347874968577526\nYear: 2020 | Value: 0.137869266247028\nYear: 2021 | Value: -0.128757315474928\nYear: 2022 | Value: -0.187486566698935",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-39614a9365cd1d02d1b601a438f08cf7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:12574414fdf9fb8cd44de517c9178bb6"
+    ],
+    "create_time": 1774866877,
+    "update_time": 1774866886,
+    "_id": "chunk-39614a9365cd1d02d1b601a438f08cf7"
+  },
+  "chunk-e0bd36fb49bb668aaae69797a49b89cf": {
+    "tokens": 394,
+    "content": "Entity: Malaysia\nYear: 2000 | Value: 2.34480241175698\nYear: 2001 | Value: 2.40351289519482\nYear: 2002 | Value: 2.41855547054066\nYear: 2003 | Value: 2.36624571909165\nYear: 2004 | Value: 2.31172452935085\nYear: 2005 | Value: 2.26772984873607\nYear: 2006 | Value: 2.22705351047756\nYear: 2007 | Value: 2.17350461828888\nYear: 2008 | Value: 2.09531674831339\nYear: 2009 | Value: 1.99206021194285\nYear: 2010 | Value: 1.87040612656176\nYear: 2011 | Value: 1.75128008243176\nYear: 2012 | Value: 1.70269513202166\nYear: 2013 | Value: 1.70946282045073\nYear: 2014 | Value: 1.7147407282165\nYear: 2015 | Value: 1.73319445645586\nYear: 2016 | Value: 1.76731054757933\nYear: 2017 | Value: 1.76466064017847\nYear: 2018 | Value: 1.70174731907235\nYear: 2019 | Value: 1.59646653343981\nYear: 2020 | Value: 1.33363323143911\nYear: 2021 | Value: 1.15251304394292\nYear: 2022 | Value: 1.1977720012836",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e0bd36fb49bb668aaae69797a49b89cf",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:052d3d6f83759fc1dc79548005c717d0"
+    ],
+    "create_time": 1774866890,
+    "update_time": 1774866899,
+    "_id": "chunk-e0bd36fb49bb668aaae69797a49b89cf"
+  },
+  "chunk-bcdbee580cb5027bf74495719197d50a": {
+    "tokens": 393,
+    "content": "Entity: Mexico\nYear: 2000 | Value: 1.54272528221216\nYear: 2001 | Value: 1.48303091731143\nYear: 2002 | Value: 1.43770526775457\nYear: 2003 | Value: 1.398263627903\nYear: 2004 | Value: 1.3653083154997\nYear: 2005 | Value: 1.34857895792648\nYear: 2006 | Value: 1.35374920696209\nYear: 2007 | Value: 1.40789058424163\nYear: 2008 | Value: 1.46015632826518\nYear: 2009 | Value: 1.4619172053372\nYear: 2010 | Value: 1.43974472572946\nYear: 2011 | Value: 1.41534883852036\nYear: 2012 | Value: 1.35716327923769\nYear: 2013 | Value: 1.29730808025224\nYear: 2014 | Value: 1.21002702971431\nYear: 2015 | Value: 1.06956376155677\nYear: 2016 | Value: 0.969124204799117\nYear: 2017 | Value: 0.935239396499786\nYear: 2018 | Value: 0.9466023549862\nYear: 2019 | Value: 0.950144329831411\nYear: 2020 | Value: 0.820454117563552\nYear: 2021 | Value: 0.66740537533078\nYear: 2022 | Value: 0.753116988604166",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bcdbee580cb5027bf74495719197d50a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a65196f1a5cc2549a87da02fa8b02cdf"
+    ],
+    "create_time": 1774866903,
+    "update_time": 1774866914,
+    "_id": "chunk-bcdbee580cb5027bf74495719197d50a"
+  },
+  "chunk-4482ef631ef548ddc4ec7bc848ee241e": {
+    "tokens": 393,
+    "content": "Entity: Nigeria\nYear: 2000 | Value: 2.67439784501828\nYear: 2001 | Value: 2.7163954653619\nYear: 2002 | Value: 2.74147056608815\nYear: 2003 | Value: 2.75673506428828\nYear: 2004 | Value: 2.77053967849452\nYear: 2005 | Value: 2.76883385211034\nYear: 2006 | Value: 2.76124698861505\nYear: 2007 | Value: 2.77180099910734\nYear: 2008 | Value: 2.78453384410814\nYear: 2009 | Value: 2.78730820935027\nYear: 2010 | Value: 2.795149361277\nYear: 2011 | Value: 2.80278519998649\nYear: 2012 | Value: 2.77422930277333\nYear: 2013 | Value: 2.71468991073627\nYear: 2014 | Value: 2.64221399374699\nYear: 2015 | Value: 2.53617348598208\nYear: 2016 | Value: 2.47183239057048\nYear: 2017 | Value: 2.43170936923065\nYear: 2018 | Value: 2.31217263003389\nYear: 2019 | Value: 2.1944019229433\nYear: 2020 | Value: 2.13029714344341\nYear: 2021 | Value: 2.09618685225463\nYear: 2022 | Value: 2.09281687128387",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4482ef631ef548ddc4ec7bc848ee241e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e432e1837ce68b1d9e66f931c0b20f84"
+    ],
+    "create_time": 1774866917,
+    "update_time": 1774866924,
+    "_id": "chunk-4482ef631ef548ddc4ec7bc848ee241e"
+  },
+  "chunk-3ea1da363785fd769f45b3017fc82184": {
+    "tokens": 393,
+    "content": "Entity: Philippines\nYear: 2000 | Value: 2.37926588939747\nYear: 2001 | Value: 2.20604531885261\nYear: 2002 | Value: 2.02766985591781\nYear: 2003 | Value: 1.98211355051959\nYear: 2004 | Value: 1.94326756715565\nYear: 2005 | Value: 1.85941217176991\nYear: 2006 | Value: 1.68208380821541\nYear: 2007 | Value: 1.73463407300361\nYear: 2008 | Value: 1.76733466433421\nYear: 2009 | Value: 1.801550616238\nYear: 2010 | Value: 2.04795425200975\nYear: 2011 | Value: 1.96473852483036\nYear: 2012 | Value: 1.94226237851608\nYear: 2013 | Value: 1.87971579705684\nYear: 2014 | Value: 1.64283283802775\nYear: 2015 | Value: 1.47875384302116\nYear: 2016 | Value: 1.34190709540685\nYear: 2017 | Value: 1.28830186666283\nYear: 2018 | Value: 1.23686033319068\nYear: 2019 | Value: 1.21615534645287\nYear: 2020 | Value: 1.1455140860985\nYear: 2021 | Value: 0.905660310915421\nYear: 2022 | Value: 0.760479216015364",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3ea1da363785fd769f45b3017fc82184",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8406dd7d3ae2a152b6d96b5a14932306"
+    ],
+    "create_time": 1774866928,
+    "update_time": 1774866939,
+    "_id": "chunk-3ea1da363785fd769f45b3017fc82184"
+  },
+  "chunk-a90230e0cf7790776272fab0a547a51d": {
+    "tokens": 408,
+    "content": "Entity: Poland\nYear: 2000 | Value: -1.04433539837844\nYear: 2001 | Value: -0.0275871247282958\nYear: 2002 | Value: -0.0463189372499392\nYear: 2003 | Value: -0.067492701646486\nYear: 2004 | Value: -0.0585127351273288\nYear: 2005 | Value: -0.043948953332248\nYear: 2006 | Value: -0.0633705742926632\nYear: 2007 | Value: -0.0543050208038707\nYear: 2008 | Value: 0.0136373796827091\nYear: 2009 | Value: 0.067763227021235\nYear: 2010 | Value: -0.285609121534849\nYear: 2011 | Value: 0.0537697088781007\nYear: 2012 | Value: -0.0002390760032983\nYear: 2013 | Value: -0.0603600174744649\nYear: 2014 | Value: -0.0748462292920506\nYear: 2015 | Value: -0.0666411009657168\nYear: 2016 | Value: -0.04298513087435\nYear: 2017 | Value: 0.0124800985844923\nYear: 2018 | Value: -0.0002001327828384\nYear: 2019 | Value: -0.0244271070993493\nYear: 2020 | Value: -1.19164026205913\nYear: 2021 | Value: -1.4341408496549\nYear: 2022 | Value: -0.433070695882457",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a90230e0cf7790776272fab0a547a51d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ae5446845a964fcb66dd65a9cf608846"
+    ],
+    "create_time": 1774866942,
+    "update_time": 1774866950,
+    "_id": "chunk-a90230e0cf7790776272fab0a547a51d"
+  },
+  "chunk-3dbd51b4ca648a24ea49d640b75e54a2": {
+    "tokens": 395,
+    "content": "Entity: South Africa\nYear: 2000 | Value: 0.914659168313889\nYear: 2001 | Value: 0.859492168208101\nYear: 2002 | Value: 0.947036940076663\nYear: 2003 | Value: 0.996556488051653\nYear: 2004 | Value: 1.00742279739678\nYear: 2005 | Value: 1.01260946155511\nYear: 2006 | Value: 1.02172490694402\nYear: 2007 | Value: 1.05506511201209\nYear: 2008 | Value: 1.15309551684298\nYear: 2009 | Value: 1.19390450655684\nYear: 2010 | Value: 1.1829095702162\nYear: 2011 | Value: 1.23631458705301\nYear: 2012 | Value: 1.47479434391075\nYear: 2013 | Value: 1.65265199501405\nYear: 2014 | Value: 1.66144540694123\nYear: 2015 | Value: 2.00988840160514\nYear: 2016 | Value: 0.940521897823675\nYear: 2017 | Value: 0.653837462693277\nYear: 2018 | Value: 1.68236992028419\nYear: 2019 | Value: 1.64957495527878\nYear: 2020 | Value: 1.62216431400652\nYear: 2021 | Value: 1.54055743832642\nYear: 2022 | Value: 1.41397227960081",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3dbd51b4ca648a24ea49d640b75e54a2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0f68770c1a7bc2dfbc80d6e424f1cbbe"
+    ],
+    "create_time": 1774866954,
+    "update_time": 1774866962,
+    "_id": "chunk-3dbd51b4ca648a24ea49d640b75e54a2"
+  },
+  "chunk-e88d5a50114ee4ff460c81580be1b430": {
+    "tokens": 395,
+    "content": "Entity: Thailand\nYear: 2000 | Value: 1.13127017975852\nYear: 2001 | Value: 1.01584846841136\nYear: 2002 | Value: 0.962026884907362\nYear: 2003 | Value: 0.931947504633534\nYear: 2004 | Value: 0.896077275303913\nYear: 2005 | Value: 0.860087894461849\nYear: 2006 | Value: 0.83006330336846\nYear: 2007 | Value: 0.800044180541195\nYear: 2008 | Value: 0.768156179389423\nYear: 2009 | Value: 0.73854268159594\nYear: 2010 | Value: 0.670617338343587\nYear: 2011 | Value: 0.621807948253872\nYear: 2012 | Value: 0.619591346751357\nYear: 2013 | Value: 0.587325698680648\nYear: 2014 | Value: 0.530129864137193\nYear: 2015 | Value: 0.460976294059414\nYear: 2016 | Value: 0.451266062797186\nYear: 2017 | Value: 0.422963510133952\nYear: 2018 | Value: 0.302929452489855\nYear: 2019 | Value: 0.204609851692418\nYear: 2020 | Value: 0.166540794566251\nYear: 2021 | Value: 0.119758274714782\nYear: 2022 | Value: 0.0111485454856964",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e88d5a50114ee4ff460c81580be1b430",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:95a7f38c37e7608ca669c9a36aa1f6e7"
+    ],
+    "create_time": 1774866966,
+    "update_time": 1774866973,
+    "_id": "chunk-e88d5a50114ee4ff460c81580be1b430"
+  },
+  "chunk-af8f22423ba86b2efcfdc1680e7bf118": {
+    "tokens": 394,
+    "content": "Entity: Turkiye\nYear: 2000 | Value: 1.28297648712556\nYear: 2001 | Value: 1.2442785656482\nYear: 2002 | Value: 1.20587153637377\nYear: 2003 | Value: 1.16094416683032\nYear: 2004 | Value: 1.11548254617054\nYear: 2005 | Value: 1.06864181704433\nYear: 2006 | Value: 1.02715519431982\nYear: 2007 | Value: 0.160856263475951\nYear: 2008 | Value: 1.26560336535681\nYear: 2009 | Value: 1.3803027157145\nYear: 2010 | Value: 1.51943093763293\nYear: 2011 | Value: 1.46777416449143\nYear: 2012 | Value: 1.27471801981307\nYear: 2013 | Value: 1.28441474668\nYear: 2014 | Value: 1.3490889002021\nYear: 2015 | Value: 1.33411577030414\nYear: 2016 | Value: 1.34542593504869\nYear: 2017 | Value: 1.29675571220462\nYear: 2018 | Value: 1.35360298648434\nYear: 2019 | Value: 1.42969688109789\nYear: 2020 | Value: 0.970386031353162\nYear: 2021 | Value: 0.910444902564511\nYear: 2022 | Value: 0.984586244469359",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-af8f22423ba86b2efcfdc1680e7bf118",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5d6bfbbedff8462d997c113e7dc6996a"
+    ],
+    "create_time": 1774866976,
+    "update_time": 1774866984,
+    "_id": "chunk-af8f22423ba86b2efcfdc1680e7bf118"
+  },
+  "chunk-664622d5b42e588233d3f36c8393e00e": {
+    "tokens": 395,
+    "content": "Entity: United Kingdom\nYear: 2000 | Value: 0.357300887421605\nYear: 2001 | Value: 0.384975969564228\nYear: 2002 | Value: 0.423337079636281\nYear: 2003 | Value: 0.465641113602993\nYear: 2004 | Value: 0.568943113421317\nYear: 2005 | Value: 0.68661130607346\nYear: 2006 | Value: 0.73504867842129\nYear: 2007 | Value: 0.778666112441256\nYear: 2008 | Value: 0.787032622318939\nYear: 2009 | Value: 0.756390859593407\nYear: 2010 | Value: 0.783888646646516\nYear: 2011 | Value: 0.781506562236639\nYear: 2012 | Value: 0.712282568284022\nYear: 2013 | Value: 0.669537112028056\nYear: 2014 | Value: 0.747135714780007\nYear: 2015 | Value: 0.721624002974263\nYear: 2016 | Value: 0.79421971482011\nYear: 2017 | Value: 0.545706020084833\nYear: 2018 | Value: 0.488451313281444\nYear: 2019 | Value: 0.514596380840432\nYear: 2020 | Value: 0.169447088341033\nYear: 2021 | Value: 0.358937930235741\nYear: 2022 | Value: 0.921336799385098",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-664622d5b42e588233d3f36c8393e00e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:53007d2d1da37662cc9850654589fbf3"
+    ],
+    "create_time": 1774866988,
+    "update_time": 1774866999,
+    "_id": "chunk-664622d5b42e588233d3f36c8393e00e"
+  },
+  "chunk-5da11f6cc018c5a958cfb7c7bd6038ad": {
+    "tokens": 395,
+    "content": "Entity: United States\nYear: 2000 | Value: 1.11276899679534\nYear: 2001 | Value: 0.989741382223669\nYear: 2002 | Value: 0.927797485710314\nYear: 2003 | Value: 0.859481712840946\nYear: 2004 | Value: 0.925483968943482\nYear: 2005 | Value: 0.921713167161207\nYear: 2006 | Value: 0.964253917136075\nYear: 2007 | Value: 0.951055242772428\nYear: 2008 | Value: 0.945865287282592\nYear: 2009 | Value: 0.876651298802912\nYear: 2010 | Value: 0.846129865832117\nYear: 2011 | Value: 0.79239433316435\nYear: 2012 | Value: 0.79838290137163\nYear: 2013 | Value: 0.756560083436754\nYear: 2014 | Value: 0.796023797809134\nYear: 2015 | Value: 0.797904713382564\nYear: 2016 | Value: 0.785625485688815\nYear: 2017 | Value: 0.692906252591617\nYear: 2018 | Value: 0.586433075122573\nYear: 2019 | Value: 0.515108555014533\nYear: 2020 | Value: 0.408427566758519\nYear: 2021 | Value: 0.157317408951545\nYear: 2022 | Value: 0.575744520494521",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5da11f6cc018c5a958cfb7c7bd6038ad",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fe1aa03404e1724c4e7cde39aa3fca15"
+    ],
+    "create_time": 1774867003,
+    "update_time": 1774867014,
+    "_id": "chunk-5da11f6cc018c5a958cfb7c7bd6038ad"
+  },
+  "chunk-ed78144a2ebed03ce03b490207cd2646": {
+    "tokens": 395,
+    "content": "Entity: Viet Nam\nYear: 2000 | Value: 1.12950984166849\nYear: 2001 | Value: 1.05123747397877\nYear: 2002 | Value: 1.02445055878013\nYear: 2003 | Value: 0.999847904782733\nYear: 2004 | Value: 0.969589431962946\nYear: 2005 | Value: 0.928402391177897\nYear: 2006 | Value: 1.32258336381927\nYear: 2007 | Value: 1.76779845772365\nYear: 2008 | Value: 1.82745521345807\nYear: 2009 | Value: 1.49648723830416\nYear: 2010 | Value: 1.14440259659988\nYear: 2011 | Value: 1.15183406119192\nYear: 2012 | Value: 1.1709874078049\nYear: 2013 | Value: 1.1802975549343\nYear: 2014 | Value: 1.21423463554626\nYear: 2015 | Value: 1.23975403093124\nYear: 2016 | Value: 1.25988366517733\nYear: 2017 | Value: 1.24420473643635\nYear: 2018 | Value: 1.10791395242199\nYear: 2019 | Value: 0.968366698803348\nYear: 2020 | Value: 0.927434295850725\nYear: 2021 | Value: 0.868883560805873\nYear: 2022 | Value: 0.750756665157789",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ed78144a2ebed03ce03b490207cd2646",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bc91fe086ef1be5352dba0b01094e04b"
+    ],
+    "create_time": 1774867018,
+    "update_time": 1774867025,
+    "_id": "chunk-ed78144a2ebed03ce03b490207cd2646"
+  }
+}

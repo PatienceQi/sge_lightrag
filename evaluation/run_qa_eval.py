@@ -14,8 +14,8 @@ independent of LightRAG's internal query pipeline quirks.
 
 Usage:
     python3 evaluation/run_qa_eval.py \
-        --questions evaluation/qa_questions.jsonl \
-        --output evaluation/qa_results.json \
+        --questions evaluation/gold/qa_questions.jsonl \
+        --output evaluation/results/qa_results.json \
         --verbose
 """
 
@@ -306,7 +306,7 @@ async def run_eval(questions_path: str, output_path: str | None, verbose: bool):
 
 def main():
     parser = argparse.ArgumentParser(description="Downstream QA evaluation for SGE-LightRAG")
-    parser.add_argument("--questions", default="evaluation/qa_questions.jsonl")
+    parser.add_argument("--questions", default="evaluation/gold/qa_questions.jsonl")
     parser.add_argument("--output", "-o", default=None)
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()

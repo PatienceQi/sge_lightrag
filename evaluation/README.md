@@ -4,10 +4,11 @@
 
 本目录包含 SGE-LightRAG 的完整评估框架，支持：
 - **EC/FC 信息覆盖率评估**（子串匹配 + 2-hop 邻居搜索）
-- **v2 Gold Standard**（4 个国际数据集 × 25 国 × 150 事实 = 600 事实 + 116 本地事实 = 716 总事实）
+- **v2 Gold Standard**（4 个国际数据集 × 25 国 × 150 事实 = 600 事实 + 102 本地价值事实 = 702 总事实）
 - **Bootstrap 95% 置信区间**（n=1000 次重采样）
-- **下游 QA 评估**（60 题：47 直接 + 13 推理）
-- **Direct LLM 基线对比**
+- **Wilcoxon signed-rank 检验**（Bonferroni 校正 k=4 + 效应量 r）
+- **下游 QA 评估**（100 题：67 直接 + 33 推理，含直接图谱上下文 + E2E LightRAG 查询两种模式）
+- **Direct LLM 基线对比**（非等量评估，仅供定性参考）
 
 ---
 
@@ -21,7 +22,7 @@
 | `evaluate_coverage.py` | EC/FC 信息覆盖率评估（子串匹配 + 2-hop） |
 | `generate_gold_standards.py` | v2 Gold Standard 自动生成（从 CSV 直接提取） |
 | `run_evaluations_v2.py` | v2 全量评估 + Bootstrap CI + 结果汇总 |
-| `run_qa_eval.py` | 下游 QA 评估（60 题，含推理型） |
+| `run_qa_eval.py` | 下游 QA 评估（100 题，直接图谱上下文检索） |
 | `run_all_evaluations.py` | 批量评估所有数据集 |
 | `direct_llm_baseline.py` | Direct LLM 基线（直接喂 CSV 给 LLM 提取三元组） |
 | `graph_loaders.py` | GraphML/JSON 图谱加载与解析 |
@@ -52,8 +53,9 @@ v2 Gold Standard 直接从实验用 CSV 生成（`generate_gold_standards.py`）
 
 | 文件 | 说明 |
 |------|------|
-| `qa_questions.jsonl` | 60 题 QA 问题集（47 直接 + 13 推理） |
-| `qa_results_v2.json` | v2 评估结果 |
+| `qa_questions.jsonl` | 100 题 QA 问题集（67 直接 + 19 比较 + 14 趋势） |
+| `qa_results_v2.json` | v2 评估结果（60 题，已被 v3 取代） |
+| `qa_results_v3_100q.json` | **权威** v3 评估结果（100 题：SGE 93%, Baseline 59%） |
 
 ### 评估结果
 
@@ -133,4 +135,6 @@ python3 evaluation/evaluate.py \
 | WB 产妇死亡率 | 0.967 | 0.787 | 1.23× | 无重叠 ✓ |
 | 住院统计 | 0.938 | 0.438 | 2.14× | Fisher p≈0.003 ✓ |
 
-QA：SGE 95%（57/60）vs Baseline 60%（36/60），推理题 SGE 100%（13/13）。
+QA（直接图谱上下文）：SGE 93%（93/100）vs Baseline 59%（59/100），趋势题 SGE 86% vs Baseline 36%。
+E2E LightRAG 查询：SGE 13% vs Baseline 13%（Δ=0）——向量检索瓶颈。
+Wilcoxon（Bonferroni k=4）：全部 4 个国际数据集 p_Bonf < 0.05，效应量 r ≥ 0.80（large）。

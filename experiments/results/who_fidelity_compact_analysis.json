@@ -1,0 +1,1775 @@
+{
+  "metadata": {
+    "description": "WHO Life Expectancy: mapping 24 QA questions to Gold facts, analyzing Baseline coverage of question dependencies, and constructing SGE-exclusive targeted test questions.",
+    "gold_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/evaluation/gold_who_life_expectancy_v2.jsonl",
+    "baseline_graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_who_life/lightrag_storage/graph_chunk_entity_relation.graphml",
+    "sge_graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/who_life_expectancy/lightrag_storage/graph_chunk_entity_relation.graphml",
+    "total_gold_facts": 150
+  },
+  "baseline_coverage_analysis": {
+    "baseline_fc": 0.1667,
+    "baseline_covered_count": 25,
+    "baseline_uncovered_count": 125,
+    "uncovered_reasons": {
+      "value_not_found": 111,
+      "entity_not_found": 12,
+      "year_not_found": 2
+    },
+    "baseline_covered_facts": [
+      {
+        "country": "AUS",
+        "country_name": "Australia",
+        "year": "2000",
+        "value": "79.69"
+      },
+      {
+        "country": "AUS",
+        "country_name": "Australia",
+        "year": "2010",
+        "value": "81.91"
+      },
+      {
+        "country": "AUS",
+        "country_name": "Australia",
+        "year": "2021",
+        "value": "83.10"
+      },
+      {
+        "country": "BGD",
+        "country_name": "Bangladesh",
+        "year": "2000",
+        "value": "65.36"
+      },
+      {
+        "country": "BGD",
+        "country_name": "Bangladesh",
+        "year": "2021",
+        "value": "73.10"
+      },
+      {
+        "country": "CAN",
+        "country_name": "Canada",
+        "year": "2021",
+        "value": "81.58"
+      },
+      {
+        "country": "DEU",
+        "country_name": "Germany",
+        "year": "2019",
+        "value": "80.97"
+      },
+      {
+        "country": "DEU",
+        "country_name": "Germany",
+        "year": "2021",
+        "value": "80.49"
+      },
+      {
+        "country": "ESP",
+        "country_name": "Spain",
+        "year": "2000",
+        "value": "79.09"
+      },
+      {
+        "country": "FRA",
+        "country_name": "France",
+        "year": "2000",
+        "value": "78.91"
+      },
+      {
+        "country": "GBR",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "year": "2021",
+        "value": "80.10"
+      },
+      {
+        "country": "IDN",
+        "country_name": "Indonesia",
+        "year": "2019",
+        "value": "71.40"
+      },
+      {
+        "country": "IDN",
+        "country_name": "Indonesia",
+        "year": "2021",
+        "value": "68.26"
+      },
+      {
+        "country": "JPN",
+        "country_name": "Japan",
+        "year": "2000",
+        "value": "81.53"
+      },
+      {
+        "country": "JPN",
+        "country_name": "Japan",
+        "year": "2019",
+        "value": "84.46"
+      },
+      {
+        "country": "JPN",
+        "country_name": "Japan",
+        "year": "2021",
+        "value": "84.46"
+      },
+      {
+        "country": "MEX",
+        "country_name": "Mexico",
+        "year": "2021",
+        "value": "70.83"
+      },
+      {
+        "country": "PAK",
+        "country_name": "Pakistan",
+        "year": "2010",
+        "value": "64.14"
+      },
+      {
+        "country": "PAK",
+        "country_name": "Pakistan",
+        "year": "2021",
+        "value": "65.99"
+      },
+      {
+        "country": "SAU",
+        "country_name": "Saudi Arabia",
+        "year": "2000",
+        "value": "70.56"
+      },
+      {
+        "country": "THA",
+        "country_name": "Thailand",
+        "year": "2000",
+        "value": "71.01"
+      },
+      {
+        "country": "THA",
+        "country_name": "Thailand",
+        "year": "2010",
+        "value": "75.29"
+      },
+      {
+        "country": "THA",
+        "country_name": "Thailand",
+        "year": "2019",
+        "value": "76.92"
+      },
+      {
+        "country": "THA",
+        "country_name": "Thailand",
+        "year": "2021",
+        "value": "75.29"
+      },
+      {
+        "country": "TUR",
+        "country_name": "Türkiye",
+        "year": "2000",
+        "value": "73.31"
+      }
+    ]
+  },
+  "sge_coverage_analysis": {
+    "sge_fc": 1.0,
+    "sge_covered_count": 150,
+    "sge_exclusive_count": 125
+  },
+  "question_fact_mapping": [
+    {
+      "question_id": "who_01",
+      "question_text": "What was China's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "CHN",
+      "year": "2021",
+      "expected_value": "77.61",
+      "dependent_gold_facts": [
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2021",
+          "value": "77.61",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_02",
+      "question_text": "What was Japan's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "JPN",
+      "year": "2021",
+      "expected_value": "84.46",
+      "dependent_gold_facts": [
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2021",
+          "value": "84.46",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": true
+    },
+    {
+      "question_id": "who_03",
+      "question_text": "What was Brazil's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "BRA",
+      "year": "2021",
+      "expected_value": "72.3",
+      "dependent_gold_facts": [
+        {
+          "country": "BRA",
+          "country_name": "Brazil",
+          "year": "2021",
+          "value": "72.38",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_04",
+      "question_text": "What was the United Kingdom's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "GBR",
+      "year": "2021",
+      "expected_value": "80.10",
+      "dependent_gold_facts": [
+        {
+          "country": "GBR",
+          "country_name": "United Kingdom of Great Britain and Northern Ireland",
+          "year": "2021",
+          "value": "80.10",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": true
+    },
+    {
+      "question_id": "who_05",
+      "question_text": "What was France's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "FRA",
+      "year": "2021",
+      "expected_value": "81.92",
+      "dependent_gold_facts": [
+        {
+          "country": "FRA",
+          "country_name": "France",
+          "year": "2021",
+          "value": "81.92",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_06",
+      "question_text": "What was Germany's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "DEU",
+      "year": "2021",
+      "expected_value": "80.49",
+      "dependent_gold_facts": [
+        {
+          "country": "DEU",
+          "country_name": "Germany",
+          "year": "2021",
+          "value": "80.49",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": true
+    },
+    {
+      "question_id": "who_07",
+      "question_text": "What was the United States' life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "USA",
+      "year": "2021",
+      "expected_value": "76.37",
+      "dependent_gold_facts": [
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2021",
+          "value": "76.37",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_08",
+      "question_text": "What was India's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "IND",
+      "year": "2021",
+      "expected_value": "67.3",
+      "dependent_gold_facts": [
+        {
+          "country": "IND",
+          "country_name": "India",
+          "year": "2021",
+          "value": "67.30",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_09",
+      "question_text": "What was China's life expectancy at birth in 2000?",
+      "type": "direct",
+      "entity": "CHN",
+      "year": "2000",
+      "expected_value": "70.83",
+      "dependent_gold_facts": [
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2000",
+          "value": "70.83",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_10",
+      "question_text": "What was the United States' life expectancy at birth in 2019?",
+      "type": "direct",
+      "entity": "USA",
+      "year": "2019",
+      "expected_value": "78.73",
+      "dependent_gold_facts": [
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2019",
+          "value": "78.73",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_r01",
+      "question_text": "Between China and India, which country had higher life expectancy at birth in 2021?",
+      "type": "comparison",
+      "entity": "CHN",
+      "year": "2021",
+      "expected_value": "China",
+      "dependent_gold_facts": [
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2021",
+          "value": "77.61",
+          "baseline_covers": false
+        },
+        {
+          "country": "IND",
+          "country_name": "India",
+          "year": "2021",
+          "value": "67.30",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_r02",
+      "question_text": "Between France and Germany, which country had higher life expectancy at birth in 2021?",
+      "type": "comparison",
+      "entity": "FRA",
+      "year": "2021",
+      "expected_value": "France",
+      "dependent_gold_facts": [
+        {
+          "country": "FRA",
+          "country_name": "France",
+          "year": "2021",
+          "value": "81.92",
+          "baseline_covers": false
+        },
+        {
+          "country": "DEU",
+          "country_name": "Germany",
+          "year": "2021",
+          "value": "80.49",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_r03",
+      "question_text": "Did the United States' life expectancy decrease from 2019 to 2021?",
+      "type": "trend",
+      "entity": "USA",
+      "year": "2021",
+      "expected_value": "yes",
+      "dependent_gold_facts": [
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2000",
+          "value": "76.65",
+          "baseline_covers": false
+        },
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2005",
+          "value": "77.38",
+          "baseline_covers": false
+        },
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2010",
+          "value": "78.60",
+          "baseline_covers": false
+        },
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2015",
+          "value": "78.61",
+          "baseline_covers": false
+        },
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2019",
+          "value": "78.73",
+          "baseline_covers": false
+        },
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2021",
+          "value": "76.37",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 6,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_r04",
+      "question_text": "Between the United Kingdom and the United States, which country had higher life expectancy in 2021?",
+      "type": "comparison",
+      "entity": "GBR",
+      "year": "",
+      "expected_value": "United Kingdom",
+      "dependent_gold_facts": [
+        {
+          "country": "USA",
+          "country_name": "United States of America",
+          "year": "2021",
+          "value": "76.37",
+          "baseline_covers": false
+        },
+        {
+          "country": "GBR",
+          "country_name": "United Kingdom of Great Britain and Northern Ireland",
+          "year": "2021",
+          "value": "80.10",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_11",
+      "question_text": "What was Australia's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "AUS",
+      "year": "2021",
+      "expected_value": "83.10",
+      "dependent_gold_facts": [
+        {
+          "country": "AUS",
+          "country_name": "Australia",
+          "year": "2021",
+          "value": "83.10",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": true
+    },
+    {
+      "question_id": "who_12",
+      "question_text": "What was South Korea's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "KOR",
+      "year": "2021",
+      "expected_value": "83.79",
+      "dependent_gold_facts": [
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2021",
+          "value": "83.79",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_13",
+      "question_text": "What was Italy's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "ITA",
+      "year": "2021",
+      "expected_value": "82.19",
+      "dependent_gold_facts": [
+        {
+          "country": "ITA",
+          "country_name": "Italy",
+          "year": "2021",
+          "value": "82.19",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "who_14",
+      "question_text": "What was Spain's life expectancy at birth in 2021?",
+      "type": "direct",
+      "entity": "ESP",
+      "year": "2021",
+      "expected_value": "82.66",
+      "dependent_gold_facts": [
+        {
+          "country": "ESP",
+          "country_name": "Spain",
+          "year": "2021",
+          "value": "82.66",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 1,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "comp_01",
+      "question_text": "Between Japan and Italy, which country had higher life expectancy at birth in 2021?",
+      "type": "comparison",
+      "entity": "JPN",
+      "year": "2021",
+      "expected_value": "Japan",
+      "dependent_gold_facts": [
+        {
+          "country": "ITA",
+          "country_name": "Italy",
+          "year": "2021",
+          "value": "82.19",
+          "baseline_covers": false
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2021",
+          "value": "84.46",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "comp_02",
+      "question_text": "Between South Korea and the United Kingdom, which country had higher life expectancy at birth in 202",
+      "type": "comparison",
+      "entity": "KOR",
+      "year": "2021",
+      "expected_value": "South Korea",
+      "dependent_gold_facts": [
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2021",
+          "value": "83.79",
+          "baseline_covers": false
+        },
+        {
+          "country": "GBR",
+          "country_name": "United Kingdom of Great Britain and Northern Ireland",
+          "year": "2021",
+          "value": "80.10",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "comp_07",
+      "question_text": "Between Russia and Brazil, which country had higher life expectancy at birth in 2021?",
+      "type": "comparison",
+      "entity": "BRA",
+      "year": "2021",
+      "expected_value": "Brazil",
+      "dependent_gold_facts": [
+        {
+          "country": "BRA",
+          "country_name": "Brazil",
+          "year": "2021",
+          "value": "72.38",
+          "baseline_covers": false
+        },
+        {
+          "country": "RUS",
+          "country_name": "Russian Federation",
+          "year": "2021",
+          "value": "70.01",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 2,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "trend_01",
+      "question_text": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "type": "trend",
+      "entity": "CHN",
+      "year": "2021",
+      "expected_value": "yes",
+      "dependent_gold_facts": [
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2000",
+          "value": "70.83",
+          "baseline_covers": false
+        },
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2005",
+          "value": "72.44",
+          "baseline_covers": false
+        },
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2010",
+          "value": "74.65",
+          "baseline_covers": false
+        },
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2015",
+          "value": "76.51",
+          "baseline_covers": false
+        },
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2019",
+          "value": "77.31",
+          "baseline_covers": false
+        },
+        {
+          "country": "CHN",
+          "country_name": "China",
+          "year": "2021",
+          "value": "77.61",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 6,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "trend_02",
+      "question_text": "Did South Korea's life expectancy at birth increase from 2000 to 2021?",
+      "type": "trend",
+      "entity": "KOR",
+      "year": "2021",
+      "expected_value": "yes",
+      "dependent_gold_facts": [
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2000",
+          "value": "75.85",
+          "baseline_covers": false
+        },
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2005",
+          "value": "78.37",
+          "baseline_covers": false
+        },
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2010",
+          "value": "80.53",
+          "baseline_covers": false
+        },
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2015",
+          "value": "82.40",
+          "baseline_covers": false
+        },
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2019",
+          "value": "83.68",
+          "baseline_covers": false
+        },
+        {
+          "country": "KOR",
+          "country_name": "Republic of Korea",
+          "year": "2021",
+          "value": "83.79",
+          "baseline_covers": false
+        }
+      ],
+      "num_deps": 6,
+      "baseline_covers_all_deps": false
+    },
+    {
+      "question_id": "trend_07",
+      "question_text": "Did Japan's life expectancy at birth consistently increase from 2000 to 2019?",
+      "type": "trend",
+      "entity": "JPN",
+      "year": "2019",
+      "expected_value": "yes",
+      "dependent_gold_facts": [
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2000",
+          "value": "81.53",
+          "baseline_covers": true
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2005",
+          "value": "82.23",
+          "baseline_covers": false
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2010",
+          "value": "83.08",
+          "baseline_covers": false
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2015",
+          "value": "83.99",
+          "baseline_covers": false
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2019",
+          "value": "84.46",
+          "baseline_covers": true
+        },
+        {
+          "country": "JPN",
+          "country_name": "Japan",
+          "year": "2021",
+          "value": "84.46",
+          "baseline_covers": true
+        }
+      ],
+      "num_deps": 6,
+      "baseline_covers_all_deps": false
+    }
+  ],
+  "question_dependency_summary": {
+    "total_who_questions": 24,
+    "baseline_covers_all_deps": 4,
+    "baseline_missing_deps": 20,
+    "pct_questions_fully_covered_by_baseline": 16.7,
+    "claim_verified": false,
+    "explanation": "Of 24 WHO questions, 4 have ALL their Gold fact dependencies covered by Baseline's graph (FC=0.167). 20 questions depend on ≥1 fact NOT in Baseline's graph."
+  },
+  "sge_exclusive_facts": [
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2000",
+      "value": "74.28"
+    },
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2005",
+      "value": "75.25"
+    },
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2010",
+      "value": "75.76"
+    },
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2015",
+      "value": "76.53"
+    },
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2019",
+      "value": "77.01"
+    },
+    {
+      "country": "ARG",
+      "country_name": "Argentina",
+      "year": "2021",
+      "value": "74.56"
+    },
+    {
+      "country": "AUS",
+      "country_name": "Australia",
+      "year": "2005",
+      "value": "80.84"
+    },
+    {
+      "country": "AUS",
+      "country_name": "Australia",
+      "year": "2015",
+      "value": "82.28"
+    },
+    {
+      "country": "AUS",
+      "country_name": "Australia",
+      "year": "2019",
+      "value": "82.64"
+    },
+    {
+      "country": "BGD",
+      "country_name": "Bangladesh",
+      "year": "2005",
+      "value": "67.78"
+    },
+    {
+      "country": "BGD",
+      "country_name": "Bangladesh",
+      "year": "2010",
+      "value": "70.06"
+    },
+    {
+      "country": "BGD",
+      "country_name": "Bangladesh",
+      "year": "2015",
+      "value": "73.19"
+    },
+    {
+      "country": "BGD",
+      "country_name": "Bangladesh",
+      "year": "2019",
+      "value": "73.94"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2000",
+      "value": "71.49"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2005",
+      "value": "73.14"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2010",
+      "value": "73.92"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2015",
+      "value": "74.71"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2019",
+      "value": "75.47"
+    },
+    {
+      "country": "BRA",
+      "country_name": "Brazil",
+      "year": "2021",
+      "value": "72.38"
+    },
+    {
+      "country": "CAN",
+      "country_name": "Canada",
+      "year": "2000",
+      "value": "79.08"
+    },
+    {
+      "country": "CAN",
+      "country_name": "Canada",
+      "year": "2005",
+      "value": "79.95"
+    },
+    {
+      "country": "CAN",
+      "country_name": "Canada",
+      "year": "2010",
+      "value": "81.14"
+    },
+    {
+      "country": "CAN",
+      "country_name": "Canada",
+      "year": "2015",
+      "value": "81.64"
+    },
+    {
+      "country": "CAN",
+      "country_name": "Canada",
+      "year": "2019",
+      "value": "82.02"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2000",
+      "value": "70.83"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2005",
+      "value": "72.44"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2010",
+      "value": "74.65"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2015",
+      "value": "76.51"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2019",
+      "value": "77.31"
+    },
+    {
+      "country": "CHN",
+      "country_name": "China",
+      "year": "2021",
+      "value": "77.61"
+    },
+    {
+      "country": "DEU",
+      "country_name": "Germany",
+      "year": "2000",
+      "value": "78.10"
+    },
+    {
+      "country": "DEU",
+      "country_name": "Germany",
+      "year": "2005",
+      "value": "79.20"
+    },
+    {
+      "country": "DEU",
+      "country_name": "Germany",
+      "year": "2010",
+      "value": "80.18"
+    },
+    {
+      "country": "DEU",
+      "country_name": "Germany",
+      "year": "2015",
+      "value": "80.42"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2000",
+      "value": "69.14"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2005",
+      "value": "69.52"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2010",
+      "value": "69.83"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2015",
+      "value": "70.05"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2019",
+      "value": "71.58"
+    },
+    {
+      "country": "EGY",
+      "country_name": "Egypt",
+      "year": "2021",
+      "value": "69.10"
+    },
+    {
+      "country": "ESP",
+      "country_name": "Spain",
+      "year": "2005",
+      "value": "80.00"
+    },
+    {
+      "country": "ESP",
+      "country_name": "Spain",
+      "year": "2010",
+      "value": "81.69"
+    },
+    {
+      "country": "ESP",
+      "country_name": "Spain",
+      "year": "2015",
+      "value": "82.32"
+    },
+    {
+      "country": "ESP",
+      "country_name": "Spain",
+      "year": "2019",
+      "value": "83.13"
+    },
+    {
+      "country": "ESP",
+      "country_name": "Spain",
+      "year": "2021",
+      "value": "82.66"
+    },
+    {
+      "country": "FRA",
+      "country_name": "France",
+      "year": "2005",
+      "value": "80.00"
+    },
+    {
+      "country": "FRA",
+      "country_name": "France",
+      "year": "2010",
+      "value": "81.22"
+    },
+    {
+      "country": "FRA",
+      "country_name": "France",
+      "year": "2015",
+      "value": "81.90"
+    },
+    {
+      "country": "FRA",
+      "country_name": "France",
+      "year": "2019",
+      "value": "82.52"
+    },
+    {
+      "country": "FRA",
+      "country_name": "France",
+      "year": "2021",
+      "value": "81.92"
+    },
+    {
+      "country": "GBR",
+      "country_name": "United Kingdom of Great Britain and Northern Ireland",
+      "year": "2000",
+      "value": "77.85"
+    },
+    {
+      "country": "GBR",
+      "country_name": "United Kingdom of Great Britain and Northern Ireland",
+      "year": "2005",
+      "value": "78.91"
+    },
+    {
+      "country": "GBR",
+      "country_name": "United Kingdom of Great Britain and Northern Ireland",
+      "year": "2010",
+      "value": "80.25"
+    },
+    {
+      "country": "GBR",
+      "country_name": "United Kingdom of Great Britain and Northern Ireland",
+      "year": "2015",
+      "value": "80.65"
+    },
+    {
+      "country": "GBR",
+      "country_name": "United Kingdom of Great Britain and Northern Ireland",
+      "year": "2019",
+      "value": "81.22"
+    },
+    {
+      "country": "IDN",
+      "country_name": "Indonesia",
+      "year": "2000",
+      "value": "67.20"
+    },
+    {
+      "country": "IDN",
+      "country_name": "Indonesia",
+      "year": "2005",
+      "value": "68.23"
+    },
+    {
+      "country": "IDN",
+      "country_name": "Indonesia",
+      "year": "2010",
+      "value": "69.23"
+    },
+    {
+      "country": "IDN",
+      "country_name": "Indonesia",
+      "year": "2015",
+      "value": "70.53"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2000",
+      "value": "63.19"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2005",
+      "value": "65.53"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2010",
+      "value": "67.48"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2015",
+      "value": "69.37"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2019",
+      "value": "70.72"
+    },
+    {
+      "country": "IND",
+      "country_name": "India",
+      "year": "2021",
+      "value": "67.30"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2000",
+      "value": "79.36"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2005",
+      "value": "80.51"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2010",
+      "value": "81.89"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2015",
+      "value": "82.20"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2019",
+      "value": "82.98"
+    },
+    {
+      "country": "ITA",
+      "country_name": "Italy",
+      "year": "2021",
+      "value": "82.19"
+    },
+    {
+      "country": "JPN",
+      "country_name": "Japan",
+      "year": "2005",
+      "value": "82.23"
+    },
+    {
+      "country": "JPN",
+      "country_name": "Japan",
+      "year": "2010",
+      "value": "83.08"
+    },
+    {
+      "country": "JPN",
+      "country_name": "Japan",
+      "year": "2015",
+      "value": "83.99"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2000",
+      "value": "75.85"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2005",
+      "value": "78.37"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2010",
+      "value": "80.53"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2015",
+      "value": "82.40"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2019",
+      "value": "83.68"
+    },
+    {
+      "country": "KOR",
+      "country_name": "Republic of Korea",
+      "year": "2021",
+      "value": "83.79"
+    },
+    {
+      "country": "MEX",
+      "country_name": "Mexico",
+      "year": "2000",
+      "value": "74.21"
+    },
+    {
+      "country": "MEX",
+      "country_name": "Mexico",
+      "year": "2005",
+      "value": "74.92"
+    },
+    {
+      "country": "MEX",
+      "country_name": "Mexico",
+      "year": "2010",
+      "value": "74.95"
+    },
+    {
+      "country": "MEX",
+      "country_name": "Mexico",
+      "year": "2015",
+      "value": "75.93"
+    },
+    {
+      "country": "MEX",
+      "country_name": "Mexico",
+      "year": "2019",
+      "value": "75.83"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2000",
+      "value": "54.05"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2005",
+      "value": "56.91"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2010",
+      "value": "59.78"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2015",
+      "value": "61.73"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2019",
+      "value": "63.06"
+    },
+    {
+      "country": "NGA",
+      "country_name": "Nigeria",
+      "year": "2021",
+      "value": "63.39"
+    },
+    {
+      "country": "PAK",
+      "country_name": "Pakistan",
+      "year": "2000",
+      "value": "61.40"
+    },
+    {
+      "country": "PAK",
+      "country_name": "Pakistan",
+      "year": "2005",
+      "value": "61.99"
+    },
+    {
+      "country": "PAK",
+      "country_name": "Pakistan",
+      "year": "2015",
+      "value": "65.69"
+    },
+    {
+      "country": "PAK",
+      "country_name": "Pakistan",
+      "year": "2019",
+      "value": "67.02"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2000",
+      "value": "65.15"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2005",
+      "value": "65.18"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2010",
+      "value": "68.82"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2015",
+      "value": "71.29"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2019",
+      "value": "73.21"
+    },
+    {
+      "country": "RUS",
+      "country_name": "Russian Federation",
+      "year": "2021",
+      "value": "70.01"
+    },
+    {
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "year": "2005",
+      "value": "71.81"
+    },
+    {
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "year": "2010",
+      "value": "74.89"
+    },
+    {
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "year": "2015",
+      "value": "76.88"
+    },
+    {
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "year": "2019",
+      "value": "76.93"
+    },
+    {
+      "country": "SAU",
+      "country_name": "Saudi Arabia",
+      "year": "2021",
+      "value": "76.42"
+    },
+    {
+      "country": "THA",
+      "country_name": "Thailand",
+      "year": "2005",
+      "value": "72.83"
+    },
+    {
+      "country": "THA",
+      "country_name": "Thailand",
+      "year": "2015",
+      "value": "76.97"
+    },
+    {
+      "country": "TUR",
+      "country_name": "Türkiye",
+      "year": "2005",
+      "value": "76.19"
+    },
+    {
+      "country": "TUR",
+      "country_name": "Türkiye",
+      "year": "2010",
+      "value": "76.50"
+    },
+    {
+      "country": "TUR",
+      "country_name": "Türkiye",
+      "year": "2015",
+      "value": "76.68"
+    },
+    {
+      "country": "TUR",
+      "country_name": "Türkiye",
+      "year": "2019",
+      "value": "77.61"
+    },
+    {
+      "country": "TUR",
+      "country_name": "Türkiye",
+      "year": "2021",
+      "value": "75.27"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2000",
+      "value": "76.65"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2005",
+      "value": "77.38"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2010",
+      "value": "78.60"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2015",
+      "value": "78.61"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2019",
+      "value": "78.73"
+    },
+    {
+      "country": "USA",
+      "country_name": "United States of America",
+      "year": "2021",
+      "value": "76.37"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2000",
+      "value": "57.11"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2005",
+      "value": "52.03"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2010",
+      "value": "57.09"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2015",
+      "value": "63.26"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2019",
+      "value": "65.83"
+    },
+    {
+      "country": "ZAF",
+      "country_name": "South Africa",
+      "year": "2021",
+      "value": "61.49"
+    }
+  ],
+  "sge_exclusive_test_questions": [
+    {
+      "id": "sge_excl_01",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Argentina in 2000?",
+      "expected_value": "74.28",
+      "entity": "ARG",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_02",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Argentina in 2005?",
+      "expected_value": "75.25",
+      "entity": "ARG",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_03",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Australia in 2005?",
+      "expected_value": "80.84",
+      "entity": "AUS",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_04",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Australia in 2015?",
+      "expected_value": "82.28",
+      "entity": "AUS",
+      "year": "2015",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_05",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Bangladesh in 2005?",
+      "expected_value": "67.78",
+      "entity": "BGD",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_06",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Bangladesh in 2010?",
+      "expected_value": "70.06",
+      "entity": "BGD",
+      "year": "2010",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_07",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Brazil in 2000?",
+      "expected_value": "71.49",
+      "entity": "BRA",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_08",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Brazil in 2005?",
+      "expected_value": "73.14",
+      "entity": "BRA",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_09",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Canada in 2000?",
+      "expected_value": "79.08",
+      "entity": "CAN",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_10",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Canada in 2005?",
+      "expected_value": "79.95",
+      "entity": "CAN",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_11",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in China in 2000?",
+      "expected_value": "70.83",
+      "entity": "CHN",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_12",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in China in 2005?",
+      "expected_value": "72.44",
+      "entity": "CHN",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_13",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Germany in 2000?",
+      "expected_value": "78.10",
+      "entity": "DEU",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_14",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Germany in 2005?",
+      "expected_value": "79.20",
+      "entity": "DEU",
+      "year": "2005",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    },
+    {
+      "id": "sge_excl_15",
+      "dataset": "who",
+      "language": "en",
+      "question": "What was the life expectancy at birth in Egypt in 2000?",
+      "expected_value": "69.14",
+      "entity": "EGY",
+      "year": "2000",
+      "relation": "LIFE_EXPECTANCY",
+      "type": "direct",
+      "note": "Targets SGE-exclusive fact not covered by Baseline graph"
+    }
+  ],
+  "compact_graph_status": {
+    "sge_compact_exists": true,
+    "sge_compact_path": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/compact_who_realembed/lightrag_storage/graph_chunk_entity_relation.graphml",
+    "baseline_compact_exists": true,
+    "baseline_compact_path": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/compact_who_baseline_realembed/lightrag_storage/graph_chunk_entity_relation.graphml"
+  },
+  "compact_graph_coverage": {
+    "baseline_compact_fc": 0.0267,
+    "baseline_compact_covered": 4,
+    "baseline_compact_nodes": 220,
+    "sge_compact_fc": 0.64,
+    "sge_compact_covered": 96,
+    "sge_compact_nodes": 202,
+    "baseline_compact_chunks_total": 185,
+    "baseline_compact_chunks_with_numbers": 9,
+    "explanation": "Baseline compact QA 23/24 is explained by vector retrieval over raw text chunks containing full timeseries data, NOT by graph structure. The graph FC is only 0.027, but the text chunks contain all numeric values. LightRAG's hybrid query retrieves relevant chunks via embedding similarity, bypassing the graph."
+  }
+}

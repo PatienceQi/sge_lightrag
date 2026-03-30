@@ -1,0 +1,24 @@
+Entity: Thailand
+Year: 2000 | Value: 30529251.0
+Year: 2001 | Value: 33822931.02
+Year: 2002 | Value: 32806558.46
+Year: 2003 | Value: 34289394.42
+Year: 2004 | Value: 33405924.16
+Year: 2005 | Value: 34964181.01
+Year: 2006 | Value: 34133744.02
+Year: 2007 | Value: 36686811.91
+Year: 2008 | Value: 36598693.66
+Year: 2009 | Value: 37363714.6
+Year: 2010 | Value: 40933902.61
+Year: 2011 | Value: 43447714.68
+Year: 2012 | Value: 43438509.0
+Year: 2013 | Value: 42040227.0
+Year: 2014 | Value: 37855165.68
+Year: 2015 | Value: 32890604.99
+Year: 2016 | Value: 36677356.95
+Year: 2017 | Value: 38169115.77
+Year: 2018 | Value: 37857467.3
+Year: 2019 | Value: 33612281.85
+Year: 2020 | Value: 37210781.64
+Year: 2021 | Value: 38320298.67
+Year: 2022 | Value: 38829805.16

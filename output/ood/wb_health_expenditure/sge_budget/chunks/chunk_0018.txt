@@ -1,0 +1,24 @@
+Entity: Philippines
+Year: 2000 | Value: 3.05512357
+Year: 2001 | Value: 2.84775972
+Year: 2002 | Value: 2.63767385
+Year: 2003 | Value: 3.07663488
+Year: 2004 | Value: 3.0468533
+Year: 2005 | Value: 3.74253035
+Year: 2006 | Value: 3.77762938
+Year: 2007 | Value: 3.75318074
+Year: 2008 | Value: 3.86315918
+Year: 2009 | Value: 4.16451931
+Year: 2010 | Value: 4.13107872
+Year: 2011 | Value: 4.02518559
+Year: 2012 | Value: 4.17709208
+Year: 2013 | Value: 4.27408695
+Year: 2014 | Value: 3.70313668
+Year: 2015 | Value: 3.8982749
+Year: 2016 | Value: 3.95484328
+Year: 2017 | Value: 3.96042776
+Year: 2018 | Value: 3.9538188
+Year: 2019 | Value: 4.16646004
+Year: 2020 | Value: 5.16214037
+Year: 2021 | Value: 5.97500563
+Year: 2022 | Value: 5.15588379

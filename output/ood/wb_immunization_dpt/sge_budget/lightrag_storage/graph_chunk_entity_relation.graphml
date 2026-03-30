@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">country</data>
+  <data key="d2">南美洲国家</data>
+  <data key="d3">chunk-48d2dfbe8f44753fcfb908cc56a929b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867188</data>
+  <data key="d6"></data>
+</node>
+<node id="Australia">
+  <data key="d0">Australia</data>
+  <data key="d1">country</data>
+  <data key="d2">澳大利亚，时间序列数据中的国家实体</data>
+  <data key="d3">chunk-0e20ce99d4aef71e1d23a12bd1ffe53c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867194</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">country</data>
+  <data key="d2">南美洲国家，时间序列数据涵盖2000-2022年</data>
+  <data key="d3">chunk-43e4d24b69bd82aa875453b6c17e9f6a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867202</data>
+  <data key="d6"></data>
+</node>
+<node id="Canada">
+  <data key="d0">Canada</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-d48959d173294ed4afbfc3f8d468db1a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867208</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-2efae000fe43ebe2c06c641d97c8ea48</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867216</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-f39287e7f9a009d7ea5e38a396c519be</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867222</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">埃及阿拉伯共和国</data>
+  <data key="d3">chunk-41a6d9368f753a2a62ddaf57a2e3e05f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867228</data>
+  <data key="d6"></data>
+</node>
+<node id="France">
+  <data key="d0">France</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-a20e6b2cb99058e4e63941fea3851ade</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867234</data>
+  <data key="d6"></data>
+</node>
+<node id="Germany">
+  <data key="d0">Germany</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-aa3d12c6a537d0d525e565149bfc5097</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867244</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-eeb238903440a97366d7fce437c00f91</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867250</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-53d773da98086ad988f9df6b39042160</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867256</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">country</data>
+  <data key="d2">欧洲国家，时间序列数据涵盖2000-2022年</data>
+  <data key="d3">chunk-c0aa6229d274641cd3bbb062199f550d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867263</data>
+  <data key="d6"></data>
+</node>
+<node id="Japan">
+  <data key="d0">Japan</data>
+  <data key="d1">country</data>
+  <data key="d2">时间序列数据中的国家实体，涵盖2000年至2022年的数值记录</data>
+  <data key="d3">chunk-c0a88f99f7df80c56a78714b9b428996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867267</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">韩国，共和国</data>
+  <data key="d3">chunk-02360af6fd1770f915d7d42d903ac840</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867274</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-21aec8856270320c0be703d79eb04278</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867281</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867288</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">country</data>
+  <data key="d2">一个国家实体，包含2000年至2022年的时间序列数据</data>
+  <data key="d3">chunk-d56b8193dd0c6dcdb13b1916d4de5541</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867294</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">country</data>
+  <data key="d2">菲律宾，时间序列数据中的国家实体</data>
+  <data key="d3">chunk-e0435a523afa2753a5e8070d79b9a504</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867301</data>
+  <data key="d6"></data>
+</node>
+<node id="Poland">
+  <data key="d0">Poland</data>
+  <data key="d1">country</data>
+  <data key="d2">波兰，2000-2022年期间的时间序列数据</data>
+  <data key="d3">chunk-33e3aa9f4183309904fc677c9aa3380b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867308</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-eacfb943fd4ec60554a5818720b1d7d5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867314</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">country</data>
+  <data key="d2">时间序列数据中的国家实体</data>
+  <data key="d3">chunk-128efc7618a021ddc5f5f29d71ce070d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867321</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据从2000年到2022年</data>
+  <data key="d3">chunk-6d42573a5f55083f0eb09236fe1ee3c2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867349</data>
+  <data key="d6"></data>
+</node>
+<node id="United Kingdom">
+  <data key="d0">United Kingdom</data>
+  <data key="d1">country</data>
+  <data key="d2">时间序列数据中的国家实体</data>
+  <data key="d3">chunk-86b1614b05e985a36b8ba765653bdd88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867358</data>
+  <data key="d6"></data>
+</node>
+<node id="United States">
+  <data key="d0">United States</data>
+  <data key="d1">country</data>
+  <data key="d2">美国，2000-2022年期间的时间序列数据</data>
+  <data key="d3">chunk-d58da39fac9421adb216ac4a61b713ff</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867365</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">country</data>
+  <data key="d2">越南，时间序列数据涵盖2000年至2022年</data>
+  <data key="d3">chunk-7f49a93e70f8c127dcc6cee9753f47da</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774867372</data>
+  <data key="d6"></data>
+</node>
+</graph></graphml>

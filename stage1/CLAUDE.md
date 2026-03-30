@@ -49,7 +49,7 @@ Rule 3 (Type-I):   Default fallback
 
 **Completeness**: Every CSV maps to exactly one type (Rule 3 is catch-all).
 
-**Accuracy**: 100% on all 27 test files (human-verified).
+**Accuracy**: 100% on all 33 test files (in-sample, human-verified). Generalization to new domains (e.g., industrial sensor data, financial time series) requires blind test set validation.
 
 ## Meta-Schema Output (schema.py)
 

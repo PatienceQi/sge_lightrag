@@ -1,0 +1,37 @@
+{
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_gdp_growth.csv",
+  "output_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp",
+  "timestamp": "2026-03-30T17:07:33.292570",
+  "stages": {
+    "stage1": {
+      "table_type": "Time-Series-Matrix",
+      "column_count": 24,
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp/meta_schema.json"
+    },
+    "stage2": {
+      "mode": "rule",
+      "entity_types": [
+        "Country"
+      ],
+      "relation_types": [
+        "HAS_VALUE",
+        "HAS_METRIC"
+      ],
+      "output_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp/extraction_schema.json"
+    },
+    "stage3": {
+      "chunk_count": 25,
+      "chunks_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp/chunks",
+      "system_prompt_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp/prompts/system_prompt.txt",
+      "user_prompt_template_file": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_test_gdp/prompts/user_prompt_template.txt",
+      "lightrag_entity_types": [
+        "Country"
+      ],
+      "lightrag_addon_params_keys": [
+        "language",
+        "entity_types",
+        "schema_json"
+      ]
+    }
+  }
+}

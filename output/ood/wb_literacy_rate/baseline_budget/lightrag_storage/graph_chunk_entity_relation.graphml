@@ -1,0 +1,997 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">location</data>
+  <data key="d2">Argentina is a country with recorded values of 97.19 in 2001 and 99.14 in 2020.</data>
+  <data key="d3">chunk-a587d74d071e517c0bffe6271889401e&lt;SEP&gt;chunk-55613456de3c776029fd46f2912f66c6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866588</data>
+  <data key="d6"></data>
+</node>
+<node id="2001">
+  <data key="d0">2001</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2001 marks a data point for Argentina with a value of 97.1900024414062.</data>
+  <data key="d3">chunk-55613456de3c776029fd46f2912f66c6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866588</data>
+  <data key="d6"></data>
+</node>
+<node id="2020">
+  <data key="d0">2020</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2020 marks a data point for Argentina with a value of 99.1399993896484.&lt;SEP&gt;The year 2020 with a recorded value of 96.0 for Indonesia.&lt;SEP&gt;Year 2020 with a recorded value of 98.4700012207031 for Philippines.</data>
+  <data key="d3">chunk-55613456de3c776029fd46f2912f66c6&lt;SEP&gt;chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">location</data>
+  <data key="d2">Brazil is a country with recorded data values spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec&lt;SEP&gt;chunk-ea36a66b1427a286cbfe668ae870be9d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866596</data>
+  <data key="d6"></data>
+</node>
+<node id="Baseline Data">
+  <data key="d0">Baseline Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Baseline Data represents a series of numerical values associated with Brazil across multiple years from 2000 to 2022.&lt;SEP&gt;基线数据包含埃及阿拉伯共和国从2005年到2022年的年度数值记录。&lt;SEP&gt;Baseline Data represents a series of measurements or indicators for India across multiple years from 2001 to 2022.&lt;SEP&gt;Baseline Data represents a series of measurements or indicators for Malaysia across multiple years from 2000 to 2022.&lt;SEP&gt;Baseline Data represents a series of measurements or indices for Thailand across multiple years from 2000 to 2022.</data>
+  <data key="d3">chunk-ea36a66b1427a286cbfe668ae870be9d&lt;SEP&gt;chunk-5c896aab86270ae8f185394e69e882a9&lt;SEP&gt;chunk-a1ff1aed2c6e22213cbf5530278f7c6b&lt;SEP&gt;chunk-e103447bf84c757323f3069123d10007&lt;SEP&gt;chunk-4a21dfe644d003d763b0e959b5d2d60d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866706</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">location</data>
+  <data key="d2">中国是一个国家，在2000年、2010年和2020年期间有相关数据记录。</data>
+  <data key="d3">chunk-1267d1065a26ee664937ddfda435e939&lt;SEP&gt;chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866605</data>
+  <data key="d6"></data>
+</node>
+<node id="2000年">
+  <data key="d0">2000年</data>
+  <data key="d1">event</data>
+  <data key="d2">2000年是一个时间点，中国的数值为90.9199981689453。</data>
+  <data key="d3">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866605</data>
+  <data key="d6"></data>
+</node>
+<node id="2010年">
+  <data key="d0">2010年</data>
+  <data key="d1">event</data>
+  <data key="d2">2010年是一个时间点，中国的数值为95.120002746582。</data>
+  <data key="d3">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866606</data>
+  <data key="d6"></data>
+</node>
+<node id="2020年">
+  <data key="d0">2020年</data>
+  <data key="d1">event</data>
+  <data key="d2">2020年是一个时间点，中国的数值为96.7399978637695。</data>
+  <data key="d3">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866606</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">location</data>
+  <data key="d2">Colombia是一个国家，其数据跨越2004年至2022年期间。</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd&lt;SEP&gt;chunk-9cd369590048fbde6353097bd47b4569</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866611</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia数据集">
+  <data key="d0">Colombia数据集</data>
+  <data key="d1">data</data>
+  <data key="d2">Colombia数据集包含从2004年到2022年的年度数值记录，数值范围在92.8到95.67之间。</data>
+  <data key="d3">chunk-9cd369590048fbde6353097bd47b4569</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866611</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">埃及阿拉伯共和国是一个国家，在2005年至2022年期间有多年的数据记录。</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97&lt;SEP&gt;chunk-5c896aab86270ae8f185394e69e882a9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866616</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">location</data>
+  <data key="d2">India is a country with recorded data values spanning from 2001 to 2022.</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d&lt;SEP&gt;chunk-a1ff1aed2c6e22213cbf5530278f7c6b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866633</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">location</data>
+  <data key="d2">Indonesia is a country with recorded data values spanning from 2004 to 2020.</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb&lt;SEP&gt;chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866641</data>
+  <data key="d6"></data>
+</node>
+<node id="2004">
+  <data key="d0">2004</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2004 with a recorded value of 90.379997253418 for Indonesia.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866641</data>
+  <data key="d6"></data>
+</node>
+<node id="2006">
+  <data key="d0">2006</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2006 with a recorded value of 91.9800033569336 for Indonesia.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866642</data>
+  <data key="d6"></data>
+</node>
+<node id="2008">
+  <data key="d0">2008</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2008 with a recorded value of 92.1900024414062 for Indonesia.&lt;SEP&gt;2008年是一个时间参考点，用于标记Korea, Rep.的数据记录。&lt;SEP&gt;Year 2008 with a recorded value of 95.4199981689453 for Philippines.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-216e6ca448b1d6bb29526f83bb20e432&lt;SEP&gt;chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="2009">
+  <data key="d0">2009</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2009 with a recorded value of 92.5800018310547 for Indonesia.&lt;SEP&gt;Year 2009 with a recorded value of 92.8899993896484 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866698</data>
+  <data key="d6"></data>
+</node>
+<node id="2010">
+  <data key="d0">2010</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2010 with a recorded value of 92.3199996948242 for Indonesia.&lt;SEP&gt;Year 2010 with a recorded value of 97.0899963378906 for Philippines.&lt;SEP&gt;Year 2010 with a recorded value of 92.879997253418 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-d159c67757e8459c101bd5234003122a&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866698</data>
+  <data key="d6"></data>
+</node>
+<node id="2011">
+  <data key="d0">2011</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2011 with a recorded value of 92.8099975585938 for Indonesia.&lt;SEP&gt;Year 2011 with a recorded value of 93.0999984741211 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="2014">
+  <data key="d0">2014</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2014 with a recorded value of 95.120002746582 for Indonesia.&lt;SEP&gt;Year 2014 with a recorded value of 94.1399993896484 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2015 with a recorded value of 95.2200012207031 for Indonesia.&lt;SEP&gt;Year 2015 with a recorded value of 98.1800003051758 for Philippines.&lt;SEP&gt;Year 2015 with a recorded value of 94.370002746582 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-d159c67757e8459c101bd5234003122a&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="2016">
+  <data key="d0">2016</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2016 with a recorded value of 95.379997253418 for Indonesia.&lt;SEP&gt;Year 2016 with a recorded value of 91.7399978637695 for South Africa.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="2018">
+  <data key="d0">2018</data>
+  <data key="d1">data</data>
+  <data key="d2">The year 2018 with a recorded value of 95.6600036621094 for Indonesia.</data>
+  <data key="d3">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866642</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">location</data>
+  <data key="d2">Italy是一个国家，在2001年、2011年和2019年期间有相关数据记录。</data>
+  <data key="d3">chunk-d17b7658816d5025f420e18dce7e3d38&lt;SEP&gt;chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866652</data>
+  <data key="d6"></data>
+</node>
+<node id="2001年数据">
+  <data key="d0">2001年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Italy在2001年的数值为98.4199981689453。</data>
+  <data key="d3">chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866652</data>
+  <data key="d6"></data>
+</node>
+<node id="2011年数据">
+  <data key="d0">2011年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Italy在2011年的数值为98.8499984741211。</data>
+  <data key="d3">chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866653</data>
+  <data key="d6"></data>
+</node>
+<node id="2019年数据">
+  <data key="d0">2019年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Italy在2019年的数值为99.3499984741211。&lt;SEP&gt;Viet Nam在2019年的数值为95.75。</data>
+  <data key="d3">chunk-1dde5932ae18500fbab5ed13fc0c782e&lt;SEP&gt;chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866718</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">Korea, Rep. 是一个地理位置，在2008年的数据中有相关记录。</data>
+  <data key="d3">chunk-e185e49fd230a9fa171e3e6a8c53144d&lt;SEP&gt;chunk-216e6ca448b1d6bb29526f83bb20e432</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866661</data>
+  <data key="d6"></data>
+</node>
+<node id="97.9700012207031">
+  <data key="d0">97.9700012207031</data>
+  <data key="d1">data</data>
+  <data key="d2">97.9700012207031是与Korea, Rep.在2008年相关联的数值数据。</data>
+  <data key="d3">chunk-e185e49fd230a9fa171e3e6a8c53144d&lt;SEP&gt;chunk-216e6ca448b1d6bb29526f83bb20e432</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866661</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">location</data>
+  <data key="d2">Malaysia is a country with recorded data values spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a&lt;SEP&gt;chunk-e103447bf84c757323f3069123d10007</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866666</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">location</data>
+  <data key="d2">Mexico是一个国家，其数据跨越2000年至2022年期间。</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b&lt;SEP&gt;chunk-4519e6ee43874642312607d4c8aa4e92</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866672</data>
+  <data key="d6"></data>
+</node>
+<node id="年度数据">
+  <data key="d0">年度数据</data>
+  <data key="d1">data</data>
+  <data key="d2">年度数据是指从2000年到2022年间Mexico的各年度数值记录。</data>
+  <data key="d3">chunk-4519e6ee43874642312607d4c8aa4e92</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866672</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">location</data>
+  <data key="d2">Nigeria是一个国家，在2003年、2006年、2016年和2021年期间有相关数据记录。</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28&lt;SEP&gt;chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866678</data>
+  <data key="d6"></data>
+</node>
+<node id="2003年数据">
+  <data key="d0">2003年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Nigeria在2003年的数值为54.7700004577637。</data>
+  <data key="d3">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866678</data>
+  <data key="d6"></data>
+</node>
+<node id="2006年数据">
+  <data key="d0">2006年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Nigeria在2006年的数值为70.1999969482422。</data>
+  <data key="d3">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866678</data>
+  <data key="d6"></data>
+</node>
+<node id="2016年数据">
+  <data key="d0">2016年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Nigeria在2016年的数值为58.2200012207031。</data>
+  <data key="d3">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866678</data>
+  <data key="d6"></data>
+</node>
+<node id="2021年数据">
+  <data key="d0">2021年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Nigeria在2021年的数值为63.1599998474121。</data>
+  <data key="d3">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866678</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">location</data>
+  <data key="d2">Philippines is a country with recorded data values spanning from 2000 to 2020.</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106&lt;SEP&gt;chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="2000">
+  <data key="d0">2000</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2000 with a recorded value of 92.5999984741211 for Philippines.</data>
+  <data key="d3">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="2003">
+  <data key="d0">2003</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2003 with a recorded value of 92.5899963378906 for Philippines.</data>
+  <data key="d3">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2013 with a recorded value of 96.4000015258789 for Philippines.</data>
+  <data key="d3">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866687</data>
+  <data key="d6"></data>
+</node>
+<node id="2019">
+  <data key="d0">2019</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2019 with a recorded value of 96.2799987792969 for Philippines.&lt;SEP&gt;Year 2019 with a recorded value of 95.0199966430664 for South Africa.</data>
+  <data key="d3">chunk-d159c67757e8459c101bd5234003122a&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">location</data>
+  <data key="d2">South Africa is a country with recorded data values spanning from 2007 to 2021.</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48&lt;SEP&gt;chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866698</data>
+  <data key="d6"></data>
+</node>
+<node id="2007">
+  <data key="d0">2007</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2007 with a recorded value of 88.7200012207031 for South Africa.</data>
+  <data key="d3">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866698</data>
+  <data key="d6"></data>
+</node>
+<node id="2012">
+  <data key="d0">2012</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2012 with a recorded value of 93.7300033569336 for South Africa.</data>
+  <data key="d3">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="2021">
+  <data key="d0">2021</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2021 with a recorded value of 90.0 for South Africa.</data>
+  <data key="d3">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866699</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">location</data>
+  <data key="d2">Thailand is a country with recorded data values spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87&lt;SEP&gt;chunk-4a21dfe644d003d763b0e959b5d2d60d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866706</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">location</data>
+  <data key="d2">Turkiye is a country with recorded data values spanning from 2004 to 2021.</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363&lt;SEP&gt;chunk-eceeffed0a2466eb44b536bcfcb0640d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866711</data>
+  <data key="d6"></data>
+</node>
+<node id="2004-2021 Data Series">
+  <data key="d0">2004-2021 Data Series</data>
+  <data key="d1">data</data>
+  <data key="d2">A time series dataset containing annual values for Turkiye from 2004 to 2021, with measurements ranging from 87.37 to 97.26.</data>
+  <data key="d3">chunk-eceeffed0a2466eb44b536bcfcb0640d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866711</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">location</data>
+  <data key="d2">Viet Nam是一个国家，在2000年、2009年、2019年和2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-056e755348a7c80dcb47d56f3a5fcc62&lt;SEP&gt;chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866718</data>
+  <data key="d6"></data>
+</node>
+<node id="2000年数据">
+  <data key="d0">2000年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Viet Nam在2000年的数值为90.1600036621094。</data>
+  <data key="d3">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866718</data>
+  <data key="d6"></data>
+</node>
+<node id="2009年数据">
+  <data key="d0">2009年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Viet Nam在2009年的数值为93.5199966430664。</data>
+  <data key="d3">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866718</data>
+  <data key="d6"></data>
+</node>
+<node id="2022年数据">
+  <data key="d0">2022年数据</data>
+  <data key="d1">data</data>
+  <data key="d2">Viet Nam在2022年的数值为96.129997253418。</data>
+  <data key="d3">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866718</data>
+  <data key="d6"></data>
+</node>
+<edge source="Argentina" target="2001">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina has a recorded value of 97.19 in the year 2001.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-55613456de3c776029fd46f2912f66c6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866588</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Argentina" target="2020">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina has a recorded value of 99.14 in the year 2020.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-55613456de3c776029fd46f2912f66c6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866588</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2020" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2020年的记录值为96.0。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866643</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2020" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 98.4700012207031 in the year 2020.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="Baseline Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Brazil is the subject entity for which baseline data values have been recorded over a 22-year period.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-ea36a66b1427a286cbfe668ae870be9d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866596</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Egypt, Arab Rep.">
+  <data key="d7">1.0</data>
+  <data key="d8">埃及阿拉伯共和国与基线数据相关联，该数据记录了该国在多个年份的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-5c896aab86270ae8f185394e69e882a9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866616</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="India">
+  <data key="d7">1.0</data>
+  <data key="d8">India is the subject of baseline data collection spanning from 2001 to 2022, with values ranging from 61.01 to 76.32.</data>
+  <data key="d9">data measurement,temporal tracking</data>
+  <data key="d10">chunk-a1ff1aed2c6e22213cbf5530278f7c6b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866633</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Malaysia">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia is the subject of the baseline data measurements recorded across the years 2000 to 2022.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-e103447bf84c757323f3069123d10007</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866667</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Thailand">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand is the subject of the baseline data measurements recorded across the years 2000 to 2022.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-4a21dfe644d003d763b0e959b5d2d60d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="2000年">
+  <data key="d7">1.0</data>
+  <data key="d8">中国在2000年的数值为90.9199981689453。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866606</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="2010年">
+  <data key="d7">1.0</data>
+  <data key="d8">中国在2010年的数值为95.120002746582。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866606</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="2020年">
+  <data key="d7">1.0</data>
+  <data key="d8">中国在2020年的数值为96.7399978637695。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-2c534fcc38a64feaa3040749a14fe079</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866606</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="Colombia数据集">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia数据集记录了Colombia在2004年至2022年期间的年度数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-9cd369590048fbde6353097bd47b4569</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866611</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2004">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2004年的记录值为90.379997253418。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2006">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2006年的记录值为91.9800033569336。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2008">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2008年的记录值为92.1900024414062。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2009">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2009年的记录值为92.5800018310547。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2010">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2010年的记录值为92.3199996948242。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2011">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2011年的记录值为92.8099975585938。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2014">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2014年的记录值为95.120002746582。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866642</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2015">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2015年的记录值为95.2200012207031。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866643</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2016">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2016年的记录值为95.379997253418。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866643</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="2018">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2018年的记录值为95.6600036621094。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ff8902f26f3053b5276a6f3e256adb88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866643</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2008" target="Korea, Rep.">
+  <data key="d7">1.0</data>
+  <data key="d8">Korea, Rep.在2008年有相应的数据记录。</data>
+  <data key="d9">数据记录,时间关联</data>
+  <data key="d10">chunk-216e6ca448b1d6bb29526f83bb20e432</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2008" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 95.4199981689453 in the year 2008.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2009" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2009.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2010" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 97.0899963378906 in the year 2010.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2010" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2010.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2011.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2014.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 98.1800003051758 in the year 2015.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2015.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2016.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866700</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="2001年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2001年有相应的数值记录。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="2011年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2011年有相应的数值记录。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="2019年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2019年有相应的数值记录。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-1dde5932ae18500fbab5ed13fc0c782e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2019年数据" target="Viet Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2019年有记录的数值数据。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Korea, Rep." target="97.9700012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">97.9700012207031是Korea, Rep.在2008年的对应数值。</data>
+  <data key="d9">数值关联,数据对应</data>
+  <data key="d10">chunk-e185e49fd230a9fa171e3e6a8c53144d&lt;SEP&gt;chunk-216e6ca448b1d6bb29526f83bb20e432</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="年度数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico与其年度数据相关联，显示了该国在2000年至2022年期间的数值变化趋势。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-4519e6ee43874642312607d4c8aa4e92</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866673</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="2003年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2003年有记录的数值。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866678</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="2006年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2006年有记录的数值。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866678</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="2016年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2016年有记录的数值。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866678</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="2021年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2021年有记录的数值。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-7f479a98471f03095de3c382c9d3f28e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866678</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="2000">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 92.5999984741211 in the year 2000.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866687</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="2003">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 92.5899963378906 in the year 2003.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="2013">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 96.4000015258789 in the year 2013.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="2019">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has a recorded baseline value of 96.2799987792969 in the year 2019.</data>
+  <data key="d9">baseline data,measurement</data>
+  <data key="d10">chunk-d159c67757e8459c101bd5234003122a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866688</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2019" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2019.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866700</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="2007">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2007.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="2012">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2012.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866699</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="2021">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has a recorded data value for the year 2021.</data>
+  <data key="d9">data measurement,temporal record</data>
+  <data key="d10">chunk-8ebda4a0d09c415cf5626f6dd67437c4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866700</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="2004-2021 Data Series">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye is the subject of the data series, with annual values recorded across multiple years from 2004 to 2021.</data>
+  <data key="d9">data measurement,temporal tracking</data>
+  <data key="d10">chunk-eceeffed0a2466eb44b536bcfcb0640d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Viet Nam" target="2000年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2000年有记录的数值数据。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Viet Nam" target="2009年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2009年有记录的数值数据。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866718</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Viet Nam" target="2022年数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2022年有记录的数值数据。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-918208d752e41d51dab2b13fde64de6f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866718</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

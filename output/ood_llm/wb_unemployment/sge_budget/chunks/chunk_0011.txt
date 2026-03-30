@@ -1,0 +1,24 @@
+Entity: Indonesia
+Year: 2000 | Value: 6.077
+Year: 2001 | Value: 6.082
+Year: 2002 | Value: 6.604
+Year: 2003 | Value: 6.657
+Year: 2004 | Value: 7.303
+Year: 2005 | Value: 7.945
+Year: 2006 | Value: 7.551
+Year: 2007 | Value: 8.06
+Year: 2008 | Value: 7.208
+Year: 2009 | Value: 6.106
+Year: 2010 | Value: 5.614
+Year: 2011 | Value: 5.153
+Year: 2012 | Value: 4.468
+Year: 2013 | Value: 4.336
+Year: 2014 | Value: 4.049
+Year: 2015 | Value: 4.514
+Year: 2016 | Value: 4.301
+Year: 2017 | Value: 3.783
+Year: 2018 | Value: 4.387
+Year: 2019 | Value: 3.59
+Year: 2020 | Value: 4.255
+Year: 2021 | Value: 3.827
+Year: 2022 | Value: 3.462

@@ -1,0 +1,477 @@
+{
+  "doc-e3e55fa747944ee5cffbfbff9b0e6926": {
+    "entity_names": [
+      "Argentina"
+    ],
+    "count": 1,
+    "create_time": 1774867524,
+    "update_time": 1774867524,
+    "_id": "doc-e3e55fa747944ee5cffbfbff9b0e6926"
+  },
+  "doc-bf8c37d4037ede812a8a8f5fec0c3d4d": {
+    "entity_names": [
+      "Australia"
+    ],
+    "count": 1,
+    "create_time": 1774867531,
+    "update_time": 1774867531,
+    "_id": "doc-bf8c37d4037ede812a8a8f5fec0c3d4d"
+  },
+  "doc-4d721b853dc0ba4ab10b0d595480a15c": {
+    "entity_names": [
+      "Brazil"
+    ],
+    "count": 1,
+    "create_time": 1774867538,
+    "update_time": 1774867538,
+    "_id": "doc-4d721b853dc0ba4ab10b0d595480a15c"
+  },
+  "doc-db3a07c52fa041f5004f984f0944f6ac": {
+    "entity_names": [
+      "Canada"
+    ],
+    "count": 1,
+    "create_time": 1774867545,
+    "update_time": 1774867545,
+    "_id": "doc-db3a07c52fa041f5004f984f0944f6ac"
+  },
+  "doc-68341d1de16738501fbd3a40729f5a75": {
+    "entity_names": [
+      "China"
+    ],
+    "count": 1,
+    "create_time": 1774867552,
+    "update_time": 1774867552,
+    "_id": "doc-68341d1de16738501fbd3a40729f5a75"
+  },
+  "doc-a5d275c9ba6422fa2683ae07baea7fea": {
+    "entity_names": [
+      "Colombia"
+    ],
+    "count": 1,
+    "create_time": 1774867559,
+    "update_time": 1774867559,
+    "_id": "doc-a5d275c9ba6422fa2683ae07baea7fea"
+  },
+  "doc-5795de06ad0180b98cff546708a8e3d1": {
+    "entity_names": [
+      "Egypt, Arab Rep."
+    ],
+    "count": 1,
+    "create_time": 1774867567,
+    "update_time": 1774867567,
+    "_id": "doc-5795de06ad0180b98cff546708a8e3d1"
+  },
+  "doc-b2871558fe71061f45c452a485b42447": {
+    "entity_names": [
+      "France"
+    ],
+    "count": 1,
+    "create_time": 1774867574,
+    "update_time": 1774867574,
+    "_id": "doc-b2871558fe71061f45c452a485b42447"
+  },
+  "doc-bf9b0b7d405b137240585d3c896b8349": {
+    "entity_names": [
+      "Germany"
+    ],
+    "count": 1,
+    "create_time": 1774867582,
+    "update_time": 1774867582,
+    "_id": "doc-bf9b0b7d405b137240585d3c896b8349"
+  },
+  "doc-d795ddf866f41ac6c943ad0465385cda": {
+    "entity_names": [
+      "India"
+    ],
+    "count": 1,
+    "create_time": 1774867589,
+    "update_time": 1774867589,
+    "_id": "doc-d795ddf866f41ac6c943ad0465385cda"
+  },
+  "doc-09119be61edaec837bbc672f0562c3f0": {
+    "entity_names": [
+      "Indonesia"
+    ],
+    "count": 1,
+    "create_time": 1774867596,
+    "update_time": 1774867596,
+    "_id": "doc-09119be61edaec837bbc672f0562c3f0"
+  },
+  "doc-160b3fc285715c632f3755da759f7428": {
+    "entity_names": [
+      "Italy"
+    ],
+    "count": 1,
+    "create_time": 1774867603,
+    "update_time": 1774867603,
+    "_id": "doc-160b3fc285715c632f3755da759f7428"
+  },
+  "doc-db0d69f7d4e8205349dc3963760a661a": {
+    "entity_names": [
+      "Japan"
+    ],
+    "count": 1,
+    "create_time": 1774867614,
+    "update_time": 1774867614,
+    "_id": "doc-db0d69f7d4e8205349dc3963760a661a"
+  },
+  "doc-ee8c24f15a156367315be8a60e96d7ed": {
+    "entity_names": [
+      "Korea, Rep."
+    ],
+    "count": 1,
+    "create_time": 1774867624,
+    "update_time": 1774867624,
+    "_id": "doc-ee8c24f15a156367315be8a60e96d7ed"
+  },
+  "doc-f0f3f42a6d592dfbf7f1c6001ebaa90f": {
+    "entity_names": [
+      "Malaysia"
+    ],
+    "count": 1,
+    "create_time": 1774867643,
+    "update_time": 1774867643,
+    "_id": "doc-f0f3f42a6d592dfbf7f1c6001ebaa90f"
+  },
+  "doc-3a49002766adfad18a315b7b8d277396": {
+    "entity_names": [
+      "Mexico"
+    ],
+    "count": 1,
+    "create_time": 1774867664,
+    "update_time": 1774867664,
+    "_id": "doc-3a49002766adfad18a315b7b8d277396"
+  },
+  "doc-80554c3a9ef7cf83a8d8f1bed8ffdbdc": {
+    "entity_names": [
+      "Nigeria"
+    ],
+    "count": 1,
+    "create_time": 1774867670,
+    "update_time": 1774867670,
+    "_id": "doc-80554c3a9ef7cf83a8d8f1bed8ffdbdc"
+  },
+  "doc-c7cd22e844ac1132e62473cf6da0f824": {
+    "entity_names": [
+      "Philippines"
+    ],
+    "count": 1,
+    "create_time": 1774867679,
+    "update_time": 1774867679,
+    "_id": "doc-c7cd22e844ac1132e62473cf6da0f824"
+  },
+  "doc-aa968a6bb30dc03fa16192b92ec91483": {
+    "entity_names": [
+      "Poland"
+    ],
+    "count": 1,
+    "create_time": 1774867686,
+    "update_time": 1774867686,
+    "_id": "doc-aa968a6bb30dc03fa16192b92ec91483"
+  },
+  "doc-461449e08ad008cebf4599febf7c8ea5": {
+    "entity_names": [
+      "South Africa"
+    ],
+    "count": 1,
+    "create_time": 1774867693,
+    "update_time": 1774867693,
+    "_id": "doc-461449e08ad008cebf4599febf7c8ea5"
+  },
+  "doc-861a8818ca1da44a673e2efdbc8b84b2": {
+    "entity_names": [
+      "Thailand"
+    ],
+    "count": 1,
+    "create_time": 1774867711,
+    "update_time": 1774867711,
+    "_id": "doc-861a8818ca1da44a673e2efdbc8b84b2"
+  },
+  "doc-b796eb1cb64ad48517b453876e0220e5": {
+    "entity_names": [
+      "Turkiye"
+    ],
+    "count": 1,
+    "create_time": 1774867721,
+    "update_time": 1774867721,
+    "_id": "doc-b796eb1cb64ad48517b453876e0220e5"
+  },
+  "doc-49a5da052415837cb5f73d3e6caeae1d": {
+    "entity_names": [
+      "United Kingdom"
+    ],
+    "count": 1,
+    "create_time": 1774867731,
+    "update_time": 1774867731,
+    "_id": "doc-49a5da052415837cb5f73d3e6caeae1d"
+  },
+  "doc-a23e5c735f202875f4031c63208ba7c7": {
+    "entity_names": [
+      "United States"
+    ],
+    "count": 1,
+    "create_time": 1774867740,
+    "update_time": 1774867740,
+    "_id": "doc-a23e5c735f202875f4031c63208ba7c7"
+  },
+  "doc-54577d1206bd2ee0ff05095d7f32bbb7": {
+    "entity_names": [
+      "Viet Nam"
+    ],
+    "count": 1,
+    "create_time": 1774867751,
+    "update_time": 1774867751,
+    "_id": "doc-54577d1206bd2ee0ff05095d7f32bbb7"
+  },
+  "doc-399f372e1694c64f0779b16ee2e285f1": {
+    "entity_names": [
+      "Argentina",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867756,
+    "update_time": 1774867756,
+    "_id": "doc-399f372e1694c64f0779b16ee2e285f1"
+  },
+  "doc-5ba2892be3bff477a57432e4160318ab": {
+    "entity_names": [
+      "Australia",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867761,
+    "update_time": 1774867761,
+    "_id": "doc-5ba2892be3bff477a57432e4160318ab"
+  },
+  "doc-8d09754a9f7ddf1d71a238769ecd6798": {
+    "entity_names": [
+      "Baseline Data",
+      "Brazil"
+    ],
+    "count": 2,
+    "create_time": 1774867768,
+    "update_time": 1774867768,
+    "_id": "doc-8d09754a9f7ddf1d71a238769ecd6798"
+  },
+  "doc-c552a67f8ec559b822a0a863e4087016": {
+    "entity_names": [
+      "Canada",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867773,
+    "update_time": 1774867773,
+    "_id": "doc-c552a67f8ec559b822a0a863e4087016"
+  },
+  "doc-d1dc0d01e5495c57a31d4bc7b8d557ff": {
+    "entity_names": [
+      "Baseline Data",
+      "China"
+    ],
+    "count": 2,
+    "create_time": 1774867779,
+    "update_time": 1774867779,
+    "_id": "doc-d1dc0d01e5495c57a31d4bc7b8d557ff"
+  },
+  "doc-84c21b35579f59378b1ace2e27acf412": {
+    "entity_names": [
+      "Baseline Data",
+      "Colombia"
+    ],
+    "count": 2,
+    "create_time": 1774867785,
+    "update_time": 1774867785,
+    "_id": "doc-84c21b35579f59378b1ace2e27acf412"
+  },
+  "doc-14332b29771071abbc526ce600d2cdaf": {
+    "entity_names": [
+      "Baseline Data",
+      "Egypt, Arab Rep."
+    ],
+    "count": 2,
+    "create_time": 1774867812,
+    "update_time": 1774867812,
+    "_id": "doc-14332b29771071abbc526ce600d2cdaf"
+  },
+  "doc-4fbfe98afd58de4c2f723853ab77fbf1": {
+    "entity_names": [
+      "France",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867837,
+    "update_time": 1774867837,
+    "_id": "doc-4fbfe98afd58de4c2f723853ab77fbf1"
+  },
+  "doc-ddfd33652365cff5fca98a1624033ec5": {
+    "entity_names": [
+      "Germany",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867848,
+    "update_time": 1774867848,
+    "_id": "doc-ddfd33652365cff5fca98a1624033ec5"
+  },
+  "doc-8757a0fd4ca5388d54f9858b3d4f1381": {
+    "entity_names": [
+      "India",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867853,
+    "update_time": 1774867853,
+    "_id": "doc-8757a0fd4ca5388d54f9858b3d4f1381"
+  },
+  "doc-feedfd5f299caa88666b0ff3e8aa41d1": {
+    "entity_names": [
+      "Indonesia",
+      "年度数值数据"
+    ],
+    "count": 2,
+    "create_time": 1774867861,
+    "update_time": 1774867861,
+    "_id": "doc-feedfd5f299caa88666b0ff3e8aa41d1"
+  },
+  "doc-3fe6729019d4b2de61c98eb1ab7e72a6": {
+    "entity_names": [
+      "Italy",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867872,
+    "update_time": 1774867872,
+    "_id": "doc-3fe6729019d4b2de61c98eb1ab7e72a6"
+  },
+  "doc-70e9c06fea20b5150ece7445c9b1778f": {
+    "entity_names": [
+      "Japan",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867876,
+    "update_time": 1774867876,
+    "_id": "doc-70e9c06fea20b5150ece7445c9b1778f"
+  },
+  "doc-e3a1a6bd3ce5763d800a30ec7f6fc613": {
+    "entity_names": [
+      "Korea, Rep.",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867885,
+    "update_time": 1774867885,
+    "_id": "doc-e3a1a6bd3ce5763d800a30ec7f6fc613"
+  },
+  "doc-e9ab4457fdb50f71afa86dd59d5d1656": {
+    "entity_names": [
+      "Malaysia",
+      "Malaysia Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867898,
+    "update_time": 1774867898,
+    "_id": "doc-e9ab4457fdb50f71afa86dd59d5d1656"
+  },
+  "doc-70bdf0c818a69438e12083c3d2303dbb": {
+    "entity_names": [
+      "Baseline Data",
+      "Mexico"
+    ],
+    "count": 2,
+    "create_time": 1774867912,
+    "update_time": 1774867912,
+    "_id": "doc-70bdf0c818a69438e12083c3d2303dbb"
+  },
+  "doc-b1d7542cc16cc36bea04c40c74ea06c3": {
+    "entity_names": [
+      "Baseline Data",
+      "Nigeria"
+    ],
+    "count": 2,
+    "create_time": 1774867924,
+    "update_time": 1774867924,
+    "_id": "doc-b1d7542cc16cc36bea04c40c74ea06c3"
+  },
+  "doc-8a877b9ded49e21c44ab637704c8f946": {
+    "entity_names": [
+      "Baseline Data",
+      "Philippines"
+    ],
+    "count": 2,
+    "create_time": 1774867936,
+    "update_time": 1774867936,
+    "_id": "doc-8a877b9ded49e21c44ab637704c8f946"
+  },
+  "doc-20bcab82a977a4ea2e242d984ff6e8dd": {
+    "entity_names": [
+      "Poland",
+      "Poland Data Series"
+    ],
+    "count": 2,
+    "create_time": 1774867942,
+    "update_time": 1774867942,
+    "_id": "doc-20bcab82a977a4ea2e242d984ff6e8dd"
+  },
+  "doc-9d0a2157cd2af0683ca5afe27912ed21": {
+    "entity_names": [
+      "South Africa",
+      "South Africa Data Series"
+    ],
+    "count": 2,
+    "create_time": 1774867950,
+    "update_time": 1774867950,
+    "_id": "doc-9d0a2157cd2af0683ca5afe27912ed21"
+  },
+  "doc-d9a765f0fdfed7e63f950c5c57cbb3b4": {
+    "entity_names": [
+      "Thailand",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867956,
+    "update_time": 1774867956,
+    "_id": "doc-d9a765f0fdfed7e63f950c5c57cbb3b4"
+  },
+  "doc-5004c7e10c0f705701e8d4245e1ff3dc": {
+    "entity_names": [
+      "Baseline Data",
+      "Turkiye"
+    ],
+    "count": 2,
+    "create_time": 1774867962,
+    "update_time": 1774867962,
+    "_id": "doc-5004c7e10c0f705701e8d4245e1ff3dc"
+  },
+  "doc-3cbf00425ee1db69cc3563ca2aa255b6": {
+    "entity_names": [
+      "United Kingdom",
+      "Baseline Data"
+    ],
+    "count": 2,
+    "create_time": 1774867973,
+    "update_time": 1774867973,
+    "_id": "doc-3cbf00425ee1db69cc3563ca2aa255b6"
+  },
+  "doc-849fe9a06ef56b45cb1a21a3a29b615e": {
+    "entity_names": [
+      "Baseline Data",
+      "United States"
+    ],
+    "count": 2,
+    "create_time": 1774867980,
+    "update_time": 1774867980,
+    "_id": "doc-849fe9a06ef56b45cb1a21a3a29b615e"
+  },
+  "doc-27cc11f77824b207ee34a1242b45db7d": {
+    "entity_names": [
+      "Viet Nam",
+      "基准数据"
+    ],
+    "count": 2,
+    "create_time": 1774867986,
+    "update_time": 1774867986,
+    "_id": "doc-27cc11f77824b207ee34a1242b45db7d"
+  }
+}

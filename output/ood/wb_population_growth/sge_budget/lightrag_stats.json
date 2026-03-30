@@ -1,0 +1,9 @@
+{
+  "label": "SGE",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_population_growth/sge_budget/lightrag_storage",
+  "chunks_inserted": 25,
+  "graph_file_exists": true,
+  "graph_file_size": 400800,
+  "node_count": 577,
+  "edge_count": 552
+}

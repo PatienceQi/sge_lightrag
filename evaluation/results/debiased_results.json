@@ -1,0 +1,271 @@
+{
+  "WHO_SGE": {
+    "entity_coverage": {
+      "matched": 25,
+      "total": 25,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "debiased_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  },
+  "WHO_BASE": {
+    "entity_coverage": {
+      "matched": 23,
+      "total": 25,
+      "coverage": 0.92
+    },
+    "entity_first_fc": {
+      "covered": 25,
+      "total": 150,
+      "coverage": 0.1667,
+      "failure_breakdown": {
+        "value_not_found": 111,
+        "entity_not_found": 12,
+        "year_not_found": 2
+      }
+    },
+    "debiased_fc": {
+      "covered": 22,
+      "total": 150,
+      "coverage": 0.1467,
+      "failure_breakdown": {
+        "subject_not_in_context": 17,
+        "value_not_in_graph": 106,
+        "year_not_in_context": 5
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 3
+    }
+  },
+  "WB_Pop_SGE": {
+    "entity_coverage": {
+      "matched": 25,
+      "total": 25,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "debiased_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  },
+  "WB_Pop_BASE": {
+    "entity_coverage": {
+      "matched": 22,
+      "total": 25,
+      "coverage": 0.88
+    },
+    "entity_first_fc": {
+      "covered": 28,
+      "total": 150,
+      "coverage": 0.1867,
+      "failure_breakdown": {
+        "value_not_found": 104,
+        "entity_not_found": 18
+      }
+    },
+    "debiased_fc": {
+      "covered": 31,
+      "total": 150,
+      "coverage": 0.2067,
+      "failure_breakdown": {
+        "value_not_in_graph": 119
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 3,
+      "lost_by_debiased": 0
+    }
+  },
+  "WB_CM_SGE": {
+    "entity_coverage": {
+      "matched": 25,
+      "total": 25,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "debiased_fc": {
+      "covered": 150,
+      "total": 150,
+      "coverage": 1.0,
+      "failure_breakdown": {}
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  },
+  "WB_CM_BASE": {
+    "entity_coverage": {
+      "matched": 19,
+      "total": 25,
+      "coverage": 0.76
+    },
+    "entity_first_fc": {
+      "covered": 71,
+      "total": 150,
+      "coverage": 0.4733,
+      "failure_breakdown": {
+        "value_not_found": 43,
+        "entity_not_found": 36
+      }
+    },
+    "debiased_fc": {
+      "covered": 73,
+      "total": 150,
+      "coverage": 0.4867,
+      "failure_breakdown": {
+        "value_not_in_graph": 24,
+        "subject_not_in_context": 53
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 5,
+      "lost_by_debiased": 3
+    }
+  },
+  "WB_Mat_SGE": {
+    "entity_coverage": {
+      "matched": 25,
+      "total": 25,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 145,
+      "total": 150,
+      "coverage": 0.9667,
+      "failure_breakdown": {
+        "value_not_found": 5
+      }
+    },
+    "debiased_fc": {
+      "covered": 145,
+      "total": 150,
+      "coverage": 0.9667,
+      "failure_breakdown": {
+        "subject_not_in_context": 5
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  },
+  "WB_Mat_BASE": {
+    "entity_coverage": {
+      "matched": 24,
+      "total": 25,
+      "coverage": 0.96
+    },
+    "entity_first_fc": {
+      "covered": 118,
+      "total": 150,
+      "coverage": 0.7867,
+      "failure_breakdown": {
+        "value_not_found": 23,
+        "year_not_found": 3,
+        "entity_not_found": 6
+      }
+    },
+    "debiased_fc": {
+      "covered": 126,
+      "total": 150,
+      "coverage": 0.84,
+      "failure_breakdown": {
+        "subject_not_in_context": 12,
+        "value_not_in_graph": 9,
+        "year_not_in_context": 3
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 8,
+      "lost_by_debiased": 0
+    }
+  },
+  "Inpatient_SGE": {
+    "entity_coverage": {
+      "matched": 8,
+      "total": 8,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 15,
+      "total": 16,
+      "coverage": 0.9375,
+      "failure_breakdown": {
+        "value_not_found": 1
+      }
+    },
+    "debiased_fc": {
+      "covered": 15,
+      "total": 16,
+      "coverage": 0.9375,
+      "failure_breakdown": {
+        "subject_not_in_context": 1
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  },
+  "Inpatient_BASE": {
+    "entity_coverage": {
+      "matched": 8,
+      "total": 8,
+      "coverage": 1.0
+    },
+    "entity_first_fc": {
+      "covered": 7,
+      "total": 16,
+      "coverage": 0.4375,
+      "failure_breakdown": {
+        "value_not_found": 9
+      }
+    },
+    "debiased_fc": {
+      "covered": 7,
+      "total": 16,
+      "coverage": 0.4375,
+      "failure_breakdown": {
+        "value_not_in_graph": 9
+      }
+    },
+    "delta": {
+      "rescued_by_debiased": 0,
+      "lost_by_debiased": 0
+    }
+  }
+}

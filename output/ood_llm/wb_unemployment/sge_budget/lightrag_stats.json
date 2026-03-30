@@ -1,0 +1,9 @@
+{
+  "label": "SGE-LLM",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_llm/wb_unemployment/sge_budget/lightrag_storage",
+  "chunks_inserted": 25,
+  "graph_file_exists": true,
+  "graph_file_size": 73738,
+  "node_count": 121,
+  "edge_count": 96
+}

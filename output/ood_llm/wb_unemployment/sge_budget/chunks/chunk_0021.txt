@@ -1,0 +1,24 @@
+Entity: Thailand
+Year: 2000 | Value: 2.389
+Year: 2001 | Value: 2.6
+Year: 2002 | Value: 1.82
+Year: 2003 | Value: 1.54
+Year: 2004 | Value: 1.51
+Year: 2005 | Value: 1.35
+Year: 2006 | Value: 1.22
+Year: 2007 | Value: 1.18
+Year: 2008 | Value: 1.18
+Year: 2009 | Value: 1.49
+Year: 2010 | Value: 0.622
+Year: 2011 | Value: 0.66
+Year: 2012 | Value: 0.58
+Year: 2013 | Value: 0.249
+Year: 2014 | Value: 0.576
+Year: 2015 | Value: 0.597
+Year: 2016 | Value: 0.688
+Year: 2017 | Value: 0.83
+Year: 2018 | Value: 0.765
+Year: 2019 | Value: 0.716
+Year: 2020 | Value: 1.099
+Year: 2021 | Value: 1.215
+Year: 2022 | Value: 0.94

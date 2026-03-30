@@ -1,0 +1,7 @@
+Entity: Egypt, Arab Rep.
+Year: 2003 | Value: 4.94563007354736
+Year: 2004 | Value: 4.67072010040283
+Year: 2005 | Value: 4.79442977905273
+Year: 2006 | Value: 4.00178003311157
+Year: 2007 | Value: 3.68460988998413
+Year: 2008 | Value: 3.76082992553711

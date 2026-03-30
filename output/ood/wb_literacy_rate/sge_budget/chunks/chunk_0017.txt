@@ -1,0 +1,5 @@
+Entity: Viet Nam
+Year: 2000 | Value: 90.1600036621094
+Year: 2009 | Value: 93.5199966430664
+Year: 2019 | Value: 95.75
+Year: 2022 | Value: 96.129997253418

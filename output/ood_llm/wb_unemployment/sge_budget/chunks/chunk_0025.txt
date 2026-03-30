@@ -1,0 +1,24 @@
+Entity: Viet Nam
+Year: 2000 | Value: 2.26
+Year: 2001 | Value: 2.76
+Year: 2002 | Value: 2.12
+Year: 2003 | Value: 2.25
+Year: 2004 | Value: 2.14
+Year: 2005 | Value: 2.078
+Year: 2006 | Value: 2.046
+Year: 2007 | Value: 2.026
+Year: 2008 | Value: 1.889
+Year: 2009 | Value: 1.737
+Year: 2010 | Value: 1.114
+Year: 2011 | Value: 0.999
+Year: 2012 | Value: 1.027
+Year: 2013 | Value: 1.316
+Year: 2014 | Value: 1.256
+Year: 2015 | Value: 1.848
+Year: 2016 | Value: 1.848
+Year: 2017 | Value: 1.874
+Year: 2018 | Value: 1.161
+Year: 2019 | Value: 1.681
+Year: 2020 | Value: 2.103
+Year: 2021 | Value: 2.383
+Year: 2022 | Value: 1.57

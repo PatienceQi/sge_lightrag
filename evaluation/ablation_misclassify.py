@@ -20,7 +20,7 @@ For each (dataset, forced-type) combination:
   6. [--dry-run skips] Run LightRAG ainsert() with wrong-type chunks and
      the wrong-type PROMPTS override.
   7. Evaluate FC from the resulting graph against the gold standard.
-  8. Compare: real-type FC (from all_results_v2.json) vs wrong-type FC → delta.
+  8. Compare: real-type FC (from evaluation/results/all_results_v2.json) vs wrong-type FC → delta.
 
 OUTPUT
 ------
@@ -86,19 +86,19 @@ TYPE_LABEL_MAP = {
 }
 
 # Dataset registry: name → CSV path, gold JSONL, and the real-type FC from
-# evaluation/all_results_v2.json (kept in sync with the authoritative file).
+# evaluation/results/all_results_v2.json (kept in sync with the authoritative file).
 # Paths are relative to PROJECT_ROOT.
 DATASET_REGISTRY: dict[str, dict[str, Any]] = {
     "who": {
         "csv": "dataset/WHO/API_WHO_WHOSIS_000001_life_expectancy.csv",
-        "gold": "evaluation/gold_who_life_expectancy_v2.jsonl",
+        "gold": "evaluation/gold/gold_who_life_expectancy_v2.jsonl",
         "real_type": TYPE_II,
         "real_fc_key": "WHO",   # key in all_results_v2.json
         "output_dir": "output/ablation_who_{forced_type}",
     },
     "wb_cm": {
         "csv": "dataset/世界银行数据/child_mortality/API_SH.DYN.MORT_DS2_en_csv_v2_632.csv",
-        "gold": "evaluation/gold_wb_child_mortality_v2.jsonl",
+        "gold": "evaluation/gold/gold_wb_child_mortality_v2.jsonl",
         "real_type": TYPE_II,
         "real_fc_key": "WB_CM",
         "output_dir": "output/ablation_wb_cm_{forced_type}",
@@ -106,7 +106,7 @@ DATASET_REGISTRY: dict[str, dict[str, Any]] = {
     "inpatient": {
         "csv": "dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and "
                "Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
-        "gold": "evaluation/gold_inpatient_2023.jsonl",
+        "gold": "evaluation/gold/gold_inpatient_2023.jsonl",
         "real_type": TYPE_III,
         "real_fc_key": "HK_Inpatient",
         "output_dir": "output/ablation_inpatient_{forced_type}",
@@ -528,7 +528,7 @@ def main() -> None:
     registry    = DATASET_REGISTRY[dataset_key]
     csv_path    = str(PROJECT_ROOT / registry["csv"])
     gold_path   = str(PROJECT_ROOT / registry["gold"])
-    results_file = PROJECT_ROOT / "evaluation" / "all_results_v2.json"
+    results_file = PROJECT_ROOT / "evaluation" / "results" / "all_results_v2.json"
 
     # Validate CSV exists
     if not Path(csv_path).exists():

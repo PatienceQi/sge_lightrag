@@ -1,0 +1,63 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "primary_subject_columns": [
+    "Country"
+  ],
+  "time_dimension": {
+    "is_present": true,
+    "location": "headers",
+    "columns": [
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ]
+  },
+  "value_columns": [
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "metadata_columns": [],
+  "composite_key": false,
+  "extraction_rule_summary": "Each row is an entity identified by \"Country\"; 23 time-period column(s) in the header hold numeric values."
+}

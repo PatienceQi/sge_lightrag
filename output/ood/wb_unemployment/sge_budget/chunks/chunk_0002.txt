@@ -1,0 +1,24 @@
+Entity: Australia
+Year: 2000 | Value: 6.288
+Year: 2001 | Value: 6.747
+Year: 2002 | Value: 6.375
+Year: 2003 | Value: 5.933
+Year: 2004 | Value: 5.399
+Year: 2005 | Value: 5.036
+Year: 2006 | Value: 4.785
+Year: 2007 | Value: 4.381
+Year: 2008 | Value: 4.242
+Year: 2009 | Value: 5.565
+Year: 2010 | Value: 5.214
+Year: 2011 | Value: 5.083
+Year: 2012 | Value: 5.225
+Year: 2013 | Value: 5.663
+Year: 2014 | Value: 6.078
+Year: 2015 | Value: 6.055
+Year: 2016 | Value: 5.711
+Year: 2017 | Value: 5.592
+Year: 2018 | Value: 5.345
+Year: 2019 | Value: 5.143
+Year: 2020 | Value: 6.394
+Year: 2021 | Value: 5.022
+Year: 2022 | Value: 3.728

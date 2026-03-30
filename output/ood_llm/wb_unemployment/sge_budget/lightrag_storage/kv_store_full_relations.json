@@ -1,0 +1,466 @@
+{
+  "doc-7da176fe30c0e899bacc6a9adb82b6b0": {
+    "relation_pairs": [
+      [
+        "11.506",
+        "Argentina"
+      ],
+      [
+        "11.461",
+        "Argentina"
+      ],
+      [
+        "10.078",
+        "Argentina"
+      ],
+      [
+        "13.522",
+        "Argentina"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1774870348,
+    "update_time": 1774870348,
+    "_id": "doc-7da176fe30c0e899bacc6a9adb82b6b0"
+  },
+  "doc-4057f14c998fe1c18c28ebb4c291ba66": {
+    "relation_pairs": [
+      [
+        "10.641",
+        "Brazil"
+      ],
+      [
+        "12.329",
+        "Brazil"
+      ],
+      [
+        "11.936",
+        "Brazil"
+      ],
+      [
+        "10.551",
+        "Brazil"
+      ],
+      [
+        "10.649",
+        "Brazil"
+      ],
+      [
+        "10.889",
+        "Brazil"
+      ],
+      [
+        "11.168",
+        "Brazil"
+      ],
+      [
+        "13.697",
+        "Brazil"
+      ],
+      [
+        "13.158",
+        "Brazil"
+      ],
+      [
+        "12.792",
+        "Brazil"
+      ],
+      [
+        "10.072",
+        "Brazil"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1774870371,
+    "update_time": 1774870371,
+    "_id": "doc-4057f14c998fe1c18c28ebb4c291ba66"
+  },
+  "doc-5ba6b6f31c3123ba18b5e89c012d6085": {
+    "relation_pairs": [
+      [
+        "15.983",
+        "Colombia"
+      ],
+      [
+        "11.273",
+        "Colombia"
+      ],
+      [
+        "10.541",
+        "Colombia"
+      ],
+      [
+        "11.088",
+        "Colombia"
+      ],
+      [
+        "12.066",
+        "Colombia"
+      ],
+      [
+        "13.717",
+        "Colombia"
+      ],
+      [
+        "10.288",
+        "Colombia"
+      ],
+      [
+        "11.204",
+        "Colombia"
+      ],
+      [
+        "13.221",
+        "Colombia"
+      ],
+      [
+        "11.062",
+        "Colombia"
+      ],
+      [
+        "14.481",
+        "Colombia"
+      ],
+      [
+        "11.153",
+        "Colombia"
+      ],
+      [
+        "13.898",
+        "Colombia"
+      ]
+    ],
+    "count": 13,
+    "create_time": 1774870401,
+    "update_time": 1774870401,
+    "_id": "doc-5ba6b6f31c3123ba18b5e89c012d6085"
+  },
+  "doc-6b6d752086d767d88f36e8b0777eee7d": {
+    "relation_pairs": [
+      [
+        "12.597",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "11.767",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "11.049",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "13.105",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "11.849",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "13.154",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "13.052",
+        "Egypt, Arab Rep."
+      ]
+    ],
+    "count": 7,
+    "create_time": 1774870416,
+    "update_time": 1774870416,
+    "_id": "doc-6b6d752086d767d88f36e8b0777eee7d"
+  },
+  "doc-8092467dde51516159be6cb594c8a6e5": {
+    "relation_pairs": [
+      [
+        "10.218",
+        "France"
+      ],
+      [
+        "10.273",
+        "France"
+      ],
+      [
+        "10.354",
+        "France"
+      ],
+      [
+        "10.057",
+        "France"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1774870425,
+    "update_time": 1774870425,
+    "_id": "doc-8092467dde51516159be6cb594c8a6e5"
+  },
+  "doc-46cfa2c3e769a54dd2cf7b278c64ed2e": {
+    "relation_pairs": [
+      [
+        "10.277",
+        "Germany"
+      ],
+      [
+        "11.193",
+        "Germany"
+      ],
+      [
+        "10.727",
+        "Germany"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774870436,
+    "update_time": 1774870436,
+    "_id": "doc-46cfa2c3e769a54dd2cf7b278c64ed2e"
+  },
+  "doc-5c7b6bf50590ed85d7e8c7261a8514f9": {
+    "relation_pairs": [
+      [
+        "11.211",
+        "Italy"
+      ],
+      [
+        "10.538",
+        "Italy"
+      ],
+      [
+        "11.688",
+        "Italy"
+      ],
+      [
+        "12.149",
+        "Italy"
+      ],
+      [
+        "11.896",
+        "Italy"
+      ],
+      [
+        "10.655",
+        "Italy"
+      ],
+      [
+        "10.834",
+        "Italy"
+      ],
+      [
+        "12.683",
+        "Italy"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774870466,
+    "update_time": 1774870466,
+    "_id": "doc-5c7b6bf50590ed85d7e8c7261a8514f9"
+  },
+  "doc-523a508c2f93d8851638ea3e0b743337": {
+    "relation_pairs": [
+      [
+        "14.928",
+        "Poland"
+      ],
+      [
+        "10.293",
+        "Poland"
+      ],
+      [
+        "20.211",
+        "Poland"
+      ],
+      [
+        "18.822",
+        "Poland"
+      ],
+      [
+        "13.794",
+        "Poland"
+      ],
+      [
+        "18.435",
+        "Poland"
+      ],
+      [
+        "10.031",
+        "Poland"
+      ],
+      [
+        "17.592",
+        "Poland"
+      ],
+      [
+        "19.899",
+        "Poland"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1774870544,
+    "update_time": 1774870544,
+    "_id": "doc-523a508c2f93d8851638ea3e0b743337"
+  },
+  "doc-a9d21db9e8b12584312a9b2f7a37dc1e": {
+    "relation_pairs": [
+      [
+        "24.561",
+        "South Africa"
+      ],
+      [
+        "24.727",
+        "South Africa"
+      ],
+      [
+        "22.472",
+        "South Africa"
+      ],
+      [
+        "24.639",
+        "South Africa"
+      ],
+      [
+        "26.906",
+        "South Africa"
+      ],
+      [
+        "25.149",
+        "South Africa"
+      ],
+      [
+        "29.217",
+        "South Africa"
+      ],
+      [
+        "22.652",
+        "South Africa"
+      ],
+      [
+        "27.035",
+        "South Africa"
+      ],
+      [
+        "34.007",
+        "South Africa"
+      ],
+      [
+        "22.567",
+        "South Africa"
+      ],
+      [
+        "22.579",
+        "South Africa"
+      ],
+      [
+        "22.679",
+        "South Africa"
+      ],
+      [
+        "22.788",
+        "South Africa"
+      ],
+      [
+        "23.523",
+        "South Africa"
+      ],
+      [
+        "33.268",
+        "South Africa"
+      ],
+      [
+        "22.407",
+        "South Africa"
+      ],
+      [
+        "26.536",
+        "South Africa"
+      ],
+      [
+        "28.468",
+        "South Africa"
+      ],
+      [
+        "24.683",
+        "South Africa"
+      ],
+      [
+        "22.304",
+        "South Africa"
+      ]
+    ],
+    "count": 21,
+    "create_time": 1774870554,
+    "update_time": 1774870554,
+    "_id": "doc-a9d21db9e8b12584312a9b2f7a37dc1e"
+  },
+  "doc-e04973e5c3c4c1f4dea1df93cc9550af": {
+    "relation_pairs": [
+      [
+        "10.285",
+        "Turkiye"
+      ],
+      [
+        "10.965",
+        "Turkiye"
+      ],
+      [
+        "10.542",
+        "Turkiye"
+      ],
+      [
+        "10.304",
+        "Turkiye"
+      ],
+      [
+        "10.919",
+        "Turkiye"
+      ],
+      [
+        "14.026",
+        "Turkiye"
+      ],
+      [
+        "11.879",
+        "Turkiye"
+      ],
+      [
+        "10.636",
+        "Turkiye"
+      ],
+      [
+        "11.969",
+        "Turkiye"
+      ],
+      [
+        "10.465",
+        "Turkiye"
+      ],
+      [
+        "10.956",
+        "Turkiye"
+      ],
+      [
+        "10.358",
+        "Turkiye"
+      ],
+      [
+        "10.227",
+        "Turkiye"
+      ],
+      [
+        "10.899",
+        "Turkiye"
+      ],
+      [
+        "10.838",
+        "Turkiye"
+      ],
+      [
+        "13.148",
+        "Turkiye"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1774870571,
+    "update_time": 1774870571,
+    "_id": "doc-e04973e5c3c4c1f4dea1df93cc9550af"
+  }
+}

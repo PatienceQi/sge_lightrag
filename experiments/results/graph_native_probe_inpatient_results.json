@@ -1,0 +1,1501 @@
+{
+  "dataset": "inpatient_2023",
+  "type": "Type-III",
+  "description": "Pure graph-traversal queries requiring multi-entity aggregation over Hong Kong Inpatient 2023 data (~308 disease categories × 8 statistical dimensions). No LLM used — deterministic rule-based answering from extracted graph values. Tests whether higher graph construction fidelity (SGE FC=0.938 vs Baseline FC=0.438) translates to superior downstream task performance.",
+  "method": "graph_traversal + deterministic_computation",
+  "graph_extraction_stats": {
+    "sge": {
+      "diseases_found": 207,
+      "total_dim_values": 651
+    },
+    "baseline": {
+      "diseases_found": 137,
+      "total_dim_values": 441
+    }
+  },
+  "summary": {
+    "total_queries": 15,
+    "sge_correct": 12,
+    "sge_accuracy": 0.8,
+    "baseline_correct": 1,
+    "baseline_accuracy": 0.0667,
+    "delta": 11
+  },
+  "per_category": {
+    "cross_entity_aggregation": {
+      "total": 3,
+      "sge_correct": 3,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 1,
+      "baseline_accuracy": 0.3333
+    },
+    "cross_entity_filtering": {
+      "total": 3,
+      "sge_correct": 2,
+      "sge_accuracy": 0.6667,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_ranking": {
+      "total": 5,
+      "sge_correct": 4,
+      "sge_accuracy": 0.8,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "dimension_comparison": {
+      "total": 4,
+      "sge_correct": 3,
+      "sge_accuracy": 0.75,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    }
+  },
+  "queries": [
+    {
+      "id": "rank_01",
+      "category": "cross_entity_ranking",
+      "query": "住院合计人次最多的前5种疾病是哪些？",
+      "reference_answer": [
+        {
+          "disease": "肾衰竭",
+          "value": 196617
+        },
+        {
+          "disease": "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+          "value": 190680
+        },
+        {
+          "disease": "呼吸系统其他疾病",
+          "value": 64740
+        },
+        {
+          "disease": "肠和腹膜其他疾病",
+          "value": 62965
+        },
+        {
+          "disease": "肺炎",
+          "value": 60614
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+            "呼吸系统其他疾病",
+            "肠和腹膜其他疾病",
+            "肺炎"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 196617,
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者": 190680,
+            "呼吸系统其他疾病": 64740,
+            "肠和腹膜其他疾病": 62965,
+            "肺炎": 60614
+          },
+          "total_diseases_found": 206
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "retrieved": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肠和腹膜其他疾病', '肺炎', '肾衰竭'], expected: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肠和腹膜其他疾病', '肺炎', '肾衰竭'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "肺炎",
+            "乳房恶性肿瘤",
+            "胃炎和十二指肠炎",
+            "其他内分泌、营养和代谢疾患"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 196617,
+            "肺炎": 60614,
+            "乳房恶性肿瘤": 52626,
+            "胃炎和十二指肠炎": 48411,
+            "其他内分泌、营养和代谢疾患": 33414
+          },
+          "total_diseases_found": 97
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 2,
+          "expected": 5,
+          "retrieved": 5,
+          "precision": 0.4,
+          "recall": 0.4,
+          "details": "matched 2/5 (retrieved: ['乳房恶性肿瘤', '其他内分泌、营养和代谢疾患', '肺炎', '肾衰竭', '胃炎和十二指肠炎'], expected: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肠和腹膜其他疾病', '肺炎', '肾衰竭'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_02",
+      "category": "cross_entity_ranking",
+      "query": "全港登记死亡合计人数最多的前3种疾病是哪些？",
+      "reference_answer": [
+        {
+          "disease": "肺炎",
+          "value": 11334
+        },
+        {
+          "disease": "气管、支气管和肺恶性肿瘤",
+          "value": 3880
+        },
+        {
+          "disease": "呼吸系统其他疾病",
+          "value": 3466
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "肺炎",
+            "气管、支气管和肺恶性肿瘤",
+            "呼吸系统其他疾病"
+          ],
+          "retrieved_values": {
+            "肺炎": 11334,
+            "气管、支气管和肺恶性肿瘤": 3880,
+            "呼吸系统其他疾病": 3466
+          },
+          "total_diseases_found": 40
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['呼吸系统其他疾病', '气管、支气管和肺恶性肿瘤', '肺炎'], expected: ['呼吸系统其他疾病', '气管、支气管和肺恶性肿瘤', '肺炎'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肺炎",
+            "结肠恶性肿瘤",
+            "肝和肝内胆管恶性肿瘤"
+          ],
+          "retrieved_values": {
+            "肺炎": 11334,
+            "结肠恶性肿瘤": 1593,
+            "肝和肝内胆管恶性肿瘤": 1408
+          },
+          "total_diseases_found": 40
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 1,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "details": "matched 1/3 (retrieved: ['结肠恶性肿瘤', '肝和肝内胆管恶性肿瘤', '肺炎'], expected: ['呼吸系统其他疾病', '气管、支气管和肺恶性肿瘤', '肺炎'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_03",
+      "category": "cross_entity_ranking",
+      "query": "医院管理局辖下医院住院人次最多的前3种疾病是哪些？",
+      "reference_answer": [
+        {
+          "disease": "肾衰竭",
+          "value": 190562
+        },
+        {
+          "disease": "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+          "value": 174706
+        },
+        {
+          "disease": "呼吸系统其他疾病",
+          "value": 60787
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+            "呼吸系统其他疾病"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 190562,
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者": 174706,
+            "呼吸系统其他疾病": 60787
+          },
+          "total_diseases_found": 197
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肾衰竭'], expected: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肾衰竭'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "肺炎",
+            "乳房恶性肿瘤"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 190562,
+            "肺炎": 55487,
+            "乳房恶性肿瘤": 47955
+          },
+          "total_diseases_found": 92
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 1,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "details": "matched 1/3 (retrieved: ['乳房恶性肿瘤', '肺炎', '肾衰竭'], expected: ['其他症状、体征和临床与实验室异常所见，不可归类在他处者', '呼吸系统其他疾病', '肾衰竭'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_04",
+      "category": "cross_entity_ranking",
+      "query": "私家医院住院人次最多的前3种疾病是哪些？",
+      "reference_answer": [
+        {
+          "disease": "胃炎和十二指肠炎",
+          "value": 31965
+        },
+        {
+          "disease": "其他原位、良性、动态未定或动态未知的肿瘤",
+          "value": 16511
+        },
+        {
+          "disease": "肠和腹膜其他疾病",
+          "value": 15996
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "胃炎和十二指肠炎",
+            "其他原位、良性、动态未定或动态未知的肿瘤",
+            "肠和腹膜其他疾病"
+          ],
+          "retrieved_values": {
+            "胃炎和十二指肠炎": 31965,
+            "其他原位、良性、动态未定或动态未知的肿瘤": 16511,
+            "肠和腹膜其他疾病": 15996
+          },
+          "total_diseases_found": 92
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['其他原位、良性、动态未定或动态未知的肿瘤', '肠和腹膜其他疾病', '胃炎和十二指肠炎'], expected: ['其他原位、良性、动态未定或动态未知的肿瘤', '肠和腹膜其他疾病', '胃炎和十二指肠炎'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "胃炎和十二指肠炎",
+            "泌尿生殖道其他疾患",
+            "其他缺血性心脏病"
+          ],
+          "retrieved_values": {
+            "胃炎和十二指肠炎": 31965,
+            "泌尿生殖道其他疾患": 10676,
+            "其他缺血性心脏病": 9776
+          },
+          "total_diseases_found": 93
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 1,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 0.3333,
+          "recall": 0.3333,
+          "details": "matched 1/3 (retrieved: ['其他缺血性心脏病', '泌尿生殖道其他疾患', '胃炎和十二指肠炎'], expected: ['其他原位、良性、动态未定或动态未知的肿瘤', '肠和腹膜其他疾病', '胃炎和十二指肠炎'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_05",
+      "category": "cross_entity_ranking",
+      "query": "住院合计人次为零的疾病有哪些？",
+      "reference_answer": [
+        {
+          "disease": "丝虫病",
+          "value": 0
+        },
+        {
+          "disease": "利什曼病",
+          "value": 0
+        },
+        {
+          "disease": "新生儿破伤风",
+          "value": 0
+        },
+        {
+          "disease": "棘球蚴病",
+          "value": 0
+        },
+        {
+          "disease": "沙眼",
+          "value": 0
+        },
+        {
+          "disease": "狂犬病",
+          "value": 0
+        },
+        {
+          "disease": "盘尾丝虫病",
+          "value": 0
+        },
+        {
+          "disease": "营养不良和其他营养缺乏的后遗症",
+          "value": 0
+        },
+        {
+          "disease": "血吸虫病",
+          "value": 0
+        },
+        {
+          "disease": "钩虫病",
+          "value": 0
+        },
+        {
+          "disease": "锥虫病",
+          "value": 0
+        },
+        {
+          "disease": "风疹",
+          "value": 0
+        },
+        {
+          "disease": "麦地那丝虫病",
+          "value": 0
+        },
+        {
+          "disease": "麻风后遗症",
+          "value": 0
+        },
+        {
+          "disease": "黄热病",
+          "value": 0
+        },
+        {
+          "disease": "鼠疫",
+          "value": 0
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "新生儿破伤风",
+            "盘尾丝虫病",
+            "血吸虫病",
+            "风疹-B06",
+            "麻风后遗症",
+            "黄热病"
+          ],
+          "total_diseases_found": 206
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.8333,
+          "recall": 0.3125,
+          "overlap": 5,
+          "expected_size": 16,
+          "retrieved_size": 6,
+          "details": "P=0.8333 R=0.3125 (expected=16, retrieved=6, overlap=5)"
+        },
+        "correct": false
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [],
+          "total_diseases_found": 97
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "overlap": 0,
+          "expected_size": 16,
+          "retrieved_size": 0,
+          "details": "P=0.0 R=0.0 (expected=16, retrieved=0, overlap=0)"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_01",
+      "category": "cross_entity_filtering",
+      "query": "住院合计人次超过50000的疾病有哪些？",
+      "reference_answer": [
+        {
+          "disease": "肾衰竭",
+          "value": 196617
+        },
+        {
+          "disease": "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+          "value": 190680
+        },
+        {
+          "disease": "呼吸系统其他疾病",
+          "value": 64740
+        },
+        {
+          "disease": "肠和腹膜其他疾病",
+          "value": 62965
+        },
+        {
+          "disease": "肺炎",
+          "value": 60614
+        },
+        {
+          "disease": "为检查和调查而与保健机构接触的人",
+          "value": 54526
+        },
+        {
+          "disease": "乳房恶性肿瘤",
+          "value": 52626
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者",
+            "呼吸系统其他疾病",
+            "肠和腹膜其他疾病",
+            "肺炎",
+            "为检查和调查而与保健机构接触的人",
+            "乳房恶性肿瘤"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 196617,
+            "其他症状、体征和临床与实验室异常所见，不可归类在他处者": 190680,
+            "呼吸系统其他疾病": 64740,
+            "肠和腹膜其他疾病": 62965,
+            "肺炎": 60614,
+            "为检查和调查而与保健机构接触的人": 54526,
+            "乳房恶性肿瘤": 52626
+          },
+          "total_diseases_found": 206
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 7,
+          "expected_size": 7,
+          "retrieved_size": 7,
+          "details": "P=1.0 R=1.0 (expected=7, retrieved=7, overlap=7)"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肾衰竭",
+            "肺炎",
+            "乳房恶性肿瘤"
+          ],
+          "retrieved_values": {
+            "肾衰竭": 196617,
+            "肺炎": 60614,
+            "乳房恶性肿瘤": 52626
+          },
+          "total_diseases_found": 97
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.4286,
+          "overlap": 3,
+          "expected_size": 7,
+          "retrieved_size": 3,
+          "details": "P=1.0 R=0.4286 (expected=7, retrieved=3, overlap=3)"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_02",
+      "category": "cross_entity_filtering",
+      "query": "全港登记死亡合计人数超过1000的疾病有哪些？",
+      "reference_answer": [
+        {
+          "disease": "肺炎",
+          "value": 11334
+        },
+        {
+          "disease": "气管、支气管和肺恶性肿瘤",
+          "value": 3880
+        },
+        {
+          "disease": "呼吸系统其他疾病",
+          "value": 3466
+        },
+        {
+          "disease": "其他缺血性心脏病",
+          "value": 2648
+        },
+        {
+          "disease": "衰老",
+          "value": 1710
+        },
+        {
+          "disease": "肾衰竭",
+          "value": 1605
+        },
+        {
+          "disease": "结肠恶性肿瘤",
+          "value": 1593
+        },
+        {
+          "disease": "认知障碍症",
+          "value": 1537
+        },
+        {
+          "disease": "急性心肌梗死",
+          "value": 1462
+        },
+        {
+          "disease": "肝和肝内胆管恶性肿瘤",
+          "value": 1408
+        },
+        {
+          "disease": "颅内出血",
+          "value": 1336
+        },
+        {
+          "disease": "败血病",
+          "value": 1330
+        },
+        {
+          "disease": "心力衰竭",
+          "value": 1175
+        },
+        {
+          "disease": "高血压性心脏病",
+          "value": 1097
+        },
+        {
+          "disease": "中风，未特指为出血或梗死",
+          "value": 1018
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "肺炎",
+            "气管、支气管和肺恶性肿瘤",
+            "呼吸系统其他疾病",
+            "其他缺血性心脏病",
+            "衰老",
+            "肾衰竭",
+            "结肠恶性肿瘤",
+            "认知障碍症",
+            "急性心肌梗死",
+            "肝和肝内胆管恶性肿瘤",
+            "颅内出血",
+            "败血病",
+            "心力衰竭",
+            "高血压性心脏病",
+            "中风，未特指为出血或梗死"
+          ],
+          "retrieved_values": {
+            "肺炎": 11334,
+            "气管、支气管和肺恶性肿瘤": 3880,
+            "呼吸系统其他疾病": 3466,
+            "其他缺血性心脏病": 2648,
+            "衰老": 1710,
+            "肾衰竭": 1605,
+            "结肠恶性肿瘤": 1593,
+            "认知障碍症": 1537,
+            "急性心肌梗死": 1462,
+            "肝和肝内胆管恶性肿瘤": 1408,
+            "颅内出血": 1336,
+            "败血病": 1330,
+            "心力衰竭": 1175,
+            "高血压性心脏病": 1097,
+            "中风，未特指为出血或梗死": 1018
+          },
+          "total_diseases_found": 40
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 15,
+          "expected_size": 15,
+          "retrieved_size": 15,
+          "details": "P=1.0 R=1.0 (expected=15, retrieved=15, overlap=15)"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肺炎",
+            "结肠恶性肿瘤",
+            "肝和肝内胆管恶性肿瘤",
+            "败血病",
+            "高血压性心脏病"
+          ],
+          "retrieved_values": {
+            "肺炎": 11334,
+            "结肠恶性肿瘤": 1593,
+            "肝和肝内胆管恶性肿瘤": 1408,
+            "败血病": 1330,
+            "高血压性心脏病": 1097
+          },
+          "total_diseases_found": 40
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.3333,
+          "overlap": 5,
+          "expected_size": 15,
+          "retrieved_size": 5,
+          "details": "P=1.0 R=0.3333 (expected=15, retrieved=5, overlap=5)"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_03",
+      "category": "cross_entity_filtering",
+      "query": "医院管理局住院人次超过10000且私家医院住院人次低于1000的疾病有哪些？",
+      "reference_answer": [
+        {
+          "disease": "其他内分泌、营养和代谢疾患",
+          "value": 32527
+        },
+        {
+          "disease": "为其他原因而与保健机构接触的人",
+          "value": 21776
+        },
+        {
+          "disease": "其他贫血",
+          "value": 21553
+        },
+        {
+          "disease": "其他原因和原因不明的发热",
+          "value": 20848
+        },
+        {
+          "disease": "心力衰竭",
+          "value": 18918
+        },
+        {
+          "disease": "白血病",
+          "value": 18751
+        },
+        {
+          "disease": "淋巴、造血和有关组织其他恶性肿瘤",
+          "value": 17254
+        },
+        {
+          "disease": "颅内损伤",
+          "value": 14198
+        },
+        {
+          "disease": "创伤的某些早期并发症以及手术和医疗并发症，不可归类在他处者",
+          "value": 13086
+        },
+        {
+          "disease": "直肠乙状结肠连接处、直肠、肛门和肛管恶性肿瘤",
+          "value": 11802
+        },
+        {
+          "disease": "起源于围生期的其他情况",
+          "value": 11486
+        },
+        {
+          "disease": "股骨骨折",
+          "value": 11442
+        },
+        {
+          "disease": "糖尿病",
+          "value": 11373
+        },
+        {
+          "disease": "败血病",
+          "value": 11121
+        },
+        {
+          "disease": "消化系统其他疾病",
+          "value": 10752
+        },
+        {
+          "disease": "类风湿性关节炎和其他炎性多关节病",
+          "value": 10010
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [],
+          "retrieved_values": {},
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "overlap": 0,
+          "expected_size": 16,
+          "retrieved_size": 0,
+          "details": "P=0.0 R=0.0 (expected=16, retrieved=0, overlap=0)"
+        },
+        "correct": false
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "其他内分泌、营养和代谢疾患",
+            "其他贫血",
+            "白血病",
+            "糖尿病",
+            "败血病"
+          ],
+          "retrieved_values": {
+            "其他内分泌、营养和代谢疾患": 32527,
+            "其他贫血": 21553,
+            "白血病": 18751,
+            "糖尿病": 11373,
+            "败血病": 11121
+          },
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.3125,
+          "overlap": 5,
+          "expected_size": 16,
+          "retrieved_size": 5,
+          "details": "P=1.0 R=0.3125 (expected=16, retrieved=5, overlap=5)"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "dim_01",
+      "category": "dimension_comparison",
+      "query": "男性死亡人数超过女性死亡人数的疾病共有多少种？",
+      "reference_answer": {
+        "count": 104,
+        "diseases": [
+          {
+            "disease": "上呼吸道其他疾病"
+          },
+          {
+            "disease": "下肢静脉曲张"
+          },
+          {
+            "disease": "中枢神经系统炎性疾病"
+          },
+          {
+            "disease": "主动脉动脉瘤和动脉壁夹层形成"
+          },
+          {
+            "disease": "主要为非药用物质的毒性效应"
+          },
+          {
+            "disease": "人类免疫缺陷病毒病"
+          },
+          {
+            "disease": "传导疾患和心律失常"
+          },
+          {
+            "disease": "其他、不明确、继发、未特指及多部位的恶性肿瘤"
+          },
+          {
+            "disease": "其他传染病和寄生虫病"
+          },
+          {
+            "disease": "其他关节疾患"
+          },
+          {
+            "disease": "其他内分泌、营养和代谢疾患"
+          },
+          {
+            "disease": "其他内部器官损伤"
+          },
+          {
+            "disease": "其他动脉、小动脉和毛细管的其他疾病"
+          },
+          {
+            "disease": "其他原位、良性、动态未定或动态未知的肿瘤"
+          },
+          {
+            "disease": "其他心脏病"
+          },
+          {
+            "disease": "其他急性上呼吸道感染"
+          },
+          {
+            "disease": "其他急性病毒性肝炎"
+          },
+          {
+            "disease": "其他梅毒"
+          },
+          {
+            "disease": "其他病毒性疾病"
+          },
+          {
+            "disease": "其他症状、体征和临床与实验室异常所见，不可归类在他处者"
+          },
+          {
+            "disease": "其他细菌性疾病"
+          },
+          {
+            "disease": "其他结核病"
+          },
+          {
+            "disease": "其他维生素缺乏"
+          },
+          {
+            "disease": "其他缺血性心脏病"
+          },
+          {
+            "disease": "其他肝病"
+          },
+          {
+            "disease": "其他背部病"
+          },
+          {
+            "disease": "创伤的某些早期并发症以及手术和医疗并发症，不可归类在他处者"
+          },
+          {
+            "disease": "前列腺增生"
+          },
+          {
+            "disease": "前列腺恶性肿瘤"
+          },
+          {
+            "disease": "呼吸和胸腔内器官其他恶性肿瘤"
+          },
+          {
+            "disease": "呼吸系统其他疾病"
+          },
+          {
+            "disease": "呼吸道结核病"
+          },
+          {
+            "disease": "哮喘"
+          },
+          {
+            "disease": "唇、口腔和咽(鼻咽除外)恶性肿瘤"
+          },
+          {
+            "disease": "喉恶性肿瘤"
+          },
+          {
+            "disease": "四肢后天性变形"
+          },
+          {
+            "disease": "外因的其他和未特指效应"
+          },
+          {
+            "disease": "子宫内低氧症和出生窒息"
+          },
+          {
+            "disease": "尘肺"
+          },
+          {
+            "disease": "帕金森病"
+          },
+          {
+            "disease": "循环系统先天性畸形"
+          },
+          {
+            "disease": "急性心肌梗死"
+          },
+          {
+            "disease": "慢性病毒性肝炎"
+          },
+          {
+            "disease": "慢性肝病及肝硬化"
+          },
+          {
+            "disease": "损伤、中毒和外因的其他后果的后遗症"
+          },
+          {
+            "disease": "支气管炎、肺气肿和其他慢性阻塞性肺病"
+          },
+          {
+            "disease": "斑疹伤寒"
+          },
+          {
+            "disease": "未特指的病毒性肝炎"
+          },
+          {
+            "disease": "染色体异常，不可归类在他处者"
+          },
+          {
+            "disease": "气管、支气管和肺恶性肿瘤"
+          },
+          {
+            "disease": "泌尿生殖系统其他畸形"
+          },
+          {
+            "disease": "泌尿道其他恶性肿瘤"
+          },
+          {
+            "disease": "流行性感冒"
+          },
+          {
+            "disease": "淋巴、造血和有关组织其他恶性肿瘤"
+          },
+          {
+            "disease": "烧伤和腐蚀伤"
+          },
+          {
+            "disease": "牙齿及支持结构的其他疾患"
+          },
+          {
+            "disease": "特发性(原发性)高血压"
+          },
+          {
+            "disease": "特指、未特指和身体多个部位的其他损伤"
+          },
+          {
+            "disease": "特指和身体多个部位的挤压伤和创伤性截断"
+          },
+          {
+            "disease": "由于使用酒精引起的精神和行为障碍"
+          },
+          {
+            "disease": "甲状腺其他疾患"
+          },
+          {
+            "disease": "男性生殖器官其他恶性肿瘤"
+          },
+          {
+            "disease": "男性生殖器官其他疾病"
+          },
+          {
+            "disease": "癫痫"
+          },
+          {
+            "disease": "白血病"
+          },
+          {
+            "disease": "皮肤其他恶性肿瘤"
+          },
+          {
+            "disease": "直肠乙状结肠连接处、直肠、肛门和肛管恶性肿瘤"
+          },
+          {
+            "disease": "眼和附器其他疾病"
+          },
+          {
+            "disease": "神经系统其他疾患"
+          },
+          {
+            "disease": "糖尿病"
+          },
+          {
+            "disease": "累及身体多个部位的骨折"
+          },
+          {
+            "disease": "结肠恶性肿瘤"
+          },
+          {
+            "disease": "肌肉骨骼系统其他先天性畸形和变形"
+          },
+          {
+            "disease": "肝和肝内胆管恶性肿瘤"
+          },
+          {
+            "disease": "肠和腹膜其他疾病"
+          },
+          {
+            "disease": "肥胖"
+          },
+          {
+            "disease": "肺炎"
+          },
+          {
+            "disease": "胃和十二指肠溃疡"
+          },
+          {
+            "disease": "胃恶性肿瘤"
+          },
+          {
+            "disease": "胃炎和十二指肠炎"
+          },
+          {
+            "disease": "胎儿生长缓慢、胎儿营养不良和与孕期短和低出生体重有关的疾患"
+          },
+          {
+            "disease": "胰恶性肿瘤"
+          },
+          {
+            "disease": "脑恶性肿瘤"
+          },
+          {
+            "disease": "腹股沟疝"
+          },
+          {
+            "disease": "膀胱恶性肿瘤"
+          },
+          {
+            "disease": "药物和生物制品中毒"
+          },
+          {
+            "disease": "营养不良"
+          },
+          {
+            "disease": "败血病"
+          },
+          {
+            "disease": "软组织疾患"
+          },
+          {
+            "disease": "通过自然腔口进入异物的效应"
+          },
+          {
+            "disease": "酒精性肝病"
+          },
+          {
+            "disease": "阑尾疾病"
+          },
+          {
+            "disease": "阿米巴病"
+          },
+          {
+            "disease": "霉菌病"
+          },
+          {
+            "disease": "非霍奇金淋巴瘤"
+          },
+          {
+            "disease": "颅内出血"
+          },
+          {
+            "disease": "颅内损伤"
+          },
+          {
+            "disease": "颅骨和面骨骨折"
+          },
+          {
+            "disease": "颈和其他椎间盘疾患"
+          },
+          {
+            "disease": "食管、胃和十二指肠其他疾病"
+          },
+          {
+            "disease": "食管恶性肿瘤"
+          },
+          {
+            "disease": "高血压性心脏病"
+          },
+          {
+            "disease": "高血压性肾脏病"
+          },
+          {
+            "disease": "鼻咽恶性肿瘤"
+          }
+        ]
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 6,
+          "matching_codes": [
+            "呼吸系统其他疾病",
+            "慢性肝病及肝硬化",
+            "气管、支气管和肺恶性肿瘤",
+            "肌肉骨骼系统其他先天性畸形和变形",
+            "肺炎",
+            "胃炎和十二指肠炎"
+          ],
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 6,
+          "reference": 104,
+          "pct_difference": 100.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=6, reference=104, pct_diff=100.0%, tol=0.0%"
+        },
+        "correct": false
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 8,
+          "matching_codes": [
+            "其他、不明确、继发、未特指及多部位的恶性肿瘤",
+            "其他原位、良性、动态未定或动态未知的肿瘤",
+            "其他梅毒",
+            "其他细菌性疾病",
+            "前列腺增生",
+            "烧伤和腐蚀伤",
+            "肺炎",
+            "膀胱恶性肿瘤"
+          ],
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 8,
+          "reference": 104,
+          "pct_difference": 100.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=8, reference=104, pct_diff=100.0%, tol=0.0%"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "dim_02",
+      "category": "dimension_comparison",
+      "query": "住院合计超过1000人次中，医院管理局占比最高的前3种疾病是哪些？",
+      "reference_answer": [
+        {
+          "disease": "虐待综合症",
+          "ha_ratio": 1.0
+        },
+        {
+          "disease": "精神发育迟滞",
+          "ha_ratio": 0.9996
+        },
+        {
+          "disease": "胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响",
+          "ha_ratio": 0.9985
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "虐待综合症",
+            "精神发育迟滞",
+            "胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响"
+          ],
+          "retrieved_values": {
+            "虐待综合症": 1.0,
+            "精神发育迟滞": 0.9996,
+            "胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响": 0.9985
+          },
+          "total_diseases_found": 176
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['精神发育迟滞', '胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响', '虐待综合症'], expected: ['精神发育迟滞', '胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响', '虐待综合症'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "女性不育症",
+            "慢性风湿性心脏病",
+            "认知障碍症"
+          ],
+          "retrieved_values": {
+            "女性不育症": 0.9984,
+            "慢性风湿性心脏病": 0.9751,
+            "认知障碍症": 0.9738
+          },
+          "total_diseases_found": 57
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 3,
+          "retrieved": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/3 (retrieved: ['女性不育症', '慢性风湿性心脏病', '认知障碍症'], expected: ['精神发育迟滞', '胎儿和新生儿受母体因素和妊娠、产程和分娩并发症的影响', '虐待综合症'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "dim_03",
+      "category": "dimension_comparison",
+      "query": "住院超过1000人次中，死亡人数占住院人次比例最高的疾病是哪种？",
+      "reference_answer": [
+        {
+          "disease": "认知障碍症",
+          "fatality_ratio": 0.2753
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "认知障碍症"
+          ],
+          "retrieved_values": {
+            "认知障碍症": 0.2753
+          },
+          "total_diseases_found": 18
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "retrieved": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['认知障碍症'], expected: ['认知障碍症'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "肺炎"
+          ],
+          "retrieved_values": {
+            "肺炎": 0.187
+          },
+          "total_diseases_found": 8
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "retrieved": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['肺炎'], expected: ['认知障碍症'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "dim_04",
+      "category": "dimension_comparison",
+      "query": "全港登记死亡合计人数超过住院合计人次的疾病有哪些？",
+      "reference_answer": [
+        {
+          "disease": "衰老"
+        },
+        {
+          "disease": "高血压性心脏病"
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "衰老",
+            "高血压性心脏病"
+          ],
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 2,
+          "expected_size": 2,
+          "retrieved_size": 2,
+          "details": "P=1.0 R=1.0 (expected=2, retrieved=2, overlap=2)"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "下肢静脉曲张",
+            "传导疾患和心律失常",
+            "其他传染病和寄生虫病",
+            "其他急性病毒性肝炎",
+            "其他病毒性疾病",
+            "前列腺增生",
+            "动脉栓塞和血栓形成",
+            "喉恶性肿瘤",
+            "子宫内低氧症和出生窒息",
+            "循环系统其他疾病",
+            "泌尿生殖系统其他畸形",
+            "烧伤和腐蚀伤",
+            "特发性(原发性)高血压",
+            "由于使用酒精引起的精神和行为障碍",
+            "皮肤其他恶性肿瘤",
+            "皮肤恶性黑色素瘤",
+            "结肠恶性肿瘤",
+            "肝和肝内胆管恶性肿瘤",
+            "股骨骨折",
+            "脑恶性肿瘤",
+            "软组织疾患",
+            "酒精性肝病",
+            "高血压性心脏病",
+            "高血压性肾脏病"
+          ],
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.0417,
+          "recall": 0.5,
+          "overlap": 1,
+          "expected_size": 2,
+          "retrieved_size": 24,
+          "details": "P=0.0417 R=0.5 (expected=2, retrieved=24, overlap=1)"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_01",
+      "category": "cross_entity_aggregation",
+      "query": "所有疾病的住院合计人次总和是多少？",
+      "reference_answer": {
+        "total": 2265334,
+        "disease_count": 308
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 2236251,
+          "disease_count": 206,
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 2236251,
+          "reference": 2265334,
+          "pct_difference": 1.2838,
+          "tolerance_pct": 2.0,
+          "details": "computed=2236251, reference=2265334, pct_diff=1.2838%, tol=2.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 818478,
+          "disease_count": 97,
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 818478,
+          "reference": 2265334,
+          "pct_difference": 63.8694,
+          "tolerance_pct": 2.0,
+          "details": "computed=818478, reference=2265334, pct_diff=63.8694%, tol=2.0%"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_02",
+      "category": "cross_entity_aggregation",
+      "query": "所有疾病中，全港登记死亡合计人数的极差（最大值减最小值）是多少？",
+      "reference_answer": {
+        "range": 11334,
+        "max": 11334,
+        "min": 0
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 11334,
+          "max": 11334,
+          "min": 0,
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 11334,
+          "reference": 11334,
+          "pct_difference": 0.0,
+          "tolerance_pct": 2.0,
+          "details": "computed=11334, reference=11334, pct_diff=0.0%, tol=2.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 11334,
+          "max": 11334,
+          "min": 0,
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 11334,
+          "reference": 11334,
+          "pct_difference": 0.0,
+          "tolerance_pct": 2.0,
+          "details": "computed=11334, reference=11334, pct_diff=0.0%, tol=2.0%"
+        },
+        "correct": true
+      }
+    },
+    {
+      "id": "agg_03",
+      "category": "cross_entity_aggregation",
+      "query": "住院合计人次超过10000的疾病共有多少种？",
+      "reference_answer": {
+        "count": 62
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 62,
+          "total_diseases_found": 207
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 62,
+          "reference": 62,
+          "pct_difference": 0.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=62, reference=62, pct_diff=0.0%, tol=0.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 19,
+          "total_diseases_found": 137
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 19,
+          "reference": 62,
+          "pct_difference": 100.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=19, reference=62, pct_diff=100.0%, tol=0.0%"
+        },
+        "correct": false
+      }
+    }
+  ]
+}

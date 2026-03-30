@@ -1,0 +1,24 @@
+Entity: France
+Year: 2000 | Value: 9.61744022
+Year: 2001 | Value: 9.75719261
+Year: 2002 | Value: 10.08250141
+Year: 2003 | Value: 10.13474941
+Year: 2004 | Value: 10.2117033
+Year: 2005 | Value: 10.23720551
+Year: 2006 | Value: 10.39764977
+Year: 2007 | Value: 10.33418846
+Year: 2008 | Value: 10.51340675
+Year: 2009 | Value: 11.29095459
+Year: 2010 | Value: 11.22430801
+Year: 2011 | Value: 11.17601013
+Year: 2012 | Value: 11.33749485
+Year: 2013 | Value: 11.37891197
+Year: 2014 | Value: 11.57935429
+Year: 2015 | Value: 11.50032997
+Year: 2016 | Value: 11.57036018
+Year: 2017 | Value: 11.44944572
+Year: 2018 | Value: 11.30847645
+Year: 2019 | Value: 11.17058277
+Year: 2020 | Value: 12.12949371
+Year: 2021 | Value: 12.24894238
+Year: 2022 | Value: 11.82888794

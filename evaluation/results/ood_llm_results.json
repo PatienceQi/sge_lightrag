@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "wb_unemployment",
+    "sge_llm_ec": 1.0,
+    "sge_llm_fc": 0.025,
+    "nodes": 121,
+    "baseline_fc": 0.125,
+    "sge_rule_fc": 0.025
+  },
+  {
+    "dataset": "wb_immunization_dpt",
+    "nodes": 48,
+    "sge_llm_ec": 1.0,
+    "sge_llm_fc": 0.1,
+    "baseline_fc": 0.3,
+    "sge_rule_fc": 0.0
+  },
+  {
+    "dataset": "wb_immunization_measles",
+    "nodes": 25,
+    "sge_llm_ec": 1.0,
+    "sge_llm_fc": 0.0,
+    "baseline_fc": 0.325,
+    "sge_rule_fc": 0.0
+  }
+]

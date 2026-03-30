@@ -1,0 +1,24 @@
+Entity: Germany
+Year: 2000 | Value: 7.917
+Year: 2001 | Value: 7.773
+Year: 2002 | Value: 8.482
+Year: 2003 | Value: 9.779
+Year: 2004 | Value: 10.727
+Year: 2005 | Value: 11.193
+Year: 2006 | Value: 10.277
+Year: 2007 | Value: 8.732
+Year: 2008 | Value: 7.508
+Year: 2009 | Value: 7.88
+Year: 2010 | Value: 7.043
+Year: 2011 | Value: 5.967
+Year: 2012 | Value: 5.372
+Year: 2013 | Value: 5.316
+Year: 2014 | Value: 4.979
+Year: 2015 | Value: 4.612
+Year: 2016 | Value: 4.104
+Year: 2017 | Value: 3.781
+Year: 2018 | Value: 3.384
+Year: 2019 | Value: 3.163
+Year: 2020 | Value: 3.881
+Year: 2021 | Value: 3.594
+Year: 2022 | Value: 3.137

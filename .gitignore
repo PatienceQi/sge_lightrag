@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / tool artifacts
+.serena/
+.spec-workflow/
+.vscode/
+.idea/
+
+# LightRAG output (large graph files)
+output/*/lightrag_storage/
+
+# Secrets
+.env

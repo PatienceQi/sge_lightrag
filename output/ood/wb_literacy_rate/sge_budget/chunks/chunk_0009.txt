@@ -1,0 +1,2 @@
+Entity: Korea, Rep.
+Year: 2008 | Value: 97.9700012207031

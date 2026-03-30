@@ -1,0 +1,24 @@
+Entity: United Kingdom
+Year: 2000 | Value: 7.14559078
+Year: 2001 | Value: 7.43276882
+Year: 2002 | Value: 7.85946798
+Year: 2003 | Value: 8.05214596
+Year: 2004 | Value: 8.32219028
+Year: 2005 | Value: 8.38108349
+Year: 2006 | Value: 8.53970814
+Year: 2007 | Value: 8.76035309
+Year: 2008 | Value: 9.03295708
+Year: 2009 | Value: 9.83944035
+Year: 2010 | Value: 9.78799534
+Year: 2011 | Value: 9.79682636
+Year: 2012 | Value: 9.89332199
+Year: 2013 | Value: 9.99087143
+Year: 2014 | Value: 9.97686195
+Year: 2015 | Value: 9.94044876
+Year: 2016 | Value: 9.87085724
+Year: 2017 | Value: 9.70468903
+Year: 2018 | Value: 9.79496574
+Year: 2019 | Value: 9.97954082
+Year: 2020 | Value: 12.10388088
+Year: 2021 | Value: 12.08347321
+Year: 2022 | Value: 11.09679794

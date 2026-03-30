@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">location</data>
+  <data key="d2">Argentina是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-3bf7c2e10c6ce59a1127543033874750&lt;SEP&gt;chunk-2dba3647d2dc94b2bfe021a89726fabe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864099</data>
+  <data key="d6"></data>
+</node>
+<node id="经济数据">
+  <data key="d0">经济数据</data>
+  <data key="d1">data</data>
+  <data key="d2">经济数据是从2000年到2022年期间Argentina的年度经济指标值的集合。&lt;SEP&gt;经济数据是指Colombia从2000年到2022年期间的年度数值记录，数值范围从-7.19到10.80。&lt;SEP&gt;经济数据是指India从2000年到2022年期间的年度数值记录，数值范围从-5.77772470686801到9.68959249192875。&lt;SEP&gt;经济数据是指从2000年到2022年间Indonesia的年度数值记录，数值范围从-2.06551182934165到6.34502222667214。&lt;SEP&gt;经济数据是指Mexico从2000年到2022年期间的年度经济指标值。</data>
+  <data key="d3">chunk-2dba3647d2dc94b2bfe021a89726fabe&lt;SEP&gt;chunk-a6ff8fd5435657ab05de9da3c3e3aae8&lt;SEP&gt;chunk-007ad11f9974d7d47ccad5417a4ead80&lt;SEP&gt;chunk-fcd7749a4017e0bb0c44da8819881936&lt;SEP&gt;chunk-8b80efe6a2499cbfda4841c8b9421e51</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864179</data>
+  <data key="d6"></data>
+</node>
+<node id="Australia">
+  <data key="d0">Australia</data>
+  <data key="d1">location</data>
+  <data key="d2">Australia是一个国家，拥有从2000年到2022年的年度数据记录。</data>
+  <data key="d3">chunk-d77fc9b6f5a61a0f67ee2436fc5489e9&lt;SEP&gt;chunk-d34f18190a462f44637131b0ddddab64</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864104</data>
+  <data key="d6"></data>
+</node>
+<node id="年度数据">
+  <data key="d0">年度数据</data>
+  <data key="d1">data</data>
+  <data key="d2">年度数据是从2000年到2022年期间为Australia记录的数值集合，数值范围从-0.133531904304775到4.25304559238732。&lt;SEP&gt;年度数据包含从2000年到2022年期间Korea, Rep.的23个年份的数值记录。&lt;SEP&gt;年度数据是从2000年到2022年期间Viet Nam的数值记录，数值范围从2.55372852648131到8.53750046755788。</data>
+  <data key="d3">chunk-d34f18190a462f44637131b0ddddab64&lt;SEP&gt;chunk-c4ebbe873e1d32d45def1a230bd64fd2&lt;SEP&gt;chunk-8ff4a9f75694ca3c5145e32e5f4d652b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864227</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">location</data>
+  <data key="d2">Brazil is a country with annual economic performance data spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-302c52a79ec352a91e033d09bc73d846&lt;SEP&gt;chunk-24fc395aecb5f5d55b5fc3d8a81c8394</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864109</data>
+  <data key="d6"></data>
+</node>
+<node id="Economic Performance Data">
+  <data key="d0">Economic Performance Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Economic performance data represents annual values for Brazil from 2000 to 2022, ranging from -3.54576339347278 to 7.52822581812151.</data>
+  <data key="d3">chunk-24fc395aecb5f5d55b5fc3d8a81c8394</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864109</data>
+  <data key="d6"></data>
+</node>
+<node id="Canada">
+  <data key="d0">Canada</data>
+  <data key="d1">location</data>
+  <data key="d2">Canada is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-5cf0952baf739f241a7a6f4aa14c67b1&lt;SEP&gt;chunk-62e13699750948c0f7d2c2ec8b5e6a9c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864114</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Data">
+  <data key="d0">Annual Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Annual Data represents yearly values for Canada spanning from 2000 to 2022, with values ranging from -5.04 to 5.95.&lt;SEP&gt;Annual Data represents yearly numerical values associated with Germany spanning from 2000 to 2022.&lt;SEP&gt;Annual Data represents yearly values for Philippines ranging from -9.51829474045297 in 2020 to 7.58098212785563 in 2022.</data>
+  <data key="d3">chunk-62e13699750948c0f7d2c2ec8b5e6a9c&lt;SEP&gt;chunk-5daec7b8079c1d1c6bf960fdfd6f6de6&lt;SEP&gt;chunk-719776cb09fcdcc0b1899ee4ad90af2c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864189</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">location</data>
+  <data key="d2">China是一个国家，其数据涵盖2000年至2022年期间的年度数值记录。</data>
+  <data key="d3">chunk-5bacd887a3ae1a04ef2b95180fd36740&lt;SEP&gt;chunk-f51bb9d3a7af7f3ab1761cd216f7fca1</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864119</data>
+  <data key="d6"></data>
+</node>
+<node id="Baseline Data">
+  <data key="d0">Baseline Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Baseline Data是关于China从2000年到2022年的年度数值集合，数值范围从2.34到14.15。&lt;SEP&gt;Baseline Data represents a series of annual values for Japan spanning from 2000 to 2022, with measurements ranging from -5.69 to 4.10.</data>
+  <data key="d3">chunk-f51bb9d3a7af7f3ab1761cd216f7fca1&lt;SEP&gt;chunk-f7a8fe20a4bcb9c4253a48f175d7c991</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864163</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">location</data>
+  <data key="d2">Colombia是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-2121f233de04ccd20f5409fe14ec38c5&lt;SEP&gt;chunk-a6ff8fd5435657ab05de9da3c3e3aae8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864125</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">Egypt, Arab Rep. 是一个国家，其数据涵盖2000年至2022年期间的年度值。</data>
+  <data key="d3">chunk-6569099ad2350e0b70bb6ccdba6f3bc9&lt;SEP&gt;chunk-38e650045acaf104a4429386d416d15b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864130</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Data Series">
+  <data key="d0">Annual Data Series</data>
+  <data key="d1">data</data>
+  <data key="d2">Annual Data Series包含Egypt, Arab Rep.从2000年到2022年的年度数值记录。</data>
+  <data key="d3">chunk-38e650045acaf104a4429386d416d15b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864130</data>
+  <data key="d6"></data>
+</node>
+<node id="France">
+  <data key="d0">France</data>
+  <data key="d1">location</data>
+  <data key="d2">France是一个国家，拥有从2000年到2022年的经济数据记录。</data>
+  <data key="d3">chunk-c4a60df36dfc349c4a11790731576fe4&lt;SEP&gt;chunk-5c64ac4078202cf56ba54f92c98045d7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864135</data>
+  <data key="d6"></data>
+</node>
+<node id="Economic Data">
+  <data key="d0">Economic Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Economic Data包含France从2000年到2022年的年度数值，范围从-7.44064589948231到6.88233783360239。&lt;SEP&gt;Economic Data represents the numerical values associated with Italy across the years 2000 to 2022, reflecting economic performance metrics.&lt;SEP&gt;Economic Data是从2000年到2022年期间记录的Nigeria的经济指标值集合。&lt;SEP&gt;Economic Data represents the annual values recorded for Poland from 2000 to 2022.&lt;SEP&gt;Economic Data represents the annual values recorded for South Africa from 2000 to 2022, with fluctuations indicating economic performance metrics.&lt;SEP&gt;Economic Data represents the annual values recorded for United Kingdom from 2000 to 2022, with measurements ranging from -10.047896637362 to 8.5431118453255.&lt;SEP&gt;Economic Data represents annual values for the United States ranging from 2000 to 2022, with values fluctuating between -2.57650022958367 and 6.05505293244555.</data>
+  <data key="d3">chunk-5c64ac4078202cf56ba54f92c98045d7&lt;SEP&gt;chunk-1ab621e6f502f97756483117b82e4b62&lt;SEP&gt;chunk-7bb246847ad8f417f3c49c728623bbf2&lt;SEP&gt;chunk-f485022e01f810a78e0e5231e68b4ef3&lt;SEP&gt;chunk-706bca093021a9bf7eb2b3b0fcb60de4&lt;SEP&gt;chunk-a6d05c6d1a905fbbac5fc9f66598d8ee&lt;SEP&gt;chunk-cb6e9217afdba694ae92dcb07b737756</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864221</data>
+  <data key="d6"></data>
+</node>
+<node id="Germany">
+  <data key="d0">Germany</data>
+  <data key="d1">location</data>
+  <data key="d2">Germany is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-476d6f8741e97ba3679a56f9bd787379&lt;SEP&gt;chunk-5daec7b8079c1d1c6bf960fdfd6f6de6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864140</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">location</data>
+  <data key="d2">India是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-5767c89513489049a3eb937c7d2782d7&lt;SEP&gt;chunk-007ad11f9974d7d47ccad5417a4ead80</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864146</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">location</data>
+  <data key="d2">Indonesia是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-8011b26efab952d2ad3d03a39269b9e6&lt;SEP&gt;chunk-fcd7749a4017e0bb0c44da8819881936</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864151</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">location</data>
+  <data key="d2">Italy is a country with economic data spanning from 2000 to 2022, showing various positive and negative values across years.</data>
+  <data key="d3">chunk-7107f22b054daf16b9ddc75bbe7e8000&lt;SEP&gt;chunk-1ab621e6f502f97756483117b82e4b62</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864157</data>
+  <data key="d6"></data>
+</node>
+<node id="Year 2000">
+  <data key="d0">Year 2000</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2000 marks the beginning of the data series for Italy with a value of 3.88209885062652.</data>
+  <data key="d3">chunk-1ab621e6f502f97756483117b82e4b62</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864157</data>
+  <data key="d6"></data>
+</node>
+<node id="Year 2021">
+  <data key="d0">Year 2021</data>
+  <data key="d1">data</data>
+  <data key="d2">Year 2021 represents a significant positive value of 8.93106210800055 in Italy's economic data.</data>
+  <data key="d3">chunk-1ab621e6f502f97756483117b82e4b62</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864157</data>
+  <data key="d6"></data>
+</node>
+<node id="Japan">
+  <data key="d0">Japan</data>
+  <data key="d1">location</data>
+  <data key="d2">Japan is a country with annual economic or performance metrics recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-ebfe87d6e1b211224a389573ffb21c22&lt;SEP&gt;chunk-f7a8fe20a4bcb9c4253a48f175d7c991</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864163</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">location</data>
+  <data key="d2">Korea, Rep. 是一个国家，在2000年至2022年期间有相关数据记录。</data>
+  <data key="d3">chunk-f9d02df1eb66679fda5ec3251bd1f3f5&lt;SEP&gt;chunk-c4ebbe873e1d32d45def1a230bd64fd2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864168</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">location</data>
+  <data key="d2">Malaysia is a country with annual economic performance data spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-96d78dda9d7233bf25b69f9e2dfc0197&lt;SEP&gt;chunk-c887402eed5ea54730c84be9d344b9c8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864173</data>
+  <data key="d6"></data>
+</node>
+<node id="Annual Economic Data">
+  <data key="d0">Annual Economic Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Annual Economic Data represents yearly performance values for Malaysia from 2000 to 2022, ranging from -5.46 to 9.03.</data>
+  <data key="d3">chunk-c887402eed5ea54730c84be9d344b9c8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864173</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">location</data>
+  <data key="d2">Mexico是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-4b6377f947c9ce077a451ba237c82c6b&lt;SEP&gt;chunk-8b80efe6a2499cbfda4841c8b9421e51</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864179</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">location</data>
+  <data key="d2">Nigeria是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-423b978ad5551ff4eae2aa7ea9d37987&lt;SEP&gt;chunk-7bb246847ad8f417f3c49c728623bbf2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864184</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">location</data>
+  <data key="d2">Philippines is a country with annual data values recorded from 2000 to 2022.</data>
+  <data key="d3">chunk-b79c56005cb2fda0a82877a6dd17f86a&lt;SEP&gt;chunk-719776cb09fcdcc0b1899ee4ad90af2c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864189</data>
+  <data key="d6"></data>
+</node>
+<node id="Poland">
+  <data key="d0">Poland</data>
+  <data key="d1">location</data>
+  <data key="d2">Poland is a country with economic data spanning from 2000 to 2022, showing various annual values.</data>
+  <data key="d3">chunk-87b52149710d43284c15efd6adad4681&lt;SEP&gt;chunk-f485022e01f810a78e0e5231e68b4ef3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864194</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">location</data>
+  <data key="d2">South Africa is a country with economic data spanning from 2000 to 2022, showing annual values ranging from -6.17 to 5.60.</data>
+  <data key="d3">chunk-00d16e6b477987d663534752a6ddf076&lt;SEP&gt;chunk-706bca093021a9bf7eb2b3b0fcb60de4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864199</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">location</data>
+  <data key="d2">Thailand是一个国家，其经济数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-b403038989767266c6ef0fddd16d2de8&lt;SEP&gt;chunk-2273f299da1b60ba64b8e541fd87ec7b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864205</data>
+  <data key="d6"></data>
+</node>
+<node id="经济增长数据">
+  <data key="d0">经济增长数据</data>
+  <data key="d1">data</data>
+  <data key="d2">经济增长数据是Thailand从2000年到2022年的年度经济增长率记录，数值范围从-6.05到7.51。&lt;SEP&gt;经济增长数据是Turkiye从2000年到2022年期间的年度数值记录，数值范围从-5.46到11.81。</data>
+  <data key="d3">chunk-2273f299da1b60ba64b8e541fd87ec7b&lt;SEP&gt;chunk-d1d3d5ab7fa2c1cc23badc20fa8d6c72</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864211</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">location</data>
+  <data key="d2">Turkiye是一个国家，拥有从2000年到2022年的经济数据记录。</data>
+  <data key="d3">chunk-827ffc2f8ec5d4ada3de0736625ee67f&lt;SEP&gt;chunk-d1d3d5ab7fa2c1cc23badc20fa8d6c72</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864211</data>
+  <data key="d6"></data>
+</node>
+<node id="United Kingdom">
+  <data key="d0">United Kingdom</data>
+  <data key="d1">location</data>
+  <data key="d2">United Kingdom is a location with economic data spanning from 2000 to 2022, showing various annual values including negative growth in 2009 and 2020.</data>
+  <data key="d3">chunk-c6630f97b57eb688e8d5cc29748afcd8&lt;SEP&gt;chunk-a6d05c6d1a905fbbac5fc9f66598d8ee</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864216</data>
+  <data key="d6"></data>
+</node>
+<node id="United States">
+  <data key="d0">United States</data>
+  <data key="d1">location</data>
+  <data key="d2">United States is a country with annual economic data spanning from 2000 to 2022.</data>
+  <data key="d3">chunk-464850373d23d899dd65521a1c1d957e&lt;SEP&gt;chunk-cb6e9217afdba694ae92dcb07b737756</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864221</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">location</data>
+  <data key="d2">Viet Nam是一个国家，拥有从2000年到2022年的年度数据记录。</data>
+  <data key="d3">chunk-b905bfeee0f8721fd47f4e7fa1308e9b&lt;SEP&gt;chunk-8ff4a9f75694ca3c5145e32e5f4d652b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774864227</data>
+  <data key="d6"></data>
+</node>
+<edge source="Argentina" target="经济数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina的经济数据记录了该国从2000年到2022年期间的年度经济表现。</data>
+  <data key="d9">数据记录,经济指标</data>
+  <data key="d10">chunk-2dba3647d2dc94b2bfe021a89726fabe</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864099</data>
+  <data key="d13"></data>
+</edge>
+<edge source="经济数据" target="Colombia">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia的经济数据记录了该国从2000年到2022年期间的年度经济表现。</data>
+  <data key="d9">时间序列,经济指标</data>
+  <data key="d10">chunk-a6ff8fd5435657ab05de9da3c3e3aae8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864125</data>
+  <data key="d13"></data>
+</edge>
+<edge source="经济数据" target="India">
+  <data key="d7">1.0</data>
+  <data key="d8">India的经济数据记录了该国从2000年到2022年期间的年度经济指标。</data>
+  <data key="d9">数据关联,经济指标</data>
+  <data key="d10">chunk-007ad11f9974d7d47ccad5417a4ead80</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864146</data>
+  <data key="d13"></data>
+</edge>
+<edge source="经济数据" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia的经济数据记录了该国从2000年到2022年期间的年度经济指标。</data>
+  <data key="d9">时间序列,经济指标</data>
+  <data key="d10">chunk-fcd7749a4017e0bb0c44da8819881936</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864151</data>
+  <data key="d13"></data>
+</edge>
+<edge source="经济数据" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico的经济数据记录了该国从2000年到2022年期间的年度经济表现。</data>
+  <data key="d9">时间序列,经济指标</data>
+  <data key="d10">chunk-8b80efe6a2499cbfda4841c8b9421e51</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864179</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Australia" target="年度数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Australia与其年度数据相关联，数据跨越23年时间段。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-d34f18190a462f44637131b0ddddab64</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864104</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Korea, Rep.">
+  <data key="d7">1.0</data>
+  <data key="d8">Korea, Rep.与年度数据相关联，数据跨越2000年至2022年的时间范围。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-c4ebbe873e1d32d45def1a230bd64fd2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864168</data>
+  <data key="d13"></data>
+</edge>
+<edge source="年度数据" target="Viet Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam与其年度数据相关联，记录了该国在2000年至2022年期间的数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-8ff4a9f75694ca3c5145e32e5f4d652b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864227</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="Economic Performance Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Brazil's economic performance is documented through annual data values from 2000 to 2022.</data>
+  <data key="d9">annual records,economic metrics</data>
+  <data key="d10">chunk-24fc395aecb5f5d55b5fc3d8a81c8394</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864109</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Canada" target="Annual Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Canada has associated annual data values recorded across a 23-year period from 2000 to 2022.</data>
+  <data key="d9">data measurement,temporal series</data>
+  <data key="d10">chunk-62e13699750948c0f7d2c2ec8b5e6a9c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864114</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Germany">
+  <data key="d7">1.0</data>
+  <data key="d8">Germany has associated annual data values recorded for each year from 2000 to 2022.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-5daec7b8079c1d1c6bf960fdfd6f6de6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864141</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Annual Data" target="Philippines">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines has associated annual data values spanning from 2000 to 2022.</data>
+  <data key="d9">data measurement,temporal records</data>
+  <data key="d10">chunk-719776cb09fcdcc0b1899ee4ad90af2c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864189</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="Baseline Data">
+  <data key="d7">1.0</data>
+  <data key="d8">China的Baseline Data包含了该国家在2000年至2022年期间的年度数值记录。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-f51bb9d3a7af7f3ab1761cd216f7fca1</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864119</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baseline Data" target="Japan">
+  <data key="d7">1.0</data>
+  <data key="d8">Japan's baseline data contains annual values measuring economic or performance indicators from 2000 to 2022.</data>
+  <data key="d9">annual performance,economic metrics</data>
+  <data key="d10">chunk-f7a8fe20a4bcb9c4253a48f175d7c991</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864163</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="Annual Data Series">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep. 的年度数据被记录在Annual Data Series中，跨越23年的时间范围。</data>
+  <data key="d9">data measurement,temporal tracking</data>
+  <data key="d10">chunk-38e650045acaf104a4429386d416d15b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864130</data>
+  <data key="d13"></data>
+</edge>
+<edge source="France" target="Economic Data">
+  <data key="d7">1.0</data>
+  <data key="d8">France的经济数据记录了该国在2000年至2022年期间的年度经济指标。</data>
+  <data key="d9">annual metrics,economic performance</data>
+  <data key="d10">chunk-5c64ac4078202cf56ba54f92c98045d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864136</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="Italy">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy's economic data spans from 2000 to 2022, documenting annual performance metrics.</data>
+  <data key="d9">economic performance,temporal data</data>
+  <data key="d10">chunk-1ab621e6f502f97756483117b82e4b62</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864157</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="Nigeria">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria的经济数据记录了该国从2000年到2022年期间的经济表现指标。</data>
+  <data key="d9">economic performance,time series</data>
+  <data key="d10">chunk-7bb246847ad8f417f3c49c728623bbf2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864184</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="Poland">
+  <data key="d7">1.0</data>
+  <data key="d8">Poland has associated economic data with annual values spanning 23 years from 2000 to 2022.</data>
+  <data key="d9">economic indicator,time series</data>
+  <data key="d10">chunk-f485022e01f810a78e0e5231e68b4ef3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864194</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="South Africa">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa has associated economic data values recorded annually from 2000 to 2022.</data>
+  <data key="d9">annual metrics,economic performance</data>
+  <data key="d10">chunk-706bca093021a9bf7eb2b3b0fcb60de4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864199</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="United Kingdom">
+  <data key="d7">1.0</data>
+  <data key="d8">United Kingdom is associated with economic data values recorded annually over a 23-year period.</data>
+  <data key="d9">data association,economic measurement</data>
+  <data key="d10">chunk-a6d05c6d1a905fbbac5fc9f66598d8ee</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864217</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Economic Data" target="United States">
+  <data key="d7">1.0</data>
+  <data key="d8">The United States has associated economic data values recorded annually from 2000 to 2022.</data>
+  <data key="d9">economic measurement,time series</data>
+  <data key="d10">chunk-cb6e9217afdba694ae92dcb07b737756</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864222</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="Annual Economic Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia's annual economic data documents the country's economic performance metrics across a 23-year period.</data>
+  <data key="d9">economic performance,time series</data>
+  <data key="d10">chunk-c887402eed5ea54730c84be9d344b9c8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864173</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="经济增长数据">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand的经济增长数据记录了该国在2000年至2022年期间的年度经济表现。</data>
+  <data key="d9">数据记录,经济指标</data>
+  <data key="d10">chunk-2273f299da1b60ba64b8e541fd87ec7b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864206</data>
+  <data key="d13"></data>
+</edge>
+<edge source="经济增长数据" target="Turkiye">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye拥有从2000年到2022年的经济增长数据记录。</data>
+  <data key="d9">数据记录,经济指标</data>
+  <data key="d10">chunk-d1d3d5ab7fa2c1cc23badc20fa8d6c72</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774864211</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

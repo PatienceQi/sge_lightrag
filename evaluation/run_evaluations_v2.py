@@ -31,7 +31,7 @@ V2_DATASETS = [
         "short": "WHO",
         "sge":      "output/who_life_expectancy/lightrag_storage/graph_chunk_entity_relation.graphml",
         "baseline": "output/baseline_who_life/lightrag_storage/graph_chunk_entity_relation.graphml",
-        "gold":     "evaluation/gold_who_life_expectancy_v2.jsonl",
+        "gold":     "evaluation/gold/gold_who_life_expectancy_v2.jsonl",
         "graphrag": "output/graphrag_who/output/graph.graphml",
     },
     {
@@ -39,7 +39,7 @@ V2_DATASETS = [
         "short": "WB_CM",
         "sge":      "output/wb_child_mortality/lightrag_storage/graph_chunk_entity_relation.graphml",
         "baseline": "output/baseline_wb_child_mortality/lightrag_storage/graph_chunk_entity_relation.graphml",
-        "gold":     "evaluation/gold_wb_child_mortality_v2.jsonl",
+        "gold":     "evaluation/gold/gold_wb_child_mortality_v2.jsonl",
         "graphrag": None,
     },
     {
@@ -47,7 +47,7 @@ V2_DATASETS = [
         "short": "WB_Pop",
         "sge":      "output/wb_population/lightrag_storage/graph_chunk_entity_relation.graphml",
         "baseline": "output/baseline_wb_population/lightrag_storage/graph_chunk_entity_relation.graphml",
-        "gold":     "evaluation/gold_wb_population_v2.jsonl",
+        "gold":     "evaluation/gold/gold_wb_population_v2.jsonl",
         "graphrag": None,
     },
     {
@@ -55,7 +55,7 @@ V2_DATASETS = [
         "short": "WB_Mat",
         "sge":      "output/wb_maternal/lightrag_storage/graph_chunk_entity_relation.graphml",
         "baseline": "output/baseline_wb_maternal/lightrag_storage/graph_chunk_entity_relation.graphml",
-        "gold":     "evaluation/gold_wb_maternal_v2.jsonl",
+        "gold":     "evaluation/gold/gold_wb_maternal_v2.jsonl",
         "graphrag": None,
     },
 ]
@@ -206,7 +206,7 @@ def main():
         print()
 
     # Save
-    out_path = PROJECT_ROOT / "evaluation" / "all_results_v2.json"
+    out_path = PROJECT_ROOT / "evaluation" / "results" / "all_results_v2.json"
     out_path.write_text(json.dumps(all_results, indent=2, ensure_ascii=False))
     print(f"Results saved to {out_path}")
 

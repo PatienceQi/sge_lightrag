@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T18:53:07.037913",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_immunization_measles.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_immunization_measles/sge_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 8752,
+    "node_count": 25,
+    "edge_count": 0
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_immunization_measles/baseline_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 26838,
+    "node_count": 31,
+    "edge_count": 25
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

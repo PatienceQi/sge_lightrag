@@ -1,0 +1,127 @@
+{
+  "experiment": "leave-one-domain-out",
+  "n_domains": 5,
+  "n_files": 33,
+  "threshold": 6,
+  "full_set_accuracy": 1.0,
+  "all_folds_perfect": true,
+  "all_threshold_valid": true,
+  "folds": [
+    {
+      "domain": "HK Medical Expenditure",
+      "n_files": 8,
+      "n_correct": 8,
+      "accuracy": 1.0,
+      "misclassified": [],
+      "remaining_ct_distribution": {
+        "Hierarchical-Hybrid": [
+          0,
+          1,
+          4
+        ],
+        "Time-Series-Matrix": [
+          0,
+          4,
+          22,
+          66
+        ]
+      },
+      "threshold_valid": true
+    },
+    {
+      "domain": "HK Inpatient",
+      "n_files": 12,
+      "n_correct": 12,
+      "accuracy": 1.0,
+      "misclassified": [],
+      "remaining_ct_distribution": {
+        "Flat-Entity": [
+          0
+        ],
+        "Hierarchical-Hybrid": [
+          0,
+          1,
+          4
+        ],
+        "Time-Series-Matrix": [
+          0,
+          4,
+          22,
+          66
+        ]
+      },
+      "threshold_valid": true
+    },
+    {
+      "domain": "HK Surveys & Safety",
+      "n_files": 4,
+      "n_correct": 4,
+      "accuracy": 1.0,
+      "misclassified": [],
+      "remaining_ct_distribution": {
+        "Flat-Entity": [
+          0
+        ],
+        "Hierarchical-Hybrid": [
+          0
+        ],
+        "Time-Series-Matrix": [
+          0,
+          4,
+          22,
+          66
+        ]
+      },
+      "threshold_valid": true
+    },
+    {
+      "domain": "HK Admin & Stats",
+      "n_files": 3,
+      "n_correct": 3,
+      "accuracy": 1.0,
+      "misclassified": [],
+      "remaining_ct_distribution": {
+        "Flat-Entity": [
+          0
+        ],
+        "Hierarchical-Hybrid": [
+          0,
+          1,
+          4
+        ],
+        "Time-Series-Matrix": [
+          22,
+          66
+        ]
+      },
+      "threshold_valid": true
+    },
+    {
+      "domain": "International (WB + WHO)",
+      "n_files": 6,
+      "n_correct": 6,
+      "accuracy": 1.0,
+      "misclassified": [],
+      "remaining_ct_distribution": {
+        "Flat-Entity": [
+          0
+        ],
+        "Hierarchical-Hybrid": [
+          0,
+          1,
+          4
+        ],
+        "Time-Series-Matrix": [
+          0,
+          4
+        ]
+      },
+      "threshold_valid": true
+    }
+  ],
+  "type_distribution": {
+    "Flat-Entity": 8,
+    "Hierarchical-Hybrid": 16,
+    "Time-Series-Matrix": 9
+  }
+}

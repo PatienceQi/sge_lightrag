@@ -1,0 +1,220 @@
+{
+  "test_date": "2026-03-30",
+  "total": 6,
+  "passed": 4,
+  "failed": 2,
+  "accuracy": "4/6",
+  "results": [
+    {
+      "id": 1,
+      "file": "oecd_gdp_usd_millions.csv",
+      "description": "25 countries × 14 years GDP",
+      "expected": "Time-Series-Matrix",
+      "actual": "Time-Series-Matrix",
+      "result": "PASS",
+      "features": {
+        "n_rows": 25,
+        "n_text_cols": 1,
+        "n_numeric_cols": 14,
+        "leading_text_col_count": 1,
+        "time_cols_in_headers_count": 14,
+        "time_cols_in_headers": [
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "time_cols_in_first_col": false,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "Country",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": 2,
+      "file": "oecd_hospital_beds_per_1000.csv",
+      "description": "25 countries × 9 years hospital beds",
+      "expected": "Time-Series-Matrix",
+      "actual": "Time-Series-Matrix",
+      "result": "PASS",
+      "features": {
+        "n_rows": 25,
+        "n_text_cols": 1,
+        "n_numeric_cols": 9,
+        "leading_text_col_count": 1,
+        "time_cols_in_headers_count": 9,
+        "time_cols_in_headers": [
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "time_cols_in_first_col": false,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "Country",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": 3,
+      "file": "oecd_germany_hospital_discharge.csv",
+      "description": "ICD_Code + Disease_Category + 9 years, 2 leading text cols",
+      "expected": "Hierarchical-Hybrid",
+      "actual": "Time-Series-Matrix",
+      "result": "FAIL",
+      "features": {
+        "n_rows": 25,
+        "n_text_cols": 2,
+        "n_numeric_cols": 9,
+        "leading_text_col_count": 2,
+        "time_cols_in_headers_count": 9,
+        "time_cols_in_headers": [
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "time_cols_in_first_col": false,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "ICD_Code",
+          "Disease_Category",
+          "2015",
+          "2016",
+          "2017",
+          "2018"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": 4,
+      "file": "oecd_discharge_by_country_disease.csv",
+      "description": "Country + ICD_Chapter + Disease_Group + 9 years, 3 leading text cols",
+      "expected": "Hierarchical-Hybrid",
+      "actual": "Time-Series-Matrix",
+      "result": "FAIL",
+      "features": {
+        "n_rows": 18,
+        "n_text_cols": 3,
+        "n_numeric_cols": 9,
+        "leading_text_col_count": 3,
+        "time_cols_in_headers_count": 9,
+        "time_cols_in_headers": [
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "time_cols_in_first_col": false,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "Country",
+          "ICD_Chapter",
+          "Disease_Group",
+          "2015",
+          "2016",
+          "2017"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": 5,
+      "file": "T02-03.CSV (HK dependency ratios)",
+      "description": "years × dependency ratios (transposed)",
+      "expected": "Time-Series-Matrix",
+      "actual": "Time-Series-Matrix",
+      "result": "PASS",
+      "features": {
+        "n_rows": 25,
+        "n_text_cols": 2,
+        "n_numeric_cols": 2,
+        "leading_text_col_count": 0,
+        "time_cols_in_headers_count": 0,
+        "time_cols_in_headers": [],
+        "time_cols_in_first_col": true,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "Yr",
+          "Domestic_helpers",
+          "Type_dep_ratios",
+          "Dep_ratios"
+        ]
+      },
+      "error": null
+    },
+    {
+      "id": 6,
+      "file": "Table 110-01001_sc.csv (HK population by sex/age)",
+      "description": "gender × age group × 65 years, complex multi-header",
+      "expected": "Hierarchical-Hybrid",
+      "actual": "Hierarchical-Hybrid",
+      "result": "PASS",
+      "features": {
+        "n_rows": 25,
+        "n_text_cols": 72,
+        "n_numeric_cols": 190,
+        "leading_text_col_count": 2,
+        "time_cols_in_headers_count": 0,
+        "time_cols_in_headers": [],
+        "time_cols_in_first_col": false,
+        "time_in_data_body": false,
+        "headerless": false,
+        "header_strings": [
+          "",
+          ".1",
+          "人口数目",
+          "人口数目.1",
+          "人口数目.2",
+          "人口数目.3"
+        ]
+      },
+      "error": null
+    }
+  ]
+}

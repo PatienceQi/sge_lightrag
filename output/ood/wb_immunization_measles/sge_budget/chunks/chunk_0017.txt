@@ -1,0 +1,24 @@
+Entity: Nigeria
+Year: 2000 | Value: 33
+Year: 2001 | Value: 32
+Year: 2002 | Value: 30
+Year: 2003 | Value: 34
+Year: 2004 | Value: 37
+Year: 2005 | Value: 41
+Year: 2006 | Value: 44
+Year: 2007 | Value: 41
+Year: 2008 | Value: 53
+Year: 2009 | Value: 64
+Year: 2010 | Value: 56
+Year: 2011 | Value: 53
+Year: 2012 | Value: 41
+Year: 2013 | Value: 42
+Year: 2014 | Value: 42
+Year: 2015 | Value: 42
+Year: 2016 | Value: 48
+Year: 2017 | Value: 54
+Year: 2018 | Value: 56
+Year: 2019 | Value: 58
+Year: 2020 | Value: 60
+Year: 2021 | Value: 56
+Year: 2022 | Value: 51

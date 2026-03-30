@@ -1,0 +1,70 @@
+[
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 36,
+    "edges": 0,
+    "n_entities": 0,
+    "n_facts": 0,
+    "matched_entities": 0,
+    "matched_facts": 0,
+    "mode": "sge",
+    "name": "医疗开支 Table_1"
+  },
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 0,
+    "edges": 0,
+    "mode": "baseline",
+    "name": "医疗开支 Table_1"
+  },
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 13,
+    "edges": 0,
+    "n_entities": 0,
+    "n_facts": 0,
+    "matched_entities": 0,
+    "matched_facts": 0,
+    "mode": "sge",
+    "name": "医疗开支 Table_3"
+  },
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 18,
+    "edges": 13,
+    "n_entities": 0,
+    "n_facts": 0,
+    "matched_entities": 0,
+    "matched_facts": 0,
+    "mode": "baseline",
+    "name": "医疗开支 Table_3"
+  },
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 4,
+    "edges": 0,
+    "n_entities": 0,
+    "n_facts": 0,
+    "matched_entities": 0,
+    "matched_facts": 0,
+    "mode": "sge",
+    "name": "医疗开支 Table_5"
+  },
+  {
+    "ec": 0.0,
+    "fc": 0.0,
+    "nodes": 4,
+    "edges": 3,
+    "n_entities": 0,
+    "n_facts": 0,
+    "matched_entities": 0,
+    "matched_facts": 0,
+    "mode": "baseline",
+    "name": "医疗开支 Table_5"
+  }
+]

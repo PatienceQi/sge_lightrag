@@ -1,0 +1,24 @@
+Entity: Korea, Rep.
+Year: 2000 | Value: 4.063
+Year: 2001 | Value: 3.699
+Year: 2002 | Value: 3.046
+Year: 2003 | Value: 3.348
+Year: 2004 | Value: 3.42
+Year: 2005 | Value: 3.482
+Year: 2006 | Value: 3.254
+Year: 2007 | Value: 3.013
+Year: 2008 | Value: 2.959
+Year: 2009 | Value: 3.363
+Year: 2010 | Value: 3.324
+Year: 2011 | Value: 2.992
+Year: 2012 | Value: 2.812
+Year: 2013 | Value: 3.067
+Year: 2014 | Value: 3.082
+Year: 2015 | Value: 3.546
+Year: 2016 | Value: 3.65
+Year: 2017 | Value: 3.653
+Year: 2018 | Value: 3.824
+Year: 2019 | Value: 3.746
+Year: 2020 | Value: 3.931
+Year: 2021 | Value: 3.639
+Year: 2022 | Value: 2.857

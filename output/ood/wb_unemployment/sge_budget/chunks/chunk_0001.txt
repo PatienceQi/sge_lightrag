@@ -1,0 +1,24 @@
+Entity: Argentina
+Year: 2000 | Value: 15.0
+Year: 2001 | Value: 17.32
+Year: 2002 | Value: 19.59
+Year: 2003 | Value: 15.36
+Year: 2004 | Value: 13.522
+Year: 2005 | Value: 11.506
+Year: 2006 | Value: 10.078
+Year: 2007 | Value: 8.47
+Year: 2008 | Value: 7.837
+Year: 2009 | Value: 8.645
+Year: 2010 | Value: 7.714
+Year: 2011 | Value: 7.18
+Year: 2012 | Value: 7.217
+Year: 2013 | Value: 7.1
+Year: 2014 | Value: 7.268
+Year: 2015 | Value: 7.577
+Year: 2016 | Value: 8.088
+Year: 2017 | Value: 8.347
+Year: 2018 | Value: 9.22
+Year: 2019 | Value: 9.843
+Year: 2020 | Value: 11.461
+Year: 2021 | Value: 8.736
+Year: 2022 | Value: 6.805

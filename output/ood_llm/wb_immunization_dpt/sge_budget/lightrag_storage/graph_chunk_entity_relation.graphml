@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-48d2dfbe8f44753fcfb908cc56a929b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870790</data>
+  <data key="d6"></data>
+</node>
+<node id="Australia">
+  <data key="d0">Australia</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-0e20ce99d4aef71e1d23a12bd1ffe53c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870798</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">country</data>
+  <data key="d2">南美洲国家，时间序列数据涵盖2000-2022年</data>
+  <data key="d3">chunk-43e4d24b69bd82aa875453b6c17e9f6a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870809</data>
+  <data key="d6"></data>
+</node>
+<node id="Canada">
+  <data key="d0">Canada</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-d48959d173294ed4afbfc3f8d468db1a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870816</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-2efae000fe43ebe2c06c641d97c8ea48</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870823</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-f39287e7f9a009d7ea5e38a396c519be</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870832</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">埃及阿拉伯共和国，2000-2022年期间的时间序列数据主体</data>
+  <data key="d3">chunk-41a6d9368f753a2a62ddaf57a2e3e05f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870842</data>
+  <data key="d6"></data>
+</node>
+<node id="France">
+  <data key="d0">France</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-a20e6b2cb99058e4e63941fea3851ade</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870853</data>
+  <data key="d6"></data>
+</node>
+<node id="Germany">
+  <data key="d0">Germany</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-aa3d12c6a537d0d525e565149bfc5097</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870874</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体，包含多年度指标数据</data>
+  <data key="d3">chunk-eeb238903440a97366d7fce437c00f91</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870883</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">country</data>
+  <data key="d2">时间序列数据中的国家实体，记录2000-2022年间的指标数据</data>
+  <data key="d3">chunk-53d773da98086ad988f9df6b39042160</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870890</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-c0aa6229d274641cd3bbb062199f550d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870901</data>
+  <data key="d6"></data>
+</node>
+<node id="Japan">
+  <data key="d0">Japan</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，2000-2022年期间的指标数据记录</data>
+  <data key="d3">chunk-c0a88f99f7df80c56a78714b9b428996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870912</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">一个国家实体</data>
+  <data key="d3">chunk-02360af6fd1770f915d7d42d903ac840</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870921</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-21aec8856270320c0be703d79eb04278</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870930</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，2000-2022年期间的指标数据记录</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2000">
+  <data key="d0">2000</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2000年的指标值为97</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2001">
+  <data key="d0">2001</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2001年的指标值为97</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2002">
+  <data key="d0">2002</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2002年的指标值为97</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2003">
+  <data key="d0">2003</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2003年的指标值为98</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2004">
+  <data key="d0">2004</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2004年的指标值为98</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2005">
+  <data key="d0">2005</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2005年的指标值为98</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870941</data>
+  <data key="d6"></data>
+</node>
+<node id="2006">
+  <data key="d0">2006</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2006年的指标值为98</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2007">
+  <data key="d0">2007</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2007年的指标值为98</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2008">
+  <data key="d0">2008</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2008年的指标值为96</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2009">
+  <data key="d0">2009</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2009年的指标值为95</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2010">
+  <data key="d0">2010</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2010年的指标值为95</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2011">
+  <data key="d0">2011</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2011年的指标值为97</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2012">
+  <data key="d0">2012</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2012年的指标值为99</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2013年的指标值为83</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2014">
+  <data key="d0">2014</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2014年的指标值为87</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2015年的指标值为87</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2016">
+  <data key="d0">2016</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2016年的指标值为93</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2017">
+  <data key="d0">2017</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2017年的指标值为85</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870942</data>
+  <data key="d6"></data>
+</node>
+<node id="2018">
+  <data key="d0">2018</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2018年的指标值为88</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870943</data>
+  <data key="d6"></data>
+</node>
+<node id="2019">
+  <data key="d0">2019</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2019年的指标值为82</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870943</data>
+  <data key="d6"></data>
+</node>
+<node id="2020">
+  <data key="d0">2020</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2020年的指标值为72</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870943</data>
+  <data key="d6"></data>
+</node>
+<node id="2021">
+  <data key="d0">2021</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2021年的指标值为78</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870943</data>
+  <data key="d6"></data>
+</node>
+<node id="2022">
+  <data key="d0">2022</data>
+  <data key="d3">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d2">Mexico在2022年的指标值为83</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870943</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-d56b8193dd0c6dcdb13b1916d4de5541</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870951</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-e0435a523afa2753a5e8070d79b9a504</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870965</data>
+  <data key="d6"></data>
+</node>
+<node id="Poland">
+  <data key="d0">Poland</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-33e3aa9f4183309904fc677c9aa3380b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870975</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，2000-2022年期间的指标数据记录</data>
+  <data key="d3">chunk-eacfb943fd4ec60554a5818720b1d7d5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870993</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">country</data>
+  <data key="d2">时间序列数据中的国家实体，记录2000-2022年间的指标值</data>
+  <data key="d3">chunk-128efc7618a021ddc5f5f29d71ce070d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774871004</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体，包含多年度的指标数据</data>
+  <data key="d3">chunk-6d42573a5f55083f0eb09236fe1ee3c2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774871015</data>
+  <data key="d6"></data>
+</node>
+<node id="United Kingdom">
+  <data key="d0">United Kingdom</data>
+  <data key="d1">country</data>
+  <data key="d2">2000-2022年期间的国家实体</data>
+  <data key="d3">chunk-86b1614b05e985a36b8ba765653bdd88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774871025</data>
+  <data key="d6"></data>
+</node>
+<node id="United States">
+  <data key="d0">United States</data>
+  <data key="d1">country</data>
+  <data key="d2">2000年至2022年期间的国家实体</data>
+  <data key="d3">chunk-d58da39fac9421adb216ac4a61b713ff</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774871041</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">country</data>
+  <data key="d2">越南，2000-2022年期间的时间序列数据记录</data>
+  <data key="d3">chunk-7f49a93e70f8c127dcc6cee9753f47da</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774871053</data>
+  <data key="d6"></data>
+</node>
+<edge source="Mexico" target="2000">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2000年的指标值为97</data>
+  <data key="d9">HAS_METRIC,value: 97,year: 2000</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870941</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2001">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2001年的指标值为97</data>
+  <data key="d9">HAS_METRIC,value: 97,year: 2001</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870941</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2002">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2002年的指标值为97</data>
+  <data key="d9">HAS_METRIC,value: 97,year: 2002</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870941</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2003">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2003年的指标值为98</data>
+  <data key="d9">HAS_METRIC,value: 98,year: 2003</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870941</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2004">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2004年的指标值为98</data>
+  <data key="d9">HAS_METRIC,value: 98,year: 2004</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870941</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2005">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2005年的指标值为98</data>
+  <data key="d9">HAS_METRIC,value: 98,year: 2005</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2006">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2006年的指标值为98</data>
+  <data key="d9">HAS_METRIC,value: 98,year: 2006</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2007">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2007年的指标值为98</data>
+  <data key="d9">HAS_METRIC,value: 98,year: 2007</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2008">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2008年的指标值为96</data>
+  <data key="d9">HAS_METRIC,value: 96,year: 2008</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2009">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2009年的指标值为95</data>
+  <data key="d9">HAS_METRIC,value: 95,year: 2009</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2010">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2010年的指标值为95</data>
+  <data key="d9">HAS_METRIC,value: 95,year: 2010</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2011">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2011年的指标值为97</data>
+  <data key="d9">HAS_METRIC,value: 97,year: 2011</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2012">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2012年的指标值为99</data>
+  <data key="d9">HAS_METRIC,value: 99,year: 2012</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2013">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2013年的指标值为83</data>
+  <data key="d9">HAS_METRIC,value: 83,year: 2013</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2014">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2014年的指标值为87</data>
+  <data key="d9">HAS_METRIC,value: 87,year: 2014</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2015">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2015年的指标值为87</data>
+  <data key="d9">HAS_METRIC,value: 87,year: 2015</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2016">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2016年的指标值为93</data>
+  <data key="d9">HAS_METRIC,value: 93,year: 2016</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870942</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2017">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2017年的指标值为85</data>
+  <data key="d9">HAS_METRIC,value: 85,year: 2017</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2018">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2018年的指标值为88</data>
+  <data key="d9">HAS_METRIC,value: 88,year: 2018</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2019">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2019年的指标值为82</data>
+  <data key="d9">HAS_METRIC,value: 82,year: 2019</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2020">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2020年的指标值为72</data>
+  <data key="d9">HAS_METRIC,value: 72,year: 2020</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2021">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2021年的指标值为78</data>
+  <data key="d9">HAS_METRIC,value: 78,year: 2021</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="2022">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2022年的指标值为83</data>
+  <data key="d9">HAS_METRIC,value: 83,year: 2022</data>
+  <data key="d10">chunk-68586c118c0751520a58c31948651795</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870943</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

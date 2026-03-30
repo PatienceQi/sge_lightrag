@@ -1,0 +1,24 @@
+Entity: Colombia
+Year: 2000 | Value: 79
+Year: 2001 | Value: 80
+Year: 2002 | Value: 81
+Year: 2003 | Value: 92
+Year: 2004 | Value: 89
+Year: 2005 | Value: 93
+Year: 2006 | Value: 93
+Year: 2007 | Value: 94
+Year: 2008 | Value: 92
+Year: 2009 | Value: 92
+Year: 2010 | Value: 88
+Year: 2011 | Value: 85
+Year: 2012 | Value: 92
+Year: 2013 | Value: 91
+Year: 2014 | Value: 90
+Year: 2015 | Value: 91
+Year: 2016 | Value: 91
+Year: 2017 | Value: 92
+Year: 2018 | Value: 92
+Year: 2019 | Value: 94
+Year: 2020 | Value: 88
+Year: 2021 | Value: 87
+Year: 2022 | Value: 87

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T18:19:11.616058",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_co2_emissions.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_co2_emissions/sge_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 403181,
+    "node_count": 582,
+    "edge_count": 557
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_co2_emissions/baseline_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 27189,
+    "node_count": 32,
+    "edge_count": 25
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

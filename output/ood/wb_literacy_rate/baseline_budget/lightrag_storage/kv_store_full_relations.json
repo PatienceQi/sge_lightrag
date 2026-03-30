@@ -1,0 +1,1074 @@
+{
+  "doc-a587d74d071e517c0bffe6271889401e": {
+    "relation_pairs": [
+      [
+        "97.1900024414062",
+        "Argentina"
+      ],
+      [
+        "99.1399993896484",
+        "Argentina"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1774866467,
+    "update_time": 1774866467,
+    "_id": "doc-a587d74d071e517c0bffe6271889401e"
+  },
+  "doc-eb2e81164256b5cce8b850b95584f7ec": {
+    "relation_pairs": [
+      [
+        "90.0100021362305",
+        "Brazil"
+      ],
+      [
+        "90.379997253418",
+        "Brazil"
+      ],
+      [
+        "93.9019248012051",
+        "Brazil"
+      ],
+      [
+        "90.0400009155273",
+        "Brazil"
+      ],
+      [
+        "94.7576490611664",
+        "Brazil"
+      ],
+      [
+        "91.7300033569336",
+        "Brazil"
+      ],
+      [
+        "90.3000030517578",
+        "Brazil"
+      ],
+      [
+        "92.0500030517578",
+        "Brazil"
+      ],
+      [
+        "94.7848837154757",
+        "Brazil"
+      ],
+      [
+        "91.4800033569336",
+        "Brazil"
+      ],
+      [
+        "91.3399963378906",
+        "Brazil"
+      ],
+      [
+        "93.0800018310547",
+        "Brazil"
+      ],
+      [
+        "92.8099975585938",
+        "Brazil"
+      ],
+      [
+        "91.4100036621094",
+        "Brazil"
+      ],
+      [
+        "94.3853874531348",
+        "Brazil"
+      ],
+      [
+        "86.370002746582",
+        "Brazil"
+      ],
+      [
+        "93.2300033569336",
+        "Brazil"
+      ],
+      [
+        "88.620002746582",
+        "Brazil"
+      ],
+      [
+        "89.620002746582",
+        "Brazil"
+      ]
+    ],
+    "count": 19,
+    "create_time": 1774866477,
+    "update_time": 1774866477,
+    "_id": "doc-eb2e81164256b5cce8b850b95584f7ec"
+  },
+  "doc-1267d1065a26ee664937ddfda435e939": {
+    "relation_pairs": [
+      [
+        "90.9199981689453",
+        "China"
+      ],
+      [
+        "96.7399978637695",
+        "China"
+      ],
+      [
+        "95.120002746582",
+        "China"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774866482,
+    "update_time": 1774866482,
+    "_id": "doc-1267d1065a26ee664937ddfda435e939"
+  },
+  "doc-98705ef936e29ab0fb75ae5216a130cd": {
+    "relation_pairs": [
+      [
+        "93.379997253418",
+        "Colombia"
+      ],
+      [
+        "95.0899963378906",
+        "Colombia"
+      ],
+      [
+        "93.5800018310547",
+        "Colombia"
+      ],
+      [
+        "93.370002746582",
+        "Colombia"
+      ],
+      [
+        "95.6399993896484",
+        "Colombia"
+      ],
+      [
+        "94.6500015258789",
+        "Colombia"
+      ],
+      [
+        "94.8927138785262",
+        "Colombia"
+      ],
+      [
+        "92.3000030517578",
+        "Colombia"
+      ],
+      [
+        "92.8000030517578",
+        "Colombia"
+      ],
+      [
+        "94.1900024414062",
+        "Colombia"
+      ],
+      [
+        "92.8499984741211",
+        "Colombia"
+      ],
+      [
+        "92.6500015258789",
+        "Colombia"
+      ],
+      [
+        "95.3138834471897",
+        "Colombia"
+      ],
+      [
+        "95.666552016916",
+        "Colombia"
+      ],
+      [
+        "93.2399978637695",
+        "Colombia"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1774866490,
+    "update_time": 1774866490,
+    "_id": "doc-98705ef936e29ab0fb75ae5216a130cd"
+  },
+  "doc-b3ebd93da372256b4db850d13ac39d97": {
+    "relation_pairs": [
+      [
+        "73.870002746582",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "72.4400024414062",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "72.0500030517578",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "79.4565788949049",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "67.3300018310547",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "82.083331279425",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "71.1699981689453",
+        "Egypt, Arab Rep."
+      ],
+      [
+        "66.370002746582",
+        "Egypt, Arab Rep."
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774866496,
+    "update_time": 1774866496,
+    "_id": "doc-b3ebd93da372256b4db850d13ac39d97"
+  },
+  "doc-6960b8604167985cb2072e59d1938f4d": {
+    "relation_pairs": [
+      [
+        "69.3000030517578",
+        "India"
+      ],
+      [
+        "74.9084268267486",
+        "India"
+      ],
+      [
+        "69.8350587234791",
+        "India"
+      ],
+      [
+        "73.6975430256976",
+        "India"
+      ],
+      [
+        "76.3199996948242",
+        "India"
+      ],
+      [
+        "75.5437727049002",
+        "India"
+      ],
+      [
+        "76.0715766188242",
+        "India"
+      ],
+      [
+        "61.0099983215332",
+        "India"
+      ],
+      [
+        "68.3354718669705",
+        "India"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1774866504,
+    "update_time": 1774866504,
+    "_id": "doc-6960b8604167985cb2072e59d1938f4d"
+  },
+  "doc-87e70469cb16c567247021f5ba36b1eb": {
+    "relation_pairs": [
+      [
+        "95.6600036621094",
+        "Indonesia"
+      ],
+      [
+        "92.3199996948242",
+        "Indonesia"
+      ],
+      [
+        "91.9800033569336",
+        "Indonesia"
+      ],
+      [
+        "92.5800018310547",
+        "Indonesia"
+      ],
+      [
+        "90.379997253418",
+        "Indonesia"
+      ],
+      [
+        "95.379997253418",
+        "Indonesia"
+      ],
+      [
+        "92.1900024414062",
+        "Indonesia"
+      ],
+      [
+        "95.120002746582",
+        "Indonesia"
+      ],
+      [
+        "92.8099975585938",
+        "Indonesia"
+      ],
+      [
+        "95.2200012207031",
+        "Indonesia"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1774866513,
+    "update_time": 1774866513,
+    "_id": "doc-87e70469cb16c567247021f5ba36b1eb"
+  },
+  "doc-d17b7658816d5025f420e18dce7e3d38": {
+    "relation_pairs": [
+      [
+        "99.3499984741211",
+        "Italy"
+      ],
+      [
+        "98.8499984741211",
+        "Italy"
+      ],
+      [
+        "98.4199981689453",
+        "Italy"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774866519,
+    "update_time": 1774866519,
+    "_id": "doc-d17b7658816d5025f420e18dce7e3d38"
+  },
+  "doc-e185e49fd230a9fa171e3e6a8c53144d": {
+    "relation_pairs": [
+      [
+        "97.9700012207031",
+        "Korea, Rep."
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866524,
+    "update_time": 1774866524,
+    "_id": "doc-e185e49fd230a9fa171e3e6a8c53144d"
+  },
+  "doc-127b71cf7c44760c462c7e5ff573f17a": {
+    "relation_pairs": [
+      [
+        "95.7699966430664",
+        "Malaysia"
+      ],
+      [
+        "94.8499984741211",
+        "Malaysia"
+      ],
+      [
+        "94.9700012207031",
+        "Malaysia"
+      ],
+      [
+        "94.879997253418",
+        "Malaysia"
+      ],
+      [
+        "95.0800018310547",
+        "Malaysia"
+      ],
+      [
+        "88.6900024414062",
+        "Malaysia"
+      ],
+      [
+        "93.120002746582",
+        "Malaysia"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1774866530,
+    "update_time": 1774866530,
+    "_id": "doc-127b71cf7c44760c462c7e5ff573f17a"
+  },
+  "doc-e1d86208c1f65267abbd3123fa74c19b": {
+    "relation_pairs": [
+      [
+        "93.4400024414062",
+        "Mexico"
+      ],
+      [
+        "90.5400009155273",
+        "Mexico"
+      ],
+      [
+        "93.5199966430664",
+        "Mexico"
+      ],
+      [
+        "95.3889403219417",
+        "Mexico"
+      ],
+      [
+        "90.9499969482422",
+        "Mexico"
+      ],
+      [
+        "91.7300033569336",
+        "Mexico"
+      ],
+      [
+        "93.9599990844727",
+        "Mexico"
+      ],
+      [
+        "92.8000030517578",
+        "Mexico"
+      ],
+      [
+        "91.629997253418",
+        "Mexico"
+      ],
+      [
+        "94.9700012207031",
+        "Mexico"
+      ],
+      [
+        "90.2699966430664",
+        "Mexico"
+      ],
+      [
+        "95.6890981310362",
+        "Mexico"
+      ],
+      [
+        "95.379997253418",
+        "Mexico"
+      ],
+      [
+        "94.2300033569336",
+        "Mexico"
+      ],
+      [
+        "95.8486603965766",
+        "Mexico"
+      ],
+      [
+        "94.8600006103516",
+        "Mexico"
+      ],
+      [
+        "94.5599975585938",
+        "Mexico"
+      ],
+      [
+        "94.4700012207031",
+        "Mexico"
+      ],
+      [
+        "92.9300003051758",
+        "Mexico"
+      ],
+      [
+        "93.0699996948242",
+        "Mexico"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1774866541,
+    "update_time": 1774866541,
+    "_id": "doc-e1d86208c1f65267abbd3123fa74c19b"
+  },
+  "doc-eff80d9736ea083d817aa4e5c0e6bb28": {
+    "relation_pairs": [
+      [
+        "54.7700004577637",
+        "Nigeria"
+      ],
+      [
+        "58.2200012207031",
+        "Nigeria"
+      ],
+      [
+        "70.1999969482422",
+        "Nigeria"
+      ],
+      [
+        "63.1599998474121",
+        "Nigeria"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1774866548,
+    "update_time": 1774866548,
+    "_id": "doc-eff80d9736ea083d817aa4e5c0e6bb28"
+  },
+  "doc-a122a7a28fb6089047af11f1f00bf106": {
+    "relation_pairs": [
+      [
+        "97.0899963378906",
+        "Philippines"
+      ],
+      [
+        "92.5999984741211",
+        "Philippines"
+      ],
+      [
+        "92.5899963378906",
+        "Philippines"
+      ],
+      [
+        "95.4199981689453",
+        "Philippines"
+      ],
+      [
+        "96.2799987792969",
+        "Philippines"
+      ],
+      [
+        "98.1800003051758",
+        "Philippines"
+      ],
+      [
+        "98.4700012207031",
+        "Philippines"
+      ],
+      [
+        "96.4000015258789",
+        "Philippines"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774866554,
+    "update_time": 1774866554,
+    "_id": "doc-a122a7a28fb6089047af11f1f00bf106"
+  },
+  "doc-793140efb29e889adde712402918fd48": {
+    "relation_pairs": [
+      [
+        "92.8899993896484",
+        "South Africa"
+      ],
+      [
+        "95.0199966430664",
+        "South Africa"
+      ],
+      [
+        "94.370002746582",
+        "South Africa"
+      ],
+      [
+        "91.7399978637695",
+        "South Africa"
+      ],
+      [
+        "94.1399993896484",
+        "South Africa"
+      ],
+      [
+        "88.7200012207031",
+        "South Africa"
+      ],
+      [
+        "93.7300033569336",
+        "South Africa"
+      ],
+      [
+        "93.0999984741211",
+        "South Africa"
+      ],
+      [
+        "92.879997253418",
+        "South Africa"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1774866561,
+    "update_time": 1774866561,
+    "_id": "doc-793140efb29e889adde712402918fd48"
+  },
+  "doc-8b0c1798596c73668e37f6b155a70d87": {
+    "relation_pairs": [
+      [
+        "93.6999969482422",
+        "Thailand"
+      ],
+      [
+        "92.6500015258789",
+        "Thailand"
+      ],
+      [
+        "91.9800033569336",
+        "Thailand"
+      ],
+      [
+        "93.7699966430664",
+        "Thailand"
+      ],
+      [
+        "91.2699966430664",
+        "Thailand"
+      ],
+      [
+        "92.870002746582",
+        "Thailand"
+      ],
+      [
+        "91.0999984741211",
+        "Thailand"
+      ],
+      [
+        "96.4300003051758",
+        "Thailand"
+      ],
+      [
+        "93.5100021362305",
+        "Thailand"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1774866569,
+    "update_time": 1774866569,
+    "_id": "doc-8b0c1798596c73668e37f6b155a70d87"
+  },
+  "doc-b73139be3b09f76b69977ede1b801363": {
+    "relation_pairs": [
+      [
+        "88.6600036621094",
+        "Turkiye"
+      ],
+      [
+        "95.2600021362305",
+        "Turkiye"
+      ],
+      [
+        "94.9199981689453",
+        "Turkiye"
+      ],
+      [
+        "96.1500015258789",
+        "Turkiye"
+      ],
+      [
+        "92.6600036621094",
+        "Turkiye"
+      ],
+      [
+        "95.8600006103516",
+        "Turkiye"
+      ],
+      [
+        "94.1100006103516",
+        "Turkiye"
+      ],
+      [
+        "88.120002746582",
+        "Turkiye"
+      ],
+      [
+        "90.8199996948242",
+        "Turkiye"
+      ],
+      [
+        "95.5999984741211",
+        "Turkiye"
+      ],
+      [
+        "88.2300033569336",
+        "Turkiye"
+      ],
+      [
+        "87.370002746582",
+        "Turkiye"
+      ],
+      [
+        "95.4400024414062",
+        "Turkiye"
+      ],
+      [
+        "97.2600021362305",
+        "Turkiye"
+      ],
+      [
+        "96.7399978637695",
+        "Turkiye"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1774866578,
+    "update_time": 1774866578,
+    "_id": "doc-b73139be3b09f76b69977ede1b801363"
+  },
+  "doc-056e755348a7c80dcb47d56f3a5fcc62": {
+    "relation_pairs": [
+      [
+        "96.129997253418",
+        "Viet Nam"
+      ],
+      [
+        "90.1600036621094",
+        "Viet Nam"
+      ],
+      [
+        "93.5199966430664",
+        "Viet Nam"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774866583,
+    "update_time": 1774866583,
+    "_id": "doc-056e755348a7c80dcb47d56f3a5fcc62"
+  },
+  "doc-55613456de3c776029fd46f2912f66c6": {
+    "relation_pairs": [
+      [
+        "2001",
+        "Argentina"
+      ],
+      [
+        "2020",
+        "Argentina"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1774866588,
+    "update_time": 1774866588,
+    "_id": "doc-55613456de3c776029fd46f2912f66c6"
+  },
+  "doc-ea36a66b1427a286cbfe668ae870be9d": {
+    "relation_pairs": [
+      [
+        "Baseline Data",
+        "Brazil"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866596,
+    "update_time": 1774866596,
+    "_id": "doc-ea36a66b1427a286cbfe668ae870be9d"
+  },
+  "doc-2c534fcc38a64feaa3040749a14fe079": {
+    "relation_pairs": [
+      [
+        "2010年",
+        "China"
+      ],
+      [
+        "2000年",
+        "China"
+      ],
+      [
+        "2020年",
+        "China"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774866606,
+    "update_time": 1774866606,
+    "_id": "doc-2c534fcc38a64feaa3040749a14fe079"
+  },
+  "doc-9cd369590048fbde6353097bd47b4569": {
+    "relation_pairs": [
+      [
+        "Colombia",
+        "Colombia数据集"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866611,
+    "update_time": 1774866611,
+    "_id": "doc-9cd369590048fbde6353097bd47b4569"
+  },
+  "doc-5c896aab86270ae8f185394e69e882a9": {
+    "relation_pairs": [
+      [
+        "Baseline Data",
+        "Egypt, Arab Rep."
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866616,
+    "update_time": 1774866616,
+    "_id": "doc-5c896aab86270ae8f185394e69e882a9"
+  },
+  "doc-a1ff1aed2c6e22213cbf5530278f7c6b": {
+    "relation_pairs": [
+      [
+        "Baseline Data",
+        "India"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866633,
+    "update_time": 1774866633,
+    "_id": "doc-a1ff1aed2c6e22213cbf5530278f7c6b"
+  },
+  "doc-ff8902f26f3053b5276a6f3e256adb88": {
+    "relation_pairs": [
+      [
+        "2018",
+        "Indonesia"
+      ],
+      [
+        "2016",
+        "Indonesia"
+      ],
+      [
+        "2010",
+        "Indonesia"
+      ],
+      [
+        "2015",
+        "Indonesia"
+      ],
+      [
+        "2011",
+        "Indonesia"
+      ],
+      [
+        "2014",
+        "Indonesia"
+      ],
+      [
+        "2006",
+        "Indonesia"
+      ],
+      [
+        "2008",
+        "Indonesia"
+      ],
+      [
+        "2020",
+        "Indonesia"
+      ],
+      [
+        "2004",
+        "Indonesia"
+      ],
+      [
+        "2009",
+        "Indonesia"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1774866643,
+    "update_time": 1774866643,
+    "_id": "doc-ff8902f26f3053b5276a6f3e256adb88"
+  },
+  "doc-1dde5932ae18500fbab5ed13fc0c782e": {
+    "relation_pairs": [
+      [
+        "2019年数据",
+        "Italy"
+      ],
+      [
+        "2011年数据",
+        "Italy"
+      ],
+      [
+        "2001年数据",
+        "Italy"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1774866653,
+    "update_time": 1774866653,
+    "_id": "doc-1dde5932ae18500fbab5ed13fc0c782e"
+  },
+  "doc-216e6ca448b1d6bb29526f83bb20e432": {
+    "relation_pairs": [
+      [
+        "97.9700012207031",
+        "Korea, Rep."
+      ],
+      [
+        "2008",
+        "Korea, Rep."
+      ]
+    ],
+    "count": 2,
+    "create_time": 1774866661,
+    "update_time": 1774866661,
+    "_id": "doc-216e6ca448b1d6bb29526f83bb20e432"
+  },
+  "doc-e103447bf84c757323f3069123d10007": {
+    "relation_pairs": [
+      [
+        "Baseline Data",
+        "Malaysia"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866667,
+    "update_time": 1774866667,
+    "_id": "doc-e103447bf84c757323f3069123d10007"
+  },
+  "doc-4519e6ee43874642312607d4c8aa4e92": {
+    "relation_pairs": [
+      [
+        "Mexico",
+        "年度数据"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866673,
+    "update_time": 1774866673,
+    "_id": "doc-4519e6ee43874642312607d4c8aa4e92"
+  },
+  "doc-7f479a98471f03095de3c382c9d3f28e": {
+    "relation_pairs": [
+      [
+        "2006年数据",
+        "Nigeria"
+      ],
+      [
+        "2003年数据",
+        "Nigeria"
+      ],
+      [
+        "2021年数据",
+        "Nigeria"
+      ],
+      [
+        "2016年数据",
+        "Nigeria"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1774866678,
+    "update_time": 1774866678,
+    "_id": "doc-7f479a98471f03095de3c382c9d3f28e"
+  },
+  "doc-d159c67757e8459c101bd5234003122a": {
+    "relation_pairs": [
+      [
+        "2008",
+        "Philippines"
+      ],
+      [
+        "2010",
+        "Philippines"
+      ],
+      [
+        "2020",
+        "Philippines"
+      ],
+      [
+        "2015",
+        "Philippines"
+      ],
+      [
+        "2013",
+        "Philippines"
+      ],
+      [
+        "2019",
+        "Philippines"
+      ],
+      [
+        "2003",
+        "Philippines"
+      ],
+      [
+        "2000",
+        "Philippines"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774866688,
+    "update_time": 1774866688,
+    "_id": "doc-d159c67757e8459c101bd5234003122a"
+  },
+  "doc-8ebda4a0d09c415cf5626f6dd67437c4": {
+    "relation_pairs": [
+      [
+        "2009",
+        "South Africa"
+      ],
+      [
+        "2012",
+        "South Africa"
+      ],
+      [
+        "2019",
+        "South Africa"
+      ],
+      [
+        "2016",
+        "South Africa"
+      ],
+      [
+        "2011",
+        "South Africa"
+      ],
+      [
+        "2021",
+        "South Africa"
+      ],
+      [
+        "2010",
+        "South Africa"
+      ],
+      [
+        "2015",
+        "South Africa"
+      ],
+      [
+        "2014",
+        "South Africa"
+      ],
+      [
+        "2007",
+        "South Africa"
+      ]
+    ],
+    "count": 10,
+    "create_time": 1774866700,
+    "update_time": 1774866700,
+    "_id": "doc-8ebda4a0d09c415cf5626f6dd67437c4"
+  },
+  "doc-4a21dfe644d003d763b0e959b5d2d60d": {
+    "relation_pairs": [
+      [
+        "Baseline Data",
+        "Thailand"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866707,
+    "update_time": 1774866707,
+    "_id": "doc-4a21dfe644d003d763b0e959b5d2d60d"
+  },
+  "doc-eceeffed0a2466eb44b536bcfcb0640d": {
+    "relation_pairs": [
+      [
+        "2004-2021 Data Series",
+        "Turkiye"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1774866712,
+    "update_time": 1774866712,
+    "_id": "doc-eceeffed0a2466eb44b536bcfcb0640d"
+  },
+  "doc-918208d752e41d51dab2b13fde64de6f": {
+    "relation_pairs": [
+      [
+        "2009年数据",
+        "Viet Nam"
+      ],
+      [
+        "2019年数据",
+        "Viet Nam"
+      ],
+      [
+        "2000年数据",
+        "Viet Nam"
+      ],
+      [
+        "2022年数据",
+        "Viet Nam"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1774866718,
+    "update_time": 1774866718,
+    "_id": "doc-918208d752e41d51dab2b13fde64de6f"
+  }
+}

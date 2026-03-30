@@ -1,0 +1,9 @@
+{
+  "label": "Baseline",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood_gdp_growth/baseline_budget/lightrag_storage",
+  "chunks_inserted": 25,
+  "graph_file_exists": true,
+  "graph_file_size": 29343,
+  "node_count": 36,
+  "edge_count": 25
+}

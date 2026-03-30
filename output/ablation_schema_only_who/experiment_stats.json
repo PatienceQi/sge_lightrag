@@ -1,0 +1,9 @@
+{
+  "dataset": "who",
+  "label": "WHO Life Expectancy",
+  "condition": "schema_only",
+  "chunks": 20,
+  "timestamp": "2026-03-29T16:05:41.548170",
+  "nodes": 1296,
+  "edges": 1129
+}

@@ -1,0 +1,85 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "Country"
+  ],
+  "relation_types": [
+    "HAS_VALUE",
+    "HAS_METRIC"
+  ],
+  "extraction_rules": {
+    "subject_extraction": "Each row is one entity identified by \"Country\". Time-period columns in the header hold numeric values.",
+    "value_extraction": "For each (entity, time_column) pair, create a HAS_VALUE relation with attributes: year, status (实际/预算/修订), unit (百万元/etc.).",
+    "time_handling": "Parse compound headers (newline-separated) into components: {year, status, unit}. Example: '2022-23\\n(实际)\\n(百万元)' → {year: '2022-23', status: '实际', unit: '百万元'}.",
+    "hierarchy": "No hierarchy — flat time-series matrix.",
+    "remarks": "No remarks columns detected."
+  },
+  "prompt_context": "本表为 Time-Series-Matrix 类型（时间序列矩阵表）。表中每一行代表一个实体（entity），实体类型为 Country，由主键列唯一标识。列标题为复合标题（compound header），以换行符分隔，包含财政年度（fiscal year）、状态（status：实际/预算/修订）和单位（unit：百万元）三个组成部分。请将每个复合标题解析为 {year, status, unit} 结构。对每个（实体, 时间列）组合，提取三元组：（Country 实体）-[HAS_VALUE {year: X, status: Y, unit: Z}]->（数值）。请跳过数值为空或非数字的单元格。",
+  "time_parsing_rules": {
+    "format": "newline-separated compound header",
+    "components": [
+      "year",
+      "status",
+      "unit"
+    ],
+    "year_pattern": "\\d{4}(?:-\\d{2,4})?",
+    "known_statuses": [],
+    "known_units": [],
+    "examples": [
+      {
+        "raw": "2000",
+        "parsed": {
+          "year": "2000",
+          "status": null,
+          "unit": null
+        }
+      },
+      {
+        "raw": "2001",
+        "parsed": {
+          "year": "2001",
+          "status": null,
+          "unit": null
+        }
+      },
+      {
+        "raw": "2002",
+        "parsed": {
+          "year": "2002",
+          "status": null,
+          "unit": null
+        }
+      }
+    ]
+  },
+  "time_dimension": {
+    "is_present": true,
+    "location": "headers",
+    "columns": [
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ]
+  },
+  "_n_rows": 25
+}

@@ -1,0 +1,129 @@
+{
+  "who_compact_e2e": {
+    "correct": 23,
+    "total": 24,
+    "accuracy": 0.9583333333333334,
+    "details": [
+      {
+        "id": "who_01",
+        "correct": true,
+        "answer": "**Answer**\n\nChina's life expectancy at birth in 2021 was 77.62 years (77.61619672 years in the provided timeseries).\n\n### References\n\n- [1] Entity: CHN / WHOSIS_000001 | Name: China | Indicator: Life "
+      },
+      {
+        "id": "who_02",
+        "correct": true,
+        "answer": "### Japan's life expectancy at birth (2021)\n\nJapan's life expectancy at birth in 2021 was **84.46067178 years**, according to the WHOSIS_000001 timeseries data for Japan.\n\n### References\n\n* [1] Entity"
+      },
+      {
+        "id": "who_03",
+        "correct": true,
+        "answer": "**Answer**\n\nBrazil's life expectancy at birth in 2021 was 72.38840694 years, according to the provided WHOSIS_000001 timeseries for Brazil.\n\nThis value is taken directly from the Brazil life expectanc"
+      },
+      {
+        "id": "who_04",
+        "correct": true,
+        "answer": "### Answer\n\nThe United Kingdom's life expectancy at birth in 2021 was 80.10062783 years (approximately 80.10 years).  \n\n### References\n\n* [1] Entity: GBR / WHOSIS_000001 | Name: United Kingdom of Grea"
+      },
+      {
+        "id": "who_05",
+        "correct": true,
+        "answer": "**Answer**\n\nFrance's life expectancy at birth in 2021 was 81.92274175 years (approximately 81.92 years).\n\n### References\n\n* [1] Entity: FRA / WHOSIS_000001 | Name: France | Indicator: Life expectancy "
+      },
+      {
+        "id": "who_06",
+        "correct": true,
+        "answer": "### Answer\n\nGermany's life expectancy at birth in 2021 was 80.49140555 years.\n\n### References\n\n* [1] Entity: DEU / WHOSIS_000001 | Name: Germany | Indicator: Life expectancy at birth (years)"
+      },
+      {
+        "id": "who_07",
+        "correct": true,
+        "answer": "### Answer\n\nThe life expectancy at birth for the United States in 2021 was **76.37368104 years** (approximately **76.37 years**).\n\n### References\n\n- [1] Entity: USA / WHOSIS_000001 | Name: United Stat"
+      },
+      {
+        "id": "who_08",
+        "correct": true,
+        "answer": "# India's life expectancy at birth in 2021\n\nIndia's life expectancy at birth (WHOSIS_000001) in 2021 was **67.30780612 years**.\n\nThis value comes from the India timeseries for the life expectancy at b"
+      },
+      {
+        "id": "who_09",
+        "correct": true,
+        "answer": "### Answer\n\nChina's life expectancy at birth in 2000 was 70.83886138 years.\n\n### References\n\n- [1] Entity: CHN / WHOSIS_000001 | Name: China | Indicator: Life expectancy at birth (years)"
+      },
+      {
+        "id": "who_10",
+        "correct": true,
+        "answer": "### United States life expectancy at birth in 2019\n\nThe life expectancy at birth for the United States in 2019 was **78.73923827 years** (approximately **78.74 years**) [1].\n\n### References\n\n- [1] Ent"
+      },
+      {
+        "id": "who_r01",
+        "correct": true,
+        "answer": "Answer\n\nChina had the higher life expectancy at birth in 2021. According to the provided data, China\u2019s life expectancy at birth in 2021 was 77.61619672 years, while India\u2019s was 67.30780612 years \u2014 a d"
+      },
+      {
+        "id": "who_r02",
+        "correct": true,
+        "answer": "### Answer\n\nFrance had the higher life expectancy at birth in 2021.\n\nFrance: 81.92274175 years (2021) \u2014 higher than Germany.  \nGermany: 80.49140555 years (2021).\n\n### References\n\n- [1] Entity: FRA / W"
+      },
+      {
+        "id": "who_r03",
+        "correct": true,
+        "answer": "### Answer\n\nYes. According to the provided data, the United States' life expectancy at birth decreased from 2019 to 2021.\n\n- 2019: 78.73923827 years  \n- 2020: 76.89250856 years  \n- 2021: 76.37368104 y"
+      },
+      {
+        "id": "who_r04",
+        "correct": true,
+        "answer": "### Answer\n\nThe United Kingdom had a higher life expectancy at birth in 2021 than the United States.\n\n- United Kingdom (2021): 80.10 years.  \n- United States (2021): 76.37 years.  \n\nThe difference is "
+      },
+      {
+        "id": "who_11",
+        "correct": true,
+        "answer": "**Answer**\n\nAustralia's life expectancy at birth in 2021 was 83.10 years (83.10183853 years in the source timeseries).  \n\n### References\n\n- [1] Entity: AUS / WHOSIS_000001 | Name: Australia | Indicato"
+      },
+      {
+        "id": "who_12",
+        "correct": true,
+        "answer": "**Answer**\n\nSouth Korea's (Republic of Korea) life expectancy at birth in 2021 was **83.79982334 years** (about 83.80 years). [1]\n\nLife expectancy at birth is the indicator \"life expectancy at birth ("
+      },
+      {
+        "id": "who_13",
+        "correct": true,
+        "answer": "### Italy \u2014 Life expectancy at birth in 2021\n\nItaly's life expectancy at birth in 2021 was 82.20 years (dataset value: 82.19747411 years).\n\n### References\n\n- [1] Entity: ITA / WHOSIS_000001 | Name: It"
+      },
+      {
+        "id": "who_14",
+        "correct": true,
+        "answer": "**Answer**\n\nSpain's life expectancy at birth in 2021 was 82.66267258 years (approximately 82.66 years).\n\n### References\n\n- [1] Entity: ESP / WHOSIS_000001 | Name: Spain | Indicator: Life expectancy at"
+      },
+      {
+        "id": "comp_01",
+        "correct": true,
+        "answer": "**Answer:** Japan had the higher life expectancy at birth in 2021.\n\nJapan: 84.46067178 years (2021) \u2014 higher than Italy. (See References [1])  \nItaly: 82.19747411 years (2021). (See References [2])\n\n#"
+      },
+      {
+        "id": "comp_02",
+        "correct": true,
+        "answer": "### Answer\n\nSouth Korea had the higher life expectancy at birth in 2021.\n\n- Republic of Korea (South Korea): 83.79982334 years [1].  \n- United Kingdom of Great Britain and Northern Ireland: 80.1006278"
+      },
+      {
+        "id": "comp_07",
+        "correct": true,
+        "answer": "# Answer\n\n**Brazil had the higher life expectancy at birth in 2021.**\n\nIn 2021 Brazil's life expectancy at birth was 72.38840694 years, while the Russian Federation's was 70.017337 years. These values"
+      },
+      {
+        "id": "trend_01",
+        "correct": true,
+        "answer": "### Answer\n\nYes. The recorded series for China shows a year\u2011on\u2011year increase in life expectancy at birth from 2000 to 2021: 2000 = 70.84 years rising steadily to 2021 = 77.62 years, with each consecut"
+      },
+      {
+        "id": "trend_02",
+        "correct": true,
+        "answer": "### Answer\n\n**Yes.** According to the provided data, South Korea's life expectancy at birth rose from **75.8598 years in 2000** to **83.7998 years in 2021**, an increase of about **7.94 years**.\n\nThes"
+      },
+      {
+        "id": "trend_07",
+        "correct": false,
+        "answer": "### Answer\n\nNo. Japan's life expectancy at birth did not increase every single year from 2000 to 2019 \u2014 there are several years with a year-to-year decline. (See data below.) [1]\n\nJapan (selected year"
+      }
+    ]
+  }
+}

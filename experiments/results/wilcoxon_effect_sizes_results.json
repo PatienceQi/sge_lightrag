@@ -1,0 +1,62 @@
+{
+  "k_comparisons": 4,
+  "alpha_adjusted": 0.0125,
+  "results": [
+    {
+      "n": 25,
+      "n_nonzero": 25,
+      "W": 325.0,
+      "p_value": 4.70542637140453e-06,
+      "p_bonferroni": 1.882170548561812e-05,
+      "Z": 4.4303,
+      "r_effect_size": 0.8861,
+      "rank_biserial": 1.0,
+      "interpretation": "large",
+      "dataset": "WHO Life Expectancy",
+      "mean_sge_rate": 1.0,
+      "mean_base_rate": 0.1667
+    },
+    {
+      "n": 25,
+      "n_nonzero": 20,
+      "W": 210.0,
+      "p_value": 3.856820054562021e-05,
+      "p_bonferroni": 0.00015427280218248084,
+      "Z": 3.9531,
+      "r_effect_size": 0.8839,
+      "rank_biserial": 1.0,
+      "interpretation": "large",
+      "dataset": "WB Child Mortality",
+      "mean_sge_rate": 1.0,
+      "mean_base_rate": 0.4733
+    },
+    {
+      "n": 25,
+      "n_nonzero": 21,
+      "W": 231.0,
+      "p_value": 5.106226509453619e-06,
+      "p_bonferroni": 2.0424906037814476e-05,
+      "Z": 4.4126,
+      "r_effect_size": 0.9629,
+      "rank_biserial": 1.0,
+      "interpretation": "large",
+      "dataset": "WB Population",
+      "mean_sge_rate": 1.0,
+      "mean_base_rate": 0.1867
+    },
+    {
+      "n": 25,
+      "n_nonzero": 8,
+      "W": 34.0,
+      "p_value": 0.012088529595134127,
+      "p_bonferroni": 0.04835411838053651,
+      "Z": 2.2543,
+      "r_effect_size": 0.797,
+      "rank_biserial": 0.8889,
+      "interpretation": "large",
+      "dataset": "WB Maternal Mortality",
+      "mean_sge_rate": 0.9667,
+      "mean_base_rate": 0.7867
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Entity: Nigeria
+Year: 2000 | Value: 3.1973834
+Year: 2001 | Value: 3.18946862
+Year: 2002 | Value: 2.49063969
+Year: 2003 | Value: 5.05360985
+Year: 2004 | Value: 4.63368416
+Year: 2005 | Value: 4.46591949
+Year: 2006 | Value: 4.25775146
+Year: 2007 | Value: 3.90997243
+Year: 2008 | Value: 3.69581532
+Year: 2009 | Value: 3.5801971
+Year: 2010 | Value: 3.29653287
+Year: 2011 | Value: 3.32077932
+Year: 2012 | Value: 3.35984254
+Year: 2013 | Value: 3.4206934
+Year: 2014 | Value: 3.34840417
+Year: 2015 | Value: 3.58194995
+Year: 2016 | Value: 3.64773679
+Year: 2017 | Value: 3.74762511
+Year: 2018 | Value: 3.09069347
+Year: 2019 | Value: 2.98547053
+Year: 2020 | Value: 3.38063431
+Year: 2021 | Value: 4.07625723
+Year: 2022 | Value: 4.21020174

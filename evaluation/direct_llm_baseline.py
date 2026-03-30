@@ -42,19 +42,19 @@ DATASETS = [
     {
         "label": "Annual Budget (ZH, Type-II)",
         "chunks_dir": "output/sge_budget/chunks",
-        "gold": "evaluation/gold_budget.jsonl",
+        "gold": "evaluation/gold/gold_budget.jsonl",
         "language": "zh",
     },
     {
         "label": "WHO Life Expectancy (EN, Type-II)",
         "chunks_dir": "output/who_life_expectancy/chunks",
-        "gold": "evaluation/gold_who_life_expectancy.jsonl",
+        "gold": "evaluation/gold/gold_who_life_expectancy.jsonl",
         "language": "en",
     },
     {
         "label": "WB Child Mortality (EN, Type-II)",
         "chunks_dir": "output/wb_child_mortality/chunks",
-        "gold": "evaluation/gold_wb_child_mortality.jsonl",
+        "gold": "evaluation/gold/gold_wb_child_mortality.jsonl",
         "language": "en",
     },
 ]
@@ -158,7 +158,7 @@ async def main():
         triples = result["triples_extracted"]
         print(f"{'✓ ' + result['label']:<45} | {ec:>6.3f} {fc:>6.3f} | {triples}")
 
-    out_path = PROJECT_ROOT / "evaluation" / "direct_llm_results.json"
+    out_path = PROJECT_ROOT / "evaluation" / "results" / "direct_llm_results.json"
     out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
     print(f"\nResults saved to {out_path}")
 

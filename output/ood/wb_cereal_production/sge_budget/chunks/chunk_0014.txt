@@ -1,0 +1,24 @@
+Entity: Korea, Rep.
+Year: 2000 | Value: 7435175.0
+Year: 2001 | Value: 7746435.0
+Year: 2002 | Value: 6990361.0
+Year: 2003 | Value: 6400167.0
+Year: 2004 | Value: 7014673.0
+Year: 2005 | Value: 6721823.0
+Year: 2006 | Value: 6541077.0
+Year: 2007 | Value: 6235335.0
+Year: 2008 | Value: 6752447.0
+Year: 2009 | Value: 6757669.49
+Year: 2010 | Value: 6020702.01
+Year: 2011 | Value: 5825775.77
+Year: 2012 | Value: 5604303.9
+Year: 2013 | Value: 5810450.68
+Year: 2014 | Value: 5852499.19
+Year: 2015 | Value: 5976258.87
+Year: 2016 | Value: 5831045.8
+Year: 2017 | Value: 5487987.7
+Year: 2018 | Value: 5418712.13
+Year: 2019 | Value: 5272979.18
+Year: 2020 | Value: 4945435.62
+Year: 2021 | Value: 5443029.24
+Year: 2022 | Value: 5219697.61

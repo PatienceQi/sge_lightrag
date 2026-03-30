@@ -1,0 +1,9 @@
+{
+  "label": "gpt-5-mini-wb_pop",
+  "model": "gpt-5-mini",
+  "dataset": "WB Population",
+  "chunks": 265,
+  "timestamp": "2026-03-29T22:37:46.522485",
+  "nodes": 6571,
+  "edges": 6312
+}

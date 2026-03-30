@@ -1,0 +1,24 @@
+Entity: Italy
+Year: 2000 | Value: 20660952.0
+Year: 2001 | Value: 19933158.0
+Year: 2002 | Value: 21248429.0
+Year: 2003 | Value: 17864361.0
+Year: 2004 | Value: 23283207.0
+Year: 2005 | Value: 21423171.0
+Year: 2006 | Value: 20206559.0
+Year: 2007 | Value: 20350618.0
+Year: 2008 | Value: 21613374.0
+Year: 2009 | Value: 17705746.0
+Year: 2010 | Value: 18502904.0
+Year: 2011 | Value: 19521138.3
+Year: 2012 | Value: 18594125.5
+Year: 2013 | Value: 18214664.0
+Year: 2014 | Value: 19396843.8
+Year: 2015 | Value: 17694873.4
+Year: 2016 | Value: 18219221.0
+Year: 2017 | Value: 16251718.0
+Year: 2018 | Value: 16548350.0
+Year: 2019 | Value: 16363450.0
+Year: 2020 | Value: 16945440.0
+Year: 2021 | Value: 16568150.0
+Year: 2022 | Value: 14300570.0

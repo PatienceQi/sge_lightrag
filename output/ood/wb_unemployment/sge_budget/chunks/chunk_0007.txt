@@ -1,0 +1,24 @@
+Entity: Egypt, Arab Rep.
+Year: 2000 | Value: 8.98
+Year: 2001 | Value: 9.26
+Year: 2002 | Value: 10.01
+Year: 2003 | Value: 10.91
+Year: 2004 | Value: 10.32
+Year: 2005 | Value: 11.049
+Year: 2006 | Value: 10.49
+Year: 2007 | Value: 8.8
+Year: 2008 | Value: 8.517
+Year: 2009 | Value: 9.087
+Year: 2010 | Value: 8.757
+Year: 2011 | Value: 11.849
+Year: 2012 | Value: 12.597
+Year: 2013 | Value: 13.154
+Year: 2014 | Value: 13.105
+Year: 2015 | Value: 13.052
+Year: 2016 | Value: 12.45
+Year: 2017 | Value: 11.767
+Year: 2018 | Value: 9.855
+Year: 2019 | Value: 7.851
+Year: 2020 | Value: 7.974
+Year: 2021 | Value: 7.441
+Year: 2022 | Value: 6.546

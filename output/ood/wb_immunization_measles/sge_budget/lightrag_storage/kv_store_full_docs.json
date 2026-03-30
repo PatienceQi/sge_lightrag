@@ -1,0 +1,177 @@
+{
+  "doc-e3e55fa747944ee5cffbfbff9b0e6926": {
+    "content": "Entity: Argentina\nYear: 2000 | Value: 91\nYear: 2001 | Value: 89\nYear: 2002 | Value: 95\nYear: 2003 | Value: 97\nYear: 2004 | Value: 99\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 94\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 95\nYear: 2015 | Value: 89\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 94\nYear: 2019 | Value: 86\nYear: 2020 | Value: 77\nYear: 2021 | Value: 86\nYear: 2022 | Value: 85",
+    "file_path": "unknown_source",
+    "create_time": 1774867517,
+    "update_time": 1774867517,
+    "_id": "doc-e3e55fa747944ee5cffbfbff9b0e6926"
+  },
+  "doc-bf8c37d4037ede812a8a8f5fec0c3d4d": {
+    "content": "Entity: Australia\nYear: 2000 | Value: 91\nYear: 2001 | Value: 92\nYear: 2002 | Value: 94\nYear: 2003 | Value: 94\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 94\nYear: 2007 | Value: 94\nYear: 2008 | Value: 94\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 94\nYear: 2015 | Value: 95\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 94\nYear: 2020 | Value: 93\nYear: 2021 | Value: 93\nYear: 2022 | Value: 96",
+    "file_path": "unknown_source",
+    "create_time": 1774867524,
+    "update_time": 1774867524,
+    "_id": "doc-bf8c37d4037ede812a8a8f5fec0c3d4d"
+  },
+  "doc-4d721b853dc0ba4ab10b0d595480a15c": {
+    "content": "Entity: Brazil\nYear: 2000 | Value: 99\nYear: 2001 | Value: 99\nYear: 2002 | Value: 96\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 99\nYear: 2008 | Value: 99\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 95\nYear: 2017 | Value: 87\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 79\nYear: 2021 | Value: 73\nYear: 2022 | Value: 81",
+    "file_path": "unknown_source",
+    "create_time": 1774867531,
+    "update_time": 1774867531,
+    "_id": "doc-4d721b853dc0ba4ab10b0d595480a15c"
+  },
+  "doc-db3a07c52fa041f5004f984f0944f6ac": {
+    "content": "Entity: Canada\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 95\nYear: 2003 | Value: 95\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 93\nYear: 2009 | Value: 91\nYear: 2010 | Value: 90\nYear: 2011 | Value: 88\nYear: 2012 | Value: 89\nYear: 2013 | Value: 90\nYear: 2014 | Value: 90\nYear: 2015 | Value: 89\nYear: 2016 | Value: 89\nYear: 2017 | Value: 90\nYear: 2018 | Value: 90\nYear: 2019 | Value: 90\nYear: 2020 | Value: 90\nYear: 2021 | Value: 90\nYear: 2022 | Value: 92",
+    "file_path": "unknown_source",
+    "create_time": 1774867538,
+    "update_time": 1774867538,
+    "_id": "doc-db3a07c52fa041f5004f984f0944f6ac"
+  },
+  "doc-68341d1de16738501fbd3a40729f5a75": {
+    "content": "Entity: China\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 85\nYear: 2004 | Value: 86\nYear: 2005 | Value: 86\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 97\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 99\nYear: 2019 | Value: 99\nYear: 2020 | Value: 99\nYear: 2021 | Value: 99\nYear: 2022 | Value: 99",
+    "file_path": "unknown_source",
+    "create_time": 1774867545,
+    "update_time": 1774867545,
+    "_id": "doc-68341d1de16738501fbd3a40729f5a75"
+  },
+  "doc-a5d275c9ba6422fa2683ae07baea7fea": {
+    "content": "Entity: Colombia\nYear: 2000 | Value: 88\nYear: 2001 | Value: 93\nYear: 2002 | Value: 93\nYear: 2003 | Value: 93\nYear: 2004 | Value: 92\nYear: 2005 | Value: 94\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 88\nYear: 2011 | Value: 88\nYear: 2012 | Value: 94\nYear: 2013 | Value: 92\nYear: 2014 | Value: 91\nYear: 2015 | Value: 94\nYear: 2016 | Value: 93\nYear: 2017 | Value: 93\nYear: 2018 | Value: 95\nYear: 2019 | Value: 95\nYear: 2020 | Value: 90\nYear: 2021 | Value: 86\nYear: 2022 | Value: 88",
+    "file_path": "unknown_source",
+    "create_time": 1774867552,
+    "update_time": 1774867552,
+    "_id": "doc-a5d275c9ba6422fa2683ae07baea7fea"
+  },
+  "doc-5795de06ad0180b98cff546708a8e3d1": {
+    "content": "Entity: Egypt, Arab Rep.\nYear: 2000 | Value: 98\nYear: 2001 | Value: 97\nYear: 2002 | Value: 97\nYear: 2003 | Value: 98\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 98\nYear: 2007 | Value: 97\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 96\nYear: 2011 | Value: 96\nYear: 2012 | Value: 93\nYear: 2013 | Value: 96\nYear: 2014 | Value: 93\nYear: 2015 | Value: 92\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 95\nYear: 2020 | Value: 94\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "file_path": "unknown_source",
+    "create_time": 1774867559,
+    "update_time": 1774867559,
+    "_id": "doc-5795de06ad0180b98cff546708a8e3d1"
+  },
+  "doc-b2871558fe71061f45c452a485b42447": {
+    "content": "Entity: France\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 86\nYear: 2003 | Value: 87\nYear: 2004 | Value: 88\nYear: 2005 | Value: 87\nYear: 2006 | Value: 89\nYear: 2007 | Value: 90\nYear: 2008 | Value: 89\nYear: 2009 | Value: 89\nYear: 2010 | Value: 89\nYear: 2011 | Value: 89\nYear: 2012 | Value: 91\nYear: 2013 | Value: 90\nYear: 2014 | Value: 91\nYear: 2015 | Value: 91\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 91\nYear: 2019 | Value: 92\nYear: 2020 | Value: 94\nYear: 2021 | Value: 94\nYear: 2022 | Value: 95",
+    "file_path": "unknown_source",
+    "create_time": 1774867567,
+    "update_time": 1774867567,
+    "_id": "doc-b2871558fe71061f45c452a485b42447"
+  },
+  "doc-bf9b0b7d405b137240585d3c896b8349": {
+    "content": "Entity: Germany\nYear: 2000 | Value: 92\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 95\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 97\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 97\nYear: 2012 | Value: 97\nYear: 2013 | Value: 97\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 97\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 97\nYear: 2020 | Value: 97\nYear: 2021 | Value: 98\nYear: 2022 | Value: 96",
+    "file_path": "unknown_source",
+    "create_time": 1774867574,
+    "update_time": 1774867574,
+    "_id": "doc-bf9b0b7d405b137240585d3c896b8349"
+  },
+  "doc-d795ddf866f41ac6c943ad0465385cda": {
+    "content": "Entity: India\nYear: 2000 | Value: 56\nYear: 2001 | Value: 57\nYear: 2002 | Value: 56\nYear: 2003 | Value: 60\nYear: 2004 | Value: 64\nYear: 2005 | Value: 68\nYear: 2006 | Value: 69\nYear: 2007 | Value: 70\nYear: 2008 | Value: 72\nYear: 2009 | Value: 78\nYear: 2010 | Value: 82\nYear: 2011 | Value: 84\nYear: 2012 | Value: 83\nYear: 2013 | Value: 83\nYear: 2014 | Value: 85\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 93\nYear: 2019 | Value: 95\nYear: 2020 | Value: 89\nYear: 2021 | Value: 89\nYear: 2022 | Value: 95",
+    "file_path": "unknown_source",
+    "create_time": 1774867582,
+    "update_time": 1774867582,
+    "_id": "doc-d795ddf866f41ac6c943ad0465385cda"
+  },
+  "doc-09119be61edaec837bbc672f0562c3f0": {
+    "content": "Entity: Indonesia\nYear: 2000 | Value: 76\nYear: 2001 | Value: 76\nYear: 2002 | Value: 72\nYear: 2003 | Value: 74\nYear: 2004 | Value: 76\nYear: 2005 | Value: 77\nYear: 2006 | Value: 79\nYear: 2007 | Value: 76\nYear: 2008 | Value: 76\nYear: 2009 | Value: 74\nYear: 2010 | Value: 78\nYear: 2011 | Value: 80\nYear: 2012 | Value: 82\nYear: 2013 | Value: 87\nYear: 2014 | Value: 86\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 89\nYear: 2019 | Value: 88\nYear: 2020 | Value: 76\nYear: 2021 | Value: 72\nYear: 2022 | Value: 92",
+    "file_path": "unknown_source",
+    "create_time": 1774867589,
+    "update_time": 1774867589,
+    "_id": "doc-09119be61edaec837bbc672f0562c3f0"
+  },
+  "doc-160b3fc285715c632f3755da759f7428": {
+    "content": "Entity: Italy\nYear: 2000 | Value: 74\nYear: 2001 | Value: 77\nYear: 2002 | Value: 81\nYear: 2003 | Value: 84\nYear: 2004 | Value: 86\nYear: 2005 | Value: 87\nYear: 2006 | Value: 88\nYear: 2007 | Value: 90\nYear: 2008 | Value: 90\nYear: 2009 | Value: 90\nYear: 2010 | Value: 91\nYear: 2011 | Value: 90\nYear: 2012 | Value: 90\nYear: 2013 | Value: 90\nYear: 2014 | Value: 87\nYear: 2015 | Value: 85\nYear: 2016 | Value: 87\nYear: 2017 | Value: 92\nYear: 2018 | Value: 93\nYear: 2019 | Value: 94\nYear: 2020 | Value: 92\nYear: 2021 | Value: 94\nYear: 2022 | Value: 94",
+    "file_path": "unknown_source",
+    "create_time": 1774867596,
+    "update_time": 1774867596,
+    "_id": "doc-160b3fc285715c632f3755da759f7428"
+  },
+  "doc-db0d69f7d4e8205349dc3963760a661a": {
+    "content": "Entity: Japan\nYear: 2000 | Value: 96\nYear: 2001 | Value: 98\nYear: 2002 | Value: 98\nYear: 2003 | Value: 98\nYear: 2004 | Value: 98\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 96\nYear: 2008 | Value: 95\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 96\nYear: 2013 | Value: 95\nYear: 2014 | Value: 98\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 96\nYear: 2020 | Value: 98\nYear: 2021 | Value: 95\nYear: 2022 | Value: 98",
+    "file_path": "unknown_source",
+    "create_time": 1774867603,
+    "update_time": 1774867603,
+    "_id": "doc-db0d69f7d4e8205349dc3963760a661a"
+  },
+  "doc-ee8c24f15a156367315be8a60e96d7ed": {
+    "content": "Entity: Korea, Rep.\nYear: 2000 | Value: 95\nYear: 2001 | Value: 96\nYear: 2002 | Value: 97\nYear: 2003 | Value: 96\nYear: 2004 | Value: 99\nYear: 2005 | Value: 99\nYear: 2006 | Value: 99\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 93\nYear: 2010 | Value: 98\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 98\nYear: 2016 | Value: 98\nYear: 2017 | Value: 97\nYear: 2018 | Value: 98\nYear: 2019 | Value: 98\nYear: 2020 | Value: 98\nYear: 2021 | Value: 98\nYear: 2022 | Value: 97",
+    "file_path": "unknown_source",
+    "create_time": 1774867614,
+    "update_time": 1774867614,
+    "_id": "doc-ee8c24f15a156367315be8a60e96d7ed"
+  },
+  "doc-f0f3f42a6d592dfbf7f1c6001ebaa90f": {
+    "content": "Entity: Malaysia\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 94\nYear: 2003 | Value: 93\nYear: 2004 | Value: 95\nYear: 2005 | Value: 96\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 95\nYear: 2009 | Value: 95\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 95\nYear: 2013 | Value: 95\nYear: 2014 | Value: 92\nYear: 2015 | Value: 93\nYear: 2016 | Value: 96\nYear: 2017 | Value: 96\nYear: 2018 | Value: 98\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "file_path": "unknown_source",
+    "create_time": 1774867624,
+    "update_time": 1774867624,
+    "_id": "doc-f0f3f42a6d592dfbf7f1c6001ebaa90f"
+  },
+  "doc-3a49002766adfad18a315b7b8d277396": {
+    "content": "Entity: Mexico\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 96\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 98\nYear: 2012 | Value: 99\nYear: 2013 | Value: 89\nYear: 2014 | Value: 98\nYear: 2015 | Value: 98\nYear: 2016 | Value: 97\nYear: 2017 | Value: 76\nYear: 2018 | Value: 97\nYear: 2019 | Value: 73\nYear: 2020 | Value: 92\nYear: 2021 | Value: 99\nYear: 2022 | Value: 86",
+    "file_path": "unknown_source",
+    "create_time": 1774867643,
+    "update_time": 1774867643,
+    "_id": "doc-3a49002766adfad18a315b7b8d277396"
+  },
+  "doc-80554c3a9ef7cf83a8d8f1bed8ffdbdc": {
+    "content": "Entity: Nigeria\nYear: 2000 | Value: 33\nYear: 2001 | Value: 32\nYear: 2002 | Value: 30\nYear: 2003 | Value: 34\nYear: 2004 | Value: 37\nYear: 2005 | Value: 41\nYear: 2006 | Value: 44\nYear: 2007 | Value: 41\nYear: 2008 | Value: 53\nYear: 2009 | Value: 64\nYear: 2010 | Value: 56\nYear: 2011 | Value: 53\nYear: 2012 | Value: 41\nYear: 2013 | Value: 42\nYear: 2014 | Value: 42\nYear: 2015 | Value: 42\nYear: 2016 | Value: 48\nYear: 2017 | Value: 54\nYear: 2018 | Value: 56\nYear: 2019 | Value: 58\nYear: 2020 | Value: 60\nYear: 2021 | Value: 56\nYear: 2022 | Value: 51",
+    "file_path": "unknown_source",
+    "create_time": 1774867664,
+    "update_time": 1774867664,
+    "_id": "doc-80554c3a9ef7cf83a8d8f1bed8ffdbdc"
+  },
+  "doc-c7cd22e844ac1132e62473cf6da0f824": {
+    "content": "Entity: Philippines\nYear: 2000 | Value: 78\nYear: 2001 | Value: 81\nYear: 2002 | Value: 82\nYear: 2003 | Value: 87\nYear: 2004 | Value: 92\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 90\nYear: 2009 | Value: 89\nYear: 2010 | Value: 87\nYear: 2011 | Value: 86\nYear: 2012 | Value: 84\nYear: 2013 | Value: 83\nYear: 2014 | Value: 81\nYear: 2015 | Value: 80\nYear: 2016 | Value: 80\nYear: 2017 | Value: 81\nYear: 2018 | Value: 82\nYear: 2019 | Value: 83\nYear: 2020 | Value: 79\nYear: 2021 | Value: 64\nYear: 2022 | Value: 76",
+    "file_path": "unknown_source",
+    "create_time": 1774867670,
+    "update_time": 1774867670,
+    "_id": "doc-c7cd22e844ac1132e62473cf6da0f824"
+  },
+  "doc-aa968a6bb30dc03fa16192b92ec91483": {
+    "content": "Entity: Poland\nYear: 2000 | Value: 97\nYear: 2001 | Value: 97\nYear: 2002 | Value: 98\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 98\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 94\nYear: 2018 | Value: 93\nYear: 2019 | Value: 93\nYear: 2020 | Value: 92\nYear: 2021 | Value: 91\nYear: 2022 | Value: 91",
+    "file_path": "unknown_source",
+    "create_time": 1774867679,
+    "update_time": 1774867679,
+    "_id": "doc-aa968a6bb30dc03fa16192b92ec91483"
+  },
+  "doc-461449e08ad008cebf4599febf7c8ea5": {
+    "content": "Entity: South Africa\nYear: 2000 | Value: 72\nYear: 2001 | Value: 69\nYear: 2002 | Value: 65\nYear: 2003 | Value: 62\nYear: 2004 | Value: 63\nYear: 2005 | Value: 64\nYear: 2006 | Value: 69\nYear: 2007 | Value: 68\nYear: 2008 | Value: 73\nYear: 2009 | Value: 77\nYear: 2010 | Value: 72\nYear: 2011 | Value: 77\nYear: 2012 | Value: 79\nYear: 2013 | Value: 78\nYear: 2014 | Value: 84\nYear: 2015 | Value: 86\nYear: 2016 | Value: 84\nYear: 2017 | Value: 81\nYear: 2018 | Value: 81\nYear: 2019 | Value: 83\nYear: 2020 | Value: 84\nYear: 2021 | Value: 87\nYear: 2022 | Value: 86",
+    "file_path": "unknown_source",
+    "create_time": 1774867686,
+    "update_time": 1774867686,
+    "_id": "doc-461449e08ad008cebf4599febf7c8ea5"
+  },
+  "doc-861a8818ca1da44a673e2efdbc8b84b2": {
+    "content": "Entity: Thailand\nYear: 2000 | Value: 94\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 96\nYear: 2019 | Value: 96\nYear: 2020 | Value: 96\nYear: 2021 | Value: 93\nYear: 2022 | Value: 93",
+    "file_path": "unknown_source",
+    "create_time": 1774867693,
+    "update_time": 1774867693,
+    "_id": "doc-861a8818ca1da44a673e2efdbc8b84b2"
+  },
+  "doc-b796eb1cb64ad48517b453876e0220e5": {
+    "content": "Entity: Turkiye\nYear: 2000 | Value: 87\nYear: 2001 | Value: 91\nYear: 2002 | Value: 83\nYear: 2003 | Value: 75\nYear: 2004 | Value: 81\nYear: 2005 | Value: 91\nYear: 2006 | Value: 98\nYear: 2007 | Value: 96\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 98\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 94\nYear: 2015 | Value: 97\nYear: 2016 | Value: 98\nYear: 2017 | Value: 96\nYear: 2018 | Value: 96\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 95",
+    "file_path": "unknown_source",
+    "create_time": 1774867711,
+    "update_time": 1774867711,
+    "_id": "doc-b796eb1cb64ad48517b453876e0220e5"
+  },
+  "doc-49a5da052415837cb5f73d3e6caeae1d": {
+    "content": "Entity: United Kingdom\nYear: 2000 | Value: 88\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 82\nYear: 2004 | Value: 81\nYear: 2005 | Value: 82\nYear: 2006 | Value: 85\nYear: 2007 | Value: 86\nYear: 2008 | Value: 86\nYear: 2009 | Value: 86\nYear: 2010 | Value: 89\nYear: 2011 | Value: 90\nYear: 2012 | Value: 92\nYear: 2013 | Value: 93\nYear: 2014 | Value: 93\nYear: 2015 | Value: 93\nYear: 2016 | Value: 92\nYear: 2017 | Value: 92\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 91\nYear: 2021 | Value: 91\nYear: 2022 | Value: 90",
+    "file_path": "unknown_source",
+    "create_time": 1774867721,
+    "update_time": 1774867721,
+    "_id": "doc-49a5da052415837cb5f73d3e6caeae1d"
+  },
+  "doc-a23e5c735f202875f4031c63208ba7c7": {
+    "content": "Entity: United States\nYear: 2000 | Value: 91\nYear: 2001 | Value: 91\nYear: 2002 | Value: 91\nYear: 2003 | Value: 93\nYear: 2004 | Value: 93\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 90\nYear: 2010 | Value: 92\nYear: 2011 | Value: 92\nYear: 2012 | Value: 91\nYear: 2013 | Value: 92\nYear: 2014 | Value: 92\nYear: 2015 | Value: 92\nYear: 2016 | Value: 92\nYear: 2017 | Value: 91\nYear: 2018 | Value: 92\nYear: 2019 | Value: 90\nYear: 2020 | Value: 91\nYear: 2021 | Value: 92\nYear: 2022 | Value: 92",
+    "file_path": "unknown_source",
+    "create_time": 1774867731,
+    "update_time": 1774867731,
+    "_id": "doc-a23e5c735f202875f4031c63208ba7c7"
+  },
+  "doc-54577d1206bd2ee0ff05095d7f32bbb7": {
+    "content": "Entity: Viet Nam\nYear: 2000 | Value: 97\nYear: 2001 | Value: 98\nYear: 2002 | Value: 96\nYear: 2003 | Value: 93\nYear: 2004 | Value: 97\nYear: 2005 | Value: 95\nYear: 2006 | Value: 93\nYear: 2007 | Value: 83\nYear: 2008 | Value: 92\nYear: 2009 | Value: 97\nYear: 2010 | Value: 98\nYear: 2011 | Value: 96\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 99\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 95\nYear: 2020 | Value: 97\nYear: 2021 | Value: 89\nYear: 2022 | Value: 88",
+    "file_path": "unknown_source",
+    "create_time": 1774867740,
+    "update_time": 1774867740,
+    "_id": "doc-54577d1206bd2ee0ff05095d7f32bbb7"
+  }
+}

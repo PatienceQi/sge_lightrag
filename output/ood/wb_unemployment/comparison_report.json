@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T17:59:15.006515",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_unemployment.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_unemployment/sge_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 72467,
+    "node_count": 121,
+    "edge_count": 96
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_unemployment/baseline_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 28947,
+    "node_count": 40,
+    "edge_count": 25
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

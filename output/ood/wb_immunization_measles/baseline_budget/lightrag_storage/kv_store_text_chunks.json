@@ -1,0 +1,652 @@
+{
+  "chunk-e3e55fa747944ee5cffbfbff9b0e6926": {
+    "tokens": 256,
+    "content": "Entity: Argentina\nYear: 2000 | Value: 91\nYear: 2001 | Value: 89\nYear: 2002 | Value: 95\nYear: 2003 | Value: 97\nYear: 2004 | Value: 99\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 94\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 95\nYear: 2015 | Value: 89\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 94\nYear: 2019 | Value: 86\nYear: 2020 | Value: 77\nYear: 2021 | Value: 86\nYear: 2022 | Value: 85",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e3e55fa747944ee5cffbfbff9b0e6926",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fee901d5dd03de2507f6daad2096a9a9"
+    ],
+    "create_time": 1774867517,
+    "update_time": 1774867524,
+    "_id": "chunk-e3e55fa747944ee5cffbfbff9b0e6926"
+  },
+  "chunk-bf8c37d4037ede812a8a8f5fec0c3d4d": {
+    "tokens": 256,
+    "content": "Entity: Australia\nYear: 2000 | Value: 91\nYear: 2001 | Value: 92\nYear: 2002 | Value: 94\nYear: 2003 | Value: 94\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 94\nYear: 2007 | Value: 94\nYear: 2008 | Value: 94\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 94\nYear: 2015 | Value: 95\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 94\nYear: 2020 | Value: 93\nYear: 2021 | Value: 93\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bf8c37d4037ede812a8a8f5fec0c3d4d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:36b78d93ecbf94fb73ee94b4722337e7"
+    ],
+    "create_time": 1774867524,
+    "update_time": 1774867531,
+    "_id": "chunk-bf8c37d4037ede812a8a8f5fec0c3d4d"
+  },
+  "chunk-4d721b853dc0ba4ab10b0d595480a15c": {
+    "tokens": 256,
+    "content": "Entity: Brazil\nYear: 2000 | Value: 99\nYear: 2001 | Value: 99\nYear: 2002 | Value: 96\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 99\nYear: 2008 | Value: 99\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 95\nYear: 2017 | Value: 87\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 79\nYear: 2021 | Value: 73\nYear: 2022 | Value: 81",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4d721b853dc0ba4ab10b0d595480a15c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a3ca3e948a6257493720d7f291546d1a"
+    ],
+    "create_time": 1774867531,
+    "update_time": 1774867538,
+    "_id": "chunk-4d721b853dc0ba4ab10b0d595480a15c"
+  },
+  "chunk-db3a07c52fa041f5004f984f0944f6ac": {
+    "tokens": 256,
+    "content": "Entity: Canada\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 95\nYear: 2003 | Value: 95\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 93\nYear: 2009 | Value: 91\nYear: 2010 | Value: 90\nYear: 2011 | Value: 88\nYear: 2012 | Value: 89\nYear: 2013 | Value: 90\nYear: 2014 | Value: 90\nYear: 2015 | Value: 89\nYear: 2016 | Value: 89\nYear: 2017 | Value: 90\nYear: 2018 | Value: 90\nYear: 2019 | Value: 90\nYear: 2020 | Value: 90\nYear: 2021 | Value: 90\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-db3a07c52fa041f5004f984f0944f6ac",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:92321fe8983d186424bd2f2d94e24172"
+    ],
+    "create_time": 1774867538,
+    "update_time": 1774867545,
+    "_id": "chunk-db3a07c52fa041f5004f984f0944f6ac"
+  },
+  "chunk-68341d1de16738501fbd3a40729f5a75": {
+    "tokens": 256,
+    "content": "Entity: China\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 85\nYear: 2004 | Value: 86\nYear: 2005 | Value: 86\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 97\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 99\nYear: 2019 | Value: 99\nYear: 2020 | Value: 99\nYear: 2021 | Value: 99\nYear: 2022 | Value: 99",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-68341d1de16738501fbd3a40729f5a75",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5798981998b303d45fb675f1ec1b007f"
+    ],
+    "create_time": 1774867545,
+    "update_time": 1774867552,
+    "_id": "chunk-68341d1de16738501fbd3a40729f5a75"
+  },
+  "chunk-a5d275c9ba6422fa2683ae07baea7fea": {
+    "tokens": 256,
+    "content": "Entity: Colombia\nYear: 2000 | Value: 88\nYear: 2001 | Value: 93\nYear: 2002 | Value: 93\nYear: 2003 | Value: 93\nYear: 2004 | Value: 92\nYear: 2005 | Value: 94\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 88\nYear: 2011 | Value: 88\nYear: 2012 | Value: 94\nYear: 2013 | Value: 92\nYear: 2014 | Value: 91\nYear: 2015 | Value: 94\nYear: 2016 | Value: 93\nYear: 2017 | Value: 93\nYear: 2018 | Value: 95\nYear: 2019 | Value: 95\nYear: 2020 | Value: 90\nYear: 2021 | Value: 86\nYear: 2022 | Value: 88",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a5d275c9ba6422fa2683ae07baea7fea",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2b9f6803251bd98611053ca1bfcd3338"
+    ],
+    "create_time": 1774867552,
+    "update_time": 1774867559,
+    "_id": "chunk-a5d275c9ba6422fa2683ae07baea7fea"
+  },
+  "chunk-5795de06ad0180b98cff546708a8e3d1": {
+    "tokens": 259,
+    "content": "Entity: Egypt, Arab Rep.\nYear: 2000 | Value: 98\nYear: 2001 | Value: 97\nYear: 2002 | Value: 97\nYear: 2003 | Value: 98\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 98\nYear: 2007 | Value: 97\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 96\nYear: 2011 | Value: 96\nYear: 2012 | Value: 93\nYear: 2013 | Value: 96\nYear: 2014 | Value: 93\nYear: 2015 | Value: 92\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 95\nYear: 2020 | Value: 94\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5795de06ad0180b98cff546708a8e3d1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:63c38c33c704a4b9f4caab395c8c24e9"
+    ],
+    "create_time": 1774867559,
+    "update_time": 1774867566,
+    "_id": "chunk-5795de06ad0180b98cff546708a8e3d1"
+  },
+  "chunk-b2871558fe71061f45c452a485b42447": {
+    "tokens": 256,
+    "content": "Entity: France\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 86\nYear: 2003 | Value: 87\nYear: 2004 | Value: 88\nYear: 2005 | Value: 87\nYear: 2006 | Value: 89\nYear: 2007 | Value: 90\nYear: 2008 | Value: 89\nYear: 2009 | Value: 89\nYear: 2010 | Value: 89\nYear: 2011 | Value: 89\nYear: 2012 | Value: 91\nYear: 2013 | Value: 90\nYear: 2014 | Value: 91\nYear: 2015 | Value: 91\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 91\nYear: 2019 | Value: 92\nYear: 2020 | Value: 94\nYear: 2021 | Value: 94\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b2871558fe71061f45c452a485b42447",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1431d105c99363f9d954835ac67c08a5"
+    ],
+    "create_time": 1774867567,
+    "update_time": 1774867574,
+    "_id": "chunk-b2871558fe71061f45c452a485b42447"
+  },
+  "chunk-bf9b0b7d405b137240585d3c896b8349": {
+    "tokens": 256,
+    "content": "Entity: Germany\nYear: 2000 | Value: 92\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 95\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 97\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 97\nYear: 2012 | Value: 97\nYear: 2013 | Value: 97\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 97\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 97\nYear: 2020 | Value: 97\nYear: 2021 | Value: 98\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bf9b0b7d405b137240585d3c896b8349",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:618a662311967f54fb41da6550fef78b"
+    ],
+    "create_time": 1774867574,
+    "update_time": 1774867582,
+    "_id": "chunk-bf9b0b7d405b137240585d3c896b8349"
+  },
+  "chunk-d795ddf866f41ac6c943ad0465385cda": {
+    "tokens": 256,
+    "content": "Entity: India\nYear: 2000 | Value: 56\nYear: 2001 | Value: 57\nYear: 2002 | Value: 56\nYear: 2003 | Value: 60\nYear: 2004 | Value: 64\nYear: 2005 | Value: 68\nYear: 2006 | Value: 69\nYear: 2007 | Value: 70\nYear: 2008 | Value: 72\nYear: 2009 | Value: 78\nYear: 2010 | Value: 82\nYear: 2011 | Value: 84\nYear: 2012 | Value: 83\nYear: 2013 | Value: 83\nYear: 2014 | Value: 85\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 93\nYear: 2019 | Value: 95\nYear: 2020 | Value: 89\nYear: 2021 | Value: 89\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d795ddf866f41ac6c943ad0465385cda",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:8e968d0eac762f5e5fe863eb697e6a48"
+    ],
+    "create_time": 1774867582,
+    "update_time": 1774867589,
+    "_id": "chunk-d795ddf866f41ac6c943ad0465385cda"
+  },
+  "chunk-09119be61edaec837bbc672f0562c3f0": {
+    "tokens": 256,
+    "content": "Entity: Indonesia\nYear: 2000 | Value: 76\nYear: 2001 | Value: 76\nYear: 2002 | Value: 72\nYear: 2003 | Value: 74\nYear: 2004 | Value: 76\nYear: 2005 | Value: 77\nYear: 2006 | Value: 79\nYear: 2007 | Value: 76\nYear: 2008 | Value: 76\nYear: 2009 | Value: 74\nYear: 2010 | Value: 78\nYear: 2011 | Value: 80\nYear: 2012 | Value: 82\nYear: 2013 | Value: 87\nYear: 2014 | Value: 86\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 89\nYear: 2019 | Value: 88\nYear: 2020 | Value: 76\nYear: 2021 | Value: 72\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-09119be61edaec837bbc672f0562c3f0",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:aae70c1f0c2cf5569c692f7446232e84"
+    ],
+    "create_time": 1774867589,
+    "update_time": 1774867595,
+    "_id": "chunk-09119be61edaec837bbc672f0562c3f0"
+  },
+  "chunk-160b3fc285715c632f3755da759f7428": {
+    "tokens": 256,
+    "content": "Entity: Italy\nYear: 2000 | Value: 74\nYear: 2001 | Value: 77\nYear: 2002 | Value: 81\nYear: 2003 | Value: 84\nYear: 2004 | Value: 86\nYear: 2005 | Value: 87\nYear: 2006 | Value: 88\nYear: 2007 | Value: 90\nYear: 2008 | Value: 90\nYear: 2009 | Value: 90\nYear: 2010 | Value: 91\nYear: 2011 | Value: 90\nYear: 2012 | Value: 90\nYear: 2013 | Value: 90\nYear: 2014 | Value: 87\nYear: 2015 | Value: 85\nYear: 2016 | Value: 87\nYear: 2017 | Value: 92\nYear: 2018 | Value: 93\nYear: 2019 | Value: 94\nYear: 2020 | Value: 92\nYear: 2021 | Value: 94\nYear: 2022 | Value: 94",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-160b3fc285715c632f3755da759f7428",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:05557bd5e0117c5319228228ac2d972d"
+    ],
+    "create_time": 1774867596,
+    "update_time": 1774867602,
+    "_id": "chunk-160b3fc285715c632f3755da759f7428"
+  },
+  "chunk-db0d69f7d4e8205349dc3963760a661a": {
+    "tokens": 256,
+    "content": "Entity: Japan\nYear: 2000 | Value: 96\nYear: 2001 | Value: 98\nYear: 2002 | Value: 98\nYear: 2003 | Value: 98\nYear: 2004 | Value: 98\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 96\nYear: 2008 | Value: 95\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 96\nYear: 2013 | Value: 95\nYear: 2014 | Value: 98\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 96\nYear: 2020 | Value: 98\nYear: 2021 | Value: 95\nYear: 2022 | Value: 98",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-db0d69f7d4e8205349dc3963760a661a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:43a0a87fb7ce2d71494b8aa07cee6794"
+    ],
+    "create_time": 1774867603,
+    "update_time": 1774867614,
+    "_id": "chunk-db0d69f7d4e8205349dc3963760a661a"
+  },
+  "chunk-ee8c24f15a156367315be8a60e96d7ed": {
+    "tokens": 258,
+    "content": "Entity: Korea, Rep.\nYear: 2000 | Value: 95\nYear: 2001 | Value: 96\nYear: 2002 | Value: 97\nYear: 2003 | Value: 96\nYear: 2004 | Value: 99\nYear: 2005 | Value: 99\nYear: 2006 | Value: 99\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 93\nYear: 2010 | Value: 98\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 98\nYear: 2016 | Value: 98\nYear: 2017 | Value: 97\nYear: 2018 | Value: 98\nYear: 2019 | Value: 98\nYear: 2020 | Value: 98\nYear: 2021 | Value: 98\nYear: 2022 | Value: 97",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ee8c24f15a156367315be8a60e96d7ed",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:60eed10bf182b584e47cc66762f3bab4"
+    ],
+    "create_time": 1774867614,
+    "update_time": 1774867624,
+    "_id": "chunk-ee8c24f15a156367315be8a60e96d7ed"
+  },
+  "chunk-f0f3f42a6d592dfbf7f1c6001ebaa90f": {
+    "tokens": 256,
+    "content": "Entity: Malaysia\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 94\nYear: 2003 | Value: 93\nYear: 2004 | Value: 95\nYear: 2005 | Value: 96\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 95\nYear: 2009 | Value: 95\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 95\nYear: 2013 | Value: 95\nYear: 2014 | Value: 92\nYear: 2015 | Value: 93\nYear: 2016 | Value: 96\nYear: 2017 | Value: 96\nYear: 2018 | Value: 98\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f0f3f42a6d592dfbf7f1c6001ebaa90f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bb1df5c7fab3e794a5f47e72da7f909f"
+    ],
+    "create_time": 1774867624,
+    "update_time": 1774867642,
+    "_id": "chunk-f0f3f42a6d592dfbf7f1c6001ebaa90f"
+  },
+  "chunk-3a49002766adfad18a315b7b8d277396": {
+    "tokens": 256,
+    "content": "Entity: Mexico\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 96\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 98\nYear: 2012 | Value: 99\nYear: 2013 | Value: 89\nYear: 2014 | Value: 98\nYear: 2015 | Value: 98\nYear: 2016 | Value: 97\nYear: 2017 | Value: 76\nYear: 2018 | Value: 97\nYear: 2019 | Value: 73\nYear: 2020 | Value: 92\nYear: 2021 | Value: 99\nYear: 2022 | Value: 86",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3a49002766adfad18a315b7b8d277396",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c85483159b09fbe1e3b5f2b0ede32e7b"
+    ],
+    "create_time": 1774867643,
+    "update_time": 1774867663,
+    "_id": "chunk-3a49002766adfad18a315b7b8d277396"
+  },
+  "chunk-80554c3a9ef7cf83a8d8f1bed8ffdbdc": {
+    "tokens": 256,
+    "content": "Entity: Nigeria\nYear: 2000 | Value: 33\nYear: 2001 | Value: 32\nYear: 2002 | Value: 30\nYear: 2003 | Value: 34\nYear: 2004 | Value: 37\nYear: 2005 | Value: 41\nYear: 2006 | Value: 44\nYear: 2007 | Value: 41\nYear: 2008 | Value: 53\nYear: 2009 | Value: 64\nYear: 2010 | Value: 56\nYear: 2011 | Value: 53\nYear: 2012 | Value: 41\nYear: 2013 | Value: 42\nYear: 2014 | Value: 42\nYear: 2015 | Value: 42\nYear: 2016 | Value: 48\nYear: 2017 | Value: 54\nYear: 2018 | Value: 56\nYear: 2019 | Value: 58\nYear: 2020 | Value: 60\nYear: 2021 | Value: 56\nYear: 2022 | Value: 51",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-80554c3a9ef7cf83a8d8f1bed8ffdbdc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fa247a021e11087c44eb4c711dc39acf"
+    ],
+    "create_time": 1774867664,
+    "update_time": 1774867670,
+    "_id": "chunk-80554c3a9ef7cf83a8d8f1bed8ffdbdc"
+  },
+  "chunk-c7cd22e844ac1132e62473cf6da0f824": {
+    "tokens": 256,
+    "content": "Entity: Philippines\nYear: 2000 | Value: 78\nYear: 2001 | Value: 81\nYear: 2002 | Value: 82\nYear: 2003 | Value: 87\nYear: 2004 | Value: 92\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 90\nYear: 2009 | Value: 89\nYear: 2010 | Value: 87\nYear: 2011 | Value: 86\nYear: 2012 | Value: 84\nYear: 2013 | Value: 83\nYear: 2014 | Value: 81\nYear: 2015 | Value: 80\nYear: 2016 | Value: 80\nYear: 2017 | Value: 81\nYear: 2018 | Value: 82\nYear: 2019 | Value: 83\nYear: 2020 | Value: 79\nYear: 2021 | Value: 64\nYear: 2022 | Value: 76",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c7cd22e844ac1132e62473cf6da0f824",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:398b2161f3b6d062412f5ab09c2dfb6b"
+    ],
+    "create_time": 1774867670,
+    "update_time": 1774867678,
+    "_id": "chunk-c7cd22e844ac1132e62473cf6da0f824"
+  },
+  "chunk-aa968a6bb30dc03fa16192b92ec91483": {
+    "tokens": 256,
+    "content": "Entity: Poland\nYear: 2000 | Value: 97\nYear: 2001 | Value: 97\nYear: 2002 | Value: 98\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 98\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 94\nYear: 2018 | Value: 93\nYear: 2019 | Value: 93\nYear: 2020 | Value: 92\nYear: 2021 | Value: 91\nYear: 2022 | Value: 91",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-aa968a6bb30dc03fa16192b92ec91483",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a53613bb6792a6f949fdad928cfc4c1b"
+    ],
+    "create_time": 1774867679,
+    "update_time": 1774867686,
+    "_id": "chunk-aa968a6bb30dc03fa16192b92ec91483"
+  },
+  "chunk-461449e08ad008cebf4599febf7c8ea5": {
+    "tokens": 257,
+    "content": "Entity: South Africa\nYear: 2000 | Value: 72\nYear: 2001 | Value: 69\nYear: 2002 | Value: 65\nYear: 2003 | Value: 62\nYear: 2004 | Value: 63\nYear: 2005 | Value: 64\nYear: 2006 | Value: 69\nYear: 2007 | Value: 68\nYear: 2008 | Value: 73\nYear: 2009 | Value: 77\nYear: 2010 | Value: 72\nYear: 2011 | Value: 77\nYear: 2012 | Value: 79\nYear: 2013 | Value: 78\nYear: 2014 | Value: 84\nYear: 2015 | Value: 86\nYear: 2016 | Value: 84\nYear: 2017 | Value: 81\nYear: 2018 | Value: 81\nYear: 2019 | Value: 83\nYear: 2020 | Value: 84\nYear: 2021 | Value: 87\nYear: 2022 | Value: 86",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-461449e08ad008cebf4599febf7c8ea5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:78ea4ed72d7f1217a63bb9d1e7c7487c"
+    ],
+    "create_time": 1774867686,
+    "update_time": 1774867693,
+    "_id": "chunk-461449e08ad008cebf4599febf7c8ea5"
+  },
+  "chunk-861a8818ca1da44a673e2efdbc8b84b2": {
+    "tokens": 256,
+    "content": "Entity: Thailand\nYear: 2000 | Value: 94\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 96\nYear: 2019 | Value: 96\nYear: 2020 | Value: 96\nYear: 2021 | Value: 93\nYear: 2022 | Value: 93",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-861a8818ca1da44a673e2efdbc8b84b2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b7dcc4796f1a642f98c33814ab1ea2cb"
+    ],
+    "create_time": 1774867693,
+    "update_time": 1774867710,
+    "_id": "chunk-861a8818ca1da44a673e2efdbc8b84b2"
+  },
+  "chunk-b796eb1cb64ad48517b453876e0220e5": {
+    "tokens": 257,
+    "content": "Entity: Turkiye\nYear: 2000 | Value: 87\nYear: 2001 | Value: 91\nYear: 2002 | Value: 83\nYear: 2003 | Value: 75\nYear: 2004 | Value: 81\nYear: 2005 | Value: 91\nYear: 2006 | Value: 98\nYear: 2007 | Value: 96\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 98\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 94\nYear: 2015 | Value: 97\nYear: 2016 | Value: 98\nYear: 2017 | Value: 96\nYear: 2018 | Value: 96\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b796eb1cb64ad48517b453876e0220e5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:81e356ec3c5d5d5c71c63bb19a416706"
+    ],
+    "create_time": 1774867711,
+    "update_time": 1774867720,
+    "_id": "chunk-b796eb1cb64ad48517b453876e0220e5"
+  },
+  "chunk-49a5da052415837cb5f73d3e6caeae1d": {
+    "tokens": 257,
+    "content": "Entity: United Kingdom\nYear: 2000 | Value: 88\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 82\nYear: 2004 | Value: 81\nYear: 2005 | Value: 82\nYear: 2006 | Value: 85\nYear: 2007 | Value: 86\nYear: 2008 | Value: 86\nYear: 2009 | Value: 86\nYear: 2010 | Value: 89\nYear: 2011 | Value: 90\nYear: 2012 | Value: 92\nYear: 2013 | Value: 93\nYear: 2014 | Value: 93\nYear: 2015 | Value: 93\nYear: 2016 | Value: 92\nYear: 2017 | Value: 92\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 91\nYear: 2021 | Value: 91\nYear: 2022 | Value: 90",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-49a5da052415837cb5f73d3e6caeae1d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:871b297f975b5f7d7c58407df6996807"
+    ],
+    "create_time": 1774867721,
+    "update_time": 1774867731,
+    "_id": "chunk-49a5da052415837cb5f73d3e6caeae1d"
+  },
+  "chunk-a23e5c735f202875f4031c63208ba7c7": {
+    "tokens": 257,
+    "content": "Entity: United States\nYear: 2000 | Value: 91\nYear: 2001 | Value: 91\nYear: 2002 | Value: 91\nYear: 2003 | Value: 93\nYear: 2004 | Value: 93\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 90\nYear: 2010 | Value: 92\nYear: 2011 | Value: 92\nYear: 2012 | Value: 91\nYear: 2013 | Value: 92\nYear: 2014 | Value: 92\nYear: 2015 | Value: 92\nYear: 2016 | Value: 92\nYear: 2017 | Value: 91\nYear: 2018 | Value: 92\nYear: 2019 | Value: 90\nYear: 2020 | Value: 91\nYear: 2021 | Value: 92\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a23e5c735f202875f4031c63208ba7c7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:92a6b6588445e5e7a3758703bc2fe3ca"
+    ],
+    "create_time": 1774867731,
+    "update_time": 1774867740,
+    "_id": "chunk-a23e5c735f202875f4031c63208ba7c7"
+  },
+  "chunk-54577d1206bd2ee0ff05095d7f32bbb7": {
+    "tokens": 257,
+    "content": "Entity: Viet Nam\nYear: 2000 | Value: 97\nYear: 2001 | Value: 98\nYear: 2002 | Value: 96\nYear: 2003 | Value: 93\nYear: 2004 | Value: 97\nYear: 2005 | Value: 95\nYear: 2006 | Value: 93\nYear: 2007 | Value: 83\nYear: 2008 | Value: 92\nYear: 2009 | Value: 97\nYear: 2010 | Value: 98\nYear: 2011 | Value: 96\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 99\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 95\nYear: 2020 | Value: 97\nYear: 2021 | Value: 89\nYear: 2022 | Value: 88",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-54577d1206bd2ee0ff05095d7f32bbb7",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b889a4b584c595ed62db00f84972079a"
+    ],
+    "create_time": 1774867740,
+    "update_time": 1774867751,
+    "_id": "chunk-54577d1206bd2ee0ff05095d7f32bbb7"
+  },
+  "chunk-399f372e1694c64f0779b16ee2e285f1": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Argentina\nYear: 2000 | Value: 91\nYear: 2001 | Value: 89\nYear: 2002 | Value: 95\nYear: 2003 | Value: 97\nYear: 2004 | Value: 99\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 94\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 95\nYear: 2015 | Value: 89\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 94\nYear: 2019 | Value: 86\nYear: 2020 | Value: 77\nYear: 2021 | Value: 86\nYear: 2022 | Value: 85",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-399f372e1694c64f0779b16ee2e285f1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:24ef2a4d7faf24e407ac05a2a69aa160"
+    ],
+    "create_time": 1774867751,
+    "update_time": 1774867756,
+    "_id": "chunk-399f372e1694c64f0779b16ee2e285f1"
+  },
+  "chunk-5ba2892be3bff477a57432e4160318ab": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Australia\nYear: 2000 | Value: 91\nYear: 2001 | Value: 92\nYear: 2002 | Value: 94\nYear: 2003 | Value: 94\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 94\nYear: 2007 | Value: 94\nYear: 2008 | Value: 94\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 94\nYear: 2015 | Value: 95\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 94\nYear: 2020 | Value: 93\nYear: 2021 | Value: 93\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5ba2892be3bff477a57432e4160318ab",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:987331767b5ffa272af64fbd6964c99d"
+    ],
+    "create_time": 1774867756,
+    "update_time": 1774867761,
+    "_id": "chunk-5ba2892be3bff477a57432e4160318ab"
+  },
+  "chunk-8d09754a9f7ddf1d71a238769ecd6798": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Brazil\nYear: 2000 | Value: 99\nYear: 2001 | Value: 99\nYear: 2002 | Value: 96\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 99\nYear: 2008 | Value: 99\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 95\nYear: 2017 | Value: 87\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 79\nYear: 2021 | Value: 73\nYear: 2022 | Value: 81",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8d09754a9f7ddf1d71a238769ecd6798",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0a9a073e7659903486457dc81dfed6f4"
+    ],
+    "create_time": 1774867761,
+    "update_time": 1774867767,
+    "_id": "chunk-8d09754a9f7ddf1d71a238769ecd6798"
+  },
+  "chunk-c552a67f8ec559b822a0a863e4087016": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Canada\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 95\nYear: 2003 | Value: 95\nYear: 2004 | Value: 94\nYear: 2005 | Value: 94\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 93\nYear: 2009 | Value: 91\nYear: 2010 | Value: 90\nYear: 2011 | Value: 88\nYear: 2012 | Value: 89\nYear: 2013 | Value: 90\nYear: 2014 | Value: 90\nYear: 2015 | Value: 89\nYear: 2016 | Value: 89\nYear: 2017 | Value: 90\nYear: 2018 | Value: 90\nYear: 2019 | Value: 90\nYear: 2020 | Value: 90\nYear: 2021 | Value: 90\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c552a67f8ec559b822a0a863e4087016",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1918ab32c8a4b60745e28e22cd124ed3"
+    ],
+    "create_time": 1774867768,
+    "update_time": 1774867772,
+    "_id": "chunk-c552a67f8ec559b822a0a863e4087016"
+  },
+  "chunk-d1dc0d01e5495c57a31d4bc7b8d557ff": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: China\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 85\nYear: 2004 | Value: 86\nYear: 2005 | Value: 86\nYear: 2006 | Value: 93\nYear: 2007 | Value: 94\nYear: 2008 | Value: 97\nYear: 2009 | Value: 99\nYear: 2010 | Value: 99\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 99\nYear: 2019 | Value: 99\nYear: 2020 | Value: 99\nYear: 2021 | Value: 99\nYear: 2022 | Value: 99",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d1dc0d01e5495c57a31d4bc7b8d557ff",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d667f91b2a31cefef6f260dcc3118d06"
+    ],
+    "create_time": 1774867773,
+    "update_time": 1774867778,
+    "_id": "chunk-d1dc0d01e5495c57a31d4bc7b8d557ff"
+  },
+  "chunk-84c21b35579f59378b1ace2e27acf412": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Colombia\nYear: 2000 | Value: 88\nYear: 2001 | Value: 93\nYear: 2002 | Value: 93\nYear: 2003 | Value: 93\nYear: 2004 | Value: 92\nYear: 2005 | Value: 94\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 88\nYear: 2011 | Value: 88\nYear: 2012 | Value: 94\nYear: 2013 | Value: 92\nYear: 2014 | Value: 91\nYear: 2015 | Value: 94\nYear: 2016 | Value: 93\nYear: 2017 | Value: 93\nYear: 2018 | Value: 95\nYear: 2019 | Value: 95\nYear: 2020 | Value: 90\nYear: 2021 | Value: 86\nYear: 2022 | Value: 88",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-84c21b35579f59378b1ace2e27acf412",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9e90b5184ac37893598127f047673a1c"
+    ],
+    "create_time": 1774867779,
+    "update_time": 1774867784,
+    "_id": "chunk-84c21b35579f59378b1ace2e27acf412"
+  },
+  "chunk-14332b29771071abbc526ce600d2cdaf": {
+    "tokens": 263,
+    "content": "[BASELINE]\nEntity: Egypt, Arab Rep.\nYear: 2000 | Value: 98\nYear: 2001 | Value: 97\nYear: 2002 | Value: 97\nYear: 2003 | Value: 98\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 98\nYear: 2007 | Value: 97\nYear: 2008 | Value: 92\nYear: 2009 | Value: 95\nYear: 2010 | Value: 96\nYear: 2011 | Value: 96\nYear: 2012 | Value: 93\nYear: 2013 | Value: 96\nYear: 2014 | Value: 93\nYear: 2015 | Value: 92\nYear: 2016 | Value: 95\nYear: 2017 | Value: 94\nYear: 2018 | Value: 94\nYear: 2019 | Value: 95\nYear: 2020 | Value: 94\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-14332b29771071abbc526ce600d2cdaf",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ab9670303cc57663ef069bb93b32331d"
+    ],
+    "create_time": 1774867785,
+    "update_time": 1774867811,
+    "_id": "chunk-14332b29771071abbc526ce600d2cdaf"
+  },
+  "chunk-4fbfe98afd58de4c2f723853ab77fbf1": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: France\nYear: 2000 | Value: 84\nYear: 2001 | Value: 85\nYear: 2002 | Value: 86\nYear: 2003 | Value: 87\nYear: 2004 | Value: 88\nYear: 2005 | Value: 87\nYear: 2006 | Value: 89\nYear: 2007 | Value: 90\nYear: 2008 | Value: 89\nYear: 2009 | Value: 89\nYear: 2010 | Value: 89\nYear: 2011 | Value: 89\nYear: 2012 | Value: 91\nYear: 2013 | Value: 90\nYear: 2014 | Value: 91\nYear: 2015 | Value: 91\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 91\nYear: 2019 | Value: 92\nYear: 2020 | Value: 94\nYear: 2021 | Value: 94\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4fbfe98afd58de4c2f723853ab77fbf1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:926d78b0d45fcc32d7cc6ff21dd7766d"
+    ],
+    "create_time": 1774867812,
+    "update_time": 1774867823,
+    "_id": "chunk-4fbfe98afd58de4c2f723853ab77fbf1"
+  },
+  "chunk-ddfd33652365cff5fca98a1624033ec5": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Germany\nYear: 2000 | Value: 92\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 95\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 97\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 97\nYear: 2012 | Value: 97\nYear: 2013 | Value: 97\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 97\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 97\nYear: 2020 | Value: 97\nYear: 2021 | Value: 98\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ddfd33652365cff5fca98a1624033ec5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:078e135a228be7ae33eb75ffb936193e"
+    ],
+    "create_time": 1774867837,
+    "update_time": 1774867848,
+    "_id": "chunk-ddfd33652365cff5fca98a1624033ec5"
+  },
+  "chunk-8757a0fd4ca5388d54f9858b3d4f1381": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: India\nYear: 2000 | Value: 56\nYear: 2001 | Value: 57\nYear: 2002 | Value: 56\nYear: 2003 | Value: 60\nYear: 2004 | Value: 64\nYear: 2005 | Value: 68\nYear: 2006 | Value: 69\nYear: 2007 | Value: 70\nYear: 2008 | Value: 72\nYear: 2009 | Value: 78\nYear: 2010 | Value: 82\nYear: 2011 | Value: 84\nYear: 2012 | Value: 83\nYear: 2013 | Value: 83\nYear: 2014 | Value: 85\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 93\nYear: 2019 | Value: 95\nYear: 2020 | Value: 89\nYear: 2021 | Value: 89\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8757a0fd4ca5388d54f9858b3d4f1381",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7e0a2bd1588a7c249e82e008c0faf9f5"
+    ],
+    "create_time": 1774867848,
+    "update_time": 1774867853,
+    "_id": "chunk-8757a0fd4ca5388d54f9858b3d4f1381"
+  },
+  "chunk-feedfd5f299caa88666b0ff3e8aa41d1": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Indonesia\nYear: 2000 | Value: 76\nYear: 2001 | Value: 76\nYear: 2002 | Value: 72\nYear: 2003 | Value: 74\nYear: 2004 | Value: 76\nYear: 2005 | Value: 77\nYear: 2006 | Value: 79\nYear: 2007 | Value: 76\nYear: 2008 | Value: 76\nYear: 2009 | Value: 74\nYear: 2010 | Value: 78\nYear: 2011 | Value: 80\nYear: 2012 | Value: 82\nYear: 2013 | Value: 87\nYear: 2014 | Value: 86\nYear: 2015 | Value: 87\nYear: 2016 | Value: 88\nYear: 2017 | Value: 90\nYear: 2018 | Value: 89\nYear: 2019 | Value: 88\nYear: 2020 | Value: 76\nYear: 2021 | Value: 72\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-feedfd5f299caa88666b0ff3e8aa41d1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1cc5ca7828d19100a5e939b3beea84cf"
+    ],
+    "create_time": 1774867853,
+    "update_time": 1774867861,
+    "_id": "chunk-feedfd5f299caa88666b0ff3e8aa41d1"
+  },
+  "chunk-3fe6729019d4b2de61c98eb1ab7e72a6": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Italy\nYear: 2000 | Value: 74\nYear: 2001 | Value: 77\nYear: 2002 | Value: 81\nYear: 2003 | Value: 84\nYear: 2004 | Value: 86\nYear: 2005 | Value: 87\nYear: 2006 | Value: 88\nYear: 2007 | Value: 90\nYear: 2008 | Value: 90\nYear: 2009 | Value: 90\nYear: 2010 | Value: 91\nYear: 2011 | Value: 90\nYear: 2012 | Value: 90\nYear: 2013 | Value: 90\nYear: 2014 | Value: 87\nYear: 2015 | Value: 85\nYear: 2016 | Value: 87\nYear: 2017 | Value: 92\nYear: 2018 | Value: 93\nYear: 2019 | Value: 94\nYear: 2020 | Value: 92\nYear: 2021 | Value: 94\nYear: 2022 | Value: 94",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3fe6729019d4b2de61c98eb1ab7e72a6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:acfe7a70110d814f26636afe1802f78d"
+    ],
+    "create_time": 1774867861,
+    "update_time": 1774867871,
+    "_id": "chunk-3fe6729019d4b2de61c98eb1ab7e72a6"
+  },
+  "chunk-70e9c06fea20b5150ece7445c9b1778f": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Japan\nYear: 2000 | Value: 96\nYear: 2001 | Value: 98\nYear: 2002 | Value: 98\nYear: 2003 | Value: 98\nYear: 2004 | Value: 98\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 96\nYear: 2008 | Value: 95\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 94\nYear: 2012 | Value: 96\nYear: 2013 | Value: 95\nYear: 2014 | Value: 98\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 96\nYear: 2020 | Value: 98\nYear: 2021 | Value: 95\nYear: 2022 | Value: 98",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-70e9c06fea20b5150ece7445c9b1778f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7d6da0f0db0fed96c8103003b8c3310d"
+    ],
+    "create_time": 1774867872,
+    "update_time": 1774867876,
+    "_id": "chunk-70e9c06fea20b5150ece7445c9b1778f"
+  },
+  "chunk-e3a1a6bd3ce5763d800a30ec7f6fc613": {
+    "tokens": 262,
+    "content": "[BASELINE]\nEntity: Korea, Rep.\nYear: 2000 | Value: 95\nYear: 2001 | Value: 96\nYear: 2002 | Value: 97\nYear: 2003 | Value: 96\nYear: 2004 | Value: 99\nYear: 2005 | Value: 99\nYear: 2006 | Value: 99\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 93\nYear: 2010 | Value: 98\nYear: 2011 | Value: 99\nYear: 2012 | Value: 99\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 98\nYear: 2016 | Value: 98\nYear: 2017 | Value: 97\nYear: 2018 | Value: 98\nYear: 2019 | Value: 98\nYear: 2020 | Value: 98\nYear: 2021 | Value: 98\nYear: 2022 | Value: 97",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e3a1a6bd3ce5763d800a30ec7f6fc613",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b5837c5844c7dfe5316ffae020d1403c"
+    ],
+    "create_time": 1774867876,
+    "update_time": 1774867885,
+    "_id": "chunk-e3a1a6bd3ce5763d800a30ec7f6fc613"
+  },
+  "chunk-e9ab4457fdb50f71afa86dd59d5d1656": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Malaysia\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 94\nYear: 2003 | Value: 93\nYear: 2004 | Value: 95\nYear: 2005 | Value: 96\nYear: 2006 | Value: 95\nYear: 2007 | Value: 95\nYear: 2008 | Value: 95\nYear: 2009 | Value: 95\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 95\nYear: 2013 | Value: 95\nYear: 2014 | Value: 92\nYear: 2015 | Value: 93\nYear: 2016 | Value: 96\nYear: 2017 | Value: 96\nYear: 2018 | Value: 98\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 96",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e9ab4457fdb50f71afa86dd59d5d1656",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:40fdd9924bf728b24a5281193180e40f"
+    ],
+    "create_time": 1774867886,
+    "update_time": 1774867898,
+    "_id": "chunk-e9ab4457fdb50f71afa86dd59d5d1656"
+  },
+  "chunk-70bdf0c818a69438e12083c3d2303dbb": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Mexico\nYear: 2000 | Value: 96\nYear: 2001 | Value: 95\nYear: 2002 | Value: 96\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 98\nYear: 2012 | Value: 99\nYear: 2013 | Value: 89\nYear: 2014 | Value: 98\nYear: 2015 | Value: 98\nYear: 2016 | Value: 97\nYear: 2017 | Value: 76\nYear: 2018 | Value: 97\nYear: 2019 | Value: 73\nYear: 2020 | Value: 92\nYear: 2021 | Value: 99\nYear: 2022 | Value: 86",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-70bdf0c818a69438e12083c3d2303dbb",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6cde9fc8576a1353adc65377a6fdc2cc"
+    ],
+    "create_time": 1774867898,
+    "update_time": 1774867911,
+    "_id": "chunk-70bdf0c818a69438e12083c3d2303dbb"
+  },
+  "chunk-b1d7542cc16cc36bea04c40c74ea06c3": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Nigeria\nYear: 2000 | Value: 33\nYear: 2001 | Value: 32\nYear: 2002 | Value: 30\nYear: 2003 | Value: 34\nYear: 2004 | Value: 37\nYear: 2005 | Value: 41\nYear: 2006 | Value: 44\nYear: 2007 | Value: 41\nYear: 2008 | Value: 53\nYear: 2009 | Value: 64\nYear: 2010 | Value: 56\nYear: 2011 | Value: 53\nYear: 2012 | Value: 41\nYear: 2013 | Value: 42\nYear: 2014 | Value: 42\nYear: 2015 | Value: 42\nYear: 2016 | Value: 48\nYear: 2017 | Value: 54\nYear: 2018 | Value: 56\nYear: 2019 | Value: 58\nYear: 2020 | Value: 60\nYear: 2021 | Value: 56\nYear: 2022 | Value: 51",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b1d7542cc16cc36bea04c40c74ea06c3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:c7e14c995f0f2f97c54aa7ff8e5b0146"
+    ],
+    "create_time": 1774867912,
+    "update_time": 1774867920,
+    "_id": "chunk-b1d7542cc16cc36bea04c40c74ea06c3"
+  },
+  "chunk-8a877b9ded49e21c44ab637704c8f946": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Philippines\nYear: 2000 | Value: 78\nYear: 2001 | Value: 81\nYear: 2002 | Value: 82\nYear: 2003 | Value: 87\nYear: 2004 | Value: 92\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 90\nYear: 2009 | Value: 89\nYear: 2010 | Value: 87\nYear: 2011 | Value: 86\nYear: 2012 | Value: 84\nYear: 2013 | Value: 83\nYear: 2014 | Value: 81\nYear: 2015 | Value: 80\nYear: 2016 | Value: 80\nYear: 2017 | Value: 81\nYear: 2018 | Value: 82\nYear: 2019 | Value: 83\nYear: 2020 | Value: 79\nYear: 2021 | Value: 64\nYear: 2022 | Value: 76",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8a877b9ded49e21c44ab637704c8f946",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b38e9c8be06d50b02647b2d6a78de5d4"
+    ],
+    "create_time": 1774867924,
+    "update_time": 1774867935,
+    "_id": "chunk-8a877b9ded49e21c44ab637704c8f946"
+  },
+  "chunk-20bcab82a977a4ea2e242d984ff6e8dd": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Poland\nYear: 2000 | Value: 97\nYear: 2001 | Value: 97\nYear: 2002 | Value: 98\nYear: 2003 | Value: 97\nYear: 2004 | Value: 97\nYear: 2005 | Value: 98\nYear: 2006 | Value: 99\nYear: 2007 | Value: 98\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 96\nYear: 2016 | Value: 96\nYear: 2017 | Value: 94\nYear: 2018 | Value: 93\nYear: 2019 | Value: 93\nYear: 2020 | Value: 92\nYear: 2021 | Value: 91\nYear: 2022 | Value: 91",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-20bcab82a977a4ea2e242d984ff6e8dd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7bdea35e5b3781b1e1b5f28a40f388c7"
+    ],
+    "create_time": 1774867936,
+    "update_time": 1774867942,
+    "_id": "chunk-20bcab82a977a4ea2e242d984ff6e8dd"
+  },
+  "chunk-9d0a2157cd2af0683ca5afe27912ed21": {
+    "tokens": 261,
+    "content": "[BASELINE]\nEntity: South Africa\nYear: 2000 | Value: 72\nYear: 2001 | Value: 69\nYear: 2002 | Value: 65\nYear: 2003 | Value: 62\nYear: 2004 | Value: 63\nYear: 2005 | Value: 64\nYear: 2006 | Value: 69\nYear: 2007 | Value: 68\nYear: 2008 | Value: 73\nYear: 2009 | Value: 77\nYear: 2010 | Value: 72\nYear: 2011 | Value: 77\nYear: 2012 | Value: 79\nYear: 2013 | Value: 78\nYear: 2014 | Value: 84\nYear: 2015 | Value: 86\nYear: 2016 | Value: 84\nYear: 2017 | Value: 81\nYear: 2018 | Value: 81\nYear: 2019 | Value: 83\nYear: 2020 | Value: 84\nYear: 2021 | Value: 87\nYear: 2022 | Value: 86",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9d0a2157cd2af0683ca5afe27912ed21",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6b792d7450155626c890360fb0078da6"
+    ],
+    "create_time": 1774867942,
+    "update_time": 1774867949,
+    "_id": "chunk-9d0a2157cd2af0683ca5afe27912ed21"
+  },
+  "chunk-d9a765f0fdfed7e63f950c5c57cbb3b4": {
+    "tokens": 260,
+    "content": "[BASELINE]\nEntity: Thailand\nYear: 2000 | Value: 94\nYear: 2001 | Value: 94\nYear: 2002 | Value: 94\nYear: 2003 | Value: 96\nYear: 2004 | Value: 96\nYear: 2005 | Value: 96\nYear: 2006 | Value: 96\nYear: 2007 | Value: 96\nYear: 2008 | Value: 98\nYear: 2009 | Value: 98\nYear: 2010 | Value: 98\nYear: 2011 | Value: 98\nYear: 2012 | Value: 98\nYear: 2013 | Value: 99\nYear: 2014 | Value: 99\nYear: 2015 | Value: 99\nYear: 2016 | Value: 99\nYear: 2017 | Value: 99\nYear: 2018 | Value: 96\nYear: 2019 | Value: 96\nYear: 2020 | Value: 96\nYear: 2021 | Value: 93\nYear: 2022 | Value: 93",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d9a765f0fdfed7e63f950c5c57cbb3b4",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bffd396c2fc6640f0a6b23c529feb694"
+    ],
+    "create_time": 1774867950,
+    "update_time": 1774867956,
+    "_id": "chunk-d9a765f0fdfed7e63f950c5c57cbb3b4"
+  },
+  "chunk-5004c7e10c0f705701e8d4245e1ff3dc": {
+    "tokens": 261,
+    "content": "[BASELINE]\nEntity: Turkiye\nYear: 2000 | Value: 87\nYear: 2001 | Value: 91\nYear: 2002 | Value: 83\nYear: 2003 | Value: 75\nYear: 2004 | Value: 81\nYear: 2005 | Value: 91\nYear: 2006 | Value: 98\nYear: 2007 | Value: 96\nYear: 2008 | Value: 97\nYear: 2009 | Value: 97\nYear: 2010 | Value: 97\nYear: 2011 | Value: 98\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 94\nYear: 2015 | Value: 97\nYear: 2016 | Value: 98\nYear: 2017 | Value: 96\nYear: 2018 | Value: 96\nYear: 2019 | Value: 97\nYear: 2020 | Value: 95\nYear: 2021 | Value: 96\nYear: 2022 | Value: 95",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5004c7e10c0f705701e8d4245e1ff3dc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e544b513f524749bc4bb4775e895af04"
+    ],
+    "create_time": 1774867956,
+    "update_time": 1774867962,
+    "_id": "chunk-5004c7e10c0f705701e8d4245e1ff3dc"
+  },
+  "chunk-3cbf00425ee1db69cc3563ca2aa255b6": {
+    "tokens": 261,
+    "content": "[BASELINE]\nEntity: United Kingdom\nYear: 2000 | Value: 88\nYear: 2001 | Value: 85\nYear: 2002 | Value: 85\nYear: 2003 | Value: 82\nYear: 2004 | Value: 81\nYear: 2005 | Value: 82\nYear: 2006 | Value: 85\nYear: 2007 | Value: 86\nYear: 2008 | Value: 86\nYear: 2009 | Value: 86\nYear: 2010 | Value: 89\nYear: 2011 | Value: 90\nYear: 2012 | Value: 92\nYear: 2013 | Value: 93\nYear: 2014 | Value: 93\nYear: 2015 | Value: 93\nYear: 2016 | Value: 92\nYear: 2017 | Value: 92\nYear: 2018 | Value: 92\nYear: 2019 | Value: 91\nYear: 2020 | Value: 91\nYear: 2021 | Value: 91\nYear: 2022 | Value: 90",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3cbf00425ee1db69cc3563ca2aa255b6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6191fdd2eb26d9f3eee8d8ed9d573d70"
+    ],
+    "create_time": 1774867962,
+    "update_time": 1774867973,
+    "_id": "chunk-3cbf00425ee1db69cc3563ca2aa255b6"
+  },
+  "chunk-849fe9a06ef56b45cb1a21a3a29b615e": {
+    "tokens": 261,
+    "content": "[BASELINE]\nEntity: United States\nYear: 2000 | Value: 91\nYear: 2001 | Value: 91\nYear: 2002 | Value: 91\nYear: 2003 | Value: 93\nYear: 2004 | Value: 93\nYear: 2005 | Value: 92\nYear: 2006 | Value: 92\nYear: 2007 | Value: 92\nYear: 2008 | Value: 92\nYear: 2009 | Value: 90\nYear: 2010 | Value: 92\nYear: 2011 | Value: 92\nYear: 2012 | Value: 91\nYear: 2013 | Value: 92\nYear: 2014 | Value: 92\nYear: 2015 | Value: 92\nYear: 2016 | Value: 92\nYear: 2017 | Value: 91\nYear: 2018 | Value: 92\nYear: 2019 | Value: 90\nYear: 2020 | Value: 91\nYear: 2021 | Value: 92\nYear: 2022 | Value: 92",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-849fe9a06ef56b45cb1a21a3a29b615e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6b4ff581fcfa6ae18c91017e0d3fb51c"
+    ],
+    "create_time": 1774867973,
+    "update_time": 1774867979,
+    "_id": "chunk-849fe9a06ef56b45cb1a21a3a29b615e"
+  },
+  "chunk-27cc11f77824b207ee34a1242b45db7d": {
+    "tokens": 261,
+    "content": "[BASELINE]\nEntity: Viet Nam\nYear: 2000 | Value: 97\nYear: 2001 | Value: 98\nYear: 2002 | Value: 96\nYear: 2003 | Value: 93\nYear: 2004 | Value: 97\nYear: 2005 | Value: 95\nYear: 2006 | Value: 93\nYear: 2007 | Value: 83\nYear: 2008 | Value: 92\nYear: 2009 | Value: 97\nYear: 2010 | Value: 98\nYear: 2011 | Value: 96\nYear: 2012 | Value: 96\nYear: 2013 | Value: 98\nYear: 2014 | Value: 97\nYear: 2015 | Value: 97\nYear: 2016 | Value: 99\nYear: 2017 | Value: 97\nYear: 2018 | Value: 97\nYear: 2019 | Value: 95\nYear: 2020 | Value: 97\nYear: 2021 | Value: 89\nYear: 2022 | Value: 88",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-27cc11f77824b207ee34a1242b45db7d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:daf0e34280444eddd9e2f02d9bb7758a"
+    ],
+    "create_time": 1774867980,
+    "update_time": 1774867986,
+    "_id": "chunk-27cc11f77824b207ee34a1242b45db7d"
+  }
+}

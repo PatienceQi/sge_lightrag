@@ -1,0 +1,9 @@
+{
+  "label": "Baseline",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_cereal_production/baseline_budget/lightrag_storage",
+  "chunks_inserted": 25,
+  "graph_file_exists": true,
+  "graph_file_size": 26791,
+  "node_count": 32,
+  "edge_count": 24
+}

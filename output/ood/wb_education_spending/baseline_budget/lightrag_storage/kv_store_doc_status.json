@@ -1,0 +1,818 @@
+{
+  "doc-94b6a74db7d7af46f662fb28e4570610": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-94b6a74db7d7af46f662fb28e4570610"
+    ],
+    "content_summary": "Entity: Argentina\nYear: 2000 | Value: 4.58030986785889\nYear: 2001 | Value: 4.833740234375\nYear: 2002 | Value: 4.01734018325806\nYear: 2003 | Value: 3.53504991531372\nYear: 2004 | Value: 3.48652005195618\nYear: 2005 | Value: 3.86000990867615\nYear: 2006 |...",
+    "content_length": 865,
+    "created_at": "2026-03-30T09:59:17.103535+00:00",
+    "updated_at": "2026-03-30T09:59:28.120086+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_175917_e82a80b7",
+    "metadata": {
+      "processing_start_time": 1774864757,
+      "processing_end_time": 1774864768
+    }
+  },
+  "doc-4ac9d0fc1044074c90bdff1089f11915": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4ac9d0fc1044074c90bdff1089f11915"
+    ],
+    "content_summary": "Entity: Australia\nYear: 2020 | Value: 5.38625001907349\nYear: 2021 | Value: 5.34109020233154\nYear: 2022 | Value: 5.05916023254395",
+    "content_length": 128,
+    "created_at": "2026-03-30T09:59:28.166228+00:00",
+    "updated_at": "2026-03-30T09:59:32.504381+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_175928_74c50d5a",
+    "metadata": {
+      "processing_start_time": 1774864768,
+      "processing_end_time": 1774864772
+    }
+  },
+  "doc-6ff95a161dc09114f268d9543ebfa1f4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6ff95a161dc09114f268d9543ebfa1f4"
+    ],
+    "content_summary": "Entity: Brazil\nYear: 2000 | Value: 3.94893002510071\nYear: 2001 | Value: 3.84468007087708\nYear: 2002 | Value: 3.75037002563477\nYear: 2004 | Value: 3.97447991371155\nYear: 2005 | Value: 4.47908020019531\nYear: 2006 | Value: 4.87060022354126\nYear: 2007 | ...",
+    "content_length": 823,
+    "created_at": "2026-03-30T09:59:32.516198+00:00",
+    "updated_at": "2026-03-30T09:59:43.072347+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_175932_1eb423b9",
+    "metadata": {
+      "processing_start_time": 1774864772,
+      "processing_end_time": 1774864783
+    }
+  },
+  "doc-a70c138f51cc96c53ee0710908698263": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a70c138f51cc96c53ee0710908698263"
+    ],
+    "content_summary": "Entity: Canada\nYear: 2000 | Value: 5.42331981658935\nYear: 2001 | Value: 4.95303010940552\nYear: 2002 | Value: 4.99308013916016\nYear: 2005 | Value: 4.76588010787964\nYear: 2007 | Value: 4.7664098739624\nYear: 2008 | Value: 4.62612009048462\nYear: 2009 | V...",
+    "content_length": 711,
+    "created_at": "2026-03-30T09:59:43.092428+00:00",
+    "updated_at": "2026-03-30T09:59:52.174698+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_175943_267fff74",
+    "metadata": {
+      "processing_start_time": 1774864783,
+      "processing_end_time": 1774864792
+    }
+  },
+  "doc-fc69762c56d1dae3641c4685159e355a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fc69762c56d1dae3641c4685159e355a"
+    ],
+    "content_summary": "Entity: Colombia\nYear: 2000 | Value: 3.5112099647522\nYear: 2001 | Value: 3.70867991447449\nYear: 2002 | Value: 4.26812982559204\nYear: 2003 | Value: 4.32513999938965\nYear: 2004 | Value: 4.07934999465942\nYear: 2005 | Value: 4.02098989486694\nYear: 2006 |...",
+    "content_length": 791,
+    "created_at": "2026-03-30T09:59:52.202247+00:00",
+    "updated_at": "2026-03-30T10:00:02.369817+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_175952_8d185c87",
+    "metadata": {
+      "processing_start_time": 1774864792,
+      "processing_end_time": 1774864802
+    }
+  },
+  "doc-c8132deca99b95627d71a51566bb9082": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c8132deca99b95627d71a51566bb9082"
+    ],
+    "content_summary": "Entity: Egypt, Arab Rep.\nYear: 2003 | Value: 4.94563007354736\nYear: 2004 | Value: 4.67072010040283\nYear: 2005 | Value: 4.79442977905273\nYear: 2006 | Value: 4.00178003311157\nYear: 2007 | Value: 3.68460988998413\nYear: 2008 | Value: 3.76082992553711",
+    "content_length": 246,
+    "created_at": "2026-03-30T10:00:02.401333+00:00",
+    "updated_at": "2026-03-30T10:00:08.256260+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180002_dc3f959f",
+    "metadata": {
+      "processing_start_time": 1774864802,
+      "processing_end_time": 1774864808
+    }
+  },
+  "doc-75739416d05e1cff87b0a9ffe12b677e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-75739416d05e1cff87b0a9ffe12b677e"
+    ],
+    "content_summary": "Entity: France\nYear: 2017 | Value: 5.46482992172241\nYear: 2018 | Value: 5.42540979385376\nYear: 2019 | Value: 5.36638021469116\nYear: 2020 | Value: 5.65872001647949\nYear: 2021 | Value: 5.41742992401123\nYear: 2022 | Value: 5.32435989379883",
+    "content_length": 236,
+    "created_at": "2026-03-30T10:00:08.292511+00:00",
+    "updated_at": "2026-03-30T10:00:13.585541+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180008_63bc2f6f",
+    "metadata": {
+      "processing_start_time": 1774864808,
+      "processing_end_time": 1774864813
+    }
+  },
+  "doc-f3232e72f9b138d67ab73a5ba3ed1c9a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f3232e72f9b138d67ab73a5ba3ed1c9a"
+    ],
+    "content_summary": "Entity: Germany\nYear: 2008 | Value: 4.47337007522583\nYear: 2010 | Value: 4.99525022506714\nYear: 2011 | Value: 4.88583993911743\nYear: 2012 | Value: 4.83153009414673\nYear: 2013 | Value: 4.83911991119385\nYear: 2014 | Value: 4.82582998275757\nYear: 2015 |...",
+    "content_length": 533,
+    "created_at": "2026-03-30T10:00:13.609329+00:00",
+    "updated_at": "2026-03-30T10:00:21.569466+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180013_732dbc57",
+    "metadata": {
+      "processing_start_time": 1774864813,
+      "processing_end_time": 1774864821
+    }
+  },
+  "doc-bc661c5cb1815e4a2ad0531289af2060": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bc661c5cb1815e4a2ad0531289af2060"
+    ],
+    "content_summary": "Entity: India\nYear: 2000 | Value: 4.32479000091553\nYear: 2003 | Value: 3.61340999603271\nYear: 2004 | Value: 3.35254001617432\nYear: 2005 | Value: 3.18875002861023\nYear: 2006 | Value: 3.14284992218018\nYear: 2009 | Value: 3.27824997901917\nYear: 2010 | V...",
+    "content_length": 713,
+    "created_at": "2026-03-30T10:00:21.597694+00:00",
+    "updated_at": "2026-03-30T10:00:31.271081+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180021_c31d3848",
+    "metadata": {
+      "processing_start_time": 1774864821,
+      "processing_end_time": 1774864831
+    }
+  },
+  "doc-51ea8f42a3e517915b9f973abca80ce4": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-51ea8f42a3e517915b9f973abca80ce4"
+    ],
+    "content_summary": "Entity: Indonesia\nYear: 2001 | Value: 2.46003007888794\nYear: 2002 | Value: 2.64568996429443\nYear: 2003 | Value: 3.21799993515015\nYear: 2004 | Value: 2.7484700679779\nYear: 2005 | Value: 2.87281990051269\nYear: 2007 | Value: 3.04425001144409\nYear: 2008 ...",
+    "content_length": 796,
+    "created_at": "2026-03-30T10:00:31.312126+00:00",
+    "updated_at": "2026-03-30T10:00:41.751940+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180031_07161f73",
+    "metadata": {
+      "processing_start_time": 1774864831,
+      "processing_end_time": 1774864841
+    }
+  },
+  "doc-bbc3b7d324e248ab65de44fbbf31aebf": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bbc3b7d324e248ab65de44fbbf31aebf"
+    ],
+    "content_summary": "Entity: Italy\nYear: 2000 | Value: 4.27994012832642\nYear: 2001 | Value: 4.63415002822876\nYear: 2002 | Value: 4.41520023345947\nYear: 2003 | Value: 4.52655982971191\nYear: 2004 | Value: 4.37003993988037\nYear: 2005 | Value: 4.22292995452881\nYear: 2006 | V...",
+    "content_length": 861,
+    "created_at": "2026-03-30T10:00:41.792287+00:00",
+    "updated_at": "2026-03-30T10:00:53.295956+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180041_9248b950",
+    "metadata": {
+      "processing_start_time": 1774864841,
+      "processing_end_time": 1774864853
+    }
+  },
+  "doc-aaff52fadb6df692bbcdf015bdb2211d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-aaff52fadb6df692bbcdf015bdb2211d"
+    ],
+    "content_summary": "Entity: Japan\nYear: 2000 | Value: 3.46011996269226\nYear: 2001 | Value: 3.40082001686096\nYear: 2002 | Value: 3.40898990631104\nYear: 2003 | Value: 3.46662998199463\nYear: 2004 | Value: 3.42611002922058\nYear: 2005 | Value: 3.31493997573852\nYear: 2006 | V...",
+    "content_length": 790,
+    "created_at": "2026-03-30T10:00:53.344783+00:00",
+    "updated_at": "2026-03-30T10:01:03.019051+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180053_ce6c18a1",
+    "metadata": {
+      "processing_start_time": 1774864853,
+      "processing_end_time": 1774864863
+    }
+  },
+  "doc-6503ad4e1e7ea57c6fc6cfa6352c5e5f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6503ad4e1e7ea57c6fc6cfa6352c5e5f"
+    ],
+    "content_summary": "Entity: Korea, Rep.\nYear: 2015 | Value: 4.45423984527588\nYear: 2016 | Value: 4.33309984207153\nYear: 2017 | Value: 4.32823991775513\nYear: 2018 | Value: 4.45807981491089\nYear: 2019 | Value: 4.68465995788574\nYear: 2020 | Value: 4.8017201423645\nYear: 202...",
+    "content_length": 314,
+    "created_at": "2026-03-30T10:01:03.067696+00:00",
+    "updated_at": "2026-03-30T10:01:09.640257+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180103_88bd15d5",
+    "metadata": {
+      "processing_start_time": 1774864863,
+      "processing_end_time": 1774864869
+    }
+  },
+  "doc-3c249ee1ecab88d85ade40c54cc82aa2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-3c249ee1ecab88d85ade40c54cc82aa2"
+    ],
+    "content_summary": "Entity: Malaysia\nYear: 2000 | Value: 5.9716100692749\nYear: 2001 | Value: 7.48446989059448\nYear: 2002 | Value: 7.65792989730835\nYear: 2003 | Value: 7.50288009643555\nYear: 2004 | Value: 5.92389011383057\nYear: 2006 | Value: 4.48576021194458\nYear: 2007 |...",
+    "content_length": 828,
+    "created_at": "2026-03-30T10:01:09.670762+00:00",
+    "updated_at": "2026-03-30T10:01:18.091342+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180109_70d828bd",
+    "metadata": {
+      "processing_start_time": 1774864869,
+      "processing_end_time": 1774864878
+    }
+  },
+  "doc-0cb00780768e6174a97509c170cfa142": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0cb00780768e6174a97509c170cfa142"
+    ],
+    "content_summary": "Entity: Mexico\nYear: 2000 | Value: 3.80870008468628\nYear: 2001 | Value: 4.0313401222229\nYear: 2002 | Value: 4.24307012557983\nYear: 2003 | Value: 4.83262014389038\nYear: 2004 | Value: 4.51204013824463\nYear: 2005 | Value: 4.63395023345947\nYear: 2006 | V...",
+    "content_length": 825,
+    "created_at": "2026-03-30T10:01:18.125822+00:00",
+    "updated_at": "2026-03-30T10:01:28.701748+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180118_8d90a958",
+    "metadata": {
+      "processing_start_time": 1774864878,
+      "processing_end_time": 1774864888
+    }
+  },
+  "doc-919e87156e5887d16d83eefa82208e92": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-919e87156e5887d16d83eefa82208e92"
+    ],
+    "content_summary": "Entity: Nigeria\nYear: 2012 | Value: 0.549233086121929\nYear: 2013 | Value: 0.534206768008091\nYear: 2014 | Value: 0.470742539133469\nYear: 2015 | Value: 0.436954905120644\nYear: 2016 | Value: 0.393045646249364\nYear: 2017 | Value: 0.396354013591345\nYear: ...",
+    "content_length": 432,
+    "created_at": "2026-03-30T10:01:28.771577+00:00",
+    "updated_at": "2026-03-30T10:01:35.619332+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180128_e0653788",
+    "metadata": {
+      "processing_start_time": 1774864888,
+      "processing_end_time": 1774864895
+    }
+  },
+  "doc-29e085268ff7e7b0b50d243ffc59312f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-29e085268ff7e7b0b50d243ffc59312f"
+    ],
+    "content_summary": "Entity: Philippines\nYear: 2000 | Value: 3.16440010070801\nYear: 2001 | Value: 2.92463994026184\nYear: 2002 | Value: 2.89222002029419\nYear: 2003 | Value: 2.93517994880676\nYear: 2004 | Value: 2.46983003616333\nYear: 2005 | Value: 2.32806992530823\nYear: 20...",
+    "content_length": 722,
+    "created_at": "2026-03-30T10:01:35.676707+00:00",
+    "updated_at": "2026-03-30T10:01:45.012164+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180135_dfecc515",
+    "metadata": {
+      "processing_start_time": 1774864895,
+      "processing_end_time": 1774864905
+    }
+  },
+  "doc-27e9f8ff3ce0412a1c3b6cf5100955a2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-27e9f8ff3ce0412a1c3b6cf5100955a2"
+    ],
+    "content_summary": "Entity: Poland\nYear: 2000 | Value: 4.96281003952026\nYear: 2001 | Value: 5.29358005523682\nYear: 2002 | Value: 5.37052011489868\nYear: 2003 | Value: 5.30664014816284\nYear: 2004 | Value: 5.33129978179932\nYear: 2005 | Value: 5.41065979003906\nYear: 2006 | ...",
+    "content_length": 865,
+    "created_at": "2026-03-30T10:01:45.059795+00:00",
+    "updated_at": "2026-03-30T10:01:55.753125+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180145_fbc9dfe2",
+    "metadata": {
+      "processing_start_time": 1774864905,
+      "processing_end_time": 1774864915
+    }
+  },
+  "doc-5ef228bf63dff1cca693cfd0424ad2bd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5ef228bf63dff1cca693cfd0424ad2bd"
+    ],
+    "content_summary": "Entity: South Africa\nYear: 2000 | Value: 4.90881013870239\nYear: 2001 | Value: 4.63617992401123\nYear: 2002 | Value: 4.54569005966187\nYear: 2003 | Value: 4.35209989547729\nYear: 2004 | Value: 4.50897979736328\nYear: 2005 | Value: 4.52449989318848\nYear: 2...",
+    "content_length": 867,
+    "created_at": "2026-03-30T10:01:55.836406+00:00",
+    "updated_at": "2026-03-30T10:02:06.315112+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180155_d566be1a",
+    "metadata": {
+      "processing_start_time": 1774864915,
+      "processing_end_time": 1774864926
+    }
+  },
+  "doc-473c78b7ddae9564871a13a23450bb01": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-473c78b7ddae9564871a13a23450bb01"
+    ],
+    "content_summary": "Entity: Thailand\nYear: 2000 | Value: 5.25345993041992\nYear: 2001 | Value: 4.81787014007568\nYear: 2002 | Value: 3.86491990089417\nYear: 2003 | Value: 3.72561001777649\nYear: 2004 | Value: 4.03088998794556\nYear: 2005 | Value: 3.93859004974365\nYear: 2006 ...",
+    "content_length": 867,
+    "created_at": "2026-03-30T10:02:06.376704+00:00",
+    "updated_at": "2026-03-30T10:02:17.440511+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180206_49e8a2e5",
+    "metadata": {
+      "processing_start_time": 1774864926,
+      "processing_end_time": 1774864937
+    }
+  },
+  "doc-f4ec4388e1b498dffa147607ebb8263c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f4ec4388e1b498dffa147607ebb8263c"
+    ],
+    "content_summary": "Entity: Turkiye\nYear: 2011 | Value: 4.221519947052\nYear: 2012 | Value: 4.38721990585327\nYear: 2013 | Value: 4.34481000900269\nYear: 2014 | Value: 4.41258001327515\nYear: 2015 | Value: 4.30550003051758\nYear: 2016 | Value: 4.62773990631104\nYear: 2017 | V...",
+    "content_length": 457,
+    "created_at": "2026-03-30T10:02:17.513348+00:00",
+    "updated_at": "2026-03-30T10:02:25.075195+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180217_de4cc38b",
+    "metadata": {
+      "processing_start_time": 1774864937,
+      "processing_end_time": 1774864945
+    }
+  },
+  "doc-37bc1258a275a55664732f14af12be93": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-37bc1258a275a55664732f14af12be93"
+    ],
+    "content_summary": "Entity: United Kingdom\nYear: 2000 | Value: 4.01821994781494\nYear: 2001 | Value: 4.10014009475708\nYear: 2002 | Value: 4.61192989349365\nYear: 2003 | Value: 4.8012900352478\nYear: 2004 | Value: 4.73554992675781\nYear: 2005 | Value: 4.92976999282837\nYear: ...",
+    "content_length": 797,
+    "created_at": "2026-03-30T10:02:25.149086+00:00",
+    "updated_at": "2026-03-30T10:02:36.068601+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180225_d6213ca2",
+    "metadata": {
+      "processing_start_time": 1774864945,
+      "processing_end_time": 1774864956
+    }
+  },
+  "doc-cbad3deecb95e698b0f5a534b40da801": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cbad3deecb95e698b0f5a534b40da801"
+    ],
+    "content_summary": "Entity: United States\nYear: 2015 | Value: 4.93063020706177\nYear: 2016 | Value: 4.78327989578247\nYear: 2017 | Value: 5.09296989440918\nYear: 2018 | Value: 4.89502000808716\nYear: 2019 | Value: 4.95746994018555\nYear: 2020 | Value: 5.39531993865967\nYear: ...",
+    "content_length": 280,
+    "created_at": "2026-03-30T10:02:36.164983+00:00",
+    "updated_at": "2026-03-30T10:02:41.892580+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180236_61a53b98",
+    "metadata": {
+      "processing_start_time": 1774864956,
+      "processing_end_time": 1774864961
+    }
+  },
+  "doc-a0653a59108fda642a62564eaffd9272": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-a0653a59108fda642a62564eaffd9272"
+    ],
+    "content_summary": "Entity: Viet Nam\nYear: 2008 | Value: 4.88674020767212\nYear: 2009 | Value: 4.81650018692017\nYear: 2010 | Value: 4.04593992233276\nYear: 2011 | Value: 3.7802300453186\nYear: 2012 | Value: 4.40817022323608\nYear: 2013 | Value: 4.52833986282349\nYear: 2014 |...",
+    "content_length": 570,
+    "created_at": "2026-03-30T10:02:41.970039+00:00",
+    "updated_at": "2026-03-30T10:02:51.768639+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180241_efa178b5",
+    "metadata": {
+      "processing_start_time": 1774864961,
+      "processing_end_time": 1774864971
+    }
+  },
+  "doc-9b82e12444edcd6c30892074a8a703dc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9b82e12444edcd6c30892074a8a703dc"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Argentina\nYear: 2000 | Value: 4.58030986785889\nYear: 2001 | Value: 4.833740234375\nYear: 2002 | Value: 4.01734018325806\nYear: 2003 | Value: 3.53504991531372\nYear: 2004 | Value: 3.48652005195618\nYear: 2005 | Value: 3.86000990867615\nY...",
+    "content_length": 876,
+    "created_at": "2026-03-30T10:02:51.872421+00:00",
+    "updated_at": "2026-03-30T10:02:58.427003+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180251_6c5a2dee",
+    "metadata": {
+      "processing_start_time": 1774864971,
+      "processing_end_time": 1774864978
+    }
+  },
+  "doc-d9e2a4acd6ceb0f86df771222619a42a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d9e2a4acd6ceb0f86df771222619a42a"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Australia\nYear: 2020 | Value: 5.38625001907349\nYear: 2021 | Value: 5.34109020233154\nYear: 2022 | Value: 5.05916023254395",
+    "content_length": 139,
+    "created_at": "2026-03-30T10:02:58.448942+00:00",
+    "updated_at": "2026-03-30T10:03:04.000951+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180258_1d09e6fd",
+    "metadata": {
+      "processing_start_time": 1774864978,
+      "processing_end_time": 1774864984
+    }
+  },
+  "doc-f039e11f3119214807c036f8729c74f2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f039e11f3119214807c036f8729c74f2"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Brazil\nYear: 2000 | Value: 3.94893002510071\nYear: 2001 | Value: 3.84468007087708\nYear: 2002 | Value: 3.75037002563477\nYear: 2004 | Value: 3.97447991371155\nYear: 2005 | Value: 4.47908020019531\nYear: 2006 | Value: 4.87060022354126\nYe...",
+    "content_length": 834,
+    "created_at": "2026-03-30T10:03:04.027010+00:00",
+    "updated_at": "2026-03-30T10:03:09.112007+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180304_c50aca30",
+    "metadata": {
+      "processing_start_time": 1774864984,
+      "processing_end_time": 1774864989
+    }
+  },
+  "doc-f2a9ea86cf20a64d0e53fec8166aa069": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f2a9ea86cf20a64d0e53fec8166aa069"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Canada\nYear: 2000 | Value: 5.42331981658935\nYear: 2001 | Value: 4.95303010940552\nYear: 2002 | Value: 4.99308013916016\nYear: 2005 | Value: 4.76588010787964\nYear: 2007 | Value: 4.7664098739624\nYear: 2008 | Value: 4.62612009048462\nYea...",
+    "content_length": 722,
+    "created_at": "2026-03-30T10:03:09.134561+00:00",
+    "updated_at": "2026-03-30T10:03:13.729474+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180309_109820d9",
+    "metadata": {
+      "processing_start_time": 1774864989,
+      "processing_end_time": 1774864993
+    }
+  },
+  "doc-afb98ab76b847b531ba2d61692f62043": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-afb98ab76b847b531ba2d61692f62043"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Colombia\nYear: 2000 | Value: 3.5112099647522\nYear: 2001 | Value: 3.70867991447449\nYear: 2002 | Value: 4.26812982559204\nYear: 2003 | Value: 4.32513999938965\nYear: 2004 | Value: 4.07934999465942\nYear: 2005 | Value: 4.02098989486694\nY...",
+    "content_length": 802,
+    "created_at": "2026-03-30T10:03:13.751116+00:00",
+    "updated_at": "2026-03-30T10:03:18.581891+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180313_bc86355b",
+    "metadata": {
+      "processing_start_time": 1774864993,
+      "processing_end_time": 1774864998
+    }
+  },
+  "doc-27957b22094c615a992a8693f563c83a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-27957b22094c615a992a8693f563c83a"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Egypt, Arab Rep.\nYear: 2003 | Value: 4.94563007354736\nYear: 2004 | Value: 4.67072010040283\nYear: 2005 | Value: 4.79442977905273\nYear: 2006 | Value: 4.00178003311157\nYear: 2007 | Value: 3.68460988998413\nYear: 2008 | Value: 3.7608299...",
+    "content_length": 257,
+    "created_at": "2026-03-30T10:03:18.610111+00:00",
+    "updated_at": "2026-03-30T10:03:23.524489+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180318_d34067ca",
+    "metadata": {
+      "processing_start_time": 1774864998,
+      "processing_end_time": 1774865003
+    }
+  },
+  "doc-94f32b059bd3d5276845c12e4e3508a9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-94f32b059bd3d5276845c12e4e3508a9"
+    ],
+    "content_summary": "[BASELINE]\nEntity: France\nYear: 2017 | Value: 5.46482992172241\nYear: 2018 | Value: 5.42540979385376\nYear: 2019 | Value: 5.36638021469116\nYear: 2020 | Value: 5.65872001647949\nYear: 2021 | Value: 5.41742992401123\nYear: 2022 | Value: 5.32435989379883",
+    "content_length": 247,
+    "created_at": "2026-03-30T10:03:23.543615+00:00",
+    "updated_at": "2026-03-30T10:03:28.098634+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180323_e0075601",
+    "metadata": {
+      "processing_start_time": 1774865003,
+      "processing_end_time": 1774865008
+    }
+  },
+  "doc-f4425f3273680f53765a8c3a984ce02c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f4425f3273680f53765a8c3a984ce02c"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Germany\nYear: 2008 | Value: 4.47337007522583\nYear: 2010 | Value: 4.99525022506714\nYear: 2011 | Value: 4.88583993911743\nYear: 2012 | Value: 4.83153009414673\nYear: 2013 | Value: 4.83911991119385\nYear: 2014 | Value: 4.82582998275757\nY...",
+    "content_length": 544,
+    "created_at": "2026-03-30T10:03:28.123198+00:00",
+    "updated_at": "2026-03-30T10:03:33.437966+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180328_2730114f",
+    "metadata": {
+      "processing_start_time": 1774865008,
+      "processing_end_time": 1774865013
+    }
+  },
+  "doc-72bcfd21b5b66ed07017a3d92c21db53": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-72bcfd21b5b66ed07017a3d92c21db53"
+    ],
+    "content_summary": "[BASELINE]\nEntity: India\nYear: 2000 | Value: 4.32479000091553\nYear: 2003 | Value: 3.61340999603271\nYear: 2004 | Value: 3.35254001617432\nYear: 2005 | Value: 3.18875002861023\nYear: 2006 | Value: 3.14284992218018\nYear: 2009 | Value: 3.27824997901917\nYea...",
+    "content_length": 724,
+    "created_at": "2026-03-30T10:03:33.461248+00:00",
+    "updated_at": "2026-03-30T10:03:40.187367+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180333_064db87c",
+    "metadata": {
+      "processing_start_time": 1774865013,
+      "processing_end_time": 1774865020
+    }
+  },
+  "doc-5f7e1f7d34d0a5d46c62371b01c787e0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5f7e1f7d34d0a5d46c62371b01c787e0"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Indonesia\nYear: 2001 | Value: 2.46003007888794\nYear: 2002 | Value: 2.64568996429443\nYear: 2003 | Value: 3.21799993515015\nYear: 2004 | Value: 2.7484700679779\nYear: 2005 | Value: 2.87281990051269\nYear: 2007 | Value: 3.04425001144409\n...",
+    "content_length": 807,
+    "created_at": "2026-03-30T10:03:40.212314+00:00",
+    "updated_at": "2026-03-30T10:03:46.740497+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180340_7dfe0905",
+    "metadata": {
+      "processing_start_time": 1774865020,
+      "processing_end_time": 1774865026
+    }
+  },
+  "doc-30b73efa21c7082d070abf8831103589": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-30b73efa21c7082d070abf8831103589"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Italy\nYear: 2000 | Value: 4.27994012832642\nYear: 2001 | Value: 4.63415002822876\nYear: 2002 | Value: 4.41520023345947\nYear: 2003 | Value: 4.52655982971191\nYear: 2004 | Value: 4.37003993988037\nYear: 2005 | Value: 4.22292995452881\nYea...",
+    "content_length": 872,
+    "created_at": "2026-03-30T10:03:46.767697+00:00",
+    "updated_at": "2026-03-30T10:03:51.953969+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180346_19849255",
+    "metadata": {
+      "processing_start_time": 1774865026,
+      "processing_end_time": 1774865031
+    }
+  },
+  "doc-dbb061079cf6d2a51c6302e76e6050d8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dbb061079cf6d2a51c6302e76e6050d8"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Japan\nYear: 2000 | Value: 3.46011996269226\nYear: 2001 | Value: 3.40082001686096\nYear: 2002 | Value: 3.40898990631104\nYear: 2003 | Value: 3.46662998199463\nYear: 2004 | Value: 3.42611002922058\nYear: 2005 | Value: 3.31493997573852\nYea...",
+    "content_length": 801,
+    "created_at": "2026-03-30T10:03:51.982757+00:00",
+    "updated_at": "2026-03-30T10:03:56.753865+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180351_5919892a",
+    "metadata": {
+      "processing_start_time": 1774865031,
+      "processing_end_time": 1774865036
+    }
+  },
+  "doc-b10524954c6c6759eab83e362f5025a8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b10524954c6c6759eab83e362f5025a8"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Korea, Rep.\nYear: 2015 | Value: 4.45423984527588\nYear: 2016 | Value: 4.33309984207153\nYear: 2017 | Value: 4.32823991775513\nYear: 2018 | Value: 4.45807981491089\nYear: 2019 | Value: 4.68465995788574\nYear: 2020 | Value: 4.801720142364...",
+    "content_length": 325,
+    "created_at": "2026-03-30T10:03:56.780370+00:00",
+    "updated_at": "2026-03-30T10:04:01.702970+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180356_0b4fd177",
+    "metadata": {
+      "processing_start_time": 1774865036,
+      "processing_end_time": 1774865041
+    }
+  },
+  "doc-53cc040e3509d0387eb6024b1746ba6f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-53cc040e3509d0387eb6024b1746ba6f"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Malaysia\nYear: 2000 | Value: 5.9716100692749\nYear: 2001 | Value: 7.48446989059448\nYear: 2002 | Value: 7.65792989730835\nYear: 2003 | Value: 7.50288009643555\nYear: 2004 | Value: 5.92389011383057\nYear: 2006 | Value: 4.48576021194458\nY...",
+    "content_length": 839,
+    "created_at": "2026-03-30T10:04:01.733870+00:00",
+    "updated_at": "2026-03-30T10:04:08.320795+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180401_9735cc99",
+    "metadata": {
+      "processing_start_time": 1774865041,
+      "processing_end_time": 1774865048
+    }
+  },
+  "doc-b1438b841987f4188a390ceacaf81bf7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b1438b841987f4188a390ceacaf81bf7"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Mexico\nYear: 2000 | Value: 3.80870008468628\nYear: 2001 | Value: 4.0313401222229\nYear: 2002 | Value: 4.24307012557983\nYear: 2003 | Value: 4.83262014389038\nYear: 2004 | Value: 4.51204013824463\nYear: 2005 | Value: 4.63395023345947\nYea...",
+    "content_length": 836,
+    "created_at": "2026-03-30T10:04:08.335454+00:00",
+    "updated_at": "2026-03-30T10:04:13.710299+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180408_f9fe471f",
+    "metadata": {
+      "processing_start_time": 1774865048,
+      "processing_end_time": 1774865053
+    }
+  },
+  "doc-12429d0ea5a804df9fccdd3e222f3b81": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-12429d0ea5a804df9fccdd3e222f3b81"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Nigeria\nYear: 2012 | Value: 0.549233086121929\nYear: 2013 | Value: 0.534206768008091\nYear: 2014 | Value: 0.470742539133469\nYear: 2015 | Value: 0.436954905120644\nYear: 2016 | Value: 0.393045646249364\nYear: 2017 | Value: 0.39635401359...",
+    "content_length": 443,
+    "created_at": "2026-03-30T10:04:13.727022+00:00",
+    "updated_at": "2026-03-30T10:04:18.507938+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180413_c7719f0a",
+    "metadata": {
+      "processing_start_time": 1774865053,
+      "processing_end_time": 1774865058
+    }
+  },
+  "doc-dbf1b1d8ffef0dd23beac32927b37ad1": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dbf1b1d8ffef0dd23beac32927b37ad1"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Philippines\nYear: 2000 | Value: 3.16440010070801\nYear: 2001 | Value: 2.92463994026184\nYear: 2002 | Value: 2.89222002029419\nYear: 2003 | Value: 2.93517994880676\nYear: 2004 | Value: 2.46983003616333\nYear: 2005 | Value: 2.328069925308...",
+    "content_length": 733,
+    "created_at": "2026-03-30T10:04:18.534430+00:00",
+    "updated_at": "2026-03-30T10:04:29.239076+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180418_fa1ae668",
+    "metadata": {
+      "processing_start_time": 1774865058,
+      "processing_end_time": 1774865069
+    }
+  },
+  "doc-1f0b1270516ad58c31fe8334adf60a73": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1f0b1270516ad58c31fe8334adf60a73"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Poland\nYear: 2000 | Value: 4.96281003952026\nYear: 2001 | Value: 5.29358005523682\nYear: 2002 | Value: 5.37052011489868\nYear: 2003 | Value: 5.30664014816284\nYear: 2004 | Value: 5.33129978179932\nYear: 2005 | Value: 5.41065979003906\nYe...",
+    "content_length": 876,
+    "created_at": "2026-03-30T10:04:29.275484+00:00",
+    "updated_at": "2026-03-30T10:04:35.149853+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180429_4f3e2dff",
+    "metadata": {
+      "processing_start_time": 1774865069,
+      "processing_end_time": 1774865075
+    }
+  },
+  "doc-4f028ea63a92c3070e9014fc50d98662": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4f028ea63a92c3070e9014fc50d98662"
+    ],
+    "content_summary": "[BASELINE]\nEntity: South Africa\nYear: 2000 | Value: 4.90881013870239\nYear: 2001 | Value: 4.63617992401123\nYear: 2002 | Value: 4.54569005966187\nYear: 2003 | Value: 4.35209989547729\nYear: 2004 | Value: 4.50897979736328\nYear: 2005 | Value: 4.52449989318...",
+    "content_length": 878,
+    "created_at": "2026-03-30T10:04:35.182857+00:00",
+    "updated_at": "2026-03-30T10:04:40.592792+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180435_c4457c9d",
+    "metadata": {
+      "processing_start_time": 1774865075,
+      "processing_end_time": 1774865080
+    }
+  },
+  "doc-f39bdcdc158facb198de0b04f42744df": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f39bdcdc158facb198de0b04f42744df"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Thailand\nYear: 2000 | Value: 5.25345993041992\nYear: 2001 | Value: 4.81787014007568\nYear: 2002 | Value: 3.86491990089417\nYear: 2003 | Value: 3.72561001777649\nYear: 2004 | Value: 4.03088998794556\nYear: 2005 | Value: 3.93859004974365\n...",
+    "content_length": 878,
+    "created_at": "2026-03-30T10:04:40.626308+00:00",
+    "updated_at": "2026-03-30T10:04:46.275821+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180440_5dd9f39d",
+    "metadata": {
+      "processing_start_time": 1774865080,
+      "processing_end_time": 1774865086
+    }
+  },
+  "doc-8bc4fd33b92fa3ee14ad3f03bd92a1fc": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8bc4fd33b92fa3ee14ad3f03bd92a1fc"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Turkiye\nYear: 2011 | Value: 4.221519947052\nYear: 2012 | Value: 4.38721990585327\nYear: 2013 | Value: 4.34481000900269\nYear: 2014 | Value: 4.41258001327515\nYear: 2015 | Value: 4.30550003051758\nYear: 2016 | Value: 4.62773990631104\nYea...",
+    "content_length": 468,
+    "created_at": "2026-03-30T10:04:46.311112+00:00",
+    "updated_at": "2026-03-30T10:04:51.709461+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180446_024a29e6",
+    "metadata": {
+      "processing_start_time": 1774865086,
+      "processing_end_time": 1774865091
+    }
+  },
+  "doc-d016622a97ef9f5df9231ad897df0e30": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d016622a97ef9f5df9231ad897df0e30"
+    ],
+    "content_summary": "[BASELINE]\nEntity: United Kingdom\nYear: 2000 | Value: 4.01821994781494\nYear: 2001 | Value: 4.10014009475708\nYear: 2002 | Value: 4.61192989349365\nYear: 2003 | Value: 4.8012900352478\nYear: 2004 | Value: 4.73554992675781\nYear: 2005 | Value: 4.9297699928...",
+    "content_length": 808,
+    "created_at": "2026-03-30T10:04:51.742435+00:00",
+    "updated_at": "2026-03-30T10:04:57.493723+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180451_21c91930",
+    "metadata": {
+      "processing_start_time": 1774865091,
+      "processing_end_time": 1774865097
+    }
+  },
+  "doc-86e55a66da1808b49187f8825c47ebf5": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-86e55a66da1808b49187f8825c47ebf5"
+    ],
+    "content_summary": "[BASELINE]\nEntity: United States\nYear: 2015 | Value: 4.93063020706177\nYear: 2016 | Value: 4.78327989578247\nYear: 2017 | Value: 5.09296989440918\nYear: 2018 | Value: 4.89502000808716\nYear: 2019 | Value: 4.95746994018555\nYear: 2020 | Value: 5.3953199386...",
+    "content_length": 291,
+    "created_at": "2026-03-30T10:04:57.515996+00:00",
+    "updated_at": "2026-03-30T10:05:02.539517+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180457_9a3d624a",
+    "metadata": {
+      "processing_start_time": 1774865097,
+      "processing_end_time": 1774865102
+    }
+  },
+  "doc-fb65e1b02f399f20066f4f89190e5462": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fb65e1b02f399f20066f4f89190e5462"
+    ],
+    "content_summary": "[BASELINE]\nEntity: Viet Nam\nYear: 2008 | Value: 4.88674020767212\nYear: 2009 | Value: 4.81650018692017\nYear: 2010 | Value: 4.04593992233276\nYear: 2011 | Value: 3.7802300453186\nYear: 2012 | Value: 4.40817022323608\nYear: 2013 | Value: 4.52833986282349\nY...",
+    "content_length": 581,
+    "created_at": "2026-03-30T10:05:02.569627+00:00",
+    "updated_at": "2026-03-30T10:05:08.596293+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260330_180502_3d6f5114",
+    "metadata": {
+      "processing_start_time": 1774865102,
+      "processing_end_time": 1774865108
+    }
+  }
+}

@@ -1,0 +1,1167 @@
+{
+  "experiment": "graph_native_downstream_probe_wb_population",
+  "description": "Pure graph-traversal queries requiring multi-entity aggregation over WB Population data (25 countries x 6 years). No LLM used — deterministic rule-based answering from extracted graph values. Tests whether higher graph construction fidelity (SGE FC=1.000 vs Baseline FC=0.187) translates to superior downstream task performance on structure-dependent queries.",
+  "method": "graph_traversal + deterministic_computation",
+  "dataset": "WB Population (25 countries x 6 years: 2000,2005,2010,2015,2020,2023)",
+  "graph_extraction_stats": {
+    "sge": {
+      "countries_found": 25,
+      "total_year_values": 600
+    },
+    "baseline": {
+      "countries_found": 22,
+      "total_year_values": 372
+    }
+  },
+  "summary": {
+    "total_queries": 15,
+    "sge_correct": 15,
+    "sge_accuracy": 1.0,
+    "baseline_correct": 0,
+    "baseline_accuracy": 0.0,
+    "delta": 15
+  },
+  "per_category": {
+    "cross_entity_aggregation": {
+      "total": 3,
+      "sge_correct": 3,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_filtering": {
+      "total": 3,
+      "sge_correct": 3,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_ranking": {
+      "total": 5,
+      "sge_correct": 5,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    },
+    "cross_entity_trend": {
+      "total": 4,
+      "sge_correct": 4,
+      "sge_accuracy": 1.0,
+      "baseline_correct": 0,
+      "baseline_accuracy": 0.0
+    }
+  },
+  "queries": [
+    {
+      "id": "rank_01",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the largest population in 2023?",
+      "reference_answer": [
+        {
+          "country": "India",
+          "value": 1438069596
+        },
+        {
+          "country": "China",
+          "value": 1410710000
+        },
+        {
+          "country": "United States",
+          "value": 336806231
+        },
+        {
+          "country": "Indonesia",
+          "value": 281190067
+        },
+        {
+          "country": "Pakistan",
+          "value": 247504495
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "India",
+            "China",
+            "United States",
+            "Indonesia",
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "India": 1438069596,
+            "China": 1410710000,
+            "United States": 336806231,
+            "Indonesia": 281190067,
+            "Pakistan": 247504495
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'], expected: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Indonesia",
+            "Pakistan",
+            "Brazil",
+            "Mexico",
+            "Japan"
+          ],
+          "retrieved_values": {
+            "Indonesia": 281190067,
+            "Pakistan": 247504495,
+            "Brazil": 211140729,
+            "Mexico": 129739759,
+            "Japan": 124516650
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 2,
+          "expected": 5,
+          "precision": 0.4,
+          "recall": 0.4,
+          "details": "matched 2/5 (retrieved: ['Brazil', 'Indonesia', 'Japan', 'Mexico', 'Pakistan'], expected: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_02",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the smallest population in 2000?",
+      "reference_answer": [
+        {
+          "country": "Saudi Arabia",
+          "value": 16177722
+        },
+        {
+          "country": "Australia",
+          "value": 19028802
+        },
+        {
+          "country": "Canada",
+          "value": 30685730
+        },
+        {
+          "country": "Argentina",
+          "value": 37213984
+        },
+        {
+          "country": "Spain",
+          "value": 40567864
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Saudi Arabia",
+            "Australia",
+            "Canada",
+            "Argentina",
+            "Spain"
+          ],
+          "retrieved_values": {
+            "Saudi Arabia": 16177722,
+            "Australia": 19028802,
+            "Canada": 30685730,
+            "Argentina": 37213984,
+            "Spain": 40567864
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['Argentina', 'Australia', 'Canada', 'Saudi Arabia', 'Spain'], expected: ['Argentina', 'Australia', 'Canada', 'Saudi Arabia', 'Spain'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "India",
+            "United States",
+            "China",
+            "Argentina",
+            "Australia"
+          ],
+          "retrieved_values": {
+            "India": 2367550,
+            "United States": 2367550,
+            "China": 2367550,
+            "Argentina": 2367550,
+            "Australia": 2367550
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 2,
+          "expected": 5,
+          "precision": 0.4,
+          "recall": 0.4,
+          "details": "matched 2/5 (retrieved: ['Argentina', 'Australia', 'China', 'India', 'United States'], expected: ['Argentina', 'Australia', 'Canada', 'Saudi Arabia', 'Spain'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_03",
+      "category": "cross_entity_ranking",
+      "query": "Which 3 countries had the largest population in 2015?",
+      "reference_answer": [
+        {
+          "country": "China",
+          "value": 1379860000
+        },
+        {
+          "country": "India",
+          "value": 1328024498
+        },
+        {
+          "country": "United States",
+          "value": 321815121
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "China",
+            "India",
+            "United States"
+          ],
+          "retrieved_values": {
+            "China": 1379860000,
+            "India": 1328024498,
+            "United States": 321815121
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['China', 'India', 'United States'], expected: ['China', 'India', 'United States'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Indonesia",
+            "Pakistan",
+            "Japan"
+          ],
+          "retrieved_values": {
+            "Indonesia": 261799249,
+            "Pakistan": 217290883,
+            "Japan": 127141000
+          },
+          "total_countries_found": 15
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/3 (retrieved: ['Indonesia', 'Japan', 'Pakistan'], expected: ['China', 'India', 'United States'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_04",
+      "category": "cross_entity_ranking",
+      "query": "Which country had the largest population in 2020?",
+      "reference_answer": [
+        {
+          "country": "China",
+          "value": 1411100000
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "China"
+          ],
+          "retrieved_values": {
+            "China": 1411100000
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['China'], expected: ['China'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Indonesia"
+          ],
+          "retrieved_values": {
+            "Indonesia": 274814866
+          },
+          "total_countries_found": 15
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['Indonesia'], expected: ['China'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "rank_05",
+      "category": "cross_entity_ranking",
+      "query": "Which 5 countries had the largest population in 2010?",
+      "reference_answer": [
+        {
+          "country": "China",
+          "value": 1337705000
+        },
+        {
+          "country": "India",
+          "value": 1243481564
+        },
+        {
+          "country": "United States",
+          "value": 309378227
+        },
+        {
+          "country": "Indonesia",
+          "value": 246305322
+        },
+        {
+          "country": "Pakistan",
+          "value": 199239047
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "China",
+            "India",
+            "United States",
+            "Indonesia",
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "China": 1337705000,
+            "India": 1243481564,
+            "United States": 309378227,
+            "Indonesia": 246305322,
+            "Pakistan": 199239047
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 5,
+          "expected": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 5/5 (retrieved: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'], expected: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "India",
+            "United States",
+            "China",
+            "Germany",
+            "Bangladesh"
+          ],
+          "retrieved_values": {
+            "India": 1292701737,
+            "United States": 1292701737,
+            "China": 1292701737,
+            "Germany": 1292701737,
+            "Bangladesh": 1292701737
+          },
+          "total_countries_found": 15
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 3,
+          "expected": 5,
+          "precision": 0.6,
+          "recall": 0.6,
+          "details": "matched 3/5 (retrieved: ['Bangladesh', 'China', 'Germany', 'India', 'United States'], expected: ['China', 'India', 'Indonesia', 'Pakistan', 'United States'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_01",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had a population above 200 million in 2023?",
+      "reference_answer": [
+        {
+          "country": "India",
+          "value": 1438069596
+        },
+        {
+          "country": "China",
+          "value": 1410710000
+        },
+        {
+          "country": "United States",
+          "value": 336806231
+        },
+        {
+          "country": "Indonesia",
+          "value": 281190067
+        },
+        {
+          "country": "Pakistan",
+          "value": 247504495
+        },
+        {
+          "country": "Nigeria",
+          "value": 227882945
+        },
+        {
+          "country": "Brazil",
+          "value": 211140729
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Brazil",
+            "China",
+            "India",
+            "Indonesia",
+            "Nigeria",
+            "Pakistan",
+            "United States"
+          ],
+          "retrieved_values": {
+            "Brazil": 211140729,
+            "China": 1410710000,
+            "Indonesia": 281190067,
+            "India": 1438069596,
+            "Nigeria": 227882945,
+            "Pakistan": 247504495,
+            "United States": 336806231
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 7,
+          "expected_size": 7,
+          "retrieved_size": 7,
+          "details": "P=1.0 R=1.0 (retrieved: ['Brazil', 'China', 'India', 'Indonesia', 'Nigeria', 'Pakistan', 'United States'], expected: ['Brazil', 'China', 'India', 'Indonesia', 'Nigeria', 'Pakistan', 'United States'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Brazil",
+            "Indonesia",
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "Brazil": 211140729,
+            "Indonesia": 281190067,
+            "Pakistan": 247504495
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.4286,
+          "overlap": 3,
+          "expected_size": 7,
+          "retrieved_size": 3,
+          "details": "P=1.0 R=0.4286 (retrieved: ['Brazil', 'Indonesia', 'Pakistan'], expected: ['Brazil', 'China', 'India', 'Indonesia', 'Nigeria', 'Pakistan', 'United States'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_02",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had a population below 50 million in 2000?",
+      "reference_answer": [
+        {
+          "country": "Saudi Arabia",
+          "value": 16177722
+        },
+        {
+          "country": "Australia",
+          "value": 19028802
+        },
+        {
+          "country": "Canada",
+          "value": 30685730
+        },
+        {
+          "country": "Argentina",
+          "value": 37213984
+        },
+        {
+          "country": "Spain",
+          "value": 40567864
+        },
+        {
+          "country": "Korea Rep.",
+          "value": 47008111
+        },
+        {
+          "country": "South Africa",
+          "value": 47159719
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Argentina",
+            "Australia",
+            "Canada",
+            "Korea Rep.",
+            "Saudi Arabia",
+            "South Africa",
+            "Spain"
+          ],
+          "retrieved_values": {
+            "Argentina": 37213984,
+            "Australia": 19028802,
+            "Canada": 30685730,
+            "Spain": 40567864,
+            "Korea Rep.": 47008111,
+            "Saudi Arabia": 16177722,
+            "South Africa": 47159719
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 7,
+          "expected_size": 7,
+          "retrieved_size": 7,
+          "details": "P=1.0 R=1.0 (retrieved: ['Argentina', 'Australia', 'Canada', 'Korea Rep.', 'Saudi Arabia', 'South Africa', 'Spain'], expected: ['Argentina', 'Australia', 'Canada', 'Korea Rep.', 'Saudi Arabia', 'South Africa', 'Spain'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Argentina",
+            "Australia",
+            "Bangladesh",
+            "Canada",
+            "China",
+            "France",
+            "India",
+            "Italy",
+            "Korea Rep.",
+            "Nigeria",
+            "Russian Federation",
+            "Saudi Arabia",
+            "Spain",
+            "United States"
+          ],
+          "retrieved_values": {
+            "India": 2367550,
+            "United States": 2367550,
+            "China": 2367550,
+            "Argentina": 2367550,
+            "Australia": 2367550,
+            "Bangladesh": 2367550,
+            "Canada": 30685730,
+            "Spain": 2367550,
+            "France": 2367550,
+            "Italy": 2367550,
+            "Korea Rep.": 47008111,
+            "Nigeria": 2367550,
+            "Russian Federation": 2367550,
+            "Saudi Arabia": 2367550
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.4286,
+          "recall": 0.8571,
+          "overlap": 6,
+          "expected_size": 7,
+          "retrieved_size": 14,
+          "details": "P=0.4286 R=0.8571 (retrieved: ['Argentina', 'Australia', 'Bangladesh', 'Canada', 'China', 'France', 'India', 'Italy', 'Korea Rep.', 'Nigeria', 'Russian Federation', 'Saudi Arabia', 'Spain', 'United States'], expected: ['Argentina', 'Australia', 'Canada', 'Korea Rep.', 'Saudi Arabia', 'South Africa', 'Spain'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "filter_03",
+      "category": "cross_entity_filtering",
+      "query": "Which countries had a population between 100 million and 500 million in 2020?",
+      "reference_answer": [
+        {
+          "country": "Egypt Arab Rep.",
+          "value": 109315124
+        },
+        {
+          "country": "Japan",
+          "value": 126261000
+        },
+        {
+          "country": "Mexico",
+          "value": 126799054
+        },
+        {
+          "country": "Russian Federation",
+          "value": 145245148
+        },
+        {
+          "country": "Bangladesh",
+          "value": 166298024
+        },
+        {
+          "country": "Brazil",
+          "value": 208660842
+        },
+        {
+          "country": "Nigeria",
+          "value": 213996181
+        },
+        {
+          "country": "Pakistan",
+          "value": 235001746
+        },
+        {
+          "country": "Indonesia",
+          "value": 274814866
+        },
+        {
+          "country": "United States",
+          "value": 331577720
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Bangladesh",
+            "Brazil",
+            "Egypt Arab Rep.",
+            "Indonesia",
+            "Japan",
+            "Mexico",
+            "Nigeria",
+            "Pakistan",
+            "Russian Federation",
+            "United States"
+          ],
+          "retrieved_values": {
+            "Bangladesh": 166298024,
+            "Brazil": 208660842,
+            "Egypt Arab Rep.": 109315124,
+            "Indonesia": 274814866,
+            "Japan": 126261000,
+            "Mexico": 126799054,
+            "Nigeria": 213996181,
+            "Pakistan": 235001746,
+            "Russian Federation": 145245148,
+            "United States": 331577720
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 10,
+          "expected_size": 10,
+          "retrieved_size": 10,
+          "details": "P=1.0 R=1.0 (retrieved: ['Bangladesh', 'Brazil', 'Egypt Arab Rep.', 'Indonesia', 'Japan', 'Mexico', 'Nigeria', 'Pakistan', 'Russian Federation', 'United States'], expected: ['Bangladesh', 'Brazil', 'Egypt Arab Rep.', 'Indonesia', 'Japan', 'Mexico', 'Nigeria', 'Pakistan', 'Russian Federation', 'United States'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Indonesia",
+            "Japan",
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "Japan": 126261000,
+            "Indonesia": 274814866,
+            "Pakistan": 235001746
+          },
+          "total_countries_found": 15
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.3,
+          "overlap": 3,
+          "expected_size": 10,
+          "retrieved_size": 3,
+          "details": "P=1.0 R=0.3 (retrieved: ['Indonesia', 'Japan', 'Pakistan'], expected: ['Bangladesh', 'Brazil', 'Egypt Arab Rep.', 'Indonesia', 'Japan', 'Mexico', 'Nigeria', 'Pakistan', 'Russian Federation', 'United States'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_01",
+      "category": "cross_entity_trend",
+      "query": "Which country had the largest absolute population growth from 2000 to 2023?",
+      "reference_answer": [
+        {
+          "country": "India",
+          "growth": 380146863
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "India"
+          ],
+          "retrieved_values": {
+            "India": 380146863
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['India'], expected: ['India'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "Pakistan": 92625368
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['Pakistan'], expected: ['India'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_02",
+      "category": "cross_entity_trend",
+      "query": "Which country had the largest percentage population growth from 2000 to 2023?",
+      "reference_answer": [
+        {
+          "country": "Saudi Arabia",
+          "pct_growth": 108.33
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Saudi Arabia"
+          ],
+          "retrieved_values": {
+            "Saudi Arabia": 108.33
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 1,
+          "expected": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 1/1 (retrieved: ['Saudi Arabia'], expected: ['Saudi Arabia'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Pakistan"
+          ],
+          "retrieved_values": {
+            "Pakistan": 59.8
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/1 (retrieved: ['Pakistan'], expected: ['Saudi Arabia'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_03",
+      "category": "cross_entity_trend",
+      "query": "Which 3 countries had the largest absolute population growth from 2000 to 2020?",
+      "reference_answer": [
+        {
+          "country": "India",
+          "growth": 344694962
+        },
+        {
+          "country": "China",
+          "growth": 148455000
+        },
+        {
+          "country": "Nigeria",
+          "growth": 87613687
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "India",
+            "China",
+            "Nigeria"
+          ],
+          "retrieved_values": {
+            "India": 344694962,
+            "China": 148455000,
+            "Nigeria": 87613687
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "overlap": 3,
+          "expected": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "details": "matched 3/3 (retrieved: ['China', 'India', 'Nigeria'], expected: ['China', 'India', 'Nigeria'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Pakistan",
+            "Indonesia",
+            "United Kingdom"
+          ],
+          "retrieved_values": {
+            "Pakistan": 80122619,
+            "Indonesia": 58737076,
+            "United Kingdom": 7851486
+          },
+          "total_countries_found": 15
+        },
+        "evaluation": {
+          "correct": false,
+          "overlap": 0,
+          "expected": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "details": "matched 0/3 (retrieved: ['Indonesia', 'Pakistan', 'United Kingdom'], expected: ['China', 'India', 'Nigeria'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "trend_04",
+      "category": "cross_entity_trend",
+      "query": "Which countries had a smaller population in 2023 than in 2000?",
+      "reference_answer": [
+        {
+          "country": "Russian Federation",
+          "change": -2770739
+        },
+        {
+          "country": "Japan",
+          "change": -2326350
+        }
+      ],
+      "sge": {
+        "answer": {
+          "retrieved_codes": [
+            "Russian Federation",
+            "Japan"
+          ],
+          "retrieved_values": {
+            "Russian Federation": -2770739,
+            "Japan": -2326350
+          },
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "overlap": 2,
+          "expected_size": 2,
+          "retrieved_size": 2,
+          "details": "P=1.0 R=1.0 (retrieved: ['Japan', 'Russian Federation'], expected: ['Japan', 'Russian Federation'])"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "retrieved_codes": [
+            "Japan",
+            "India",
+            "United States",
+            "China",
+            "Argentina",
+            "Australia",
+            "Bangladesh",
+            "Spain",
+            "France",
+            "Italy",
+            "Nigeria",
+            "Russian Federation",
+            "Saudi Arabia"
+          ],
+          "retrieved_values": {
+            "Japan": -2326350,
+            "India": -483840,
+            "United States": -483840,
+            "China": -483840,
+            "Argentina": -483840,
+            "Australia": -483840,
+            "Bangladesh": -483840,
+            "Spain": -483840,
+            "France": -483840,
+            "Italy": -483840,
+            "Nigeria": -483840,
+            "Russian Federation": -483840,
+            "Saudi Arabia": -483840
+          },
+          "total_countries_found": 21
+        },
+        "evaluation": {
+          "correct": false,
+          "precision": 0.1538,
+          "recall": 1.0,
+          "overlap": 2,
+          "expected_size": 2,
+          "retrieved_size": 13,
+          "details": "P=0.1538 R=1.0 (retrieved: ['Argentina', 'Australia', 'Bangladesh', 'China', 'France', 'India', 'Italy', 'Japan', 'Nigeria', 'Russian Federation', 'Saudi Arabia', 'Spain', 'United States'], expected: ['Japan', 'Russian Federation'])"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_01",
+      "category": "cross_entity_aggregation",
+      "query": "What is the average population across all 25 countries in 2015?",
+      "reference_answer": {
+        "average": 210490326,
+        "count": 25
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 210490326,
+          "count_used": 25,
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 210490326,
+          "reference": 210490326,
+          "pct_difference": 0.0,
+          "tolerance_pct": 2.0,
+          "details": "computed=210490326, reference=210490326, pct_diff=0.0%, tol=2.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 89588705,
+          "count_used": 15,
+          "total_countries_found": 22
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 89588705,
+          "reference": 210490326,
+          "pct_difference": 57.4381,
+          "tolerance_pct": 2.0,
+          "details": "computed=89588705, reference=210490326, pct_diff=57.4381%, tol=2.0%"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_02",
+      "category": "cross_entity_aggregation",
+      "query": "What is the range (max minus min) of population across all 25 countries in 2023?",
+      "reference_answer": {
+        "range": 1411409674,
+        "max": 1438069596,
+        "min": 26659922
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 1411409674,
+          "max": 1438069596,
+          "min": 26659922,
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 1411409674,
+          "reference": 1411409674,
+          "pct_difference": 0.0,
+          "tolerance_pct": 2.0,
+          "details": "computed=1411409674, reference=1411409674, pct_diff=0.0%, tol=2.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 279306357,
+          "max": 281190067,
+          "min": 1883710,
+          "total_countries_found": 22
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 279306357,
+          "reference": 1411409674,
+          "pct_difference": 80.2108,
+          "tolerance_pct": 2.0,
+          "details": "computed=279306357, reference=1411409674, pct_diff=80.2108%, tol=2.0%"
+        },
+        "correct": false
+      }
+    },
+    {
+      "id": "agg_03",
+      "category": "cross_entity_aggregation",
+      "query": "How many countries had a population above 100 million in both 2000 and 2023?",
+      "reference_answer": {
+        "count": 10,
+        "countries": [
+          {
+            "country": "Bangladesh"
+          },
+          {
+            "country": "Brazil"
+          },
+          {
+            "country": "China"
+          },
+          {
+            "country": "India"
+          },
+          {
+            "country": "Indonesia"
+          },
+          {
+            "country": "Japan"
+          },
+          {
+            "country": "Nigeria"
+          },
+          {
+            "country": "Pakistan"
+          },
+          {
+            "country": "Russian Federation"
+          },
+          {
+            "country": "United States"
+          }
+        ]
+      },
+      "sge": {
+        "answer": {
+          "computed_value": 10,
+          "matching_codes": [
+            "Bangladesh",
+            "Brazil",
+            "China",
+            "India",
+            "Indonesia",
+            "Japan",
+            "Nigeria",
+            "Pakistan",
+            "Russian Federation",
+            "United States"
+          ],
+          "total_countries_found": 25
+        },
+        "evaluation": {
+          "correct": true,
+          "computed": 10,
+          "reference": 10,
+          "pct_difference": 0.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=10, reference=10, pct_diff=0.0%, tol=0.0%"
+        },
+        "correct": true
+      },
+      "baseline": {
+        "answer": {
+          "computed_value": 4,
+          "matching_codes": [
+            "Brazil",
+            "Indonesia",
+            "Japan",
+            "Pakistan"
+          ],
+          "total_countries_found": 22
+        },
+        "evaluation": {
+          "correct": false,
+          "computed": 4,
+          "reference": 10,
+          "pct_difference": 60.0,
+          "tolerance_pct": 0.0,
+          "details": "computed=4, reference=10, pct_diff=60.0%, tol=0.0%"
+        },
+        "correct": false
+      }
+    }
+  ]
+}

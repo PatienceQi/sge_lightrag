@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "seed": 42,
+    "sample_size_per_dataset": 25,
+    "total_samples": 50
+  },
+  "summary": {
+    "who_life_expectancy": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    },
+    "inpatient_2023": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    },
+    "combined": {
+      "correct": 50,
+      "total": 50,
+      "precision": 1.0
+    }
+  },
+  "who_life_expectancy_samples": [
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "BDI / WHOSIS_000001",
+      "keywords": "数据内容、指标定义",
+      "description": "BDI / WHOSIS_000001所记录的具体内容为布隆迪的出生时预期寿命(年)，反映该国2000年至2021年间的人口健康状况变化。",
+      "correct": true,
+      "reason": "Target 'BDI / WHOSIS_000001' resolves to CSV country 'BDI'; structural edge is supported."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "CIV / WHOSIS_000001",
+      "keywords": "标识符、数据编码",
+      "description": "WHOSIS_000001是该数据集的世界卫生组织指标编号，用于在全球健康统计体系中唯一标识该数据系列。",
+      "correct": true,
+      "reason": "WHO indicator node 'WHOSIS_000001' → country 'CIV'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "Nicaragua",
+      "keywords": "国家健康指标、统计分析",
+      "description": "Nicaragua的出生时预期寿命数据从2000年的76.18年波动变化至2021年的75.03年，2020年和2021年出现明显下降。",
+      "correct": true,
+      "reason": "Target 'Nicaragua' resolves to CSV country 'NIC'; structural edge is supported."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "摩洛哥",
+      "keywords": "健康指标、人口统计",
+      "description": "出生时预期寿命是衡量摩洛哥人口健康水平的重要指标，2000年至2021年间整体呈上升趋势。",
+      "correct": true,
+      "reason": "Edge/node descriptions reference CSV country code(s) ['MAR', 'AMR', 'BDI', 'CMR', 'CRI']; edge is supported by CSV data."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "KAZ",
+      "keywords": "健康指标,国家数据",
+      "description": "KAZ(哈萨克斯坦)的出生时预期寿命数据记录了该国2000年至2021年间居民的平均预期寿命变化情况。",
+      "correct": true,
+      "reason": "Target 'KAZ' resolves to CSV country 'KAZ'; structural edge is supported."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "Cote d'Ivoire",
+      "keywords": "国家健康指标、人口统计",
+      "description": "科特迪瓦的出生时预期寿命在2000年至2021年间呈总体上升趋势，从51.17岁增长至63.52岁，反映该国人口健康水平的持续改善。",
+      "correct": true,
+      "reason": "Target \"Cote d'Ivoire\" resolves to CSV country 'CIV'; structural edge is supported."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "ARE",
+      "keywords": "健康统计,国家数据",
+      "description": "阿拉伯联合酋长国的出生时预期寿命是衡量该国人口健康状况的核心指标之一。",
+      "correct": true,
+      "reason": "Target 'ARE' resolves to CSV country 'ARE'; structural edge is supported."
+    },
+    {
+      "source_node": "MDG / WHOSIS_000001",
+      "target_node": "Madagascar",
+      "keywords": "数据记录,统计范围",
+      "description": "MDG / WHOSIS_000001指标记录的是Madagascar的出生时预期寿命数据，时间跨度为2000年至2021年。",
+      "correct": true,
+      "reason": "WHO indicator node 'MDG / WHOSIS_000001' → country 'MDG'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "SWE",
+      "keywords": "健康指标,数据归属",
+      "description": "WHOSIS_000001指标数据归属于瑞典(SWE)，记录了瑞典的出生时预期寿命数值。",
+      "correct": true,
+      "reason": "WHO indicator node 'WHOSIS_000001' → country 'SWE'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "ROU",
+      "target_node": "罗马尼亚预期寿命时间序列数据",
+      "keywords": "数据来源、时间序列",
+      "description": "罗马尼亚预期寿命时间序列数据记录了ROU在2000年至2021年间每年的出生时预期寿命数值。",
+      "correct": true,
+      "reason": "Source 'ROU' resolves to CSV country 'ROU'; structural edge is supported."
+    },
+    {
+      "source_node": "Bosnia And Herzegovina",
+      "target_node": "基线数据集",
+      "keywords": "数据归属,统计记录",
+      "description": "基线数据集记录了Bosnia and Herzegovina从2000年至2021年的出生时预期寿命年度数据。",
+      "correct": true,
+      "reason": "Source 'Bosnia And Herzegovina' resolves to CSV country 'BIH'; structural edge is supported."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "埃及出生时预期寿命数据(2000-2021)",
+      "keywords": "指标来源,数据归属",
+      "description": "埃及出生时预期寿命数据集的指标编码为WHOSIS_000001，来源于世界卫生组织统计信息系统。",
+      "correct": true,
+      "reason": "WHO indicator 'WHOSIS_000001' → concept summary '埃及出生时预期寿命数据(2000-2021)'; structural edge is valid in CSV context."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "阿尔及利亚出生时预期寿命数据(2000-2021)",
+      "keywords": "指标追踪,数据编码",
+      "description": "阿尔及利亚出生时预期寿命数据(2000-2021)是依据WHOSIS_000001指标编码所采集和整理的时间序列数据集。",
+      "correct": true,
+      "reason": "WHO indicator 'WHOSIS_000001' → concept summary '阿尔及利亚出生时预期寿命数据(2000-2021)'; structural edge is valid in CSV context."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "TZA",
+      "keywords": "数据关联、健康指标",
+      "description": "TZA(坦桑尼亚联合共和国)的出生时预期寿命数据通过WHOSIS_000001指标代码进行记录和标识。",
+      "correct": true,
+      "reason": "WHO indicator node 'WHOSIS_000001' → country 'TZA'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "ITA / WHOSIS_000001",
+      "keywords": "数据内容、指标记录",
+      "description": "ITA / WHOSIS_000001数据集的核心指标为出生时预期寿命，记录了2000年至2021年的年度数值。",
+      "correct": true,
+      "reason": "Target 'ITA / WHOSIS_000001' resolves to CSV country 'ITA'; structural edge is supported."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "LBN",
+      "keywords": "健康状况、统计测量",
+      "description": "黎巴嫩的出生时预期寿命在2000年至2019年间整体呈上升趋势，但2020年和2021年出现显著下滑。",
+      "correct": true,
+      "reason": "Target 'LBN' resolves to CSV country 'LBN'; structural edge is supported."
+    },
+    {
+      "source_node": "GRC / WHOSIS_000001",
+      "target_node": "Greece",
+      "keywords": "数据归属、地理关联",
+      "description": "GRC / WHOSIS_000001数据实体记录的是希腊(Greece)的相关统计数据，两者存在地理归属关系。",
+      "correct": true,
+      "reason": "WHO indicator node 'GRC / WHOSIS_000001' → country 'GRC'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "SOM / WHOSIS_000001",
+      "target_node": "Somalia",
+      "keywords": "数据归属、地理标识",
+      "description": "SOM / WHOSIS_000001数据集记录的是索马里(Somalia)的出生时预期寿命数据，SOM为索马里的国家代码。",
+      "correct": true,
+      "reason": "WHO indicator node 'SOM / WHOSIS_000001' → country 'SOM'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "WHOSIS_000001",
+      "target_node": "捷克预期寿命时间序列数据",
+      "keywords": "指标关联、数据归属",
+      "description": "捷克预期寿命时间序列数据是WHOSIS_000001指标在CZE国家层面的具体数值记录。",
+      "correct": true,
+      "reason": "WHO indicator 'WHOSIS_000001' → concept summary '捷克预期寿命时间序列数据'; structural edge is valid in CSV context."
+    },
+    {
+      "source_node": "MWI / WHOSIS_000001",
+      "target_node": "马拉维",
+      "keywords": "数据归属、地理覆盖",
+      "description": "MWI / WHOSIS_000001数据集专门记录马拉维的出生时预期寿命数据，马拉维是该数据集的地理主体。",
+      "correct": true,
+      "reason": "WHO indicator 'MWI / WHOSIS_000001' → '马拉维': node descriptions reference CSV country code(s) ['MWI']; supported."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "GTM",
+      "keywords": "健康指标,国家数据",
+      "description": "GTM(危地马拉)的出生时预期寿命数据记录了该国2000年至2021年间居民的平均预期寿命变化情况。",
+      "correct": true,
+      "reason": "Target 'GTM' resolves to CSV country 'GTM'; structural edge is supported."
+    },
+    {
+      "source_node": "BHS / WHOSIS_000001",
+      "target_node": "Bahamas",
+      "keywords": "地理关联,数据来源",
+      "description": "BHS / WHOSIS_000001数据集记录了巴哈马的健康指标。",
+      "correct": true,
+      "reason": "WHO indicator node 'BHS / WHOSIS_000001' → country 'BHS'; structural edge supported by CSV."
+    },
+    {
+      "source_node": "出生时预期寿命",
+      "target_node": "牙买加出生时预期寿命时间序列数据(2000-2021)",
+      "keywords": "指标体现、数据内容",
+      "description": "该时间序列数据以出生时预期寿命为核心指标，反映牙买加历年人口健康水平的变化。",
+      "correct": true,
+      "reason": "Edge/node descriptions reference CSV country code(s) ['MAR', 'AMR', 'BDI', 'CMR', 'CRI']; edge is supported by CSV data."
+    },
+    {
+      "source_node": "COM / WHOSIS_000001",
+      "target_node": "世界卫生组织健康统计数据库",
+      "keywords": "数据来源、机构发布",
+      "description": "数据集标识符中包含WHOSIS，表明该数据由世界卫生组织统计信息系统收录和发布。",
+      "correct": true,
+      "reason": "WHO indicator 'COM / WHOSIS_000001' → concept summary '世界卫生组织健康统计数据库'; structural edge is valid in CSV context."
+    },
+    {
+      "source_node": "QAT",
+      "target_node": "卡塔尔出生时预期寿命数据(2000-2021)",
+      "keywords": "国家数据、统计记录",
+      "description": "卡塔尔出生时预期寿命数据集归属于QAT(卡塔尔)，记录了该国2000年至2021年间的年度预期寿命变化。",
+      "correct": true,
+      "reason": "Source 'QAT' resolves to CSV country 'QAT'; structural edge is supported."
+    }
+  ],
+  "inpatient_2023_samples": [
+    {
+      "source_node": "全港登记死亡人数",
+      "target_node": "其他细菌性疾病",
+      "keywords": "疾病死亡统计、公共卫生数据",
+      "description": "其他细菌性疾病导致全港登记死亡79.0人，其中男性48.0人，女性31.0人。",
+      "correct": true,
+      "reason": "'其他细菌性疾病' in CSV; administrative edge to '全港登记死亡人数' is structurally plausible."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "主动脉动脉瘤和动脉壁夹层形成",
+      "keywords": "患者治疗,疾病管理",
+      "description": "医院管理局辖下医院收治并处理主动脉动脉瘤和动脉壁夹层形成的患者。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '主动脉动脉瘤和动脉壁夹层形成' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "狂犬病",
+      "keywords": "医疗服务,疾病统计",
+      "description": "狂犬病患者在医院管理局辖下医院接受治疗和住院服务。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '狂犬病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "全港登记死亡人数",
+      "target_node": "肾小管间质疾病",
+      "keywords": "疾病死亡,统计数据",
+      "description": "肾小管间质疾病导致全港登记死亡51.0人，其中男性22.0人，女性29.0人。",
+      "correct": true,
+      "reason": "'肾小管间质疾病' in CSV; administrative edge to '全港登记死亡人数' is structurally plausible."
+    },
+    {
+      "source_node": "惩教署辖下医院",
+      "target_node": "继发性高血压",
+      "keywords": "患者治疗,诊断分类",
+      "description": "继发性高血压患者在惩教署辖下医院接受治疗和住院服务。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '继发性高血压' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "惩教署辖下医院",
+      "target_node": "泌尿器官良性肿瘤",
+      "keywords": "医疗服务,患者统计",
+      "description": "惩教署辖下医院记录了0.0例泌尿器官良性肿瘤患者的出院及死亡人次。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '泌尿器官良性肿瘤' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "惩教署辖下医院",
+      "target_node": "利什曼病",
+      "keywords": "医疗管理,疾病统计",
+      "description": "利什曼病患者在惩教署辖下医院的出院及死亡情况被记录统计。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '利什曼病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "关节病",
+      "keywords": "患者治疗,数据统计",
+      "description": "医院管理局辖下医院处理关节病患者，共8337人次出院及死亡。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '关节病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "全港登记死亡人数",
+      "target_node": "类风湿性关节炎和其他炎性多关节病",
+      "keywords": "死亡统计,疾病分类",
+      "description": "全港登记死亡人数与类风湿性关节炎和其他炎性多关节病的医学分类相关联。",
+      "correct": true,
+      "reason": "'类风湿性关节炎和其他炎性多关节病' in CSV; administrative edge to '全港登记死亡人数' is structurally plausible."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "其他缺血性心脏病",
+      "keywords": "患者统计、医疗服务",
+      "description": "医院管理局辖下医院收治其他缺血性心脏病患者，2024年出院及死亡人次为17007.0。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '其他缺血性心脏病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "全港登记死亡人数",
+      "target_node": "乳房恶性肿瘤",
+      "keywords": "死亡统计,疾病影响",
+      "description": "全港登记死亡人数记录了乳房恶性肿瘤导致的死亡人数。",
+      "correct": true,
+      "reason": "'乳房恶性肿瘤' in CSV; administrative edge to '全港登记死亡人数' is structurally plausible."
+    },
+    {
+      "source_node": "全港登记死亡人数",
+      "target_node": "其他肾小球疾病",
+      "keywords": "健康结果,患者死亡",
+      "description": "全港登记死亡人数统计因其他肾小球疾病导致的死亡情况。",
+      "correct": true,
+      "reason": "'其他肾小球疾病' in CSV; administrative edge to '全港登记死亡人数' is structurally plausible."
+    },
+    {
+      "source_node": "梗阻性分娩",
+      "target_node": "O64-O66",
+      "keywords": "医学分类,诊断编码",
+      "description": "O64-O66是梗阻性分娩的国际疾病分类代码。",
+      "correct": true,
+      "reason": "Both '梗阻性分娩' and 'O64-O66' found in CSV; structural edge supported."
+    },
+    {
+      "source_node": "住院病人出院及死亡人次",
+      "target_node": "百日咳",
+      "keywords": "数据统计,疾病监测",
+      "description": "住院病人出院及死亡人次数据反映百日咳的患者医疗结果。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '百日咳' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "短暂性大脑缺血性发作和相关的综合症",
+      "keywords": "医疗数据,患者统计",
+      "description": "医院管理局辖下医院记录了2522.0名短暂性大脑缺血性发作和相关综合症患者的出院及死亡人次。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '短暂性大脑缺血性发作和相关的综合症' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "住院病人出院及死亡人次",
+      "target_node": "痔",
+      "keywords": "医疗数据,疾病统计",
+      "description": "痔疾病的住院病人出院及死亡人次数据在各类医院中被记录和统计。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '痔' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "私家医院",
+      "target_node": "其他贫血",
+      "keywords": "医疗服务,患者统计",
+      "description": "私家医院收治其他贫血患者，共有849.0人次出院及死亡。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '其他贫血' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "风疹",
+      "keywords": "医疗管理,疾病统计",
+      "description": "风疹患者在医院管理局辖下医院的住院和死亡情况被记录统计。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '风疹' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "水痘和带状疱疹",
+      "keywords": "患者管理,疾病治疗",
+      "description": "医院管理局辖下医院治疗和管理水痘和带状疱疹患者。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '水痘和带状疱疹' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "屈光和调节疾患",
+      "keywords": "医疗服务,患者统计",
+      "description": "医院管理局辖下医院记录了25.0例屈光和调节疾患患者的出院及死亡人次。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '屈光和调节疾患' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "惩教署辖下医院",
+      "target_node": "人类免疫缺陷病毒病",
+      "keywords": "住院统计,患者治疗",
+      "description": "人类免疫缺陷病毒病患者在惩教署辖下医院接受治疗，共有0.0名患者出院及死亡。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '人类免疫缺陷病毒病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "惩教署辖下医院",
+      "target_node": "消化器官其他恶性肿瘤",
+      "keywords": "医疗服务,患者统计",
+      "description": "惩教署辖下医院未收治因消化器官其他恶性肿瘤出院或死亡的住院病人。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '消化器官其他恶性肿瘤' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "私家医院",
+      "target_node": "前列腺其他疾患",
+      "keywords": "医疗诊断,患者统计",
+      "description": "私家医院报告了前列腺其他疾患患者的出院及死亡数据。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '前列腺其他疾患' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "住院病人出院及死亡人次",
+      "target_node": "其他肾小球疾病",
+      "keywords": "患者统计,数据关联",
+      "description": "住院病人出院及死亡人次数据反映其他肾小球疾病患者的治疗结果。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '其他肾小球疾病' is a valid ICD entity in CSV."
+    },
+    {
+      "source_node": "医院管理局辖下医院",
+      "target_node": "黄热病",
+      "keywords": "住院治疗,疾病统计",
+      "description": "黄热病患者在医院管理局辖下医院接受住院治疗和管理。",
+      "correct": true,
+      "reason": "Hospital administrative edge: '黄热病' is a valid ICD entity in CSV."
+    }
+  ]
+}

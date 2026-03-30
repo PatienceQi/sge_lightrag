@@ -1,0 +1,227 @@
+{
+  "Argentina": {
+    "chunk_ids": [
+      "chunk-e3e55fa747944ee5cffbfbff9b0e6926"
+    ],
+    "count": 1,
+    "create_time": 1774867524,
+    "update_time": 1774867524,
+    "_id": "Argentina"
+  },
+  "Australia": {
+    "chunk_ids": [
+      "chunk-bf8c37d4037ede812a8a8f5fec0c3d4d"
+    ],
+    "count": 1,
+    "create_time": 1774867531,
+    "update_time": 1774867531,
+    "_id": "Australia"
+  },
+  "Brazil": {
+    "chunk_ids": [
+      "chunk-4d721b853dc0ba4ab10b0d595480a15c"
+    ],
+    "count": 1,
+    "create_time": 1774867538,
+    "update_time": 1774867538,
+    "_id": "Brazil"
+  },
+  "Canada": {
+    "chunk_ids": [
+      "chunk-db3a07c52fa041f5004f984f0944f6ac"
+    ],
+    "count": 1,
+    "create_time": 1774867545,
+    "update_time": 1774867545,
+    "_id": "Canada"
+  },
+  "China": {
+    "chunk_ids": [
+      "chunk-68341d1de16738501fbd3a40729f5a75"
+    ],
+    "count": 1,
+    "create_time": 1774867552,
+    "update_time": 1774867552,
+    "_id": "China"
+  },
+  "Colombia": {
+    "chunk_ids": [
+      "chunk-a5d275c9ba6422fa2683ae07baea7fea"
+    ],
+    "count": 1,
+    "create_time": 1774867559,
+    "update_time": 1774867559,
+    "_id": "Colombia"
+  },
+  "Egypt, Arab Rep.": {
+    "chunk_ids": [
+      "chunk-5795de06ad0180b98cff546708a8e3d1"
+    ],
+    "count": 1,
+    "create_time": 1774867566,
+    "update_time": 1774867566,
+    "_id": "Egypt, Arab Rep."
+  },
+  "France": {
+    "chunk_ids": [
+      "chunk-b2871558fe71061f45c452a485b42447"
+    ],
+    "count": 1,
+    "create_time": 1774867574,
+    "update_time": 1774867574,
+    "_id": "France"
+  },
+  "Germany": {
+    "chunk_ids": [
+      "chunk-bf9b0b7d405b137240585d3c896b8349"
+    ],
+    "count": 1,
+    "create_time": 1774867582,
+    "update_time": 1774867582,
+    "_id": "Germany"
+  },
+  "India": {
+    "chunk_ids": [
+      "chunk-d795ddf866f41ac6c943ad0465385cda"
+    ],
+    "count": 1,
+    "create_time": 1774867589,
+    "update_time": 1774867589,
+    "_id": "India"
+  },
+  "Indonesia": {
+    "chunk_ids": [
+      "chunk-09119be61edaec837bbc672f0562c3f0"
+    ],
+    "count": 1,
+    "create_time": 1774867595,
+    "update_time": 1774867595,
+    "_id": "Indonesia"
+  },
+  "Italy": {
+    "chunk_ids": [
+      "chunk-160b3fc285715c632f3755da759f7428"
+    ],
+    "count": 1,
+    "create_time": 1774867602,
+    "update_time": 1774867602,
+    "_id": "Italy"
+  },
+  "Japan": {
+    "chunk_ids": [
+      "chunk-db0d69f7d4e8205349dc3963760a661a"
+    ],
+    "count": 1,
+    "create_time": 1774867614,
+    "update_time": 1774867614,
+    "_id": "Japan"
+  },
+  "Korea, Rep.": {
+    "chunk_ids": [
+      "chunk-ee8c24f15a156367315be8a60e96d7ed"
+    ],
+    "count": 1,
+    "create_time": 1774867624,
+    "update_time": 1774867624,
+    "_id": "Korea, Rep."
+  },
+  "Malaysia": {
+    "chunk_ids": [
+      "chunk-f0f3f42a6d592dfbf7f1c6001ebaa90f"
+    ],
+    "count": 1,
+    "create_time": 1774867642,
+    "update_time": 1774867642,
+    "_id": "Malaysia"
+  },
+  "Mexico": {
+    "chunk_ids": [
+      "chunk-3a49002766adfad18a315b7b8d277396"
+    ],
+    "count": 1,
+    "create_time": 1774867663,
+    "update_time": 1774867663,
+    "_id": "Mexico"
+  },
+  "Nigeria": {
+    "chunk_ids": [
+      "chunk-80554c3a9ef7cf83a8d8f1bed8ffdbdc"
+    ],
+    "count": 1,
+    "create_time": 1774867670,
+    "update_time": 1774867670,
+    "_id": "Nigeria"
+  },
+  "Philippines": {
+    "chunk_ids": [
+      "chunk-c7cd22e844ac1132e62473cf6da0f824"
+    ],
+    "count": 1,
+    "create_time": 1774867678,
+    "update_time": 1774867678,
+    "_id": "Philippines"
+  },
+  "Poland": {
+    "chunk_ids": [
+      "chunk-aa968a6bb30dc03fa16192b92ec91483"
+    ],
+    "count": 1,
+    "create_time": 1774867686,
+    "update_time": 1774867686,
+    "_id": "Poland"
+  },
+  "South Africa": {
+    "chunk_ids": [
+      "chunk-461449e08ad008cebf4599febf7c8ea5"
+    ],
+    "count": 1,
+    "create_time": 1774867693,
+    "update_time": 1774867693,
+    "_id": "South Africa"
+  },
+  "Thailand": {
+    "chunk_ids": [
+      "chunk-861a8818ca1da44a673e2efdbc8b84b2"
+    ],
+    "count": 1,
+    "create_time": 1774867710,
+    "update_time": 1774867710,
+    "_id": "Thailand"
+  },
+  "Turkiye": {
+    "chunk_ids": [
+      "chunk-b796eb1cb64ad48517b453876e0220e5"
+    ],
+    "count": 1,
+    "create_time": 1774867720,
+    "update_time": 1774867720,
+    "_id": "Turkiye"
+  },
+  "United Kingdom": {
+    "chunk_ids": [
+      "chunk-49a5da052415837cb5f73d3e6caeae1d"
+    ],
+    "count": 1,
+    "create_time": 1774867731,
+    "update_time": 1774867731,
+    "_id": "United Kingdom"
+  },
+  "United States": {
+    "chunk_ids": [
+      "chunk-a23e5c735f202875f4031c63208ba7c7"
+    ],
+    "count": 1,
+    "create_time": 1774867740,
+    "update_time": 1774867740,
+    "_id": "United States"
+  },
+  "Viet Nam": {
+    "chunk_ids": [
+      "chunk-54577d1206bd2ee0ff05095d7f32bbb7"
+    ],
+    "count": 1,
+    "create_time": 1774867751,
+    "update_time": 1774867751,
+    "_id": "Viet Nam"
+  }
+}

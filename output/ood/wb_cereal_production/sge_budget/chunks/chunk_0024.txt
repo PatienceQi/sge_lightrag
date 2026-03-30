@@ -1,0 +1,24 @@
+Entity: United States
+Year: 2000 | Value: 342631506.0
+Year: 2001 | Value: 324994633.58
+Year: 2002 | Value: 297143451.84
+Year: 2003 | Value: 348247631.26
+Year: 2004 | Value: 389023763.41
+Year: 2005 | Value: 366436345.76
+Year: 2006 | Value: 338336800.0
+Year: 2007 | Value: 415130860.0
+Year: 2008 | Value: 402399936.0
+Year: 2009 | Value: 418666166.07
+Year: 2010 | Value: 401126329.74
+Year: 2011 | Value: 385545255.77
+Year: 2012 | Value: 356210124.0
+Year: 2013 | Value: 434308450.0
+Year: 2014 | Value: 442849090.0
+Year: 2015 | Value: 431870370.62
+Year: 2016 | Value: 503466147.24
+Year: 2017 | Value: 440271775.02
+Year: 2018 | Value: 439710828.46
+Year: 2019 | Value: 420873692.84
+Year: 2020 | Value: 433260476.64
+Year: 2021 | Value: 450202502.85
+Year: 2022 | Value: 408901709.98

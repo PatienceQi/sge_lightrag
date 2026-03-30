@@ -1,0 +1,24 @@
+Entity: Japan
+Year: 2000 | Value: 7.03456163
+Year: 2001 | Value: 7.23947906
+Year: 2002 | Value: 7.35235405
+Year: 2003 | Value: 7.48654842
+Year: 2004 | Value: 7.53518438
+Year: 2005 | Value: 7.65818596
+Year: 2006 | Value: 7.68688869
+Year: 2007 | Value: 7.77935696
+Year: 2008 | Value: 8.08909321
+Year: 2009 | Value: 8.9587822
+Year: 2010 | Value: 9.0630064
+Year: 2011 | Value: 10.48780155
+Year: 2012 | Value: 10.67169094
+Year: 2013 | Value: 10.67438698
+Year: 2014 | Value: 10.7290144
+Year: 2015 | Value: 10.74969959
+Year: 2016 | Value: 10.65891552
+Year: 2017 | Value: 10.65627098
+Year: 2018 | Value: 10.73988247
+Year: 2019 | Value: 10.96998405
+Year: 2020 | Value: 11.44974613
+Year: 2021 | Value: 12.08108234
+Year: 2022 | Value: 12.32275677

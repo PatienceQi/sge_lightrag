@@ -1,0 +1,2680 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">country</data>
+  <data key="d2">一个国家实体</data>
+  <data key="d3">chunk-a587d74d071e517c0bffe6271889401e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866467</data>
+  <data key="d6"></data>
+</node>
+<node id="97.1900024414062">
+  <data key="d0">97.1900024414062</data>
+  <data key="d3">chunk-a587d74d071e517c0bffe6271889401e</data>
+  <data key="d2">Argentina在2001年的数值为97.1900024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866467</data>
+  <data key="d6"></data>
+</node>
+<node id="99.1399993896484">
+  <data key="d0">99.1399993896484</data>
+  <data key="d3">chunk-a587d74d071e517c0bffe6271889401e</data>
+  <data key="d2">Argentina在2020年的数值为99.1399993896484</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866467</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">country</data>
+  <data key="d2">巴西，时间序列数据中的国家实体</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866474</data>
+  <data key="d6"></data>
+</node>
+<node id="86.370002746582">
+  <data key="d0">86.370002746582</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2000年的数值为86.370002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="88.620002746582">
+  <data key="d0">88.620002746582</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2004年的数值为88.620002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="89.620002746582">
+  <data key="d0">89.620002746582</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2006年的数值为89.620002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="90.0100021362305">
+  <data key="d0">90.0100021362305</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2007年的数值为90.0100021362305</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="90.0400009155273">
+  <data key="d0">90.0400009155273</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2008年的数值为90.0400009155273</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="90.3000030517578">
+  <data key="d0">90.3000030517578</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2009年的数值为90.3000030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="90.379997253418">
+  <data key="d0">90.379997253418</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec&lt;SEP&gt;chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">巴西在2010年的数值为90.379997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="91.4100036621094">
+  <data key="d0">91.4100036621094</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2011年的数值为91.4100036621094</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866475</data>
+  <data key="d6"></data>
+</node>
+<node id="91.3399963378906">
+  <data key="d0">91.3399963378906</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2012年的数值为91.3399963378906</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="91.4800033569336">
+  <data key="d0">91.4800033569336</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2013年的数值为91.4800033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="91.7300033569336">
+  <data key="d0">91.7300033569336</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec&lt;SEP&gt;chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">巴西在2014年的数值为91.7300033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="92.0500030517578">
+  <data key="d0">92.0500030517578</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2015年的数值为92.0500030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="92.8099975585938">
+  <data key="d0">92.8099975585938</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec&lt;SEP&gt;chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">巴西在2016年的数值为92.8099975585938</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="93.0800018310547">
+  <data key="d0">93.0800018310547</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2017年的数值为93.0800018310547</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="93.2300033569336">
+  <data key="d0">93.2300033569336</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2018年的数值为93.2300033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="93.9019248012051">
+  <data key="d0">93.9019248012051</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2019年的数值为93.9019248012051</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866476</data>
+  <data key="d6"></data>
+</node>
+<node id="94.7576490611664">
+  <data key="d0">94.7576490611664</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2020年的数值为94.7576490611664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866477</data>
+  <data key="d6"></data>
+</node>
+<node id="94.7848837154757">
+  <data key="d0">94.7848837154757</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2021年的数值为94.7848837154757</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866477</data>
+  <data key="d6"></data>
+</node>
+<node id="94.3853874531348">
+  <data key="d0">94.3853874531348</data>
+  <data key="d3">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d2">巴西在2022年的数值为94.3853874531348</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866477</data>
+  <data key="d6"></data>
+</node>
+<node id="China">
+  <data key="d0">China</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-1267d1065a26ee664937ddfda435e939</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866481</data>
+  <data key="d6"></data>
+</node>
+<node id="90.9199981689453">
+  <data key="d0">90.9199981689453</data>
+  <data key="d3">chunk-1267d1065a26ee664937ddfda435e939</data>
+  <data key="d2">China在2000年的数值为90.9199981689453</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866481</data>
+  <data key="d6"></data>
+</node>
+<node id="95.120002746582">
+  <data key="d0">95.120002746582</data>
+  <data key="d3">chunk-1267d1065a26ee664937ddfda435e939&lt;SEP&gt;chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">China在2010年的数值为95.120002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866481</data>
+  <data key="d6"></data>
+</node>
+<node id="96.7399978637695">
+  <data key="d0">96.7399978637695</data>
+  <data key="d3">chunk-1267d1065a26ee664937ddfda435e939&lt;SEP&gt;chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">China在2020年的数值为96.7399978637695</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866482</data>
+  <data key="d6"></data>
+</node>
+<node id="Colombia">
+  <data key="d0">Colombia</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866488</data>
+  <data key="d6"></data>
+</node>
+<node id="92.8000030517578">
+  <data key="d0">92.8000030517578</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd&lt;SEP&gt;chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Colombia在2004年的数值为92.8000030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866488</data>
+  <data key="d6"></data>
+</node>
+<node id="92.8499984741211">
+  <data key="d0">92.8499984741211</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2005年的数值为92.8499984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866488</data>
+  <data key="d6"></data>
+</node>
+<node id="92.3000030517578">
+  <data key="d0">92.3000030517578</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2006年的数值为92.3000030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866488</data>
+  <data key="d6"></data>
+</node>
+<node id="92.6500015258789">
+  <data key="d0">92.6500015258789</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd&lt;SEP&gt;chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Colombia在2007年的数值为92.6500015258789</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866488</data>
+  <data key="d6"></data>
+</node>
+<node id="93.379997253418">
+  <data key="d0">93.379997253418</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2008年的数值为93.379997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="93.2399978637695">
+  <data key="d0">93.2399978637695</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2009年的数值为93.2399978637695</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="93.370002746582">
+  <data key="d0">93.370002746582</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2010年的数值为93.370002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="93.5800018310547">
+  <data key="d0">93.5800018310547</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2011年的数值为93.5800018310547</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="94.1900024414062">
+  <data key="d0">94.1900024414062</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2014年的数值为94.1900024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="94.6500015258789">
+  <data key="d0">94.6500015258789</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2016年的数值为94.6500015258789</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="94.8927138785262">
+  <data key="d0">94.8927138785262</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2017年的数值为94.8927138785262</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="95.0899963378906">
+  <data key="d0">95.0899963378906</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2018年的数值为95.0899963378906</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866489</data>
+  <data key="d6"></data>
+</node>
+<node id="95.6399993896484">
+  <data key="d0">95.6399993896484</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2020年的数值为95.6399993896484</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866490</data>
+  <data key="d6"></data>
+</node>
+<node id="95.666552016916">
+  <data key="d0">95.666552016916</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2021年的数值为95.666552016916</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866490</data>
+  <data key="d6"></data>
+</node>
+<node id="95.3138834471897">
+  <data key="d0">95.3138834471897</data>
+  <data key="d3">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d2">Colombia在2022年的数值为95.3138834471897</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866490</data>
+  <data key="d6"></data>
+</node>
+<node id="Egypt, Arab Rep.">
+  <data key="d0">Egypt, Arab Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">埃及阿拉伯共和国</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866495</data>
+  <data key="d6"></data>
+</node>
+<node id="67.3300018310547">
+  <data key="d0">67.3300018310547</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2005年的数值为67.3300018310547</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866495</data>
+  <data key="d6"></data>
+</node>
+<node id="66.370002746582">
+  <data key="d0">66.370002746582</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2006年的数值为66.370002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="72.0500030517578">
+  <data key="d0">72.0500030517578</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2010年的数值为72.0500030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="73.870002746582">
+  <data key="d0">73.870002746582</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2012年的数值为73.870002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="72.4400024414062">
+  <data key="d0">72.4400024414062</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2013年的数值为72.4400024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="71.1699981689453">
+  <data key="d0">71.1699981689453</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2017年的数值为71.1699981689453</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="82.083331279425">
+  <data key="d0">82.083331279425</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2021年的数值为82.083331279425</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="79.4565788949049">
+  <data key="d0">79.4565788949049</data>
+  <data key="d3">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d2">Egypt, Arab Rep.在2022年的数值为79.4565788949049</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866496</data>
+  <data key="d6"></data>
+</node>
+<node id="India">
+  <data key="d0">India</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="61.0099983215332">
+  <data key="d0">61.0099983215332</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2001年的数值为61.0099983215332</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="68.3354718669705">
+  <data key="d0">68.3354718669705</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2010年的数值为68.3354718669705</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="69.3000030517578">
+  <data key="d0">69.3000030517578</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2011年的数值为69.3000030517578</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="69.8350587234791">
+  <data key="d0">69.8350587234791</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2012年的数值为69.8350587234791</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="73.6975430256976">
+  <data key="d0">73.6975430256976</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2018年的数值为73.6975430256976</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866503</data>
+  <data key="d6"></data>
+</node>
+<node id="74.9084268267486">
+  <data key="d0">74.9084268267486</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2019年的数值为74.9084268267486</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866504</data>
+  <data key="d6"></data>
+</node>
+<node id="75.5437727049002">
+  <data key="d0">75.5437727049002</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2020年的数值为75.5437727049002</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866504</data>
+  <data key="d6"></data>
+</node>
+<node id="76.0715766188242">
+  <data key="d0">76.0715766188242</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2021年的数值为76.0715766188242</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866504</data>
+  <data key="d6"></data>
+</node>
+<node id="76.3199996948242">
+  <data key="d0">76.3199996948242</data>
+  <data key="d3">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d2">India在2022年的数值为76.3199996948242</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866504</data>
+  <data key="d6"></data>
+</node>
+<node id="Indonesia">
+  <data key="d0">Indonesia</data>
+  <data key="d1">country</data>
+  <data key="d2">东南亚国家</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866512</data>
+  <data key="d6"></data>
+</node>
+<node id="91.9800033569336">
+  <data key="d0">91.9800033569336</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb&lt;SEP&gt;chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Indonesia在2006年的数值为91.9800033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866512</data>
+  <data key="d6"></data>
+</node>
+<node id="92.1900024414062">
+  <data key="d0">92.1900024414062</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">Indonesia在2008年的数值为92.1900024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866512</data>
+  <data key="d6"></data>
+</node>
+<node id="92.5800018310547">
+  <data key="d0">92.5800018310547</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">Indonesia在2009年的数值为92.5800018310547</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866512</data>
+  <data key="d6"></data>
+</node>
+<node id="92.3199996948242">
+  <data key="d0">92.3199996948242</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">Indonesia在2010年的数值为92.3199996948242</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866512</data>
+  <data key="d6"></data>
+</node>
+<node id="95.2200012207031">
+  <data key="d0">95.2200012207031</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">Indonesia在2015年的数值为95.2200012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866513</data>
+  <data key="d6"></data>
+</node>
+<node id="95.379997253418">
+  <data key="d0">95.379997253418</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb&lt;SEP&gt;chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Indonesia在2016年的数值为95.379997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866513</data>
+  <data key="d6"></data>
+</node>
+<node id="95.6600036621094">
+  <data key="d0">95.6600036621094</data>
+  <data key="d3">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d2">Indonesia在2018年的数值为95.6600036621094</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866513</data>
+  <data key="d6"></data>
+</node>
+<node id="Italy">
+  <data key="d0">Italy</data>
+  <data key="d1">country</data>
+  <data key="d2">意大利，2001年至2019年期间的数据记录</data>
+  <data key="d3">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866519</data>
+  <data key="d6"></data>
+</node>
+<node id="98.4199981689453">
+  <data key="d0">98.4199981689453</data>
+  <data key="d3">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d2">Italy在2001年的数值为98.4199981689453</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866519</data>
+  <data key="d6"></data>
+</node>
+<node id="98.8499984741211">
+  <data key="d0">98.8499984741211</data>
+  <data key="d3">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d2">Italy在2011年的数值为98.8499984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866519</data>
+  <data key="d6"></data>
+</node>
+<node id="99.3499984741211">
+  <data key="d0">99.3499984741211</data>
+  <data key="d3">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d2">Italy在2019年的数值为99.3499984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866519</data>
+  <data key="d6"></data>
+</node>
+<node id="Korea, Rep.">
+  <data key="d0">Korea, Rep.</data>
+  <data key="d1">country</data>
+  <data key="d2">2008年数据值为97.9700012207031的国家</data>
+  <data key="d3">chunk-e185e49fd230a9fa171e3e6a8c53144d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866524</data>
+  <data key="d6"></data>
+</node>
+<node id="97.9700012207031">
+  <data key="d0">97.9700012207031</data>
+  <data key="d3">chunk-e185e49fd230a9fa171e3e6a8c53144d</data>
+  <data key="d2">Korea, Rep.在2008年的数值为97.9700012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866524</data>
+  <data key="d6"></data>
+</node>
+<node id="Malaysia">
+  <data key="d0">Malaysia</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="88.6900024414062">
+  <data key="d0">88.6900024414062</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2000年的数值为88.6900024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="93.120002746582">
+  <data key="d0">93.120002746582</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2010年的数值为93.120002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="94.879997253418">
+  <data key="d0">94.879997253418</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2016年的数值为94.879997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="95.0800018310547">
+  <data key="d0">95.0800018310547</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2017年的数值为95.0800018310547</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="94.8499984741211">
+  <data key="d0">94.8499984741211</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2018年的数值为94.8499984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="94.9700012207031">
+  <data key="d0">94.9700012207031</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a&lt;SEP&gt;chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Malaysia在2019年的数值为94.9700012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="95.7699966430664">
+  <data key="d0">95.7699966430664</data>
+  <data key="d3">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d2">Malaysia在2022年的数值为95.7699966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866529</data>
+  <data key="d6"></data>
+</node>
+<node id="Mexico">
+  <data key="d0">Mexico</data>
+  <data key="d1">country</data>
+  <data key="d2">国家实体，时间序列数据涵盖2000年至2022年</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866538</data>
+  <data key="d6"></data>
+</node>
+<node id="90.5400009155273">
+  <data key="d0">90.5400009155273</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2000年的数值为90.5400009155273</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="90.2699966430664">
+  <data key="d0">90.2699966430664</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2002年的数值为90.2699966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="90.9499969482422">
+  <data key="d0">90.9499969482422</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2004年的数值为90.9499969482422</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="91.629997253418">
+  <data key="d0">91.629997253418</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2005年的数值为91.629997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="92.9300003051758">
+  <data key="d0">92.9300003051758</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2008年的数值为92.9300003051758</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="93.4400024414062">
+  <data key="d0">93.4400024414062</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2009年的数值为93.4400024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866539</data>
+  <data key="d6"></data>
+</node>
+<node id="93.0699996948242">
+  <data key="d0">93.0699996948242</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2010年的数值为93.0699996948242</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="93.5199966430664">
+  <data key="d0">93.5199966430664</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b&lt;SEP&gt;chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d2">Mexico在2011年的数值为93.5199966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="94.2300033569336">
+  <data key="d0">94.2300033569336</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2012年的数值为94.2300033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="93.9599990844727">
+  <data key="d0">93.9599990844727</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2013年的数值为93.9599990844727</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="94.5599975585938">
+  <data key="d0">94.5599975585938</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2014年的数值为94.5599975585938</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="94.4700012207031">
+  <data key="d0">94.4700012207031</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2015年的数值为94.4700012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="94.8600006103516">
+  <data key="d0">94.8600006103516</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2016年的数值为94.8600006103516</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866540</data>
+  <data key="d6"></data>
+</node>
+<node id="95.3889403219417">
+  <data key="d0">95.3889403219417</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2019年的数值为95.3889403219417</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866541</data>
+  <data key="d6"></data>
+</node>
+<node id="95.6890981310362">
+  <data key="d0">95.6890981310362</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2021年的数值为95.6890981310362</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866541</data>
+  <data key="d6"></data>
+</node>
+<node id="95.8486603965766">
+  <data key="d0">95.8486603965766</data>
+  <data key="d3">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d2">Mexico在2022年的数值为95.8486603965766</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866541</data>
+  <data key="d6"></data>
+</node>
+<node id="Nigeria">
+  <data key="d0">Nigeria</data>
+  <data key="d1">country</data>
+  <data key="d2">一个国家实体</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866547</data>
+  <data key="d6"></data>
+</node>
+<node id="54.7700004577637">
+  <data key="d0">54.7700004577637</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d2">Nigeria在2003年的数值为54.7700004577637</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866547</data>
+  <data key="d6"></data>
+</node>
+<node id="70.1999969482422">
+  <data key="d0">70.1999969482422</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d2">Nigeria在2006年的数值为70.1999969482422</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866547</data>
+  <data key="d6"></data>
+</node>
+<node id="58.2200012207031">
+  <data key="d0">58.2200012207031</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d2">Nigeria在2016年的数值为58.2200012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866547</data>
+  <data key="d6"></data>
+</node>
+<node id="63.1599998474121">
+  <data key="d0">63.1599998474121</data>
+  <data key="d3">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d2">Nigeria在2021年的数值为63.1599998474121</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866547</data>
+  <data key="d6"></data>
+</node>
+<node id="Philippines">
+  <data key="d0">Philippines</data>
+  <data key="d1">country</data>
+  <data key="d2">菲律宾</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866553</data>
+  <data key="d6"></data>
+</node>
+<node id="92.5999984741211">
+  <data key="d0">92.5999984741211</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2000年的数值为92.5999984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866553</data>
+  <data key="d6"></data>
+</node>
+<node id="92.5899963378906">
+  <data key="d0">92.5899963378906</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2003年的数值为92.5899963378906</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866553</data>
+  <data key="d6"></data>
+</node>
+<node id="95.4199981689453">
+  <data key="d0">95.4199981689453</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2008年的数值为95.4199981689453</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866553</data>
+  <data key="d6"></data>
+</node>
+<node id="97.0899963378906">
+  <data key="d0">97.0899963378906</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2010年的数值为97.0899963378906</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866554</data>
+  <data key="d6"></data>
+</node>
+<node id="96.4000015258789">
+  <data key="d0">96.4000015258789</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2013年的数值为96.4000015258789</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866554</data>
+  <data key="d6"></data>
+</node>
+<node id="98.1800003051758">
+  <data key="d0">98.1800003051758</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2015年的数值为98.1800003051758</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866554</data>
+  <data key="d6"></data>
+</node>
+<node id="96.2799987792969">
+  <data key="d0">96.2799987792969</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2019年的数值为96.2799987792969</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866554</data>
+  <data key="d6"></data>
+</node>
+<node id="98.4700012207031">
+  <data key="d0">98.4700012207031</data>
+  <data key="d3">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d2">Philippines在2020年的数值为98.4700012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866554</data>
+  <data key="d6"></data>
+</node>
+<node id="South Africa">
+  <data key="d0">South Africa</data>
+  <data key="d1">country</data>
+  <data key="d2">南非</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866560</data>
+  <data key="d6"></data>
+</node>
+<node id="88.7200012207031">
+  <data key="d0">88.7200012207031</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2007年的数值为88.7200012207031</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866560</data>
+  <data key="d6"></data>
+</node>
+<node id="92.8899993896484">
+  <data key="d0">92.8899993896484</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2009年的数值为92.8899993896484</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866560</data>
+  <data key="d6"></data>
+</node>
+<node id="92.879997253418">
+  <data key="d0">92.879997253418</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2010年的数值为92.879997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866560</data>
+  <data key="d6"></data>
+</node>
+<node id="93.0999984741211">
+  <data key="d0">93.0999984741211</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2011年的数值为93.0999984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="93.7300033569336">
+  <data key="d0">93.7300033569336</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2012年的数值为93.7300033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="94.1399993896484">
+  <data key="d0">94.1399993896484</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2014年的数值为94.1399993896484</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="94.370002746582">
+  <data key="d0">94.370002746582</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2015年的数值为94.370002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="91.7399978637695">
+  <data key="d0">91.7399978637695</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2016年的数值为91.7399978637695</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="95.0199966430664">
+  <data key="d0">95.0199966430664</data>
+  <data key="d3">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d2">South Africa在2019年的数值为95.0199966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866561</data>
+  <data key="d6"></data>
+</node>
+<node id="Thailand">
+  <data key="d0">Thailand</data>
+  <data key="d1">country</data>
+  <data key="d2">泰国</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866568</data>
+  <data key="d6"></data>
+</node>
+<node id="93.5100021362305">
+  <data key="d0">93.5100021362305</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2005年的数值为93.5100021362305</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866568</data>
+  <data key="d6"></data>
+</node>
+<node id="96.4300003051758">
+  <data key="d0">96.4300003051758</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2010年的数值为96.4300003051758</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866568</data>
+  <data key="d6"></data>
+</node>
+<node id="93.6999969482422">
+  <data key="d0">93.6999969482422</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2013年的数值为93.6999969482422</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866568</data>
+  <data key="d6"></data>
+</node>
+<node id="92.870002746582">
+  <data key="d0">92.870002746582</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2015年的数值为92.870002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866568</data>
+  <data key="d6"></data>
+</node>
+<node id="93.7699966430664">
+  <data key="d0">93.7699966430664</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2018年的数值为93.7699966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866569</data>
+  <data key="d6"></data>
+</node>
+<node id="91.2699966430664">
+  <data key="d0">91.2699966430664</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2019年的数值为91.2699966430664</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866569</data>
+  <data key="d6"></data>
+</node>
+<node id="91.0999984741211">
+  <data key="d0">91.0999984741211</data>
+  <data key="d3">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d2">Thailand在2022年的数值为91.0999984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866569</data>
+  <data key="d6"></data>
+</node>
+<node id="Turkiye">
+  <data key="d0">Turkiye</data>
+  <data key="d1">country</data>
+  <data key="d2">一个国家实体</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866576</data>
+  <data key="d6"></data>
+</node>
+<node id="87.370002746582">
+  <data key="d0">87.370002746582</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2004年的数值为87.370002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866576</data>
+  <data key="d6"></data>
+</node>
+<node id="88.2300033569336">
+  <data key="d0">88.2300033569336</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2005年的数值为88.2300033569336</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866576</data>
+  <data key="d6"></data>
+</node>
+<node id="88.120002746582">
+  <data key="d0">88.120002746582</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2006年的数值为88.120002746582</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866576</data>
+  <data key="d6"></data>
+</node>
+<node id="88.6600036621094">
+  <data key="d0">88.6600036621094</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2007年的数值为88.6600036621094</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="90.8199996948242">
+  <data key="d0">90.8199996948242</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2009年的数值为90.8199996948242</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="92.6600036621094">
+  <data key="d0">92.6600036621094</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2010年的数值为92.6600036621094</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="94.1100006103516">
+  <data key="d0">94.1100006103516</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2011年的数值为94.1100006103516</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="94.9199981689453">
+  <data key="d0">94.9199981689453</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2012年的数值为94.9199981689453</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="95.2600021362305">
+  <data key="d0">95.2600021362305</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2013年的数值为95.2600021362305</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="95.4400024414062">
+  <data key="d0">95.4400024414062</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2014年的数值为95.4400024414062</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866577</data>
+  <data key="d6"></data>
+</node>
+<node id="95.5999984741211">
+  <data key="d0">95.5999984741211</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2015年的数值为95.5999984741211</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866578</data>
+  <data key="d6"></data>
+</node>
+<node id="95.8600006103516">
+  <data key="d0">95.8600006103516</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2016年的数值为95.8600006103516</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866578</data>
+  <data key="d6"></data>
+</node>
+<node id="96.1500015258789">
+  <data key="d0">96.1500015258789</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2017年的数值为96.1500015258789</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866578</data>
+  <data key="d6"></data>
+</node>
+<node id="97.2600021362305">
+  <data key="d0">97.2600021362305</data>
+  <data key="d3">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d2">Turkiye在2021年的数值为97.2600021362305</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866578</data>
+  <data key="d6"></data>
+</node>
+<node id="Viet Nam">
+  <data key="d0">Viet Nam</data>
+  <data key="d1">country</data>
+  <data key="d2">越南，时间序列数据中的国家实体</data>
+  <data key="d3">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866582</data>
+  <data key="d6"></data>
+</node>
+<node id="90.1600036621094">
+  <data key="d0">90.1600036621094</data>
+  <data key="d3">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d2">Viet Nam在2000年的数值为90.1600036621094</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866582</data>
+  <data key="d6"></data>
+</node>
+<node id="96.129997253418">
+  <data key="d0">96.129997253418</data>
+  <data key="d3">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d2">Viet Nam在2022年的数值为96.129997253418</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774866583</data>
+  <data key="d6"></data>
+</node>
+<edge source="Argentina" target="97.1900024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina在2001年的数值为97.1900024414062</data>
+  <data key="d9">2001,HAS_VALUE</data>
+  <data key="d10">chunk-a587d74d071e517c0bffe6271889401e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866467</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Argentina" target="99.1399993896484">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina在2020年的数值为99.1399993896484</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-a587d74d071e517c0bffe6271889401e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866467</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="86.370002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2000年的数值为86.370002746582</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="88.620002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2004年的数值为88.620002746582</data>
+  <data key="d9">2004,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="89.620002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2006年的数值为89.620002746582</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="90.0100021362305">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2007年的数值为90.0100021362305</data>
+  <data key="d9">2007,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="90.0400009155273">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2008年的数值为90.0400009155273</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="90.3000030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2009年的数值为90.3000030517578</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="90.379997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2010年的数值为90.379997253418</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="91.4100036621094">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2011年的数值为91.4100036621094</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866475</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="91.3399963378906">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2012年的数值为91.3399963378906</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="91.4800033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2013年的数值为91.4800033569336</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="91.7300033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2014年的数值为91.7300033569336</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="92.0500030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2015年的数值为92.0500030517578</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="92.8099975585938">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2016年的数值为92.8099975585938</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="93.0800018310547">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2017年的数值为93.0800018310547</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="93.2300033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2018年的数值为93.2300033569336</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="93.9019248012051">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2019年的数值为93.9019248012051</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866476</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="94.7576490611664">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2020年的数值为94.7576490611664</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866477</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="94.7848837154757">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2021年的数值为94.7848837154757</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866477</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="94.3853874531348">
+  <data key="d7">1.0</data>
+  <data key="d8">巴西在2022年的数值为94.3853874531348</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-eb2e81164256b5cce8b850b95584f7ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866477</data>
+  <data key="d13"></data>
+</edge>
+<edge source="90.379997253418" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2004年的数值为90.379997253418</data>
+  <data key="d9">2004,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866512</data>
+  <data key="d13"></data>
+</edge>
+<edge source="91.7300033569336" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2006年的数值为91.7300033569336</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="92.8099975585938" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2011年的数值为92.8099975585938</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866513</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="90.9199981689453">
+  <data key="d7">1.0</data>
+  <data key="d8">China在2000年的数值为90.9199981689453</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-1267d1065a26ee664937ddfda435e939</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866481</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="95.120002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">China在2010年的数值为95.120002746582</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-1267d1065a26ee664937ddfda435e939</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866481</data>
+  <data key="d13"></data>
+</edge>
+<edge source="China" target="96.7399978637695">
+  <data key="d7">1.0</data>
+  <data key="d8">China在2020年的数值为96.7399978637695</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-1267d1065a26ee664937ddfda435e939</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866482</data>
+  <data key="d13"></data>
+</edge>
+<edge source="95.120002746582" target="Indonesia">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2014年的数值为95.120002746582</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866513</data>
+  <data key="d13"></data>
+</edge>
+<edge source="96.7399978637695" target="Turkiye">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2019年的数值为96.7399978637695</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866578</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="92.8000030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2004年的数值为92.8000030517578</data>
+  <data key="d9">2004,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866488</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="92.8499984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2005年的数值为92.8499984741211</data>
+  <data key="d9">2005,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866488</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="92.3000030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2006年的数值为92.3000030517578</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866488</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="92.6500015258789">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2007年的数值为92.6500015258789</data>
+  <data key="d9">2007,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="93.379997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2008年的数值为93.379997253418</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="93.2399978637695">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2009年的数值为93.2399978637695</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="93.370002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2010年的数值为93.370002746582</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="93.5800018310547">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2011年的数值为93.5800018310547</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="94.1900024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2014年的数值为94.1900024414062</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="94.6500015258789">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2016年的数值为94.6500015258789</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="94.8927138785262">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2017年的数值为94.8927138785262</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866489</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="95.0899963378906">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2018年的数值为95.0899963378906</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="95.6399993896484">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2020年的数值为95.6399993896484</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="95.666552016916">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2021年的数值为95.666552016916</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Colombia" target="95.3138834471897">
+  <data key="d7">1.0</data>
+  <data key="d8">Colombia在2022年的数值为95.3138834471897</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-98705ef936e29ab0fb75ae5216a130cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866490</data>
+  <data key="d13"></data>
+</edge>
+<edge source="92.8000030517578" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2007年的数值为92.8000030517578</data>
+  <data key="d9">2007,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="92.6500015258789" target="Thailand">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2000年的数值为92.6500015258789</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="67.3300018310547">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2005年的数值为67.3300018310547</data>
+  <data key="d9">2005,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866495</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="66.370002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2006年的数值为66.370002746582</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="72.0500030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2010年的数值为72.0500030517578</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="73.870002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2012年的数值为73.870002746582</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="72.4400024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2013年的数值为72.4400024414062</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="71.1699981689453">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2017年的数值为71.1699981689453</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="82.083331279425">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2021年的数值为82.083331279425</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Egypt, Arab Rep." target="79.4565788949049">
+  <data key="d7">1.0</data>
+  <data key="d8">Egypt, Arab Rep.在2022年的数值为79.4565788949049</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-b3ebd93da372256b4db850d13ac39d97</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866496</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="61.0099983215332">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2001年的数值为61.0099983215332</data>
+  <data key="d9">2001,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866503</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="68.3354718669705">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2010年的数值为68.3354718669705</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866503</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="69.3000030517578">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2011年的数值为69.3000030517578</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866503</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="69.8350587234791">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2012年的数值为69.8350587234791</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866503</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="73.6975430256976">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2018年的数值为73.6975430256976</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866504</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="74.9084268267486">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2019年的数值为74.9084268267486</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866504</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="75.5437727049002">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2020年的数值为75.5437727049002</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866504</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="76.0715766188242">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2021年的数值为76.0715766188242</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866504</data>
+  <data key="d13"></data>
+</edge>
+<edge source="India" target="76.3199996948242">
+  <data key="d7">1.0</data>
+  <data key="d8">India在2022年的数值为76.3199996948242</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-6960b8604167985cb2072e59d1938f4d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866504</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="91.9800033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2006年的数值为91.9800033569336</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866512</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="92.1900024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2008年的数值为92.1900024414062</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866512</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="92.5800018310547">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2009年的数值为92.5800018310547</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866512</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="92.3199996948242">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2010年的数值为92.3199996948242</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866512</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="95.2200012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2015年的数值为95.2200012207031</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866513</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="95.379997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2016年的数值为95.379997253418</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866513</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Indonesia" target="95.6600036621094">
+  <data key="d7">1.0</data>
+  <data key="d8">Indonesia在2018年的数值为95.6600036621094</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-87e70469cb16c567247021f5ba36b1eb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866513</data>
+  <data key="d13"></data>
+</edge>
+<edge source="91.9800033569336" target="Thailand">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2016年的数值为91.9800033569336</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="95.379997253418" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2018年的数值为95.379997253418</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866541</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="98.4199981689453">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2001年的数值为98.4199981689453</data>
+  <data key="d9">2001,HAS_VALUE</data>
+  <data key="d10">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="98.8499984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2011年的数值为98.8499984741211</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Italy" target="99.3499984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Italy在2019年的数值为99.3499984741211</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-d17b7658816d5025f420e18dce7e3d38</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Korea, Rep." target="97.9700012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Korea, Rep.在2008年的数值为97.9700012207031</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-e185e49fd230a9fa171e3e6a8c53144d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866524</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="88.6900024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2000年的数值为88.6900024414062</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="93.120002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2010年的数值为93.120002746582</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="94.879997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2016年的数值为94.879997253418</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="95.0800018310547">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2017年的数值为95.0800018310547</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="94.8499984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2018年的数值为94.8499984741211</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="94.9700012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2019年的数值为94.9700012207031</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866529</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Malaysia" target="95.7699966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">Malaysia在2022年的数值为95.7699966430664</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-127b71cf7c44760c462c7e5ff573f17a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866530</data>
+  <data key="d13"></data>
+</edge>
+<edge source="94.9700012207031" target="Mexico">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2017年的数值为94.9700012207031</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866541</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="90.5400009155273">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2000年的数值为90.5400009155273</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="90.2699966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2002年的数值为90.2699966430664</data>
+  <data key="d9">2002,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="90.9499969482422">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2004年的数值为90.9499969482422</data>
+  <data key="d9">2004,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="91.629997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2005年的数值为91.629997253418</data>
+  <data key="d9">2005,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="92.9300003051758">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2008年的数值为92.9300003051758</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="93.4400024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2009年的数值为93.4400024414062</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866539</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="93.0699996948242">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2010年的数值为93.0699996948242</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="93.5199966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2011年的数值为93.5199966430664</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="94.2300033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2012年的数值为94.2300033569336</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="93.9599990844727">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2013年的数值为93.9599990844727</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="94.5599975585938">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2014年的数值为94.5599975585938</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="94.4700012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2015年的数值为94.4700012207031</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="94.8600006103516">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2016年的数值为94.8600006103516</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866540</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="95.3889403219417">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2019年的数值为95.3889403219417</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866541</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="95.6890981310362">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2021年的数值为95.6890981310362</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866541</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Mexico" target="95.8486603965766">
+  <data key="d7">1.0</data>
+  <data key="d8">Mexico在2022年的数值为95.8486603965766</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-e1d86208c1f65267abbd3123fa74c19b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866541</data>
+  <data key="d13"></data>
+</edge>
+<edge source="93.5199966430664" target="Viet Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2009年的数值为93.5199966430664</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866583</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="54.7700004577637">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2003年的数值为54.7700004577637</data>
+  <data key="d9">2003,HAS_VALUE</data>
+  <data key="d10">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866547</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="70.1999969482422">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2006年的数值为70.1999969482422</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866547</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="58.2200012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2016年的数值为58.2200012207031</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866547</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nigeria" target="63.1599998474121">
+  <data key="d7">1.0</data>
+  <data key="d8">Nigeria在2021年的数值为63.1599998474121</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-eff80d9736ea083d817aa4e5c0e6bb28</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866547</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="92.5999984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2000年的数值为92.5999984741211</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866553</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="92.5899963378906">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2003年的数值为92.5899963378906</data>
+  <data key="d9">2003,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866553</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="95.4199981689453">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2008年的数值为95.4199981689453</data>
+  <data key="d9">2008,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="97.0899963378906">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2010年的数值为97.0899963378906</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="96.4000015258789">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2013年的数值为96.4000015258789</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="98.1800003051758">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2015年的数值为98.1800003051758</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="96.2799987792969">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2019年的数值为96.2799987792969</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Philippines" target="98.4700012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">Philippines在2020年的数值为98.4700012207031</data>
+  <data key="d9">2020,HAS_VALUE</data>
+  <data key="d10">chunk-a122a7a28fb6089047af11f1f00bf106</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866554</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="88.7200012207031">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2007年的数值为88.7200012207031</data>
+  <data key="d9">2007,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866560</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="92.8899993896484">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2009年的数值为92.8899993896484</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866560</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="92.879997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2010年的数值为92.879997253418</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866560</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="93.0999984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2011年的数值为93.0999984741211</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="93.7300033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2012年的数值为93.7300033569336</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="94.1399993896484">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2014年的数值为94.1399993896484</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="94.370002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2015年的数值为94.370002746582</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="91.7399978637695">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2016年的数值为91.7399978637695</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="South Africa" target="95.0199966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">South Africa在2019年的数值为95.0199966430664</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-793140efb29e889adde712402918fd48</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866561</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="93.5100021362305">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2005年的数值为93.5100021362305</data>
+  <data key="d9">2005,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="96.4300003051758">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2010年的数值为96.4300003051758</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="93.6999969482422">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2013年的数值为93.6999969482422</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="92.870002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2015年的数值为92.870002746582</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="93.7699966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2018年的数值为93.7699966430664</data>
+  <data key="d9">2018,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="91.2699966430664">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2019年的数值为91.2699966430664</data>
+  <data key="d9">2019,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Thailand" target="91.0999984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Thailand在2022年的数值为91.0999984741211</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-8b0c1798596c73668e37f6b155a70d87</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="87.370002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2004年的数值为87.370002746582</data>
+  <data key="d9">2004,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866576</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="88.2300033569336">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2005年的数值为88.2300033569336</data>
+  <data key="d9">2005,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866576</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="88.120002746582">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2006年的数值为88.120002746582</data>
+  <data key="d9">2006,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="88.6600036621094">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2007年的数值为88.6600036621094</data>
+  <data key="d9">2007,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="90.8199996948242">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2009年的数值为90.8199996948242</data>
+  <data key="d9">2009,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="92.6600036621094">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2010年的数值为92.6600036621094</data>
+  <data key="d9">2010,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="94.1100006103516">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2011年的数值为94.1100006103516</data>
+  <data key="d9">2011,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="94.9199981689453">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2012年的数值为94.9199981689453</data>
+  <data key="d9">2012,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="95.2600021362305">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2013年的数值为95.2600021362305</data>
+  <data key="d9">2013,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="95.4400024414062">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2014年的数值为95.4400024414062</data>
+  <data key="d9">2014,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="95.5999984741211">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2015年的数值为95.5999984741211</data>
+  <data key="d9">2015,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866578</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="95.8600006103516">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2016年的数值为95.8600006103516</data>
+  <data key="d9">2016,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866578</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="96.1500015258789">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2017年的数值为96.1500015258789</data>
+  <data key="d9">2017,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866578</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Turkiye" target="97.2600021362305">
+  <data key="d7">1.0</data>
+  <data key="d8">Turkiye在2021年的数值为97.2600021362305</data>
+  <data key="d9">2021,HAS_VALUE</data>
+  <data key="d10">chunk-b73139be3b09f76b69977ede1b801363</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866578</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Viet Nam" target="90.1600036621094">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2000年的数值为90.1600036621094</data>
+  <data key="d9">2000,HAS_VALUE</data>
+  <data key="d10">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866582</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Viet Nam" target="96.129997253418">
+  <data key="d7">1.0</data>
+  <data key="d8">Viet Nam在2022年的数值为96.129997253418</data>
+  <data key="d9">2022,HAS_VALUE</data>
+  <data key="d10">chunk-056e755348a7c80dcb47d56f3a5fcc62</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774866583</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

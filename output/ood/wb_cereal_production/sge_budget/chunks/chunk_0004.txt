@@ -1,0 +1,24 @@
+Entity: Canada
+Year: 2000 | Value: 51090400.0
+Year: 2001 | Value: 43391400.0
+Year: 2002 | Value: 36046900.0
+Year: 2003 | Value: 49197200.0
+Year: 2004 | Value: 50778200.0
+Year: 2005 | Value: 50962400.0
+Year: 2006 | Value: 48577300.0
+Year: 2007 | Value: 48005300.0
+Year: 2008 | Value: 56030400.0
+Year: 2009 | Value: 49691900.0
+Year: 2010 | Value: 46122200.0
+Year: 2011 | Value: 48337200.0
+Year: 2012 | Value: 51846500.0
+Year: 2013 | Value: 66535401.0
+Year: 2014 | Value: 51683501.0
+Year: 2015 | Value: 53563000.0
+Year: 2016 | Value: 58905767.63
+Year: 2017 | Value: 56770935.0
+Year: 2018 | Value: 58726900.0
+Year: 2019 | Value: 61473900.0
+Year: 2020 | Value: 65314300.0
+Year: 2021 | Value: 47546138.0
+Year: 2022 | Value: 65040432.0

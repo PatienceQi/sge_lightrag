@@ -1,0 +1,24 @@
+Entity: Poland
+Year: 2000 | Value: 5.26548243
+Year: 2001 | Value: 5.64010143
+Year: 2002 | Value: 6.04828405
+Year: 2003 | Value: 5.93375778
+Year: 2004 | Value: 5.84185648
+Year: 2005 | Value: 5.79073858
+Year: 2006 | Value: 5.78148365
+Year: 2007 | Value: 5.86390114
+Year: 2008 | Value: 6.35196781
+Year: 2009 | Value: 6.57037735
+Year: 2010 | Value: 6.43533468
+Year: 2011 | Value: 6.24533606
+Year: 2012 | Value: 6.22854042
+Year: 2013 | Value: 6.44993687
+Year: 2014 | Value: 6.39059496
+Year: 2015 | Value: 6.36490345
+Year: 2016 | Value: 6.5470438
+Year: 2017 | Value: 6.53713226
+Year: 2018 | Value: 6.25094128
+Year: 2019 | Value: 6.38906956
+Year: 2020 | Value: 6.42739105
+Year: 2021 | Value: 6.3654809
+Year: 2022 | Value: 6.46619797

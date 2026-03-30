@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T18:27:33.991584",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_cereal_production.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_cereal_production/sge_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 385630,
+    "node_count": 579,
+    "edge_count": 554
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_cereal_production/baseline_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 26791,
+    "node_count": 32,
+    "edge_count": 24
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

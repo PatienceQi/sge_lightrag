@@ -1,0 +1,24 @@
+Entity: Colombia
+Year: 2000 | Value: 20.52
+Year: 2001 | Value: 15.04
+Year: 2002 | Value: 14.481
+Year: 2003 | Value: 13.221
+Year: 2004 | Value: 13.717
+Year: 2005 | Value: 11.062
+Year: 2006 | Value: 11.088
+Year: 2007 | Value: 11.204
+Year: 2008 | Value: 11.273
+Year: 2009 | Value: 12.066
+Year: 2010 | Value: 11.153
+Year: 2011 | Value: 10.288
+Year: 2012 | Value: 9.959
+Year: 2013 | Value: 9.246
+Year: 2014 | Value: 8.799
+Year: 2015 | Value: 8.572
+Year: 2016 | Value: 8.922
+Year: 2017 | Value: 9.086
+Year: 2018 | Value: 9.36
+Year: 2019 | Value: 10.28
+Year: 2020 | Value: 15.983
+Year: 2021 | Value: 13.898
+Year: 2022 | Value: 10.541

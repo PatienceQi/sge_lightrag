@@ -1,0 +1,24 @@
+Entity: Turkiye
+Year: 2000 | Value: 4.59957218
+Year: 2001 | Value: 4.88784933
+Year: 2002 | Value: 5.06227875
+Year: 2003 | Value: 5.01427698
+Year: 2004 | Value: 4.9096446
+Year: 2005 | Value: 4.89389706
+Year: 2006 | Value: 5.14591694
+Year: 2007 | Value: 5.23760796
+Year: 2008 | Value: 5.21761751
+Year: 2009 | Value: 5.49438715
+Year: 2010 | Value: 5.02053452
+Year: 2011 | Value: 4.6530509
+Year: 2012 | Value: 4.44444656
+Year: 2013 | Value: 4.37099934
+Year: 2014 | Value: 4.32517862
+Year: 2015 | Value: 4.11690426
+Year: 2016 | Value: 4.28469229
+Year: 2017 | Value: 4.17974997
+Year: 2018 | Value: 4.12101603
+Year: 2019 | Value: 4.35954332
+Year: 2020 | Value: 4.61640215
+Year: 2021 | Value: 4.56065559
+Year: 2022 | Value: 3.70338893

@@ -1,0 +1,24 @@
+Entity: India
+Year: 2000 | Value: 234931192.0
+Year: 2001 | Value: 242963796.0
+Year: 2002 | Value: 206636708.0
+Year: 2003 | Value: 236592700.0
+Year: 2004 | Value: 229845504.0
+Year: 2005 | Value: 239997492.0
+Year: 2006 | Value: 242785588.0
+Year: 2007 | Value: 260485904.0
+Year: 2008 | Value: 266835300.0
+Year: 2009 | Value: 250783392.0
+Year: 2010 | Value: 267838308.0
+Year: 2011 | Value: 287860000.0
+Year: 2012 | Value: 293290000.0
+Year: 2013 | Value: 295669510.0
+Year: 2014 | Value: 297113510.0
+Year: 2015 | Value: 285997000.0
+Year: 2016 | Value: 295359000.0
+Year: 2017 | Value: 311410330.0
+Year: 2018 | Value: 321550670.0
+Year: 2019 | Value: 324951320.0
+Year: 2020 | Value: 342151890.0
+Year: 2021 | Value: 355108300.0
+Year: 2022 | Value: 362466730.0

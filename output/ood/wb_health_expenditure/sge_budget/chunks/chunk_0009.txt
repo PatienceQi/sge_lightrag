@@ -1,0 +1,24 @@
+Entity: Germany
+Year: 2000 | Value: 9.75930405
+Year: 2001 | Value: 9.78105545
+Year: 2002 | Value: 10.028965
+Year: 2003 | Value: 10.22255325
+Year: 2004 | Value: 9.97466278
+Year: 2005 | Value: 10.1068058
+Year: 2006 | Value: 9.96236897
+Year: 2007 | Value: 9.83482933
+Year: 2008 | Value: 10.03185749
+Year: 2009 | Value: 10.97003078
+Year: 2010 | Value: 10.8311739
+Year: 2011 | Value: 10.52106953
+Year: 2012 | Value: 10.59356213
+Year: 2013 | Value: 10.7432127
+Year: 2014 | Value: 10.76819706
+Year: 2015 | Value: 10.92317677
+Year: 2016 | Value: 10.97133732
+Year: 2017 | Value: 11.05091095
+Year: 2018 | Value: 11.18380833
+Year: 2019 | Value: 11.42805386
+Year: 2020 | Value: 12.46780777
+Year: 2021 | Value: 12.72403336
+Year: 2022 | Value: 12.44708347

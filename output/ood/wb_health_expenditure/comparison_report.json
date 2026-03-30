@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T18:12:11.226200",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_health_expenditure.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_health_expenditure/sge_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 398749,
+    "node_count": 600,
+    "edge_count": 575
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_health_expenditure/baseline_budget/lightrag_storage",
+    "chunks_inserted": 25,
+    "graph_file_exists": true,
+    "graph_file_size": 27748,
+    "node_count": 33,
+    "edge_count": 25
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

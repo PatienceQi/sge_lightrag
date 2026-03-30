@@ -1,0 +1,4 @@
+Entity: China
+Year: 2000 | Value: 90.9199981689453
+Year: 2010 | Value: 95.120002746582
+Year: 2020 | Value: 96.7399978637695

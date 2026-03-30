@@ -1,0 +1,4 @@
+Entity: Italy
+Year: 2001 | Value: 98.4199981689453
+Year: 2011 | Value: 98.8499984741211
+Year: 2019 | Value: 99.3499984741211

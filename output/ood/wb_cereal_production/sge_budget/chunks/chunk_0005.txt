@@ -1,0 +1,24 @@
+Entity: China
+Year: 2000 | Value: 405223840.0
+Year: 2001 | Value: 396483180.0
+Year: 2002 | Value: 396676265.0
+Year: 2003 | Value: 374819300.0
+Year: 2004 | Value: 411570400.0
+Year: 2005 | Value: 427760500.0
+Year: 2006 | Value: 451108151.94
+Year: 2007 | Value: 456668100.0
+Year: 2008 | Value: 479263400.0
+Year: 2009 | Value: 482657000.0
+Year: 2010 | Value: 497807900.0
+Year: 2011 | Value: 521255500.0
+Year: 2012 | Value: 541643200.0
+Year: 2013 | Value: 555365200.0
+Year: 2014 | Value: 560519000.0
+Year: 2015 | Value: 618165313.27
+Year: 2016 | Value: 614697468.76
+Year: 2017 | Value: 614070169.03
+Year: 2018 | Value: 609946694.21
+Year: 2019 | Value: 613438323.23
+Year: 2020 | Value: 616632008.31
+Year: 2021 | Value: 632772813.74
+Year: 2022 | Value: 633134294.88

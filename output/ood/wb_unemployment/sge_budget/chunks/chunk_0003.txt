@@ -1,0 +1,24 @@
+Entity: Brazil
+Year: 2000 | Value: 10.889
+Year: 2001 | Value: 10.649
+Year: 2002 | Value: 10.641
+Year: 2003 | Value: 11.168
+Year: 2004 | Value: 10.072
+Year: 2005 | Value: 10.551
+Year: 2006 | Value: 9.692
+Year: 2007 | Value: 9.28
+Year: 2008 | Value: 8.268
+Year: 2009 | Value: 9.419
+Year: 2010 | Value: 8.42
+Year: 2011 | Value: 7.578
+Year: 2012 | Value: 7.251
+Year: 2013 | Value: 7.071
+Year: 2014 | Value: 6.755
+Year: 2015 | Value: 8.538
+Year: 2016 | Value: 11.58
+Year: 2017 | Value: 12.792
+Year: 2018 | Value: 12.329
+Year: 2019 | Value: 11.936
+Year: 2020 | Value: 13.697
+Year: 2021 | Value: 13.158
+Year: 2022 | Value: 9.231

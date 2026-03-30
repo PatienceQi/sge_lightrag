@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Argentina">
+  <data key="d0">Argentina</data>
+  <data key="d1">location</data>
+  <data key="d2">Argentina是一个国家，其数据跨越2000年至2022年。</data>
+  <data key="d3">chunk-7da176fe30c0e899bacc6a9adb82b6b0&lt;SEP&gt;chunk-365247292f383fc3466fe8e65dc495c1</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870609</data>
+  <data key="d6"></data>
+</node>
+<node id="Baseline Data">
+  <data key="d0">Baseline Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Baseline Data是Argentina从2000年到2022年的年度数值记录，数值范围从6.805到19.59。</data>
+  <data key="d3">chunk-365247292f383fc3466fe8e65dc495c1</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870609</data>
+  <data key="d6"></data>
+</node>
+<node id="Australia">
+  <data key="d0">Australia</data>
+  <data key="d1">location</data>
+  <data key="d2">澳大利亚是一个国家，其数据从2000年到2022年被记录。</data>
+  <data key="d3">chunk-432d9f6fb30989e15e8ec53150e41650&lt;SEP&gt;chunk-ae6ceb35570fa9c640d3db1f257c2ec5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870619</data>
+  <data key="d6"></data>
+</node>
+<node id="年度数据">
+  <data key="d0">年度数据</data>
+  <data key="d1">data</data>
+  <data key="d2">从2000年到2022年澳大利亚的年度数值记录，数值范围从3.728到6.747。</data>
+  <data key="d3">chunk-ae6ceb35570fa9c640d3db1f257c2ec5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870619</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil">
+  <data key="d0">Brazil</data>
+  <data key="d1">location</data>
+  <data key="d2">Brazil是一个国家，其数据跨越2000年至2022年期间。</data>
+  <data key="d3">chunk-4057f14c998fe1c18c28ebb4c291ba66&lt;SEP&gt;chunk-a8e31217ee8157cd6f700f6a4fb306dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870623</data>
+  <data key="d6"></data>
+</node>
+<node id="Brazil数据集">
+  <data key="d0">Brazil数据集</data>
+  <data key="d1">data</data>
+  <data key="d2">Brazil数据集包含从2000年到2022年的年度数值记录。</data>
+  <data key="d3">chunk-a8e31217ee8157cd6f700f6a4fb306dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774870623</data>
+  <data key="d6"></data>
+</node>
+<edge source="Argentina" target="Baseline Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Argentina的Baseline Data记录了该国在2000年至2022年期间的年度数值变化。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-365247292f383fc3466fe8e65dc495c1</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870610</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Australia" target="年度数据">
+  <data key="d7">1.0</data>
+  <data key="d8">澳大利亚的年度数据跨越23年，显示了该国指标随时间的变化趋势。</data>
+  <data key="d9">数据记录,时间序列</data>
+  <data key="d10">chunk-ae6ceb35570fa9c640d3db1f257c2ec5</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870619</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brazil" target="Brazil数据集">
+  <data key="d7">1.0</data>
+  <data key="d8">Brazil数据集记录了Brazil在2000年至2022年期间的年度数值变化。</data>
+  <data key="d9">数据关联,时间序列</data>
+  <data key="d10">chunk-a8e31217ee8157cd6f700f6a4fb306dd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774870624</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

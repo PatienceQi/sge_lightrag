@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-30T18:05:08.628640",
+  "csv_file": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/wb_education_spending.csv",
+  "sge": {
+    "label": "SGE",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_education_spending/sge_budget/lightrag_storage",
+    "chunks_inserted": 24,
+    "graph_file_exists": true,
+    "graph_file_size": 289722,
+    "node_count": 422,
+    "edge_count": 398
+  },
+  "baseline": {
+    "label": "Baseline",
+    "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_education_spending/baseline_budget/lightrag_storage",
+    "chunks_inserted": 24,
+    "graph_file_exists": true,
+    "graph_file_size": 29090,
+    "node_count": 36,
+    "edge_count": 26
+  },
+  "extraction_schema": {
+    "entity_types": [
+      "Country"
+    ],
+    "relation_types": [
+      "HAS_VALUE"
+    ]
+  }
+}

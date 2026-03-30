@@ -1,0 +1,24 @@
+Entity: Mexico
+Year: 2000 | Value: 4.24436522
+Year: 2001 | Value: 4.58201361
+Year: 2002 | Value: 4.83042812
+Year: 2003 | Value: 5.53978777
+Year: 2004 | Value: 5.6835022
+Year: 2005 | Value: 5.58110142
+Year: 2006 | Value: 5.40647888
+Year: 2007 | Value: 5.50668049
+Year: 2008 | Value: 5.44587374
+Year: 2009 | Value: 5.84786463
+Year: 2010 | Value: 5.4897337
+Year: 2011 | Value: 5.30093002
+Year: 2012 | Value: 5.42140484
+Year: 2013 | Value: 5.5773263
+Year: 2014 | Value: 5.35336781
+Year: 2015 | Value: 5.52738619
+Year: 2016 | Value: 5.38499022
+Year: 2017 | Value: 5.3117938
+Year: 2018 | Value: 5.23821402
+Year: 2019 | Value: 5.3013463
+Year: 2020 | Value: 6.05248594
+Year: 2021 | Value: 5.87678003
+Year: 2022 | Value: 5.70919704

@@ -1,0 +1,24 @@
+Entity: India
+Year: 2000 | Value: 7.589
+Year: 2001 | Value: 7.611
+Year: 2002 | Value: 7.681
+Year: 2003 | Value: 7.633
+Year: 2004 | Value: 7.598
+Year: 2005 | Value: 7.551
+Year: 2006 | Value: 7.553
+Year: 2007 | Value: 7.562
+Year: 2008 | Value: 7.629
+Year: 2009 | Value: 7.636
+Year: 2010 | Value: 7.631
+Year: 2011 | Value: 7.609
+Year: 2012 | Value: 7.645
+Year: 2013 | Value: 7.678
+Year: 2014 | Value: 7.656
+Year: 2015 | Value: 7.629
+Year: 2016 | Value: 7.611
+Year: 2017 | Value: 7.626
+Year: 2018 | Value: 7.652
+Year: 2019 | Value: 6.51
+Year: 2020 | Value: 7.859
+Year: 2021 | Value: 6.38
+Year: 2022 | Value: 4.822

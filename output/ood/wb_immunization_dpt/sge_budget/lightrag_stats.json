@@ -1,0 +1,9 @@
+{
+  "label": "SGE",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/ood/wb_immunization_dpt/sge_budget/lightrag_storage",
+  "chunks_inserted": 25,
+  "graph_file_exists": true,
+  "graph_file_size": 8820,
+  "node_count": 25,
+  "edge_count": 0
+}
