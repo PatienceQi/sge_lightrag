@@ -1,0 +1,9 @@
+{
+  "dataset": "inpatient",
+  "label": "Inpatient 2023",
+  "condition": "serialization_only",
+  "chunks": 318,
+  "timestamp": "2026-03-31T04:54:15.516806",
+  "nodes": 589,
+  "edges": 1044
+}

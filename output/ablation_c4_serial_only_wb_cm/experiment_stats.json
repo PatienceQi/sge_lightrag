@@ -1,0 +1,9 @@
+{
+  "dataset": "wb_cm",
+  "label": "WB Child Mortality",
+  "condition": "serialization_only",
+  "chunks": 244,
+  "timestamp": "2026-03-31T03:22:56.327796",
+  "nodes": 332,
+  "edges": 3555
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "who",
+  "label": "WHO Life Expectancy",
+  "condition": "serialization_only",
+  "chunks": 196,
+  "timestamp": "2026-03-31T00:49:50.900858",
+  "nodes": 433,
+  "edges": 621
+}

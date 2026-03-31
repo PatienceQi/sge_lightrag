@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "who",
+    "dataset_label": "WHO Life Expectancy",
+    "condition": "serialization_only",
+    "ec": 1.0,
+    "fc": 0.0133,
+    "ec_matched": 25,
+    "ec_total": 25,
+    "fc_covered": 2,
+    "fc_total": 150,
+    "nodes": 433,
+    "edges": 621,
+    "timestamp": "2026-03-31T00:49:50.900858",
+    "chunks_inserted": 196
+  },
+  {
+    "dataset": "wb_cm",
+    "dataset_label": "WB Child Mortality",
+    "condition": "serialization_only",
+    "ec": 0.8,
+    "fc": 0.76,
+    "ec_matched": 20,
+    "ec_total": 25,
+    "fc_covered": 114,
+    "fc_total": 150,
+    "nodes": 332,
+    "edges": 3555,
+    "timestamp": "2026-03-31T03:22:56.327796",
+    "chunks_inserted": 244
+  },
+  {
+    "dataset": "inpatient",
+    "dataset_label": "Inpatient 2023",
+    "condition": "serialization_only",
+    "ec": 0.5,
+    "fc": 0.4375,
+    "ec_matched": 4,
+    "ec_total": 8,
+    "fc_covered": 7,
+    "fc_total": 16,
+    "nodes": 589,
+    "edges": 1044,
+    "timestamp": "2026-03-31T04:54:15.516806",
+    "chunks_inserted": 318
+  }
+]
