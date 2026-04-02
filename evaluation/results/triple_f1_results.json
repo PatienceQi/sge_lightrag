@@ -1,0 +1,57 @@
+{
+  "description": "Canonical Triple F1 evaluation results",
+  "note": "Precision is low because Gold Standard samples 25 entities while graph covers all. Triple Recall is the key comparison metric. Type-III datasets show 0 recall for both systems because hierarchical structures don't decompose into clean (subject, year, value) triples.",
+  "results": {
+    "who_life_expectancy": {
+      "type": "Type-II",
+      "gold_facts": 150,
+      "sge": {"recall": 1.000, "precision": 0.035, "f1": 0.067, "matched": 150, "system_triples": 4334},
+      "baseline": {"recall": 0.000, "precision": 0.000, "f1": 0.000, "matched": 0, "system_triples": 341}
+    },
+    "wb_child_mortality": {
+      "type": "Type-II",
+      "gold_facts": 150,
+      "sge": {"recall": 1.000, "precision": 0.009, "f1": 0.018, "matched": 150, "system_triples": 16457},
+      "baseline": {"recall": 0.000, "precision": 0.000, "f1": 0.000, "matched": 0, "system_triples": 2844}
+    },
+    "wb_population": {
+      "type": "Type-II",
+      "gold_facts": 150,
+      "sge": {"recall": 1.000, "precision": 0.024, "f1": 0.046, "matched": 150, "system_triples": 6365},
+      "baseline": {"recall": 0.040, "precision": 0.010, "f1": 0.016, "matched": 6, "system_triples": 606}
+    },
+    "wb_maternal": {
+      "type": "Type-II",
+      "gold_facts": 150,
+      "note": "5 unmatched triples (Indonesia 2005-2021) reflect missing data in graph, not evaluation error",
+      "sge": {"recall": 0.967, "precision": 0.025, "f1": 0.049, "matched": 145, "system_triples": 5827},
+      "baseline": {"recall": 0.000, "precision": 0.000, "f1": 0.000, "matched": 0, "system_triples": 427}
+    },
+    "fortune500_revenue": {
+      "type": "Type-II",
+      "gold_facts": 125,
+      "sge": {"recall": 1.000, "matched": 125},
+      "baseline": {"recall": 0.000, "matched": 0}
+    },
+    "inpatient_2023": {
+      "type": "Type-III",
+      "gold_facts": 16,
+      "note": "Hierarchical structure - triple extraction not applicable",
+      "sge": {"recall": 0.000},
+      "baseline": {"recall": 0.000}
+    },
+    "the_university_ranking": {
+      "type": "Type-III",
+      "gold_facts": 150,
+      "note": "Reversed edge fix enabled extraction; Recall=0.560 matches FC=0.567",
+      "sge": {"recall": 0.560, "matched": 84},
+      "baseline": {"recall": 0.000}
+    }
+  },
+  "summary": {
+    "type_ii_sge_avg_recall": 0.993,
+    "type_ii_baseline_avg_recall": 0.008,
+    "fix_note": "Evaluation script fixed (2026-04-02): Strategy D now handles both edge directions (value_node→subject and subject→value_node) and bare-year node format (mortality_rate_2005=4.6 without 'year' prefix). WB Child Mortality: 0.860→1.000, WB Maternal: 0.493→0.967.",
+    "interpretation": "Triple F1 Recall confirms FC pattern for Type-II datasets: SGE extracts structured (subject, year, value) triples that Baseline completely fails to produce. Low Precision is expected because Gold Standard is a 25-entity sample of full dataset."
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "description": "LightRAG v1.4.12 baseline on WHO Life Expectancy (naive CSV ingestion)",
+    "lightrag_version": "1.4.12",
+    "llm_model": "claude-haiku-4-5-20251001",
+    "embedding_model": "mxbai-embed-large (1024d, Ollama)",
+    "dataset": "WHO Life Expectancy",
+    "results": {
+      "ec": 1.0,
+      "fc": 0.0067,
+      "gold_entities": 25,
+      "gold_facts": 150,
+      "matched_entities": 25,
+      "covered_facts": 1,
+      "graph_nodes": 358,
+      "graph_edges": 356
+    },
+    "comparison": {
+      "lightrag_v138_baseline_fc": 0.167,
+      "sge_fc": 1.000,
+      "finding": "LightRAG v1.4.12 FC=0.007 is LOWER than v1.3.8 FC=0.167. The latest version not only fails to resolve structural blindness, but exhibits worse fact-binding fidelity due to internal chunking/extraction changes. SGE FC=1.000 vs v1.4.12 FC=0.007 (143x gap)."
+    }
+  },
+  {
+    "description": "LightRAG v1.4.12 baseline on WB Child Mortality (naive CSV ingestion)",
+    "lightrag_version": "1.4.12",
+    "llm_model": "claude-haiku-4-5-20251001",
+    "embedding_model": "mxbai-embed-large (1024d, Ollama)",
+    "dataset": "WB Child Mortality",
+    "csv": "API_SH.DYN.MORT_DS2_en_csv_v2_632.csv",
+    "gold": "gold_wb_child_mortality_v2.jsonl",
+    "results": {
+      "ec": 0.96,
+      "fc": 0.0,
+      "gold_entities": 25,
+      "gold_facts": 150,
+      "matched_entities": 24,
+      "covered_facts": 0,
+      "graph_nodes": 523,
+      "graph_edges": 579
+    },
+    "comparison": {
+      "lightrag_v138_baseline_fc": 0.473,
+      "sge_fc": 1.000,
+      "finding": "LightRAG v1.4.12 FC=0.000 is dramatically lower than v1.3.8 FC=0.473. The latest version shows complete structural blindness on WB Child Mortality. SGE FC=1.000 vs v1.4.12 FC=0.000 (infinite gap)."
+    }
+  },
+  {
+    "description": "LightRAG v1.4.12 baseline on HK Inpatient 2023 (naive CSV ingestion)",
+    "lightrag_version": "1.4.12",
+    "llm_model": "claude-haiku-4-5-20251001",
+    "embedding_model": "mxbai-embed-large (1024d, Ollama)",
+    "dataset": "HK Inpatient 2023",
+    "csv": "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
+    "gold": "gold_inpatient_2023.jsonl",
+    "results": {
+      "ec": 0.5,
+      "fc": 0.0,
+      "gold_entities": 8,
+      "gold_facts": 16,
+      "matched_entities": 4,
+      "covered_facts": 0,
+      "graph_nodes": 516,
+      "graph_edges": 213
+    },
+    "comparison": {
+      "lightrag_v138_baseline_fc": 0.438,
+      "sge_fc": 0.938,
+      "finding": "LightRAG v1.4.12 FC=0.000 vs v1.3.8 FC=0.438. The latest version completely fails on Inpatient Type-III data. SGE FC=0.938 vs v1.4.12 FC=0.000 (infinite gap). EC drops to 0.500 (4/8 entities matched)."
+    }
+  }
+]

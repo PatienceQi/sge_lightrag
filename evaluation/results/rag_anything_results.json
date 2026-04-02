@@ -1,0 +1,36 @@
+{
+  "description": "RAG-Anything v1.2.10 baseline on WHO Life Expectancy",
+  "raganything_version": "1.2.10",
+  "lightrag_version": "1.4.12",
+  "llm_model": "claude-haiku-4-5-20251001",
+  "dataset": "WHO Life Expectancy",
+  "path_a": {
+    "method": "RAG-Anything insert() with CSV as plain text (equivalent to LightRAG ainsert)",
+    "ec": 1.0,
+    "fc": 0.0,
+    "nodes": 334,
+    "edges": 353,
+    "covered_facts": 0,
+    "total_facts": 150
+  },
+  "path_b": {
+    "method": "TableModalProcessor direct analysis of CSV table content",
+    "ec": 0.2,
+    "fc": 0.0067,
+    "nodes": 26,
+    "edges": 57,
+    "matched_entities": 5,
+    "covered_facts": 1,
+    "total_entities": 25,
+    "total_facts": 150,
+    "observation": "TableModalProcessor extracts macro-level trends (Developed-Developing Gap, Pre-2020 Upward Trend) but does NOT preserve subject-time-value cell-level bindings"
+  },
+  "comparison": {
+    "sge_fc": 1.0,
+    "lightrag_v138_baseline_fc": 0.167,
+    "lightrag_v14_fc": 0.007,
+    "rag_anything_path_a_fc": 0.0,
+    "rag_anything_path_b_fc": 0.007,
+    "conclusion": "RAG-Anything exhibits structural blindness on statistical CSV data regardless of processing path. TableModalProcessor produces high-level summaries, not structured fact bindings."
+  }
+}

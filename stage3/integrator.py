@@ -116,6 +116,68 @@ def patch_lightrag(schema: dict, language: str = "Chinese") -> dict:
     }
 
 
+def check_graph_degradation(
+    graphml_path: str,
+    edge_node_threshold: float = 0.90,
+    isolated_threshold: float = 0.20,
+) -> dict:
+    """
+    Post-extraction degradation check on the output graph.
+
+    Returns a dict with:
+      - "degraded" (bool): True if graph shows signs of SGE over-constraint
+      - "edge_node_ratio": edges / nodes
+      - "isolated_ratio": isolated nodes / total nodes
+      - "reason": human-readable reason if degraded
+
+    When degraded is True, the caller should re-run ingestion with
+    baseline mode (no schema injection) to ensure worst-case >= baseline.
+    """
+    try:
+        import networkx as nx
+    except ImportError:
+        return {"degraded": False, "reason": "networkx not available"}
+
+    from pathlib import Path
+    if not Path(graphml_path).exists():
+        return {"degraded": False, "reason": "graph file not found"}
+
+    G = nx.read_graphml(graphml_path)
+    n_nodes = G.number_of_nodes()
+    n_edges = G.number_of_edges()
+
+    if n_nodes == 0:
+        return {
+            "degraded": True,
+            "edge_node_ratio": 0.0,
+            "isolated_ratio": 1.0,
+            "reason": "empty graph (0 nodes)",
+        }
+
+    edge_node_ratio = n_edges / n_nodes
+    n_isolated = len(list(nx.isolates(G)))
+    isolated_ratio = n_isolated / n_nodes
+
+    degraded = (
+        edge_node_ratio < edge_node_threshold
+        or isolated_ratio > isolated_threshold
+    )
+
+    return {
+        "degraded": degraded,
+        "edge_node_ratio": round(edge_node_ratio, 4),
+        "isolated_ratio": round(isolated_ratio, 4),
+        "n_nodes": n_nodes,
+        "n_edges": n_edges,
+        "n_isolated": n_isolated,
+        "reason": (
+            f"edge/node={edge_node_ratio:.3f}<{edge_node_threshold} "
+            f"or isolated={isolated_ratio:.3f}>{isolated_threshold}"
+            if degraded else "OK"
+        ),
+    }
+
+
 def prepare_chunks(csv_path: str, schema: dict) -> list[str]:
     """
     Serialize a CSV file into text chunks ready for LightRAG ingestion.

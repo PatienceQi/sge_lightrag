@@ -1,0 +1,28 @@
+{
+  "description": "LightRAG v1.4.x + RAG-Anything analysis for CSV structural blindness",
+  "lightrag_version_tested": "1.4.12",
+  "baseline_version_in_paper": "1.3.8",
+  "experiment_status": "code_analysis_only (API quota exhausted for runtime test)",
+  "findings": {
+    "lightrag_v14_csv_handling": {
+      "ainsert_interface": "Same as v1.3.8: accepts plain text string, no CSV-specific parsing",
+      "chunking": "Token-based chunking on plain text, no column/row awareness",
+      "extraction_prompt": "Default entity extraction prompt, no table structure directives",
+      "conclusion": "LightRAG v1.4.12 ainsert() for standalone CSV input is functionally equivalent to v1.3.8 naive serialization"
+    },
+    "rag_anything": {
+      "purpose": "Multi-modal document parsing pipeline using MinerU",
+      "table_handling": "TableModalProcessor targets tables embedded in PDFs/DOCX (parsed by MinerU), not standalone CSV files",
+      "csv_path": "For standalone CSV, RAG-Anything falls through to LightRAG.ainsert() with plain text - no topology recognition, no schema induction, no constrained extraction",
+      "dependency": "Requires mineru[core] (unavailable on Python 3.14, installed via Python 3.11 venv)",
+      "conclusion": "RAG-Anything does not address the structural blindness problem for statistical CSV ingestion"
+    },
+    "paper_implication": "Existing Baseline results (LightRAG v1.3.8 naive serialization) are representative of the current official pipeline's behavior on CSV input. The structural blindness problem persists in v1.4.x because the core ainsert() path has not changed for text input."
+  },
+  "code_evidence": {
+    "lightrag_ainsert_signature": "async def ainsert(self, input: str | list[str], ...)",
+    "no_csv_parser_in_lightrag": "grep for 'csv|CSV|tabular' in lightrag source shows only export functions, no CSV input parsing",
+    "raganything_table_processor": "TableModalProcessor imported from lightrag.modalprocessors, designed for MinerU-parsed table elements from PDFs"
+  },
+  "script_created": "evaluation/lightrag_latest_baseline.py (ready to run when API quota available)"
+}

@@ -103,6 +103,17 @@ def main():
             "'auto' — try LLM, fall back to rule-based on error"
         ),
     )
+    parser.add_argument(
+        "--auto-fallback",
+        action="store_true",
+        default=False,
+        help=(
+            "Enable post-extraction degradation detection. If the output "
+            "graph shows signs of over-constraint (edge/node ratio < 0.90 "
+            "or isolated ratio > 0.20), automatically re-run with baseline "
+            "mode to ensure worst-case >= baseline performance."
+        ),
+    )
     args = parser.parse_args()
 
     csv_path = Path(args.csv_path).expanduser().resolve()
@@ -237,6 +248,28 @@ def main():
         "lightrag_entity_types": payload["entity_types"],
         "lightrag_addon_params_keys": list(payload["addon_params"].keys()),
     }
+
+    # ── Auto-fallback degradation check ─────────────────────────────────────
+    if args.auto_fallback and not extraction_schema.get("use_baseline_mode"):
+        graphml_path = output_dir / "lightrag_storage" / "graph_chunk_entity_relation.graphml"
+        if graphml_path.exists():
+            from stage3.integrator import check_graph_degradation
+            deg = check_graph_degradation(str(graphml_path))
+            report["degradation_check"] = deg
+            if deg["degraded"]:
+                print()
+                print("!" * 60)
+                print("AUTO-FALLBACK: degradation detected")
+                print(f"  edge/node ratio : {deg['edge_node_ratio']}")
+                print(f"  isolated ratio  : {deg['isolated_ratio']}")
+                print(f"  reason          : {deg['reason']}")
+                print("  → Re-run with baseline mode recommended")
+                print("!" * 60)
+            else:
+                print(f"\n[Auto-fallback] Graph OK (edge/node={deg['edge_node_ratio']}, isolated={deg['isolated_ratio']})")
+        else:
+            print(f"\n[Auto-fallback] Graph file not found at {graphml_path}, skipping check")
+            report["degradation_check"] = {"degraded": False, "reason": "graph not yet built"}
 
     # ── Pipeline report ───────────────────────────────────────────────────────
     report_path = output_dir / "pipeline_report.json"

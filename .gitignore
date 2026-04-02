@@ -19,3 +19,8 @@ output/*/lightrag_storage/
 
 # Secrets
 .env
+
+# Experiment output (temporary, regenerable)
+output/lightrag_v14_*/
+output/rag_anything_*/
+output/det_parser_*
