@@ -1,0 +1,25 @@
+Entity: USA / WHOSIS_000001
+Year: 2000 | Value: 76.65847648
+Year: 2001 | Value: 76.75000279
+Year: 2002 | Value: 76.84998093
+Year: 2003 | Value: 76.98967151
+Year: 2004 | Value: 77.3972613
+Year: 2005 | Value: 77.38462128
+Year: 2006 | Value: 77.68331379
+Year: 2007 | Value: 77.94056193
+Year: 2008 | Value: 78.0493345
+Year: 2009 | Value: 78.42393798
+Year: 2010 | Value: 78.6069239
+Year: 2011 | Value: 78.65364022
+Year: 2012 | Value: 78.77111574
+Year: 2013 | Value: 78.75952758
+Year: 2014 | Value: 78.80026105
+Year: 2015 | Value: 78.61058161
+Year: 2016 | Value: 78.55677254
+Year: 2017 | Value: 78.50077044
+Year: 2018 | Value: 78.62912526
+Year: 2019 | Value: 78.73923827
+Year: 2020 | Value: 76.89250856
+Year: 2021 | Value: 76.37368104
+Remark: United States of America
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,37 @@
+Entity: WLD / SH.DYN.MORT
+Year: 1990 | Value: 93.6
+Year: 1991 | Value: 93.3
+Year: 1992 | Value: 92.7
+Year: 1993 | Value: 90.8
+Year: 1994 | Value: 89.6
+Year: 1995 | Value: 87.8
+Year: 1996 | Value: 86
+Year: 1997 | Value: 84
+Year: 1998 | Value: 82.3
+Year: 1999 | Value: 79.3
+Year: 2000 | Value: 76.7
+Year: 2001 | Value: 74.1
+Year: 2002 | Value: 71.5
+Year: 2003 | Value: 68.6
+Year: 2004 | Value: 66.2
+Year: 2005 | Value: 63.3
+Year: 2006 | Value: 60.6
+Year: 2007 | Value: 58
+Year: 2008 | Value: 55.8
+Year: 2009 | Value: 54
+Year: 2010 | Value: 51.7
+Year: 2011 | Value: 50.6
+Year: 2012 | Value: 47.8
+Year: 2013 | Value: 46.1
+Year: 2014 | Value: 44.9
+Year: 2015 | Value: 43.7
+Year: 2016 | Value: 42.4
+Year: 2017 | Value: 41.3
+Year: 2018 | Value: 40.2
+Year: 2019 | Value: 39.5
+Year: 2020 | Value: 38.7
+Year: 2021 | Value: 38.2
+Year: 2022 | Value: 38.2
+Year: 2023 | Value: 36.7
+Remark: World
+Remark: Mortality rate, under-5 (per 1,000 live births)

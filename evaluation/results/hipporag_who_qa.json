@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-04-01T14:58:54.971125",
+  "system": "hipporag_v2",
+  "dataset": "who",
+  "config": {
+    "llm_model": "claude-haiku-4-5-20251001",
+    "embedding_model": "mxbai-embed-large"
+  },
+  "total_questions": 24,
+  "correct": 23,
+  "accuracy": 0.9583333333333334,
+  "results": [
+    {
+      "id": "who_01",
+      "dataset": "who",
+      "question": "What was China's life expectancy at birth in 2021?",
+      "expected_value": "77.61",
+      "hipporag_answer": "I need to find China's life expectancy at birth in 2021 from the provided data.\n\nLooking at the first Wikipedia entry labeled \"Entity: CHN / WHOSIS_000001\" with the remark \"China\" and \"Life expectancy at birth (years)\", I can find the year 2021 entry:\n\nYear: 2021 | Value: 77.61619672\n\nAnswer: China's life expectancy at birth in 2021 was 77.61619672 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_02",
+      "dataset": "who",
+      "question": "What was Japan's life expectancy at birth in 2021?",
+      "expected_value": "84.46",
+      "hipporag_answer": "Looking at the data for Japan (JPN / WHOSIS_000001), I find the entry for Year 2021.\n\nAnswer: Japan's life expectancy at birth in 2021 was 84.46067178 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_03",
+      "dataset": "who",
+      "question": "What was Brazil's life expectancy at birth in 2021?",
+      "expected_value": "72.3",
+      "hipporag_answer": "Looking at the Brazil (BRA) data provided, I need to find the value for Year 2021.\n\nFrom the data: Year: 2021 | Value: 72.38840694\n\nAnswer: Brazil's life expectancy at birth in 2021 was 72.39 years (or 72.38840694 years to be precise).",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_04",
+      "dataset": "who",
+      "question": "What was the United Kingdom's life expectancy at birth in 2021?",
+      "expected_value": "80.10",
+      "hipporag_answer": "The data for the United Kingdom (GBR) shows that in 2021, the life expectancy at birth was 80.10062783 years.\n\nAnswer: 80.10062783 years",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_05",
+      "dataset": "who",
+      "question": "What was France's life expectancy at birth in 2021?",
+      "expected_value": "81.92",
+      "hipporag_answer": "Looking at the data for France (FRA / WHOSIS_000001), I need to find the value for Year 2021.\n\nFrom the provided data, France's entry for 2021 shows: Value: 81.92274175\n\nAnswer: France's life expectancy at birth in 2021 was 81.92 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_06",
+      "dataset": "who",
+      "question": "What was Germany's life expectancy at birth in 2021?",
+      "expected_value": "80.49",
+      "hipporag_answer": "I need to find Germany's life expectancy at birth in 2021 from the provided data.\n\nLooking at the first Wikipedia entry labeled \"Entity: DEU / WHOSIS_000001\" with \"Remark: Germany\" and \"Remark: Life expectancy at birth (years)\", I can find the year 2021 entry.\n\nYear: 2021 | Value: 80.49140555\n\nAnswer: Germany's life expectancy at birth in 2021 was 80.49 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_07",
+      "dataset": "who",
+      "question": "What was the United States' life expectancy at birth in 2021?",
+      "expected_value": "76.37",
+      "hipporag_answer": "Looking at the data provided for the USA (Entity: USA / WHOSIS_000001), I need to find the value for Year 2021.\n\nFrom the USA data:\nYear: 2021 | Value: 76.37368104\n\nAnswer: The United States' life expectancy at birth in 2021 was 76.37 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_08",
+      "dataset": "who",
+      "question": "What was India's life expectancy at birth in 2021?",
+      "expected_value": "67.3",
+      "hipporag_answer": "Looking at the data for India (IND / WHOSIS_000001), I find the entry for Year: 2021, which shows Value: 67.30780612.\n\nAnswer: India's life expectancy at birth in 2021 was 67.31 years (or 67.30780612 years to be precise).",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_09",
+      "dataset": "who",
+      "question": "What was China's life expectancy at birth in 2000?",
+      "expected_value": "70.83",
+      "hipporag_answer": "Looking at the data for China (CHN / WHOSIS_000001), the entry for Year 2000 shows a Value of 70.83886138.\n\nAnswer: China's life expectancy at birth in 2000 was 70.84 years (or 70.83886138 years to be precise).",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_10",
+      "dataset": "who",
+      "question": "What was the United States' life expectancy at birth in 2019?",
+      "expected_value": "78.73",
+      "hipporag_answer": "Looking at the data provided, the first Wikipedia entry is labeled \"Entity: USA / WHOSIS_000001\" with the remark \"United States of America\" and \"Life expectancy at birth (years)\". \n\nFor the year 2019, the value listed is 78.73923827.\n\nAnswer: The United States' life expectancy at birth in 2019 was 78.73923827 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_r01",
+      "dataset": "who",
+      "question": "Between China and India, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "China",
+      "hipporag_answer": "Looking at the data for 2021:\n- China (CHN): 77.61619672 years\n- India (IND): 67.30780612 years\n\nChina had a higher life expectancy at birth than India in 2021.\n\nAnswer: China",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_r02",
+      "dataset": "who",
+      "question": "Between France and Germany, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "France",
+      "hipporag_answer": "Looking at the 2021 data:\n- France (FRA): 81.92274175 years\n- Germany (DEU): 80.49140555 years\n\nFrance had a higher life expectancy at birth in 2021.\n\nAnswer: France",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_r03",
+      "dataset": "who",
+      "question": "Did the United States' life expectancy decrease from 2019 to 2021?",
+      "expected_value": "yes",
+      "hipporag_answer": "Looking at the USA data (WHOSIS_000001):\n- Year 2019: Value 78.73923827\n- Year 2021: Value 76.37368104\n\nThe value decreased from 78.74 to 76.37, a decline of approximately 2.36 years.\n\nAnswer: Yes, the United States' life expectancy decreased from 2019 to 2021.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_r04",
+      "dataset": "who",
+      "question": "Between the United Kingdom and the United States, which country had higher life expectancy in 2021?",
+      "expected_value": "United Kingdom",
+      "hipporag_answer": "Looking at the data for 2021:\n\n- United Kingdom (GBR): 80.10062783 years\n- United States (USA): 76.37368104 years\n\nThe United Kingdom had a higher life expectancy in 2021.\n\nAnswer: The United Kingdom had higher life expectancy in 2021 (80.10 years vs 76.37 years).",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_11",
+      "dataset": "who",
+      "question": "What was Australia's life expectancy at birth in 2021?",
+      "expected_value": "83.10",
+      "hipporag_answer": "Looking at the data for Australia (AUS / WHOSIS_000001), I need to find the value for Year 2021.\n\nFrom the provided data:\nYear: 2021 | Value: 83.10183853\n\nAnswer: Australia's life expectancy at birth in 2021 was 83.10183853 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_12",
+      "dataset": "who",
+      "question": "What was South Korea's life expectancy at birth in 2021?",
+      "expected_value": "83.79",
+      "hipporag_answer": "I need to find South Korea's life expectancy at birth in 2021 from the provided data.\n\nLooking at the first dataset labeled \"Entity: KOR / WHOSIS_000001\" with \"Remark: Republic of Korea\" and \"Remark: Life expectancy at birth (years)\", I can find the year 2021 entry.\n\nYear: 2021 | Value: 83.79982334\n\nAnswer: South Korea's life expectancy at birth in 2021 was 83.79982334 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_13",
+      "dataset": "who",
+      "question": "What was Italy's life expectancy at birth in 2021?",
+      "expected_value": "82.19",
+      "hipporag_answer": "I need to find Italy's life expectancy at birth in 2021 from the provided data.\n\nLooking at the first Wikipedia entry labeled \"Entity: ITA / WHOSIS_000001\" with \"Remark: Italy\" and \"Remark: Life expectancy at birth (years)\", I can see the year 2021 entry shows:\n\nYear: 2021 | Value: 82.19747411\n\nAnswer: Italy's life expectancy at birth in 2021 was 82.19747411 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "who_14",
+      "dataset": "who",
+      "question": "What was Spain's life expectancy at birth in 2021?",
+      "expected_value": "82.66",
+      "hipporag_answer": "I need to find Spain's life expectancy at birth in 2021 from the provided data.\n\nLooking at the first Wikipedia entry labeled \"Entity: ESP / WHOSIS_000001\" with \"Remark: Spain\" and \"Remark: Life expectancy at birth (years)\", I can find the year 2021 entry:\n\nYear: 2021 | Value: 82.66267258\n\nAnswer: Spain's life expectancy at birth in 2021 was 82.66267258 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "comp_01",
+      "dataset": "who",
+      "question": "Between Japan and Italy, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "Japan",
+      "hipporag_answer": "Looking at the 2021 life expectancy values:\n- Japan (JPN): 84.46067178 years\n- Italy (ITA): 82.19747411 years\n\nJapan had a higher life expectancy at birth in 2021 compared to Italy.\n\nAnswer: Japan",
+      "hipporag_correct": true
+    },
+    {
+      "id": "comp_02",
+      "dataset": "who",
+      "question": "Between South Korea and the United Kingdom, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "South Korea",
+      "hipporag_answer": "Looking at the data for 2021:\n\n- South Korea (KOR): 83.79982334 years\n- United Kingdom (GBR): 80.10062783 years\n\nSouth Korea had a higher life expectancy at birth in 2021.\n\nAnswer: South Korea had higher life expectancy at birth in 2021 (83.80 years vs 80.10 years).",
+      "hipporag_correct": true
+    },
+    {
+      "id": "comp_07",
+      "dataset": "who",
+      "question": "Between Russia and Brazil, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "Brazil",
+      "hipporag_answer": "Looking at the 2021 data:\n- Russia (RUS): 70.017337 years\n- Brazil (BRA): 72.38840694 years\n\nBrazil had higher life expectancy at birth in 2021.\n\nAnswer: Brazil",
+      "hipporag_correct": true
+    },
+    {
+      "id": "trend_01",
+      "dataset": "who",
+      "question": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "expected_value": "yes",
+      "hipporag_answer": "Looking at China's (CHN) life expectancy values from 2000 to 2021:\n\n2000: 70.84 → 2001: 71.13 → 2002: 71.45 → 2003: 71.69 → 2004: 71.93 → 2005: 72.44 → 2006: 73.29 → 2007: 73.84 → 2008: 73.99 → 2009: 74.39 → 2010: 74.65 → 2011: 75.04 → 2012: 75.48 → 2013: 75.84 → 2014: 76.20 → 2015: 76.51 → 2016: 76.72 → 2017: 76.95 → 2018: 77.14 → 2019: 77.31 → 2020: 77.48 → 2021: 77.62\n\nEach year's value is higher than the previous year with no decreases.\n\nAnswer: Yes, China's life expectancy at birth consistently increased from 2000 to 2021.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "trend_02",
+      "dataset": "who",
+      "question": "Did South Korea's life expectancy at birth increase from 2000 to 2021?",
+      "expected_value": "yes",
+      "hipporag_answer": "Looking at the data for South Korea (KOR / WHOSIS_000001):\n- Year 2000: Value 75.85981554\n- Year 2021: Value 83.79982334\n\nThe value increased from 75.86 to 83.80 years.\n\nAnswer: Yes, South Korea's life expectancy at birth increased from 2000 to 2021, rising by approximately 7.94 years.",
+      "hipporag_correct": true
+    },
+    {
+      "id": "trend_07",
+      "dataset": "who",
+      "question": "Did Japan's life expectancy at birth consistently increase from 2000 to 2019?",
+      "expected_value": "yes",
+      "hipporag_answer": "Looking at Japan's life expectancy values from 2000 to 2019:\n\n2000: 81.53 → 2001: 81.84 → 2002: 82.10 → 2003: 82.14 → 2004: 82.37 → 2005: 82.24 (decrease) → 2006: 82.59 → 2007: 82.76 → 2008: 82.83 → 2009: 83.16 → 2010: 83.08 (decrease) → 2011: 82.83 (decrease) → 2012: 83.33 → 2013: 83.56 → 2014: 83.79 → 2015: 83.99 → 2016: 84.16 → 2017: 84.26 → 2018: 84.35 → 2019: 84.47\n\nThere were decreases in 2005, 2010, and 2011.\n\nAnswer: No, Japan's life expectancy did not consistently increase from 2000 to 2019. There were three years with decreases: 2005, 2010, and 2011.",
+      "hipporag_correct": false
+    }
+  ]
+}

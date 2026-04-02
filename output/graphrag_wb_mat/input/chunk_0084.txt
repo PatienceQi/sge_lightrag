@@ -1,0 +1,42 @@
+Entity: GHA / SH.STA.MMRT
+Year: 1985 | Value: 943
+Year: 1986 | Value: 908
+Year: 1987 | Value: 873
+Year: 1988 | Value: 834
+Year: 1989 | Value: 799
+Year: 1990 | Value: 769
+Year: 1991 | Value: 745
+Year: 1992 | Value: 718
+Year: 1993 | Value: 696
+Year: 1994 | Value: 670
+Year: 1995 | Value: 630
+Year: 1996 | Value: 591
+Year: 1997 | Value: 553
+Year: 1998 | Value: 521
+Year: 1999 | Value: 490
+Year: 2000 | Value: 472
+Year: 2001 | Value: 460
+Year: 2002 | Value: 434
+Year: 2003 | Value: 410
+Year: 2004 | Value: 403
+Year: 2005 | Value: 390
+Year: 2006 | Value: 385
+Year: 2007 | Value: 377
+Year: 2008 | Value: 380
+Year: 2009 | Value: 369
+Year: 2010 | Value: 363
+Year: 2011 | Value: 356
+Year: 2012 | Value: 351
+Year: 2013 | Value: 338
+Year: 2014 | Value: 317
+Year: 2015 | Value: 310
+Year: 2016 | Value: 296
+Year: 2017 | Value: 287
+Year: 2018 | Value: 276
+Year: 2019 | Value: 260
+Year: 2020 | Value: 253
+Year: 2021 | Value: 264
+Year: 2022 | Value: 239
+Year: 2023 | Value: 234
+Remark: Ghana
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

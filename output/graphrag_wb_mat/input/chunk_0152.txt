@@ -1,0 +1,42 @@
+Entity: MDG / SH.STA.MMRT
+Year: 1985 | Value: 751
+Year: 1986 | Value: 730
+Year: 1987 | Value: 702
+Year: 1988 | Value: 687
+Year: 1989 | Value: 684
+Year: 1990 | Value: 692
+Year: 1991 | Value: 691
+Year: 1992 | Value: 699
+Year: 1993 | Value: 688
+Year: 1994 | Value: 688
+Year: 1995 | Value: 684
+Year: 1996 | Value: 680
+Year: 1997 | Value: 676
+Year: 1998 | Value: 663
+Year: 1999 | Value: 647
+Year: 2000 | Value: 638
+Year: 2001 | Value: 611
+Year: 2002 | Value: 593
+Year: 2003 | Value: 571
+Year: 2004 | Value: 555
+Year: 2005 | Value: 540
+Year: 2006 | Value: 528
+Year: 2007 | Value: 522
+Year: 2008 | Value: 510
+Year: 2009 | Value: 507
+Year: 2010 | Value: 500
+Year: 2011 | Value: 492
+Year: 2012 | Value: 487
+Year: 2013 | Value: 481
+Year: 2014 | Value: 477
+Year: 2015 | Value: 474
+Year: 2016 | Value: 470
+Year: 2017 | Value: 469
+Year: 2018 | Value: 466
+Year: 2019 | Value: 462
+Year: 2020 | Value: 447
+Year: 2021 | Value: 467
+Year: 2022 | Value: 439
+Year: 2023 | Value: 445
+Remark: Madagascar
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

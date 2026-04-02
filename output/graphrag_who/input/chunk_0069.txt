@@ -1,0 +1,25 @@
+Entity: GMB / WHOSIS_000001
+Year: 2000 | Value: 59.15410966
+Year: 2001 | Value: 59.40248243
+Year: 2002 | Value: 59.58972076
+Year: 2003 | Value: 59.85443013
+Year: 2004 | Value: 60.16114704
+Year: 2005 | Value: 60.52311247
+Year: 2006 | Value: 60.88522742
+Year: 2007 | Value: 61.11617054
+Year: 2008 | Value: 61.50169712
+Year: 2009 | Value: 61.85818495
+Year: 2010 | Value: 62.35679034
+Year: 2011 | Value: 62.84614338
+Year: 2012 | Value: 63.20846898
+Year: 2013 | Value: 63.42180565
+Year: 2014 | Value: 63.57797414
+Year: 2015 | Value: 63.79523685
+Year: 2016 | Value: 64.05468717
+Year: 2017 | Value: 64.31746247
+Year: 2018 | Value: 64.60661374
+Year: 2019 | Value: 64.91162984
+Year: 2020 | Value: 64.7871582
+Year: 2021 | Value: 64.21396887
+Remark: Gambia
+Remark: Life expectancy at birth (years)

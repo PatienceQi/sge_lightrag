@@ -1,0 +1,25 @@
+Entity: COM / WHOSIS_000001
+Year: 2000 | Value: 62.03733666
+Year: 2001 | Value: 62.70292188
+Year: 2002 | Value: 63.12089097
+Year: 2003 | Value: 63.63164331
+Year: 2004 | Value: 63.97536549
+Year: 2005 | Value: 64.27700657
+Year: 2006 | Value: 64.55149646
+Year: 2007 | Value: 64.77430676
+Year: 2008 | Value: 65.33611843
+Year: 2009 | Value: 65.01480079
+Year: 2010 | Value: 65.96560133
+Year: 2011 | Value: 65.80471815
+Year: 2012 | Value: 66.39715563
+Year: 2013 | Value: 66.72653391
+Year: 2014 | Value: 67.0710997
+Year: 2015 | Value: 67.42647275
+Year: 2016 | Value: 67.70212624
+Year: 2017 | Value: 67.83204139
+Year: 2018 | Value: 68.19621524
+Year: 2019 | Value: 68.10062174
+Year: 2020 | Value: 68.30703432
+Year: 2021 | Value: 67.4970386
+Remark: Comoros
+Remark: Life expectancy at birth (years)

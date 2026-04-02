@@ -1,0 +1,42 @@
+Entity: TMN / SH.STA.MMRT
+Year: 1985 | Value: 395
+Year: 1986 | Value: 372
+Year: 1987 | Value: 364
+Year: 1988 | Value: 347
+Year: 1989 | Value: 340
+Year: 1990 | Value: 338
+Year: 1991 | Value: 336
+Year: 1992 | Value: 337
+Year: 1993 | Value: 344
+Year: 1994 | Value: 358
+Year: 1995 | Value: 366
+Year: 1996 | Value: 365
+Year: 1997 | Value: 361
+Year: 1998 | Value: 358
+Year: 1999 | Value: 341
+Year: 2000 | Value: 332
+Year: 2001 | Value: 313
+Year: 2002 | Value: 298
+Year: 2003 | Value: 285
+Year: 2004 | Value: 269
+Year: 2005 | Value: 253
+Year: 2006 | Value: 235
+Year: 2007 | Value: 222
+Year: 2008 | Value: 208
+Year: 2009 | Value: 202
+Year: 2010 | Value: 196
+Year: 2011 | Value: 188
+Year: 2012 | Value: 181
+Year: 2013 | Value: 175
+Year: 2014 | Value: 169
+Year: 2015 | Value: 165
+Year: 2016 | Value: 159
+Year: 2017 | Value: 153
+Year: 2018 | Value: 150
+Year: 2019 | Value: 147
+Year: 2020 | Value: 157
+Year: 2021 | Value: 172
+Year: 2022 | Value: 138
+Year: 2023 | Value: 132
+Remark: Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

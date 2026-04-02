@@ -1,0 +1,42 @@
+Entity: PAK / SH.STA.MMRT
+Year: 1985 | Value: 432
+Year: 1986 | Value: 436
+Year: 1987 | Value: 442
+Year: 1988 | Value: 441
+Year: 1989 | Value: 439
+Year: 1990 | Value: 434
+Year: 1991 | Value: 443
+Year: 1992 | Value: 459
+Year: 1993 | Value: 473
+Year: 1994 | Value: 479
+Year: 1995 | Value: 485
+Year: 1996 | Value: 482
+Year: 1997 | Value: 476
+Year: 1998 | Value: 456
+Year: 1999 | Value: 438
+Year: 2000 | Value: 419
+Year: 2001 | Value: 400
+Year: 2002 | Value: 380
+Year: 2003 | Value: 358
+Year: 2004 | Value: 333
+Year: 2005 | Value: 316
+Year: 2006 | Value: 284
+Year: 2007 | Value: 265
+Year: 2008 | Value: 254
+Year: 2009 | Value: 246
+Year: 2010 | Value: 240
+Year: 2011 | Value: 234
+Year: 2012 | Value: 227
+Year: 2013 | Value: 220
+Year: 2014 | Value: 211
+Year: 2015 | Value: 202
+Year: 2016 | Value: 193
+Year: 2017 | Value: 184
+Year: 2018 | Value: 178
+Year: 2019 | Value: 173
+Year: 2020 | Value: 178
+Year: 2021 | Value: 193
+Year: 2022 | Value: 160
+Year: 2023 | Value: 155
+Remark: Pakistan
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,42 @@
+Entity: GMB / SH.STA.MMRT
+Year: 1985 | Value: 1454
+Year: 1986 | Value: 1401
+Year: 1987 | Value: 1360
+Year: 1988 | Value: 1302
+Year: 1989 | Value: 1258
+Year: 1990 | Value: 1207
+Year: 1991 | Value: 1167
+Year: 1992 | Value: 1115
+Year: 1993 | Value: 1072
+Year: 1994 | Value: 1039
+Year: 1995 | Value: 999
+Year: 1996 | Value: 956
+Year: 1997 | Value: 928
+Year: 1998 | Value: 867
+Year: 1999 | Value: 830
+Year: 2000 | Value: 810
+Year: 2001 | Value: 794
+Year: 2002 | Value: 772
+Year: 2003 | Value: 749
+Year: 2004 | Value: 719
+Year: 2005 | Value: 707
+Year: 2006 | Value: 682
+Year: 2007 | Value: 675
+Year: 2008 | Value: 653
+Year: 2009 | Value: 634
+Year: 2010 | Value: 632
+Year: 2011 | Value: 634
+Year: 2012 | Value: 628
+Year: 2013 | Value: 606
+Year: 2014 | Value: 561
+Year: 2015 | Value: 527
+Year: 2016 | Value: 490
+Year: 2017 | Value: 469
+Year: 2018 | Value: 450
+Year: 2019 | Value: 422
+Year: 2020 | Value: 400
+Year: 2021 | Value: 420
+Year: 2022 | Value: 365
+Year: 2023 | Value: 354
+Remark: Gambia, The
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,42 @@
+Entity: ERI / SH.STA.MMRT
+Year: 1985 | Value: 1678
+Year: 1986 | Value: 1625
+Year: 1987 | Value: 1555
+Year: 1988 | Value: 1499
+Year: 1989 | Value: 1473
+Year: 1990 | Value: 1352
+Year: 1991 | Value: 1384
+Year: 1992 | Value: 1149
+Year: 1993 | Value: 1040
+Year: 1994 | Value: 998
+Year: 1995 | Value: 854
+Year: 1996 | Value: 878
+Year: 1997 | Value: 817
+Year: 1998 | Value: 865
+Year: 1999 | Value: 734
+Year: 2000 | Value: 741
+Year: 2001 | Value: 651
+Year: 2002 | Value: 636
+Year: 2003 | Value: 588
+Year: 2004 | Value: 588
+Year: 2005 | Value: 567
+Year: 2006 | Value: 555
+Year: 2007 | Value: 541
+Year: 2008 | Value: 530
+Year: 2009 | Value: 515
+Year: 2010 | Value: 498
+Year: 2011 | Value: 478
+Year: 2012 | Value: 458
+Year: 2013 | Value: 443
+Year: 2014 | Value: 430
+Year: 2015 | Value: 413
+Year: 2016 | Value: 395
+Year: 2017 | Value: 379
+Year: 2018 | Value: 363
+Year: 2019 | Value: 351
+Year: 2020 | Value: 334
+Year: 2021 | Value: 338
+Year: 2022 | Value: 301
+Year: 2023 | Value: 291
+Remark: Eritrea
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

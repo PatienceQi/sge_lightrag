@@ -1,0 +1,25 @@
+Entity: TCD / WHOSIS_000001
+Year: 2000 | Value: 51.16932904
+Year: 2001 | Value: 51.59248612
+Year: 2002 | Value: 51.79475115
+Year: 2003 | Value: 52.10728656
+Year: 2004 | Value: 52.48451206
+Year: 2005 | Value: 52.94619682
+Year: 2006 | Value: 53.09314194
+Year: 2007 | Value: 53.97297101
+Year: 2008 | Value: 54.40322043
+Year: 2009 | Value: 55.19430969
+Year: 2010 | Value: 55.72346132
+Year: 2011 | Value: 56.17787256
+Year: 2012 | Value: 56.60362018
+Year: 2013 | Value: 57.01481483
+Year: 2014 | Value: 57.46459955
+Year: 2015 | Value: 57.84629101
+Year: 2016 | Value: 58.31677511
+Year: 2017 | Value: 58.6099778
+Year: 2018 | Value: 58.95783062
+Year: 2019 | Value: 59.37353739
+Year: 2020 | Value: 59.21180605
+Year: 2021 | Value: 59.08581443
+Remark: Chad
+Remark: Life expectancy at birth (years)

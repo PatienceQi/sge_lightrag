@@ -1,0 +1,6 @@
+Entity: Microsoft
+Year: 2015 | Value: 86833.0
+Year: 2016 | Value: 93580.0
+Year: 2017 | Value: 85320.0
+Year: 2018 | Value: 89950.0
+Year: 2019 | Value: 110360.0

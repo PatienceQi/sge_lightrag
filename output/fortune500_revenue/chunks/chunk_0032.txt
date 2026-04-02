@@ -1,0 +1,6 @@
+Entity: Procter & Gamble
+Year: 2015 | Value: 84537.0
+Year: 2016 | Value: 78756.0
+Year: 2017 | Value: 71726.0
+Year: 2018 | Value: 66217.0
+Year: 2019 | Value: 66832.0

@@ -1,0 +1,6 @@
+Entity: Humana
+Year: 2015 | Value: 48500.0
+Year: 2016 | Value: 54289.0
+Year: 2017 | Value: 54379.0
+Year: 2018 | Value: 53767.0
+Year: 2019 | Value: 56912.0

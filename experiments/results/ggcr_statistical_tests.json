@@ -1,0 +1,98 @@
+{
+  "25_entity_L3L4": [
+    {
+      "comparison": "sge_ggcr vs pure_compact",
+      "b": 23,
+      "c": 0,
+      "chi2": 21.044,
+      "p_value": 4e-06,
+      "cohens_g": 0.5,
+      "significant": true,
+      "n_pairs": 38
+    },
+    {
+      "comparison": "sge_ggcr vs naive_rag",
+      "b": 33,
+      "c": 0,
+      "chi2": 31.03,
+      "p_value": 0.0,
+      "cohens_g": 0.5,
+      "significant": true,
+      "n_pairs": 38
+    },
+    {
+      "comparison": "sge_ggcr vs concat_all",
+      "b": 2,
+      "c": 2,
+      "chi2": 0.25,
+      "p_value": 0.617,
+      "cohens_g": 0.0,
+      "significant": false,
+      "n_pairs": 38
+    }
+  ],
+  "190_entity_L3L4": [
+    {
+      "comparison": "sge_ggcr vs pure_compact",
+      "b": 17,
+      "c": 0,
+      "chi2": 15.059,
+      "p_value": 1.5e-05,
+      "cohens_g": 0.5,
+      "significant": true,
+      "n_pairs": 20
+    },
+    {
+      "comparison": "sge_ggcr vs concat_all",
+      "b": 1,
+      "c": 0,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "cohens_g": 0.5,
+      "significant": false,
+      "n_pairs": 20
+    }
+  ],
+  "25_entity_all_levels": [
+    {
+      "comparison": "sge_ggcr vs pure_compact",
+      "b": 23,
+      "c": 0,
+      "chi2": 21.044,
+      "p_value": 4e-06,
+      "cohens_g": 0.5,
+      "significant": true,
+      "n_pairs": 97
+    },
+    {
+      "comparison": "sge_ggcr vs naive_rag",
+      "b": 45,
+      "c": 0,
+      "chi2": 43.022,
+      "p_value": 0.0,
+      "cohens_g": 0.5,
+      "significant": true,
+      "n_pairs": 97
+    },
+    {
+      "comparison": "sge_ggcr vs concat_all",
+      "b": 2,
+      "c": 3,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "cohens_g": 0.1,
+      "significant": false,
+      "n_pairs": 97
+    },
+    {
+      "comparison": "sge_ggcr vs graph_native",
+      "b": 34,
+      "c": 2,
+      "chi2": 26.694,
+      "p_value": 0.0,
+      "cohens_g": 0.444,
+      "significant": true,
+      "n_pairs": 97
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+Entity: CIV / SH.STA.MMRT
+Year: 1985 | Value: 766
+Year: 1986 | Value: 735
+Year: 1987 | Value: 697
+Year: 1988 | Value: 671
+Year: 1989 | Value: 645
+Year: 1990 | Value: 619
+Year: 1991 | Value: 584
+Year: 1992 | Value: 546
+Year: 1993 | Value: 503
+Year: 1994 | Value: 463
+Year: 1995 | Value: 421
+Year: 1996 | Value: 381
+Year: 1997 | Value: 364
+Year: 1998 | Value: 380
+Year: 1999 | Value: 381
+Year: 2000 | Value: 378
+Year: 2001 | Value: 405
+Year: 2002 | Value: 427
+Year: 2003 | Value: 451
+Year: 2004 | Value: 456
+Year: 2005 | Value: 492
+Year: 2006 | Value: 544
+Year: 2007 | Value: 567
+Year: 2008 | Value: 562
+Year: 2009 | Value: 588
+Year: 2010 | Value: 592
+Year: 2011 | Value: 569
+Year: 2012 | Value: 566
+Year: 2013 | Value: 544
+Year: 2014 | Value: 522
+Year: 2015 | Value: 505
+Year: 2016 | Value: 488
+Year: 2017 | Value: 465
+Year: 2018 | Value: 449
+Year: 2019 | Value: 429
+Year: 2020 | Value: 447
+Year: 2021 | Value: 459
+Year: 2022 | Value: 409
+Year: 2023 | Value: 359
+Remark: Cote d'Ivoire
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

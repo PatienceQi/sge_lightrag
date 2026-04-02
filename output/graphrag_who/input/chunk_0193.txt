@@ -1,0 +1,25 @@
+Entity: YEM / WHOSIS_000001
+Year: 2000 | Value: 63.08164608
+Year: 2001 | Value: 63.62361632
+Year: 2002 | Value: 64.16252882
+Year: 2003 | Value: 64.67397283
+Year: 2004 | Value: 65.2063964
+Year: 2005 | Value: 65.75114077
+Year: 2006 | Value: 66.27840827
+Year: 2007 | Value: 66.73494764
+Year: 2008 | Value: 67.19372426
+Year: 2009 | Value: 67.58534902
+Year: 2010 | Value: 67.95702862
+Year: 2011 | Value: 68.13030665
+Year: 2012 | Value: 68.26819831
+Year: 2013 | Value: 68.75410162
+Year: 2014 | Value: 68.71723916
+Year: 2015 | Value: 68.25299786
+Year: 2016 | Value: 67.6890605
+Year: 2017 | Value: 67.67597451
+Year: 2018 | Value: 66.38937201
+Year: 2019 | Value: 66.89863946
+Year: 2020 | Value: 66.51267259
+Year: 2021 | Value: 65.76206783
+Remark: Yemen
+Remark: Life expectancy at birth (years)

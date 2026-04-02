@@ -1,0 +1,3 @@
+Entity: MNP / SH.STA.MMRT
+Remark: Northern Mariana Islands
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

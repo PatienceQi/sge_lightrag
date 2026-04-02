@@ -1,0 +1,25 @@
+Entity: NPL / WHOSIS_000001
+Year: 2000 | Value: 65.36598722
+Year: 2001 | Value: 66.16930825
+Year: 2002 | Value: 66.45258988
+Year: 2003 | Value: 67.3578409
+Year: 2004 | Value: 67.69735163
+Year: 2005 | Value: 68.18944823
+Year: 2006 | Value: 68.54567896
+Year: 2007 | Value: 68.80504578
+Year: 2008 | Value: 69.03486842
+Year: 2009 | Value: 69.26898964
+Year: 2010 | Value: 69.47191971
+Year: 2011 | Value: 69.60828031
+Year: 2012 | Value: 69.78951932
+Year: 2013 | Value: 69.97888467
+Year: 2014 | Value: 70.19243321
+Year: 2015 | Value: 69.77673885
+Year: 2016 | Value: 70.59248
+Year: 2017 | Value: 70.84484004
+Year: 2018 | Value: 71.10245577
+Year: 2019 | Value: 71.36142995
+Year: 2020 | Value: 70.98964531
+Year: 2021 | Value: 70.04936795
+Remark: Nepal
+Remark: Life expectancy at birth (years)

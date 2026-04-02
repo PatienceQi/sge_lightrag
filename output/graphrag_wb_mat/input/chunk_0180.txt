@@ -1,0 +1,42 @@
+Entity: NRU / SH.STA.MMRT
+Year: 1985 | Value: 191
+Year: 1986 | Value: 209
+Year: 1987 | Value: 206
+Year: 1988 | Value: 202
+Year: 1989 | Value: 198
+Year: 1990 | Value: 195
+Year: 1991 | Value: 216
+Year: 1992 | Value: 217
+Year: 1993 | Value: 219
+Year: 1994 | Value: 220
+Year: 1995 | Value: 219
+Year: 1996 | Value: 218
+Year: 1997 | Value: 218
+Year: 1998 | Value: 257
+Year: 1999 | Value: 277
+Year: 2000 | Value: 278
+Year: 2001 | Value: 299
+Year: 2002 | Value: 321
+Year: 2003 | Value: 323
+Year: 2004 | Value: 324
+Year: 2005 | Value: 328
+Year: 2006 | Value: 304
+Year: 2007 | Value: 303
+Year: 2008 | Value: 302
+Year: 2009 | Value: 300
+Year: 2010 | Value: 297
+Year: 2011 | Value: 260
+Year: 2012 | Value: 255
+Year: 2013 | Value: 247
+Year: 2014 | Value: 240
+Year: 2015 | Value: 253
+Year: 2016 | Value: 248
+Year: 2017 | Value: 259
+Year: 2018 | Value: 269
+Year: 2019 | Value: 267
+Year: 2020 | Value: 309
+Year: 2021 | Value: 266
+Year: 2022 | Value: 317
+Year: 2023 | Value: 273
+Remark: Nauru
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

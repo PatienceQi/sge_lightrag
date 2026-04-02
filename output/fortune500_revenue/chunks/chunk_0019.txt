@@ -1,0 +1,6 @@
+Entity: Alphabet
+Year: 2015 | Value: 71487.0
+Year: 2016 | Value: 74989.0
+Year: 2017 | Value: 90272.0
+Year: 2018 | Value: 110855.0
+Year: 2019 | Value: 136819.0

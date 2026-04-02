@@ -1,0 +1,42 @@
+Entity: SUR / SH.STA.MMRT
+Year: 1985 | Value: 386
+Year: 1986 | Value: 377
+Year: 1987 | Value: 372
+Year: 1988 | Value: 364
+Year: 1989 | Value: 360
+Year: 1990 | Value: 350
+Year: 1991 | Value: 347
+Year: 1992 | Value: 346
+Year: 1993 | Value: 343
+Year: 1994 | Value: 334
+Year: 1995 | Value: 331
+Year: 1996 | Value: 323
+Year: 1997 | Value: 312
+Year: 1998 | Value: 302
+Year: 1999 | Value: 291
+Year: 2000 | Value: 282
+Year: 2001 | Value: 270
+Year: 2002 | Value: 253
+Year: 2003 | Value: 238
+Year: 2004 | Value: 219
+Year: 2005 | Value: 202
+Year: 2006 | Value: 187
+Year: 2007 | Value: 173
+Year: 2008 | Value: 161
+Year: 2009 | Value: 147
+Year: 2010 | Value: 134
+Year: 2011 | Value: 126
+Year: 2012 | Value: 122
+Year: 2013 | Value: 121
+Year: 2014 | Value: 120
+Year: 2015 | Value: 115
+Year: 2016 | Value: 109
+Year: 2017 | Value: 105
+Year: 2018 | Value: 101
+Year: 2019 | Value: 97
+Year: 2020 | Value: 94
+Year: 2021 | Value: 144
+Year: 2022 | Value: 88
+Year: 2023 | Value: 84
+Remark: Suriname
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

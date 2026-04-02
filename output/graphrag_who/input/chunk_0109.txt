@@ -1,0 +1,25 @@
+Entity: MDA / WHOSIS_000001
+Year: 2000 | Value: 65.65922366
+Year: 2001 | Value: 66.20689138
+Year: 2002 | Value: 66.13288732
+Year: 2003 | Value: 66.19700504
+Year: 2004 | Value: 66.63893532
+Year: 2005 | Value: 65.99301769
+Year: 2006 | Value: 66.7168869
+Year: 2007 | Value: 67.22688687
+Year: 2008 | Value: 67.81121548
+Year: 2009 | Value: 68.02716399
+Year: 2010 | Value: 67.76693165
+Year: 2011 | Value: 69.82070445
+Year: 2012 | Value: 70.25455299
+Year: 2013 | Value: 71.32497048
+Year: 2014 | Value: 71.10984715
+Year: 2015 | Value: 71.14655162
+Year: 2016 | Value: 71.84582325
+Year: 2017 | Value: 72.85856435
+Year: 2018 | Value: 72.90339608
+Year: 2019 | Value: 73.32010877
+Year: 2020 | Value: 72.14867013
+Year: 2021 | Value: 69.55780877
+Remark: Republic of Moldova
+Remark: Life expectancy at birth (years)

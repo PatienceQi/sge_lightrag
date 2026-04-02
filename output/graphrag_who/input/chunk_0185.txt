@@ -1,0 +1,25 @@
+Entity: VNM / WHOSIS_000001
+Year: 2000 | Value: 71.87399979
+Year: 2001 | Value: 71.97988323
+Year: 2002 | Value: 72.06004934
+Year: 2003 | Value: 72.11217075
+Year: 2004 | Value: 72.15340395
+Year: 2005 | Value: 72.17650018
+Year: 2006 | Value: 72.23737668
+Year: 2007 | Value: 72.30106944
+Year: 2008 | Value: 72.35184572
+Year: 2009 | Value: 72.41132963
+Year: 2010 | Value: 72.48813081
+Year: 2011 | Value: 72.61270345
+Year: 2012 | Value: 72.74028809
+Year: 2013 | Value: 72.83984641
+Year: 2014 | Value: 72.95094965
+Year: 2015 | Value: 73.03125783
+Year: 2016 | Value: 73.21381033
+Year: 2017 | Value: 73.40138207
+Year: 2018 | Value: 73.56096825
+Year: 2019 | Value: 73.71007094
+Year: 2020 | Value: 74.77582966
+Year: 2021 | Value: 73.7965773
+Remark: Viet Nam
+Remark: Life expectancy at birth (years)

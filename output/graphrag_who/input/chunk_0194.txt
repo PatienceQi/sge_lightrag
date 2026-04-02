@@ -1,0 +1,25 @@
+Entity: ZAF / WHOSIS_000001
+Year: 2000 | Value: 57.11947907
+Year: 2001 | Value: 55.86714584
+Year: 2002 | Value: 54.31987896
+Year: 2003 | Value: 52.93394541
+Year: 2004 | Value: 52.24650084
+Year: 2005 | Value: 52.03156981
+Year: 2006 | Value: 52.10797353
+Year: 2007 | Value: 52.90958642
+Year: 2008 | Value: 53.91253666
+Year: 2009 | Value: 55.26976416
+Year: 2010 | Value: 57.09683041
+Year: 2011 | Value: 59.100348
+Year: 2012 | Value: 60.81522121
+Year: 2013 | Value: 62.08498269
+Year: 2014 | Value: 62.78312708
+Year: 2015 | Value: 63.26267522
+Year: 2016 | Value: 63.87748533
+Year: 2017 | Value: 64.74836762
+Year: 2018 | Value: 65.31532246
+Year: 2019 | Value: 65.83739077
+Year: 2020 | Value: 64.30356494
+Year: 2021 | Value: 61.49918805
+Remark: South Africa
+Remark: Life expectancy at birth (years)

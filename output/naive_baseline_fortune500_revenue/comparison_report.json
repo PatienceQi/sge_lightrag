@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-04-02T14:43:35.041418",
+  "dataset": "fortune500",
+  "csv": "/Users/qipatience/Desktop/SGE/dataset/non_gov/fortune500_revenue.csv",
+  "sge": {},
+  "serial_only": {},
+  "naive_baseline": {
+    "label": "NaiveBaseline-fortune500",
+    "chunks": 1,
+    "nodes": 50,
+    "edges": 0
+  }
+}

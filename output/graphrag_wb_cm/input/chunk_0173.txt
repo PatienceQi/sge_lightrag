@@ -1,0 +1,3 @@
+Entity: NCL / SH.DYN.MORT
+Remark: New Caledonia
+Remark: Mortality rate, under-5 (per 1,000 live births)

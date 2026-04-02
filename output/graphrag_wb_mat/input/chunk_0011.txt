@@ -1,0 +1,42 @@
+Entity: ARM / SH.STA.MMRT
+Year: 1985 | Value: 55
+Year: 1986 | Value: 54
+Year: 1987 | Value: 52
+Year: 1988 | Value: 55
+Year: 1989 | Value: 46
+Year: 1990 | Value: 47
+Year: 1991 | Value: 47
+Year: 1992 | Value: 50
+Year: 1993 | Value: 50
+Year: 1994 | Value: 51
+Year: 1995 | Value: 50
+Year: 1996 | Value: 49
+Year: 1997 | Value: 48
+Year: 1998 | Value: 45
+Year: 1999 | Value: 42
+Year: 2000 | Value: 40
+Year: 2001 | Value: 38
+Year: 2002 | Value: 36
+Year: 2003 | Value: 35
+Year: 2004 | Value: 34
+Year: 2005 | Value: 32
+Year: 2006 | Value: 31
+Year: 2007 | Value: 30
+Year: 2008 | Value: 29
+Year: 2009 | Value: 29
+Year: 2010 | Value: 28
+Year: 2011 | Value: 27
+Year: 2012 | Value: 27
+Year: 2013 | Value: 26
+Year: 2014 | Value: 26
+Year: 2015 | Value: 25
+Year: 2016 | Value: 25
+Year: 2017 | Value: 24
+Year: 2018 | Value: 24
+Year: 2019 | Value: 23
+Year: 2020 | Value: 43
+Year: 2021 | Value: 57
+Year: 2022 | Value: 27
+Year: 2023 | Value: 19
+Remark: Armenia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

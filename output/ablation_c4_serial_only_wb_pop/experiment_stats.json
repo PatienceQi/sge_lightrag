@@ -1,0 +1,9 @@
+{
+  "dataset": "wb_pop",
+  "label": "WB Population",
+  "condition": "serial_only",
+  "chunks": 265,
+  "timestamp": "2026-04-02T01:42:48.979008",
+  "nodes": 318,
+  "edges": 1453
+}

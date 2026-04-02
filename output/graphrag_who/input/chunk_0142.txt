@@ -1,0 +1,25 @@
+Entity: PRY / WHOSIS_000001
+Year: 2000 | Value: 74.68296704
+Year: 2001 | Value: 74.99163931
+Year: 2002 | Value: 75.11313392
+Year: 2003 | Value: 75.00581985
+Year: 2004 | Value: 74.56424274
+Year: 2005 | Value: 74.85137666
+Year: 2006 | Value: 74.82171264
+Year: 2007 | Value: 74.95391274
+Year: 2008 | Value: 74.99888647
+Year: 2009 | Value: 74.78626703
+Year: 2010 | Value: 74.73073675
+Year: 2011 | Value: 74.93009617
+Year: 2012 | Value: 75.12046624
+Year: 2013 | Value: 75.03958612
+Year: 2014 | Value: 75.31468858
+Year: 2015 | Value: 75.16683709
+Year: 2016 | Value: 74.86420083
+Year: 2017 | Value: 75.34684774
+Year: 2018 | Value: 75.22367023
+Year: 2019 | Value: 75.07903551
+Year: 2020 | Value: 75.24817035
+Year: 2021 | Value: 70.27080999
+Remark: Paraguay
+Remark: Life expectancy at birth (years)

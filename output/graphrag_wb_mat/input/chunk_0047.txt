@@ -1,0 +1,42 @@
+Entity: COM / SH.STA.MMRT
+Year: 1985 | Value: 850
+Year: 1986 | Value: 825
+Year: 1987 | Value: 811
+Year: 1988 | Value: 791
+Year: 1989 | Value: 768
+Year: 1990 | Value: 737
+Year: 1991 | Value: 704
+Year: 1992 | Value: 675
+Year: 1993 | Value: 642
+Year: 1994 | Value: 602
+Year: 1995 | Value: 571
+Year: 1996 | Value: 545
+Year: 1997 | Value: 520
+Year: 1998 | Value: 515
+Year: 1999 | Value: 486
+Year: 2000 | Value: 476
+Year: 2001 | Value: 440
+Year: 2002 | Value: 428
+Year: 2003 | Value: 400
+Year: 2004 | Value: 385
+Year: 2005 | Value: 373
+Year: 2006 | Value: 360
+Year: 2007 | Value: 352
+Year: 2008 | Value: 334
+Year: 2009 | Value: 320
+Year: 2010 | Value: 305
+Year: 2011 | Value: 291
+Year: 2012 | Value: 274
+Year: 2013 | Value: 260
+Year: 2014 | Value: 247
+Year: 2015 | Value: 237
+Year: 2016 | Value: 225
+Year: 2017 | Value: 219
+Year: 2018 | Value: 209
+Year: 2019 | Value: 202
+Year: 2020 | Value: 198
+Year: 2021 | Value: 215
+Year: 2022 | Value: 186
+Year: 2023 | Value: 179
+Remark: Comoros
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

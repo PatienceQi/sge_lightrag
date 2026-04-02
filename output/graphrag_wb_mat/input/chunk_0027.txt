@@ -1,0 +1,42 @@
+Entity: BLZ / SH.STA.MMRT
+Year: 1985 | Value: 98
+Year: 1986 | Value: 87
+Year: 1987 | Value: 83
+Year: 1988 | Value: 82
+Year: 1989 | Value: 80
+Year: 1990 | Value: 77
+Year: 1991 | Value: 75
+Year: 1992 | Value: 74
+Year: 1993 | Value: 73
+Year: 1994 | Value: 72
+Year: 1995 | Value: 73
+Year: 1996 | Value: 74
+Year: 1997 | Value: 77
+Year: 1998 | Value: 79
+Year: 1999 | Value: 77
+Year: 2000 | Value: 78
+Year: 2001 | Value: 76
+Year: 2002 | Value: 68
+Year: 2003 | Value: 67
+Year: 2004 | Value: 63
+Year: 2005 | Value: 60
+Year: 2006 | Value: 55
+Year: 2007 | Value: 52
+Year: 2008 | Value: 48
+Year: 2009 | Value: 45
+Year: 2010 | Value: 41
+Year: 2011 | Value: 39
+Year: 2012 | Value: 40
+Year: 2013 | Value: 41
+Year: 2014 | Value: 44
+Year: 2015 | Value: 47
+Year: 2016 | Value: 51
+Year: 2017 | Value: 56
+Year: 2018 | Value: 60
+Year: 2019 | Value: 61
+Year: 2020 | Value: 88
+Year: 2021 | Value: 157
+Year: 2022 | Value: 110
+Year: 2023 | Value: 67
+Remark: Belize
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,42 @@
+Entity: EAR / SH.STA.MMRT
+Year: 1985 | Value: 538
+Year: 1986 | Value: 517
+Year: 1987 | Value: 497
+Year: 1988 | Value: 482
+Year: 1989 | Value: 467
+Year: 1990 | Value: 456
+Year: 1991 | Value: 444
+Year: 1992 | Value: 432
+Year: 1993 | Value: 420
+Year: 1994 | Value: 429
+Year: 1995 | Value: 395
+Year: 1996 | Value: 383
+Year: 1997 | Value: 370
+Year: 1998 | Value: 357
+Year: 1999 | Value: 345
+Year: 2000 | Value: 332
+Year: 2001 | Value: 321
+Year: 2002 | Value: 305
+Year: 2003 | Value: 291
+Year: 2004 | Value: 277
+Year: 2005 | Value: 263
+Year: 2006 | Value: 249
+Year: 2007 | Value: 236
+Year: 2008 | Value: 224
+Year: 2009 | Value: 212
+Year: 2010 | Value: 201
+Year: 2011 | Value: 189
+Year: 2012 | Value: 178
+Year: 2013 | Value: 167
+Year: 2014 | Value: 156
+Year: 2015 | Value: 148
+Year: 2016 | Value: 140
+Year: 2017 | Value: 133
+Year: 2018 | Value: 128
+Year: 2019 | Value: 122
+Year: 2020 | Value: 126
+Year: 2021 | Value: 162
+Year: 2022 | Value: 112
+Year: 2023 | Value: 104
+Remark: Early-demographic dividend
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

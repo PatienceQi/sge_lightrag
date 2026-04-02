@@ -1,0 +1,6 @@
+Entity: AT&T
+Year: 2015 | Value: 132447.0
+Year: 2016 | Value: 146801.0
+Year: 2017 | Value: 163786.0
+Year: 2018 | Value: 160546.0
+Year: 2019 | Value: 170756.0

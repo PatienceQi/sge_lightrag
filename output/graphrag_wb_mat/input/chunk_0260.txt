@@ -1,0 +1,42 @@
+Entity: WLD / SH.STA.MMRT
+Year: 1985 | Value: 460
+Year: 1986 | Value: 438
+Year: 1987 | Value: 429
+Year: 1988 | Value: 414
+Year: 1989 | Value: 401
+Year: 1990 | Value: 391
+Year: 1991 | Value: 395
+Year: 1992 | Value: 395
+Year: 1993 | Value: 389
+Year: 1994 | Value: 382
+Year: 1995 | Value: 371
+Year: 1996 | Value: 366
+Year: 1997 | Value: 358
+Year: 1998 | Value: 360
+Year: 1999 | Value: 340
+Year: 2000 | Value: 328
+Year: 2001 | Value: 321
+Year: 2002 | Value: 311
+Year: 2003 | Value: 301
+Year: 2004 | Value: 291
+Year: 2005 | Value: 283
+Year: 2006 | Value: 276
+Year: 2007 | Value: 269
+Year: 2008 | Value: 264
+Year: 2009 | Value: 258
+Year: 2010 | Value: 253
+Year: 2011 | Value: 247
+Year: 2012 | Value: 239
+Year: 2013 | Value: 235
+Year: 2014 | Value: 231
+Year: 2015 | Value: 228
+Year: 2016 | Value: 220
+Year: 2017 | Value: 215
+Year: 2018 | Value: 211
+Year: 2019 | Value: 207
+Year: 2020 | Value: 211
+Year: 2021 | Value: 242
+Year: 2022 | Value: 203
+Year: 2023 | Value: 197
+Remark: World
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

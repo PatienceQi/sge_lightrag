@@ -1,0 +1,42 @@
+Entity: CHL / SH.STA.MMRT
+Year: 1985 | Value: 73
+Year: 1986 | Value: 70
+Year: 1987 | Value: 67
+Year: 1988 | Value: 64
+Year: 1989 | Value: 62
+Year: 1990 | Value: 56
+Year: 1991 | Value: 54
+Year: 1992 | Value: 52
+Year: 1993 | Value: 49
+Year: 1994 | Value: 47
+Year: 1995 | Value: 44
+Year: 1996 | Value: 41
+Year: 1997 | Value: 39
+Year: 1998 | Value: 36
+Year: 1999 | Value: 35
+Year: 2000 | Value: 33
+Year: 2001 | Value: 32
+Year: 2002 | Value: 30
+Year: 2003 | Value: 29
+Year: 2004 | Value: 28
+Year: 2005 | Value: 27
+Year: 2006 | Value: 27
+Year: 2007 | Value: 26
+Year: 2008 | Value: 24
+Year: 2009 | Value: 24
+Year: 2010 | Value: 22
+Year: 2011 | Value: 20
+Year: 2012 | Value: 18
+Year: 2013 | Value: 17
+Year: 2014 | Value: 16
+Year: 2015 | Value: 14
+Year: 2016 | Value: 13
+Year: 2017 | Value: 12
+Year: 2018 | Value: 11
+Year: 2019 | Value: 11
+Year: 2020 | Value: 12
+Year: 2021 | Value: 14
+Year: 2022 | Value: 12
+Year: 2023 | Value: 10
+Remark: Chile
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

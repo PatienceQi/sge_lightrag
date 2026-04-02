@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-04-02T16:30:00.000000",
+  "description": "Non-government domain datasets FC evaluation (corrected: true naive baseline)",
+  "methodology_note": "Previous 'baseline' incorrectly used SGE-serialized chunks (=Serial-only). Fixed to use pd.read_csv().to_string() (true naive serialization).",
+  "datasets": {
+    "fortune500_revenue": {
+      "domain": "finance",
+      "type": "Type-II",
+      "source": "github.com/cmusam/fortune500 (2015-2019)",
+      "entities": 50,
+      "gold_facts": 125,
+      "years": [2015, 2016, 2017, 2018, 2019],
+      "sge": {
+        "EC": 1.0,
+        "FC": 1.0,
+        "covered": 125,
+        "nodes": 300,
+        "edges": 250
+      },
+      "naive_baseline": {
+        "EC": 1.0,
+        "FC": 0.400,
+        "covered": 50,
+        "nodes": 50,
+        "edges": 0,
+        "note": "0 edges but FC=0.400: LLM embeds year-value data in entity descriptions without explicit relationships"
+      },
+      "serial_only": {
+        "EC": 1.0,
+        "FC": 0.0,
+        "covered": 0,
+        "nodes": 50,
+        "edges": 0,
+        "note": "SGE serialization format without Schema — worse than naive baseline"
+      },
+      "ratio": "2.50x"
+    },
+    "the_university_ranking": {
+      "domain": "academic",
+      "type": "Type-III",
+      "source": "github.com/arnaudbenard/university-ranking (THE 2011-2016)",
+      "entities": 50,
+      "gold_facts": 150,
+      "years": [2011, 2012, 2013, 2014, 2015, 2016],
+      "sge": {
+        "EC": 0.96,
+        "FC": 0.567,
+        "covered": 85,
+        "nodes": 72,
+        "edges": 196
+      },
+      "naive_baseline": {
+        "EC": 1.0,
+        "FC": 0.207,
+        "covered": 31,
+        "nodes": 61,
+        "edges": 50
+      },
+      "serial_only": {
+        "EC": 1.0,
+        "FC": 0.200,
+        "covered": 30,
+        "nodes": 61,
+        "edges": 50,
+        "note": "SGE serialization format without Schema — similar to naive baseline"
+      },
+      "ratio": "2.74x"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Entity: CVS Health
+Year: 2015 | Value: 139367.0
+Year: 2016 | Value: 153290.0
+Year: 2017 | Value: 177526.0
+Year: 2018 | Value: 184765.0
+Year: 2019 | Value: 194579.0

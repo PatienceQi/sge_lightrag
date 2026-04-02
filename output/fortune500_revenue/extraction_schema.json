@@ -1,0 +1,76 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "Company"
+  ],
+  "relation_types": [
+    "HAS_REVENUE"
+  ],
+  "column_roles": {
+    "Company_Name": "subject",
+    "2015": "time_value",
+    "2016": "time_value",
+    "2017": "time_value",
+    "2018": "time_value",
+    "2019": "time_value"
+  },
+  "entity_extraction_template": "For each row, extract the value of 'Company_Name' as a Company_Name entity node.",
+  "relation_extraction_template": "For each time column, create: (Company_Name) -[HAS_VALUE {year: X, status: Y, unit: Z}]-> (value). Example time columns: {2015}; {2016}; {2017}.",
+  "extraction_constraints": [
+    "Each row represents one Company_Name entity identified by 'Company_Name'.",
+    "Time columns encode fiscal year, status, and unit in compound headers.",
+    "Parse compound headers (newline-separated) into year/status/unit attributes.",
+    "Create one HAS_VALUE relation per (entity, time_column) pair.",
+    "Skip cells with null or non-numeric values."
+  ],
+  "parsed_time_headers": [
+    {
+      "raw": "2015",
+      "year": "2015",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2016",
+      "year": "2016",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2017",
+      "year": "2017",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2018",
+      "year": "2018",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2019",
+      "year": "2019",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    }
+  ],
+  "prompt_context": "这是一个时间序列矩阵表，记录了多家公司在2015-2019年间的年度收入数据。每一行代表一个Company实体，由Company_Name列标识。列标题（2015、2016、2017、2018、2019）表示时间维度。提取时，对于每个Company，为每个年份创建一个HAS_REVENUE关系，其中year属性为年份值（如2015），amount属性为对应的收入数值（单位：百万美元）。不要为年份或数值创建单独的实体节点，而是将它们作为HAS_REVENUE关系的属性进行编码。",
+  "extraction_rules": {
+    "subject_extraction": "Each row represents a Company entity identified by the Company_Name column value.",
+    "value_extraction": "Numeric values in year columns (2015-2019) represent revenue amounts in millions USD. Extract as floating-point numbers without unit conversion.",
+    "time_handling": "Time periods are column headers (2015, 2016, 2017, 2018, 2019). Each year is encoded as a relation attribute 'year' paired with the corresponding numeric value as 'amount'.",
+    "hierarchy": "N/A",
+    "remarks": "N/A"
+  }
+}

@@ -1,0 +1,42 @@
+Entity: DOM / SH.STA.MMRT
+Year: 1985 | Value: 249
+Year: 1986 | Value: 241
+Year: 1987 | Value: 231
+Year: 1988 | Value: 221
+Year: 1989 | Value: 213
+Year: 1990 | Value: 203
+Year: 1991 | Value: 193
+Year: 1992 | Value: 185
+Year: 1993 | Value: 176
+Year: 1994 | Value: 166
+Year: 1995 | Value: 152
+Year: 1996 | Value: 138
+Year: 1997 | Value: 122
+Year: 1998 | Value: 109
+Year: 1999 | Value: 92
+Year: 2000 | Value: 76
+Year: 2001 | Value: 68
+Year: 2002 | Value: 68
+Year: 2003 | Value: 71
+Year: 2004 | Value: 78
+Year: 2005 | Value: 83
+Year: 2006 | Value: 87
+Year: 2007 | Value: 90
+Year: 2008 | Value: 94
+Year: 2009 | Value: 96
+Year: 2010 | Value: 92
+Year: 2011 | Value: 91
+Year: 2012 | Value: 89
+Year: 2013 | Value: 91
+Year: 2014 | Value: 95
+Year: 2015 | Value: 102
+Year: 2016 | Value: 106
+Year: 2017 | Value: 104
+Year: 2018 | Value: 107
+Year: 2019 | Value: 118
+Year: 2020 | Value: 121
+Year: 2021 | Value: 153
+Year: 2022 | Value: 124
+Year: 2023 | Value: 124
+Remark: Dominican Republic
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

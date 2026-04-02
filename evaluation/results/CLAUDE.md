@@ -30,5 +30,5 @@ WB Mat:  SGE FC=0.967, Base FC=0.787, Δ=1.23×
 Inpat:   SGE FC=0.938, Base FC=0.438, Δ=2.14×
 QA:      SGE 93/100 (93%), Baseline 59/100 (59%)
 Prec:    50/50 = 100% (both systems)
-Gold:    702 facts total (600 auto + 102 manual)
+Gold:    977 facts total (600 auto + 102 manual + 275 non-gov)
 ```

@@ -1,0 +1,25 @@
+Entity: IRN / WHOSIS_000001
+Year: 2000 | Value: 73.48542569
+Year: 2001 | Value: 73.7597003
+Year: 2002 | Value: 74.01828515
+Year: 2003 | Value: 73.34953209
+Year: 2004 | Value: 74.56900109
+Year: 2005 | Value: 74.88504507
+Year: 2006 | Value: 75.20305104
+Year: 2007 | Value: 75.56586174
+Year: 2008 | Value: 75.92719356
+Year: 2009 | Value: 76.24197751
+Year: 2010 | Value: 76.56624741
+Year: 2011 | Value: 76.87171379
+Year: 2012 | Value: 77.0924022
+Year: 2013 | Value: 77.19669632
+Year: 2014 | Value: 77.29855084
+Year: 2015 | Value: 77.27827213
+Year: 2016 | Value: 77.37336206
+Year: 2017 | Value: 77.47896726
+Year: 2018 | Value: 77.69013655
+Year: 2019 | Value: 77.78361908
+Year: 2020 | Value: 75.18860837
+Year: 2021 | Value: 74.71077692
+Remark: Iran (Islamic Republic of)
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: UZB / WHOSIS_000001
+Year: 2000 | Value: 61.67667881
+Year: 2001 | Value: 62.16554368
+Year: 2002 | Value: 62.19230023
+Year: 2003 | Value: 62.74285785
+Year: 2004 | Value: 63.42369036
+Year: 2005 | Value: 63.20028511
+Year: 2006 | Value: 64.19601086
+Year: 2007 | Value: 64.796684
+Year: 2008 | Value: 65.44084852
+Year: 2009 | Value: 66.2800996
+Year: 2010 | Value: 66.71556004
+Year: 2011 | Value: 67.18064136
+Year: 2012 | Value: 67.64432032
+Year: 2013 | Value: 68.3723982
+Year: 2014 | Value: 68.81484391
+Year: 2015 | Value: 69.42591804
+Year: 2016 | Value: 69.95773109
+Year: 2017 | Value: 70.40271496
+Year: 2018 | Value: 71.46640597
+Year: 2019 | Value: 72.27007322
+Year: 2020 | Value: 71.36099727
+Year: 2021 | Value: 72.18877681
+Remark: Uzbekistan
+Remark: Life expectancy at birth (years)

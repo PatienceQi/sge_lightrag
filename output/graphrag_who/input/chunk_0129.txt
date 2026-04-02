@@ -1,0 +1,25 @@
+Entity: NOR / WHOSIS_000001
+Year: 2000 | Value: 78.53510862
+Year: 2001 | Value: 78.74570455
+Year: 2002 | Value: 78.85942368
+Year: 2003 | Value: 79.39711298
+Year: 2004 | Value: 79.81803393
+Year: 2005 | Value: 80.05177352
+Year: 2006 | Value: 80.28168328
+Year: 2007 | Value: 80.35099102
+Year: 2008 | Value: 80.49471477
+Year: 2009 | Value: 80.74746239
+Year: 2010 | Value: 80.86687696
+Year: 2011 | Value: 80.96925391
+Year: 2012 | Value: 81.23445235
+Year: 2013 | Value: 81.43412297
+Year: 2014 | Value: 81.82844761
+Year: 2015 | Value: 81.99495023
+Year: 2016 | Value: 82.11289124
+Year: 2017 | Value: 82.33383151
+Year: 2018 | Value: 82.44230107
+Year: 2019 | Value: 82.65752051
+Year: 2020 | Value: 82.83923455
+Year: 2021 | Value: 82.88199872
+Remark: Norway
+Remark: Life expectancy at birth (years)

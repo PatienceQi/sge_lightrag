@@ -1,0 +1,6 @@
+Entity: McKesson
+Year: 2015 | Value: 138030.0
+Year: 2016 | Value: 181241.0
+Year: 2017 | Value: 192487.0
+Year: 2018 | Value: 198533.0
+Year: 2019 | Value: 208357.0

@@ -1,0 +1,42 @@
+Entity: ZAF / SH.STA.MMRT
+Year: 1985 | Value: 208
+Year: 1986 | Value: 200
+Year: 1987 | Value: 192
+Year: 1988 | Value: 184
+Year: 1989 | Value: 177
+Year: 1990 | Value: 170
+Year: 1991 | Value: 162
+Year: 1992 | Value: 152
+Year: 1993 | Value: 145
+Year: 1994 | Value: 133
+Year: 1995 | Value: 125
+Year: 1996 | Value: 150
+Year: 1997 | Value: 152
+Year: 1998 | Value: 152
+Year: 1999 | Value: 151
+Year: 2000 | Value: 175
+Year: 2001 | Value: 192
+Year: 2002 | Value: 225
+Year: 2003 | Value: 245
+Year: 2004 | Value: 259
+Year: 2005 | Value: 279
+Year: 2006 | Value: 283
+Year: 2007 | Value: 272
+Year: 2008 | Value: 272
+Year: 2009 | Value: 241
+Year: 2010 | Value: 226
+Year: 2011 | Value: 202
+Year: 2012 | Value: 194
+Year: 2013 | Value: 180
+Year: 2014 | Value: 162
+Year: 2015 | Value: 150
+Year: 2016 | Value: 141
+Year: 2017 | Value: 134
+Year: 2018 | Value: 128
+Year: 2019 | Value: 119
+Year: 2020 | Value: 118
+Year: 2021 | Value: 191
+Year: 2022 | Value: 129
+Year: 2023 | Value: 118
+Remark: South Africa
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

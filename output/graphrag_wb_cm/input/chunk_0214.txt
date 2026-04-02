@@ -1,0 +1,45 @@
+Entity: SOM / SH.DYN.MORT
+Year: 1982 | Value: 201.2
+Year: 1983 | Value: 198.1
+Year: 1984 | Value: 194.9
+Year: 1985 | Value: 192.5
+Year: 1986 | Value: 190.2
+Year: 1987 | Value: 188.2
+Year: 1988 | Value: 186
+Year: 1989 | Value: 183.3
+Year: 1990 | Value: 180
+Year: 1991 | Value: 442.9
+Year: 1992 | Value: 456
+Year: 1993 | Value: 172.6
+Year: 1994 | Value: 172.3
+Year: 1995 | Value: 172.3
+Year: 1996 | Value: 172.3
+Year: 1997 | Value: 172.3
+Year: 1998 | Value: 172.3
+Year: 1999 | Value: 172.3
+Year: 2000 | Value: 172.3
+Year: 2001 | Value: 172.3
+Year: 2002 | Value: 172.3
+Year: 2003 | Value: 172.3
+Year: 2004 | Value: 172.3
+Year: 2005 | Value: 172.3
+Year: 2006 | Value: 171.5
+Year: 2007 | Value: 169.7
+Year: 2008 | Value: 166.1
+Year: 2009 | Value: 161.8
+Year: 2010 | Value: 185.9
+Year: 2011 | Value: 358.5
+Year: 2012 | Value: 184.1
+Year: 2013 | Value: 142.6
+Year: 2014 | Value: 137.8
+Year: 2015 | Value: 133.6
+Year: 2016 | Value: 129.6
+Year: 2017 | Value: 155.4
+Year: 2018 | Value: 136
+Year: 2019 | Value: 118.1
+Year: 2020 | Value: 114.4
+Year: 2021 | Value: 110.9
+Year: 2022 | Value: 142.9
+Year: 2023 | Value: 104
+Remark: Somalia, Fed. Rep.
+Remark: Mortality rate, under-5 (per 1,000 live births)

@@ -1,0 +1,6 @@
+Entity: Amazon.com
+Year: 2015 | Value: 88988.0
+Year: 2016 | Value: 107006.0
+Year: 2017 | Value: 135987.0
+Year: 2018 | Value: 177866.0
+Year: 2019 | Value: 232887.0

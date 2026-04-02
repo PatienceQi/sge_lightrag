@@ -1,0 +1,25 @@
+Entity: CMR / WHOSIS_000001
+Year: 2000 | Value: 52.95852821
+Year: 2001 | Value: 52.89875064
+Year: 2002 | Value: 52.90318218
+Year: 2003 | Value: 53.05889292
+Year: 2004 | Value: 53.56554781
+Year: 2005 | Value: 54.1270059
+Year: 2006 | Value: 54.52792524
+Year: 2007 | Value: 55.00397444
+Year: 2008 | Value: 55.69426406
+Year: 2009 | Value: 56.2682285
+Year: 2010 | Value: 56.78466995
+Year: 2011 | Value: 57.25716759
+Year: 2012 | Value: 57.77355305
+Year: 2013 | Value: 58.1602222
+Year: 2014 | Value: 58.43615921
+Year: 2015 | Value: 58.9843954
+Year: 2016 | Value: 59.79056297
+Year: 2017 | Value: 60.64260038
+Year: 2018 | Value: 61.3869156
+Year: 2019 | Value: 62.02612874
+Year: 2020 | Value: 62.18085382
+Year: 2021 | Value: 61.76934896
+Remark: Cameroon
+Remark: Life expectancy at birth (years)

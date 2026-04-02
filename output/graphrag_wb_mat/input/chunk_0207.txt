@@ -1,0 +1,42 @@
+Entity: SDN / SH.STA.MMRT
+Year: 1985 | Value: 980
+Year: 1986 | Value: 938
+Year: 1987 | Value: 914
+Year: 1988 | Value: 877
+Year: 1989 | Value: 881
+Year: 1990 | Value: 840
+Year: 1991 | Value: 873
+Year: 1992 | Value: 863
+Year: 1993 | Value: 839
+Year: 1994 | Value: 775
+Year: 1995 | Value: 730
+Year: 1996 | Value: 712
+Year: 1997 | Value: 681
+Year: 1998 | Value: 669
+Year: 1999 | Value: 662
+Year: 2000 | Value: 645
+Year: 2001 | Value: 616
+Year: 2002 | Value: 588
+Year: 2003 | Value: 593
+Year: 2004 | Value: 536
+Year: 2005 | Value: 506
+Year: 2006 | Value: 485
+Year: 2007 | Value: 445
+Year: 2008 | Value: 426
+Year: 2009 | Value: 382
+Year: 2010 | Value: 370
+Year: 2011 | Value: 357
+Year: 2012 | Value: 340
+Year: 2013 | Value: 327
+Year: 2014 | Value: 309
+Year: 2015 | Value: 298
+Year: 2016 | Value: 288
+Year: 2017 | Value: 277
+Year: 2018 | Value: 268
+Year: 2019 | Value: 262
+Year: 2020 | Value: 273
+Year: 2021 | Value: 305
+Year: 2022 | Value: 263
+Year: 2023 | Value: 256
+Remark: Sudan
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

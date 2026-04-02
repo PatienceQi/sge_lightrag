@@ -1,0 +1,25 @@
+Entity: RUS / WHOSIS_000001
+Year: 2000 | Value: 65.15997475
+Year: 2001 | Value: 65.100666
+Year: 2002 | Value: 64.86108252
+Year: 2003 | Value: 64.72303979
+Year: 2004 | Value: 65.14346957
+Year: 2005 | Value: 65.18978014
+Year: 2006 | Value: 66.48842347
+Year: 2007 | Value: 67.42224647
+Year: 2008 | Value: 67.78990217
+Year: 2009 | Value: 68.55662333
+Year: 2010 | Value: 68.82506177
+Year: 2011 | Value: 69.77052933
+Year: 2012 | Value: 70.1880117
+Year: 2013 | Value: 70.69584464
+Year: 2014 | Value: 70.68556822
+Year: 2015 | Value: 71.29790344
+Year: 2016 | Value: 71.6156235
+Year: 2017 | Value: 72.49941608
+Year: 2018 | Value: 72.66311936
+Year: 2019 | Value: 73.21856487
+Year: 2020 | Value: 71.37748039
+Year: 2021 | Value: 70.017337
+Remark: Russian Federation
+Remark: Life expectancy at birth (years)

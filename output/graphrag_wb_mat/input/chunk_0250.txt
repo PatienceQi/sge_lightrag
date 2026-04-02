@@ -1,0 +1,42 @@
+Entity: UMC / SH.STA.MMRT
+Year: 1985 | Value: 171
+Year: 1986 | Value: 160
+Year: 1987 | Value: 151
+Year: 1988 | Value: 146
+Year: 1989 | Value: 138
+Year: 1990 | Value: 134
+Year: 1991 | Value: 129
+Year: 1992 | Value: 123
+Year: 1993 | Value: 117
+Year: 1994 | Value: 115
+Year: 1995 | Value: 112
+Year: 1996 | Value: 110
+Year: 1997 | Value: 107
+Year: 1998 | Value: 103
+Year: 1999 | Value: 101
+Year: 2000 | Value: 97
+Year: 2001 | Value: 94
+Year: 2002 | Value: 91
+Year: 2003 | Value: 90
+Year: 2004 | Value: 90
+Year: 2005 | Value: 87
+Year: 2006 | Value: 86
+Year: 2007 | Value: 83
+Year: 2008 | Value: 82
+Year: 2009 | Value: 78
+Year: 2010 | Value: 76
+Year: 2011 | Value: 73
+Year: 2012 | Value: 69
+Year: 2013 | Value: 66
+Year: 2014 | Value: 63
+Year: 2015 | Value: 61
+Year: 2016 | Value: 58
+Year: 2017 | Value: 55
+Year: 2018 | Value: 56
+Year: 2019 | Value: 55
+Year: 2020 | Value: 67
+Year: 2021 | Value: 93
+Year: 2022 | Value: 66
+Year: 2023 | Value: 57
+Remark: Upper middle income
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

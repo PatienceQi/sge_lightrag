@@ -1,0 +1,42 @@
+Entity: VEN / SH.STA.MMRT
+Year: 1985 | Value: 83
+Year: 1986 | Value: 81
+Year: 1987 | Value: 81
+Year: 1988 | Value: 80
+Year: 1989 | Value: 80
+Year: 1990 | Value: 83
+Year: 1991 | Value: 80
+Year: 1992 | Value: 82
+Year: 1993 | Value: 82
+Year: 1994 | Value: 84
+Year: 1995 | Value: 84
+Year: 1996 | Value: 86
+Year: 1997 | Value: 82
+Year: 1998 | Value: 82
+Year: 1999 | Value: 88
+Year: 2000 | Value: 86
+Year: 2001 | Value: 101
+Year: 2002 | Value: 87
+Year: 2003 | Value: 97
+Year: 2004 | Value: 94
+Year: 2005 | Value: 93
+Year: 2006 | Value: 96
+Year: 2007 | Value: 92
+Year: 2008 | Value: 103
+Year: 2009 | Value: 109
+Year: 2010 | Value: 110
+Year: 2011 | Value: 104
+Year: 2012 | Value: 113
+Year: 2013 | Value: 123
+Year: 2014 | Value: 133
+Year: 2015 | Value: 136
+Year: 2016 | Value: 162
+Year: 2017 | Value: 195
+Year: 2018 | Value: 205
+Year: 2019 | Value: 202
+Year: 2020 | Value: 207
+Year: 2021 | Value: 251
+Year: 2022 | Value: 219
+Year: 2023 | Value: 227
+Remark: Venezuela, RB
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,37 @@
+Entity: MEA / SH.DYN.MORT
+Year: 1990 | Value: 68.8
+Year: 1991 | Value: 65.1
+Year: 1992 | Value: 61.6
+Year: 1993 | Value: 59.2
+Year: 1994 | Value: 57
+Year: 1995 | Value: 54.9
+Year: 1996 | Value: 52.6
+Year: 1997 | Value: 50.5
+Year: 1998 | Value: 48.3
+Year: 1999 | Value: 46.1
+Year: 2000 | Value: 44
+Year: 2001 | Value: 41.9
+Year: 2002 | Value: 40
+Year: 2003 | Value: 38.2
+Year: 2004 | Value: 36.4
+Year: 2005 | Value: 34.8
+Year: 2006 | Value: 33.2
+Year: 2007 | Value: 31.5
+Year: 2008 | Value: 30.1
+Year: 2009 | Value: 28.8
+Year: 2010 | Value: 27.6
+Year: 2011 | Value: 26.8
+Year: 2012 | Value: 26.6
+Year: 2013 | Value: 25.8
+Year: 2014 | Value: 24.9
+Year: 2015 | Value: 24.3
+Year: 2016 | Value: 23.3
+Year: 2017 | Value: 22.8
+Year: 2018 | Value: 22.5
+Year: 2019 | Value: 21.9
+Year: 2020 | Value: 21.2
+Year: 2021 | Value: 20.7
+Year: 2022 | Value: 20.2
+Year: 2023 | Value: 20
+Remark: Middle East, North Africa, Afghanistan & Pakistan
+Remark: Mortality rate, under-5 (per 1,000 live births)

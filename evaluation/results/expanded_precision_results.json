@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "seed": 42,
+    "sample_size_per_dataset": 25,
+    "datasets_new": [
+      "wb_child_mortality",
+      "wb_population",
+      "wb_maternal"
+    ],
+    "datasets_existing": [
+      "who_life_expectancy",
+      "inpatient_2023"
+    ],
+    "total_samples": 125,
+    "description": "Expanded precision evaluation: 50 existing (WHO + Inpatient) + 75 new (WB CM + WB Pop + WB Maternal) = 125 total edges."
+  },
+  "new_datasets": {
+    "wb_child_mortality": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    },
+    "wb_population": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    },
+    "wb_maternal": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    }
+  },
+  "existing_datasets": {
+    "who_life_expectancy": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    },
+    "inpatient_2023": {
+      "correct": 25,
+      "total": 25,
+      "precision": 1.0
+    }
+  },
+  "combined": {
+    "correct": 125,
+    "total": 125,
+    "precision": 1.0
+  }
+}

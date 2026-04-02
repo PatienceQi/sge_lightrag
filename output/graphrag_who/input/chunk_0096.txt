@@ -1,0 +1,25 @@
+Entity: KOR / WHOSIS_000001
+Year: 2000 | Value: 75.85981554
+Year: 2001 | Value: 76.56907797
+Year: 2002 | Value: 76.94317285
+Year: 2003 | Value: 77.4435747
+Year: 2004 | Value: 77.92814417
+Year: 2005 | Value: 78.37092125
+Year: 2006 | Value: 78.96689178
+Year: 2007 | Value: 79.37954426
+Year: 2008 | Value: 79.90917941
+Year: 2009 | Value: 80.36278413
+Year: 2010 | Value: 80.53713356
+Year: 2011 | Value: 80.95337202
+Year: 2012 | Value: 81.13219539
+Year: 2013 | Value: 81.68616863
+Year: 2014 | Value: 82.15999534
+Year: 2015 | Value: 82.40187033
+Year: 2016 | Value: 82.73176167
+Year: 2017 | Value: 83.09217588
+Year: 2018 | Value: 83.15048365
+Year: 2019 | Value: 83.68842093
+Year: 2020 | Value: 83.79726372
+Year: 2021 | Value: 83.79982334
+Remark: Republic of Korea
+Remark: Life expectancy at birth (years)

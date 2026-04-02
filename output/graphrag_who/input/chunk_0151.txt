@@ -1,0 +1,25 @@
+Entity: SEN / WHOSIS_000001
+Year: 2000 | Value: 58.6097114
+Year: 2001 | Value: 59.28989485
+Year: 2002 | Value: 59.79580137
+Year: 2003 | Value: 60.79093407
+Year: 2004 | Value: 61.57202557
+Year: 2005 | Value: 62.36297007
+Year: 2006 | Value: 63.06775371
+Year: 2007 | Value: 63.89029063
+Year: 2008 | Value: 64.57897818
+Year: 2009 | Value: 65.11616175
+Year: 2010 | Value: 65.56526204
+Year: 2011 | Value: 65.97224307
+Year: 2012 | Value: 66.29422396
+Year: 2013 | Value: 66.58590644
+Year: 2014 | Value: 66.97585439
+Year: 2015 | Value: 67.3624183
+Year: 2016 | Value: 67.7658388
+Year: 2017 | Value: 68.11975233
+Year: 2018 | Value: 68.44236378
+Year: 2019 | Value: 68.76445374
+Year: 2020 | Value: 68.56112195
+Year: 2021 | Value: 67.79198263
+Remark: Senegal
+Remark: Life expectancy at birth (years)

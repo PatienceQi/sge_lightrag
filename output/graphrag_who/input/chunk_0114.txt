@@ -1,0 +1,25 @@
+Entity: MLI / WHOSIS_000001
+Year: 2000 | Value: 53.05862872
+Year: 2001 | Value: 53.62181973
+Year: 2002 | Value: 54.16297861
+Year: 2003 | Value: 54.85059982
+Year: 2004 | Value: 55.6927022
+Year: 2005 | Value: 56.25739607
+Year: 2006 | Value: 56.77509358
+Year: 2007 | Value: 57.34348988
+Year: 2008 | Value: 57.78455925
+Year: 2009 | Value: 58.27710615
+Year: 2010 | Value: 58.64806217
+Year: 2011 | Value: 59.04750126
+Year: 2012 | Value: 59.27099434
+Year: 2013 | Value: 59.37937448
+Year: 2014 | Value: 59.77561439
+Year: 2015 | Value: 60.12125985
+Year: 2016 | Value: 60.63666584
+Year: 2017 | Value: 61.01919215
+Year: 2018 | Value: 61.31661022
+Year: 2019 | Value: 61.83290988
+Year: 2020 | Value: 61.46815324
+Year: 2021 | Value: 61.67398609
+Remark: Mali
+Remark: Life expectancy at birth (years)

@@ -37,12 +37,15 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `run_qa_eval.py` — Downstream QA via direct graph context (100 questions)
 - `run_precision_analysis.py` — Graph topology + sampled precision (50/50 = 100%)
 - `ablation_misclassify.py` — Stage 1 misclassification ablation
+- `generate_gold_non_gov.py` — Non-government Gold Standard generation
+- `table_aware_baseline.py` — Table-aware prompt baseline (weak + strong)
+- `error_analysis_schema_only.py` — Schema-only failure mode analysis
 - `gold/` — Gold standard JSONL files (DO NOT modify without instruction)
 - `results/` — Authoritative evaluation result JSONs
 
 ### Experiments (`experiments/`)
 - `results/` — Experiment output JSONs (Wilcoxon, probes, ablations, etc.)
-- 18 experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations
+- 21 experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, non-gov domain, table-aware baseline, schema-only error analysis
 
 ## Key Design Decisions
 
@@ -104,6 +107,9 @@ sge_lightrag/
 | `evaluation/results/all_results_v2.json` | Authoritative v2 evaluation numbers |
 | `evaluation/results/qa_results_v3_100q.json` | Authoritative QA results (93/100 SGE, 59/100 Baseline) |
 | `evaluation/results/debiased_results.json` | Value-first de-biased FC results |
+| `evaluation/results/non_gov_fc_results.json` | Non-government domain FC results |
+| `experiments/results/error_analysis_results.json` | Schema-only error analysis |
+| `experiments/results/unified_cross_system.json` | Central aggregation of all results |
 
 ## Conventions
 

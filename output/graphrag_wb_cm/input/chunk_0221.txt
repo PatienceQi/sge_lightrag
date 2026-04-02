@@ -1,0 +1,44 @@
+Entity: SUR / SH.DYN.MORT
+Year: 1983 | Value: 56.7
+Year: 1984 | Value: 54.9
+Year: 1985 | Value: 53.1
+Year: 1986 | Value: 51.3
+Year: 1987 | Value: 49.7
+Year: 1988 | Value: 48.1
+Year: 1989 | Value: 46.5
+Year: 1990 | Value: 44.9
+Year: 1991 | Value: 43.4
+Year: 1992 | Value: 41.9
+Year: 1993 | Value: 40.3
+Year: 1994 | Value: 38.8
+Year: 1995 | Value: 37.4
+Year: 1996 | Value: 36
+Year: 1997 | Value: 34.7
+Year: 1998 | Value: 33.4
+Year: 1999 | Value: 32.2
+Year: 2000 | Value: 31.1
+Year: 2001 | Value: 30
+Year: 2002 | Value: 29
+Year: 2003 | Value: 28.1
+Year: 2004 | Value: 27.2
+Year: 2005 | Value: 26.4
+Year: 2006 | Value: 25.7
+Year: 2007 | Value: 25
+Year: 2008 | Value: 24.4
+Year: 2009 | Value: 23.8
+Year: 2010 | Value: 23.2
+Year: 2011 | Value: 22.6
+Year: 2012 | Value: 22.1
+Year: 2013 | Value: 21.6
+Year: 2014 | Value: 21.1
+Year: 2015 | Value: 20.5
+Year: 2016 | Value: 20
+Year: 2017 | Value: 19.5
+Year: 2018 | Value: 19
+Year: 2019 | Value: 18.4
+Year: 2020 | Value: 17.8
+Year: 2021 | Value: 17.3
+Year: 2022 | Value: 16.8
+Year: 2023 | Value: 16.2
+Remark: Suriname
+Remark: Mortality rate, under-5 (per 1,000 live births)

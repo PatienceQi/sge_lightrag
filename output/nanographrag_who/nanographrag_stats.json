@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-04-01T23:43:51.828374",
+  "system": "nano_graphrag_baseline",
+  "dataset": "who",
+  "csv_path": "/Users/qipatience/Desktop/SGE/sge_lightrag/dataset/WHO/API_WHO_WHOSIS_000001_life_expectancy.csv",
+  "working_dir": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/nanographrag_who",
+  "config": {
+    "llm_model": "claude-haiku-4-5-20251001",
+    "llm_base_url": "https://wolfai.top/v1",
+    "embedding_model": "mxbai-embed-large",
+    "embedding_base_url": "http://127.0.0.1:11434"
+  },
+  "chunks_inserted": 196,
+  "elapsed_seconds": 343.022485,
+  "graphml_path": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/nanographrag_who/graph_chunk_entity_relation.graphml"
+}

@@ -9,6 +9,8 @@ Output JSONs from experiment scripts. These support paper claims but are **NOT**
 | `decoupled_ablation_results.json` | ablation/run_decoupled_ablation.py | Table 4 (Schema-only condition) |
 | `threshold_sensitivity_results.json` | ablation/threshold_sensitivity.py | §4.3 threshold sweep |
 | `type1_sanity_check_results.json` | ablation/run_type1_sanity_check.py | §4.1 Type-I compatibility |
+| `error_analysis_results.json` | ablation/error_analysis_schema_only.py | §4.3 Error Analysis table |
+| `decoupled_ablation_extended_results.json` | ablation/run_decoupled_ablation_extended.py | Table 4 (WB Pop + WB Mat rows) |
 
 ## Statistical Tests
 
@@ -19,6 +21,7 @@ Output JSONs from experiment scripts. These support paper claims but are **NOT**
 | `paired_mcnemar_results.json` | statistical/paired_mcnemar.py | Appendix C Table C4 |
 | `leave_one_domain_out_results.json` | statistical/leave_one_domain_out.py | §4.3 LODO |
 | `v3_gold_standard_results.json` | statistical/v3_evaluate_and_stats.py | §4.1 Gold Standard v3 |
+| `permutation_test_results.json` | statistical/permutation_test.py | §4.2 Permutation test p-values |
 
 ## Downstream Probes & E2E
 
@@ -37,6 +40,8 @@ Output JSONs from experiment scripts. These support paper claims but are **NOT**
 | File | Script | Paper Section |
 |------|--------|--------------|
 | `crossmodel_expansion_results.json` | crossmodel/run_crossmodel_expansion.py | Table 9 |
+| `ggcr_results_multi_indicator.json` | ggcr/multi_indicator_run.py | Table 9b (1143 entities, 50 questions) |
+| `unified_cross_system.json` | — | Central aggregation of all cross-system results |
 
 ## OOD
 

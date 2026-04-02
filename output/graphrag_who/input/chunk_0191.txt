@@ -1,0 +1,24 @@
+Entity: WPR / WHOSIS_000001
+Year: 2000 | Value: 71.96302959
+Year: 2001 | Value: 72.23557905
+Year: 2002 | Value: 72.52305924
+Year: 2003 | Value: 72.71503181
+Year: 2004 | Value: 72.92242384
+Year: 2005 | Value: 73.33346567
+Year: 2006 | Value: 74.06441894
+Year: 2007 | Value: 74.54521674
+Year: 2008 | Value: 74.68933231
+Year: 2009 | Value: 75.02841936
+Year: 2010 | Value: 75.2467766
+Year: 2011 | Value: 75.55207918
+Year: 2012 | Value: 75.95105819
+Year: 2013 | Value: 76.25932609
+Year: 2014 | Value: 76.5927032
+Year: 2015 | Value: 76.83133302
+Year: 2016 | Value: 77.00014055
+Year: 2017 | Value: 77.21591876
+Year: 2018 | Value: 77.3741563
+Year: 2019 | Value: 77.48911331
+Year: 2020 | Value: 77.70194212
+Year: 2021 | Value: 77.41814299
+Remark: Life expectancy at birth (years)

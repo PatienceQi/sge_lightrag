@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-04-02T11:22:27.637130",
+  "dataset": "WHO Life Expectancy",
+  "description": "Strong table-aware prompt baseline with full column metadata, sample data, entity types, relationship templates",
+  "strong_table_aware": {
+    "EC": 0.28,
+    "FC": 0.253,
+    "covered": 38,
+    "total": 150,
+    "nodes": 1149,
+    "edges": 1100
+  },
+  "weak_table_aware": {
+    "FC": 0.173,
+    "note": "from previous experiment"
+  },
+  "sge_full": {
+    "FC": 1.0
+  },
+  "baseline": {
+    "FC": 0.167
+  },
+  "conclusion": "Strong prompt improves FC by +0.086 over baseline (0.253 vs 0.167), but remains far below SGE (1.000). Even with complete column metadata, sample rows, entity type definitions, and relationship templates, prompt-only approach cannot solve structural blindness."
+}

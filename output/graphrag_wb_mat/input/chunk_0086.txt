@@ -1,0 +1,42 @@
+Entity: GIN / SH.STA.MMRT
+Year: 1985 | Value: 1248
+Year: 1986 | Value: 1234
+Year: 1987 | Value: 1218
+Year: 1988 | Value: 1202
+Year: 1989 | Value: 1188
+Year: 1990 | Value: 1162
+Year: 1991 | Value: 1143
+Year: 1992 | Value: 1124
+Year: 1993 | Value: 1094
+Year: 1994 | Value: 1081
+Year: 1995 | Value: 1042
+Year: 1996 | Value: 1010
+Year: 1997 | Value: 994
+Year: 1998 | Value: 971
+Year: 1999 | Value: 960
+Year: 2000 | Value: 951
+Year: 2001 | Value: 946
+Year: 2002 | Value: 916
+Year: 2003 | Value: 892
+Year: 2004 | Value: 869
+Year: 2005 | Value: 843
+Year: 2006 | Value: 825
+Year: 2007 | Value: 802
+Year: 2008 | Value: 772
+Year: 2009 | Value: 766
+Year: 2010 | Value: 750
+Year: 2011 | Value: 728
+Year: 2012 | Value: 703
+Year: 2013 | Value: 682
+Year: 2014 | Value: 664
+Year: 2015 | Value: 642
+Year: 2016 | Value: 606
+Year: 2017 | Value: 582
+Year: 2018 | Value: 560
+Year: 2019 | Value: 548
+Year: 2020 | Value: 528
+Year: 2021 | Value: 533
+Year: 2022 | Value: 500
+Year: 2023 | Value: 494
+Remark: Guinea
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

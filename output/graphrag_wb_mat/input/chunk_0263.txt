@@ -1,0 +1,42 @@
+Entity: YEM / SH.STA.MMRT
+Year: 1985 | Value: 430
+Year: 1986 | Value: 430
+Year: 1987 | Value: 400
+Year: 1988 | Value: 388
+Year: 1989 | Value: 371
+Year: 1990 | Value: 359
+Year: 1991 | Value: 341
+Year: 1992 | Value: 330
+Year: 1993 | Value: 319
+Year: 1994 | Value: 311
+Year: 1995 | Value: 296
+Year: 1996 | Value: 282
+Year: 1997 | Value: 271
+Year: 1998 | Value: 260
+Year: 1999 | Value: 250
+Year: 2000 | Value: 241
+Year: 2001 | Value: 231
+Year: 2002 | Value: 218
+Year: 2003 | Value: 205
+Year: 2004 | Value: 194
+Year: 2005 | Value: 181
+Year: 2006 | Value: 171
+Year: 2007 | Value: 161
+Year: 2008 | Value: 153
+Year: 2009 | Value: 149
+Year: 2010 | Value: 144
+Year: 2011 | Value: 140
+Year: 2012 | Value: 137
+Year: 2013 | Value: 135
+Year: 2014 | Value: 134
+Year: 2015 | Value: 135
+Year: 2016 | Value: 134
+Year: 2017 | Value: 142
+Year: 2018 | Value: 134
+Year: 2019 | Value: 131
+Year: 2020 | Value: 135
+Year: 2021 | Value: 156
+Year: 2022 | Value: 125
+Year: 2023 | Value: 118
+Remark: Yemen, Rep.
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

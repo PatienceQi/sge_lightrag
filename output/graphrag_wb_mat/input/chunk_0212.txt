@@ -1,0 +1,42 @@
+Entity: SLV / SH.STA.MMRT
+Year: 1985 | Value: 193
+Year: 1986 | Value: 169
+Year: 1987 | Value: 178
+Year: 1988 | Value: 173
+Year: 1989 | Value: 155
+Year: 1990 | Value: 145
+Year: 1991 | Value: 129
+Year: 1992 | Value: 121
+Year: 1993 | Value: 114
+Year: 1994 | Value: 101
+Year: 1995 | Value: 89
+Year: 1996 | Value: 78
+Year: 1997 | Value: 67
+Year: 1998 | Value: 61
+Year: 1999 | Value: 53
+Year: 2000 | Value: 48
+Year: 2001 | Value: 45
+Year: 2002 | Value: 40
+Year: 2003 | Value: 38
+Year: 2004 | Value: 35
+Year: 2005 | Value: 34
+Year: 2006 | Value: 33
+Year: 2007 | Value: 33
+Year: 2008 | Value: 33
+Year: 2009 | Value: 35
+Year: 2010 | Value: 34
+Year: 2011 | Value: 35
+Year: 2012 | Value: 36
+Year: 2013 | Value: 39
+Year: 2014 | Value: 41
+Year: 2015 | Value: 43
+Year: 2016 | Value: 43
+Year: 2017 | Value: 44
+Year: 2018 | Value: 43
+Year: 2019 | Value: 40
+Year: 2020 | Value: 48
+Year: 2021 | Value: 58
+Year: 2022 | Value: 39
+Year: 2023 | Value: 39
+Remark: El Salvador
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

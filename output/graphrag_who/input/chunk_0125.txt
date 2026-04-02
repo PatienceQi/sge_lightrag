@@ -1,0 +1,25 @@
+Entity: NER / WHOSIS_000001
+Year: 2000 | Value: 50.24298341
+Year: 2001 | Value: 50.89945855
+Year: 2002 | Value: 51.88652859
+Year: 2003 | Value: 52.7806989
+Year: 2004 | Value: 53.86159387
+Year: 2005 | Value: 54.754071
+Year: 2006 | Value: 55.74288168
+Year: 2007 | Value: 56.45936065
+Year: 2008 | Value: 57.32288169
+Year: 2009 | Value: 57.84177819
+Year: 2010 | Value: 58.29155093
+Year: 2011 | Value: 58.60580875
+Year: 2012 | Value: 58.92187052
+Year: 2013 | Value: 59.22776171
+Year: 2014 | Value: 59.45072248
+Year: 2015 | Value: 59.63358442
+Year: 2016 | Value: 59.83593299
+Year: 2017 | Value: 60.22725166
+Year: 2018 | Value: 60.43807872
+Year: 2019 | Value: 60.57303502
+Year: 2020 | Value: 60.39192551
+Year: 2021 | Value: 59.97070525
+Remark: Niger
+Remark: Life expectancy at birth (years)

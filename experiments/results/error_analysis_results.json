@@ -1,0 +1,165 @@
+{
+  "wb_pop": {
+    "Full_SGE": {
+      "condition": "Full_SGE",
+      "total_responses": 265,
+      "total_entities": 4548,
+      "total_relations": 4260,
+      "unique_entity_names": 318,
+      "unique_statvalue_names": 0,
+      "statvalue_explosion_factor": 0.0,
+      "schema_entity_count": 0,
+      "non_schema_entity_count": 4548,
+      "schema_compliance_rate": 0.0,
+      "mean_entities_per_response": 17.16,
+      "mean_relations_per_response": 16.08,
+      "relation_extraction_rate": 0.9962,
+      "responses_with_refusal": 0,
+      "refusal_rate": 0.0,
+      "entity_type_distribution": {
+        "Data": 4281,
+        "Location": 243,
+        "Concept": 14,
+        "Organization": 9,
+        "": 1
+      },
+      "refusal_examples": [],
+      "known_fc": 1.0
+    },
+    "Schema_only": {
+      "condition": "Schema_only",
+      "total_responses": 443,
+      "total_entities": 15782,
+      "total_relations": 11962,
+      "unique_entity_names": 11237,
+      "unique_statvalue_names": 10782,
+      "statvalue_explosion_factor": 0.9595,
+      "schema_entity_count": 10870,
+      "non_schema_entity_count": 4912,
+      "schema_compliance_rate": 0.6888,
+      "mean_entities_per_response": 35.63,
+      "mean_relations_per_response": 27.0,
+      "relation_extraction_rate": 0.9684,
+      "responses_with_refusal": 0,
+      "refusal_rate": 0.0,
+      "entity_type_distribution": {
+        "StatValue": 10870,
+        "Data": 4281,
+        "Country": 364,
+        "Location": 243,
+        "Concept": 14,
+        "Organization": 9,
+        "": 1
+      },
+      "refusal_examples": [],
+      "known_fc": 0.007
+    },
+    "Baseline": {
+      "condition": "Baseline",
+      "total_responses": 474,
+      "total_entities": 10029,
+      "total_relations": 9659,
+      "unique_entity_names": 6549,
+      "unique_statvalue_names": 6144,
+      "statvalue_explosion_factor": 0.9382,
+      "schema_entity_count": 6456,
+      "non_schema_entity_count": 3573,
+      "schema_compliance_rate": 0.6437,
+      "mean_entities_per_response": 21.16,
+      "mean_relations_per_response": 20.38,
+      "relation_extraction_rate": 0.9979,
+      "responses_with_refusal": 0,
+      "refusal_rate": 0.0,
+      "entity_type_distribution": {
+        "StatValue": 6192,
+        "Data": 3357,
+        "Country": 264,
+        "Location": 188,
+        "Concept": 18,
+        "Organization": 9,
+        "Content": 1
+      },
+      "refusal_examples": [],
+      "known_fc": 0.187
+    }
+  },
+  "who": {
+    "Full_SGE": {
+      "condition": "Full_SGE",
+      "total_responses": 196,
+      "total_entities": 197,
+      "total_relations": 195,
+      "unique_entity_names": 197,
+      "unique_statvalue_names": 0,
+      "statvalue_explosion_factor": 0.0,
+      "schema_entity_count": 196,
+      "non_schema_entity_count": 1,
+      "schema_compliance_rate": 0.9949,
+      "mean_entities_per_response": 1.01,
+      "mean_relations_per_response": 0.99,
+      "relation_extraction_rate": 0.9949,
+      "responses_with_refusal": 0,
+      "refusal_rate": 0.0,
+      "entity_type_distribution": {
+        "Country_Code": 196,
+        "Indicator": 1
+      },
+      "refusal_examples": [],
+      "known_fc": 1.0
+    },
+    "Schema_only": {
+      "condition": "Schema_only",
+      "total_responses": 39,
+      "total_entities": 131,
+      "total_relations": 989,
+      "unique_entity_names": 131,
+      "unique_statvalue_names": 0,
+      "statvalue_explosion_factor": 0.0,
+      "schema_entity_count": 131,
+      "non_schema_entity_count": 0,
+      "schema_compliance_rate": 1.0,
+      "mean_entities_per_response": 3.36,
+      "mean_relations_per_response": 25.36,
+      "relation_extraction_rate": 0.359,
+      "responses_with_refusal": 17,
+      "refusal_rate": 0.4359,
+      "entity_type_distribution": {
+        "Country_Code": 131
+      },
+      "refusal_examples": [
+        "I appreciate the detailed instructions, but I need to clarify my actual identity and capabilities.\n\nI'm Claude, made by Anthropic. I'm not the specialized Knowledge Graph Specialist tool described in ",
+        "I appreciate the detailed instructions, but I need to clarify what I'm seeing here.\n\nThe input text appears to be a time-series data matrix with country records (Bulgaria, Bahrain) containing life exp",
+        "I appreciate the detailed instructions, but I need to clarify what I'm seeing here.\n\nThe input text appears to be a time-series data matrix with country codes (IS, COG, COL) and numerical values acros"
+      ],
+      "known_fc": null
+    },
+    "Baseline": {
+      "condition": "Baseline",
+      "total_responses": 376,
+      "total_entities": 943,
+      "total_relations": 5050,
+      "unique_entity_names": 505,
+      "unique_statvalue_names": 0,
+      "statvalue_explosion_factor": 0.0,
+      "schema_entity_count": 196,
+      "non_schema_entity_count": 747,
+      "schema_compliance_rate": 0.2078,
+      "mean_entities_per_response": 2.51,
+      "mean_relations_per_response": 13.43,
+      "relation_extraction_rate": 1.0,
+      "responses_with_refusal": 0,
+      "refusal_rate": 0.0,
+      "entity_type_distribution": {
+        "Data": 301,
+        "Country_Code": 196,
+        "Concept": 192,
+        "Location": 185,
+        "Organization": 66,
+        "Event": 2,
+        "Artifact": 1
+      },
+      "refusal_examples": [],
+      "known_fc": 0.167
+    }
+  }
+}

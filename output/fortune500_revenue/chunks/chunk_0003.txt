@@ -1,0 +1,6 @@
+Entity: Apple
+Year: 2015 | Value: 182795.0
+Year: 2016 | Value: 233715.0
+Year: 2017 | Value: 215639.0
+Year: 2018 | Value: 229234.0
+Year: 2019 | Value: 265595.0

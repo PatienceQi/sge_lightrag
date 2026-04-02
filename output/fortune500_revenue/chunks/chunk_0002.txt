@@ -1,0 +1,6 @@
+Entity: Exxon Mobil
+Year: 2015 | Value: 382597.0
+Year: 2016 | Value: 246204.0
+Year: 2017 | Value: 205004.0
+Year: 2018 | Value: 244363.0
+Year: 2019 | Value: 290212.0

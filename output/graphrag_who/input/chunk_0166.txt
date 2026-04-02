@@ -1,0 +1,25 @@
+Entity: SYR / WHOSIS_000001
+Year: 2000 | Value: 71.08679254
+Year: 2001 | Value: 71.76491508
+Year: 2002 | Value: 72.00814832
+Year: 2003 | Value: 72.65734085
+Year: 2004 | Value: 72.88238933
+Year: 2005 | Value: 73.23261717
+Year: 2006 | Value: 73.37955444
+Year: 2007 | Value: 73.62412875
+Year: 2008 | Value: 73.54815311
+Year: 2009 | Value: 73.73835464
+Year: 2010 | Value: 73.76180647
+Year: 2011 | Value: 71.88413217
+Year: 2012 | Value: 64.99959827
+Year: 2013 | Value: 64.68588767
+Year: 2014 | Value: 60.24065156
+Year: 2015 | Value: 60.0056598
+Year: 2016 | Value: 60.12484476
+Year: 2017 | Value: 59.23626681
+Year: 2018 | Value: 64.30375249
+Year: 2019 | Value: 69.17463554
+Year: 2020 | Value: 71.99813819
+Year: 2021 | Value: 72.43803165
+Remark: Syrian Arab Republic
+Remark: Life expectancy at birth (years)

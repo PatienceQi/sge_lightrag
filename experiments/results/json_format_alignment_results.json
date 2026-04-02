@@ -1,0 +1,93 @@
+{
+  "experiment": "format_constraint_alignment_generalization",
+  "dataset": "who_life_expectancy",
+  "principle": "Schema constraints designed for format A fail when applied to format B",
+  "conditions": {
+    "json_structured_schema": {
+      "format": "JSON records",
+      "schema": true,
+      "chunks": 25,
+      "EC": 1.0,
+      "FC": 0.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 0,
+      "fc_total": 150,
+      "nodes": 25,
+      "edges": 0
+    },
+    "json_structured_default": {
+      "format": "JSON records",
+      "schema": false,
+      "chunks": 25,
+      "EC": 0.0,
+      "FC": 0.0,
+      "ec_matched": 0,
+      "ec_total": 0,
+      "fc_covered": 0,
+      "fc_total": 0,
+      "nodes": 0,
+      "edges": 0
+    },
+    "json_flat_schema": {
+      "format": "JSON-wrapped CSV",
+      "schema": true,
+      "chunks": 3,
+      "EC": 0.92,
+      "FC": 0.1467,
+      "ec_matched": 23,
+      "ec_total": 25,
+      "fc_covered": 22,
+      "fc_total": 150,
+      "nodes": 64,
+      "edges": 41
+    },
+    "json_flat_default": {
+      "format": "JSON-wrapped CSV",
+      "schema": false,
+      "chunks": 3,
+      "EC": 0.0,
+      "FC": 0.0,
+      "ec_matched": 0,
+      "ec_total": 0,
+      "fc_covered": 0,
+      "fc_total": 0,
+      "nodes": 0,
+      "edges": 0
+    },
+    "markdown_structured_schema": {
+      "format": "Markdown table",
+      "schema": true,
+      "chunks": 25,
+      "EC": 0.96,
+      "FC": 0.0,
+      "ec_matched": 24,
+      "ec_total": 25,
+      "fc_covered": 0,
+      "fc_total": 150,
+      "nodes": 24,
+      "edges": 0
+    },
+    "markdown_flat_schema": {
+      "format": "Raw text",
+      "schema": true,
+      "chunks": 3,
+      "EC": 1.0,
+      "FC": 0.2067,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 31,
+      "fc_total": 150,
+      "nodes": 120,
+      "edges": 95
+    }
+  },
+  "validation": {
+    "csv_reference": {
+      "full_sge_fc": 1.0,
+      "schema_only_fc": 0.38,
+      "baseline_fc": 0.167
+    }
+  },
+  "last_updated": "2026-04-02T15:05:01.968434"
+}

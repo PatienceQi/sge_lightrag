@@ -1,0 +1,25 @@
+Entity: COD / WHOSIS_000001
+Year: 2000 | Value: 52.64392739
+Year: 2001 | Value: 52.99713016
+Year: 2002 | Value: 53.2535703
+Year: 2003 | Value: 53.6935484
+Year: 2004 | Value: 54.34409074
+Year: 2005 | Value: 54.94182979
+Year: 2006 | Value: 55.48457469
+Year: 2007 | Value: 55.97784827
+Year: 2008 | Value: 56.32188866
+Year: 2009 | Value: 56.80885819
+Year: 2010 | Value: 57.39937072
+Year: 2011 | Value: 57.88760041
+Year: 2012 | Value: 58.3404554
+Year: 2013 | Value: 58.89523659
+Year: 2014 | Value: 59.46084106
+Year: 2015 | Value: 59.96244072
+Year: 2016 | Value: 60.43572174
+Year: 2017 | Value: 60.84101636
+Year: 2018 | Value: 61.4317933
+Year: 2019 | Value: 61.83901232
+Year: 2020 | Value: 62.03594732
+Year: 2021 | Value: 61.62552641
+Remark: Democratic Republic of the Congo
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,940 @@
+{
+  "timestamp": "2026-04-01T14:30:48.823463",
+  "system": "naive_rag",
+  "config": {
+    "embedding_model": "mxbai-embed-large",
+    "top_k": 5,
+    "llm_model": "claude-haiku-4-5-20251001"
+  },
+  "questions_file": "evaluation/gold/qa_questions.jsonl",
+  "total_questions": 100,
+  "summary": {
+    "budget": {
+      "n": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    "inpatient": {
+      "n": 9,
+      "correct": 2,
+      "accuracy": 0.2222222222222222
+    },
+    "who": {
+      "n": 24,
+      "correct": 23,
+      "accuracy": 0.9583333333333334
+    },
+    "wb_child_mortality": {
+      "n": 9,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "health_stats": {
+      "n": 12,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "wb_population": {
+      "n": 17,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "wb_maternal": {
+      "n": 19,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  },
+  "overall": {
+    "correct": 35,
+    "accuracy": 0.35
+  },
+  "results": [
+    {
+      "id": "budget_01",
+      "dataset": "budget",
+      "question": "防止贪污纲领在2022-23年度实际预算金额是多少百万元？",
+      "expected_value": "91.5",
+      "entity": "防止贪污",
+      "naive_rag_answer": "根据提供的文档上下文，防止贪污纲领在2022-23年度实际预算金额是**91.5百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_02",
+      "dataset": "budget",
+      "question": "执法工作纲领在2024-25年度的预算金额是多少百万元？",
+      "expected_value": "1080.9",
+      "entity": "执法工作",
+      "naive_rag_answer": "根据提供的文档上下文，执法工作在2024-25年度的预算金额是 **1080.9 百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_03",
+      "dataset": "budget",
+      "question": "倡廉教育纲领在2022-23年度实际预算金额是多少百万元？",
+      "expected_value": "93.8",
+      "entity": "倡廉教育",
+      "naive_rag_answer": "根据提供的文档上下文，倡廉教育纲领在2022-23年度的实际预算金额是**93.8百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_04",
+      "dataset": "budget",
+      "question": "防止贪污纲领在2023-24年度修订预算是多少百万元？",
+      "expected_value": "101.3",
+      "entity": "防止贪污",
+      "naive_rag_answer": "根据提供的文档上下文，防止贪污纲领在2023-24年度修订预算是 **101.3 百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_05",
+      "dataset": "budget",
+      "question": "争取支持纲领在2024-25年度预算金额是多少百万元？",
+      "expected_value": "105.6",
+      "entity": "争取支持",
+      "naive_rag_answer": "根据文档上下文，争取支持纲领在2024-25年度预算金额是**105.6百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_06",
+      "dataset": "budget",
+      "question": "执法工作纲领在2022-23年度实际预算金额是多少百万元？",
+      "expected_value": "1013.7",
+      "entity": "执法工作",
+      "naive_rag_answer": "根据提供的文档上下文，执法工作在2022-23年度的实际预算金额是**1013.7百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_07",
+      "dataset": "budget",
+      "question": "防止贪污纲领在2024-25年度预算金额是多少百万元？",
+      "expected_value": "97.2",
+      "entity": "防止贪污",
+      "naive_rag_answer": "根据文档上下文，防止贪污纲领在2024-25年度预算金额是**97.2百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_08",
+      "dataset": "budget",
+      "question": "执法工作纲领在2023-24年度修订预算是多少百万元？",
+      "expected_value": "1067.2",
+      "entity": "执法工作",
+      "naive_rag_answer": "根据提供的文档上下文，执法工作在2023-24年度的修订预算是**1067.2百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_09",
+      "dataset": "budget",
+      "question": "防止贪污纲领在2023-24年度原来预算是多少百万元？",
+      "expected_value": "100.8",
+      "entity": "防止贪污",
+      "naive_rag_answer": "根据提供的文档上下文，防止贪污纲领在2023-24年度原来预算是**100.8百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "budget_10",
+      "dataset": "budget",
+      "question": "执法工作纲领在2023-24年度原来预算是多少百万元？",
+      "expected_value": "1031.8",
+      "entity": "执法工作",
+      "naive_rag_answer": "根据提供的文档上下文，执法工作纲领在2023-24年度原来预算是 **1031.8 百万元**。",
+      "naive_rag_correct": true,
+      "context_length": 931
+    },
+    {
+      "id": "inpatient_01",
+      "dataset": "inpatient",
+      "question": "肺炎的住院病人出院及死亡总人次是多少？",
+      "expected_value": "60614",
+      "entity": "肺炎",
+      "naive_rag_answer": "根据提供的文档上下文，我无法找到关于肺炎的数据。文档中包含的疾病类别有：\n\n- 血液和造血器官的出血性情况及其他疾病\n- 中风，未特指为出血或梗死\n- 急性风湿热\n- 皮肤和皮下组织感染\n- 其他症状、体征和临床与实验室异常所见\n\n但没有肺炎相关的信息，因此无法回答您的问题。",
+      "naive_rag_correct": false,
+      "context_length": 1265
+    },
+    {
+      "id": "inpatient_02",
+      "dataset": "inpatient",
+      "question": "肾衰竭的住院病人出院及死亡总人次是多少？",
+      "expected_value": "196617",
+      "entity": "肾衰竭",
+      "naive_rag_answer": "根据提供的文档上下文，没有关于肾衰竭的数据。文档中包含的疾病类别为：\n\n- 血液和造血器官的出血性情况及其他疾病\n- 中风，未特指为出血或梗死\n- 皮肤和皮下组织感染\n- 糖尿病\n- 烧伤和腐蚀伤\n\n因此无法回答肾衰竭的住院病人出院及死亡总人次。",
+      "naive_rag_correct": false,
+      "context_length": 1218
+    },
+    {
+      "id": "inpatient_03",
+      "dataset": "inpatient",
+      "question": "乳房恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "expected_value": "52626",
+      "entity": "乳房恶性肿瘤",
+      "naive_rag_answer": "根据提供的文档上下文，我无法找到关于\"乳房恶性肿瘤\"的数据。\n\n文档中只包含了\"乳房良性肿瘤\"（D24）的信息，其住院病人出院及死亡总人次为 865.0。\n\n乳房恶性肿瘤的相关数据不在提供的上下文中。",
+      "naive_rag_correct": false,
+      "context_length": 1196
+    },
+    {
+      "id": "inpatient_04",
+      "dataset": "inpatient",
+      "question": "其他缺血性心脏病的住院病人出院及死亡总人次是多少人次？",
+      "expected_value": "26785",
+      "entity": "其他缺血性心脏病",
+      "naive_rag_answer": "根据文档上下文，其他缺血性心脏病（I20, I23-I25）的住院病人出院及死亡总人次是 **26785.0 人次**。",
+      "naive_rag_correct": true,
+      "context_length": 1221
+    },
+    {
+      "id": "inpatient_05",
+      "dataset": "inpatient",
+      "question": "胃炎和十二指肠炎的住院病人出院及死亡总人次是多少人次？",
+      "expected_value": "48411",
+      "entity": "胃炎和十二指肠炎",
+      "naive_rag_answer": "根据提供的文档上下文，我无法找到\"胃炎和十二指肠炎\"的相关数据。\n\n文档中包含的疾病类别有：\n- 胃和十二指肠溃疡（K25-K27）\n- 唇裂和颚裂（Q35-Q37）\n- 急性风湿热（I00-I02）\n- 其他症状、体征和临床与实验室异常所见（R00-R09等）\n- 糖尿病（E10-E14）\n\n您询问的\"胃炎和十二指肠炎\"在提供的上下文中没有出现。如果您需要这个数据，请提供包含该疾病类别的文档信息。",
+      "naive_rag_correct": false,
+      "context_length": 1242
+    },
+    {
+      "id": "inpatient_06",
+      "dataset": "inpatient",
+      "question": "2023年肺炎的在医院登记死亡人数是多少？",
+      "expected_value": "11334",
+      "entity": "肺炎",
+      "naive_rag_answer": "抱歉，我无法根据提供的文档上下文回答这个问题。文档中包含的数据涉及自然流产、认知障碍症、布鲁氏菌病、志贺菌病和围生期呼吸性疾患等疾病类别，但不包含肺炎的相关数据。\n\n如果您需要了解2023年肺炎的在医院登记死亡人数，请提供包含肺炎数据的文档上下文。",
+      "naive_rag_correct": false,
+      "context_length": 1155
+    },
+    {
+      "id": "inpatient_07",
+      "dataset": "inpatient",
+      "question": "2023年肾衰竭的在医院登记死亡人数是多少？",
+      "expected_value": "1605",
+      "entity": "肾衰竭",
+      "naive_rag_answer": "根据提供的文档上下文，我无法找到关于肾衰竭的数据。文档中包含的疾病类别为：自然流产、认知障碍症、起源于围生期的其他呼吸性疾患、布鲁氏菌病和志贺菌病，但不包含肾衰竭的相关信息。\n\n因此，无法根据给定的上下文回答这个问题。",
+      "naive_rag_correct": false,
+      "context_length": 1155
+    },
+    {
+      "id": "inpatient_08",
+      "dataset": "inpatient",
+      "question": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "expected_value": "38655",
+      "entity": "气管、支气管和肺恶性肿瘤",
+      "naive_rag_answer": "根据提供的文档上下文，我无法找到关于\"气管、支气管和肺恶性肿瘤\"的数据。\n\n文档中包含的疾病类别有：\n- 其他症状、体征和临床与实验室异常所见\n- 血液和造血器官的出血性情况及其他疾病\n- 循环系统先天性畸形\n- 唇裂和颚裂\n- 糖尿病\n\n但不包含气管、支气管和肺恶性肿瘤的相关信息，因此无法回答您的问题。",
+      "naive_rag_correct": false,
+      "context_length": 1261
+    },
+    {
+      "id": "inpatient_r01",
+      "dataset": "inpatient",
+      "question": "恶性肿瘤（C00-C97）与循环系统疾病（I00-I99），哪类疾病2023年的住院人次更多？",
+      "expected_value": "恶性肿瘤",
+      "entity": "恶性肿瘤",
+      "naive_rag_answer": "根据提供的文档上下文，我无法直接回答这个问题。\n\n文档中仅包含以下具体数据：\n- **恶性肿瘤**（C73-C80, C97）：10,353.0 人次\n- **循环系统疾病**（I73）：1,054.0 人次\n\n但这些数据只是各类别的部分子项，不是完整的C00-C97和I00-I99的全部统计。要准确比较这两大类疾病的住院人次总数，需要文档中提供C00-C97和I00-I99的完整汇总数据，而当前上下文中没有这些信息。",
+      "naive_rag_correct": true,
+      "context_length": 1197
+    },
+    {
+      "id": "who_01",
+      "dataset": "who",
+      "question": "What was China's life expectancy at birth in 2021?",
+      "expected_value": "77.61",
+      "entity": "CHN",
+      "naive_rag_answer": "According to the document context, China's life expectancy at birth in 2021 was **77.61619672 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_02",
+      "dataset": "who",
+      "question": "What was Japan's life expectancy at birth in 2021?",
+      "expected_value": "84.46",
+      "entity": "JPN",
+      "naive_rag_answer": "According to the document context, Japan's life expectancy at birth in 2021 was 84.46067178 years.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_03",
+      "dataset": "who",
+      "question": "What was Brazil's life expectancy at birth in 2021?",
+      "expected_value": "72.3",
+      "entity": "BRA",
+      "naive_rag_answer": "Based on the provided document context, Brazil's life expectancy at birth in 2021 was **72.38840694** years.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_04",
+      "dataset": "who",
+      "question": "What was the United Kingdom's life expectancy at birth in 2021?",
+      "expected_value": "80.10",
+      "entity": "GBR",
+      "naive_rag_answer": "According to the document context, the United Kingdom's life expectancy at birth in 2021 was **80.10062783 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_05",
+      "dataset": "who",
+      "question": "What was France's life expectancy at birth in 2021?",
+      "expected_value": "81.92",
+      "entity": "FRA",
+      "naive_rag_answer": "According to the document context, France's life expectancy at birth in 2021 was **81.92274175** years.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_06",
+      "dataset": "who",
+      "question": "What was Germany's life expectancy at birth in 2021?",
+      "expected_value": "80.49",
+      "entity": "DEU",
+      "naive_rag_answer": "According to the document context, Germany's life expectancy at birth in 2021 was **80.49140555 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_07",
+      "dataset": "who",
+      "question": "What was the United States' life expectancy at birth in 2021?",
+      "expected_value": "76.37",
+      "entity": "USA",
+      "naive_rag_answer": "According to the document context, the United States' life expectancy at birth in 2021 was **76.37368104** years.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_08",
+      "dataset": "who",
+      "question": "What was India's life expectancy at birth in 2021?",
+      "expected_value": "67.3",
+      "entity": "IND",
+      "naive_rag_answer": "According to the document context, India's life expectancy at birth in 2021 was **67.30780612 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_09",
+      "dataset": "who",
+      "question": "What was China's life expectancy at birth in 2000?",
+      "expected_value": "70.83",
+      "entity": "CHN",
+      "naive_rag_answer": "According to the document context, China's life expectancy at birth in 2000 was **70.83886138 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_10",
+      "dataset": "who",
+      "question": "What was the United States' life expectancy at birth in 2019?",
+      "expected_value": "78.73",
+      "entity": "USA",
+      "naive_rag_answer": "According to the document context, the United States' life expectancy at birth in 2019 was **78.73923827 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_r01",
+      "dataset": "who",
+      "question": "Between China and India, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "China",
+      "entity": "CHN",
+      "naive_rag_answer": "Based on the provided document context:\n\n**China** had higher life expectancy at birth in 2021.\n\n- China (2021): 77.61619672 years\n- India (2021): 67.30780612 years\n\nChina's life expectancy was approximately 10.3 years higher than India's in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_r02",
+      "dataset": "who",
+      "question": "Between France and Germany, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "France",
+      "entity": "FRA",
+      "naive_rag_answer": "Based on the provided document context:\n\n- France (FRA) in 2021: 81.92274175 years\n- Germany (DEU) in 2021: 80.49140555 years\n\nFrance had higher life expectancy at birth in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_r03",
+      "dataset": "who",
+      "question": "Did the United States' life expectancy decrease from 2019 to 2021?",
+      "expected_value": "yes",
+      "entity": "USA",
+      "naive_rag_answer": "Yes. According to the document, the United States' life expectancy decreased from 2019 to 2021:\n\n- Year 2019: 78.73923827\n- Year 2021: 76.37368104\n\nThis represents a decrease of approximately 2.36 years over the two-year period.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_r04",
+      "dataset": "who",
+      "question": "Between the United Kingdom and the United States, which country had higher life expectancy in 2021?",
+      "expected_value": "United Kingdom",
+      "entity": "GBR",
+      "naive_rag_answer": "Based on the provided document context:\n\n**United Kingdom (2021): 80.10062783 years**\n**United States (2021): 76.37368104 years**\n\nThe United Kingdom had higher life expectancy in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_11",
+      "dataset": "who",
+      "question": "What was Australia's life expectancy at birth in 2021?",
+      "expected_value": "83.10",
+      "entity": "AUS",
+      "naive_rag_answer": "According to the document context, Australia's life expectancy at birth in 2021 was **83.10183853 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_12",
+      "dataset": "who",
+      "question": "What was South Korea's life expectancy at birth in 2021?",
+      "expected_value": "83.79",
+      "entity": "KOR",
+      "naive_rag_answer": "According to the document context, South Korea's (KOR) life expectancy at birth in 2021 was **83.79982334 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_13",
+      "dataset": "who",
+      "question": "What was Italy's life expectancy at birth in 2021?",
+      "expected_value": "82.19",
+      "entity": "ITA",
+      "naive_rag_answer": "According to the document context, Italy's life expectancy at birth in 2021 was **82.19747411 years**.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "who_14",
+      "dataset": "who",
+      "question": "What was Spain's life expectancy at birth in 2021?",
+      "expected_value": "82.66",
+      "entity": "ESP",
+      "naive_rag_answer": "According to the document context, Spain's life expectancy at birth in 2021 was **82.66267258** years.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "comp_01",
+      "dataset": "who",
+      "question": "Between Japan and Italy, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "Japan",
+      "entity": "JPN",
+      "naive_rag_answer": "Based on the provided document context:\n\n- Japan (JPN) in 2021: 84.46067178 years\n- Italy (ITA) in 2021: 82.19747411 years\n\nJapan had higher life expectancy at birth in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "comp_02",
+      "dataset": "who",
+      "question": "Between South Korea and the United Kingdom, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "South Korea",
+      "entity": "KOR",
+      "naive_rag_answer": "Based on the provided document context:\n\n- South Korea (KOR) in 2021: **83.79982334** years\n- United Kingdom (GBR) in 2021: **80.10062783** years\n\nSouth Korea had higher life expectancy at birth in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "comp_07",
+      "dataset": "who",
+      "question": "Between Russia and Brazil, which country had higher life expectancy at birth in 2021?",
+      "expected_value": "Brazil",
+      "entity": "BRA",
+      "naive_rag_answer": "Based on the provided document context:\n\n- Russia (RUS) in 2021: 70.017337 years\n- Brazil (BRA) in 2021: 72.38840694 years\n\nBrazil had higher life expectancy at birth in 2021.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "trend_01",
+      "dataset": "who",
+      "question": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "expected_value": "yes",
+      "entity": "CHN",
+      "naive_rag_answer": "Based on the provided document context, yes, China's life expectancy at birth consistently increased from 2000 to 2021.\n\nThe values show a steady upward trend:\n- 2000: 70.83886138 years\n- 2021: 77.61619672 years\n\nEach year from 2000 through 2021 shows an increase or maintains the previous year's value, with no decreases recorded during this period.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "trend_02",
+      "dataset": "who",
+      "question": "Did South Korea's life expectancy at birth increase from 2000 to 2021?",
+      "expected_value": "yes",
+      "entity": "KOR",
+      "naive_rag_answer": "Yes. South Korea's (KOR) life expectancy at birth increased from 2000 to 2021.\n\nIn 2000, the value was 75.85981554 years. In 2021, the value was 83.79982334 years. This represents an increase of approximately 7.94 years over the 21-year period.",
+      "naive_rag_correct": true,
+      "context_length": 3000
+    },
+    {
+      "id": "trend_07",
+      "dataset": "who",
+      "question": "Did Japan's life expectancy at birth consistently increase from 2000 to 2019?",
+      "expected_value": "yes",
+      "entity": "JPN",
+      "naive_rag_answer": "No. Japan's life expectancy did not consistently increase from 2000 to 2019.\n\nLooking at the data, there were two notable decreases:\n- 2004 to 2005: dropped from 82.37003875 to 82.23817071\n- 2010 to 2011: dropped from 83.08330199 to 82.82691604\n\nWhile the overall trend was upward, these two years showed declines rather than consistent increases.",
+      "naive_rag_correct": false,
+      "context_length": 3000
+    },
+    {
+      "id": "wb_cm_01",
+      "dataset": "wb_child_mortality",
+      "question": "What was China's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "6.6",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_02",
+      "dataset": "wb_child_mortality",
+      "question": "What was India's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "29.1",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_03",
+      "dataset": "wb_child_mortality",
+      "question": "What was Japan's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "2.4",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_04",
+      "dataset": "wb_child_mortality",
+      "question": "What was the United Kingdom's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "4.5",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_05",
+      "dataset": "wb_child_mortality",
+      "question": "What was Germany's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "3.7",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_06",
+      "dataset": "wb_child_mortality",
+      "question": "What was China's under-5 mortality rate per 1,000 live births in 2000?",
+      "expected_value": "36.7",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_07",
+      "dataset": "wb_child_mortality",
+      "question": "What was Brazil's under-5 mortality rate per 1,000 live births in 2022?",
+      "expected_value": "14.6",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_r01",
+      "dataset": "wb_child_mortality",
+      "question": "Between Japan and Germany, which country had a lower under-5 mortality rate in 2022?",
+      "expected_value": "Japan",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_cm_r02",
+      "dataset": "wb_child_mortality",
+      "question": "Among China, India, and Brazil, which country had the highest under-5 mortality rate in 2022?",
+      "expected_value": "India",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_01",
+      "dataset": "health_stats",
+      "question": "香港2024年每千名人口的注册医生数目是多少？",
+      "expected_value": "2.2",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_02",
+      "dataset": "health_stats",
+      "question": "香港2024年每千名人口的注册护士数目是多少？",
+      "expected_value": "9.6",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_03",
+      "dataset": "health_stats",
+      "question": "香港2023年每千名人口的注册医生数目是多少？",
+      "expected_value": "2.1",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_04",
+      "dataset": "health_stats",
+      "question": "香港2022年每千名人口的注册医生数目是多少？",
+      "expected_value": "2.1",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_05",
+      "dataset": "health_stats",
+      "question": "香港2019年每千名人口的注册医生数目是多少？",
+      "expected_value": "2.0",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_06",
+      "dataset": "health_stats",
+      "question": "香港2023年每千名人口的注册护士数目是多少？",
+      "expected_value": "9.1",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_07",
+      "dataset": "health_stats",
+      "question": "香港2022年每千名人口的注册护士数目是多少？",
+      "expected_value": "8.9",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_08",
+      "dataset": "health_stats",
+      "question": "香港2019年每千名人口的注册护士数目是多少？",
+      "expected_value": "7.9",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_09",
+      "dataset": "health_stats",
+      "question": "香港2024年每千名人口的病床数目（A系列）是多少？",
+      "expected_value": "4.9",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "health_10",
+      "dataset": "health_stats",
+      "question": "香港2024年每千名人口的病床数目（B系列）是多少？",
+      "expected_value": "4.3",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_09",
+      "dataset": "health_stats",
+      "question": "2024年香港每千名人口的注册医生数目和注册护士数目，哪个更高？",
+      "expected_value": "注册护士数目",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_09",
+      "dataset": "health_stats",
+      "question": "香港每千名人口的注册护士数目从2019年到2024年是否持续增长？",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_01",
+      "dataset": "wb_population",
+      "question": "What was China's total population in 2023?",
+      "expected_value": "1410710000",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_02",
+      "dataset": "wb_population",
+      "question": "What was India's total population in 2023?",
+      "expected_value": "1438070000",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_03",
+      "dataset": "wb_population",
+      "question": "What was Japan's total population in 2023?",
+      "expected_value": "124516600",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_04",
+      "dataset": "wb_population",
+      "question": "What was the United States' total population in 2023?",
+      "expected_value": "336806200",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_05",
+      "dataset": "wb_population",
+      "question": "What was China's total population in 2010?",
+      "expected_value": "1337705000",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_r01",
+      "dataset": "wb_population",
+      "question": "Between Japan and Germany, which country had a larger population in 2023?",
+      "expected_value": "Japan",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_r02",
+      "dataset": "wb_population",
+      "question": "Did Japan's population increase or decrease from 2010 to 2023?",
+      "expected_value": "decrease",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_r03",
+      "dataset": "wb_population",
+      "question": "Between China and India, which country had a larger population in 2023?",
+      "expected_value": "India",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_06",
+      "dataset": "wb_population",
+      "question": "What was Brazil's total population in 2023?",
+      "expected_value": "211140729",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_07",
+      "dataset": "wb_population",
+      "question": "What was Germany's total population in 2023?",
+      "expected_value": "83287273",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_08",
+      "dataset": "wb_population",
+      "question": "What was France's total population in 2023?",
+      "expected_value": "68372286",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_pop_09",
+      "dataset": "wb_population",
+      "question": "What was the United Kingdom's total population in 2023?",
+      "expected_value": "68492000",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_05",
+      "dataset": "wb_population",
+      "question": "Between Brazil and Indonesia, which country had a larger population in 2023?",
+      "expected_value": "Indonesia",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_06",
+      "dataset": "wb_population",
+      "question": "Between France and the United Kingdom, which country had a larger population in 2023?",
+      "expected_value": "United Kingdom",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_03",
+      "dataset": "wb_population",
+      "question": "Did India's population consistently increase from 2000 to 2023?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_04",
+      "dataset": "wb_population",
+      "question": "Did China's population increase or decrease from 2020 to 2023?",
+      "expected_value": "decrease",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_08",
+      "dataset": "wb_population",
+      "question": "Did Italy's population decrease from 2015 to 2023?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_01",
+      "dataset": "wb_maternal",
+      "question": "What was China's maternal mortality ratio in 2021?",
+      "expected_value": "21",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_02",
+      "dataset": "wb_maternal",
+      "question": "What was India's maternal mortality ratio in 2021?",
+      "expected_value": "155",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_03",
+      "dataset": "wb_maternal",
+      "question": "What was Japan's maternal mortality ratio in 2021?",
+      "expected_value": "4",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_04",
+      "dataset": "wb_maternal",
+      "question": "What was Brazil's maternal mortality ratio in 2021?",
+      "expected_value": "128",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_05",
+      "dataset": "wb_maternal",
+      "question": "What was China's maternal mortality ratio in 2000?",
+      "expected_value": "56",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_r01",
+      "dataset": "wb_maternal",
+      "question": "Did China's maternal mortality ratio improve from 2000 to 2021?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_r02",
+      "dataset": "wb_maternal",
+      "question": "Between Japan and the United States, which country had lower maternal mortality ratio in 2021?",
+      "expected_value": "Japan",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_r03",
+      "dataset": "wb_maternal",
+      "question": "Did Brazil's maternal mortality ratio increase or decrease from 2000 to 2021?",
+      "expected_value": "increase",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_06",
+      "dataset": "wb_maternal",
+      "question": "What was Germany's maternal mortality ratio in 2021?",
+      "expected_value": "4",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_07",
+      "dataset": "wb_maternal",
+      "question": "What was the United States' maternal mortality ratio in 2021?",
+      "expected_value": "31",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_08",
+      "dataset": "wb_maternal",
+      "question": "What was Nigeria's maternal mortality ratio in 2021?",
+      "expected_value": "1046",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "wb_mat_09",
+      "dataset": "wb_maternal",
+      "question": "What was Indonesia's maternal mortality ratio in 2021?",
+      "expected_value": "226",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_03",
+      "dataset": "wb_maternal",
+      "question": "Between India and Nigeria, which country had a higher maternal mortality ratio in 2021?",
+      "expected_value": "Nigeria",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_04",
+      "dataset": "wb_maternal",
+      "question": "Between the United States and Germany, which country had a lower maternal mortality ratio in 2021?",
+      "expected_value": "Germany",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_08",
+      "dataset": "wb_maternal",
+      "question": "Between Brazil and Mexico, which country had a higher maternal mortality ratio in 2021?",
+      "expected_value": "Brazil",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "comp_10",
+      "dataset": "wb_maternal",
+      "question": "Between Indonesia and Pakistan, which country had a higher maternal mortality ratio in 2021?",
+      "expected_value": "Indonesia",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_05",
+      "dataset": "wb_maternal",
+      "question": "Did India's maternal mortality ratio decrease from 2000 to 2019?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_06",
+      "dataset": "wb_maternal",
+      "question": "Did the United States' maternal mortality ratio increase from 2000 to 2021?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    },
+    {
+      "id": "trend_10",
+      "dataset": "wb_maternal",
+      "question": "Did Germany's maternal mortality ratio decrease from 2000 to 2021?",
+      "expected_value": "yes",
+      "naive_rag_answer": "[NO INDEX]",
+      "naive_rag_correct": false
+    }
+  ]
+}

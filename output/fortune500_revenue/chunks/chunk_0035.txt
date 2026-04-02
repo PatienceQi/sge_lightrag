@@ -1,0 +1,6 @@
+Entity: MetLife
+Year: 2015 | Value: 73316.0
+Year: 2016 | Value: 69951.0
+Year: 2017 | Value: 63476.0
+Year: 2018 | Value: 66153.0
+Year: 2019 | Value: 67941.0

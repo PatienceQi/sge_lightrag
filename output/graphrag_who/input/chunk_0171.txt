@@ -1,0 +1,25 @@
+Entity: TKM / WHOSIS_000001
+Year: 2000 | Value: 65.56917712
+Year: 2001 | Value: 65.9484733
+Year: 2002 | Value: 65.87608131
+Year: 2003 | Value: 65.88787813
+Year: 2004 | Value: 65.61545494
+Year: 2005 | Value: 65.28550391
+Year: 2006 | Value: 65.67349206
+Year: 2007 | Value: 66.17071827
+Year: 2008 | Value: 66.98536912
+Year: 2009 | Value: 68.42683026
+Year: 2010 | Value: 69.12241685
+Year: 2011 | Value: 69.23413358
+Year: 2012 | Value: 69.3130409
+Year: 2013 | Value: 69.11794049
+Year: 2014 | Value: 68.91649587
+Year: 2015 | Value: 68.83222809
+Year: 2016 | Value: 68.96406385
+Year: 2017 | Value: 68.97743987
+Year: 2018 | Value: 69.07787312
+Year: 2019 | Value: 69.14190532
+Year: 2020 | Value: 68.47366895
+Year: 2021 | Value: 69.12049331
+Remark: Turkmenistan
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,42 @@
+Entity: MOZ / SH.STA.MMRT
+Year: 1985 | Value: 1452
+Year: 1986 | Value: 1355
+Year: 1987 | Value: 1348
+Year: 1988 | Value: 1259
+Year: 1989 | Value: 1209
+Year: 1990 | Value: 1150
+Year: 1991 | Value: 1094
+Year: 1992 | Value: 1046
+Year: 1993 | Value: 968
+Year: 1994 | Value: 902
+Year: 1995 | Value: 883
+Year: 1996 | Value: 819
+Year: 1997 | Value: 738
+Year: 1998 | Value: 694
+Year: 1999 | Value: 624
+Year: 2000 | Value: 547
+Year: 2001 | Value: 473
+Year: 2002 | Value: 398
+Year: 2003 | Value: 360
+Year: 2004 | Value: 321
+Year: 2005 | Value: 301
+Year: 2006 | Value: 298
+Year: 2007 | Value: 327
+Year: 2008 | Value: 365
+Year: 2009 | Value: 352
+Year: 2010 | Value: 305
+Year: 2011 | Value: 268
+Year: 2012 | Value: 218
+Year: 2013 | Value: 196
+Year: 2014 | Value: 210
+Year: 2015 | Value: 216
+Year: 2016 | Value: 202
+Year: 2017 | Value: 187
+Year: 2018 | Value: 159
+Year: 2019 | Value: 134
+Year: 2020 | Value: 123
+Year: 2021 | Value: 180
+Year: 2022 | Value: 104
+Year: 2023 | Value: 99
+Remark: Mozambique
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

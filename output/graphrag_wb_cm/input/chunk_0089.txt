@@ -1,0 +1,45 @@
+Entity: GNQ / SH.DYN.MORT
+Year: 1982 | Value: 200.9
+Year: 1983 | Value: 196.9
+Year: 1984 | Value: 192.7
+Year: 1985 | Value: 189.1
+Year: 1986 | Value: 186
+Year: 1987 | Value: 183.6
+Year: 1988 | Value: 181.6
+Year: 1989 | Value: 180.1
+Year: 1990 | Value: 178.7
+Year: 1991 | Value: 177.2
+Year: 1992 | Value: 175.9
+Year: 1993 | Value: 174.5
+Year: 1994 | Value: 173.1
+Year: 1995 | Value: 171.4
+Year: 1996 | Value: 169.3
+Year: 1997 | Value: 166.9
+Year: 1998 | Value: 163.8
+Year: 1999 | Value: 160.1
+Year: 2000 | Value: 155.9
+Year: 2001 | Value: 151.5
+Year: 2002 | Value: 147
+Year: 2003 | Value: 142.5
+Year: 2004 | Value: 137.8
+Year: 2005 | Value: 133.2
+Year: 2006 | Value: 128.6
+Year: 2007 | Value: 124
+Year: 2008 | Value: 119.4
+Year: 2009 | Value: 115.2
+Year: 2010 | Value: 111.1
+Year: 2011 | Value: 107.1
+Year: 2012 | Value: 103.4
+Year: 2013 | Value: 99.9
+Year: 2014 | Value: 96.6
+Year: 2015 | Value: 93.3
+Year: 2016 | Value: 89.9
+Year: 2017 | Value: 87
+Year: 2018 | Value: 84.2
+Year: 2019 | Value: 81.7
+Year: 2020 | Value: 78.8
+Year: 2021 | Value: 76.1
+Year: 2022 | Value: 73.4
+Year: 2023 | Value: 70.6
+Remark: Equatorial Guinea
+Remark: Mortality rate, under-5 (per 1,000 live births)

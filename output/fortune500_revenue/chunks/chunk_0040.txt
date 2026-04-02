@@ -1,0 +1,6 @@
+Entity: Prudential Financial
+Year: 2015 | Value: 54123.0
+Year: 2016 | Value: 57119.0
+Year: 2017 | Value: 58779.0
+Year: 2018 | Value: 59689.0
+Year: 2019 | Value: 62992.0

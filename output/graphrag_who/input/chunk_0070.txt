@@ -1,0 +1,25 @@
+Entity: GNB / WHOSIS_000001
+Year: 2000 | Value: 50.19859342
+Year: 2001 | Value: 50.63672662
+Year: 2002 | Value: 51.04081513
+Year: 2003 | Value: 51.43513822
+Year: 2004 | Value: 51.76786398
+Year: 2005 | Value: 52.21818539
+Year: 2006 | Value: 52.75265393
+Year: 2007 | Value: 53.47365795
+Year: 2008 | Value: 54.20231863
+Year: 2009 | Value: 54.71780339
+Year: 2010 | Value: 55.34491742
+Year: 2011 | Value: 55.96327117
+Year: 2012 | Value: 56.47290302
+Year: 2013 | Value: 56.92169618
+Year: 2014 | Value: 57.18296664
+Year: 2015 | Value: 57.5801364
+Year: 2016 | Value: 58.02773484
+Year: 2017 | Value: 58.3521892
+Year: 2018 | Value: 58.6003654
+Year: 2019 | Value: 58.97631495
+Year: 2020 | Value: 58.37604595
+Year: 2021 | Value: 58.62801846
+Remark: Guinea-Bissau
+Remark: Life expectancy at birth (years)

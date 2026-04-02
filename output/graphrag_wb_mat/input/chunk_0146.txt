@@ -1,0 +1,42 @@
+Entity: LVA / SH.STA.MMRT
+Year: 1985 | Value: 51
+Year: 1986 | Value: 43
+Year: 1987 | Value: 44
+Year: 1988 | Value: 42
+Year: 1989 | Value: 46
+Year: 1990 | Value: 47
+Year: 1991 | Value: 46
+Year: 1992 | Value: 48
+Year: 1993 | Value: 57
+Year: 1994 | Value: 65
+Year: 1995 | Value: 59
+Year: 1996 | Value: 45
+Year: 1997 | Value: 41
+Year: 1998 | Value: 40
+Year: 1999 | Value: 40
+Year: 2000 | Value: 34
+Year: 2001 | Value: 32
+Year: 2002 | Value: 29
+Year: 2003 | Value: 30
+Year: 2004 | Value: 28
+Year: 2005 | Value: 27
+Year: 2006 | Value: 28
+Year: 2007 | Value: 27
+Year: 2008 | Value: 25
+Year: 2009 | Value: 24
+Year: 2010 | Value: 22
+Year: 2011 | Value: 22
+Year: 2012 | Value: 20
+Year: 2013 | Value: 24
+Year: 2014 | Value: 22
+Year: 2015 | Value: 22
+Year: 2016 | Value: 23
+Year: 2017 | Value: 23
+Year: 2018 | Value: 23
+Year: 2019 | Value: 22
+Year: 2020 | Value: 21
+Year: 2021 | Value: 42
+Year: 2022 | Value: 29
+Year: 2023 | Value: 19
+Remark: Latvia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

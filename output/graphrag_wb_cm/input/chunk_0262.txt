@@ -1,0 +1,42 @@
+Entity: XKX / SH.DYN.MORT
+Year: 1985 | Value: 146
+Year: 1986 | Value: 136.2
+Year: 1987 | Value: 127.3
+Year: 1988 | Value: 118.9
+Year: 1989 | Value: 111.1
+Year: 1990 | Value: 103.8
+Year: 1991 | Value: 97.1
+Year: 1992 | Value: 90.6
+Year: 1993 | Value: 84.6
+Year: 1994 | Value: 78.8
+Year: 1995 | Value: 73.1
+Year: 1996 | Value: 67.7
+Year: 1997 | Value: 62.5
+Year: 1998 | Value: 57.5
+Year: 1999 | Value: 52.8
+Year: 2000 | Value: 48.3
+Year: 2001 | Value: 44.1
+Year: 2002 | Value: 40.2
+Year: 2003 | Value: 36.6
+Year: 2004 | Value: 33.4
+Year: 2005 | Value: 30.5
+Year: 2006 | Value: 27.9
+Year: 2007 | Value: 25.6
+Year: 2008 | Value: 23.6
+Year: 2009 | Value: 21.7
+Year: 2010 | Value: 20.1
+Year: 2011 | Value: 18.7
+Year: 2012 | Value: 17.4
+Year: 2013 | Value: 16.3
+Year: 2014 | Value: 15.2
+Year: 2015 | Value: 14.3
+Year: 2016 | Value: 13.4
+Year: 2017 | Value: 12.6
+Year: 2018 | Value: 11.9
+Year: 2019 | Value: 11.2
+Year: 2020 | Value: 10.5
+Year: 2021 | Value: 10
+Year: 2022 | Value: 9.5
+Year: 2023 | Value: 9.1
+Remark: Kosovo
+Remark: Mortality rate, under-5 (per 1,000 live births)

@@ -1,0 +1,6 @@
+Entity: United Technologies
+Year: 2015 | Value: 65100.0
+Year: 2016 | Value: 61047.0
+Year: 2017 | Value: 57244.0
+Year: 2018 | Value: 59837.0
+Year: 2019 | Value: 66501.0

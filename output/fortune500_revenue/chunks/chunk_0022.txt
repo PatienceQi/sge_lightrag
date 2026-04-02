@@ -1,0 +1,6 @@
+Entity: Home Depot
+Year: 2015 | Value: 83176.0
+Year: 2016 | Value: 88519.0
+Year: 2017 | Value: 94595.0
+Year: 2018 | Value: 100904.0
+Year: 2019 | Value: 108203.0

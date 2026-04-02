@@ -1,0 +1,25 @@
+Entity: FRA / WHOSIS_000001
+Year: 2000 | Value: 78.91105529
+Year: 2001 | Value: 79.01103311
+Year: 2002 | Value: 79.14448316
+Year: 2003 | Value: 79.09102734
+Year: 2004 | Value: 80.00018858
+Year: 2005 | Value: 80.00456559
+Year: 2006 | Value: 80.52598237
+Year: 2007 | Value: 80.79627532
+Year: 2008 | Value: 80.87497757
+Year: 2009 | Value: 81.04063075
+Year: 2010 | Value: 81.2215994
+Year: 2011 | Value: 81.57719696
+Year: 2012 | Value: 81.57752501
+Year: 2013 | Value: 81.81996075
+Year: 2014 | Value: 82.2489409
+Year: 2015 | Value: 81.90513823
+Year: 2016 | Value: 82.13202442
+Year: 2017 | Value: 82.17093951
+Year: 2018 | Value: 82.37708106
+Year: 2019 | Value: 82.52902201
+Year: 2020 | Value: 81.87409035
+Year: 2021 | Value: 81.92274175
+Remark: France
+Remark: Life expectancy at birth (years)

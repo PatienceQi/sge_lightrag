@@ -1,0 +1,42 @@
+Entity: GTM / SH.STA.MMRT
+Year: 1985 | Value: 301
+Year: 1986 | Value: 286
+Year: 1987 | Value: 277
+Year: 1988 | Value: 273
+Year: 1989 | Value: 271
+Year: 1990 | Value: 270
+Year: 1991 | Value: 268
+Year: 1992 | Value: 269
+Year: 1993 | Value: 262
+Year: 1994 | Value: 244
+Year: 1995 | Value: 229
+Year: 1996 | Value: 213
+Year: 1997 | Value: 198
+Year: 1998 | Value: 185
+Year: 1999 | Value: 174
+Year: 2000 | Value: 166
+Year: 2001 | Value: 162
+Year: 2002 | Value: 153
+Year: 2003 | Value: 150
+Year: 2004 | Value: 148
+Year: 2005 | Value: 153
+Year: 2006 | Value: 142
+Year: 2007 | Value: 135
+Year: 2008 | Value: 133
+Year: 2009 | Value: 130
+Year: 2010 | Value: 127
+Year: 2011 | Value: 120
+Year: 2012 | Value: 115
+Year: 2013 | Value: 111
+Year: 2014 | Value: 111
+Year: 2015 | Value: 112
+Year: 2016 | Value: 110
+Year: 2017 | Value: 107
+Year: 2018 | Value: 107
+Year: 2019 | Value: 106
+Year: 2020 | Value: 102
+Year: 2021 | Value: 125
+Year: 2022 | Value: 97
+Year: 2023 | Value: 94
+Remark: Guatemala
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

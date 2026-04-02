@@ -1,0 +1,42 @@
+Entity: FSM / SH.STA.MMRT
+Year: 1985 | Value: 224
+Year: 1986 | Value: 217
+Year: 1987 | Value: 224
+Year: 1988 | Value: 219
+Year: 1989 | Value: 211
+Year: 1990 | Value: 209
+Year: 1991 | Value: 208
+Year: 1992 | Value: 205
+Year: 1993 | Value: 204
+Year: 1994 | Value: 200
+Year: 1995 | Value: 204
+Year: 1996 | Value: 204
+Year: 1997 | Value: 201
+Year: 1998 | Value: 203
+Year: 1999 | Value: 200
+Year: 2000 | Value: 204
+Year: 2001 | Value: 196
+Year: 2002 | Value: 214
+Year: 2003 | Value: 191
+Year: 2004 | Value: 190
+Year: 2005 | Value: 188
+Year: 2006 | Value: 190
+Year: 2007 | Value: 188
+Year: 2008 | Value: 188
+Year: 2009 | Value: 186
+Year: 2010 | Value: 184
+Year: 2011 | Value: 181
+Year: 2012 | Value: 180
+Year: 2013 | Value: 181
+Year: 2014 | Value: 178
+Year: 2015 | Value: 182
+Year: 2016 | Value: 173
+Year: 2017 | Value: 171
+Year: 2018 | Value: 163
+Year: 2019 | Value: 154
+Year: 2020 | Value: 150
+Year: 2021 | Value: 155
+Year: 2022 | Value: 144
+Year: 2023 | Value: 129
+Remark: Micronesia, Fed. Sts.
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,42 @@
+Entity: NAM / SH.STA.MMRT
+Year: 1985 | Value: 354
+Year: 1986 | Value: 348
+Year: 1987 | Value: 336
+Year: 1988 | Value: 342
+Year: 1989 | Value: 306
+Year: 1990 | Value: 325
+Year: 1991 | Value: 337
+Year: 1992 | Value: 346
+Year: 1993 | Value: 354
+Year: 1994 | Value: 367
+Year: 1995 | Value: 369
+Year: 1996 | Value: 387
+Year: 1997 | Value: 383
+Year: 1998 | Value: 396
+Year: 1999 | Value: 371
+Year: 2000 | Value: 384
+Year: 2001 | Value: 376
+Year: 2002 | Value: 313
+Year: 2003 | Value: 290
+Year: 2004 | Value: 282
+Year: 2005 | Value: 344
+Year: 2006 | Value: 408
+Year: 2007 | Value: 489
+Year: 2008 | Value: 537
+Year: 2009 | Value: 547
+Year: 2010 | Value: 531
+Year: 2011 | Value: 498
+Year: 2012 | Value: 439
+Year: 2013 | Value: 402
+Year: 2014 | Value: 369
+Year: 2015 | Value: 307
+Year: 2016 | Value: 250
+Year: 2017 | Value: 213
+Year: 2018 | Value: 198
+Year: 2019 | Value: 175
+Year: 2020 | Value: 143
+Year: 2021 | Value: 254
+Year: 2022 | Value: 127
+Year: 2023 | Value: 139
+Remark: Namibia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

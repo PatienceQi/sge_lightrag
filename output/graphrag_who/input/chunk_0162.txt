@@ -1,0 +1,25 @@
+Entity: SVN / WHOSIS_000001
+Year: 2000 | Value: 76.05440169
+Year: 2001 | Value: 76.22393944
+Year: 2002 | Value: 76.50389555
+Year: 2003 | Value: 76.34395429
+Year: 2004 | Value: 77.10892927
+Year: 2005 | Value: 77.44125575
+Year: 2006 | Value: 78.04014469
+Year: 2007 | Value: 78.21314391
+Year: 2008 | Value: 78.89957706
+Year: 2009 | Value: 79.05086528
+Year: 2010 | Value: 79.54577335
+Year: 2011 | Value: 79.84960348
+Year: 2012 | Value: 79.89107651
+Year: 2013 | Value: 80.1367942
+Year: 2014 | Value: 80.78508516
+Year: 2015 | Value: 80.46318817
+Year: 2016 | Value: 80.81692358
+Year: 2017 | Value: 80.7898907
+Year: 2018 | Value: 80.95873943
+Year: 2019 | Value: 81.28502446
+Year: 2020 | Value: 80.33576726
+Year: 2021 | Value: 80.41495666
+Remark: Slovenia
+Remark: Life expectancy at birth (years)

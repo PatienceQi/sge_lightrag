@@ -1,0 +1,42 @@
+Entity: HPC / SH.STA.MMRT
+Year: 1985 | Value: 1070
+Year: 1986 | Value: 1030
+Year: 1987 | Value: 1010
+Year: 1988 | Value: 982
+Year: 1989 | Value: 963
+Year: 1990 | Value: 953
+Year: 1991 | Value: 927
+Year: 1992 | Value: 906
+Year: 1993 | Value: 884
+Year: 1994 | Value: 924
+Year: 1995 | Value: 820
+Year: 1996 | Value: 799
+Year: 1997 | Value: 774
+Year: 1998 | Value: 758
+Year: 1999 | Value: 727
+Year: 2000 | Value: 701
+Year: 2001 | Value: 674
+Year: 2002 | Value: 651
+Year: 2003 | Value: 629
+Year: 2004 | Value: 608
+Year: 2005 | Value: 597
+Year: 2006 | Value: 591
+Year: 2007 | Value: 588
+Year: 2008 | Value: 583
+Year: 2009 | Value: 572
+Year: 2010 | Value: 558
+Year: 2011 | Value: 536
+Year: 2012 | Value: 514
+Year: 2013 | Value: 497
+Year: 2014 | Value: 477
+Year: 2015 | Value: 459
+Year: 2016 | Value: 435
+Year: 2017 | Value: 414
+Year: 2018 | Value: 394
+Year: 2019 | Value: 380
+Year: 2020 | Value: 362
+Year: 2021 | Value: 378
+Year: 2022 | Value: 329
+Year: 2023 | Value: 321
+Remark: Heavily indebted poor countries (HIPC)
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

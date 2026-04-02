@@ -1,0 +1,42 @@
+Entity: CYP / SH.STA.MMRT
+Year: 1985 | Value: 19
+Year: 1986 | Value: 18
+Year: 1987 | Value: 17
+Year: 1988 | Value: 17
+Year: 1989 | Value: 16
+Year: 1990 | Value: 15
+Year: 1991 | Value: 15
+Year: 1992 | Value: 15
+Year: 1993 | Value: 15
+Year: 1994 | Value: 15
+Year: 1995 | Value: 14
+Year: 1996 | Value: 14
+Year: 1997 | Value: 13
+Year: 1998 | Value: 13
+Year: 1999 | Value: 12
+Year: 2000 | Value: 12
+Year: 2001 | Value: 11
+Year: 2002 | Value: 11
+Year: 2003 | Value: 10
+Year: 2004 | Value: 10
+Year: 2005 | Value: 10
+Year: 2006 | Value: 10
+Year: 2007 | Value: 10
+Year: 2008 | Value: 10
+Year: 2009 | Value: 10
+Year: 2010 | Value: 10
+Year: 2011 | Value: 10
+Year: 2012 | Value: 10
+Year: 2013 | Value: 10
+Year: 2014 | Value: 11
+Year: 2015 | Value: 11
+Year: 2016 | Value: 12
+Year: 2017 | Value: 12
+Year: 2018 | Value: 13
+Year: 2019 | Value: 13
+Year: 2020 | Value: 87
+Year: 2021 | Value: 98
+Year: 2022 | Value: 53
+Year: 2023 | Value: 14
+Remark: Cyprus
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

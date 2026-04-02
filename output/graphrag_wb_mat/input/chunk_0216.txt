@@ -1,0 +1,42 @@
+Entity: SSA / SH.STA.MMRT
+Year: 1985 | Value: 1060
+Year: 1986 | Value: 1030
+Year: 1987 | Value: 1060
+Year: 1988 | Value: 998
+Year: 1989 | Value: 969
+Year: 1990 | Value: 947
+Year: 1991 | Value: 929
+Year: 1992 | Value: 942
+Year: 1993 | Value: 920
+Year: 1994 | Value: 885
+Year: 1995 | Value: 834
+Year: 1996 | Value: 823
+Year: 1997 | Value: 805
+Year: 1998 | Value: 836
+Year: 1999 | Value: 746
+Year: 2000 | Value: 719
+Year: 2001 | Value: 701
+Year: 2002 | Value: 684
+Year: 2003 | Value: 662
+Year: 2004 | Value: 644
+Year: 2005 | Value: 637
+Year: 2006 | Value: 637
+Year: 2007 | Value: 638
+Year: 2008 | Value: 643
+Year: 2009 | Value: 640
+Year: 2010 | Value: 633
+Year: 2011 | Value: 623
+Year: 2012 | Value: 613
+Year: 2013 | Value: 607
+Year: 2014 | Value: 603
+Year: 2015 | Value: 595
+Year: 2016 | Value: 576
+Year: 2017 | Value: 557
+Year: 2018 | Value: 529
+Year: 2019 | Value: 512
+Year: 2020 | Value: 490
+Year: 2021 | Value: 502
+Year: 2022 | Value: 459
+Year: 2023 | Value: 449
+Remark: Sub-Saharan Africa (excluding high income)
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,42 @@
+Entity: TUV / SH.STA.MMRT
+Year: 1985 | Value: 230
+Year: 1986 | Value: 226
+Year: 1987 | Value: 252
+Year: 1988 | Value: 300
+Year: 1989 | Value: 296
+Year: 1990 | Value: 291
+Year: 1991 | Value: 289
+Year: 1992 | Value: 312
+Year: 1993 | Value: 286
+Year: 1994 | Value: 284
+Year: 1995 | Value: 281
+Year: 1996 | Value: 277
+Year: 1997 | Value: 249
+Year: 1998 | Value: 245
+Year: 1999 | Value: 242
+Year: 2000 | Value: 237
+Year: 2001 | Value: 235
+Year: 2002 | Value: 234
+Year: 2003 | Value: 210
+Year: 2004 | Value: 209
+Year: 2005 | Value: 230
+Year: 2006 | Value: 226
+Year: 2007 | Value: 222
+Year: 2008 | Value: 219
+Year: 2009 | Value: 215
+Year: 2010 | Value: 213
+Year: 2011 | Value: 169
+Year: 2012 | Value: 168
+Year: 2013 | Value: 168
+Year: 2014 | Value: 168
+Year: 2015 | Value: 169
+Year: 2016 | Value: 170
+Year: 2017 | Value: 171
+Year: 2018 | Value: 153
+Year: 2019 | Value: 155
+Year: 2020 | Value: 206
+Year: 2021 | Value: 157
+Year: 2022 | Value: 220
+Year: 2023 | Value: 170
+Remark: Tuvalu
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

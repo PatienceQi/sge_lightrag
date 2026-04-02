@@ -1,0 +1,42 @@
+Entity: AGO / SH.STA.MMRT
+Year: 1985 | Value: 877
+Year: 1986 | Value: 864
+Year: 1987 | Value: 920
+Year: 1988 | Value: 895
+Year: 1989 | Value: 884
+Year: 1990 | Value: 876
+Year: 1991 | Value: 826
+Year: 1992 | Value: 877
+Year: 1993 | Value: 855
+Year: 1994 | Value: 812
+Year: 1995 | Value: 772
+Year: 1996 | Value: 747
+Year: 1997 | Value: 717
+Year: 1998 | Value: 723
+Year: 1999 | Value: 687
+Year: 2000 | Value: 659
+Year: 2001 | Value: 629
+Year: 2002 | Value: 602
+Year: 2003 | Value: 538
+Year: 2004 | Value: 499
+Year: 2005 | Value: 462
+Year: 2006 | Value: 437
+Year: 2007 | Value: 401
+Year: 2008 | Value: 372
+Year: 2009 | Value: 348
+Year: 2010 | Value: 321
+Year: 2011 | Value: 301
+Year: 2012 | Value: 278
+Year: 2013 | Value: 267
+Year: 2014 | Value: 262
+Year: 2015 | Value: 249
+Year: 2016 | Value: 236
+Year: 2017 | Value: 220
+Year: 2018 | Value: 208
+Year: 2019 | Value: 202
+Year: 2020 | Value: 195
+Year: 2021 | Value: 211
+Year: 2022 | Value: 185
+Year: 2023 | Value: 183
+Remark: Angola
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,24 @@
+Entity: EUR / WHOSIS_000001
+Year: 2000 | Value: 72.39957333
+Year: 2001 | Value: 72.67016514
+Year: 2002 | Value: 72.70757292
+Year: 2003 | Value: 72.7931665
+Year: 2004 | Value: 73.32032577
+Year: 2005 | Value: 73.41416905
+Year: 2006 | Value: 74.11279931
+Year: 2007 | Value: 74.51560779
+Year: 2008 | Value: 74.81612483
+Year: 2009 | Value: 75.31619825
+Year: 2010 | Value: 75.62937104
+Year: 2011 | Value: 76.14127866
+Year: 2012 | Value: 76.35705486
+Year: 2013 | Value: 76.70126192
+Year: 2014 | Value: 76.88838577
+Year: 2015 | Value: 77.02127407
+Year: 2016 | Value: 77.3506962
+Year: 2017 | Value: 77.62310671
+Year: 2018 | Value: 77.74803442
+Year: 2019 | Value: 78.09893217
+Year: 2020 | Value: 76.92095687
+Year: 2021 | Value: 76.28728907
+Remark: Life expectancy at birth (years)

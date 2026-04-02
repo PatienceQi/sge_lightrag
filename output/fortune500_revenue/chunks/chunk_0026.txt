@@ -1,0 +1,6 @@
+Entity: Anthem
+Year: 2015 | Value: 73874.0
+Year: 2016 | Value: 79157.0
+Year: 2017 | Value: 84863.0
+Year: 2018 | Value: 90039.4
+Year: 2019 | Value: 92105.0

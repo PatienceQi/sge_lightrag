@@ -1,0 +1,42 @@
+Entity: PRY / SH.STA.MMRT
+Year: 1985 | Value: 237
+Year: 1986 | Value: 230
+Year: 1987 | Value: 225
+Year: 1988 | Value: 220
+Year: 1989 | Value: 209
+Year: 1990 | Value: 198
+Year: 1991 | Value: 192
+Year: 1992 | Value: 195
+Year: 1993 | Value: 197
+Year: 1994 | Value: 201
+Year: 1995 | Value: 202
+Year: 1996 | Value: 203
+Year: 1997 | Value: 205
+Year: 1998 | Value: 207
+Year: 1999 | Value: 207
+Year: 2000 | Value: 207
+Year: 2001 | Value: 207
+Year: 2002 | Value: 206
+Year: 2003 | Value: 203
+Year: 2004 | Value: 199
+Year: 2005 | Value: 194
+Year: 2006 | Value: 186
+Year: 2007 | Value: 177
+Year: 2008 | Value: 166
+Year: 2009 | Value: 152
+Year: 2010 | Value: 136
+Year: 2011 | Value: 120
+Year: 2012 | Value: 100
+Year: 2013 | Value: 84
+Year: 2014 | Value: 70
+Year: 2015 | Value: 64
+Year: 2016 | Value: 60
+Year: 2017 | Value: 58
+Year: 2018 | Value: 58
+Year: 2019 | Value: 58
+Year: 2020 | Value: 69
+Year: 2021 | Value: 140
+Year: 2022 | Value: 78
+Year: 2023 | Value: 58
+Remark: Paraguay
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

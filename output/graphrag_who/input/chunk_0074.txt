@@ -1,0 +1,25 @@
+Entity: GTM / WHOSIS_000001
+Year: 2000 | Value: 68.30883271
+Year: 2001 | Value: 68.64112754
+Year: 2002 | Value: 69.34050502
+Year: 2003 | Value: 69.39160529
+Year: 2004 | Value: 69.65899192
+Year: 2005 | Value: 69.30530428
+Year: 2006 | Value: 69.85634314
+Year: 2007 | Value: 70.68269963
+Year: 2008 | Value: 71.01416309
+Year: 2009 | Value: 70.84468993
+Year: 2010 | Value: 71.06943555
+Year: 2011 | Value: 71.55408827
+Year: 2012 | Value: 71.91726662
+Year: 2013 | Value: 71.749288
+Year: 2014 | Value: 71.9774007
+Year: 2015 | Value: 72.0454314
+Year: 2016 | Value: 72.23492224
+Year: 2017 | Value: 72.69594645
+Year: 2018 | Value: 72.72918484
+Year: 2019 | Value: 72.70697215
+Year: 2020 | Value: 70.95988885
+Year: 2021 | Value: 68.69573697
+Remark: Guatemala
+Remark: Life expectancy at birth (years)

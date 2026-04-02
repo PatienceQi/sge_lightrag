@@ -1,0 +1,6 @@
+Entity: General Electric
+Year: 2015 | Value: 148321.0
+Year: 2016 | Value: 140389.0
+Year: 2017 | Value: 126661.0
+Year: 2018 | Value: 122274.0
+Year: 2019 | Value: 120268.0

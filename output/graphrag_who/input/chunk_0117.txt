@@ -1,0 +1,25 @@
+Entity: MNE / WHOSIS_000001
+Year: 2000 | Value: 73.43360465
+Year: 2001 | Value: 73.45014953
+Year: 2002 | Value: 73.54605523
+Year: 2003 | Value: 73.62012454
+Year: 2004 | Value: 73.73506539
+Year: 2005 | Value: 73.98743557
+Year: 2006 | Value: 74.28740727
+Year: 2007 | Value: 74.67252275
+Year: 2008 | Value: 75.02700903
+Year: 2009 | Value: 75.38841226
+Year: 2010 | Value: 75.71790981
+Year: 2011 | Value: 75.9899009
+Year: 2012 | Value: 76.17609575
+Year: 2013 | Value: 76.3576393
+Year: 2014 | Value: 76.62030337
+Year: 2015 | Value: 76.86028429
+Year: 2016 | Value: 77.06052079
+Year: 2017 | Value: 77.14980899
+Year: 2018 | Value: 77.222772
+Year: 2019 | Value: 76.83999351
+Year: 2020 | Value: 75.47582429
+Year: 2021 | Value: 74.70975149
+Remark: Montenegro
+Remark: Life expectancy at birth (years)

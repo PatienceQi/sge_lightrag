@@ -1,0 +1,25 @@
+Entity: QAT / WHOSIS_000001
+Year: 2000 | Value: 70.38243907
+Year: 2001 | Value: 70.31526721
+Year: 2002 | Value: 70.33186981
+Year: 2003 | Value: 70.55987989
+Year: 2004 | Value: 70.84074247
+Year: 2005 | Value: 71.03950228
+Year: 2006 | Value: 71.48490844
+Year: 2007 | Value: 71.89910857
+Year: 2008 | Value: 72.36968987
+Year: 2009 | Value: 72.77133296
+Year: 2010 | Value: 73.45657467
+Year: 2011 | Value: 74.27799506
+Year: 2012 | Value: 74.98566602
+Year: 2013 | Value: 75.79521614
+Year: 2014 | Value: 76.57011341
+Year: 2015 | Value: 77.79140376
+Year: 2016 | Value: 78.22428304
+Year: 2017 | Value: 78.5144035
+Year: 2018 | Value: 78.6332828
+Year: 2019 | Value: 78.89595906
+Year: 2020 | Value: 77.27588364
+Year: 2021 | Value: 76.7101384
+Remark: Qatar
+Remark: Life expectancy at birth (years)

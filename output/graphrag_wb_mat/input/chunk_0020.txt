@@ -1,0 +1,42 @@
+Entity: BFA / SH.STA.MMRT
+Year: 1985 | Value: 850
+Year: 1986 | Value: 834
+Year: 1987 | Value: 820
+Year: 1988 | Value: 806
+Year: 1989 | Value: 787
+Year: 1990 | Value: 759
+Year: 1991 | Value: 732
+Year: 1992 | Value: 703
+Year: 1993 | Value: 677
+Year: 1994 | Value: 651
+Year: 1995 | Value: 629
+Year: 1996 | Value: 605
+Year: 1997 | Value: 610
+Year: 1998 | Value: 567
+Year: 1999 | Value: 547
+Year: 2000 | Value: 524
+Year: 2001 | Value: 513
+Year: 2002 | Value: 508
+Year: 2003 | Value: 495
+Year: 2004 | Value: 481
+Year: 2005 | Value: 467
+Year: 2006 | Value: 463
+Year: 2007 | Value: 453
+Year: 2008 | Value: 429
+Year: 2009 | Value: 419
+Year: 2010 | Value: 404
+Year: 2011 | Value: 388
+Year: 2012 | Value: 376
+Year: 2013 | Value: 361
+Year: 2014 | Value: 344
+Year: 2015 | Value: 328
+Year: 2016 | Value: 313
+Year: 2017 | Value: 298
+Year: 2018 | Value: 286
+Year: 2019 | Value: 274
+Year: 2020 | Value: 334
+Year: 2021 | Value: 354
+Year: 2022 | Value: 316
+Year: 2023 | Value: 242
+Remark: Burkina Faso
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

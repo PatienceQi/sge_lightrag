@@ -1,0 +1,42 @@
+Entity: MMR / SH.STA.MMRT
+Year: 1985 | Value: 674
+Year: 1986 | Value: 652
+Year: 1987 | Value: 631
+Year: 1988 | Value: 616
+Year: 1989 | Value: 603
+Year: 1990 | Value: 586
+Year: 1991 | Value: 566
+Year: 1992 | Value: 542
+Year: 1993 | Value: 522
+Year: 1994 | Value: 498
+Year: 1995 | Value: 472
+Year: 1996 | Value: 442
+Year: 1997 | Value: 416
+Year: 1998 | Value: 398
+Year: 1999 | Value: 388
+Year: 2000 | Value: 375
+Year: 2001 | Value: 361
+Year: 2002 | Value: 347
+Year: 2003 | Value: 335
+Year: 2004 | Value: 324
+Year: 2005 | Value: 312
+Year: 2006 | Value: 301
+Year: 2007 | Value: 290
+Year: 2008 | Value: 286
+Year: 2009 | Value: 268
+Year: 2010 | Value: 259
+Year: 2011 | Value: 249
+Year: 2012 | Value: 243
+Year: 2013 | Value: 237
+Year: 2014 | Value: 228
+Year: 2015 | Value: 222
+Year: 2016 | Value: 215
+Year: 2017 | Value: 209
+Year: 2018 | Value: 201
+Year: 2019 | Value: 195
+Year: 2020 | Value: 198
+Year: 2021 | Value: 231
+Year: 2022 | Value: 193
+Year: 2023 | Value: 185
+Remark: Myanmar
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

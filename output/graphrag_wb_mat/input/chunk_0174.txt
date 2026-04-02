@@ -1,0 +1,42 @@
+Entity: NER / SH.STA.MMRT
+Year: 1985 | Value: 1137
+Year: 1986 | Value: 1107
+Year: 1987 | Value: 1074
+Year: 1988 | Value: 1040
+Year: 1989 | Value: 1010
+Year: 1990 | Value: 983
+Year: 1991 | Value: 957
+Year: 1992 | Value: 926
+Year: 1993 | Value: 903
+Year: 1994 | Value: 883
+Year: 1995 | Value: 865
+Year: 1996 | Value: 854
+Year: 1997 | Value: 841
+Year: 1998 | Value: 839
+Year: 1999 | Value: 841
+Year: 2000 | Value: 845
+Year: 2001 | Value: 843
+Year: 2002 | Value: 835
+Year: 2003 | Value: 813
+Year: 2004 | Value: 790
+Year: 2005 | Value: 764
+Year: 2006 | Value: 737
+Year: 2007 | Value: 704
+Year: 2008 | Value: 669
+Year: 2009 | Value: 647
+Year: 2010 | Value: 621
+Year: 2011 | Value: 585
+Year: 2012 | Value: 554
+Year: 2013 | Value: 526
+Year: 2014 | Value: 497
+Year: 2015 | Value: 473
+Year: 2016 | Value: 450
+Year: 2017 | Value: 433
+Year: 2018 | Value: 420
+Year: 2019 | Value: 406
+Year: 2020 | Value: 388
+Year: 2021 | Value: 396
+Year: 2022 | Value: 361
+Year: 2023 | Value: 350
+Remark: Niger
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

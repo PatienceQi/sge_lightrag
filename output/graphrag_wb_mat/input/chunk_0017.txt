@@ -1,0 +1,42 @@
+Entity: BDI / SH.STA.MMRT
+Year: 1985 | Value: 1428
+Year: 1986 | Value: 1441
+Year: 1987 | Value: 1446
+Year: 1988 | Value: 1519
+Year: 1989 | Value: 1511
+Year: 1990 | Value: 1515
+Year: 1991 | Value: 1513
+Year: 1992 | Value: 1464
+Year: 1993 | Value: 1801
+Year: 1994 | Value: 1215
+Year: 1995 | Value: 1293
+Year: 1996 | Value: 1236
+Year: 1997 | Value: 1100
+Year: 1998 | Value: 969
+Year: 1999 | Value: 899
+Year: 2000 | Value: 860
+Year: 2001 | Value: 799
+Year: 2002 | Value: 743
+Year: 2003 | Value: 705
+Year: 2004 | Value: 687
+Year: 2005 | Value: 685
+Year: 2006 | Value: 670
+Year: 2007 | Value: 655
+Year: 2008 | Value: 635
+Year: 2009 | Value: 612
+Year: 2010 | Value: 614
+Year: 2011 | Value: 597
+Year: 2012 | Value: 575
+Year: 2013 | Value: 555
+Year: 2014 | Value: 533
+Year: 2015 | Value: 525
+Year: 2016 | Value: 501
+Year: 2017 | Value: 482
+Year: 2018 | Value: 464
+Year: 2019 | Value: 449
+Year: 2020 | Value: 441
+Year: 2021 | Value: 447
+Year: 2022 | Value: 412
+Year: 2023 | Value: 392
+Remark: Burundi
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

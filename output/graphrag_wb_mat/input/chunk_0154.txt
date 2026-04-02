@@ -1,0 +1,42 @@
+Entity: MEA / SH.STA.MMRT
+Year: 1985 | Value: 229
+Year: 1986 | Value: 215
+Year: 1987 | Value: 200
+Year: 1988 | Value: 190
+Year: 1989 | Value: 179
+Year: 1990 | Value: 171
+Year: 1991 | Value: 159
+Year: 1992 | Value: 150
+Year: 1993 | Value: 144
+Year: 1994 | Value: 140
+Year: 1995 | Value: 134
+Year: 1996 | Value: 128
+Year: 1997 | Value: 122
+Year: 1998 | Value: 115
+Year: 1999 | Value: 109
+Year: 2000 | Value: 103
+Year: 2001 | Value: 97
+Year: 2002 | Value: 91
+Year: 2003 | Value: 87
+Year: 2004 | Value: 83
+Year: 2005 | Value: 78
+Year: 2006 | Value: 75
+Year: 2007 | Value: 71
+Year: 2008 | Value: 67
+Year: 2009 | Value: 65
+Year: 2010 | Value: 63
+Year: 2011 | Value: 61
+Year: 2012 | Value: 59
+Year: 2013 | Value: 57
+Year: 2014 | Value: 55
+Year: 2015 | Value: 54
+Year: 2016 | Value: 53
+Year: 2017 | Value: 52
+Year: 2018 | Value: 51
+Year: 2019 | Value: 51
+Year: 2020 | Value: 60
+Year: 2021 | Value: 74
+Year: 2022 | Value: 50
+Year: 2023 | Value: 47
+Remark: Middle East, North Africa, Afghanistan & Pakistan
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

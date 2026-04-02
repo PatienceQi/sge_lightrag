@@ -1,0 +1,42 @@
+Entity: HND / SH.STA.MMRT
+Year: 1985 | Value: 199
+Year: 1986 | Value: 191
+Year: 1987 | Value: 183
+Year: 1988 | Value: 177
+Year: 1989 | Value: 169
+Year: 1990 | Value: 159
+Year: 1991 | Value: 148
+Year: 1992 | Value: 138
+Year: 1993 | Value: 128
+Year: 1994 | Value: 119
+Year: 1995 | Value: 109
+Year: 1996 | Value: 101
+Year: 1997 | Value: 96
+Year: 1998 | Value: 91
+Year: 1999 | Value: 86
+Year: 2000 | Value: 82
+Year: 2001 | Value: 78
+Year: 2002 | Value: 75
+Year: 2003 | Value: 75
+Year: 2004 | Value: 74
+Year: 2005 | Value: 73
+Year: 2006 | Value: 72
+Year: 2007 | Value: 72
+Year: 2008 | Value: 72
+Year: 2009 | Value: 71
+Year: 2010 | Value: 72
+Year: 2011 | Value: 68
+Year: 2012 | Value: 64
+Year: 2013 | Value: 62
+Year: 2014 | Value: 60
+Year: 2015 | Value: 57
+Year: 2016 | Value: 55
+Year: 2017 | Value: 53
+Year: 2018 | Value: 52
+Year: 2019 | Value: 51
+Year: 2020 | Value: 57
+Year: 2021 | Value: 88
+Year: 2022 | Value: 48
+Year: 2023 | Value: 47
+Remark: Honduras
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

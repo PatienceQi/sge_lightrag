@@ -1,0 +1,25 @@
+Entity: TLS / WHOSIS_000001
+Year: 2000 | Value: 62.86576561
+Year: 2001 | Value: 63.41630684
+Year: 2002 | Value: 63.92197693
+Year: 2003 | Value: 64.51597993
+Year: 2004 | Value: 65.10952919
+Year: 2005 | Value: 65.67751029
+Year: 2006 | Value: 65.99128891
+Year: 2007 | Value: 66.33184634
+Year: 2008 | Value: 66.57678716
+Year: 2009 | Value: 66.64368547
+Year: 2010 | Value: 67.00361983
+Year: 2011 | Value: 67.28464088
+Year: 2012 | Value: 67.450997
+Year: 2013 | Value: 67.45652515
+Year: 2014 | Value: 67.48250838
+Year: 2015 | Value: 67.83593705
+Year: 2016 | Value: 68.07445467
+Year: 2017 | Value: 68.23558592
+Year: 2018 | Value: 68.36839208
+Year: 2019 | Value: 68.49880356
+Year: 2020 | Value: 68.91671885
+Year: 2021 | Value: 67.99671222
+Remark: Timor-Leste
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,42 @@
+Entity: TGO / SH.STA.MMRT
+Year: 1985 | Value: 668
+Year: 1986 | Value: 649
+Year: 1987 | Value: 636
+Year: 1988 | Value: 628
+Year: 1989 | Value: 644
+Year: 1990 | Value: 657
+Year: 1991 | Value: 676
+Year: 1992 | Value: 692
+Year: 1993 | Value: 728
+Year: 1994 | Value: 688
+Year: 1995 | Value: 663
+Year: 1996 | Value: 627
+Year: 1997 | Value: 600
+Year: 1998 | Value: 570
+Year: 1999 | Value: 529
+Year: 2000 | Value: 496
+Year: 2001 | Value: 478
+Year: 2002 | Value: 447
+Year: 2003 | Value: 431
+Year: 2004 | Value: 431
+Year: 2005 | Value: 434
+Year: 2006 | Value: 453
+Year: 2007 | Value: 448
+Year: 2008 | Value: 457
+Year: 2009 | Value: 471
+Year: 2010 | Value: 497
+Year: 2011 | Value: 501
+Year: 2012 | Value: 506
+Year: 2013 | Value: 500
+Year: 2014 | Value: 490
+Year: 2015 | Value: 470
+Year: 2016 | Value: 460
+Year: 2017 | Value: 443
+Year: 2018 | Value: 435
+Year: 2019 | Value: 416
+Year: 2020 | Value: 398
+Year: 2021 | Value: 397
+Year: 2022 | Value: 362
+Year: 2023 | Value: 349
+Remark: Togo
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

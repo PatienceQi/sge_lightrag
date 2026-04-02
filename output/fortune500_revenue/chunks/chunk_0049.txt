@@ -1,0 +1,6 @@
+Entity: Goldman Sachs Group
+Year: 2015 | Value: 40085.0
+Year: 2016 | Value: 39208.0
+Year: 2017 | Value: 37712.0
+Year: 2018 | Value: 42254.0
+Year: 2019 | Value: 52528.0

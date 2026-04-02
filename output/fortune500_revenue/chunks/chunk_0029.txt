@@ -1,0 +1,6 @@
+Entity: Marathon Petroleum
+Year: 2015 | Value: 91417.0
+Year: 2016 | Value: 64566.0
+Year: 2017 | Value: 55858.0
+Year: 2018 | Value: 67610.0
+Year: 2019 | Value: 97102.0

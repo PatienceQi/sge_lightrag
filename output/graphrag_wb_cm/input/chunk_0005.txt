@@ -1,0 +1,47 @@
+Entity: AGO / SH.DYN.MORT
+Year: 1980 | Value: 238.1
+Year: 1981 | Value: 235.3
+Year: 1982 | Value: 232.9
+Year: 1983 | Value: 230
+Year: 1984 | Value: 228
+Year: 1985 | Value: 226.3
+Year: 1986 | Value: 225
+Year: 1987 | Value: 224
+Year: 1988 | Value: 223.2
+Year: 1989 | Value: 222.8
+Year: 1990 | Value: 222.7
+Year: 1991 | Value: 222.5
+Year: 1992 | Value: 222.4
+Year: 1993 | Value: 222
+Year: 1994 | Value: 221.6
+Year: 1995 | Value: 220.7
+Year: 1996 | Value: 218.9
+Year: 1997 | Value: 216.2
+Year: 1998 | Value: 212.6
+Year: 1999 | Value: 208.2
+Year: 2000 | Value: 203
+Year: 2001 | Value: 196.9
+Year: 2002 | Value: 189.9
+Year: 2003 | Value: 182.2
+Year: 2004 | Value: 173.8
+Year: 2005 | Value: 165
+Year: 2006 | Value: 155.5
+Year: 2007 | Value: 146
+Year: 2008 | Value: 137
+Year: 2009 | Value: 128.2
+Year: 2010 | Value: 119.8
+Year: 2011 | Value: 112.1
+Year: 2012 | Value: 104.8
+Year: 2013 | Value: 98.3
+Year: 2014 | Value: 92.8
+Year: 2015 | Value: 88.2
+Year: 2016 | Value: 84.1
+Year: 2017 | Value: 80.5
+Year: 2018 | Value: 77.3
+Year: 2019 | Value: 74.4
+Year: 2020 | Value: 71.6
+Year: 2021 | Value: 69
+Year: 2022 | Value: 66.4
+Year: 2023 | Value: 64
+Remark: Angola
+Remark: Mortality rate, under-5 (per 1,000 live births)

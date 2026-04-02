@@ -1,0 +1,6 @@
+Entity: Johnson & Johnson
+Year: 2015 | Value: 74331.0
+Year: 2016 | Value: 70074.0
+Year: 2017 | Value: 71890.0
+Year: 2018 | Value: 76450.0
+Year: 2019 | Value: 81581.0

@@ -1,0 +1,6 @@
+Entity: Freddie Mac
+Year: 2015 | Value: 69367.0
+Year: 2016 | Value: 63491.0
+Year: 2017 | Value: 65665.0
+Year: 2018 | Value: 74676.0
+Year: 2019 | Value: 73598.0

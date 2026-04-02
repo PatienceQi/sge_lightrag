@@ -1,0 +1,25 @@
+Entity: JOR / WHOSIS_000001
+Year: 2000 | Value: 72.72227433
+Year: 2001 | Value: 72.6802332
+Year: 2002 | Value: 72.9283168
+Year: 2003 | Value: 73.51735567
+Year: 2004 | Value: 73.56285182
+Year: 2005 | Value: 73.42688191
+Year: 2006 | Value: 73.85308999
+Year: 2007 | Value: 74.97453582
+Year: 2008 | Value: 75.81217115
+Year: 2009 | Value: 76.34651794
+Year: 2010 | Value: 76.68909265
+Year: 2011 | Value: 76.9077149
+Year: 2012 | Value: 77.13092988
+Year: 2013 | Value: 77.52470069
+Year: 2014 | Value: 77.96984738
+Year: 2015 | Value: 78.50941007
+Year: 2016 | Value: 78.7600732
+Year: 2017 | Value: 79.14251842
+Year: 2018 | Value: 79.63154866
+Year: 2019 | Value: 79.7854181
+Year: 2020 | Value: 77.55988721
+Year: 2021 | Value: 75.64973596
+Remark: Jordan
+Remark: Life expectancy at birth (years)

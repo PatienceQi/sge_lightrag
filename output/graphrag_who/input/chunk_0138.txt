@@ -1,0 +1,25 @@
+Entity: POL / WHOSIS_000001
+Year: 2000 | Value: 73.69538073
+Year: 2001 | Value: 74.09873292
+Year: 2002 | Value: 74.45428635
+Year: 2003 | Value: 74.54799786
+Year: 2004 | Value: 74.76713155
+Year: 2005 | Value: 74.89551806
+Year: 2006 | Value: 75.11534037
+Year: 2007 | Value: 75.17671647
+Year: 2008 | Value: 75.43243412
+Year: 2009 | Value: 75.638685
+Year: 2010 | Value: 76.23355347
+Year: 2011 | Value: 76.56402189
+Year: 2012 | Value: 76.63330274
+Year: 2013 | Value: 76.86531254
+Year: 2014 | Value: 77.47281866
+Year: 2015 | Value: 77.27808527
+Year: 2016 | Value: 77.66853135
+Year: 2017 | Value: 77.56192606
+Year: 2018 | Value: 77.56054122
+Year: 2019 | Value: 77.72984544
+Year: 2020 | Value: 76.38788167
+Year: 2021 | Value: 75.4021086
+Remark: Poland
+Remark: Life expectancy at birth (years)

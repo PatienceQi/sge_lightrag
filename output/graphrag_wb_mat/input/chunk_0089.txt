@@ -1,0 +1,42 @@
+Entity: GNQ / SH.STA.MMRT
+Year: 1985 | Value: 658
+Year: 1986 | Value: 666
+Year: 1987 | Value: 672
+Year: 1988 | Value: 675
+Year: 1989 | Value: 688
+Year: 1990 | Value: 689
+Year: 1991 | Value: 688
+Year: 1992 | Value: 682
+Year: 1993 | Value: 668
+Year: 1994 | Value: 639
+Year: 1995 | Value: 587
+Year: 1996 | Value: 544
+Year: 1997 | Value: 507
+Year: 1998 | Value: 476
+Year: 1999 | Value: 442
+Year: 2000 | Value: 406
+Year: 2001 | Value: 388
+Year: 2002 | Value: 364
+Year: 2003 | Value: 343
+Year: 2004 | Value: 323
+Year: 2005 | Value: 312
+Year: 2006 | Value: 299
+Year: 2007 | Value: 289
+Year: 2008 | Value: 276
+Year: 2009 | Value: 267
+Year: 2010 | Value: 259
+Year: 2011 | Value: 254
+Year: 2012 | Value: 245
+Year: 2013 | Value: 236
+Year: 2014 | Value: 227
+Year: 2015 | Value: 222
+Year: 2016 | Value: 216
+Year: 2017 | Value: 212
+Year: 2018 | Value: 204
+Year: 2019 | Value: 198
+Year: 2020 | Value: 196
+Year: 2021 | Value: 202
+Year: 2022 | Value: 183
+Year: 2023 | Value: 174
+Remark: Equatorial Guinea
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

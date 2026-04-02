@@ -1,0 +1,42 @@
+Entity: COD / SH.STA.MMRT
+Year: 1985 | Value: 934
+Year: 1986 | Value: 902
+Year: 1987 | Value: 863
+Year: 1988 | Value: 824
+Year: 1989 | Value: 791
+Year: 1990 | Value: 755
+Year: 1991 | Value: 735
+Year: 1992 | Value: 709
+Year: 1993 | Value: 683
+Year: 1994 | Value: 656
+Year: 1995 | Value: 644
+Year: 1996 | Value: 661
+Year: 1997 | Value: 617
+Year: 1998 | Value: 605
+Year: 1999 | Value: 601
+Year: 2000 | Value: 585
+Year: 2001 | Value: 588
+Year: 2002 | Value: 601
+Year: 2003 | Value: 605
+Year: 2004 | Value: 607
+Year: 2005 | Value: 613
+Year: 2006 | Value: 619
+Year: 2007 | Value: 631
+Year: 2008 | Value: 620
+Year: 2009 | Value: 608
+Year: 2010 | Value: 601
+Year: 2011 | Value: 589
+Year: 2012 | Value: 578
+Year: 2013 | Value: 567
+Year: 2014 | Value: 558
+Year: 2015 | Value: 545
+Year: 2016 | Value: 526
+Year: 2017 | Value: 519
+Year: 2018 | Value: 508
+Year: 2019 | Value: 493
+Year: 2020 | Value: 489
+Year: 2021 | Value: 507
+Year: 2022 | Value: 456
+Year: 2023 | Value: 427
+Remark: Congo, Dem. Rep.
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

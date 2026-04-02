@@ -1,0 +1,3 @@
+Entity: VIR / SH.DYN.MORT
+Remark: Virgin Islands (U.S.)
+Remark: Mortality rate, under-5 (per 1,000 live births)

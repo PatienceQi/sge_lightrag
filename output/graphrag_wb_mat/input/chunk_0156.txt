@@ -1,0 +1,42 @@
+Entity: MHL / SH.STA.MMRT
+Year: 1985 | Value: 254
+Year: 1986 | Value: 274
+Year: 1987 | Value: 282
+Year: 1988 | Value: 276
+Year: 1989 | Value: 299
+Year: 1990 | Value: 311
+Year: 1991 | Value: 297
+Year: 1992 | Value: 322
+Year: 1993 | Value: 320
+Year: 1994 | Value: 303
+Year: 1995 | Value: 303
+Year: 1996 | Value: 292
+Year: 1997 | Value: 274
+Year: 1998 | Value: 259
+Year: 1999 | Value: 250
+Year: 2000 | Value: 251
+Year: 2001 | Value: 231
+Year: 2002 | Value: 223
+Year: 2003 | Value: 221
+Year: 2004 | Value: 238
+Year: 2005 | Value: 234
+Year: 2006 | Value: 233
+Year: 2007 | Value: 229
+Year: 2008 | Value: 226
+Year: 2009 | Value: 224
+Year: 2010 | Value: 212
+Year: 2011 | Value: 209
+Year: 2012 | Value: 207
+Year: 2013 | Value: 201
+Year: 2014 | Value: 199
+Year: 2015 | Value: 184
+Year: 2016 | Value: 183
+Year: 2017 | Value: 179
+Year: 2018 | Value: 167
+Year: 2019 | Value: 168
+Year: 2020 | Value: 178
+Year: 2021 | Value: 206
+Year: 2022 | Value: 174
+Year: 2023 | Value: 155
+Remark: Marshall Islands
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

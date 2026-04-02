@@ -1,0 +1,78 @@
+[
+  {
+    "dataset": "who",
+    "label": "WHO Life Expectancy (EN, Type-II)",
+    "timestamp": "2026-04-01T23:36:55.395948",
+    "table_aware": {
+      "label": "Table-Aware",
+      "ec": 0.68,
+      "fc": 0.1733,
+      "ec_matched": 17,
+      "ec_total": 25,
+      "fc_covered": 26,
+      "fc_total": 150,
+      "node_count": 477,
+      "edge_count": 492
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150,
+      "node_count": 4508,
+      "edge_count": 4312
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.92,
+      "fc": 0.1667,
+      "ec_matched": 23,
+      "ec_total": 25,
+      "fc_covered": 25,
+      "fc_total": 150,
+      "node_count": 402,
+      "edge_count": 647
+    }
+  },
+  {
+    "dataset": "who_strong",
+    "label": "WHO Life Expectancy — STRONG prompt (EN, Type-II)",
+    "timestamp": "2026-04-02T11:49:46.643845",
+    "table_aware": {
+      "label": "Table-Aware",
+      "ec": 1.0,
+      "fc": 0.9267,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 139,
+      "fc_total": 150,
+      "node_count": 4500,
+      "edge_count": 4290
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150,
+      "node_count": 4508,
+      "edge_count": 4312
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.92,
+      "fc": 0.1667,
+      "ec_matched": 23,
+      "ec_total": 25,
+      "fc_covered": 25,
+      "fc_total": 150,
+      "node_count": 402,
+      "edge_count": 647
+    }
+  }
+]

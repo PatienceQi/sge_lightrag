@@ -1,0 +1,37 @@
+Entity: EAS / SH.DYN.MORT
+Year: 1990 | Value: 56.6
+Year: 1991 | Value: 55.4
+Year: 1992 | Value: 54.1
+Year: 1993 | Value: 52.5
+Year: 1994 | Value: 50.7
+Year: 1995 | Value: 49.8
+Year: 1996 | Value: 47.9
+Year: 1997 | Value: 46
+Year: 1998 | Value: 44.1
+Year: 1999 | Value: 42.1
+Year: 2000 | Value: 39.8
+Year: 2001 | Value: 37.7
+Year: 2002 | Value: 35.6
+Year: 2003 | Value: 32.7
+Year: 2004 | Value: 31.6
+Year: 2005 | Value: 28.9
+Year: 2006 | Value: 27.1
+Year: 2007 | Value: 25.6
+Year: 2008 | Value: 25.1
+Year: 2009 | Value: 22.7
+Year: 2010 | Value: 21.6
+Year: 2011 | Value: 20.6
+Year: 2012 | Value: 19.3
+Year: 2013 | Value: 18.5
+Year: 2014 | Value: 17.5
+Year: 2015 | Value: 16.9
+Year: 2016 | Value: 16.1
+Year: 2017 | Value: 15.3
+Year: 2018 | Value: 15.2
+Year: 2019 | Value: 14.8
+Year: 2020 | Value: 14.9
+Year: 2021 | Value: 14.9
+Year: 2022 | Value: 14.7
+Year: 2023 | Value: 14.5
+Remark: East Asia & Pacific
+Remark: Mortality rate, under-5 (per 1,000 live births)

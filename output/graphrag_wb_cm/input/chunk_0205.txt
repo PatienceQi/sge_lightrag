@@ -1,0 +1,37 @@
+Entity: SAS / SH.DYN.MORT
+Year: 1990 | Value: 130.5
+Year: 1991 | Value: 126.6
+Year: 1992 | Value: 122.9
+Year: 1993 | Value: 119.4
+Year: 1994 | Value: 115.8
+Year: 1995 | Value: 112.2
+Year: 1996 | Value: 108.5
+Year: 1997 | Value: 104.7
+Year: 1998 | Value: 101
+Year: 1999 | Value: 97.2
+Year: 2000 | Value: 93.4
+Year: 2001 | Value: 89.7
+Year: 2002 | Value: 86.2
+Year: 2003 | Value: 83
+Year: 2004 | Value: 79.9
+Year: 2005 | Value: 76.7
+Year: 2006 | Value: 73.8
+Year: 2007 | Value: 70.9
+Year: 2008 | Value: 68.1
+Year: 2009 | Value: 65.4
+Year: 2010 | Value: 62.6
+Year: 2011 | Value: 59.9
+Year: 2012 | Value: 57.1
+Year: 2013 | Value: 54.5
+Year: 2014 | Value: 52
+Year: 2015 | Value: 49.5
+Year: 2016 | Value: 47.1
+Year: 2017 | Value: 44.9
+Year: 2018 | Value: 42.8
+Year: 2019 | Value: 40.9
+Year: 2020 | Value: 39.2
+Year: 2021 | Value: 37.6
+Year: 2022 | Value: 36.1
+Year: 2023 | Value: 34.8
+Remark: South Asia
+Remark: Mortality rate, under-5 (per 1,000 live births)

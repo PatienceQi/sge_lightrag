@@ -1,0 +1,6 @@
+Entity: Fannie Mae
+Year: 2015 | Value: 116461.0
+Year: 2016 | Value: 110359.0
+Year: 2017 | Value: 107162.0
+Year: 2018 | Value: 112394.0
+Year: 2019 | Value: 120101.0

@@ -1,0 +1,42 @@
+Entity: IDN / SH.STA.MMRT
+Year: 1985 | Value: 474
+Year: 1986 | Value: 455
+Year: 1987 | Value: 437
+Year: 1988 | Value: 431
+Year: 1989 | Value: 402
+Year: 1990 | Value: 392
+Year: 1991 | Value: 378
+Year: 1992 | Value: 359
+Year: 1993 | Value: 327
+Year: 1994 | Value: 333
+Year: 1995 | Value: 334
+Year: 1996 | Value: 331
+Year: 1997 | Value: 323
+Year: 1998 | Value: 317
+Year: 1999 | Value: 321
+Year: 2000 | Value: 311
+Year: 2001 | Value: 300
+Year: 2002 | Value: 283
+Year: 2003 | Value: 279
+Year: 2004 | Value: 283
+Year: 2005 | Value: 268
+Year: 2006 | Value: 264
+Year: 2007 | Value: 257
+Year: 2008 | Value: 251
+Year: 2009 | Value: 246
+Year: 2010 | Value: 242
+Year: 2011 | Value: 230
+Year: 2012 | Value: 220
+Year: 2013 | Value: 208
+Year: 2014 | Value: 198
+Year: 2015 | Value: 190
+Year: 2016 | Value: 182
+Year: 2017 | Value: 173
+Year: 2018 | Value: 168
+Year: 2019 | Value: 161
+Year: 2020 | Value: 184
+Year: 2021 | Value: 226
+Year: 2022 | Value: 148
+Year: 2023 | Value: 140
+Remark: Indonesia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

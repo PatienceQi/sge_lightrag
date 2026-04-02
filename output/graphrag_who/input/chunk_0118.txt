@@ -1,0 +1,25 @@
+Entity: MNG / WHOSIS_000001
+Year: 2000 | Value: 63.19839599
+Year: 2001 | Value: 63.48955882
+Year: 2002 | Value: 63.99267039
+Year: 2003 | Value: 64.44695031
+Year: 2004 | Value: 64.84071925
+Year: 2005 | Value: 65.26255095
+Year: 2006 | Value: 65.78316962
+Year: 2007 | Value: 66.37749458
+Year: 2008 | Value: 66.90211117
+Year: 2009 | Value: 66.92759176
+Year: 2010 | Value: 67.10227644
+Year: 2011 | Value: 67.30366439
+Year: 2012 | Value: 67.84058521
+Year: 2013 | Value: 68.39260768
+Year: 2014 | Value: 68.96351192
+Year: 2015 | Value: 69.246045
+Year: 2016 | Value: 69.64443247
+Year: 2017 | Value: 70.09899409
+Year: 2018 | Value: 70.47775442
+Year: 2019 | Value: 70.7501793
+Year: 2020 | Value: 72.70622882
+Year: 2021 | Value: 70.09795294
+Remark: Mongolia
+Remark: Life expectancy at birth (years)

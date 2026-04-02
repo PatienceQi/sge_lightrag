@@ -1,0 +1,37 @@
+Entity: LMC / SH.DYN.MORT
+Year: 1990 | Value: 127.9
+Year: 1991 | Value: 125
+Year: 1992 | Value: 122.3
+Year: 1993 | Value: 119.7
+Year: 1994 | Value: 117.1
+Year: 1995 | Value: 114.4
+Year: 1996 | Value: 111.7
+Year: 1997 | Value: 108.6
+Year: 1998 | Value: 105.5
+Year: 1999 | Value: 102
+Year: 2000 | Value: 98.5
+Year: 2001 | Value: 94.9
+Year: 2002 | Value: 91.3
+Year: 2003 | Value: 88
+Year: 2004 | Value: 84.8
+Year: 2005 | Value: 81.7
+Year: 2006 | Value: 78.8
+Year: 2007 | Value: 75.8
+Year: 2008 | Value: 73.5
+Year: 2009 | Value: 70.4
+Year: 2010 | Value: 68
+Year: 2011 | Value: 65.4
+Year: 2012 | Value: 63
+Year: 2013 | Value: 60.8
+Year: 2014 | Value: 58.7
+Year: 2015 | Value: 56.8
+Year: 2016 | Value: 54.8
+Year: 2017 | Value: 53
+Year: 2018 | Value: 51.3
+Year: 2019 | Value: 49.5
+Year: 2020 | Value: 47.9
+Year: 2021 | Value: 46.3
+Year: 2022 | Value: 44.9
+Year: 2023 | Value: 43.5
+Remark: Lower middle income
+Remark: Mortality rate, under-5 (per 1,000 live births)

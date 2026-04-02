@@ -1,0 +1,6 @@
+Entity: New York Life Insurance
+Year: 2015 | Value: 38680.0
+Year: 2016 | Value: 45891.0
+Year: 2017 | Value: 40787.0
+Year: 2018 | Value: 42296.0
+Year: 2019 | Value: 43425.3

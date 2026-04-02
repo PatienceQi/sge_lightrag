@@ -1,0 +1,42 @@
+Entity: LDC / SH.STA.MMRT
+Year: 1985 | Value: 1070
+Year: 1986 | Value: 1040
+Year: 1987 | Value: 1070
+Year: 1988 | Value: 1020
+Year: 1989 | Value: 993
+Year: 1990 | Value: 979
+Year: 1991 | Value: 959
+Year: 1992 | Value: 962
+Year: 1993 | Value: 937
+Year: 1994 | Value: 892
+Year: 1995 | Value: 836
+Year: 1996 | Value: 811
+Year: 1997 | Value: 781
+Year: 1998 | Value: 799
+Year: 1999 | Value: 708
+Year: 2000 | Value: 675
+Year: 2001 | Value: 646
+Year: 2002 | Value: 621
+Year: 2003 | Value: 592
+Year: 2004 | Value: 570
+Year: 2005 | Value: 555
+Year: 2006 | Value: 543
+Year: 2007 | Value: 537
+Year: 2008 | Value: 529
+Year: 2009 | Value: 517
+Year: 2010 | Value: 503
+Year: 2011 | Value: 484
+Year: 2012 | Value: 463
+Year: 2013 | Value: 447
+Year: 2014 | Value: 436
+Year: 2015 | Value: 421
+Year: 2016 | Value: 402
+Year: 2017 | Value: 382
+Year: 2018 | Value: 356
+Year: 2019 | Value: 342
+Year: 2020 | Value: 325
+Year: 2021 | Value: 344
+Year: 2022 | Value: 297
+Year: 2023 | Value: 289
+Remark: Least developed countries: UN classification
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,25 @@
+Entity: PAN / WHOSIS_000001
+Year: 2000 | Value: 76.15178489
+Year: 2001 | Value: 76.07140858
+Year: 2002 | Value: 76.2835354
+Year: 2003 | Value: 76.1866534
+Year: 2004 | Value: 76.4816701
+Year: 2005 | Value: 76.45196957
+Year: 2006 | Value: 76.72660117
+Year: 2007 | Value: 76.98645861
+Year: 2008 | Value: 76.98278869
+Year: 2009 | Value: 77.16899668
+Year: 2010 | Value: 76.99379194
+Year: 2011 | Value: 77.51683567
+Year: 2012 | Value: 77.44906477
+Year: 2013 | Value: 77.6523099
+Year: 2014 | Value: 77.76557135
+Year: 2015 | Value: 78.14484121
+Year: 2016 | Value: 78.24463546
+Year: 2017 | Value: 78.33177954
+Year: 2018 | Value: 78.651343
+Year: 2019 | Value: 78.97361247
+Year: 2020 | Value: 77.34684989
+Year: 2021 | Value: 77.23869904
+Remark: Panama
+Remark: Life expectancy at birth (years)

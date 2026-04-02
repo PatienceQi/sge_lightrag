@@ -1,0 +1,3 @@
+Entity: ASM / SH.STA.MMRT
+Remark: American Samoa
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

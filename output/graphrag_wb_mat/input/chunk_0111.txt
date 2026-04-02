@@ -1,0 +1,3 @@
+Entity: INX / SH.STA.MMRT
+Remark: Not classified
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

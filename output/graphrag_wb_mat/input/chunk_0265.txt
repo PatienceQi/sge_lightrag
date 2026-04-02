@@ -1,0 +1,42 @@
+Entity: ZMB / SH.STA.MMRT
+Year: 1985 | Value: 596
+Year: 1986 | Value: 619
+Year: 1987 | Value: 630
+Year: 1988 | Value: 635
+Year: 1989 | Value: 635
+Year: 1990 | Value: 625
+Year: 1991 | Value: 611
+Year: 1992 | Value: 581
+Year: 1993 | Value: 532
+Year: 1994 | Value: 507
+Year: 1995 | Value: 466
+Year: 1996 | Value: 433
+Year: 1997 | Value: 403
+Year: 1998 | Value: 392
+Year: 1999 | Value: 378
+Year: 2000 | Value: 340
+Year: 2001 | Value: 306
+Year: 2002 | Value: 274
+Year: 2003 | Value: 250
+Year: 2004 | Value: 260
+Year: 2005 | Value: 264
+Year: 2006 | Value: 262
+Year: 2007 | Value: 324
+Year: 2008 | Value: 394
+Year: 2009 | Value: 406
+Year: 2010 | Value: 332
+Year: 2011 | Value: 291
+Year: 2012 | Value: 256
+Year: 2013 | Value: 213
+Year: 2014 | Value: 174
+Year: 2015 | Value: 154
+Year: 2016 | Value: 158
+Year: 2017 | Value: 141
+Year: 2018 | Value: 117
+Year: 2019 | Value: 103
+Year: 2020 | Value: 99
+Year: 2021 | Value: 140
+Year: 2022 | Value: 89
+Year: 2023 | Value: 85
+Remark: Zambia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

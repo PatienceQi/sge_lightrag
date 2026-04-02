@@ -1,0 +1,236 @@
+2026-04-01 23:11:51.0022 - ERROR - graphrag_llm.middleware.with_logging - Request failed after 7 retries with exception=litellm.BadGatewayError: BadGatewayError: OpenAIException - Error code: 502
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1363, in embedding
+    headers, sync_embedding_response = self.make_sync_openai_embedding_request(
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        openai_client=openai_client,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        logging_obj=logging_obj,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # type: ignore
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1236, in make_sync_openai_embedding_request
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1228, in make_sync_openai_embedding_request
+    raw_response = openai_client.embeddings.with_raw_response.create(
+        **data, timeout=timeout
+    )  # type: ignore
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/resources/embeddings.py", line 136, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/embeddings",
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        cast_to=CreateEmbeddingResponse,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 502
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/main.py", line 4923, in embedding
+    response = openai_chat_completions.embedding(
+        model=model,
+    ...<10 lines>...
+        shared_session=shared_session,
+    )
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1394, in embedding
+    raise OpenAIError(
+        status_code=status_code, message=error_text, headers=error_headers
+    )
+litellm.llms.openai.common_utils.OpenAIError: Error code: 502
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_logging.py", line 49, in _request_count_middleware
+    return sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_request_count.py", line 53, in _request_count_middleware
+    result = sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_retries.py", line 47, in _retry_middleware
+    return retrier.retry(
+           ~~~~~~~~~~~~~^
+        func=sync_middleware,
+        ^^^^^^^^^^^^^^^^^^^^^
+        input_args=kwargs,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/retry/exponential_retry.py", line 70, in retry
+    return func(**input_args)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_metrics.py", line 56, in _metrics_middleware
+    response = sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/embedding/lite_llm_embedding.py", line 188, in _base_embedding
+    response = litellm.embedding(**new_args)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/utils.py", line 1775, in wrapper
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/utils.py", line 1596, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/main.py", line 5777, in embedding
+    raise exception_type(
+          ~~~~~~~~~~~~~~^
+        model=model,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        extra_kwargs=kwargs,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2456, in exception_type
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 597, in exception_type
+    raise BadGatewayError(
+    ...<5 lines>...
+    )
+litellm.exceptions.BadGatewayError: litellm.BadGatewayError: BadGatewayError: OpenAIException - Error code: 502
+2026-04-01 23:11:52.0161 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/mxbai-embed-large: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "requests_with_retries": 1,
+  "retries": 7,
+  "retry_rate": 0.875,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-04-01 23:11:52.0161 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/claude-haiku-4-5-20251001: {
+  "failure_rate": 0.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-04-01 23:14:57.0094 - ERROR - graphrag_llm.middleware.with_logging - Request failed after 7 retries with exception=litellm.BadGatewayError: BadGatewayError: OpenAIException - Error code: 502
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1363, in embedding
+    headers, sync_embedding_response = self.make_sync_openai_embedding_request(
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        openai_client=openai_client,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        logging_obj=logging_obj,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # type: ignore
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1236, in make_sync_openai_embedding_request
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1228, in make_sync_openai_embedding_request
+    raw_response = openai_client.embeddings.with_raw_response.create(
+        **data, timeout=timeout
+    )  # type: ignore
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+                                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/resources/embeddings.py", line 136, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/embeddings",
+        ^^^^^^^^^^^^^^
+    ...<8 lines>...
+        cast_to=CreateEmbeddingResponse,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 502
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/main.py", line 4923, in embedding
+    response = openai_chat_completions.embedding(
+        model=model,
+    ...<10 lines>...
+        shared_session=shared_session,
+    )
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/llms/openai/openai.py", line 1394, in embedding
+    raise OpenAIError(
+        status_code=status_code, message=error_text, headers=error_headers
+    )
+litellm.llms.openai.common_utils.OpenAIError: Error code: 502
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_logging.py", line 49, in _request_count_middleware
+    return sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_request_count.py", line 53, in _request_count_middleware
+    result = sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_retries.py", line 47, in _retry_middleware
+    return retrier.retry(
+           ~~~~~~~~~~~~~^
+        func=sync_middleware,
+        ^^^^^^^^^^^^^^^^^^^^^
+        input_args=kwargs,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/retry/exponential_retry.py", line 70, in retry
+    return func(**input_args)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/middleware/with_metrics.py", line 56, in _metrics_middleware
+    response = sync_middleware(**kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/graphrag_llm/embedding/lite_llm_embedding.py", line 188, in _base_embedding
+    response = litellm.embedding(**new_args)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/utils.py", line 1775, in wrapper
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/utils.py", line 1596, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/main.py", line 5777, in embedding
+    raise exception_type(
+          ~~~~~~~~~~~~~~^
+        model=model,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        extra_kwargs=kwargs,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2456, in exception_type
+    raise e
+  File "/Users/qipatience/miniconda3/lib/python3.13/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 597, in exception_type
+    raise BadGatewayError(
+    ...<5 lines>...
+    )
+litellm.exceptions.BadGatewayError: litellm.BadGatewayError: BadGatewayError: OpenAIException - Error code: 502
+2026-04-01 23:14:58.0359 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/mxbai-embed-large: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "requests_with_retries": 1,
+  "retries": 7,
+  "retry_rate": 0.875,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-04-01 23:14:58.0359 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/claude-haiku-4-5-20251001: {
+  "failure_rate": 0.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}

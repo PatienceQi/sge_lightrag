@@ -1,0 +1,42 @@
+Entity: DJI / SH.STA.MMRT
+Year: 1985 | Value: 821
+Year: 1986 | Value: 804
+Year: 1987 | Value: 785
+Year: 1988 | Value: 768
+Year: 1989 | Value: 746
+Year: 1990 | Value: 725
+Year: 1991 | Value: 731
+Year: 1992 | Value: 780
+Year: 1993 | Value: 704
+Year: 1994 | Value: 682
+Year: 1995 | Value: 634
+Year: 1996 | Value: 609
+Year: 1997 | Value: 582
+Year: 1998 | Value: 555
+Year: 1999 | Value: 524
+Year: 2000 | Value: 501
+Year: 2001 | Value: 441
+Year: 2002 | Value: 404
+Year: 2003 | Value: 391
+Year: 2004 | Value: 364
+Year: 2005 | Value: 315
+Year: 2006 | Value: 298
+Year: 2007 | Value: 285
+Year: 2008 | Value: 273
+Year: 2009 | Value: 263
+Year: 2010 | Value: 243
+Year: 2011 | Value: 229
+Year: 2012 | Value: 221
+Year: 2013 | Value: 219
+Year: 2014 | Value: 212
+Year: 2015 | Value: 210
+Year: 2016 | Value: 204
+Year: 2017 | Value: 201
+Year: 2018 | Value: 199
+Year: 2019 | Value: 194
+Year: 2020 | Value: 192
+Year: 2021 | Value: 221
+Year: 2022 | Value: 174
+Year: 2023 | Value: 162
+Remark: Djibouti
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

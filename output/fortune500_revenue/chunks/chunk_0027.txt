@@ -1,0 +1,6 @@
+Entity: IBM
+Year: 2015 | Value: 94128.0
+Year: 2016 | Value: 82461.0
+Year: 2017 | Value: 79919.0
+Year: 2018 | Value: 79139.0
+Year: 2019 | Value: 79591.0

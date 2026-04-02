@@ -1,0 +1,6 @@
+Entity: Walmart
+Year: 2015 | Value: 485651.0
+Year: 2016 | Value: 482130.0
+Year: 2017 | Value: 485873.0
+Year: 2018 | Value: 500343.0
+Year: 2019 | Value: 514405.0

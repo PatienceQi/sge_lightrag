@@ -1,0 +1,42 @@
+Entity: SWZ / SH.STA.MMRT
+Year: 1985 | Value: 580
+Year: 1986 | Value: 548
+Year: 1987 | Value: 521
+Year: 1988 | Value: 494
+Year: 1989 | Value: 505
+Year: 1990 | Value: 520
+Year: 1991 | Value: 545
+Year: 1992 | Value: 580
+Year: 1993 | Value: 609
+Year: 1994 | Value: 645
+Year: 1995 | Value: 612
+Year: 1996 | Value: 604
+Year: 1997 | Value: 550
+Year: 1998 | Value: 475
+Year: 1999 | Value: 409
+Year: 2000 | Value: 361
+Year: 2001 | Value: 307
+Year: 2002 | Value: 331
+Year: 2003 | Value: 392
+Year: 2004 | Value: 451
+Year: 2005 | Value: 529
+Year: 2006 | Value: 511
+Year: 2007 | Value: 647
+Year: 2008 | Value: 766
+Year: 2009 | Value: 855
+Year: 2010 | Value: 752
+Year: 2011 | Value: 765
+Year: 2012 | Value: 613
+Year: 2013 | Value: 491
+Year: 2014 | Value: 369
+Year: 2015 | Value: 283
+Year: 2016 | Value: 213
+Year: 2017 | Value: 151
+Year: 2018 | Value: 133
+Year: 2019 | Value: 96
+Year: 2020 | Value: 102
+Year: 2021 | Value: 219
+Year: 2022 | Value: 112
+Year: 2023 | Value: 118
+Remark: Eswatini
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

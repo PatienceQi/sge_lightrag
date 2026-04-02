@@ -1,0 +1,42 @@
+Entity: MWI / SH.STA.MMRT
+Year: 1985 | Value: 1115
+Year: 1986 | Value: 1118
+Year: 1987 | Value: 1123
+Year: 1988 | Value: 1154
+Year: 1989 | Value: 1136
+Year: 1990 | Value: 1112
+Year: 1991 | Value: 1080
+Year: 1992 | Value: 1042
+Year: 1993 | Value: 1000
+Year: 1994 | Value: 912
+Year: 1995 | Value: 782
+Year: 1996 | Value: 713
+Year: 1997 | Value: 672
+Year: 1998 | Value: 658
+Year: 1999 | Value: 576
+Year: 2000 | Value: 506
+Year: 2001 | Value: 447
+Year: 2002 | Value: 404
+Year: 2003 | Value: 346
+Year: 2004 | Value: 304
+Year: 2005 | Value: 283
+Year: 2006 | Value: 286
+Year: 2007 | Value: 333
+Year: 2008 | Value: 430
+Year: 2009 | Value: 512
+Year: 2010 | Value: 517
+Year: 2011 | Value: 486
+Year: 2012 | Value: 447
+Year: 2013 | Value: 410
+Year: 2014 | Value: 367
+Year: 2015 | Value: 354
+Year: 2016 | Value: 312
+Year: 2017 | Value: 284
+Year: 2018 | Value: 267
+Year: 2019 | Value: 260
+Year: 2020 | Value: 256
+Year: 2021 | Value: 286
+Year: 2022 | Value: 239
+Year: 2023 | Value: 225
+Remark: Malawi
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

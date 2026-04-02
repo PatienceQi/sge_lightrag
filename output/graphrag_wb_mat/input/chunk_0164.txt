@@ -1,0 +1,42 @@
+Entity: MNG / SH.STA.MMRT
+Year: 1985 | Value: 352
+Year: 1986 | Value: 346
+Year: 1987 | Value: 341
+Year: 1988 | Value: 335
+Year: 1989 | Value: 311
+Year: 1990 | Value: 276
+Year: 1991 | Value: 227
+Year: 1992 | Value: 199
+Year: 1993 | Value: 181
+Year: 1994 | Value: 178
+Year: 1995 | Value: 176
+Year: 1996 | Value: 178
+Year: 1997 | Value: 180
+Year: 1998 | Value: 174
+Year: 1999 | Value: 162
+Year: 2000 | Value: 144
+Year: 2001 | Value: 130
+Year: 2002 | Value: 120
+Year: 2003 | Value: 114
+Year: 2004 | Value: 108
+Year: 2005 | Value: 99
+Year: 2006 | Value: 90
+Year: 2007 | Value: 81
+Year: 2008 | Value: 77
+Year: 2009 | Value: 75
+Year: 2010 | Value: 71
+Year: 2011 | Value: 67
+Year: 2012 | Value: 63
+Year: 2013 | Value: 59
+Year: 2014 | Value: 56
+Year: 2015 | Value: 52
+Year: 2016 | Value: 48
+Year: 2017 | Value: 45
+Year: 2018 | Value: 45
+Year: 2019 | Value: 45
+Year: 2020 | Value: 47
+Year: 2021 | Value: 63
+Year: 2022 | Value: 41
+Year: 2023 | Value: 41
+Remark: Mongolia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

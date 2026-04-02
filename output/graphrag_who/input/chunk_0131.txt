@@ -1,0 +1,25 @@
+Entity: NZL / WHOSIS_000001
+Year: 2000 | Value: 78.57519182
+Year: 2001 | Value: 78.46853865
+Year: 2002 | Value: 78.65902491
+Year: 2003 | Value: 79.05551434
+Year: 2004 | Value: 79.15482107
+Year: 2005 | Value: 79.93637338
+Year: 2006 | Value: 79.88697688
+Year: 2007 | Value: 80.04299252
+Year: 2008 | Value: 80.3067588
+Year: 2009 | Value: 80.56243651
+Year: 2010 | Value: 80.9444522
+Year: 2011 | Value: 80.74980096
+Year: 2012 | Value: 81.08807722
+Year: 2013 | Value: 81.36359879
+Year: 2014 | Value: 81.19298738
+Year: 2015 | Value: 81.31375727
+Year: 2016 | Value: 81.73038595
+Year: 2017 | Value: 81.16380852
+Year: 2018 | Value: 81.75540508
+Year: 2019 | Value: 81.81181567
+Year: 2020 | Value: 82.5016081
+Year: 2021 | Value: 82.20149177
+Remark: New Zealand
+Remark: Life expectancy at birth (years)

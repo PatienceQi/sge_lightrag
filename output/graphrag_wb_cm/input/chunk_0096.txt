@@ -1,0 +1,37 @@
+Entity: HIC / SH.DYN.MORT
+Year: 1990 | Value: 13.8
+Year: 1991 | Value: 13.2
+Year: 1992 | Value: 12.6
+Year: 1993 | Value: 12.1
+Year: 1994 | Value: 11.6
+Year: 1995 | Value: 11.1
+Year: 1996 | Value: 10.7
+Year: 1997 | Value: 10.2
+Year: 1998 | Value: 9.9
+Year: 1999 | Value: 9.5
+Year: 2000 | Value: 9.1
+Year: 2001 | Value: 8.9
+Year: 2002 | Value: 8.6
+Year: 2003 | Value: 8.3
+Year: 2004 | Value: 8.1
+Year: 2005 | Value: 7.8
+Year: 2006 | Value: 7.5
+Year: 2007 | Value: 7.3
+Year: 2008 | Value: 7
+Year: 2009 | Value: 6.8
+Year: 2010 | Value: 6.6
+Year: 2011 | Value: 6.5
+Year: 2012 | Value: 6.3
+Year: 2013 | Value: 6.2
+Year: 2014 | Value: 6
+Year: 2015 | Value: 5.8
+Year: 2016 | Value: 5.7
+Year: 2017 | Value: 5.5
+Year: 2018 | Value: 5.3
+Year: 2019 | Value: 5.2
+Year: 2020 | Value: 5.1
+Year: 2021 | Value: 5
+Year: 2022 | Value: 5
+Year: 2023 | Value: 5
+Remark: High income
+Remark: Mortality rate, under-5 (per 1,000 live births)

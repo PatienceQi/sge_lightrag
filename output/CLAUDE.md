@@ -28,6 +28,16 @@ All directories are gitignored and regenerable. Each contains a `lightrag_storag
 | `baseline_food_adaptive/` | Food Safety | 44 | 0.481 |
 | `baseline_health/` | Health | 6 | 0.643 |
 
+## Non-Government
+
+| Directory | Content |
+|-----------|---------|
+| `fortune500_revenue/` | SGE graph for Fortune 500 Revenue (Type-II) |
+| `baseline_fortune500_revenue/` | Baseline for Fortune 500 |
+| `the_university_ranking/` | SGE graph for THE Ranking (Type-III) |
+| `baseline_the_university_ranking/` | Baseline for THE Ranking |
+| `table_aware_who_strong/` | Strong table-aware prompt baseline (WHO) |
+
 ## Ablation Graphs (Paper Table 4)
 
 | Directory | Condition | Dataset | Nodes |
@@ -35,10 +45,13 @@ All directories are gitignored and regenerable. Each contains a `lightrag_storag
 | `ablation_schema_only_who/` | Schema-only | WHO | 1296 |
 | `ablation_schema_only_wb_cm/` | Schema-only | WB CM | 253 |
 | `ablation_schema_only_inpatient/` | Schema-only | Inpatient | 467 |
+| `ablation_schema_only_wb_pop/` | Schema-only (error analysis) | WB Pop | — |
 | `ablation_rule_who/` | Rule SGE | WHO | 322 |
 | `ablation_rule_wb_cm/` | Rule SGE | WB CM | 1136 |
 | `ablation_c4_serial_only_who/` | C4 Serial-only | WHO | 433 |
 | `ablation_c4_serial_only_wb_cm/` | C4 Serial-only | WB CM | 78 |
+
+Note: `ablation_schema_only_wb_pop/` and `ablation_schema_only_who/` are also used for schema-only failure mode error analysis (`error_analysis_schema_only.py`).
 
 ## Compact Graphs (§4.5)
 

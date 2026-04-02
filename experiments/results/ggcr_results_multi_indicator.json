@@ -1,0 +1,907 @@
+{
+  "timestamp": "2026-04-02T11:32:00.055759",
+  "experiment": "multi_indicator_1200_entities",
+  "n_entities": 1143,
+  "n_indicators": 6,
+  "n_questions": 50,
+  "total_chunks_tokens_estimate": 52070,
+  "systems": {
+    "sge_ggcr": {
+      "L3": {
+        "correct": 20,
+        "total": 25
+      },
+      "L4": {
+        "correct": 18,
+        "total": 25
+      },
+      "overall": {
+        "correct": 38,
+        "total": 50,
+        "accuracy": 0.76
+      }
+    },
+    "concat_all": {
+      "L3": {
+        "correct": 20,
+        "total": 25
+      },
+      "L4": {
+        "correct": 18,
+        "total": 25
+      },
+      "overall": {
+        "correct": 38,
+        "total": 50,
+        "accuracy": 0.76
+      }
+    },
+    "pure_compact": {
+      "L3": {
+        "correct": 7,
+        "total": 25
+      },
+      "L4": {
+        "correct": 7,
+        "total": 25
+      },
+      "overall": {
+        "correct": 14,
+        "total": 50,
+        "accuracy": 0.28
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "multi_L3_01",
+      "level": "L3",
+      "question": "Among countries with population over 50 million in 2021, which 5 countries have the lowest child mortality rate in 2021? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "JPN",
+        "KOR",
+        "ITA",
+        "DEU",
+        "FRA"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided only includes child mortality rates for 5 countries, but does not include population data for 2021. Without knowing which countries have populations over 50 million, I cannot filter the dataset according to your criteria.\n\nTo answer this question, I would need population data for each country in 2021.",
+          "correct": false,
+          "context_tokens": 213
+        }
+      }
+    },
+    {
+      "id": "multi_L3_02",
+      "level": "L3",
+      "question": "Among countries with health expenditure above 10% of GDP in 2021, which 5 countries have the highest life expectancy in 2021? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "CHE",
+        "AUS",
+        "SWE",
+        "ESP"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only health expenditure information for 2021, but the question asks for life expectancy data in 2021, which is not included in the context.\n\nTo answer your question, I would need life expectancy data for 2021 for the countries with health expenditure above 10% of GDP in 2021 (AUS, FRA, CHE, DNK).",
+          "correct": true,
+          "context_tokens": 262
+        }
+      }
+    },
+    {
+      "id": "multi_L3_03",
+      "level": "L3",
+      "question": "Among countries with fewer than 2 hospital beds per 1000 people in 2020, which 5 countries have the highest maternal mortality ratio in 2020? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "TCD",
+        "AFG",
+        "BEN",
+        "GMB",
+        "TGO"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only maternal mortality ratios for 2015-2021. There is no information about hospital beds per 1,000 people in 2020, which is required to filter the countries as specified in your question.\n\nTo answer this question, I would need:\n- Hospital bed density data for 2020 for all countries\n- A way to identify which countries have fewer than 2 beds per 1,000 people",
+          "correct": false,
+          "context_tokens": 219
+        }
+      }
+    },
+    {
+      "id": "multi_L3_04",
+      "level": "L3",
+      "question": "Among countries with life expectancy above 75 years in 2019, which 5 countries have the highest current health expenditure (% of GDP) in 2019? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "USA",
+        "DEU",
+        "CHE",
+        "ARM",
+        "FRA"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only health expenditure information, but the question requires filtering by life expectancy above 75 years in 2019. Life expectancy data is not included in the context, so I cannot determine which countries meet that criterion.\n\nTo answer this question, I would need life expectancy data for 2019 for all countries listed.",
+          "correct": false,
+          "context_tokens": 261
+        }
+      }
+    },
+    {
+      "id": "multi_L3_05",
+      "level": "L3",
+      "question": "Among countries with population over 10 million in 2021, which 5 countries have the lowest life expectancy in 2021? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "SOM",
+        "MOZ",
+        "ZWE",
+        "SSD",
+        "TCD"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "The data provided is insufficient to answer this question. \n\nThe dataset contains life expectancy data for only 4 countries (AUS, BIH, SWE, USA) plus child mortality data for DNK. To identify the 5 countries with the lowest life expectancy among those with population over 10 million in 2021, I would need:\n\n1. Population data for 2021 for each country to filter by the \"over 10 million\" criterion\n2. Life expectancy data for at least 5 countries meeting that population threshold\n\nThe current data l",
+          "correct": false,
+          "context_tokens": 250
+        }
+      }
+    },
+    {
+      "id": "multi_L3_06",
+      "level": "L3",
+      "question": "Among countries with under-5 child mortality rate below 20 per 1000 in 2019, which 5 countries have the highest number of hospital beds per 1000 people in 2019? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "KOR",
+        "BLR",
+        "MNG",
+        "DEU"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data context provided contains only hospital bed statistics. The question asks for countries filtered by under-5 child mortality rate below 20 per 1,000 in 2019, but no child mortality data is included in the context.\n\nTo answer accurately, I would need:\n- Under-5 child mortality rates for 2019 for all countries in the dataset\n\nWith only the hospital beds data available, I cannot determine which countries meet the mortality rate filter criterion.",
+          "correct": false,
+          "context_tokens": 203
+        }
+      }
+    },
+    {
+      "id": "multi_L3_07",
+      "level": "L3",
+      "question": "Among G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA), which 5 have the highest under-5 child mortality rate in 2020? List country codes in order from highest to lowest.",
+      "reference_answer": [
+        "ZAF",
+        "IND",
+        "IDN",
+        "BRA",
+        "MEX"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only identify child mortality rates for 5 countries in 2020:\n\n- ARG: 10.3\n- KGZ: 17.8\n- AUS: 3.8\n- ARE: 6.0\n- RUS: 5.4\n\nFrom these, the ranking from highest to lowest is: **KGZ, ARG, ARE, RUS, AUS**\n\nHowever, the data is insufficient to answer the question as asked. Of the 19 G20 countries listed, only 5 have 2020 data provided (and KGZ is not a G20 member). Data for 14 G20 countries is missing: BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, SAU,",
+          "correct": true,
+          "context_tokens": 218
+        }
+      }
+    },
+    {
+      "id": "multi_L3_08",
+      "level": "L3",
+      "question": "Among countries with maternal mortality ratio below 50 per 100,000 live births in 2021, which 5 countries have the largest population in 2021? List country codes (ISO 3-letter) in order from largest to smallest.",
+      "reference_answer": [
+        "CHN",
+        "USA",
+        "RUS",
+        "JPN",
+        "EGY"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question based on the provided data context.\n\nThe data context contains only maternal mortality ratios for 2021. It does not include population data for any country in 2021, which is required to rank countries by population size.\n\nCountries with maternal mortality below 50 per 100,000 in 2021: CHE (6.0), SWE (5.0), DNK (8.0), CHN (21.0). However, without population figures, I cannot determine which 5 have the largest populations or rank them accordingly.",
+          "correct": false,
+          "context_tokens": 218
+        }
+      }
+    },
+    {
+      "id": "multi_L3_09",
+      "level": "L3",
+      "question": "Among Sub-Saharan Africa countries, which 5 have the highest life expectancy in 2021? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "SYC",
+        "MUS",
+        "CPV",
+        "STP",
+        "MRT"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2021 life expectancy:\n\n- SEN: 67.79198263\n- BFA: 62.29728841\n- AGO: 62.13113467\n- CIV: 63.5174083\n- SWZ: 54.59266973\n\nRanked from highest to lowest:\n\nSEN, CIV, BFA, AGO, SWZ",
+          "correct": false,
+          "context_tokens": 257
+        }
+      }
+    },
+    {
+      "id": "multi_L3_10",
+      "level": "L3",
+      "question": "Among G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA), which 5 have the lowest current health expenditure as % of GDP in 2018? List country codes in order from lowest to highest.",
+      "reference_answer": [
+        "IND",
+        "IDN",
+        "TUR",
+        "CHN",
+        "MEX"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only evaluate the countries with available 2018 data:\n\n- CHN: 5.06933308\n- RUS: 5.35520792\n- ARG: 10.17289257\n- AUS: 10.08907509\n- USA: 16.51312637\n\nThe data is insufficient. Only 5 of the 19 G20 countries listed have 2018 health expenditure data provided. I cannot identify the 5 lowest without data for the remaining 14 countries (BRA, CAN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, SAU, ZAF, TUR, GBR).",
+          "correct": true,
+          "context_tokens": 264
+        }
+      }
+    },
+    {
+      "id": "multi_L3_11",
+      "level": "L3",
+      "question": "Among countries with population over 25 million in 2021, which 5 countries have the lowest child mortality rate in 2021? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "JPN",
+        "KOR",
+        "ITA",
+        "ESP",
+        "AUS"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question based on the provided data context.\n\nThe data provided contains child mortality rates for 5 countries in 2021, but it does not include population information. The question requires filtering by \"population over 25 million in 2021,\" which cannot be determined from the given dataset.\n\nTo answer accurately, I would need population data for each country in 2021.",
+          "correct": false,
+          "context_tokens": 214
+        }
+      }
+    },
+    {
+      "id": "multi_L3_12",
+      "level": "L3",
+      "question": "Among countries with population over 75 million in 2021, which 5 countries have the highest life expectancy in 2021? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "DEU",
+        "CHN",
+        "USA",
+        "TUR"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only life expectancy values for 5 countries, but does not include population data for 2021. Without population information, I cannot filter for countries with population over 75 million as required by the question.\n\nTo answer accurately, I would need population data for each country in 2021.",
+          "correct": false,
+          "context_tokens": 259
+        }
+      }
+    },
+    {
+      "id": "multi_L3_13",
+      "level": "L3",
+      "question": "Among countries with population over 100 million in 2021, which 5 countries have the highest maternal mortality ratio in 2020? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "NGA",
+        "ETH",
+        "IDN",
+        "PAK",
+        "BGD"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided does not include population figures for 2021, which are necessary to filter countries with population over 100 million. Additionally, only 5 countries are listed in the data context, so even if the population filter could be applied, there may not be 5 countries meeting that criterion.\n\nTo answer accurately, I would need:\n1. Population data for each country in 2021\n2. More countries in the dataset (potentially)",
+          "correct": false,
+          "context_tokens": 218
+        }
+      }
+    },
+    {
+      "id": "multi_L3_14",
+      "level": "L3",
+      "question": "Among countries with maternal mortality ratio above 200 per 100,000 live births in 2020, which 5 countries have the largest population in 2020? List country codes (ISO 3-letter) in order from largest to smallest.",
+      "reference_answer": [
+        "NGA",
+        "ETH",
+        "COD",
+        "SDN",
+        "UGA"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "The data provided is insufficient to answer this question. \n\nThe dataset contains only 5 countries (CHE, CHN, AUS, SWE, DNK), and none of them have a maternal mortality ratio above 200 per 100,000 live births in 2020. The highest value in 2020 is CHN at 20.0. Therefore, there are no countries meeting the criteria to rank by population.",
+          "correct": false,
+          "context_tokens": 215
+        }
+      }
+    },
+    {
+      "id": "multi_L3_15",
+      "level": "L3",
+      "question": "Among countries with more than 4 hospital beds per 1000 people in 2019, which 5 countries have the highest life expectancy in 2019? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "KOR",
+        "CHE",
+        "LUX",
+        "FRA"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only hospital bed statistics. To identify countries with more than 4 hospital beds per 1,000 people in 2019 and rank them by life expectancy, I would need life expectancy data for 2019, which is not included in the context.\n\nFrom the data given, only Switzerland (CHE) has more than 4 hospital beds per 1,000 people in 2019 (4.59 beds). The other countries fall below this threshold.",
+          "correct": false,
+          "context_tokens": 197
+        }
+      }
+    },
+    {
+      "id": "multi_L3_16",
+      "level": "L3",
+      "question": "Among countries with health expenditure above 8% of GDP in 2019, which 5 countries have the lowest under-5 child mortality rate in 2019? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "SMR",
+        "FIN",
+        "NOR",
+        "SVN",
+        "JPN"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question based on the provided data context.\n\nThe data includes health expenditure for 2019 for three countries (CHE: 11.43%, BGD: 2.13%, CHL: 9.31%), and child mortality for 2019 for two countries (KHM: 26.7, CHE: 4.0). \n\nOnly CHE and CHL meet the criterion of health expenditure above 8% in 2019. However, child mortality data for 2019 is only available for CHE and KHM. CHL's child mortality data for 2019 is missing, and BGD's child mortality data is not provided at all.\n\nWi",
+          "correct": false,
+          "context_tokens": 240
+        }
+      }
+    },
+    {
+      "id": "multi_L3_17",
+      "level": "L3",
+      "question": "Among East Asia & Pacific countries, which 5 have the highest life expectancy in 2021? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "SGP",
+        "KOR",
+        "AUS",
+        "NZL"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2021 life expectancy:\n\n- JPN: 84.46067178\n- AUS: 83.10183853\n- KOR: 83.79982334\n- CHN: 77.61619672\n- PNG: 65.48786529\n\nRanked from highest to lowest:\n\nJPN, KOR, AUS, CHN, PNG",
+          "correct": true,
+          "context_tokens": 258
+        }
+      }
+    },
+    {
+      "id": "multi_L3_18",
+      "level": "L3",
+      "question": "Among High income countries, which 5 have the lowest under-5 child mortality rate in 2021? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "SMR",
+        "SGP",
+        "FIN",
+        "SVN",
+        "EST"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I can only work with the data provided. From the context given, I have 5 countries total:\n\n- DNK: 3.6\n- CHE: 4.0\n- IDN: 22.0\n- KHM: 24.7\n- BGD: 31.0\n\nHowever, the data doesn't specify which countries are classified as \"High income.\" Without that classification information, I cannot accurately answer which 5 high-income countries have the lowest rates. \n\nTo answer this question, I would need the income classification for each country in the dataset.",
+          "correct": false,
+          "context_tokens": 214
+        }
+      }
+    },
+    {
+      "id": "multi_L3_19",
+      "level": "L3",
+      "question": "Among Low income countries, which 5 have the highest maternal mortality ratio in 2020? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "CAF",
+        "TCD",
+        "SSD",
+        "LBR",
+        "SOM"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2020 maternal mortality rates:\n\n- MLI: 405.0\n- IDN: 184.0\n- KHM: 164.0\n- YEM: 135.0\n- TUN: 40.0\n\nMLI, IDN, KHM, YEM, TUN",
+          "correct": false,
+          "context_tokens": 229
+        }
+      }
+    },
+    {
+      "id": "multi_L3_20",
+      "level": "L3",
+      "question": "Among Low income countries, which 5 have the lowest current health expenditure as % of GDP in 2019? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "SOM",
+        "MDG",
+        "GMB",
+        "TCD",
+        "COD"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only 5 countries (Chile, Switzerland, China, Australia, Denmark), and none are classified as low-income countries. The data is insufficient to identify which countries are low-income or to rank 5 low-income countries by health expenditure.\n\nTo answer your question, I would need:\n1. A dataset that includes low-income countries\n2. Income classification for each country in the dataset",
+          "correct": false,
+          "context_tokens": 259
+        }
+      }
+    },
+    {
+      "id": "multi_L3_21",
+      "level": "L3",
+      "question": "Which 5 countries had the largest improvement in life expectancy from 2015 to 2021 (i.e., highest increase in years)? List country codes (ISO 3-letter) in order from largest to smallest improvement.",
+      "reference_answer": [
+        "SYR",
+        "SLE",
+        "LBR",
+        "CMR",
+        "UZB"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I'll calculate the life expectancy improvement from 2015 to 2021 for each country:\n\n- AUS: 83.10183853 - 82.287472 = 0.81436553\n- SWE: 82.6649092 - 81.74239456 = 0.92251464\n- USA: 76.37368104 - 78.61058161 = -2.23690057\n- FRA: 81.92274175 - 81.90513823 = 0.01760352\n- CHE: 83.32795777 - 82.58994495 = 0.73801282\n\nRanked from largest to smallest improvement:\n\nSWE, AUS, CHE, FRA, USA",
+          "correct": false,
+          "context_tokens": 257
+        }
+      }
+    },
+    {
+      "id": "multi_L3_22",
+      "level": "L3",
+      "question": "Among BRICS countries (BRA, RUS, IND, CHN, ZAF), which 5 have the highest current health expenditure as % of GDP in 2021? List country codes in order from highest to lowest.",
+      "reference_answer": [
+        "BRA",
+        "ZAF",
+        "RUS",
+        "CHN",
+        "IND"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data, I can only rank the BRICS countries with available 2021 health expenditure data:\n\n- BRA: 9.63646507\n- RUS: 7.0299139\n- CHN: 5.25590324\n- BLR: 6.56549978 (not BRICS)\n\nThe data is insufficient. Only 3 of the 5 BRICS countries (BRA, RUS, CHN, IND, ZAF) have 2021 values in the provided context. IND and ZAF data are missing.\n\nFrom available BRICS data in 2021: **BRA, RUS, CHN**",
+          "correct": true,
+          "context_tokens": 259
+        }
+      }
+    },
+    {
+      "id": "multi_L3_23",
+      "level": "L3",
+      "question": "Among East Asia & Pacific countries, which 5 have the highest number of hospital beds per 1000 people in 2019? List country codes (ISO 3-letter) in order from highest to lowest.",
+      "reference_answer": [
+        "JPN",
+        "KOR",
+        "MNG",
+        "CHN",
+        "BRN"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the 2019 data provided:\n\n- JPN: 12.79\n- KOR: 12.43\n- CHN: 4.82\n- THA: 2.21\n- PRK: no 2019 data\n\nJPN,KOR,CHN,THA",
+          "correct": true,
+          "context_tokens": 196
+        }
+      }
+    },
+    {
+      "id": "multi_L3_24",
+      "level": "L3",
+      "question": "Among countries with more than 3 hospital beds per 1000 people in 2019, which 5 countries have the lowest maternal mortality ratio in 2020? List country codes (ISO 3-letter) in order from lowest to highest.",
+      "reference_answer": [
+        "BLR",
+        "NOR",
+        "ISR",
+        "POL",
+        "CZE"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data context provided contains only maternal mortality ratios for 2015-2021. It does not include information about hospital beds per 1,000 people in 2019, which is required to filter the countries as specified in your question.\n\nTo answer accurately, I would need data on hospital bed density by country for 2019.",
+          "correct": false,
+          "context_tokens": 219
+        }
+      }
+    },
+    {
+      "id": "multi_L3_25",
+      "level": "L3",
+      "question": "Among EU27 countries (AUT, BEL, BGR, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ITA, LVA, LTU, LUX, MLT, NLD, POL, PRT, ROU, SVK, SVN, ESP, SWE), which 5 have the highest life expectancy in 2021? List country codes in order from highest to lowest.",
+      "reference_answer": [
+        "LUX",
+        "SWE",
+        "ESP",
+        "ITA",
+        "FRA"
+      ],
+      "scoring": "set_overlap",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only identify life expectancy values for 5 countries in 2021:\n\n- SWE: 82.6649092\n- FRA: 81.92274175\n- NLD: 81.12478594\n- DNK: 81.18400442\n- ESP: 82.66267258\n\nThe data is insufficient. Only 5 of the 27 EU27 countries are provided, so I cannot determine which 5 have the highest life expectancy among all EU27 countries. From the available data, the ranking would be: ESP, SWE, FRA, DNK, NLD.",
+          "correct": true,
+          "context_tokens": 255
+        }
+      }
+    },
+    {
+      "id": "multi_L4_01",
+      "level": "L4",
+      "question": "What is the average life expectancy in 2021 for G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA)? Report the numeric value.",
+      "reference_answer": "76.2224",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only calculate the average for the countries with available 2021 life expectancy data:\n\n- AUS: 83.10183853\n- USA: 76.37368104\n- BRA: 72.38840694\n- ARE: 78.30645695\n- FRA: 81.92274175\n\nAverage for these 5 countries: **78.42**\n\nThe data is insufficient. Of the 19 G20 countries listed, only 5 have 2021 life expectancy values in the provided context (AUS, USA, BRA, FRA, and ARE). The remaining 14 countries (ARG, CAN, CHN, DEU, IND, IDN, ITA, JPN, KOR, MEX, R",
+          "correct": true,
+          "context_tokens": 259
+        }
+      }
+    },
+    {
+      "id": "multi_L4_02",
+      "level": "L4",
+      "question": "What is the total population in 2021 of countries with under-5 child mortality rate below 10 per 1000 live births? Report the numeric value.",
+      "reference_answer": "2967717438",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Insufficient data. The provided context contains child mortality rates for 2021, but does not include population figures for any country. I cannot compute the total population without that information.",
+          "correct": false,
+          "context_tokens": 211
+        }
+      }
+    },
+    {
+      "id": "multi_L4_03",
+      "level": "L4",
+      "question": "What is the mean current health expenditure (% of GDP) in 2021 for countries with life expectancy above 80 years in 2021? Report the numeric value.",
+      "reference_answer": "10.0607",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided contains only health expenditure values for 2021, but the question requires filtering by life expectancy above 80 years in 2021. Life expectancy data is not included in the provided context, so I cannot determine which countries meet that criterion.\n\nTo answer this question, I would need life expectancy data for each country in 2021.",
+          "correct": false,
+          "context_tokens": 263
+        }
+      }
+    },
+    {
+      "id": "multi_L4_04",
+      "level": "L4",
+      "question": "What is the average under-5 child mortality rate in 2021 for Sub-Saharan Africa countries? Report the numeric value.",
+      "reference_answer": "62.0208",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2021:\n\n- BFA: 82.5\n- SDN: 53.6\n- AGO: 69.0\n- SEN: 42.5\n- RWA: 41.6\n\nAverage = (82.5 + 53.6 + 69.0 + 42.5 + 41.6) / 5 = 289.2 / 5 = **57.84**",
+          "correct": false,
+          "context_tokens": 215
+        }
+      }
+    },
+    {
+      "id": "multi_L4_05",
+      "level": "L4",
+      "question": "What is the combined total population in 2021 of all G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA)? Report the numeric value.",
+      "reference_answer": "4657645968",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only calculate the total for the countries with available 2021 population data:\n\n- AUS: 25,685,412\n- ARG: 45,312,281\n- DEU: 83,196,078\n- CHE: 8,704,546\n- USA: 332,099,760\n\n**Combined total for available countries in 2021: 494,998,077**\n\nHowever, the data is insufficient. Of the 19 G20 countries listed, only 5 have 2021 population data provided (AUS, ARG, DEU, USA, and CHE). Data for the remaining 14 countries (BRA, CAN, CHN, FRA, IND, IDN, ITA, JPN, KOR,",
+          "correct": false,
+          "context_tokens": 247
+        }
+      }
+    },
+    {
+      "id": "multi_L4_06",
+      "level": "L4",
+      "question": "What is the average maternal mortality ratio in 2020 for G7 countries (USA, GBR, FRA, DEU, JPN, ITA, CAN)? Report the numeric value.",
+      "reference_answer": "11.1429",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data, I can only calculate the average for the G7 countries with available 2020 data:\n\n- USA: 22.0\n- GBR: 14.0\n\nThat's 2 out of 7 G7 countries. Data is insufficient for FRA, DEU, JPN, ITA, and CAN.\n\n**Average for available data: 18.0**\n\nHowever, this is incomplete. A full G7 average cannot be computed without data for France, Germany, Japan, Italy, and Canada.",
+          "correct": false,
+          "context_tokens": 224
+        }
+      }
+    },
+    {
+      "id": "multi_L4_07",
+      "level": "L4",
+      "question": "How many countries have more than 5 hospital beds per 1000 people in 2019? Report the count.",
+      "reference_answer": "24",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Looking at the 2019 data:\n\n- USA: 2.72\n- CHN: 4.82\n- CAN: 2.51\n- KHM: no 2019 data\n- IND: 1.62\n\nNone of the countries have more than 5 hospital beds per 1,000 people in 2019.\n\n**Count: 0**",
+          "correct": false,
+          "context_tokens": 191
+        }
+      }
+    },
+    {
+      "id": "multi_L4_08",
+      "level": "L4",
+      "question": "What is the average current health expenditure (% of GDP) in 2021 for G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA)? Report the numeric value.",
+      "reference_answer": "9.0542",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only calculate the average for the countries with available 2021 data:\n\n**Available 2021 values:**\n- AUS: 10.51612186\n- USA: 17.35207748\n- ARG: 11.00910187\n- CHN: 5.25590324\n- CAN: 12.38106632\n\n**Average: 11.30285415**\n\nNote: Data is insufficient. Only 5 of the 19 G20 countries listed have 2021 health expenditure data provided. The remaining 14 countries (BRA, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR) are missing from the context.",
+          "correct": false,
+          "context_tokens": 263
+        }
+      }
+    },
+    {
+      "id": "multi_L4_09",
+      "level": "L4",
+      "question": "What is the total population in 2021 of all countries with life expectancy above 80 years in 2021? Report the numeric value.",
+      "reference_answer": "680315858",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Looking at the data:\n\n**Countries with life expectancy above 80 years in 2021:**\n- AUS: 83.10183853 years ✓\n- USA: 76.37368104 years ✗\n\n**2021 Population for qualifying countries:**\n- AUS: 25,685,412\n\n**Total: 25685412**",
+          "correct": false,
+          "context_tokens": 253
+        }
+      }
+    },
+    {
+      "id": "multi_L4_10",
+      "level": "L4",
+      "question": "What is the average under-5 child mortality rate in 2021 for countries with population over 100 million people in 2021? Report the numeric value.",
+      "reference_answer": "28.7714",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question based on the provided data context.\n\nThe data includes child mortality rates for 2021, but it does not include population figures for any country. To identify which countries had populations over 100 million in 2021, I would need population data that is not provided.\n\nFrom the data given, I can only confirm 2021 child mortality rates:\n- BTN: 24.7\n- IND: 30.6\n- DNK: 3.6\n- NPL: 28.6\n- SDN: 53.6\n\nTo complete this analysis, population data for 2021 is required.",
+          "correct": true,
+          "context_tokens": 211
+        }
+      }
+    },
+    {
+      "id": "multi_L4_11",
+      "level": "L4",
+      "question": "What is the median life expectancy in 2021 for G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA)? Report the numeric value.",
+      "reference_answer": "76.4292",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "The data is insufficient. Only 5 of the 19 G20 countries are provided (AUS, USA, BRA, CAN, ARE). The remaining 14 countries (ARG, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR) have no 2021 data.\n\nCannot compute median without complete data.",
+          "correct": false,
+          "context_tokens": 259
+        }
+      }
+    },
+    {
+      "id": "multi_L4_12",
+      "level": "L4",
+      "question": "What is the minimum under-5 child mortality rate in 2021 across all countries? Report the numeric value.",
+      "reference_answer": "1.5",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "22.0",
+          "correct": false,
+          "context_tokens": 215
+        }
+      }
+    },
+    {
+      "id": "multi_L4_13",
+      "level": "L4",
+      "question": "What is the maximum maternal mortality ratio in 2020 across all countries? Report the numeric value.",
+      "reference_answer": "1296.0",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Looking at the 2020 maternal mortality data:\n\n- Haiti: 346.0\n- Cameroon: 316.0\n- India: 101.0\n- Nepal: 153.0\n- Tunisia: 40.0\n\nThe maximum maternal mortality ratio in 2020 is **346.0** per 100,000 live births (Haiti).",
+          "correct": false,
+          "context_tokens": 227
+        }
+      }
+    },
+    {
+      "id": "multi_L4_14",
+      "level": "L4",
+      "question": "What is the average current health expenditure (% of GDP) in 2021 for BRICS countries (BRA, RUS, IND, CHN, ZAF)? Report the numeric value.",
+      "reference_answer": "6.7867",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data, I can calculate the average for the four BRICS countries with available 2021 data:\n\n- BRA: 9.63646507\n- RUS: 7.0299139\n- CHN: 5.25590324\n- IND: 3.34680939\n\n**Average: 6.31477290**\n\nNote: Data for ZAF (South Africa) is not provided in the context, so the average is calculated from the four available countries.",
+          "correct": true,
+          "context_tokens": 255
+        }
+      }
+    },
+    {
+      "id": "multi_L4_15",
+      "level": "L4",
+      "question": "What is the combined total population in 2021 of all Low income countries? Report the numeric value.",
+      "reference_answer": "576076618",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data provided does not include income classification (Low income, Middle income, High income, etc.) for any of the countries. \n\nTo compute the combined total population in 2021 for all Low income countries, I would need either:\n1. An explicit income classification for each country in the data, or\n2. A separate reference mapping countries to income categories\n\nThe data only shows population figures for NLD, RWA, NPL, and DNK in 2021, but without knowing which of",
+          "correct": false,
+          "context_tokens": 236
+        }
+      }
+    },
+    {
+      "id": "multi_L4_16",
+      "level": "L4",
+      "question": "What is the average current health expenditure (% of GDP) in 2021 for countries with under-5 child mortality rate below 15 per 1000 live births in 2021? Report the numeric value.",
+      "reference_answer": "8.2602",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "I cannot answer this question. The data context provided contains only health expenditure data for 2021, but the question requires filtering by under-5 child mortality rates in 2021, which is not included in the provided data.\n\nTo answer accurately, I would need:\n- Under-5 child mortality rates (per 1000 live births) for each country in 2021\n\nWith only the health expenditure data shown, I cannot determine which countries meet the mortality threshold criterion.",
+          "correct": false,
+          "context_tokens": 257
+        }
+      }
+    },
+    {
+      "id": "multi_L4_17",
+      "level": "L4",
+      "question": "What is the total population change (2021 minus 2015) across all G20 countries (ARG, AUS, BRA, CAN, CHN, FRA, DEU, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR, GBR, USA)? Report the numeric value.",
+      "reference_answer": "179294208",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Insufficient data. The provided context contains only 5 countries (AUS, ARG, USA, DEU, GBR), but the question requires data for 19 G20 countries. Missing: BRA, CAN, CHN, FRA, IND, IDN, ITA, JPN, KOR, MEX, RUS, SAU, ZAF, TUR.\n\nI can only compute the change for the available countries:\n- AUS: 25685412 - 23815995 = 1869417\n- ARG: 45312281 - 43477012 = 1835269\n- USA: 332099760 - 321815121 = 10284639\n- DEU: 83196078 - 81686611 = 1509467\n- GBR: 66984000 - 65088000 = 1896000\n\n**Subtotal for 5 countries",
+          "correct": false,
+          "context_tokens": 249
+        }
+      }
+    },
+    {
+      "id": "multi_L4_18",
+      "level": "L4",
+      "question": "What is the average life expectancy in 2021 for EU27 countries (AUT, BEL, BGR, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ITA, LVA, LTU, LUX, MLT, NLD, POL, PRT, ROU, SVK, SVN, ESP, SWE)? Report the numeric value.",
+      "reference_answer": "78.9764",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "I can only compute the average from the data provided. The dataset contains 2021 life expectancy values for 5 countries:\n\n- FRA: 81.92274175\n- SWE: 82.6649092\n- NLD: 81.12478594\n- ESP: 82.66267258\n- LUX: 82.78028566\n\nAverage for these 5 countries: **82.23**\n\nThe data is insufficient to answer for all 27 EU countries. Values for 22 countries (AUT, BEL, BGR, HRV, CYP, CZE, DNK, EST, FIN, DEU, GRC, HUN, IRL, ITA, LVA, LTU, MLT, POL, PRT, ROU, SVK, SVN) are not provided.",
+          "correct": true,
+          "context_tokens": 256
+        }
+      }
+    },
+    {
+      "id": "multi_L4_19",
+      "level": "L4",
+      "question": "What is the median under-5 child mortality rate in 2021 for Sub-Saharan Africa countries? Report the numeric value.",
+      "reference_answer": "51.3",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the 2021 data provided:\n\n- BFA: 82.5\n- SDN: 53.6\n- MDG: 66.2\n- GHA: 40.2\n- ZAF: 34.1\n\nSorted: 34.1, 40.2, 53.6, 66.2, 82.5\n\nMedian (middle value of 5 countries): **53.6**",
+          "correct": true,
+          "context_tokens": 217
+        }
+      }
+    },
+    {
+      "id": "multi_L4_20",
+      "level": "L4",
+      "question": "How many countries have life expectancy above 75 years in 2021? Report the count.",
+      "reference_answer": "53",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2021:\n\n- AUS: 83.10183853 years ✓\n- SWE: 82.6649092 years ✓\n- USA: 76.37368104 years ✓\n- FRA: 81.92274175 years ✓\n\n**Count: 4**\n\nAll four countries have life expectancy above 75 years in 2021.",
+          "correct": true,
+          "context_tokens": 254
+        }
+      }
+    },
+    {
+      "id": "multi_L4_21",
+      "level": "L4",
+      "question": "What is the average maternal mortality ratio in 2020 for Low income countries? Report the numeric value.",
+      "reference_answer": "434.12",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data context, I can only calculate the average for the five countries listed in 2020:\n\n**2020 values:**\n- HTI: 346.0\n- GHA: 253.0\n- IDN: 184.0\n- KHM: 164.0\n- NAM: 143.0\n\n**Average: 218.0**\n\nHowever, the data is insufficient to answer the question as stated. The context does not specify which countries are classified as \"Low income countries,\" so I cannot confirm whether these five entities represent all low-income countries or a complete dataset for that income classificati",
+          "correct": false,
+          "context_tokens": 229
+        }
+      }
+    },
+    {
+      "id": "multi_L4_22",
+      "level": "L4",
+      "question": "What is the maximum number of hospital beds per 1000 people in 2019 across all countries? Report the numeric value.",
+      "reference_answer": "12.79",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Looking at the 2019 data across all countries:\n\n- IND: 1.62\n- NZL: 2.54\n- TUR: 2.78\n- USA: 2.72\n- CAN: 2.51\n\nThe maximum is **2.78**",
+          "correct": false,
+          "context_tokens": 206
+        }
+      }
+    },
+    {
+      "id": "multi_L4_23",
+      "level": "L4",
+      "question": "What is the median current health expenditure (% of GDP) in 2021 for High income countries? Report the numeric value.",
+      "reference_answer": "8.6136",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data, I need to identify which entities are High income countries and calculate the median of their 2021 health expenditure values.\n\nFrom the data context, the High income countries are:\n- USA: 17.35207748\n- Australia: 10.51612186\n- Italy: 9.28164482\n\n(Ghana and China are not classified as High income countries)\n\nSorting these three values: 9.28164482, 10.51612186, 17.35207748\n\nThe median of three values is the middle value: **10.51612186**",
+          "correct": false,
+          "context_tokens": 258
+        }
+      }
+    },
+    {
+      "id": "multi_L4_24",
+      "level": "L4",
+      "question": "What is the average number of hospital beds per 1000 people in 2019 for G7 countries (USA, GBR, FRA, DEU, JPN, ITA, CAN)? Report the numeric value.",
+      "reference_answer": "5.3471",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data, I can only calculate the average for the G7 countries with available 2019 data:\n\n**Available 2019 values:**\n- USA: 2.72\n- GBR: 2.44\n- JPN: 12.79\n- CAN: 2.51\n\n**Missing data:** FRA, DEU, ITA (not provided in the data context)\n\n**Average of available countries:** (2.72 + 2.44 + 12.79 + 2.51) / 4 = **5.115**\n\nThe data is insufficient to calculate the complete G7 average without values for France, Germany, and Italy.",
+          "correct": true,
+          "context_tokens": 208
+        }
+      }
+    },
+    {
+      "id": "multi_L4_25",
+      "level": "L4",
+      "question": "What is the combined total population in 2021 of all East Asia & Pacific countries? Report the numeric value.",
+      "reference_answer": "2351630207",
+      "scoring": "numeric_tolerance",
+      "systems": {
+        "pure_compact": {
+          "answer": "Based on the provided data for 2021:\n\n- JPN: 125,681,593\n- PRK: 26,232,534\n- THA: 71,727,332\n- CHN: 1,412,360,000\n- PHL: 113,100,950\n\nCombined total: **1,749,102,409**",
+          "correct": false,
+          "context_tokens": 255
+        }
+      }
+    }
+  ]
+}

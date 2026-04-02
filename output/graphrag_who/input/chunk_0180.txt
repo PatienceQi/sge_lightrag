@@ -1,0 +1,25 @@
+Entity: URY / WHOSIS_000001
+Year: 2000 | Value: 74.87862057
+Year: 2001 | Value: 74.92750681
+Year: 2002 | Value: 75.11068373
+Year: 2003 | Value: 74.80937399
+Year: 2004 | Value: 75.26030661
+Year: 2005 | Value: 75.64994667
+Year: 2006 | Value: 76.33233577
+Year: 2007 | Value: 75.38115954
+Year: 2008 | Value: 76.39345878
+Year: 2009 | Value: 76.67128798
+Year: 2010 | Value: 76.48217264
+Year: 2011 | Value: 76.59711654
+Year: 2012 | Value: 76.40566239
+Year: 2013 | Value: 76.7019772
+Year: 2014 | Value: 77.15013883
+Year: 2015 | Value: 77.09925201
+Year: 2016 | Value: 76.84527198
+Year: 2017 | Value: 77.33933717
+Year: 2018 | Value: 77.03739696
+Year: 2019 | Value: 77.01365627
+Year: 2020 | Value: 77.79436073
+Year: 2021 | Value: 74.98295244
+Remark: Uruguay
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: LTU / WHOSIS_000001
+Year: 2000 | Value: 71.99825868
+Year: 2001 | Value: 71.51538807
+Year: 2002 | Value: 71.6891841
+Year: 2003 | Value: 71.84648999
+Year: 2004 | Value: 71.87471415
+Year: 2005 | Value: 71.1036825
+Year: 2006 | Value: 70.89301238
+Year: 2007 | Value: 70.61092139
+Year: 2008 | Value: 71.62596428
+Year: 2009 | Value: 72.78267615
+Year: 2010 | Value: 73.07761938
+Year: 2011 | Value: 73.54804338
+Year: 2012 | Value: 73.83806492
+Year: 2013 | Value: 73.86695735
+Year: 2014 | Value: 74.49843919
+Year: 2015 | Value: 74.36612877
+Year: 2016 | Value: 74.70145984
+Year: 2017 | Value: 75.48786469
+Year: 2018 | Value: 75.75173506
+Year: 2019 | Value: 76.24761609
+Year: 2020 | Value: 74.89538008
+Year: 2021 | Value: 74.13314711
+Remark: Lithuania
+Remark: Life expectancy at birth (years)

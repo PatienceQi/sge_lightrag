@@ -1,0 +1,6 @@
+Entity: Berkshire Hathaway
+Year: 2015 | Value: 194673.0
+Year: 2016 | Value: 210821.0
+Year: 2017 | Value: 223604.0
+Year: 2018 | Value: 242137.0
+Year: 2019 | Value: 247837.0

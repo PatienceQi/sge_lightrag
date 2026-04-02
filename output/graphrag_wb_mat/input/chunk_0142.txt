@@ -1,0 +1,42 @@
+Entity: LSO / SH.STA.MMRT
+Year: 1985 | Value: 711
+Year: 1986 | Value: 680
+Year: 1987 | Value: 686
+Year: 1988 | Value: 680
+Year: 1989 | Value: 680
+Year: 1990 | Value: 665
+Year: 1991 | Value: 641
+Year: 1992 | Value: 601
+Year: 1993 | Value: 542
+Year: 1994 | Value: 423
+Year: 1995 | Value: 357
+Year: 1996 | Value: 319
+Year: 1997 | Value: 312
+Year: 1998 | Value: 332
+Year: 1999 | Value: 371
+Year: 2000 | Value: 413
+Year: 2001 | Value: 465
+Year: 2002 | Value: 484
+Year: 2003 | Value: 508
+Year: 2004 | Value: 499
+Year: 2005 | Value: 549
+Year: 2006 | Value: 696
+Year: 2007 | Value: 891
+Year: 2008 | Value: 1205
+Year: 2009 | Value: 1387
+Year: 2010 | Value: 1311
+Year: 2011 | Value: 1210
+Year: 2012 | Value: 1000
+Year: 2013 | Value: 855
+Year: 2014 | Value: 707
+Year: 2015 | Value: 594
+Year: 2016 | Value: 518
+Year: 2017 | Value: 468
+Year: 2018 | Value: 491
+Year: 2019 | Value: 467
+Year: 2020 | Value: 529
+Year: 2021 | Value: 577
+Year: 2022 | Value: 477
+Year: 2023 | Value: 478
+Remark: Lesotho
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

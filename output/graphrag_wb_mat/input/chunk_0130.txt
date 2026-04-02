@@ -1,0 +1,42 @@
+Entity: LAO / SH.STA.MMRT
+Year: 1985 | Value: 994
+Year: 1986 | Value: 963
+Year: 1987 | Value: 930
+Year: 1988 | Value: 898
+Year: 1989 | Value: 856
+Year: 1990 | Value: 834
+Year: 1991 | Value: 798
+Year: 1992 | Value: 781
+Year: 1993 | Value: 751
+Year: 1994 | Value: 741
+Year: 1995 | Value: 709
+Year: 1996 | Value: 682
+Year: 1997 | Value: 660
+Year: 1998 | Value: 647
+Year: 1999 | Value: 638
+Year: 2000 | Value: 609
+Year: 2001 | Value: 574
+Year: 2002 | Value: 550
+Year: 2003 | Value: 524
+Year: 2004 | Value: 492
+Year: 2005 | Value: 458
+Year: 2006 | Value: 432
+Year: 2007 | Value: 402
+Year: 2008 | Value: 374
+Year: 2009 | Value: 336
+Year: 2010 | Value: 305
+Year: 2011 | Value: 267
+Year: 2012 | Value: 241
+Year: 2013 | Value: 215
+Year: 2014 | Value: 193
+Year: 2015 | Value: 180
+Year: 2016 | Value: 165
+Year: 2017 | Value: 154
+Year: 2018 | Value: 145
+Year: 2019 | Value: 137
+Year: 2020 | Value: 132
+Year: 2021 | Value: 139
+Year: 2022 | Value: 120
+Year: 2023 | Value: 112
+Remark: Lao PDR
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

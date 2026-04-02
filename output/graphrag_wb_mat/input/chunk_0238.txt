@@ -1,0 +1,42 @@
+Entity: TLS / SH.STA.MMRT
+Year: 1985 | Value: 1916
+Year: 1986 | Value: 1860
+Year: 1987 | Value: 1763
+Year: 1988 | Value: 1743
+Year: 1989 | Value: 1511
+Year: 1990 | Value: 1477
+Year: 1991 | Value: 1439
+Year: 1992 | Value: 1368
+Year: 1993 | Value: 1308
+Year: 1994 | Value: 1254
+Year: 1995 | Value: 1239
+Year: 1996 | Value: 1193
+Year: 1997 | Value: 1166
+Year: 1998 | Value: 1157
+Year: 1999 | Value: 1488
+Year: 2000 | Value: 796
+Year: 2001 | Value: 761
+Year: 2002 | Value: 724
+Year: 2003 | Value: 714
+Year: 2004 | Value: 683
+Year: 2005 | Value: 648
+Year: 2006 | Value: 600
+Year: 2007 | Value: 559
+Year: 2008 | Value: 518
+Year: 2009 | Value: 477
+Year: 2010 | Value: 439
+Year: 2011 | Value: 404
+Year: 2012 | Value: 374
+Year: 2013 | Value: 349
+Year: 2014 | Value: 327
+Year: 2015 | Value: 305
+Year: 2016 | Value: 287
+Year: 2017 | Value: 269
+Year: 2018 | Value: 251
+Year: 2019 | Value: 237
+Year: 2020 | Value: 257
+Year: 2021 | Value: 263
+Year: 2022 | Value: 235
+Year: 2023 | Value: 192
+Remark: Timor-Leste
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

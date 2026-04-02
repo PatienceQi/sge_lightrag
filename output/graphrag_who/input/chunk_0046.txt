@@ -1,0 +1,25 @@
+Entity: DEU / WHOSIS_000001
+Year: 2000 | Value: 78.10603024
+Year: 2001 | Value: 78.44285248
+Year: 2002 | Value: 78.46153264
+Year: 2003 | Value: 78.45648391
+Year: 2004 | Value: 79.02932323
+Year: 2005 | Value: 79.20819712
+Year: 2006 | Value: 79.60448013
+Year: 2007 | Value: 79.79113261
+Year: 2008 | Value: 79.87792037
+Year: 2009 | Value: 79.99437865
+Year: 2010 | Value: 80.18047005
+Year: 2011 | Value: 80.46331457
+Year: 2012 | Value: 80.59346041
+Year: 2013 | Value: 80.28874618
+Year: 2014 | Value: 80.7599266
+Year: 2015 | Value: 80.4259243
+Year: 2016 | Value: 80.68537775
+Year: 2017 | Value: 80.75116875
+Year: 2018 | Value: 80.64820055
+Year: 2019 | Value: 80.97360663
+Year: 2020 | Value: 80.79637728
+Year: 2021 | Value: 80.49140555
+Remark: Germany
+Remark: Life expectancy at birth (years)

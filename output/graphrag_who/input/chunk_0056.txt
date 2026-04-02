@@ -1,0 +1,25 @@
+Entity: EST / WHOSIS_000001
+Year: 2000 | Value: 70.96926531
+Year: 2001 | Value: 70.85470275
+Year: 2002 | Value: 71.18420468
+Year: 2003 | Value: 71.87885357
+Year: 2004 | Value: 72.26375853
+Year: 2005 | Value: 72.88570642
+Year: 2006 | Value: 73.02632317
+Year: 2007 | Value: 73.12739174
+Year: 2008 | Value: 74.24703915
+Year: 2009 | Value: 75.04425699
+Year: 2010 | Value: 75.84300326
+Year: 2011 | Value: 76.28720152
+Year: 2012 | Value: 76.40758544
+Year: 2013 | Value: 77.02989191
+Year: 2014 | Value: 77.0967995
+Year: 2015 | Value: 77.63428878
+Year: 2016 | Value: 77.71059498
+Year: 2017 | Value: 78.2161445
+Year: 2018 | Value: 78.3489275
+Year: 2019 | Value: 78.89055582
+Year: 2020 | Value: 78.62190265
+Year: 2021 | Value: 77.13131363
+Remark: Estonia
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,42 @@
+Entity: MLI / SH.STA.MMRT
+Year: 1985 | Value: 1217
+Year: 1986 | Value: 1184
+Year: 1987 | Value: 1142
+Year: 1988 | Value: 1128
+Year: 1989 | Value: 1106
+Year: 1990 | Value: 1087
+Year: 1991 | Value: 1063
+Year: 1992 | Value: 1024
+Year: 1993 | Value: 988
+Year: 1994 | Value: 935
+Year: 1995 | Value: 895
+Year: 1996 | Value: 875
+Year: 1997 | Value: 820
+Year: 1998 | Value: 781
+Year: 1999 | Value: 749
+Year: 2000 | Value: 741
+Year: 2001 | Value: 694
+Year: 2002 | Value: 649
+Year: 2003 | Value: 616
+Year: 2004 | Value: 592
+Year: 2005 | Value: 577
+Year: 2006 | Value: 568
+Year: 2007 | Value: 574
+Year: 2008 | Value: 573
+Year: 2009 | Value: 565
+Year: 2010 | Value: 558
+Year: 2011 | Value: 553
+Year: 2012 | Value: 549
+Year: 2013 | Value: 525
+Year: 2014 | Value: 507
+Year: 2015 | Value: 490
+Year: 2016 | Value: 472
+Year: 2017 | Value: 453
+Year: 2018 | Value: 434
+Year: 2019 | Value: 416
+Year: 2020 | Value: 405
+Year: 2021 | Value: 415
+Year: 2022 | Value: 381
+Year: 2023 | Value: 367
+Remark: Mali
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

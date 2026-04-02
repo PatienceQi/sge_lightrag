@@ -1,0 +1,6 @@
+Entity: General Motors
+Year: 2015 | Value: 155929.0
+Year: 2016 | Value: 152356.0
+Year: 2017 | Value: 166380.0
+Year: 2018 | Value: 157311.0
+Year: 2019 | Value: 147049.0

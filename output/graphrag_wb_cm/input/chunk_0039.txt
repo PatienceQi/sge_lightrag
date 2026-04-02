@@ -1,0 +1,3 @@
+Entity: CHI / SH.DYN.MORT
+Remark: Channel Islands
+Remark: Mortality rate, under-5 (per 1,000 live births)

@@ -1,0 +1,3 @@
+Entity: GRL / SH.DYN.MORT
+Remark: Greenland
+Remark: Mortality rate, under-5 (per 1,000 live births)

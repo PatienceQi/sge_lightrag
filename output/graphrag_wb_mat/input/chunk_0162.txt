@@ -1,0 +1,42 @@
+Entity: MNA / SH.STA.MMRT
+Year: 1985 | Value: 394
+Year: 1986 | Value: 370
+Year: 1987 | Value: 362
+Year: 1988 | Value: 345
+Year: 1989 | Value: 339
+Year: 1990 | Value: 336
+Year: 1991 | Value: 334
+Year: 1992 | Value: 335
+Year: 1993 | Value: 342
+Year: 1994 | Value: 355
+Year: 1995 | Value: 363
+Year: 1996 | Value: 362
+Year: 1997 | Value: 359
+Year: 1998 | Value: 355
+Year: 1999 | Value: 338
+Year: 2000 | Value: 330
+Year: 2001 | Value: 311
+Year: 2002 | Value: 296
+Year: 2003 | Value: 283
+Year: 2004 | Value: 267
+Year: 2005 | Value: 251
+Year: 2006 | Value: 234
+Year: 2007 | Value: 221
+Year: 2008 | Value: 207
+Year: 2009 | Value: 201
+Year: 2010 | Value: 195
+Year: 2011 | Value: 186
+Year: 2012 | Value: 180
+Year: 2013 | Value: 174
+Year: 2014 | Value: 168
+Year: 2015 | Value: 163
+Year: 2016 | Value: 158
+Year: 2017 | Value: 151
+Year: 2018 | Value: 149
+Year: 2019 | Value: 146
+Year: 2020 | Value: 156
+Year: 2021 | Value: 171
+Year: 2022 | Value: 137
+Year: 2023 | Value: 131
+Remark: Middle East, North Africa, Afghanistan & Pakistan (excluding high income)
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

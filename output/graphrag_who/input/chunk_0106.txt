@@ -1,0 +1,25 @@
+Entity: LUX / WHOSIS_000001
+Year: 2000 | Value: 78.4163246
+Year: 2001 | Value: 78.61781312
+Year: 2002 | Value: 78.80641336
+Year: 2003 | Value: 79.03207074
+Year: 2004 | Value: 79.25868688
+Year: 2005 | Value: 79.5758462
+Year: 2006 | Value: 79.91412753
+Year: 2007 | Value: 80.26355488
+Year: 2008 | Value: 80.56515483
+Year: 2009 | Value: 80.92194389
+Year: 2010 | Value: 81.17521457
+Year: 2011 | Value: 81.39260196
+Year: 2012 | Value: 81.56608895
+Year: 2013 | Value: 81.87819611
+Year: 2014 | Value: 82.1608587
+Year: 2015 | Value: 82.3849065
+Year: 2016 | Value: 82.55544194
+Year: 2017 | Value: 82.70166924
+Year: 2018 | Value: 82.81654634
+Year: 2019 | Value: 82.80168339
+Year: 2020 | Value: 82.82955161
+Year: 2021 | Value: 82.78028566
+Remark: Luxembourg
+Remark: Life expectancy at birth (years)

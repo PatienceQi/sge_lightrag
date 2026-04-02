@@ -1,0 +1,25 @@
+Entity: HND / WHOSIS_000001
+Year: 2000 | Value: 69.7632118
+Year: 2001 | Value: 69.91583233
+Year: 2002 | Value: 70.08108435
+Year: 2003 | Value: 70.19195664
+Year: 2004 | Value: 70.3400508
+Year: 2005 | Value: 70.54437222
+Year: 2006 | Value: 70.7448816
+Year: 2007 | Value: 70.94703187
+Year: 2008 | Value: 70.9858569
+Year: 2009 | Value: 70.99448917
+Year: 2010 | Value: 70.83426628
+Year: 2011 | Value: 70.68279372
+Year: 2012 | Value: 68.99495317
+Year: 2013 | Value: 69.35287284
+Year: 2014 | Value: 69.52157081
+Year: 2015 | Value: 69.52898147
+Year: 2016 | Value: 71.09197895
+Year: 2017 | Value: 71.27116934
+Year: 2018 | Value: 71.31264864
+Year: 2019 | Value: 71.43843431
+Year: 2020 | Value: 70.3347631
+Year: 2021 | Value: 68.96309289
+Remark: Honduras
+Remark: Life expectancy at birth (years)

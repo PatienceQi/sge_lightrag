@@ -1,0 +1,42 @@
+Entity: BGD / SH.STA.MMRT
+Year: 1985 | Value: 926
+Year: 1986 | Value: 891
+Year: 1987 | Value: 884
+Year: 1988 | Value: 881
+Year: 1989 | Value: 877
+Year: 1990 | Value: 870
+Year: 1991 | Value: 890
+Year: 1992 | Value: 827
+Year: 1993 | Value: 791
+Year: 1994 | Value: 749
+Year: 1995 | Value: 707
+Year: 1996 | Value: 664
+Year: 1997 | Value: 626
+Year: 1998 | Value: 589
+Year: 1999 | Value: 554
+Year: 2000 | Value: 523
+Year: 2001 | Value: 495
+Year: 2002 | Value: 465
+Year: 2003 | Value: 436
+Year: 2004 | Value: 406
+Year: 2005 | Value: 378
+Year: 2006 | Value: 352
+Year: 2007 | Value: 334
+Year: 2008 | Value: 310
+Year: 2009 | Value: 293
+Year: 2010 | Value: 275
+Year: 2011 | Value: 258
+Year: 2012 | Value: 244
+Year: 2013 | Value: 230
+Year: 2014 | Value: 217
+Year: 2015 | Value: 204
+Year: 2016 | Value: 191
+Year: 2017 | Value: 179
+Year: 2018 | Value: 168
+Year: 2019 | Value: 157
+Year: 2020 | Value: 152
+Year: 2021 | Value: 194
+Year: 2022 | Value: 131
+Year: 2023 | Value: 115
+Remark: Bangladesh
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

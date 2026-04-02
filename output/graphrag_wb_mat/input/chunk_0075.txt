@@ -1,0 +1,42 @@
+Entity: FCS / SH.STA.MMRT
+Year: 1985 | Value: 1020
+Year: 1986 | Value: 997
+Year: 1987 | Value: 1040
+Year: 1988 | Value: 986
+Year: 1989 | Value: 965
+Year: 1990 | Value: 953
+Year: 1991 | Value: 937
+Year: 1992 | Value: 952
+Year: 1993 | Value: 930
+Year: 1994 | Value: 834
+Year: 1995 | Value: 859
+Year: 1996 | Value: 850
+Year: 1997 | Value: 830
+Year: 1998 | Value: 866
+Year: 1999 | Value: 781
+Year: 2000 | Value: 761
+Year: 2001 | Value: 748
+Year: 2002 | Value: 731
+Year: 2003 | Value: 711
+Year: 2004 | Value: 695
+Year: 2005 | Value: 683
+Year: 2006 | Value: 677
+Year: 2007 | Value: 669
+Year: 2008 | Value: 662
+Year: 2009 | Value: 653
+Year: 2010 | Value: 646
+Year: 2011 | Value: 635
+Year: 2012 | Value: 623
+Year: 2013 | Value: 615
+Year: 2014 | Value: 612
+Year: 2015 | Value: 605
+Year: 2016 | Value: 589
+Year: 2017 | Value: 573
+Year: 2018 | Value: 544
+Year: 2019 | Value: 526
+Year: 2020 | Value: 511
+Year: 2021 | Value: 523
+Year: 2022 | Value: 477
+Year: 2023 | Value: 458
+Remark: Fragile and conflict affected situations
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

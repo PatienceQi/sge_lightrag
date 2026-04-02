@@ -1,0 +1,42 @@
+Entity: SLB / SH.STA.MMRT
+Year: 1985 | Value: 209
+Year: 1986 | Value: 226
+Year: 1987 | Value: 200
+Year: 1988 | Value: 193
+Year: 1989 | Value: 188
+Year: 1990 | Value: 184
+Year: 1991 | Value: 178
+Year: 1992 | Value: 174
+Year: 1993 | Value: 173
+Year: 1994 | Value: 170
+Year: 1995 | Value: 168
+Year: 1996 | Value: 166
+Year: 1997 | Value: 164
+Year: 1998 | Value: 165
+Year: 1999 | Value: 164
+Year: 2000 | Value: 166
+Year: 2001 | Value: 167
+Year: 2002 | Value: 168
+Year: 2003 | Value: 167
+Year: 2004 | Value: 164
+Year: 2005 | Value: 161
+Year: 2006 | Value: 159
+Year: 2007 | Value: 163
+Year: 2008 | Value: 153
+Year: 2009 | Value: 152
+Year: 2010 | Value: 148
+Year: 2011 | Value: 147
+Year: 2012 | Value: 146
+Year: 2013 | Value: 147
+Year: 2014 | Value: 147
+Year: 2015 | Value: 146
+Year: 2016 | Value: 143
+Year: 2017 | Value: 140
+Year: 2018 | Value: 136
+Year: 2019 | Value: 135
+Year: 2020 | Value: 131
+Year: 2021 | Value: 153
+Year: 2022 | Value: 126
+Year: 2023 | Value: 123
+Remark: Solomon Islands
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-01T15:03:38.692801",
+  "system": "hipporag_v2",
+  "dataset": "inpatient",
+  "config": {
+    "llm_model": "claude-haiku-4-5-20251001",
+    "embedding_model": "mxbai-embed-large"
+  },
+  "total_questions": 9,
+  "correct": 1,
+  "accuracy": 0.1111111111111111,
+  "results": [
+    {
+      "id": "inpatient_01",
+      "dataset": "inpatient",
+      "question": "肺炎的住院病人出院及死亡总人次是多少？",
+      "expected_value": "60614",
+      "hipporag_answer": "I need to find data about pneumonia (肺炎) hospitalizations and deaths.\n\nLooking through the provided Wikipedia entries, I can see medical statistics for several conditions:\n- Hemorrhagic conditions (D65-D77)\n- Stroke (I64)\n- Acute rheumatic fever (I00-I02)\n- Skin and subcutaneous tissue infections (L00-L08)\n- Other symptoms and signs (R00-R09, R11-R49, R51-R53, R55-R99)\n\nHowever, none of these entries contain data specifically about pneumonia (肺炎). The provided passages do not include a Wikipedia entry for pneumonia or its hospitalization statistics.\n\nAnswer: The provided data does not contain information about pneumonia hospitalizations and deaths. I cannot answer this question based on the given passages.",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_02",
+      "dataset": "inpatient",
+      "question": "肾衰竭的住院病人出院及死亡总人次是多少？",
+      "expected_value": "196617",
+      "hipporag_answer": "I need to find information about kidney failure (肾衰竭) in the provided Wikipedia data.\n\nLooking through the five categories provided:\n1. 血液和造血器官的出血性情况及其他疾病 (D65-D77) - Hemorrhagic conditions\n2. 中风，未特指为出血或梗死 (I64) - Stroke\n3. 皮肤和皮下组织感染 (L00-L08) - Skin infections\n4. 糖尿病 (E10-E14) - Diabetes\n5. 烧伤和腐蚀伤 (T20-T32) - Burns and corrosions\n\nNone of these categories contain information about kidney failure (肾衰竭). The provided data does not include the relevant medical category for kidney failure.\n\nAnswer: 提供的数据中没有肾衰竭的相关信息，无法回答此问题。",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_03",
+      "dataset": "inpatient",
+      "question": "乳房恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "expected_value": "52626",
+      "hipporag_answer": "I need to find information about \"乳房恶性肿瘤\" (malignant breast tumors) in the provided Wikipedia entries.\n\nLooking through the entries:\n- The first entry is about \"腹部和盆腔痛\" (abdominal and pelvic pain)\n- The second entry is about \"乳房良性肿瘤\" (benign breast tumors) with subcategory D24\n- The third entry is about blood and hematopoietic disorders\n- The fourth entry is about diabetes\n- The fifth entry is about intracranial hemorrhage\n\nThe question asks about \"乳房恶性肿瘤\" (malignant breast tumors), but the provided data only contains information about \"乳房良性肿瘤\" (benign breast tumors), not malignant tumors.\n\nAnswer: The provided Wikipedia entries do not contain information about malignant breast tumors (乳房恶性肿瘤). Only data for benign breast tumors (乳房良性肿瘤) is available, which shows a total of 865 hospital discharges and deaths.",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_04",
+      "dataset": "inpatient",
+      "question": "其他缺血性心脏病的住院病人出院及死亡总人次是多少人次？",
+      "expected_value": "26785",
+      "hipporag_answer": "Looking at the Wikipedia entry for \"其他缺血性心脏病\" (Other Ischemic Heart Disease) with SubCategory I20, I23-I25, the field \"住院病人出院及死亡人次*-合计\" (Total hospital patient discharges and deaths) shows the value.\n\nAnswer: 26785.0人次",
+      "hipporag_correct": true
+    },
+    {
+      "id": "inpatient_05",
+      "dataset": "inpatient",
+      "question": "胃炎和十二指肠炎的住院病人出院及死亡总人次是多少人次？",
+      "expected_value": "48411",
+      "hipporag_answer": "I need to find data for \"胃炎和十二指肠炎\" (gastritis and duodenitis) in the provided Wikipedia entries.\n\nLooking through the categories provided:\n- 胃和十二指肠溃疡 (gastric and duodenal ulcers) - K25-K27\n- 唇裂和颚裂 (cleft lip and palate) - Q35-Q37\n- 急性风湿热 (acute rheumatic fever) - I00-I02\n- 其他症状、体征和临床与实验室异常所见 (other symptoms and signs) - R00-R09, R11-R49, R51-R53, R55-R99\n- 糖尿病 (diabetes) - E10-E14\n\nThe question asks about \"胃炎和十二指肠炎\" (gastritis and duodenitis), but this specific category is not included in the provided Wikipedia data. The closest entry is \"胃和十二指肠溃疡\" (gastric and duodenal ulcers), which is a different condition.\n\nAnswer: 无法从提供的数据中找到\"胃炎和十二指肠炎\"的相关信息。提供的数据中只有\"胃和十二指肠溃疡\"的数据，其住院病人出院及死亡总人次为10799.0人次。",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_06",
+      "dataset": "inpatient",
+      "question": "2023年肺炎的在医院登记死亡人数是多少？",
+      "expected_value": "11334",
+      "hipporag_answer": "I cannot answer this question based on the provided Wikipedia passages. The passages contain Hong Kong health statistics data for various medical conditions (miscarriage, dementia, brucellosis, shigellosis, and perinatal respiratory diseases), but none of them specifically address pneumonia (肺炎) or provide 2023 data. The passages do not contain information about pneumonia-related deaths registered in hospitals in 2023.\n\nAnswer: The information is not available in the provided passages.",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_07",
+      "dataset": "inpatient",
+      "question": "2023年肾衰竭的在医院登记死亡人数是多少？",
+      "expected_value": "1605",
+      "hipporag_answer": "I cannot find information about kidney failure (肾衰竭) deaths in 2023 in the provided Wikipedia passages. The passages contain medical statistics for other conditions (miscarriage, cognitive disorders, perinatal respiratory diseases, brucellosis, and shigellosis), but none of them include data on kidney failure or renal failure deaths.\n\nAnswer: The information is not available in the provided passages.",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_08",
+      "dataset": "inpatient",
+      "question": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "expected_value": "38655",
+      "hipporag_answer": "I cannot answer this question based on the provided Wikipedia passages. The question asks about hospitalization and death cases for malignant tumors of the trachea, bronchus, and lung (气管、支气管和肺恶性肿瘤), but none of the provided Wikipedia titles or data contain information about this specific medical category. The passages provided cover other medical conditions such as symptoms, blood disorders, congenital heart defects, cleft lip/palate, and diabetes, but not respiratory tract malignancies.\n\nAnswer: The information is not available in the provided passages.",
+      "hipporag_correct": false
+    },
+    {
+      "id": "inpatient_r01",
+      "dataset": "inpatient",
+      "question": "恶性肿瘤（C00-C97）与循环系统疾病（I00-I99），哪类疾病2023年的住院人次更多？",
+      "expected_value": "恶性肿瘤",
+      "hipporag_answer": "I need to compare hospitalization cases between malignant neoplasms (C00-C97) and circulatory system diseases (I00-I99) based on the provided data.\n\nFrom the Wikipedia entries:\n\n**Malignant neoplasms data:**\n- C73-C80, C97 (other malignant neoplasms): 10,353.0 total hospitalizations\n- C67 (bladder malignant neoplasm): 5,635.0 total hospitalizations\n- C69 (eye malignant neoplasm): 333.0 total hospitalizations\n\n**Circulatory system diseases data:**\n- I73 (other peripheral vascular diseases): 1,054.0 total hospitalizations\n\nHowever, the provided data is incomplete. The question asks about the entire C00-C97 range and I00-I99 range, but only partial data is shown. From the available data points:\n\nMalignant neoplasms (partial): 10,353.0 + 5,635.0 + 333.0 = 16,321.0\nCirculatory diseases (partial): 1,054.0\n\nAnswer: Based on the incomplete data provided, malignant neoplasms show more hospitalizations (16,321.0 vs 1,054.0). However, a complete answer would require data for all disease codes in both ranges (C00-C97 and I00-I99).",
+      "hipporag_correct": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Entity: Kroger
+Year: 2015 | Value: 108465.0
+Year: 2016 | Value: 109830.0
+Year: 2017 | Value: 115337.0
+Year: 2018 | Value: 122662.0
+Year: 2019 | Value: 121162.0

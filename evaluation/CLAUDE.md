@@ -26,6 +26,12 @@ Gold Standard (gold/*.jsonl) + Graph (*.graphml)
 | `generate_gold_ood.py` | OOD dataset Gold Standard generation |
 | `graph_loaders.py` | GraphML/JSON graph parsing utilities |
 | `run_ood_evaluation.py` | OOD pipeline FC evaluation |
+| `generate_gold_non_gov.py` | Non-government Gold Standard generation (Fortune 500 + THE Ranking) |
+| `table_aware_baseline.py` | Table-aware prompt baseline (weak + strong variants) |
+| `autoschemakg_baseline.py` | AutoSchemaKG end-to-end baseline |
+| `nanographrag_baseline.py` | nano-GraphRAG cross-system baseline |
+| `graphrag_qa_eval.py` | MS GraphRAG QA evaluation (parquet-based) |
+| `run_stratified_precision.py` | Stratified precision sampling (250 edges) |
 
 ## Gold Standards (`gold/`)
 
@@ -47,6 +53,13 @@ Gold Standard (gold/*.jsonl) + Graph (*.graphml)
 | `gold_wb_population_v2.jsonl` | WB Population | 150 |
 | `gold_wb_maternal_v2.jsonl` | WB Maternal Mortality | 150 |
 
+### Non-Government (auto-generated)
+
+| File | Dataset | Facts |
+|------|---------|-------|
+| `gold_fortune500_revenue.jsonl` | Fortune 500 Revenue | 125 |
+| `gold_the_university_ranking.jsonl` | THE University Ranking | 150 |
+
 ## Authoritative Result Files (`results/`)
 
 | File | Content |
@@ -56,6 +69,13 @@ Gold Standard (gold/*.jsonl) + Graph (*.graphml)
 | `debiased_results.json` | Value-first de-biased FC (5 datasets × 2 systems) |
 | `direct_llm_results.json` | Direct LLM baseline numbers |
 | `baseline_precision_results.json` | Baseline precision: 50/50 = 100% |
+| `non_gov_fc_results.json` | Non-gov FC: Fortune 500 1.0/0.0, THE 0.567/0.200 |
+| `table_aware_strong_results.json` | Strong table-aware baseline FC=0.253 |
+| `nanographrag_fc_results.json` | nano-GraphRAG FC=0.367 |
+| `autoschemakg_results.json` | AutoSchemaKG FC=0.860 |
+| `graphrag_qa_results.json` | MS GraphRAG QA 84/88=95.5% |
+| `stratified_precision_results.json` | 249/250=99.6% |
+| `hipporag_fc_results.json` | HippoRAG FC=1.000 (dense graph) |
 
 ## Metrics
 

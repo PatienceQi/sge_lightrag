@@ -1,0 +1,42 @@
+Entity: WSM / SH.STA.MMRT
+Year: 1985 | Value: 160
+Year: 1986 | Value: 153
+Year: 1987 | Value: 147
+Year: 1988 | Value: 143
+Year: 1989 | Value: 136
+Year: 1990 | Value: 135
+Year: 1991 | Value: 131
+Year: 1992 | Value: 124
+Year: 1993 | Value: 117
+Year: 1994 | Value: 112
+Year: 1995 | Value: 105
+Year: 1996 | Value: 103
+Year: 1997 | Value: 98
+Year: 1998 | Value: 96
+Year: 1999 | Value: 94
+Year: 2000 | Value: 93
+Year: 2001 | Value: 93
+Year: 2002 | Value: 89
+Year: 2003 | Value: 87
+Year: 2004 | Value: 86
+Year: 2005 | Value: 87
+Year: 2006 | Value: 86
+Year: 2007 | Value: 85
+Year: 2008 | Value: 87
+Year: 2009 | Value: 94
+Year: 2010 | Value: 92
+Year: 2011 | Value: 93
+Year: 2012 | Value: 101
+Year: 2013 | Value: 100
+Year: 2014 | Value: 106
+Year: 2015 | Value: 108
+Year: 2016 | Value: 108
+Year: 2017 | Value: 111
+Year: 2018 | Value: 110
+Year: 2019 | Value: 111
+Year: 2020 | Value: 114
+Year: 2021 | Value: 115
+Year: 2022 | Value: 110
+Year: 2023 | Value: 101
+Remark: Samoa
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,32 @@
+{
+  "WHO": {
+    "nodes": 3406,
+    "edges": 186074,
+    "gold_entities": 25,
+    "gold_facts": 150,
+    "covered": 150,
+    "not_covered": 0,
+    "fc": 1.0,
+    "failure_reasons": {}
+  },
+  "WB_CM": {
+    "nodes": 2525,
+    "edges": 51240,
+    "gold_entities": 25,
+    "gold_facts": 150,
+    "covered": 150,
+    "not_covered": 0,
+    "fc": 1.0,
+    "failure_reasons": {}
+  },
+  "Inpatient": {
+    "nodes": 1498,
+    "edges": 16656,
+    "gold_entities": 8,
+    "gold_facts": 16,
+    "covered": 16,
+    "not_covered": 0,
+    "fc": 1.0,
+    "failure_reasons": {}
+  }
+}

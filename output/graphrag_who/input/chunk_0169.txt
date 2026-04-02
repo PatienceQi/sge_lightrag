@@ -1,0 +1,25 @@
+Entity: THA / WHOSIS_000001
+Year: 2000 | Value: 71.0119193
+Year: 2001 | Value: 71.72869386
+Year: 2002 | Value: 71.71439141
+Year: 2003 | Value: 72.03975902
+Year: 2004 | Value: 72.04096222
+Year: 2005 | Value: 72.83579766
+Year: 2006 | Value: 73.40943067
+Year: 2007 | Value: 73.93719029
+Year: 2008 | Value: 74.46372111
+Year: 2009 | Value: 75.05244639
+Year: 2010 | Value: 75.29127601
+Year: 2011 | Value: 75.71879745
+Year: 2012 | Value: 76.18036117
+Year: 2013 | Value: 76.54383011
+Year: 2014 | Value: 76.7567559
+Year: 2015 | Value: 76.97043175
+Year: 2016 | Value: 76.9976755
+Year: 2017 | Value: 77.22944399
+Year: 2018 | Value: 77.14916132
+Year: 2019 | Value: 76.92495279
+Year: 2020 | Value: 76.50524949
+Year: 2021 | Value: 75.29014364
+Remark: Thailand
+Remark: Life expectancy at birth (years)

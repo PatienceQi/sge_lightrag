@@ -1,0 +1,25 @@
+Entity: MDG / WHOSIS_000001
+Year: 2000 | Value: 58.73234782
+Year: 2001 | Value: 59.24814899
+Year: 2002 | Value: 59.4274793
+Year: 2003 | Value: 59.72543671
+Year: 2004 | Value: 60.11149963
+Year: 2005 | Value: 60.67184175
+Year: 2006 | Value: 61.19063264
+Year: 2007 | Value: 61.67182144
+Year: 2008 | Value: 62.01528236
+Year: 2009 | Value: 62.2488395
+Year: 2010 | Value: 62.52359433
+Year: 2011 | Value: 62.75965875
+Year: 2012 | Value: 62.96002316
+Year: 2013 | Value: 63.11657152
+Year: 2014 | Value: 63.22596923
+Year: 2015 | Value: 63.35879155
+Year: 2016 | Value: 63.46510267
+Year: 2017 | Value: 63.57935928
+Year: 2018 | Value: 63.71423448
+Year: 2019 | Value: 63.81664617
+Year: 2020 | Value: 63.07628383
+Year: 2021 | Value: 62.9342555
+Remark: Madagascar
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: EGY / WHOSIS_000001
+Year: 2000 | Value: 69.14860157
+Year: 2001 | Value: 68.84530776
+Year: 2002 | Value: 68.85252001
+Year: 2003 | Value: 68.78353005
+Year: 2004 | Value: 69.18228637
+Year: 2005 | Value: 69.52274009
+Year: 2006 | Value: 69.56785371
+Year: 2007 | Value: 69.74814425
+Year: 2008 | Value: 69.77109335
+Year: 2009 | Value: 69.78931749
+Year: 2010 | Value: 69.83444177
+Year: 2011 | Value: 70.08390953
+Year: 2012 | Value: 69.82990211
+Year: 2013 | Value: 70.47150621
+Year: 2014 | Value: 70.46262161
+Year: 2015 | Value: 70.05641038
+Year: 2016 | Value: 70.7024138
+Year: 2017 | Value: 71.25138812
+Year: 2018 | Value: 71.35791195
+Year: 2019 | Value: 71.58973358
+Year: 2020 | Value: 70.12068297
+Year: 2021 | Value: 69.10821615
+Remark: Egypt
+Remark: Life expectancy at birth (years)

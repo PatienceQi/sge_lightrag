@@ -1,0 +1,25 @@
+Entity: SVK / WHOSIS_000001
+Year: 2000 | Value: 73.32287483
+Year: 2001 | Value: 73.45130702
+Year: 2002 | Value: 73.72313973
+Year: 2003 | Value: 73.78042489
+Year: 2004 | Value: 74.14711692
+Year: 2005 | Value: 74.09775351
+Year: 2006 | Value: 74.36445517
+Year: 2007 | Value: 74.470327
+Year: 2008 | Value: 74.82525921
+Year: 2009 | Value: 75.21656698
+Year: 2010 | Value: 75.44924081
+Year: 2011 | Value: 75.93326104
+Year: 2012 | Value: 76.13275335
+Year: 2013 | Value: 76.47557345
+Year: 2014 | Value: 76.83437639
+Year: 2015 | Value: 76.59625031
+Year: 2016 | Value: 77.15076737
+Year: 2017 | Value: 77.09456027
+Year: 2018 | Value: 77.19646571
+Year: 2019 | Value: 77.61261952
+Year: 2020 | Value: 76.86888148
+Year: 2021 | Value: 74.50941328
+Remark: Slovakia
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,42 @@
+Entity: ZWE / SH.STA.MMRT
+Year: 1985 | Value: 573
+Year: 1986 | Value: 525
+Year: 1987 | Value: 480
+Year: 1988 | Value: 431
+Year: 1989 | Value: 382
+Year: 1990 | Value: 353
+Year: 1991 | Value: 332
+Year: 1992 | Value: 333
+Year: 1993 | Value: 331
+Year: 1994 | Value: 332
+Year: 1995 | Value: 332
+Year: 1996 | Value: 352
+Year: 1997 | Value: 357
+Year: 1998 | Value: 368
+Year: 1999 | Value: 399
+Year: 2000 | Value: 405
+Year: 2001 | Value: 467
+Year: 2002 | Value: 418
+Year: 2003 | Value: 455
+Year: 2004 | Value: 451
+Year: 2005 | Value: 454
+Year: 2006 | Value: 480
+Year: 2007 | Value: 519
+Year: 2008 | Value: 526
+Year: 2009 | Value: 540
+Year: 2010 | Value: 567
+Year: 2011 | Value: 564
+Year: 2012 | Value: 558
+Year: 2013 | Value: 525
+Year: 2014 | Value: 468
+Year: 2015 | Value: 428
+Year: 2016 | Value: 411
+Year: 2017 | Value: 389
+Year: 2018 | Value: 386
+Year: 2019 | Value: 388
+Year: 2020 | Value: 380
+Year: 2021 | Value: 446
+Year: 2022 | Value: 368
+Year: 2023 | Value: 358
+Remark: Zimbabwe
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

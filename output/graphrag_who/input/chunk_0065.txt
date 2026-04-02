@@ -1,0 +1,25 @@
+Entity: GEO / WHOSIS_000001
+Year: 2000 | Value: 71.06803049
+Year: 2001 | Value: 71.59125705
+Year: 2002 | Value: 69.8928645
+Year: 2003 | Value: 70.79663901
+Year: 2004 | Value: 70.54094248
+Year: 2005 | Value: 72.04358005
+Year: 2006 | Value: 72.02382849
+Year: 2007 | Value: 72.55257679
+Year: 2008 | Value: 71.71817156
+Year: 2009 | Value: 71.32156688
+Year: 2010 | Value: 71.81805259
+Year: 2011 | Value: 71.94043757
+Year: 2012 | Value: 72.18519482
+Year: 2013 | Value: 72.60327856
+Year: 2014 | Value: 72.72305539
+Year: 2015 | Value: 72.85013916
+Year: 2016 | Value: 72.63239027
+Year: 2017 | Value: 73.50475808
+Year: 2018 | Value: 73.81278834
+Year: 2019 | Value: 73.85275108
+Year: 2020 | Value: 73.10852232
+Year: 2021 | Value: 71.24038597
+Remark: Georgia
+Remark: Life expectancy at birth (years)

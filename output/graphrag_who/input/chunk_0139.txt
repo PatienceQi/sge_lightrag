@@ -1,0 +1,25 @@
+Entity: PRI / WHOSIS_000001
+Year: 2000 | Value: 76.24708096
+Year: 2001 | Value: 76.24165094
+Year: 2002 | Value: 77.12054839
+Year: 2003 | Value: 77.39170794
+Year: 2004 | Value: 77.47011967
+Year: 2005 | Value: 77.60317033
+Year: 2006 | Value: 78.05684106
+Year: 2007 | Value: 78.30688641
+Year: 2008 | Value: 78.51538133
+Year: 2009 | Value: 78.42308292
+Year: 2010 | Value: 79.0570999
+Year: 2011 | Value: 78.60025958
+Year: 2012 | Value: 79.34782827
+Year: 2013 | Value: 79.37939532
+Year: 2014 | Value: 79.89363862
+Year: 2015 | Value: 80.5149692
+Year: 2016 | Value: 80.23535619
+Year: 2017 | Value: 78.42817699
+Year: 2018 | Value: 80.71857467
+Year: 2019 | Value: 80.50288098
+Year: 2020 | Value: 79.93442802
+Year: 2021 | Value: 79.90294803
+Remark: Puerto Rico
+Remark: Life expectancy at birth (years)

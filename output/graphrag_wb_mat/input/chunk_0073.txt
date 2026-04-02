@@ -1,0 +1,42 @@
+Entity: ETH / SH.STA.MMRT
+Year: 1985 | Value: 1329
+Year: 1986 | Value: 1317
+Year: 1987 | Value: 1289
+Year: 1988 | Value: 1306
+Year: 1989 | Value: 1296
+Year: 1990 | Value: 1320
+Year: 1991 | Value: 1239
+Year: 1992 | Value: 1218
+Year: 1993 | Value: 1168
+Year: 1994 | Value: 1113
+Year: 1995 | Value: 1060
+Year: 1996 | Value: 1008
+Year: 1997 | Value: 957
+Year: 1998 | Value: 911
+Year: 1999 | Value: 901
+Year: 2000 | Value: 870
+Year: 2001 | Value: 856
+Year: 2002 | Value: 826
+Year: 2003 | Value: 797
+Year: 2004 | Value: 764
+Year: 2005 | Value: 754
+Year: 2006 | Value: 729
+Year: 2007 | Value: 704
+Year: 2008 | Value: 678
+Year: 2009 | Value: 649
+Year: 2010 | Value: 619
+Year: 2011 | Value: 588
+Year: 2012 | Value: 545
+Year: 2013 | Value: 494
+Year: 2014 | Value: 444
+Year: 2015 | Value: 401
+Year: 2016 | Value: 364
+Year: 2017 | Value: 327
+Year: 2018 | Value: 297
+Year: 2019 | Value: 269
+Year: 2020 | Value: 244
+Year: 2021 | Value: 250
+Year: 2022 | Value: 207
+Year: 2023 | Value: 195
+Remark: Ethiopia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

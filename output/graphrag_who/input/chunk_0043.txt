@@ -1,0 +1,25 @@
+Entity: CUB / WHOSIS_000001
+Year: 2000 | Value: 76.74758667
+Year: 2001 | Value: 76.71378311
+Year: 2002 | Value: 77.74907347
+Year: 2003 | Value: 77.44238196
+Year: 2004 | Value: 77.44558258
+Year: 2005 | Value: 77.20755679
+Year: 2006 | Value: 78.02512407
+Year: 2007 | Value: 78.10025005
+Year: 2008 | Value: 77.87743841
+Year: 2009 | Value: 78.01983317
+Year: 2010 | Value: 77.83366676
+Year: 2011 | Value: 78.52888871
+Year: 2012 | Value: 78.42125643
+Year: 2013 | Value: 78.31147223
+Year: 2014 | Value: 78.1433227
+Year: 2015 | Value: 77.92972815
+Year: 2016 | Value: 78.14353782
+Year: 2017 | Value: 77.65330792
+Year: 2018 | Value: 77.85421876
+Year: 2019 | Value: 77.66173555
+Year: 2020 | Value: 77.63538969
+Year: 2021 | Value: 73.67333077
+Remark: Cuba
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,33 @@
+{
+  "dataset": "who_life_expectancy",
+  "timestamp": "2026-04-02T15:30:57.928669",
+  "conditions": {
+    "n1": {
+      "chunks": 196,
+      "nodes": 192,
+      "edges": 191,
+      "EC": 1.0,
+      "FC": 0.04,
+      "matched_entities": 25,
+      "covered_facts": 6,
+      "total_entities": 25,
+      "total_facts": 150
+    },
+    "n5": {
+      "chunks": 40,
+      "nodes": 185,
+      "edges": 182,
+      "EC": 0.72,
+      "FC": 0.02,
+      "matched_entities": 18,
+      "covered_facts": 3,
+      "total_entities": 25,
+      "total_facts": 150
+    }
+  },
+  "comparison": {
+    "naive_baseline_fc": 0.167,
+    "serial_only_fc": 0.013,
+    "full_sge_fc": 1.0
+  }
+}

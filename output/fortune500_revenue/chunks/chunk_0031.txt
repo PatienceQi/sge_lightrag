@@ -1,0 +1,6 @@
+Entity: HP
+Year: 2015 | Value: 111454.0
+Year: 2016 | Value: 103355.0
+Year: 2017 | Value: 48238.0
+Year: 2018 | Value: 52056.0
+Year: 2019 | Value: 58472.0

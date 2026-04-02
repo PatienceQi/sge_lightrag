@@ -1,0 +1,25 @@
+Entity: ITA / WHOSIS_000001
+Year: 2000 | Value: 79.36611399
+Year: 2001 | Value: 79.67653939
+Year: 2002 | Value: 79.95596277
+Year: 2003 | Value: 79.81728413
+Year: 2004 | Value: 80.52668865
+Year: 2005 | Value: 80.51057716
+Year: 2006 | Value: 81.06442613
+Year: 2007 | Value: 81.17657713
+Year: 2008 | Value: 81.37070791
+Year: 2009 | Value: 81.5215304
+Year: 2010 | Value: 81.89505601
+Year: 2011 | Value: 81.82897949
+Year: 2012 | Value: 81.83712041
+Year: 2013 | Value: 82.2878749
+Year: 2014 | Value: 82.61004631
+Year: 2015 | Value: 82.20433624
+Year: 2016 | Value: 82.86744999
+Year: 2017 | Value: 82.52191209
+Year: 2018 | Value: 82.77664183
+Year: 2019 | Value: 82.98522568
+Year: 2020 | Value: 81.93997914
+Year: 2021 | Value: 82.19747411
+Remark: Italy
+Remark: Life expectancy at birth (years)

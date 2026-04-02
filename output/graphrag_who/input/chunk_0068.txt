@@ -1,0 +1,24 @@
+Entity: GLOBAL / WHOSIS_000001
+Year: 2000 | Value: 66.77085146
+Year: 2001 | Value: 67.09900665
+Year: 2002 | Value: 67.35830321
+Year: 2003 | Value: 67.61658
+Year: 2004 | Value: 67.95251087
+Year: 2005 | Value: 68.38661135
+Year: 2006 | Value: 68.98465081
+Year: 2007 | Value: 69.42465871
+Year: 2008 | Value: 69.70064415
+Year: 2009 | Value: 70.21807678
+Year: 2010 | Value: 70.49808463
+Year: 2011 | Value: 70.93277488
+Year: 2012 | Value: 71.30778194
+Year: 2013 | Value: 71.6601959
+Year: 2014 | Value: 71.94618807
+Year: 2015 | Value: 72.18568947
+Year: 2016 | Value: 72.43889094
+Year: 2017 | Value: 72.67542225
+Year: 2018 | Value: 72.88886288
+Year: 2019 | Value: 73.12337447
+Year: 2020 | Value: 72.45043871
+Year: 2021 | Value: 71.36869906
+Remark: Life expectancy at birth (years)

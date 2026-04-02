@@ -1,0 +1,25 @@
+Entity: SWE / WHOSIS_000001
+Year: 2000 | Value: 79.57418828
+Year: 2001 | Value: 79.66920996
+Year: 2002 | Value: 79.75650347
+Year: 2003 | Value: 80.00643909
+Year: 2004 | Value: 80.35214323
+Year: 2005 | Value: 80.4243719
+Year: 2006 | Value: 80.63113222
+Year: 2007 | Value: 80.77300072
+Year: 2008 | Value: 80.9280163
+Year: 2009 | Value: 81.1481904
+Year: 2010 | Value: 81.30465771
+Year: 2011 | Value: 81.52274171
+Year: 2012 | Value: 81.46624768
+Year: 2013 | Value: 81.64075183
+Year: 2014 | Value: 81.92750078
+Year: 2015 | Value: 81.74239456
+Year: 2016 | Value: 82.00943962
+Year: 2017 | Value: 82.0845963
+Year: 2018 | Value: 82.20163712
+Year: 2019 | Value: 82.71414637
+Year: 2020 | Value: 82.08200836
+Year: 2021 | Value: 82.6649092
+Remark: Sweden
+Remark: Life expectancy at birth (years)

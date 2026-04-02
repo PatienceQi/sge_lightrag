@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-04-02T02:37:31.970106",
+  "description": "Unified cross-system comparison for EMNLP paper revision",
+  "fc_comparison": {
+    "SGE-LightRAG": {
+      "who": 1.0,
+      "wb_cm": 1.0,
+      "wb_pop": 1.0,
+      "wb_mat": 0.967,
+      "inpatient": 0.938
+    },
+    "LightRAG_Baseline": {
+      "who": 0.167,
+      "wb_cm": 0.473,
+      "wb_pop": 0.187,
+      "wb_mat": 0.787,
+      "inpatient": 0.438
+    },
+    "MS_GraphRAG": {
+      "who": 1.0,
+      "wb_cm": 0.967,
+      "wb_pop": 0.6,
+      "wb_mat": 0.753,
+      "inpatient": 0.0
+    },
+    "HippoRAG_v2": {
+      "who": 1.0,
+      "wb_cm": 1.0,
+      "inpatient": 1.0,
+      "note": "dense graph artifact (avg_degree 41-172)"
+    },
+    "nano-GraphRAG": {
+      "who": 0.367,
+      "note": "196/196 chunks complete"
+    },
+    "AutoSchemaKG": {
+      "who": 0.86,
+      "note": "end-to-end schema induction alternative"
+    },
+    "Table-Aware_Prompt_Weak": {
+      "who": 0.173,
+      "note": "simple 7-line hint, no metadata/examples"
+    },
+    "Table-Aware_Prompt_Strong": {
+      "who": 0.253,
+      "note": "full column metadata + sample data + entity types + relationship templates"
+    }
+  },
+  "non_gov_datasets": {
+    "Fortune500_Revenue": {
+      "domain": "finance",
+      "type": "Type-II",
+      "sge_fc": 1.0,
+      "baseline_fc": 0.0,
+      "gold_facts": 125,
+      "source": "github.com/cmusam/fortune500 (2015-2019)"
+    },
+    "THE_University_Ranking": {
+      "domain": "academic",
+      "type": "Type-III",
+      "sge_fc": 0.567,
+      "baseline_fc": 0.2,
+      "gold_facts": 150,
+      "source": "github.com/arnaudbenard/university-ranking (2011-2016)"
+    }
+  },
+  "error_analysis": {
+    "who_schema_only": {
+      "refusal_rate": 0.436,
+      "schema_compliance": 1.0,
+      "relation_extraction_rate": 0.359,
+      "failure_mode": "LLM refuses to act as Knowledge Graph Specialist"
+    },
+    "wb_pop_schema_only": {
+      "entity_explosion": "15782 vs 4548 (3.47x)",
+      "schema_compliance": 0.689,
+      "mean_entities_per_response": 35.63,
+      "failure_mode": "hallucination explosion from format-constraint mismatch"
+    }
+  },
+  "qa_comparison": {
+    "SGE-LightRAG": {
+      "who": "22/24",
+      "overall_100q": "93/100"
+    },
+    "LightRAG_Baseline": {
+      "who": "14/24",
+      "overall_100q": "59/100"
+    },
+    "MS_GraphRAG": {
+      "who": "23/24",
+      "wb_cm": "9/9",
+      "inpatient": "9/9",
+      "overall_88q": "84/88"
+    },
+    "HippoRAG_v2": {
+      "who": "23/24",
+      "wb_cm": "9/9",
+      "inpatient_9q": "1/9",
+      "inpatient_25q": "23/25",
+      "note": "inpatient improved from 11% (9q) to 92% (25q expanded); FC=1.000 is 2-hop metric inflation on dense graph"
+    },
+    "Naive_RAG": {
+      "who": "23/24",
+      "overall_100q": "35/100"
+    }
+  },
+  "multi_indicator_1143_entities_20q": {
+    "note": "Original 20 questions — superseded by 50q evaluation",
+    "sge_ggcr": {"overall": 0.8},
+    "concat_all": {"overall": 0.55},
+    "pure_compact": {"overall": 0.2}
+  },
+  "multi_indicator_1143_entities_50q": {
+    "note": "Expanded 50 questions (25 L3 + 25 L4), more statistically robust",
+    "sge_ggcr": {"L3": "20/25", "L4": "18/25", "overall": 0.76},
+    "concat_all": {"L3": "20/25", "L4": "18/25", "overall": 0.76},
+    "pure_compact": {"L3": "7/25", "L4": "7/25", "overall": 0.28},
+    "finding": "GGCR and Concat-All perform equally at 1143 entities (52K tokens within Haiku 200K window). Pure Compact far behind (28%). GGCR advantage requires scale beyond LLM context window."
+  },
+  "statistical_tests": {
+    "permutation_test": {
+      "WHO": "<0.0001",
+      "WB_CM": "<0.0001",
+      "WB_Pop": "<0.0001",
+      "WB_Mat": "0.013"
+    },
+    "stratified_precision": {
+      "sampled": 250,
+      "correct": 249,
+      "precision": 0.996,
+      "wilson_ci": [
+        0.978,
+        0.999
+      ]
+    }
+  },
+  "factorial_5datasets": {
+    "WHO": {
+      "full": 1.0,
+      "serial": 0.013,
+      "schema": null,
+      "baseline": 0.167
+    },
+    "WB_CM": {
+      "full": 1.0,
+      "serial": null,
+      "schema": 0.0,
+      "baseline": 0.473
+    },
+    "Inpatient": {
+      "full": 0.938,
+      "serial": null,
+      "schema": null,
+      "baseline": 0.438
+    },
+    "WB_Pop": {
+      "full": 1.0,
+      "serial": 0.0,
+      "schema": 0.007,
+      "baseline": 0.187
+    },
+    "WB_Mat": {
+      "full": 0.967,
+      "serial": 0.827,
+      "schema": 0.0,
+      "baseline": 0.787
+    },
+    "note": "Schema-only consistently catastrophic (0.000-0.007); Serial-only unstable"
+  }
+}

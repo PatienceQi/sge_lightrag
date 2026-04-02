@@ -1,0 +1,9 @@
+{
+  "dataset": "wb_mat",
+  "label": "WB Maternal Mortality",
+  "condition": "schema_only",
+  "chunks": 45,
+  "timestamp": "2026-04-02T00:35:36.682655",
+  "nodes": 555,
+  "edges": 261
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-04-02T10:50:58.068304",
+  "dataset": "fortune500",
+  "csv": "/Users/qipatience/Desktop/SGE/dataset/non_gov/fortune500_revenue.csv",
+  "stage2_mode": "llm_enhanced",
+  "sge": {
+    "label": "SGE-fortune500",
+    "chunks": 50,
+    "nodes": 300,
+    "edges": 250
+  },
+  "baseline": {
+    "label": "Baseline-fortune500",
+    "chunks": 50
+  }
+}

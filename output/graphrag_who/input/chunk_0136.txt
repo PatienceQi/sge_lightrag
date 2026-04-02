@@ -1,0 +1,25 @@
+Entity: PHL / WHOSIS_000001
+Year: 2000 | Value: 69.97452897
+Year: 2001 | Value: 69.62976888
+Year: 2002 | Value: 69.42147225
+Year: 2003 | Value: 69.52481782
+Year: 2004 | Value: 69.2903715
+Year: 2005 | Value: 69.36187224
+Year: 2006 | Value: 69.22944541
+Year: 2007 | Value: 69.58190674
+Year: 2008 | Value: 69.54674107
+Year: 2009 | Value: 69.39723001
+Year: 2010 | Value: 69.68865207
+Year: 2011 | Value: 69.78448284
+Year: 2012 | Value: 69.54178119
+Year: 2013 | Value: 69.44796065
+Year: 2014 | Value: 69.80391436
+Year: 2015 | Value: 69.51615532
+Year: 2016 | Value: 69.24553796
+Year: 2017 | Value: 69.6392585
+Year: 2018 | Value: 69.67627942
+Year: 2019 | Value: 69.42943033
+Year: 2020 | Value: 69.6404352
+Year: 2021 | Value: 66.40834182
+Remark: Philippines
+Remark: Life expectancy at birth (years)

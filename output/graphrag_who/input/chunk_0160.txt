@@ -1,0 +1,25 @@
+Entity: SUR / WHOSIS_000001
+Year: 2000 | Value: 70.55904903
+Year: 2001 | Value: 70.47457078
+Year: 2002 | Value: 70.41647923
+Year: 2003 | Value: 70.50252643
+Year: 2004 | Value: 70.80110636
+Year: 2005 | Value: 71.23039924
+Year: 2006 | Value: 71.692617
+Year: 2007 | Value: 72.06527282
+Year: 2008 | Value: 72.20581026
+Year: 2009 | Value: 72.61759185
+Year: 2010 | Value: 72.79506364
+Year: 2011 | Value: 73.11587921
+Year: 2012 | Value: 73.34638856
+Year: 2013 | Value: 73.14787483
+Year: 2014 | Value: 73.05386141
+Year: 2015 | Value: 72.9788443
+Year: 2016 | Value: 73.09259708
+Year: 2017 | Value: 73.2092718
+Year: 2018 | Value: 73.08581977
+Year: 2019 | Value: 73.02285851
+Year: 2020 | Value: 72.80157877
+Year: 2021 | Value: 69.78412349
+Remark: Suriname
+Remark: Life expectancy at birth (years)

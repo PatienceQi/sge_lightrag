@@ -1,0 +1,24 @@
+Entity: SEAR / WHOSIS_000001
+Year: 2000 | Value: 64.06863574
+Year: 2001 | Value: 64.52874216
+Year: 2002 | Value: 64.96527953
+Year: 2003 | Value: 65.44284512
+Year: 2004 | Value: 65.59142283
+Year: 2005 | Value: 66.31183727
+Year: 2006 | Value: 66.65395623
+Year: 2007 | Value: 66.92530001
+Year: 2008 | Value: 67.06696466
+Year: 2009 | Value: 67.80764711
+Year: 2010 | Value: 68.21992604
+Year: 2011 | Value: 68.63474835
+Year: 2012 | Value: 69.06374791
+Year: 2013 | Value: 69.37293715
+Year: 2014 | Value: 69.73314803
+Year: 2015 | Value: 70.14297402
+Year: 2016 | Value: 70.51674285
+Year: 2017 | Value: 70.7727814
+Year: 2018 | Value: 71.0517579
+Year: 2019 | Value: 71.3719063
+Year: 2020 | Value: 70.72011705
+Year: 2021 | Value: 68.36682977
+Remark: Life expectancy at birth (years)

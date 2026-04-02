@@ -1,0 +1,25 @@
+Entity: COG / WHOSIS_000001
+Year: 2000 | Value: 52.21826617
+Year: 2001 | Value: 53.11126203
+Year: 2002 | Value: 53.80580675
+Year: 2003 | Value: 54.50087703
+Year: 2004 | Value: 55.40549068
+Year: 2005 | Value: 56.51057672
+Year: 2006 | Value: 57.53120192
+Year: 2007 | Value: 58.25955292
+Year: 2008 | Value: 59.22236239
+Year: 2009 | Value: 60.08941536
+Year: 2010 | Value: 60.60462815
+Year: 2011 | Value: 61.13100658
+Year: 2012 | Value: 61.21875153
+Year: 2013 | Value: 61.42791356
+Year: 2014 | Value: 61.64003199
+Year: 2015 | Value: 62.05475682
+Year: 2016 | Value: 62.56582962
+Year: 2017 | Value: 62.84312978
+Year: 2018 | Value: 63.05964242
+Year: 2019 | Value: 62.75844008
+Year: 2020 | Value: 63.35937843
+Year: 2021 | Value: 63.17262301
+Remark: Congo
+Remark: Life expectancy at birth (years)

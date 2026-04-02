@@ -1,0 +1,45 @@
+Entity: AZE / SH.DYN.MORT
+Year: 1982 | Value: 109.3
+Year: 1983 | Value: 106.7
+Year: 1984 | Value: 104.1
+Year: 1985 | Value: 101.8
+Year: 1986 | Value: 99.6
+Year: 1987 | Value: 97.7
+Year: 1988 | Value: 96.2
+Year: 1989 | Value: 95.2
+Year: 1990 | Value: 94.8
+Year: 1991 | Value: 95
+Year: 1992 | Value: 95.2
+Year: 1993 | Value: 95.2
+Year: 1994 | Value: 94.7
+Year: 1995 | Value: 93.4
+Year: 1996 | Value: 91
+Year: 1997 | Value: 87.8
+Year: 1998 | Value: 83.7
+Year: 1999 | Value: 79.1
+Year: 2000 | Value: 74
+Year: 2001 | Value: 69
+Year: 2002 | Value: 64.1
+Year: 2003 | Value: 59.6
+Year: 2004 | Value: 55.5
+Year: 2005 | Value: 51.8
+Year: 2006 | Value: 48.5
+Year: 2007 | Value: 45.5
+Year: 2008 | Value: 42.7
+Year: 2009 | Value: 40.1
+Year: 2010 | Value: 37.7
+Year: 2011 | Value: 35.4
+Year: 2012 | Value: 33.2
+Year: 2013 | Value: 31.2
+Year: 2014 | Value: 29.5
+Year: 2015 | Value: 27.8
+Year: 2016 | Value: 26.3
+Year: 2017 | Value: 24.9
+Year: 2018 | Value: 23.6
+Year: 2019 | Value: 22.4
+Year: 2020 | Value: 21.3
+Year: 2021 | Value: 20.4
+Year: 2022 | Value: 19.4
+Year: 2023 | Value: 18.6
+Remark: Azerbaijan
+Remark: Mortality rate, under-5 (per 1,000 live births)

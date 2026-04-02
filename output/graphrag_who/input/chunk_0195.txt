@@ -1,0 +1,25 @@
+Entity: ZMB / WHOSIS_000001
+Year: 2000 | Value: 44.52713939
+Year: 2001 | Value: 44.99215514
+Year: 2002 | Value: 45.80351415
+Year: 2003 | Value: 47.10240747
+Year: 2004 | Value: 48.77289416
+Year: 2005 | Value: 50.2612912
+Year: 2006 | Value: 51.7626963
+Year: 2007 | Value: 53.57698997
+Year: 2008 | Value: 55.35570144
+Year: 2009 | Value: 56.61649649
+Year: 2010 | Value: 57.42656833
+Year: 2011 | Value: 58.02295113
+Year: 2012 | Value: 58.68526361
+Year: 2013 | Value: 59.35535185
+Year: 2014 | Value: 59.98021269
+Year: 2015 | Value: 60.4135173
+Year: 2016 | Value: 60.96146792
+Year: 2017 | Value: 61.28533224
+Year: 2018 | Value: 61.41187871
+Year: 2019 | Value: 61.76313302
+Year: 2020 | Value: 61.83164861
+Year: 2021 | Value: 60.96884286
+Remark: Zambia
+Remark: Life expectancy at birth (years)

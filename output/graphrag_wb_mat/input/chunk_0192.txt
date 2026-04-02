@@ -1,0 +1,42 @@
+Entity: PRE / SH.STA.MMRT
+Year: 1985 | Value: 1150
+Year: 1986 | Value: 1100
+Year: 1987 | Value: 1140
+Year: 1988 | Value: 1060
+Year: 1989 | Value: 1030
+Year: 1990 | Value: 1010
+Year: 1991 | Value: 984
+Year: 1992 | Value: 992
+Year: 1993 | Value: 964
+Year: 1994 | Value: 866
+Year: 1995 | Value: 884
+Year: 1996 | Value: 872
+Year: 1997 | Value: 851
+Year: 1998 | Value: 887
+Year: 1999 | Value: 791
+Year: 2000 | Value: 763
+Year: 2001 | Value: 740
+Year: 2002 | Value: 722
+Year: 2003 | Value: 697
+Year: 2004 | Value: 679
+Year: 2005 | Value: 667
+Year: 2006 | Value: 664
+Year: 2007 | Value: 663
+Year: 2008 | Value: 665
+Year: 2009 | Value: 661
+Year: 2010 | Value: 652
+Year: 2011 | Value: 640
+Year: 2012 | Value: 629
+Year: 2013 | Value: 624
+Year: 2014 | Value: 622
+Year: 2015 | Value: 614
+Year: 2016 | Value: 595
+Year: 2017 | Value: 575
+Year: 2018 | Value: 546
+Year: 2019 | Value: 528
+Year: 2020 | Value: 507
+Year: 2021 | Value: 516
+Year: 2022 | Value: 472
+Year: 2023 | Value: 461
+Remark: Pre-demographic dividend
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,6 @@
+Entity: UnitedHealth Group
+Year: 2015 | Value: 130474.0
+Year: 2016 | Value: 157107.0
+Year: 2017 | Value: 184840.0
+Year: 2018 | Value: 201159.0
+Year: 2019 | Value: 226247.0

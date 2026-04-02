@@ -1,0 +1,3260 @@
+{
+  "timestamp": "2026-04-01T17:28:27.349676",
+  "benchmark": "/Users/qipatience/Desktop/SGE/sge_lightrag/evaluation/gold/ggcr_benchmark.jsonl",
+  "total_questions": 97,
+  "systems": [
+    "sge_ggcr",
+    "pure_compact",
+    "concat_all"
+  ],
+  "summary": {
+    "sge_ggcr": {
+      "by_dataset": {
+        "inpatient": {
+          "L1": {
+            "correct": 9,
+            "total": 10,
+            "accuracy": 0.9
+          },
+          "L2": {
+            "correct": 3,
+            "total": 6,
+            "accuracy": 0.5
+          },
+          "L3": {
+            "correct": 1,
+            "total": 6,
+            "accuracy": 0.1667
+          },
+          "L4": {
+            "correct": 3,
+            "total": 7,
+            "accuracy": 0.4286
+          },
+          "total": {
+            "correct": 16,
+            "total": 29,
+            "accuracy": 0.5517
+          }
+        },
+        "wb_cm": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 4,
+            "total": 8,
+            "accuracy": 0.5
+          },
+          "L4": {
+            "correct": 1,
+            "total": 8,
+            "accuracy": 0.125
+          },
+          "total": {
+            "correct": 22,
+            "total": 34,
+            "accuracy": 0.6471
+          }
+        },
+        "who": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L4": {
+            "correct": 0,
+            "total": 8,
+            "accuracy": 0.0
+          },
+          "total": {
+            "correct": 24,
+            "total": 34,
+            "accuracy": 0.7059
+          }
+        }
+      },
+      "by_level": {
+        "L1": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9667
+        },
+        "L2": {
+          "correct": 17,
+          "total": 22,
+          "accuracy": 0.7727
+        },
+        "L3": {
+          "correct": 12,
+          "total": 22,
+          "accuracy": 0.5455
+        },
+        "L4": {
+          "correct": 4,
+          "total": 23,
+          "accuracy": 0.1739
+        }
+      },
+      "overall": {
+        "correct": 62,
+        "total": 97,
+        "accuracy": 0.6392
+      }
+    },
+    "pure_compact": {
+      "by_dataset": {
+        "inpatient": {
+          "L1": {
+            "correct": 9,
+            "total": 10,
+            "accuracy": 0.9
+          },
+          "L2": {
+            "correct": 4,
+            "total": 6,
+            "accuracy": 0.6667
+          },
+          "L3": {
+            "correct": 6,
+            "total": 6,
+            "accuracy": 1.0
+          },
+          "L4": {
+            "correct": 1,
+            "total": 7,
+            "accuracy": 0.1429
+          },
+          "total": {
+            "correct": 20,
+            "total": 29,
+            "accuracy": 0.6897
+          }
+        },
+        "wb_cm": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 0,
+            "total": 8,
+            "accuracy": 0.0
+          },
+          "L4": {
+            "correct": 0,
+            "total": 8,
+            "accuracy": 0.0
+          },
+          "total": {
+            "correct": 17,
+            "total": 34,
+            "accuracy": 0.5
+          }
+        },
+        "who": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 4,
+            "total": 8,
+            "accuracy": 0.5
+          },
+          "L4": {
+            "correct": 2,
+            "total": 8,
+            "accuracy": 0.25
+          },
+          "total": {
+            "correct": 23,
+            "total": 34,
+            "accuracy": 0.6765
+          }
+        }
+      },
+      "by_level": {
+        "L1": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9667
+        },
+        "L2": {
+          "correct": 18,
+          "total": 22,
+          "accuracy": 0.8182
+        },
+        "L3": {
+          "correct": 10,
+          "total": 22,
+          "accuracy": 0.4545
+        },
+        "L4": {
+          "correct": 3,
+          "total": 23,
+          "accuracy": 0.1304
+        }
+      },
+      "overall": {
+        "correct": 60,
+        "total": 97,
+        "accuracy": 0.6186
+      }
+    },
+    "concat_all": {
+      "by_dataset": {
+        "inpatient": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 4,
+            "total": 6,
+            "accuracy": 0.6667
+          },
+          "L3": {
+            "correct": 2,
+            "total": 6,
+            "accuracy": 0.3333
+          },
+          "L4": {
+            "correct": 2,
+            "total": 7,
+            "accuracy": 0.2857
+          },
+          "total": {
+            "correct": 18,
+            "total": 29,
+            "accuracy": 0.6207
+          }
+        },
+        "wb_cm": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 4,
+            "total": 8,
+            "accuracy": 0.5
+          },
+          "L4": {
+            "correct": 3,
+            "total": 8,
+            "accuracy": 0.375
+          },
+          "total": {
+            "correct": 24,
+            "total": 34,
+            "accuracy": 0.7059
+          }
+        },
+        "who": {
+          "L1": {
+            "correct": 10,
+            "total": 10,
+            "accuracy": 1.0
+          },
+          "L2": {
+            "correct": 7,
+            "total": 8,
+            "accuracy": 0.875
+          },
+          "L3": {
+            "correct": 5,
+            "total": 8,
+            "accuracy": 0.625
+          },
+          "L4": {
+            "correct": 2,
+            "total": 8,
+            "accuracy": 0.25
+          },
+          "total": {
+            "correct": 24,
+            "total": 34,
+            "accuracy": 0.7059
+          }
+        }
+      },
+      "by_level": {
+        "L1": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "L2": {
+          "correct": 18,
+          "total": 22,
+          "accuracy": 0.8182
+        },
+        "L3": {
+          "correct": 11,
+          "total": 22,
+          "accuracy": 0.5
+        },
+        "L4": {
+          "correct": 7,
+          "total": 23,
+          "accuracy": 0.3043
+        }
+      },
+      "overall": {
+        "correct": 66,
+        "total": 97,
+        "accuracy": 0.6804
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "ggcr_who_L1_01",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Germany's life expectancy at birth in 2019?",
+      "reference_answer": "80.97",
+      "answer": "Germany's life expectancy at birth in 2019 was 80.97 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_01",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Germany's life expectancy at birth in 2019?",
+      "reference_answer": "80.97",
+      "answer": "Germany's life expectancy at birth in 2019 was 80.97 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_01",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Germany's life expectancy at birth in 2019?",
+      "reference_answer": "80.97",
+      "answer": "Germany's life expectancy at birth in 2019 was 80.97 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_02",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was India's life expectancy at birth in 2000?",
+      "reference_answer": "63.19",
+      "answer": "63.19 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_02",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was India's life expectancy at birth in 2000?",
+      "reference_answer": "63.19",
+      "answer": "India's life expectancy at birth in 2000 was 63.19 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_02",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was India's life expectancy at birth in 2000?",
+      "reference_answer": "63.19",
+      "answer": "India's life expectancy at birth in 2000 was 63.19 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_03",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Mexico's life expectancy at birth in 2019?",
+      "reference_answer": "75.83",
+      "answer": "Mexico's life expectancy at birth in 2019 was 75.83 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_03",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Mexico's life expectancy at birth in 2019?",
+      "reference_answer": "75.83",
+      "answer": "Mexico's life expectancy at birth in 2019 was 75.83 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_04",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Republic of Korea's life expectancy at birth in 2010?",
+      "reference_answer": "80.53",
+      "answer": "Republic of Korea's life expectancy at birth in 2010 was 80.53 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_04",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Republic of Korea's life expectancy at birth in 2010?",
+      "reference_answer": "80.53",
+      "answer": "80.53 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_03",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Mexico's life expectancy at birth in 2019?",
+      "reference_answer": "75.83",
+      "answer": "Mexico's life expectancy at birth in 2019 was 75.83 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_05",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Australia's life expectancy at birth in 2015?",
+      "reference_answer": "82.28",
+      "answer": "Australia's life expectancy at birth in 2015 was 82.28 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_04",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Republic of Korea's life expectancy at birth in 2010?",
+      "reference_answer": "80.53",
+      "answer": "Republic of Korea (KOR) life expectancy at birth in 2010: 80.53 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_05",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Australia's life expectancy at birth in 2015?",
+      "reference_answer": "82.28",
+      "answer": "Australia's life expectancy at birth in 2015 was 82.28 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_05",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Australia's life expectancy at birth in 2015?",
+      "reference_answer": "82.28",
+      "answer": "Australia's life expectancy at birth in 2015 was 82.28 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_06",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was France's life expectancy at birth in 2021?",
+      "reference_answer": "81.92",
+      "answer": "France's life expectancy at birth in 2021 was 81.92 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_06",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was France's life expectancy at birth in 2021?",
+      "reference_answer": "81.92",
+      "answer": "France's life expectancy at birth in 2021 was 81.92 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_06",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was France's life expectancy at birth in 2021?",
+      "reference_answer": "81.92",
+      "answer": "France's life expectancy at birth in 2021 was 81.92 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_07",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Germany's life expectancy at birth in 2010?",
+      "reference_answer": "80.18",
+      "answer": "Germany's life expectancy at birth in 2010 was 80.18 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_07",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Germany's life expectancy at birth in 2010?",
+      "reference_answer": "80.18",
+      "answer": "Germany's life expectancy at birth in 2010 was 80.18 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_08",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Bangladesh's life expectancy at birth in 2005?",
+      "reference_answer": "67.78",
+      "answer": "Bangladesh's life expectancy at birth in 2005 was 67.78 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_08",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Bangladesh's life expectancy at birth in 2005?",
+      "reference_answer": "67.78",
+      "answer": "Bangladesh's life expectancy at birth in 2005 was 67.78 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_07",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Germany's life expectancy at birth in 2010?",
+      "reference_answer": "80.18",
+      "answer": "Germany's life expectancy at birth in 2010 was 80.18 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_08",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Bangladesh's life expectancy at birth in 2005?",
+      "reference_answer": "67.78",
+      "answer": "Bangladesh's life expectancy at birth in 2005 was 67.78 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_09",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was United Kingdom of Great Britain and Northern Ireland's life expectancy at birth in 2019?",
+      "reference_answer": "81.22",
+      "answer": "81.22 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_09",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was United Kingdom of Great Britain and Northern Ireland's life expectancy at birth in 2019?",
+      "reference_answer": "81.22",
+      "answer": "81.22 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_09",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was United Kingdom of Great Britain and Northern Ireland's life expectancy at birth in 2019?",
+      "reference_answer": "81.22",
+      "answer": "81.22 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_10",
+      "dataset": "who",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Italy's life expectancy at birth in 2000?",
+      "reference_answer": "79.36",
+      "answer": "79.36 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_10",
+      "dataset": "who",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Italy's life expectancy at birth in 2000?",
+      "reference_answer": "79.36",
+      "answer": "Italy's life expectancy at birth in 2000 was 79.36 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L1_10",
+      "dataset": "who",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Italy's life expectancy at birth in 2000?",
+      "reference_answer": "79.36",
+      "answer": "Italy's life expectancy at birth in 2000 was 79.36 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_01",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did India's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It increased from 63.19 (2000) → 65.53 (2005) → 67.48 (2010) → 69.37 (2015) → 70.72 (2019) but then declined to 67.30 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_01",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did India's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 63.19 (2000) → 65.53 (2005) → 67.48 (2010) → 69.37 (2015) → 70.72 (2019) but fell to 67.30 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_02",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "Yes. China's life expectancy rose at each reported year: 2000=70.83 → 2005=72.44 → 2010=74.65 → 2015=76.51 → 2019=77.31 → 2021=77.61.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_01",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did India's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. India rose from 63.19 (2000) → 65.53 (2005) → 67.48 (2010) → 69.37 (2015) → 70.72 (2019) but fell to 67.30 in 2021, so it did not consistently increase.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_02",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The recorded values rise at every reported year: 70.83 (2000) → 72.44 (2005) → 74.65 (2010) → 76.51 (2015) → 77.31 (2019) → 77.61 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_03",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did United States of America's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 76.65 in 2000 to 78.73 in 2019 (with intermediate increases), then fell to 76.37 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_02",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did China's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "Yes. China’s life expectancy rose at each recorded year: 70.83 (2000) → 72.44 (2005) → 74.65 (2010) → 76.51 (2015) → 77.31 (2019) → 77.61 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_04",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Japan's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "No. It rose from 81.53 (2000) to 84.46 (2019), but remained unchanged at 84.46 in 2021 (no increase from 2019 to 2021).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L2_03",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did United States of America's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. USA life expectancy rose from 76.65 (2000) to 78.73 (2019) and then fell to 76.37 (2021), so it did not consistently decrease.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_04",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Japan's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "No. It rose from 81.53 (2000) → 82.23 (2005) → 83.08 (2010) → 83.99 (2015) → 84.46 (2019) but was unchanged at 84.46 in 2021.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L2_03",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did United States of America's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. USA life expectancy rose from 76.65 (2000) → 77.38 (2005) → 78.60 (2010) → 78.61 (2015) → 78.73 (2019) then fell to 76.37 (2021), so it did not consistently decrease.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_05",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Brazil's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It increased from 71.49 (2000) → 73.14 (2005) → 73.92 (2010) → 74.71 (2015) → 75.47 (2019) but fell to 72.38 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_04",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Japan's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "Yes",
+      "answer": "No. Japan rose from 81.53 (2000) → 82.23 → 83.08 → 83.99 → 84.46 (2019) but was unchanged at 84.46 in 2021, so it did not increase in the last interval.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L2_05",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Brazil's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 71.49 (2000) → 75.47 (2019) but fell to 72.38 in 2021 (a 3.09-year decrease from 2019).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_05",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Brazil's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 71.49 (2000) to 75.47 (2019) but fell to 72.38 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_06",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Indonesia's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Indonesia's life expectancy rose from 67.20 (2000) → 68.23 (2005) → 69.23 (2010) → 70.53 (2015) → 71.40 (2019) and then fell to 68.26 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_06",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Indonesia's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Indonesia's life expectancy rose from 67.20 (2000) → 68.23 (2005) → 69.23 (2010) → 70.53 (2015) → 71.40 (2019) and then fell to 68.26 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_06",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Indonesia's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 67.20 (2000) → 68.23 (2005) → 69.23 (2010) → 70.53 (2015) → 71.40 (2019) then fell to 68.26 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_07",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Bangladesh's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Bangladesh's life expectancy rose from 65.36 (2000) → 67.78 (2005) → 70.06 (2010) → 73.19 (2015) → 73.94 (2019), then fell slightly to 73.10 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_07",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Bangladesh's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Bangladesh's life expectancy rose from 65.36 (2000) → 67.78 (2005) → 70.06 (2010) → 73.19 (2015) → 73.94 (2019), then fell slightly to 73.10 (2021). It did not consistently decrease.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_08",
+      "dataset": "who",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Argentina's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 74.28 (2000) → 75.25 (2005) → 75.76 (2010) → 76.53 (2015) → 77.01 (2019) then declined to 74.56 in 2021.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_07",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Bangladesh's life expectancy at birth consistently decrease from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Bangladesh's life expectancy rose from 65.36 (2000) → 67.78 (2005) → 70.06 (2010) → 73.19 (2015) → 73.94 (2019) and then fell to 73.10 (2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_08",
+      "dataset": "who",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Argentina's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. It rose from 74.28 (2000) to 77.01 (2019) but fell to 74.56 in 2021 (a decrease from 2019 to 2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L2_08",
+      "dataset": "who",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Argentina's life expectancy at birth consistently increase from 2000 to 2021?",
+      "reference_answer": "No",
+      "answer": "No. Argentina's life expectancy rose from 74.28 (2000) to 77.01 (2019) but fell to 74.56 in 2021 (decline from 2019 to 2021).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_01",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Japan — 82.23\n2. Australia — 80.84\n3. Italy — 80.51",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_01",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Japan — 82.23\n2. Australia — 80.84\n3. Italy — 80.51",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_01",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Australia (AUS) — 80.84\n2. France (FRA) — 80.00\n3. United States of America (USA) — 77.38",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_02",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain",
+      "answer": "1. Australia (82.28)\n2. France (81.90)\n3. United States of America (78.61)",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_03",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, France",
+      "answer": "1. Japan — 83.08\n2. Australia — 81.91\n3. Italy — 81.89\n4. Spain — 81.69\n5. France — 81.22",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_02",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain",
+      "answer": "1. Japan — 83.99\n2. Republic of Korea — 82.40\n3. Spain — 82.32",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_03",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, France",
+      "answer": "1. Australia — 81.91\n2. Italy — 81.89\n3. France — 81.22\n4. United States of America — 78.60\n5. China — 74.65",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_03",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, France",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_04",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Australia — 81.91\n2. France — 81.22\n3. United States of America — 78.60",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_04",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Japan — 83.08\n2. Australia — 81.91\n3. Italy — 81.89",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_04",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_02",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain",
+      "answer": "1. Japan (83.99)\n2. Republic of Korea (82.40)\n3. Spain (82.32)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_05",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2021? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Australia, Spain, Italy",
+      "answer": "1. Australia\n2. France\n3. China\n4. United States of America\n5. Russian Federation",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_05",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2021? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Australia, Spain, Italy",
+      "answer": "1. Japan (84.46)\n2. Republic of Korea (83.79)\n3. Australia (83.10)\n4. Spain (82.66)\n5. Italy (82.19)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_06",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, Canada",
+      "answer": "1. Australia — 79.69  \n2. Canada — 79.08  \n3. France — 78.91  \n4. United States of America — 76.65  \n5. China — 70.83",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_05",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2021? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Australia, Spain, Italy",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_06",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, Canada",
+      "answer": "1. Japan\n2. Australia\n3. Italy\n4. Spain\n5. Canada",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_06",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy, Spain, Canada",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_08",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Japan (81.53)\n2. Australia (79.69)\n3. Italy (79.36)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_07",
+      "dataset": "who",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain, Australia, Italy",
+      "answer": "1. Japan (83.99)\n2. Republic of Korea (82.40)\n3. Spain (82.32)\n4. Australia (82.28)\n5. Italy (82.20)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_07",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain, Australia, Italy",
+      "answer": "1. Australia — 82.28\n2. Italy — 82.20\n3. France — 81.90\n4. United States of America — 78.61\n5. Russian Federation — 71.29",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_08",
+      "dataset": "who",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Australia (79.69)\n2. France (78.91)\n3. United States of America (76.65)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L3_08",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Australia, Italy",
+      "answer": "1. Japan — 81.53\n2. Australia — 79.69\n3. Italy — 79.36",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_01",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "How many countries had life expectancy at birth above 73.0 (years) in 2000?",
+      "reference_answer": "13",
+      "answer": "4 (United States of America, Australia, France, Republic of Korea).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L3_07",
+      "dataset": "who",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Republic of Korea, Spain, Australia, Italy",
+      "answer": "1. Japan\n2. Republic of Korea\n3. Spain\n4. Australia\n5. Italy",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_01",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "How many countries had life expectancy at birth above 73.0 (years) in 2000?",
+      "reference_answer": "13",
+      "answer": "13",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_01",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "How many countries had life expectancy at birth above 73.0 (years) in 2000?",
+      "reference_answer": "13",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_02",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "How many countries had life expectancy at birth above 77.0 (years) in 2015?",
+      "reference_answer": "10",
+      "answer": "3 countries (Australia, United States of America, France).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_02",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "How many countries had life expectancy at birth above 77.0 (years) in 2015?",
+      "reference_answer": "10",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_02",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "How many countries had life expectancy at birth above 77.0 (years) in 2015?",
+      "reference_answer": "10",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_03",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2000?",
+      "reference_answer": "71.78",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_03",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2000?",
+      "reference_answer": "71.78",
+      "answer": "Insufficient data to compute an average for 25 countries — the dataset contains only 5 countries. \nAverage for the 5 provided in 2000 = (76.65+79.69+79.08+81.53+78.91)/5 = 79.17 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_04",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2010?",
+      "reference_answer": "74.52",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_03",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2000?",
+      "reference_answer": "71.78",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_04",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2010?",
+      "reference_answer": "74.52",
+      "answer": "Insufficient data: only 5 countries are provided, so I cannot compute the average across all 25. For the 5 provided countries, the 2010 average = (78.60+81.91+81.22+83.08+68.82)/5 = 78.726 years.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_04",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average life expectancy at birth across all 25 countries in 2010?",
+      "reference_answer": "74.52",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_05",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in life expectancy at birth from 2000 to 2021?",
+      "reference_answer": "Nigeria",
+      "answer": "China — increase of 6.78 years (70.83 → 77.61).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_05",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in life expectancy at birth from 2000 to 2021?",
+      "reference_answer": "Nigeria",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_05",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in life expectancy at birth from 2000 to 2021?",
+      "reference_answer": "Nigeria",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_07",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2010?",
+      "reference_answer": "25.99",
+      "answer": "7.26 years (highest 81.91 in Australia minus lowest 74.65 in China).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_06",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in life expectancy at birth from 2005 to 2019?",
+      "reference_answer": "South Africa",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_06",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in life expectancy at birth from 2005 to 2019?",
+      "reference_answer": "South Africa",
+      "answer": "China — increase of 4.87 years (72.44 in 2005 to 77.31 in 2019).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_07",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2010?",
+      "reference_answer": "25.99",
+      "answer": "25.99 years",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_07",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2010?",
+      "reference_answer": "25.99",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_08",
+      "dataset": "who",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2019?",
+      "reference_answer": "21.4",
+      "answer": "9.43 years.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_L4_08",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2019?",
+      "reference_answer": "21.4",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L1_01",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Indonesia's under-5 mortality rate in 2005?",
+      "reference_answer": "41.4",
+      "answer": "Indonesia's under-5 mortality rate in 2005 was 41.4 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_08",
+      "dataset": "who",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the range (highest minus lowest) of life expectancy at birth across all countries in 2019?",
+      "reference_answer": "21.4",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L1_01",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Indonesia's under-5 mortality rate in 2005?",
+      "reference_answer": "41.4",
+      "answer": "Indonesia's under-5 mortality rate in 2005 was 41.4 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_01",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Indonesia's under-5 mortality rate in 2005?",
+      "reference_answer": "41.4",
+      "answer": "Indonesia's under-5 mortality rate in 2005 was 41.4 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_L4_06",
+      "dataset": "who",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in life expectancy at birth from 2005 to 2019?",
+      "reference_answer": "South Africa",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L1_02",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Australia's under-5 mortality rate in 2022?",
+      "reference_answer": "3.7",
+      "answer": "Australia's under-5 mortality rate in 2022 was 3.7 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_02",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Australia's under-5 mortality rate in 2022?",
+      "reference_answer": "3.7",
+      "answer": "Australia's under-5 mortality rate in 2022 was 3.7 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_02",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Australia's under-5 mortality rate in 2022?",
+      "reference_answer": "3.7",
+      "answer": "Australia's under-5 mortality rate in 2022 was 3.7 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_03",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Russian Federation's under-5 mortality rate in 2015?",
+      "reference_answer": "8.2",
+      "answer": "Russian Federation's under-5 mortality rate in 2015 was 8.2 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_03",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Russian Federation's under-5 mortality rate in 2015?",
+      "reference_answer": "8.2",
+      "answer": "Russian Federation (RUS) under-5 mortality rate in 2015: 8.2 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_04",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Turkiye's under-5 mortality rate in 2022?",
+      "reference_answer": "9.6",
+      "answer": "Turkiye's under-5 mortality rate in 2022 was 9.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_04",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Turkiye's under-5 mortality rate in 2022?",
+      "reference_answer": "9.6",
+      "answer": "Turkiye's under-5 mortality rate in 2022 was 9.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_03",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Russian Federation's under-5 mortality rate in 2015?",
+      "reference_answer": "8.2",
+      "answer": "Russian Federation (2015): 8.2 deaths per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_04",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Turkiye's under-5 mortality rate in 2022?",
+      "reference_answer": "9.6",
+      "answer": "Turkiye's under-5 mortality rate in 2022 was 9.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_05",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was China's under-5 mortality rate in 2005?",
+      "reference_answer": "24.0",
+      "answer": "China's under-5 mortality rate in 2005 was 24.0 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_05",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was China's under-5 mortality rate in 2005?",
+      "reference_answer": "24.0",
+      "answer": "China's under-5 mortality rate in 2005 was 24.0 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_06",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Mexico's under-5 mortality rate in 2000?",
+      "reference_answer": "28.1",
+      "answer": "Mexico's under-5 mortality rate in 2000 was 28.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_05",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was China's under-5 mortality rate in 2005?",
+      "reference_answer": "24.0",
+      "answer": "China's under-5 mortality rate in 2005 was 24.0 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_07",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Brazil's under-5 mortality rate in 2010?",
+      "reference_answer": "18.6",
+      "answer": "Brazil's under-5 mortality rate in 2010 was 18.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_06",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Mexico's under-5 mortality rate in 2000?",
+      "reference_answer": "28.1",
+      "answer": "Mexico's under-5 mortality rate in 2000 was 28.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_06",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Mexico's under-5 mortality rate in 2000?",
+      "reference_answer": "28.1",
+      "answer": "Mexico's under-5 mortality rate in 2000 was 28.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_07",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Brazil's under-5 mortality rate in 2010?",
+      "reference_answer": "18.6",
+      "answer": "Brazil's under-5 mortality rate in 2010 was 18.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_07",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Brazil's under-5 mortality rate in 2010?",
+      "reference_answer": "18.6",
+      "answer": "Brazil's under-5 mortality rate in 2010 was 18.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_08",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was United States's under-5 mortality rate in 2015?",
+      "reference_answer": "6.8",
+      "answer": "United States (2015): 6.8 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_08",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was United States's under-5 mortality rate in 2015?",
+      "reference_answer": "6.8",
+      "answer": "6.8 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_09",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was India's under-5 mortality rate in 2015?",
+      "reference_answer": "43.6",
+      "answer": "India's under-5 mortality rate in 2015 was 43.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_08",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was United States's under-5 mortality rate in 2015?",
+      "reference_answer": "6.8",
+      "answer": "United States under-5 mortality rate in 2015: 6.8 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_09",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was India's under-5 mortality rate in 2015?",
+      "reference_answer": "43.6",
+      "answer": "India's under-5 mortality rate in 2015 was 43.6 deaths per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_10",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "What was Korea, Rep.'s under-5 mortality rate in 2010?",
+      "reference_answer": "4.1",
+      "answer": "Korea, Rep.'s under-5 mortality rate in 2010 was 4.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_09",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was India's under-5 mortality rate in 2015?",
+      "reference_answer": "43.6",
+      "answer": "India's under-5 mortality rate in 2015 was 43.6 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_10",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "What was Korea, Rep.'s under-5 mortality rate in 2010?",
+      "reference_answer": "4.1",
+      "answer": "Korea, Rep.'s under-5 mortality rate in 2010 was 4.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_10",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "What was Korea, Rep.'s under-5 mortality rate in 2010?",
+      "reference_answer": "4.1",
+      "answer": "Korea, Rep.'s under-5 mortality rate in 2010 was 4.1 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_01",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Pakistan's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes — it decreased at every listed point: 2000 108.1 → 2005 96.5 → 2010 87.1 → 2015 75.6 → 2020 64.6 → 2022 60.5.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_01",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Pakistan's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. Pakistan's under-5 mortality fell at every listed point: 108.1 (2000) → 96.5 (2005) → 87.1 (2010) → 75.6 (2015) → 64.6 (2020) → 60.5 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_01",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Pakistan's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. It fell at every recorded point: 108.1 (2000) → 96.5 (2005) → 87.1 (2010) → 75.6 (2015) → 64.6 (2020) → 60.5 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_02",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Germany's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "No. It fell from 5.4 (2000) to 3.7 (2020) but was unchanged at 3.7 in 2022, so the decline was not strictly consistent across every period.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L2_02",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Germany's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "No. It fell each period from 5.4 (2000) → 4.7 → 4.2 → 3.9 → 3.7 (2020) but then stayed at 3.7 in 2022 (no further decrease).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L2_02",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Germany's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "No. Germany's rate fell from 5.4 (2000) → 4.7 → 4.2 → 3.9 → 3.7 (2020) but remained 3.7 in 2022, so it did not decline between 2020 and 2022.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L2_03",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Turkiye's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes — Turkiye's rate fell at every recorded point: 37.4 (2000) → 25.7 (2005) → 17.9 (2010) → 13.3 (2015) → 10.5 (2020) → 9.6 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_03",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Turkiye's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. It fell at every reported point: 2000 37.4 → 2005 25.7 → 2010 17.9 → 2015 13.3 → 2020 10.5 → 2022 9.6.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_03",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Turkiye's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The series is monotonic decreasing: 2000=37.4 → 2005=25.7 → 2010=17.9 → 2015=13.3 → 2020=10.5 → 2022=9.6.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_04",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Bangladesh's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The series falls at every recorded point: 85.4 → 63.2 → 48.9 → 38.8 → 31.5 → 30.7 (per 1,000), so it consistently decreased from 2000 to 2022.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_04",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Bangladesh's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes — it fell at every reported point: 85.4 (2000) → 63.2 (2005) → 48.9 (2010) → 38.8 (2015) → 31.5 (2020) → 30.7 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_04",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Bangladesh's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. Bangladesh's under-5 mortality fell at every recorded point: 85.4 (2000) → 63.2 (2005) → 48.9 (2010) → 38.8 (2015) → 31.5 (2020) → 30.7 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_05",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Australia's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The rate fell at every listed point: 2000 6.2 → 2005 5.7 → 2010 4.8 → 2015 3.9 → 2020 3.8 → 2022 3.7.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_05",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Australia's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes — it fell at every reported point: 6.2 (2000) → 5.7 (2005) → 4.8 (2010) → 3.9 (2015) → 3.8 (2020) → 3.7 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_05",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Australia's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. It fell at every reported step: 2000 6.2 → 2005 5.7 → 2010 4.8 → 2015 3.9 → 2020 3.8 → 2022 3.7.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_06",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Egypt, Arab Rep.'s under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes — it decreased at every recorded point: 46.6 (2000) → 35.7 (2005) → 28.6 (2010) → 23.3 (2015) → 19.4 (2020) → 18.1 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_06",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Egypt, Arab Rep.'s under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The rate falls at every listed point: 46.6 → 35.7 → 28.6 → 23.3 → 19.4 → 18.1 (per 1,000 live births).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_06",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Egypt, Arab Rep.'s under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. It decreased at every reported interval: 46.6 (2000) → 35.7 (2005) → 28.6 (2010) → 23.3 (2015) → 19.4 (2020) → 18.1 (2022).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_07",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did France's under-5 mortality rate consistently increase from 2000 to 2022?",
+      "reference_answer": "No",
+      "answer": "No. France's under-5 mortality fell from 5.4 (2000) → 4.6 (2005) → 4.2 (2010–2020) and then rose slightly to 4.3 (2022), so it did not consistently increase.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_08",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did Thailand's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. Thailand's under-5 mortality fell at every recorded point: 2000=21.8 → 2005=17.3 → 2010=14.2 → 2015=11.9 → 2020=10.1 → 2022=9.5 (each value lower than the previous).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_07",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "Did France's under-5 mortality rate consistently increase from 2000 to 2022?",
+      "reference_answer": "No",
+      "answer": "No. France's under‑5 mortality fell from 5.4 (2000) → 4.6 (2005) → 4.2 (2010–2020) and then rose slightly to 4.3 (2022), so it did not consistently increase.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_08",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did Thailand's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. It fell at every reported point: 2000 21.8 → 2005 17.3 → 2010 14.2 → 2015 11.9 → 2020 10.1 → 2022 9.5.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_08",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "Did Thailand's under-5 mortality rate consistently decrease from 2000 to 2022?",
+      "reference_answer": "Yes",
+      "answer": "Yes. The reported values fall at every recorded timepoint: 2000=21.8 → 2005=17.3 → 2010=14.2 → 2015=11.9 → 2020=10.1 → 2022=9.5 (per 1,000 live births).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_07",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "Did France's under-5 mortality rate consistently increase from 2000 to 2022?",
+      "reference_answer": "No",
+      "answer": "No. France fell from 5.4 (2000) → 4.6 (2005) → 4.2 (2010), stayed about flat at 4.2 (2015, 2020), then rose slightly to 4.3 (2022). It did not consistently increase.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_01",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2000? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "1. Nigeria — 182.3\n2. Pakistan — 108.1\n3. India — 91.6\n4. Bangladesh — 85.4\n5. South Africa — 71.1",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_02",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "1. Brazil\n2. China\n3. United States",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_01",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2000? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "1. China — 36.7\n2. United States — 8.4\n3. Australia — 6.2\n4. Canada — 6.2\n5. France — 5.4",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_02",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "1. Nigeria — 126.4\n2. Pakistan — 75.6\n3. India — 43.6",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_02",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "Nigeria; Pakistan; India",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_01",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2000? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "1. Nigeria — 182.3\n2. Pakistan — 108.1\n3. India — 91.6\n4. Bangladesh — 85.4\n5. South Africa — 71.1",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_03",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "1. BRA — Brazil (18.6)\n2. CHN — China (15.8)\n3. USA — United States (7.3)",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_03",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "1. Nigeria — 135.1\n2. Pakistan — 87.1\n3. India — 58.2",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_04",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "1. Nigeria — 126.4\n2. Pakistan — 75.6\n3. India — 43.6\n4. Bangladesh — 38.8\n5. South Africa — 38.2",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_04",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "1. China — 10.7\n2. United States — 6.8\n3. France — 4.2\n4. Australia — 3.9\n5. Italy — 3.5",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_03",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India",
+      "answer": "1. Nigeria (NGA) — 135.1\n2. Pakistan (PAK) — 87.1\n3. India (IND) — 58.2",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_05",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, South Africa, Bangladesh",
+      "answer": "1. China\n2. United States\n3. Australia\n4. France\n5. Italy",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_05",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, South Africa, Bangladesh",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_04",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2015? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, Bangladesh, South Africa",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_06",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2022? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa, Bangladesh, India",
+      "answer": "1. Nigeria — 108.1\n2. Pakistan — 60.5\n3. South Africa — 34.4\n4. Bangladesh — 30.7\n5. India — 29.1",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_05",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2010? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, India, South Africa, Bangladesh",
+      "answer": "1. Nigeria — 135.1\n2. Pakistan — 87.1\n3. India — 58.2\n4. South Africa — 50.0\n5. Bangladesh — 48.9",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_06",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2022? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa, Bangladesh, India",
+      "answer": "1. Brazil (14.6)\n2. China (6.6)\n3. United States (6.5)\n4. France (4.3)\n5. Australia (3.7)",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_06",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 5 countries had the highest under-5 mortality rate in 2022? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa, Bangladesh, India",
+      "answer": "1. Nigeria — 108.1\n2. Pakistan — 60.5\n3. South Africa — 34.4\n4. Bangladesh — 30.7\n5. India — 29.1",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_07",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2005? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Brazil (24.6)\n2. China (24.0)\n3. United States (8.0)",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_07",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2005? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Nigeria (NGA) — 154.5\n2. Pakistan (PAK) — 96.5\n3. South Africa (ZAF) — 80.3",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_08",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2020? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Nigeria (NGA)  \n2. Pakistan (PAK)  \n3. South Africa (ZAF)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_08",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2020? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Brazil\n2. China\n3. United States",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_07",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2005? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Nigeria (NGA) — 154.5\n2. Pakistan (PAK) — 96.5\n3. South Africa (ZAF) — 80.3",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_08",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Which 3 countries had the highest under-5 mortality rate in 2020? List them in order.",
+      "reference_answer": "Nigeria, Pakistan, South Africa",
+      "answer": "1. Nigeria — 114.4 per 1,000 live births\n2. Pakistan — 64.6 per 1,000 live births\n3. South Africa — 34.1 per 1,000 live births",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_01",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "How many countries had under-5 mortality rate above 17.0 (per 1,000 live births) in 2005?",
+      "reference_answer": "12",
+      "answer": "3",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_01",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "How many countries had under-5 mortality rate above 17.0 (per 1,000 live births) in 2005?",
+      "reference_answer": "12",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_02",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "How many countries had under-5 mortality rate above 14.0 (per 1,000 live births) in 2010?",
+      "reference_answer": "13",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_02",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "How many countries had under-5 mortality rate above 14.0 (per 1,000 live births) in 2010?",
+      "reference_answer": "13",
+      "answer": "2 countries — Brazil and India.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_01",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "How many countries had under-5 mortality rate above 17.0 (per 1,000 live births) in 2005?",
+      "reference_answer": "12",
+      "answer": "12",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_03",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2022?",
+      "reference_answer": "16.61",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_02",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "How many countries had under-5 mortality rate above 14.0 (per 1,000 live births) in 2010?",
+      "reference_answer": "13",
+      "answer": "13",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_03",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2022?",
+      "reference_answer": "16.61",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_03",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2022?",
+      "reference_answer": "16.61",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_04",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2000?",
+      "reference_answer": "36.7",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_04",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2000?",
+      "reference_answer": "36.7",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_04",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average under-5 mortality rate across all 25 countries in 2000?",
+      "reference_answer": "36.7",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_05",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2000 to 2022?",
+      "reference_answer": "Canada",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_05",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2000 to 2022?",
+      "reference_answer": "Canada",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_05",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2000 to 2022?",
+      "reference_answer": "Canada",
+      "answer": "None — every country’s under-5 mortality fell from 2000 to 2022. The largest change was a decrease in India: 29.1 − 91.6 = −62.5 per 1,000 live births.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_06",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2005 to 2020?",
+      "reference_answer": "France",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_07",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2020?",
+      "reference_answer": "112.0",
+      "answer": "28.6 per 1,000 live births (32.4 − 3.8 = 28.6).",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_07",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2020?",
+      "reference_answer": "112.0",
+      "answer": "112.0 per 1,000 live births (114.4 for Nigeria − 2.4 for Japan).",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_06",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2005 to 2020?",
+      "reference_answer": "France",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_07",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2020?",
+      "reference_answer": "112.0",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_08",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2005?",
+      "reference_answer": "150.8",
+      "answer": "68.7 per 1,000 live births.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_06",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in under-5 mortality rate from 2005 to 2020?",
+      "reference_answer": "France",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_08",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2005?",
+      "reference_answer": "150.8",
+      "answer": "150.8 per 1,000 live births.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_08",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the range (highest minus lowest) of under-5 mortality rate across all countries in 2005?",
+      "reference_answer": "150.8",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L1_01",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "乳房恶性肿瘤的在医院登记死亡人数是多少？",
+      "reference_answer": "834",
+      "answer": "数据中未包含“乳房恶性肿瘤”的在医院登记死亡人数，无法回答。",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L1_01",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "乳房恶性肿瘤的在医院登记死亡人数是多少？",
+      "reference_answer": "834",
+      "answer": "在医院登记死亡人数为 834 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_01",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "乳房恶性肿瘤的在医院登记死亡人数是多少？",
+      "reference_answer": "834",
+      "answer": "数据中未包含“乳房恶性肿瘤”的在医院登记死亡人数，无法回答。",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L1_02",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "肺炎的在医院登记死亡人数是多少？",
+      "reference_answer": "11334",
+      "answer": "肺炎的在医院登记死亡人数是 11334 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_02",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "肺炎的在医院登记死亡人数是多少？",
+      "reference_answer": "11334",
+      "answer": "肺炎的在医院登记死亡人数是 11334 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_02",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "肺炎的在医院登记死亡人数是多少？",
+      "reference_answer": "11334",
+      "answer": "肺炎的在医院登记死亡人数是 11334 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_03",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "28794",
+      "answer": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次是 28,794 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_03",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "28794",
+      "answer": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次是 28,794 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_04",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "乳房恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "52626",
+      "answer": "52626 人次",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_04",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "乳房恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "52626",
+      "answer": "52626 人次",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_04",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "乳房恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "52626",
+      "answer": "乳房恶性肿瘤的住院病人出院及死亡总人次为 52,626 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_03",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "28794",
+      "answer": "白内障和晶状体的其他疾患的住院病人出院及死亡总人次为 28794 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_05",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "肾衰竭的医院管理局辖下医院住院人次是多少？",
+      "reference_answer": "190562",
+      "answer": "肾衰竭的医院管理局辖下医院住院人次为 190,562 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_05",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "肾衰竭的医院管理局辖下医院住院人次是多少？",
+      "reference_answer": "190562",
+      "answer": "肾衰竭的医院管理局辖下医院住院人次是190562人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_06",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "其他缺血性心脏病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "26785",
+      "answer": "其他缺血性心脏病的住院病人出院及死亡总人次为 26785 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_05",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "肾衰竭的医院管理局辖下医院住院人次是多少？",
+      "reference_answer": "190562",
+      "answer": "医院管理局辖下医院住院人次为 190562 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_06",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "其他缺血性心脏病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "26785",
+      "answer": "其他缺血性心脏病的住院病人出院及死亡总人次为 26785 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_07",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "38655",
+      "answer": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次为 38655 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_06",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "其他缺血性心脏病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "26785",
+      "answer": "其他缺血性心脏病的住院病人出院及死亡总人次为 26785 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_08",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "肾衰竭的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "196617",
+      "answer": "肾衰竭的住院病人出院及死亡总人次为 196,617 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_07",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "38655",
+      "answer": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次为 38655 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_07",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "气管、支气管和肺恶性肿瘤的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "38655",
+      "answer": "38655 人次",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_08",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "肾衰竭的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "196617",
+      "answer": "肾衰竭的住院病人出院及死亡总人次是 196,617 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_09",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "肾衰竭的在医院登记死亡人数是多少？",
+      "reference_answer": "1605",
+      "answer": "肾衰竭的在医院登记死亡人数是 1605 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_08",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "肾衰竭的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "196617",
+      "answer": "肾衰竭的住院病人出院及死亡总人次为 196,617 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_09",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "肾衰竭的在医院登记死亡人数是多少？",
+      "reference_answer": "1605",
+      "answer": "肾衰竭的在医院登记死亡人数为 1605 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_09",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "肾衰竭的在医院登记死亡人数是多少？",
+      "reference_answer": "1605",
+      "answer": "肾衰竭的在医院登记死亡人数为 1605 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_10",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "concat_all",
+      "question": "呼吸道结核病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "2139",
+      "answer": "呼吸道结核病的住院病人出院及死亡总人次为 2139 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_10",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "sge_ggcr",
+      "question": "呼吸道结核病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "2139",
+      "answer": "呼吸道结核病的住院病人出院及死亡总人次是 2139 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_10",
+      "dataset": "inpatient",
+      "level": "L1",
+      "system": "pure_compact",
+      "question": "呼吸道结核病的住院病人出院及死亡总人次是多少？",
+      "reference_answer": "2139",
+      "answer": "呼吸道结核病的住院病人出院及死亡总人次为 2139 人次。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_01",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "肺炎的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "是",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L2_01",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "肺炎的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "是",
+      "answer": "是的。登记死亡人数11334占住院总人次60614的约18.7%，超过10%（10%为6061.4）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_01",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "肺炎的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "是",
+      "answer": "是的。登记死亡人数为11334，住院总人次为60614，11334/60614 ≈ 18.7%，超过10%（10% = 6061.4）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_02",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "肾衰竭的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "数据中未包含“肾衰竭”的任何条目，既没有“住院病人出院及死亡总人次”，也没有“在医院登记死亡人数”。因此无法判断登记死亡人数是否超过住院总人次的10%。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_02",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "肾衰竭的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "数据中没有关于“肾衰竭”的任何条目，既无住院病人出院及死亡总人次，也无在医院登记死亡人数，无法判断是否超过10%。 若要判断需提供肾衰竭的住院总人次和登记死亡人数。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_02",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "肾衰竭的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。肾衰竭住院总人次为196,617，10%为19,661.7；登记死亡人数为1,605，约占总人次的0.82%，远低于10%。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_03",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "呼吸道结核病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。登记死亡人数为143人，占2139人的约6.7%，低于10%。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_03",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "呼吸道结核病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。登记死亡143人，占总人次2139的约6.68%，低于10%（10%为213.9人）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_03",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "呼吸道结核病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L2_04",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "其他缺血性心脏病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L2_04",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "其他缺血性心脏病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。登记死亡2648人，占26785人的约2648/26785≈9.88%，低于10%。要超过10%需≥2679人，当前少31人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_05",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "乳房恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。834人占 52626人的约 1.59%，远低于 10%（10% = 5262.6人）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_04",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "其他缺血性心脏病的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L2_05",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "乳房恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。登记死亡834人，占 52626 人次的 834/52626 ≈ 1.59%，远低于 10%（10% = 5262.6 人次）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_05",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "乳房恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "否。登记死亡人数为834人，占约1.59%（834/52,626 ≈ 1.59%），低于10%（10% = 5,262.6人）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_06",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "sge_ggcr",
+      "question": "气管、支气管和肺恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "是的。登记死亡3880人，38655人的10%为3865.5，3880占比约3880/38655≈10.03%，略超过10%。",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_01",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "住院病人出院及死亡总人次最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L2_06",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "pure_compact",
+      "question": "气管、支气管和肺恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_01",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "住院病人出院及死亡总人次最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤",
+      "answer": "1. 肾衰竭 (N17-N19) — 196,617  \n2. 肺炎 (J12-J18) — 60,614  \n3. 气管、支气管和肺恶性肿瘤 (C33-C34) — 38,655",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_06",
+      "dataset": "inpatient",
+      "level": "L2",
+      "system": "concat_all",
+      "question": "气管、支气管和肺恶性肿瘤的登记死亡人数是否超过住院总人次的10%？",
+      "reference_answer": "否",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_01",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "住院病人出院及死亡总人次最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_02",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "住院病人出院及死亡总人次最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤、胃炎和十二指肠炎、气管、支气管和肺恶性肿瘤",
+      "answer": "按“住院病人出院及死亡总人次”排序，前5名为：\n1. 肾衰竭 (N17-N19)：196,617  \n2. 肺炎 (J12-J18)：60,614  \n3. 气管、支气管和肺恶性肿瘤 (C33-C34)：38,655  \n4. 其他缺血性心脏病 (I20, I23-I25)：26,785  \n5. 呼吸道结核病 (A15-A16)：2,139",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_02",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "住院病人出院及死亡总人次最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤、胃炎和十二指肠炎、气管、支气管和肺恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_02",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "住院病人出院及死亡总人次最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肾衰竭、肺炎、乳房恶性肿瘤、胃炎和十二指肠炎、气管、支气管和肺恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_03",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "在医院登记死亡人数最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病",
+      "answer": "按在医院登记死亡人数排序，前3位为：\n1. 肺炎 (J12-J18) — 11,334人  \n2. 气管、支气管和肺恶性肿瘤 (C33-C34) — 3,880人  \n3. 其他缺血性心脏病 (I20, I23-I25) — 2,648人",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_03",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "在医院登记死亡人数最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病",
+      "answer": "1. 肺炎 — 在医院登记死亡人数 11,334 人\n2. 气管、支气管和肺恶性肿瘤 — 在医院登记死亡人数 3,880 人\n3. 其他缺血性心脏病 — 在医院登记死亡人数 2,648 人",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_03",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "在医院登记死亡人数最多的前3种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_04",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "在医院登记死亡人数最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病、肾衰竭、乳房恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_04",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "在医院登记死亡人数最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病、肾衰竭、乳房恶性肿瘤",
+      "answer": "按在医院登记死亡人数从多到少排序（基于提供数据）：\n1. 肺炎 (J12-J18) — 11,334 人  \n2. 气管、支气管和肺恶性肿瘤 (C33-C34) — 3,880 人  \n3. 其他缺血性心脏病 (I20, I23-I25) — 2,648 人  \n4. 肾衰竭 (N17-N19) — 1,605 人  \n5. 呼吸道结核病 (A15-A16) — 143 人",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_04",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "在医院登记死亡人数最多的前5种疾病是哪些？请按顺序列出。",
+      "reference_answer": "肺炎、气管、支气管和肺恶性肿瘤、其他缺血性心脏病、肾衰竭、乳房恶性肿瘤",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_05",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "住院病人出院及死亡总人次最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、其他缺血性心脏病、白内障和晶状体的其他疾患",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_05",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "住院病人出院及死亡总人次最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、其他缺血性心脏病、白内障和晶状体的其他疾患",
+      "answer": "最少的前三种（按住院病人出院及死亡总人次由少到多）：\n1. 呼吸道结核病 (A15-A16)：2,139\n2. 其他缺血性心脏病 (I20, I23-I25)：26,785\n3. 白内障和晶状体的其他疾患 (H25-H28)：28,794",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_05",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "住院病人出院及死亡总人次最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、其他缺血性心脏病、白内障和晶状体的其他疾患",
+      "answer": "按住院病人出院及死亡总人次从少到多排序，前3种为：\n1. 呼吸道结核病：2,139\n2. 其他缺血性心脏病：26,785\n3. 气管、支气管和肺恶性肿瘤：38,655",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_06",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "在医院登记死亡人数最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、乳房恶性肿瘤、肾衰竭",
+      "answer": "按在医院登记死亡人数从少到多排序，前3种疾病为：\n1. 呼吸道结核病 (A15-A16) — 143人\n2. 肾衰竭 (N17-N19) — 1,605人\n3. 其他缺血性心脏病 (I20, I23-I25) — 2,648人",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_06",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "在医院登记死亡人数最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、乳房恶性肿瘤、肾衰竭",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_06",
+      "dataset": "inpatient",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "在医院登记死亡人数最少的前3种疾病是哪些？",
+      "reference_answer": "呼吸道结核病、乳房恶性肿瘤、肾衰竭",
+      "answer": "按在医院登记死亡人数最少排序（仅含提供死亡人数的疾病）：\n1. 呼吸道结核病 (A15-A16)：143人  \n2. 乳房恶性肿瘤 (C50)：834人  \n3. 肾衰竭 (N17-N19)：1,605人\n\n注：白内障和胃炎等条目未提供在医院登记死亡人数，故未列入比较。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_01",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "所有8种疾病的住院总人次合计是多少？",
+      "reference_answer": "454641",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_01",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "所有8种疾病的住院总人次合计是多少？",
+      "reference_answer": "454641",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_02",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "所有6种疾病的登记死亡人数合计是多少？",
+      "reference_answer": "20444",
+      "answer": "数据中仅列出5种疾病的在院登记死亡人数（呼吸道结核143、肺炎11334、肾衰竭1605、气管/支气管/肺恶性肿瘤3880、乳房恶性肿瘤834），合计为17796。题目要求6种疾病，但缺少第6种疾病的登记死亡人数，无法给出全部6种的合计。",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_01",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "所有8种疾病的住院总人次合计是多少？",
+      "reference_answer": "454641",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_02",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "所有6种疾病的登记死亡人数合计是多少？",
+      "reference_answer": "20444",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_02",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "所有6种疾病的登记死亡人数合计是多少？",
+      "reference_answer": "20444",
+      "answer": "在医院登记死亡人数合计为 20,444 人。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_03",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "这8种疾病的平均住院总人次是多少？",
+      "reference_answer": "56830.1",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_03",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "这8种疾病的平均住院总人次是多少？",
+      "reference_answer": "56830.1",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_04",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最高？",
+      "reference_answer": "肺炎",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_03",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "这8种疾病的平均住院总人次是多少？",
+      "reference_answer": "56830.1",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_04",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最高？",
+      "reference_answer": "肺炎",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_05",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最低？",
+      "reference_answer": "肾衰竭",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_04",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最高？",
+      "reference_answer": "肺炎",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_06",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "有多少种疾病的住院总人次超过50000？",
+      "reference_answer": "3",
+      "answer": "3 种疾病（乳房恶性肿瘤、肺炎、肾衰竭）。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_05",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最低？",
+      "reference_answer": "肾衰竭",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_06",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "有多少种疾病的住院总人次超过50000？",
+      "reference_answer": "3",
+      "answer": "3种。分别是：乳房恶性肿瘤、肺炎和肾衰竭。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_06",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "有多少种疾病的住院总人次超过50000？",
+      "reference_answer": "3",
+      "answer": "3种疾病。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_05",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "哪种疾病的死亡率（登记死亡人数÷住院总人次）最低？",
+      "reference_answer": "肾衰竭",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_07",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "有多少种疾病的登记死亡人数超过2000？",
+      "reference_answer": "3",
+      "answer": "2种（其他缺血性心脏病、肺炎）。",
+      "correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L4_07",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "有多少种疾病的登记死亡人数超过2000？",
+      "reference_answer": "3",
+      "answer": "有3种：其他缺血性心脏病、气管、支气管和肺恶性肿瘤、肺炎。",
+      "correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_07",
+      "dataset": "inpatient",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "有多少种疾病的登记死亡人数超过2000？",
+      "reference_answer": "3",
+      "answer": "3种疾病（其他缺血性心脏病、气管、支气管和肺恶性肿瘤、肺炎）。",
+      "correct": true
+    }
+  ]
+}

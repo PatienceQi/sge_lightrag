@@ -1,0 +1,42 @@
+Entity: CPV / SH.STA.MMRT
+Year: 1985 | Value: 420
+Year: 1986 | Value: 394
+Year: 1987 | Value: 366
+Year: 1988 | Value: 346
+Year: 1989 | Value: 322
+Year: 1990 | Value: 298
+Year: 1991 | Value: 277
+Year: 1992 | Value: 255
+Year: 1993 | Value: 233
+Year: 1994 | Value: 214
+Year: 1995 | Value: 196
+Year: 1996 | Value: 167
+Year: 1997 | Value: 147
+Year: 1998 | Value: 134
+Year: 1999 | Value: 122
+Year: 2000 | Value: 110
+Year: 2001 | Value: 101
+Year: 2002 | Value: 92
+Year: 2003 | Value: 86
+Year: 2004 | Value: 80
+Year: 2005 | Value: 75
+Year: 2006 | Value: 76
+Year: 2007 | Value: 73
+Year: 2008 | Value: 68
+Year: 2009 | Value: 62
+Year: 2010 | Value: 61
+Year: 2011 | Value: 55
+Year: 2012 | Value: 51
+Year: 2013 | Value: 50
+Year: 2014 | Value: 48
+Year: 2015 | Value: 46
+Year: 2016 | Value: 44
+Year: 2017 | Value: 43
+Year: 2018 | Value: 43
+Year: 2019 | Value: 41
+Year: 2020 | Value: 56
+Year: 2021 | Value: 56
+Year: 2022 | Value: 42
+Year: 2023 | Value: 40
+Remark: Cabo Verde
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

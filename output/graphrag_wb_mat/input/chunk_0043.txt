@@ -1,0 +1,42 @@
+Entity: CMR / SH.STA.MMRT
+Year: 1985 | Value: 572
+Year: 1986 | Value: 579
+Year: 1987 | Value: 557
+Year: 1988 | Value: 559
+Year: 1989 | Value: 564
+Year: 1990 | Value: 570
+Year: 1991 | Value: 584
+Year: 1992 | Value: 595
+Year: 1993 | Value: 606
+Year: 1994 | Value: 628
+Year: 1995 | Value: 641
+Year: 1996 | Value: 648
+Year: 1997 | Value: 652
+Year: 1998 | Value: 666
+Year: 1999 | Value: 672
+Year: 2000 | Value: 678
+Year: 2001 | Value: 672
+Year: 2002 | Value: 658
+Year: 2003 | Value: 645
+Year: 2004 | Value: 633
+Year: 2005 | Value: 629
+Year: 2006 | Value: 615
+Year: 2007 | Value: 605
+Year: 2008 | Value: 592
+Year: 2009 | Value: 579
+Year: 2010 | Value: 562
+Year: 2011 | Value: 541
+Year: 2012 | Value: 500
+Year: 2013 | Value: 469
+Year: 2014 | Value: 440
+Year: 2015 | Value: 417
+Year: 2016 | Value: 393
+Year: 2017 | Value: 372
+Year: 2018 | Value: 354
+Year: 2019 | Value: 336
+Year: 2020 | Value: 316
+Year: 2021 | Value: 342
+Year: 2022 | Value: 276
+Year: 2023 | Value: 258
+Remark: Cameroon
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

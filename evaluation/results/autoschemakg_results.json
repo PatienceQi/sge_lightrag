@@ -1,0 +1,21 @@
+{
+  "system": "autoschemakg",
+  "timestamp": "2026-04-01T23:25:59.621478",
+  "config": {
+    "llm_model": "claude-haiku-4-5-20251001",
+    "atlas_rag_version": "0.0.5.post1"
+  },
+  "datasets": {
+    "who": {
+      "label": "WHO Life Expectancy",
+      "nodes": 9728,
+      "edges": 24478,
+      "fc": 0.86,
+      "gold_facts": 150,
+      "covered_facts": 129,
+      "uncovered_reasons": {
+        "value_not_found": 21
+      }
+    }
+  }
+}

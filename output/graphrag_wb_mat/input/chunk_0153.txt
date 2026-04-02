@@ -1,0 +1,42 @@
+Entity: MDV / SH.STA.MMRT
+Year: 1985 | Value: 552
+Year: 1986 | Value: 508
+Year: 1987 | Value: 471
+Year: 1988 | Value: 424
+Year: 1989 | Value: 381
+Year: 1990 | Value: 346
+Year: 1991 | Value: 310
+Year: 1992 | Value: 281
+Year: 1993 | Value: 251
+Year: 1994 | Value: 222
+Year: 1995 | Value: 191
+Year: 1996 | Value: 167
+Year: 1997 | Value: 149
+Year: 1998 | Value: 136
+Year: 1999 | Value: 111
+Year: 2000 | Value: 94
+Year: 2001 | Value: 81
+Year: 2002 | Value: 76
+Year: 2003 | Value: 70
+Year: 2004 | Value: 65
+Year: 2005 | Value: 54
+Year: 2006 | Value: 52
+Year: 2007 | Value: 51
+Year: 2008 | Value: 53
+Year: 2009 | Value: 52
+Year: 2010 | Value: 49
+Year: 2011 | Value: 48
+Year: 2012 | Value: 47
+Year: 2013 | Value: 47
+Year: 2014 | Value: 43
+Year: 2015 | Value: 41
+Year: 2016 | Value: 41
+Year: 2017 | Value: 41
+Year: 2018 | Value: 40
+Year: 2019 | Value: 39
+Year: 2020 | Value: 48
+Year: 2021 | Value: 60
+Year: 2022 | Value: 34
+Year: 2023 | Value: 32
+Remark: Maldives
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

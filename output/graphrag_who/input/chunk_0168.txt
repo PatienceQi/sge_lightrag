@@ -1,0 +1,25 @@
+Entity: TGO / WHOSIS_000001
+Year: 2000 | Value: 56.07824585
+Year: 2001 | Value: 56.11218609
+Year: 2002 | Value: 56.21544389
+Year: 2003 | Value: 56.35238007
+Year: 2004 | Value: 56.74808404
+Year: 2005 | Value: 56.95869918
+Year: 2006 | Value: 57.51444622
+Year: 2007 | Value: 57.69120242
+Year: 2008 | Value: 57.96842813
+Year: 2009 | Value: 58.50878639
+Year: 2010 | Value: 59.15723761
+Year: 2011 | Value: 59.7945853
+Year: 2012 | Value: 60.30947123
+Year: 2013 | Value: 60.71230247
+Year: 2014 | Value: 61.08981314
+Year: 2015 | Value: 61.52164894
+Year: 2016 | Value: 62.01053382
+Year: 2017 | Value: 62.55310805
+Year: 2018 | Value: 63.07923124
+Year: 2019 | Value: 63.64852176
+Year: 2020 | Value: 63.84914267
+Year: 2021 | Value: 63.86461122
+Remark: Togo
+Remark: Life expectancy at birth (years)

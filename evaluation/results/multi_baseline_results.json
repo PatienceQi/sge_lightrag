@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-04-01",
+  "description": "Multi-host baseline comparison (v2 Gold Standard, unified evaluation)",
+  "graphrag": {
+    "WHO": {
+      "ec": 1.0,
+      "fc": 1.0,
+      "nodes": 4529,
+      "edges": 5348
+    },
+    "WB_CM": {
+      "ec": 1.0,
+      "fc": 0.967,
+      "nodes": 12895,
+      "edges": 14959
+    },
+    "WB_Pop": {
+      "ec": 0.8,
+      "fc": 0.6,
+      "nodes": null,
+      "edges": null
+    },
+    "WB_Mat": {
+      "ec": 0.8,
+      "fc": 0.753,
+      "nodes": null,
+      "edges": null
+    },
+    "Inpatient": {
+      "ec": 0.0,
+      "fc": 0.0,
+      "nodes": 2230,
+      "edges": 3536
+    }
+  },
+  "hipporag_v2": {
+    "WHO": {
+      "nodes": 3406,
+      "triples": 3394,
+      "qa_accuracy": 0.96,
+      "qa_correct": 23,
+      "qa_total": 24
+    },
+    "WB_CM": {
+      "nodes": 2525,
+      "triples": 6100,
+      "qa_accuracy": 1.0,
+      "qa_correct": 9,
+      "qa_total": 9
+    },
+    "Inpatient": {
+      "nodes": 1498,
+      "triples": 1750,
+      "qa_accuracy": 0.11,
+      "qa_correct": 1,
+      "qa_total": 9
+    }
+  },
+  "naive_rag": {
+    "overall": {
+      "accuracy": 0.35,
+      "correct": 35,
+      "total": 100
+    },
+    "by_dataset": {
+      "budget": {
+        "accuracy": 1.0,
+        "correct": 10,
+        "total": 10
+      },
+      "who": {
+        "accuracy": 0.96,
+        "correct": 23,
+        "total": 24
+      },
+      "inpatient": {
+        "accuracy": 0.22,
+        "correct": 2,
+        "total": 9
+      },
+      "wb_child_mortality": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 9
+      },
+      "health_stats": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 12
+      },
+      "wb_population": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 17
+      },
+      "wb_maternal": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 19
+      }
+    }
+  }
+}

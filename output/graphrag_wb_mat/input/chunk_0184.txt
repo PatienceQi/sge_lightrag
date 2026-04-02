@@ -1,0 +1,42 @@
+Entity: OSS / SH.STA.MMRT
+Year: 1985 | Value: 615
+Year: 1986 | Value: 592
+Year: 1987 | Value: 562
+Year: 1988 | Value: 543
+Year: 1989 | Value: 508
+Year: 1990 | Value: 499
+Year: 1991 | Value: 498
+Year: 1992 | Value: 496
+Year: 1993 | Value: 482
+Year: 1994 | Value: 478
+Year: 1995 | Value: 462
+Year: 1996 | Value: 446
+Year: 1997 | Value: 432
+Year: 1998 | Value: 420
+Year: 1999 | Value: 461
+Year: 2000 | Value: 306
+Year: 2001 | Value: 288
+Year: 2002 | Value: 284
+Year: 2003 | Value: 289
+Year: 2004 | Value: 286
+Year: 2005 | Value: 284
+Year: 2006 | Value: 269
+Year: 2007 | Value: 279
+Year: 2008 | Value: 287
+Year: 2009 | Value: 290
+Year: 2010 | Value: 263
+Year: 2011 | Value: 257
+Year: 2012 | Value: 225
+Year: 2013 | Value: 203
+Year: 2014 | Value: 177
+Year: 2015 | Value: 158
+Year: 2016 | Value: 142
+Year: 2017 | Value: 129
+Year: 2018 | Value: 121
+Year: 2019 | Value: 113
+Year: 2020 | Value: 122
+Year: 2021 | Value: 149
+Year: 2022 | Value: 116
+Year: 2023 | Value: 103
+Remark: Other small states
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,25 @@
+Entity: FSM / WHOSIS_000001
+Year: 2000 | Value: 63.55831516
+Year: 2001 | Value: 63.81961029
+Year: 2002 | Value: 62.91664429
+Year: 2003 | Value: 64.10175678
+Year: 2004 | Value: 64.15853132
+Year: 2005 | Value: 64.2139938
+Year: 2006 | Value: 64.28893329
+Year: 2007 | Value: 64.36936061
+Year: 2008 | Value: 64.49273801
+Year: 2009 | Value: 64.68062183
+Year: 2010 | Value: 64.77779493
+Year: 2011 | Value: 64.90882285
+Year: 2012 | Value: 65.02895443
+Year: 2013 | Value: 65.16296685
+Year: 2014 | Value: 65.26774587
+Year: 2015 | Value: 65.32541233
+Year: 2016 | Value: 65.5242044
+Year: 2017 | Value: 65.6570782
+Year: 2018 | Value: 65.82693994
+Year: 2019 | Value: 65.9434567
+Year: 2020 | Value: 65.67162273
+Year: 2021 | Value: 65.70956674
+Remark: Micronesia (Federated States of)
+Remark: Life expectancy at birth (years)

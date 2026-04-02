@@ -1,0 +1,3 @@
+Entity: IMN / SH.DYN.MORT
+Remark: Isle of Man
+Remark: Mortality rate, under-5 (per 1,000 live births)

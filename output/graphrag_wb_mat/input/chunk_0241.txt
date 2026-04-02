@@ -1,0 +1,42 @@
+Entity: TSA / SH.STA.MMRT
+Year: 1985 | Value: 696
+Year: 1986 | Value: 662
+Year: 1987 | Value: 633
+Year: 1988 | Value: 606
+Year: 1989 | Value: 584
+Year: 1990 | Value: 562
+Year: 1991 | Value: 547
+Year: 1992 | Value: 523
+Year: 1993 | Value: 505
+Year: 1994 | Value: 485
+Year: 1995 | Value: 467
+Year: 1996 | Value: 449
+Year: 1997 | Value: 431
+Year: 1998 | Value: 415
+Year: 1999 | Value: 398
+Year: 2000 | Value: 380
+Year: 2001 | Value: 365
+Year: 2002 | Value: 344
+Year: 2003 | Value: 326
+Year: 2004 | Value: 307
+Year: 2005 | Value: 287
+Year: 2006 | Value: 268
+Year: 2007 | Value: 250
+Year: 2008 | Value: 232
+Year: 2009 | Value: 214
+Year: 2010 | Value: 198
+Year: 2011 | Value: 183
+Year: 2012 | Value: 169
+Year: 2013 | Value: 158
+Year: 2014 | Value: 147
+Year: 2015 | Value: 138
+Year: 2016 | Value: 129
+Year: 2017 | Value: 121
+Year: 2018 | Value: 114
+Year: 2019 | Value: 108
+Year: 2020 | Value: 107
+Year: 2021 | Value: 159
+Year: 2022 | Value: 95
+Year: 2023 | Value: 85
+Remark: South Asia (IDA & IBRD)
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

@@ -1,0 +1,6 @@
+Entity: AmerisourceBergen
+Year: 2015 | Value: 119569.0
+Year: 2016 | Value: 135962.0
+Year: 2017 | Value: 146850.0
+Year: 2018 | Value: 153143.8
+Year: 2019 | Value: 167939.6

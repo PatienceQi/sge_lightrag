@@ -1,0 +1,4890 @@
+text_id:ID,original_text,:LABEL
+f631f67f2537180a3c7c2bda799e94cd29f112972bfbbd959c4bc64c8b6c0064,"Entity: AFG / WHOSIS_000001
+Year: 2000 | Value: 53.82332641
+Year: 2001 | Value: 53.91018761
+Year: 2002 | Value: 55.15447775
+Year: 2003 | Value: 56.08520691
+Year: 2004 | Value: 56.47652053
+Year: 2005 | Value: 56.79050349
+Year: 2006 | Value: 56.992143
+Year: 2007 | Value: 57.2548387
+Year: 2008 | Value: 57.9008556
+Year: 2009 | Value: 58.52946588
+Year: 2010 | Value: 59.00377167
+Year: 2011 | Value: 59.54863714
+Year: 2012 | Value: 59.92210578
+Year: 2013 | Value: 60.43497705
+Year: 2014 | Value: 60.42859204
+Year: 2015 | Value: 60.32951348
+Year: 2016 | Value: 60.39366208
+Year: 2017 | Value: 60.8752198
+Year: 2018 | Value: 60.48797975
+Year: 2019 | Value: 61.22381311
+Year: 2020 | Value: 60.49099642
+Year: 2021 | Value: 59.12690224
+Remark: Afghanistan
+Remark: Life expectancy at birth (years)",Text
+98f5bf998b92397607d7ef868a901038b8bdb3b61685a667fe7f066abf6812fa,"Entity: AFR / WHOSIS_000001
+Year: 2000 | Value: 52.98151168
+Year: 2001 | Value: 53.46919051
+Year: 2002 | Value: 53.8387504
+Year: 2003 | Value: 54.27104176
+Year: 2004 | Value: 54.8859284
+Year: 2005 | Value: 55.63713976
+Year: 2006 | Value: 56.4398241
+Year: 2007 | Value: 57.29451181
+Year: 2008 | Value: 58.09440209
+Year: 2009 | Value: 58.84133306
+Year: 2010 | Value: 59.57096304
+Year: 2011 | Value: 60.26246615
+Year: 2012 | Value: 60.93267407
+Year: 2013 | Value: 61.51649833
+Year: 2014 | Value: 61.97191179
+Year: 2015 | Value: 62.45046693
+Year: 2016 | Value: 62.92447284
+Year: 2017 | Value: 63.36220568
+Year: 2018 | Value: 63.77580177
+Year: 2019 | Value: 64.16988115
+Year: 2020 | Value: 63.96143556
+Year: 2021 | Value: 63.55243899
+Remark: Life expectancy at birth (years)",Text
+6592ee78cb906cfa8e369b1095ca11ff96dff8966c1fd17e63fc20b77870dd8f,"Entity: AGO / WHOSIS_000001
+Year: 2000 | Value: 49.36774351
+Year: 2001 | Value: 50.06036648
+Year: 2002 | Value: 51.05750193
+Year: 2003 | Value: 51.74053195
+Year: 2004 | Value: 52.3558271
+Year: 2005 | Value: 53.34585395
+Year: 2006 | Value: 54.27926946
+Year: 2007 | Value: 55.35489997
+Year: 2008 | Value: 56.22016209
+Year: 2009 | Value: 57.07394875
+Year: 2010 | Value: 57.96461105
+Year: 2011 | Value: 58.75334146
+Year: 2012 | Value: 59.46233734
+Year: 2013 | Value: 60.21682799
+Year: 2014 | Value: 61.13534716
+Year: 2015 | Value: 61.59307464
+Year: 2016 | Value: 61.84956314
+Year: 2017 | Value: 62.03682911
+Year: 2018 | Value: 62.27158067
+Year: 2019 | Value: 62.49147407
+Year: 2020 | Value: 62.64827403
+Year: 2021 | Value: 62.13113467
+Remark: Angola
+Remark: Life expectancy at birth (years)",Text
+a2b61f977c93eed359dceb77c99a6e96f850f69edc82288dd901080c9917a085,"Entity: ALB / WHOSIS_000001
+Year: 2000 | Value: 73.68285742
+Year: 2001 | Value: 76.04202157
+Year: 2002 | Value: 75.48885772
+Year: 2003 | Value: 74.94215534
+Year: 2004 | Value: 75.42557931
+Year: 2005 | Value: 74.20683098
+Year: 2006 | Value: 74.22366059
+Year: 2007 | Value: 74.53678554
+Year: 2008 | Value: 74.9883157
+Year: 2009 | Value: 75.55770059
+Year: 2010 | Value: 76.21290189
+Year: 2011 | Value: 76.61868023
+Year: 2012 | Value: 77.34194982
+Year: 2013 | Value: 77.77410839
+Year: 2014 | Value: 78.01445206
+Year: 2015 | Value: 77.76638448
+Year: 2016 | Value: 77.87870915
+Year: 2017 | Value: 77.91038596
+Year: 2018 | Value: 77.93851855
+Year: 2019 | Value: 77.9406744
+Year: 2020 | Value: 76.53104591
+Year: 2021 | Value: 76.39089034
+Remark: Albania
+Remark: Life expectancy at birth (years)",Text
+6a6582e18efdd6ea2599c5f49e310576dd23b6cc4c0b9f33c7058eba4d8e8e24,"Entity: AMR / WHOSIS_000001
+Year: 2000 | Value: 74.0865499
+Year: 2001 | Value: 74.30398059
+Year: 2002 | Value: 74.50152763
+Year: 2003 | Value: 74.69714507
+Year: 2004 | Value: 75.07444467
+Year: 2005 | Value: 75.28865511
+Year: 2006 | Value: 75.62335043
+Year: 2007 | Value: 75.82834415
+Year: 2008 | Value: 75.93790985
+Year: 2009 | Value: 76.16933635
+Year: 2010 | Value: 75.79804084
+Year: 2011 | Value: 76.46212795
+Year: 2012 | Value: 76.62675954
+Year: 2013 | Value: 76.73116014
+Year: 2014 | Value: 76.83106727
+Year: 2015 | Value: 76.79070798
+Year: 2016 | Value: 76.70935415
+Year: 2017 | Value: 76.8394961
+Year: 2018 | Value: 76.98308457
+Year: 2019 | Value: 77.07402622
+Year: 2020 | Value: 75.0691549
+Year: 2021 | Value: 74.11268797
+Remark: Life expectancy at birth (years)",Text
+94b25ee7dfc0954152712e47b20e59d5c132f5ca3207097b725ac309eb55d3e4,"Entity: ARE / WHOSIS_000001
+Year: 2000 | Value: 78.11838329
+Year: 2001 | Value: 78.27568092
+Year: 2002 | Value: 78.35124382
+Year: 2003 | Value: 78.5604186
+Year: 2004 | Value: 78.88949949
+Year: 2005 | Value: 79.38497277
+Year: 2006 | Value: 80.09096187
+Year: 2007 | Value: 80.5952165
+Year: 2008 | Value: 80.7993244
+Year: 2009 | Value: 80.73659279
+Year: 2010 | Value: 80.45344335
+Year: 2011 | Value: 80.25767057
+Year: 2012 | Value: 80.30618497
+Year: 2013 | Value: 80.56393138
+Year: 2014 | Value: 80.64754288
+Year: 2015 | Value: 80.71356774
+Year: 2016 | Value: 80.78348374
+Year: 2017 | Value: 80.92702059
+Year: 2018 | Value: 81.16639668
+Year: 2019 | Value: 81.41096307
+Year: 2020 | Value: 80.1312721
+Year: 2021 | Value: 78.30645695
+Remark: United Arab Emirates
+Remark: Life expectancy at birth (years)",Text
+809c490f9055150a6a5c6b25ef560f0c8ad2155acac50ff48a0ee88539ffe099,"Entity: ARG / WHOSIS_000001
+Year: 2000 | Value: 74.28695107
+Year: 2001 | Value: 74.27061688
+Year: 2002 | Value: 74.2583112
+Year: 2003 | Value: 74.25492535
+Year: 2004 | Value: 74.90566583
+Year: 2005 | Value: 75.25530861
+Year: 2006 | Value: 75.5327089
+Year: 2007 | Value: 75.05610078
+Year: 2008 | Value: 75.69496821
+Year: 2009 | Value: 75.85194237
+Year: 2010 | Value: 75.76938267
+Year: 2011 | Value: 75.94927296
+Year: 2012 | Value: 76.1760553
+Year: 2013 | Value: 76.20888199
+Year: 2014 | Value: 76.51452536
+Year: 2015 | Value: 76.5300965
+Year: 2016 | Value: 76.12474817
+Year: 2017 | Value: 76.64354126
+Year: 2018 | Value: 76.88825006
+Year: 2019 | Value: 77.01582731
+Year: 2020 | Value: 76.22884718
+Year: 2021 | Value: 74.56898059
+Remark: Argentina
+Remark: Life expectancy at birth (years)",Text
+9abebf2c315b96e3ea860e5a480b6cc60c3de4f8bd5d100e01988e9c1a5bb668,"Entity: ARM / WHOSIS_000001
+Year: 2000 | Value: 71.62172824
+Year: 2001 | Value: 71.79061149
+Year: 2002 | Value: 71.58333169
+Year: 2003 | Value: 71.70802942
+Year: 2004 | Value: 72.03083518
+Year: 2005 | Value: 72.0754129
+Year: 2006 | Value: 72.0117653
+Year: 2007 | Value: 72.53070418
+Year: 2008 | Value: 72.48685716
+Year: 2009 | Value: 72.73278531
+Year: 2010 | Value: 73.01384261
+Year: 2011 | Value: 73.30611739
+Year: 2012 | Value: 73.66922093
+Year: 2013 | Value: 74.18785118
+Year: 2014 | Value: 74.19757704
+Year: 2015 | Value: 74.27859114
+Year: 2016 | Value: 74.40594896
+Year: 2017 | Value: 75.18435169
+Year: 2018 | Value: 75.62030513
+Year: 2019 | Value: 75.66635568
+Year: 2020 | Value: 69.32859192
+Year: 2021 | Value: 72.98458202
+Remark: Armenia
+Remark: Life expectancy at birth (years)",Text
+3957de2c67f48069db0621168d2d7a335428f46e34459a1ad96d7f911ac56b69,"Entity: ATG / WHOSIS_000001
+Year: 2000 | Value: 74.39228457
+Year: 2001 | Value: 74.69656338
+Year: 2002 | Value: 74.99067045
+Year: 2003 | Value: 75.21279447
+Year: 2004 | Value: 75.37748429
+Year: 2005 | Value: 75.53604558
+Year: 2006 | Value: 75.54507792
+Year: 2007 | Value: 74.95910853
+Year: 2008 | Value: 75.05552794
+Year: 2009 | Value: 75.51285045
+Year: 2010 | Value: 75.57823922
+Year: 2011 | Value: 75.62067241
+Year: 2012 | Value: 75.66312684
+Year: 2013 | Value: 75.71757904
+Year: 2014 | Value: 75.59206584
+Year: 2015 | Value: 75.61540401
+Year: 2016 | Value: 75.54812509
+Year: 2017 | Value: 75.565575
+Year: 2018 | Value: 75.62352245
+Year: 2019 | Value: 75.65878463
+Year: 2020 | Value: 77.61326031
+Year: 2021 | Value: 76.91527032
+Remark: Antigua and Barbuda
+Remark: Life expectancy at birth (years)",Text
+a4d4c6bdc996d90cda5c3c7071b4ec279294d1ac93d317566725fa8ffa118c71,"Entity: AUS / WHOSIS_000001
+Year: 2000 | Value: 79.69831946
+Year: 2001 | Value: 80.12984228
+Year: 2002 | Value: 80.19005718
+Year: 2003 | Value: 80.56634063
+Year: 2004 | Value: 80.75565777
+Year: 2005 | Value: 80.84134964
+Year: 2006 | Value: 81.04245453
+Year: 2007 | Value: 81.37282665
+Year: 2008 | Value: 81.32192176
+Year: 2009 | Value: 81.75260531
+Year: 2010 | Value: 81.91408232
+Year: 2011 | Value: 81.93172968
+Year: 2012 | Value: 82.27247326
+Year: 2013 | Value: 82.46342447
+Year: 2014 | Value: 82.36885018
+Year: 2015 | Value: 82.287472
+Year: 2016 | Value: 82.59341791
+Year: 2017 | Value: 82.67971308
+Year: 2018 | Value: 83.02313357
+Year: 2019 | Value: 82.64234014
+Year: 2020 | Value: 83.36758916
+Year: 2021 | Value: 83.10183853
+Remark: Australia
+Remark: Life expectancy at birth (years)",Text
+eb0b9206d7e2b398f2ae5eadc75b33d7d51e27f5c77070034eccb82db2f75a9b,"Entity: AUT / WHOSIS_000001
+Year: 2000 | Value: 78.17598734
+Year: 2001 | Value: 78.64264138
+Year: 2002 | Value: 78.70354232
+Year: 2003 | Value: 78.62740132
+Year: 2004 | Value: 79.11359324
+Year: 2005 | Value: 79.32619587
+Year: 2006 | Value: 79.80520182
+Year: 2007 | Value: 80.0322621
+Year: 2008 | Value: 80.26667316
+Year: 2009 | Value: 80.12103248
+Year: 2010 | Value: 80.39157197
+Year: 2011 | Value: 80.73795859
+Year: 2012 | Value: 80.71875852
+Year: 2013 | Value: 80.91227276
+Year: 2014 | Value: 81.23527679
+Year: 2015 | Value: 80.98621911
+Year: 2016 | Value: 81.38820091
+Year: 2017 | Value: 81.38857295
+Year: 2018 | Value: 81.42361625
+Year: 2019 | Value: 81.64847998
+Year: 2020 | Value: 81.08512036
+Year: 2021 | Value: 80.99297519
+Remark: Austria
+Remark: Life expectancy at birth (years)",Text
+c855e4ffc588eea3369668fb3bb2212420eed9ba48784b35ad71980a7c03dce5,"Entity: AZE / WHOSIS_000001
+Year: 2000 | Value: 65.23458004
+Year: 2001 | Value: 66.31096148
+Year: 2002 | Value: 66.7152002
+Year: 2003 | Value: 66.74212235
+Year: 2004 | Value: 67.38631087
+Year: 2005 | Value: 67.44595807
+Year: 2006 | Value: 67.63797731
+Year: 2007 | Value: 69.26431968
+Year: 2008 | Value: 68.71279885
+Year: 2009 | Value: 69.37470529
+Year: 2010 | Value: 69.81386619
+Year: 2011 | Value: 70.38906117
+Year: 2012 | Value: 71.2113018
+Year: 2013 | Value: 72.08992478
+Year: 2014 | Value: 72.71925019
+Year: 2015 | Value: 73.62700051
+Year: 2016 | Value: 73.96997105
+Year: 2017 | Value: 74.6254737
+Year: 2018 | Value: 75.13145241
+Year: 2019 | Value: 75.79966602
+Year: 2020 | Value: 71.43112767
+Year: 2021 | Value: 72.9129401
+Remark: Azerbaijan
+Remark: Life expectancy at birth (years)",Text
+1c6c25389ee593c48dd32ee7e31e2df274e25494494b5d2cab45853100b41243,"Entity: BDI / WHOSIS_000001
+Year: 2000 | Value: 44.3609182
+Year: 2001 | Value: 45.560229
+Year: 2002 | Value: 46.77202104
+Year: 2003 | Value: 47.93043118
+Year: 2004 | Value: 49.43158352
+Year: 2005 | Value: 50.9090504
+Year: 2006 | Value: 54.95514765
+Year: 2007 | Value: 56.45412415
+Year: 2008 | Value: 57.79081906
+Year: 2009 | Value: 58.71584557
+Year: 2010 | Value: 59.59915923
+Year: 2011 | Value: 60.40539714
+Year: 2012 | Value: 61.17471181
+Year: 2013 | Value: 61.79608792
+Year: 2014 | Value: 62.32268744
+Year: 2015 | Value: 62.7069542
+Year: 2016 | Value: 63.24117705
+Year: 2017 | Value: 63.68241574
+Year: 2018 | Value: 64.02759286
+Year: 2019 | Value: 64.3185906
+Year: 2020 | Value: 64.59433751
+Year: 2021 | Value: 64.00694993
+Remark: Burundi
+Remark: Life expectancy at birth (years)",Text
+bc780dc890a9be2f72242689bc34c88c3fefc917335fd07af257440d5884a5b2,"Entity: BEL / WHOSIS_000001
+Year: 2000 | Value: 77.67190502
+Year: 2001 | Value: 77.97358091
+Year: 2002 | Value: 78.01455674
+Year: 2003 | Value: 78.11449295
+Year: 2004 | Value: 78.79615664
+Year: 2005 | Value: 78.85239236
+Year: 2006 | Value: 79.23388393
+Year: 2007 | Value: 79.56569667
+Year: 2008 | Value: 79.56481171
+Year: 2009 | Value: 79.82665275
+Year: 2010 | Value: 79.84805119
+Year: 2011 | Value: 80.16687766
+Year: 2012 | Value: 80.07118579
+Year: 2013 | Value: 80.32474948
+Year: 2014 | Value: 80.94130643
+Year: 2015 | Value: 80.70631194
+Year: 2016 | Value: 81.07460591
+Year: 2017 | Value: 81.1512532
+Year: 2018 | Value: 81.2494226
+Year: 2019 | Value: 81.60895006
+Year: 2020 | Value: 80.77564866
+Year: 2021 | Value: 81.5059627
+Remark: Belgium
+Remark: Life expectancy at birth (years)",Text
+ed1aea5a4c2adc8c4860d8bfb20b220ade46a7e6337326ea6b0728b7b8bf3215,"Entity: BEN / WHOSIS_000001
+Year: 2000 | Value: 57.42109531
+Year: 2001 | Value: 57.74456271
+Year: 2002 | Value: 58.09380517
+Year: 2003 | Value: 58.45855402
+Year: 2004 | Value: 58.86876901
+Year: 2005 | Value: 59.21023989
+Year: 2006 | Value: 59.54016851
+Year: 2007 | Value: 59.82688455
+Year: 2008 | Value: 60.45115465
+Year: 2009 | Value: 60.99409615
+Year: 2010 | Value: 61.3045144
+Year: 2011 | Value: 61.56618181
+Year: 2012 | Value: 61.81459199
+Year: 2013 | Value: 62.11743236
+Year: 2014 | Value: 62.37267295
+Year: 2015 | Value: 62.62662
+Year: 2016 | Value: 63.0021663
+Year: 2017 | Value: 63.34863103
+Year: 2018 | Value: 63.73859672
+Year: 2019 | Value: 64.13827469
+Year: 2020 | Value: 64.40363479
+Year: 2021 | Value: 64.01268515
+Remark: Benin
+Remark: Life expectancy at birth (years)",Text
+60e29839caa10ce75e8b4b809835474357f568d761353c8509e1e45fe2c5165f,"Entity: BFA / WHOSIS_000001
+Year: 2000 | Value: 51.8877146
+Year: 2001 | Value: 52.3617692
+Year: 2002 | Value: 52.90685822
+Year: 2003 | Value: 53.57987835
+Year: 2004 | Value: 54.3424593
+Year: 2005 | Value: 55.19811279
+Year: 2006 | Value: 55.97968949
+Year: 2007 | Value: 56.71279625
+Year: 2008 | Value: 57.43072999
+Year: 2009 | Value: 58.06655977
+Year: 2010 | Value: 58.61217661
+Year: 2011 | Value: 59.07175267
+Year: 2012 | Value: 59.51806294
+Year: 2013 | Value: 59.96461158
+Year: 2014 | Value: 60.46448541
+Year: 2015 | Value: 60.94298433
+Year: 2016 | Value: 61.35518157
+Year: 2017 | Value: 61.8809308
+Year: 2018 | Value: 62.36096547
+Year: 2019 | Value: 62.61228276
+Year: 2020 | Value: 62.92621842
+Year: 2021 | Value: 62.29728841
+Remark: Burkina Faso
+Remark: Life expectancy at birth (years)",Text
+bb67d9400b1e5772e51eddd9cffdcbe1ced4cb9b3e2badb7b6143bf85870d27c,"Entity: BGD / WHOSIS_000001
+Year: 2000 | Value: 65.36178128
+Year: 2001 | Value: 65.95954098
+Year: 2002 | Value: 66.35390682
+Year: 2003 | Value: 66.7835174
+Year: 2004 | Value: 67.36950715
+Year: 2005 | Value: 67.78759761
+Year: 2006 | Value: 68.09324389
+Year: 2007 | Value: 68.42856138
+Year: 2008 | Value: 69.03267464
+Year: 2009 | Value: 69.60483119
+Year: 2010 | Value: 70.06425679
+Year: 2011 | Value: 71.08337441
+Year: 2012 | Value: 72.09310158
+Year: 2013 | Value: 72.59072924
+Year: 2014 | Value: 72.77669075
+Year: 2015 | Value: 73.19207211
+Year: 2016 | Value: 73.44362068
+Year: 2017 | Value: 73.37868377
+Year: 2018 | Value: 73.67380343
+Year: 2019 | Value: 73.94958231
+Year: 2020 | Value: 73.29812993
+Year: 2021 | Value: 73.10251672
+Remark: Bangladesh
+Remark: Life expectancy at birth (years)",Text
+11fda7715467a0579c507c8553cd7156cd10e5729d308bc6c02a982cbbbf22e8,"Entity: BGR / WHOSIS_000001
+Year: 2000 | Value: 71.6428836
+Year: 2001 | Value: 71.85118008
+Year: 2002 | Value: 72.11466914
+Year: 2003 | Value: 72.29415331
+Year: 2004 | Value: 72.48173145
+Year: 2005 | Value: 72.47648279
+Year: 2006 | Value: 72.62332365
+Year: 2007 | Value: 72.92323217
+Year: 2008 | Value: 73.24591413
+Year: 2009 | Value: 73.57651207
+Year: 2010 | Value: 73.66597105
+Year: 2011 | Value: 74.07018001
+Year: 2012 | Value: 74.28202002
+Year: 2013 | Value: 74.79512219
+Year: 2014 | Value: 74.40807537
+Year: 2015 | Value: 74.56358707
+Year: 2016 | Value: 74.77317639
+Year: 2017 | Value: 74.71989724
+Year: 2018 | Value: 74.85071858
+Year: 2019 | Value: 75.0010583
+Year: 2020 | Value: 73.48961137
+Year: 2021 | Value: 71.30586
+Remark: Bulgaria
+Remark: Life expectancy at birth (years)",Text
+6c8d39d6f1a0dc12faebe7fdda33a883af150aae81f38d558fb7d157cbeccd99,"Entity: BHR / WHOSIS_000001
+Year: 2000 | Value: 69.68563925
+Year: 2001 | Value: 70.36971635
+Year: 2002 | Value: 70.59694491
+Year: 2003 | Value: 70.65076259
+Year: 2004 | Value: 70.9253368
+Year: 2005 | Value: 71.32084892
+Year: 2006 | Value: 71.69627417
+Year: 2007 | Value: 72.38722676
+Year: 2008 | Value: 72.89097198
+Year: 2009 | Value: 73.40666919
+Year: 2010 | Value: 73.86198294
+Year: 2011 | Value: 74.19533253
+Year: 2012 | Value: 74.57322126
+Year: 2013 | Value: 75.02710867
+Year: 2014 | Value: 75.64496177
+Year: 2015 | Value: 75.75082454
+Year: 2016 | Value: 75.65906707
+Year: 2017 | Value: 75.71095601
+Year: 2018 | Value: 75.93620907
+Year: 2019 | Value: 76.02945447
+Year: 2020 | Value: 74.85398109
+Year: 2021 | Value: 74.38371772
+Remark: Bahrain
+Remark: Life expectancy at birth (years)",Text
+037429065ea6414192395c0f67662e60b22e7c2b12d5210e30bd1f62f532d171,"Entity: BHS / WHOSIS_000001
+Year: 2000 | Value: 70.96744554
+Year: 2001 | Value: 71.11367814
+Year: 2002 | Value: 71.58107452
+Year: 2003 | Value: 72.01356703
+Year: 2004 | Value: 72.14409998
+Year: 2005 | Value: 72.65880067
+Year: 2006 | Value: 72.66353382
+Year: 2007 | Value: 73.08736276
+Year: 2008 | Value: 72.97662842
+Year: 2009 | Value: 72.80785073
+Year: 2010 | Value: 72.74533372
+Year: 2011 | Value: 72.74543627
+Year: 2012 | Value: 72.84562635
+Year: 2013 | Value: 73.00901267
+Year: 2014 | Value: 72.64786335
+Year: 2015 | Value: 72.92357543
+Year: 2016 | Value: 72.949178
+Year: 2017 | Value: 73.21936648
+Year: 2018 | Value: 73.38286364
+Year: 2019 | Value: 70.73776422
+Year: 2020 | Value: 72.61586296
+Year: 2021 | Value: 70.43274063
+Remark: Bahamas
+Remark: Life expectancy at birth (years)",Text
+c2d1c74545b480e202cb9c02b2db169bfe1c08ed7d3eba77c326bf8a8c6dbf43,"Entity: BIH / WHOSIS_000001
+Year: 2000 | Value: 75.4599475
+Year: 2001 | Value: 75.85448253
+Year: 2002 | Value: 76.09726725
+Year: 2003 | Value: 76.3852253
+Year: 2004 | Value: 76.62934847
+Year: 2005 | Value: 76.54879498
+Year: 2006 | Value: 76.79616301
+Year: 2007 | Value: 76.26128187
+Year: 2008 | Value: 76.76846848
+Year: 2009 | Value: 76.7825838
+Year: 2010 | Value: 76.98324032
+Year: 2011 | Value: 77.05795229
+Year: 2012 | Value: 77.27133436
+Year: 2013 | Value: 77.21186094
+Year: 2014 | Value: 77.17772515
+Year: 2015 | Value: 76.9957646
+Year: 2016 | Value: 77.13183233
+Year: 2017 | Value: 77.24910311
+Year: 2018 | Value: 77.32123917
+Year: 2019 | Value: 77.09808482
+Year: 2020 | Value: 75.70792926
+Year: 2021 | Value: 74.84944487
+Remark: Bosnia and Herzegovina
+Remark: Life expectancy at birth (years)",Text
+4e3f51a8da17da4228629f76341ce8a141b5ea3c3113a7cca52efdb14e756dd4,"Entity: BLR / WHOSIS_000001
+Year: 2000 | Value: 68.79296699
+Year: 2001 | Value: 68.38068954
+Year: 2002 | Value: 67.90677805
+Year: 2003 | Value: 68.37573872
+Year: 2004 | Value: 68.80163482
+Year: 2005 | Value: 68.69743153
+Year: 2006 | Value: 69.30529977
+Year: 2007 | Value: 70.20054242
+Year: 2008 | Value: 70.33830973
+Year: 2009 | Value: 70.47736788
+Year: 2010 | Value: 70.35076033
+Year: 2011 | Value: 70.57181476
+Year: 2012 | Value: 72.11133932
+Year: 2013 | Value: 72.59208184
+Year: 2014 | Value: 73.15346125
+Year: 2015 | Value: 73.73950531
+Year: 2016 | Value: 73.8924593
+Year: 2017 | Value: 74.22729868
+Year: 2018 | Value: 74.34647413
+Year: 2019 | Value: 74.8186819
+Year: 2020 | Value: 73.01027649
+Year: 2021 | Value: 73.12324771
+Remark: Belarus
+Remark: Life expectancy at birth (years)",Text
+d003379964284810a6f566d6dcdc0f08fd4b0821a3262174ed399a62c8a90335,"Entity: BLZ / WHOSIS_000001
+Year: 2000 | Value: 70.09513226
+Year: 2001 | Value: 70.61498891
+Year: 2002 | Value: 71.34369042
+Year: 2003 | Value: 71.80038956
+Year: 2004 | Value: 72.03089544
+Year: 2005 | Value: 72.3988756
+Year: 2006 | Value: 72.62147619
+Year: 2007 | Value: 73.05180238
+Year: 2008 | Value: 73.53821496
+Year: 2009 | Value: 73.6700987
+Year: 2010 | Value: 73.60567774
+Year: 2011 | Value: 73.84911498
+Year: 2012 | Value: 74.18063851
+Year: 2013 | Value: 74.31081667
+Year: 2014 | Value: 74.2195742
+Year: 2015 | Value: 74.30568158
+Year: 2016 | Value: 74.39638983
+Year: 2017 | Value: 74.56128899
+Year: 2018 | Value: 74.57665716
+Year: 2019 | Value: 74.86586064
+Year: 2020 | Value: 74.69437572
+Year: 2021 | Value: 73.32055336
+Remark: Belize
+Remark: Life expectancy at birth (years)",Text
+e30c102c8b08aa998c2dbbb086dc0bc2ba8413ec0e95bc1ad27f650cd77d713d,"Entity: BOL / WHOSIS_000001
+Year: 2000 | Value: 66.09385895
+Year: 2001 | Value: 66.7449711
+Year: 2002 | Value: 67.18430642
+Year: 2003 | Value: 67.7351254
+Year: 2004 | Value: 68.28111683
+Year: 2005 | Value: 68.73158288
+Year: 2006 | Value: 69.1623043
+Year: 2007 | Value: 69.47053335
+Year: 2008 | Value: 69.78566323
+Year: 2009 | Value: 70.13714581
+Year: 2010 | Value: 70.42881387
+Year: 2011 | Value: 70.72011626
+Year: 2012 | Value: 71.0361986
+Year: 2013 | Value: 71.33805685
+Year: 2014 | Value: 71.64868401
+Year: 2015 | Value: 71.94895895
+Year: 2016 | Value: 72.22076039
+Year: 2017 | Value: 72.44784311
+Year: 2018 | Value: 72.69070111
+Year: 2019 | Value: 72.91976198
+Year: 2020 | Value: 67.11714577
+Year: 2021 | Value: 65.41062535
+Remark: Bolivia (Plurinational State of)
+Remark: Life expectancy at birth (years)",Text
+69d4860cf7646f2659450eb514aa9498a029e8f69e9895d07d17ee54513c83da,"Entity: BRA / WHOSIS_000001
+Year: 2000 | Value: 71.4995438
+Year: 2001 | Value: 71.80355904
+Year: 2002 | Value: 72.03662703
+Year: 2003 | Value: 72.30491342
+Year: 2004 | Value: 72.50201054
+Year: 2005 | Value: 73.14791265
+Year: 2006 | Value: 73.33073271
+Year: 2007 | Value: 73.5789865
+Year: 2008 | Value: 73.71397618
+Year: 2009 | Value: 73.8424263
+Year: 2010 | Value: 73.92337469
+Year: 2011 | Value: 74.01518436
+Year: 2012 | Value: 74.28196582
+Year: 2013 | Value: 74.42169527
+Year: 2014 | Value: 74.63621389
+Year: 2015 | Value: 74.711289
+Year: 2016 | Value: 74.56188231
+Year: 2017 | Value: 74.98912241
+Year: 2018 | Value: 75.31944699
+Year: 2019 | Value: 75.47815778
+Year: 2020 | Value: 74.11393563
+Year: 2021 | Value: 72.38840694
+Remark: Brazil
+Remark: Life expectancy at birth (years)",Text
+fba4bb2e245b9308bcd4fec9dae207bb17456bec90160b12cd0f440d45e3a024,"Entity: BRB / WHOSIS_000001
+Year: 2000 | Value: 74.60503157
+Year: 2001 | Value: 75.05768919
+Year: 2002 | Value: 74.85759375
+Year: 2003 | Value: 74.55086448
+Year: 2004 | Value: 74.61548026
+Year: 2005 | Value: 74.96322109
+Year: 2006 | Value: 75.05596421
+Year: 2007 | Value: 75.24398474
+Year: 2008 | Value: 75.50932099
+Year: 2009 | Value: 75.90513677
+Year: 2010 | Value: 75.95734033
+Year: 2011 | Value: 76.02367426
+Year: 2012 | Value: 76.23035481
+Year: 2013 | Value: 76.24143589
+Year: 2014 | Value: 76.24311034
+Year: 2015 | Value: 76.29023437
+Year: 2016 | Value: 76.32461251
+Year: 2017 | Value: 76.33626177
+Year: 2018 | Value: 76.28319327
+Year: 2019 | Value: 76.03984637
+Year: 2020 | Value: 76.9491323
+Year: 2021 | Value: 76.8418344
+Remark: Barbados
+Remark: Life expectancy at birth (years)",Text
+72e94a747300770d525013e9fb4d851128a9351f316828ef56bb658800cabfca,"Entity: BRN / WHOSIS_000001
+Year: 2000 | Value: 75.50502993
+Year: 2001 | Value: 75.6811134
+Year: 2002 | Value: 75.90522385
+Year: 2003 | Value: 76.10651217
+Year: 2004 | Value: 76.2980122
+Year: 2005 | Value: 76.47714892
+Year: 2006 | Value: 76.58480393
+Year: 2007 | Value: 76.66441769
+Year: 2008 | Value: 76.7179356
+Year: 2009 | Value: 76.87788068
+Year: 2010 | Value: 76.97095289
+Year: 2011 | Value: 76.98951902
+Year: 2012 | Value: 76.89700471
+Year: 2013 | Value: 76.81966837
+Year: 2014 | Value: 76.65808603
+Year: 2015 | Value: 76.55761257
+Year: 2016 | Value: 76.41822612
+Year: 2017 | Value: 76.40513341
+Year: 2018 | Value: 76.40808264
+Year: 2019 | Value: 76.67529662
+Year: 2020 | Value: 76.76421584
+Year: 2021 | Value: 76.92260844
+Remark: Brunei Darussalam
+Remark: Life expectancy at birth (years)",Text
+a0bf015dbecb944849c3dfd80d1ac3f840a8089e652435978c17890ac75a9159,"Entity: BTN / WHOSIS_000001
+Year: 2000 | Value: 65.98956136
+Year: 2001 | Value: 67.18030943
+Year: 2002 | Value: 67.84566543
+Year: 2003 | Value: 68.38453582
+Year: 2004 | Value: 68.88514264
+Year: 2005 | Value: 69.36895355
+Year: 2006 | Value: 69.95563044
+Year: 2007 | Value: 70.47630807
+Year: 2008 | Value: 70.90903814
+Year: 2009 | Value: 71.27007127
+Year: 2010 | Value: 71.72710313
+Year: 2011 | Value: 72.1269544
+Year: 2012 | Value: 72.45535288
+Year: 2013 | Value: 72.72164626
+Year: 2014 | Value: 72.91360226
+Year: 2015 | Value: 73.07489389
+Year: 2016 | Value: 73.28424565
+Year: 2017 | Value: 73.54716542
+Year: 2018 | Value: 73.75301201
+Year: 2019 | Value: 73.93027807
+Year: 2020 | Value: 74.45119684
+Year: 2021 | Value: 74.87642848
+Remark: Bhutan
+Remark: Life expectancy at birth (years)",Text
+07054ebfef71483622bf9d1c851af8c6e092ff9ccf9b7fb03028ea6977867dd6,"Entity: BWA / WHOSIS_000001
+Year: 2000 | Value: 47.16383585
+Year: 2001 | Value: 46.70431922
+Year: 2002 | Value: 46.95490275
+Year: 2003 | Value: 48.30164814
+Year: 2004 | Value: 50.64076648
+Year: 2005 | Value: 53.16798551
+Year: 2006 | Value: 54.88555112
+Year: 2007 | Value: 55.77024629
+Year: 2008 | Value: 56.1793813
+Year: 2009 | Value: 56.8865344
+Year: 2010 | Value: 57.62665956
+Year: 2011 | Value: 58.41247242
+Year: 2012 | Value: 59.74879487
+Year: 2013 | Value: 60.61242628
+Year: 2014 | Value: 61.38291822
+Year: 2015 | Value: 62.04575871
+Year: 2016 | Value: 62.99012308
+Year: 2017 | Value: 64.01180659
+Year: 2018 | Value: 64.53046521
+Year: 2019 | Value: 64.91884565
+Year: 2020 | Value: 65.16840503
+Year: 2021 | Value: 61.23119159
+Remark: Botswana
+Remark: Life expectancy at birth (years)",Text
+a4fd86eb8772d6e15cf62f110fd01ec60972259326a5a45e0168de4493819cc3,"Entity: CAF / WHOSIS_000001
+Year: 2000 | Value: 44.23425766
+Year: 2001 | Value: 44.47178561
+Year: 2002 | Value: 44.77185837
+Year: 2003 | Value: 45.20505974
+Year: 2004 | Value: 45.61618547
+Year: 2005 | Value: 46.14092523
+Year: 2006 | Value: 46.69775624
+Year: 2007 | Value: 47.39415912
+Year: 2008 | Value: 48.29879732
+Year: 2009 | Value: 48.86668457
+Year: 2010 | Value: 49.20179696
+Year: 2011 | Value: 49.46797321
+Year: 2012 | Value: 49.82204247
+Year: 2013 | Value: 49.31139043
+Year: 2014 | Value: 49.17728884
+Year: 2015 | Value: 50.96983096
+Year: 2016 | Value: 51.50031283
+Year: 2017 | Value: 51.26742466
+Year: 2018 | Value: 52.13733768
+Year: 2019 | Value: 52.93260744
+Year: 2020 | Value: 53.07817181
+Year: 2021 | Value: 52.30772755
+Remark: Central African Republic
+Remark: Life expectancy at birth (years)",Text
+d4e7bc5293398bd2701d7f97b0573c5e474a83e8c4b479691abd890e57cbc288,"Entity: CAN / WHOSIS_000001
+Year: 2000 | Value: 79.08864173
+Year: 2001 | Value: 79.3114365
+Year: 2002 | Value: 79.42214804
+Year: 2003 | Value: 79.5801332
+Year: 2004 | Value: 79.85004413
+Year: 2005 | Value: 79.95094625
+Year: 2006 | Value: 80.37081942
+Year: 2007 | Value: 80.38195578
+Year: 2008 | Value: 80.56313756
+Year: 2009 | Value: 80.88259979
+Year: 2010 | Value: 81.14359407
+Year: 2011 | Value: 81.40188658
+Year: 2012 | Value: 81.49329928
+Year: 2013 | Value: 81.55829938
+Year: 2014 | Value: 81.59103957
+Year: 2015 | Value: 81.64860674
+Year: 2016 | Value: 81.74452018
+Year: 2017 | Value: 81.70954318
+Year: 2018 | Value: 81.73382897
+Year: 2019 | Value: 82.0216251
+Year: 2020 | Value: 81.29950989
+Year: 2021 | Value: 81.58276248
+Remark: Canada
+Remark: Life expectancy at birth (years)",Text
+775e3601092200f4c3fc220a6484302f4c94eb766ac789d437adbe495afafd4d,"Entity: CHE / WHOSIS_000001
+Year: 2000 | Value: 79.71469969
+Year: 2001 | Value: 80.10038738
+Year: 2002 | Value: 80.41025592
+Year: 2003 | Value: 80.40439825
+Year: 2004 | Value: 80.94173199
+Year: 2005 | Value: 81.11493442
+Year: 2006 | Value: 81.41480541
+Year: 2007 | Value: 81.59797301
+Year: 2008 | Value: 81.86194325
+Year: 2009 | Value: 81.89043047
+Year: 2010 | Value: 82.19541207
+Year: 2011 | Value: 82.36855875
+Year: 2012 | Value: 82.39224777
+Year: 2013 | Value: 82.47547076
+Year: 2014 | Value: 82.84919576
+Year: 2015 | Value: 82.58994495
+Year: 2016 | Value: 83.17109413
+Year: 2017 | Value: 83.13986197
+Year: 2018 | Value: 83.28963498
+Year: 2019 | Value: 83.47957563
+Year: 2020 | Value: 82.73602492
+Year: 2021 | Value: 83.32795777
+Remark: Switzerland
+Remark: Life expectancy at birth (years)",Text
+ac65857ecd18c410a0e2586fecf6b032436fd3a4e79a985c23a2aac037adfe73,"Entity: CHL / WHOSIS_000001
+Year: 2000 | Value: 76.79721978
+Year: 2001 | Value: 76.75737429
+Year: 2002 | Value: 77.34180988
+Year: 2003 | Value: 77.44592963
+Year: 2004 | Value: 77.54890712
+Year: 2005 | Value: 78.0049121
+Year: 2006 | Value: 78.48262712
+Year: 2007 | Value: 78.48498969
+Year: 2008 | Value: 79.19803048
+Year: 2009 | Value: 79.00490643
+Year: 2010 | Value: 78.83198498
+Year: 2011 | Value: 79.55204941
+Year: 2012 | Value: 79.58354937
+Year: 2013 | Value: 79.82550323
+Year: 2014 | Value: 79.93658439
+Year: 2015 | Value: 80.12508082
+Year: 2016 | Value: 80.46247256
+Year: 2017 | Value: 80.65876294
+Year: 2018 | Value: 80.96185803
+Year: 2019 | Value: 81.02769155
+Year: 2020 | Value: 79.90385052
+Year: 2021 | Value: 79.02404788
+Remark: Chile
+Remark: Life expectancy at birth (years)",Text
+e0835cd63f4043d14bfdc30f7379c4ff9c5c0d4a6a37d9c30e671b4623f9670d,"Entity: CHN / WHOSIS_000001
+Year: 2000 | Value: 70.83886138
+Year: 2001 | Value: 71.13400253
+Year: 2002 | Value: 71.4546616
+Year: 2003 | Value: 71.68827313
+Year: 2004 | Value: 71.93150989
+Year: 2005 | Value: 72.44256077
+Year: 2006 | Value: 73.28900157
+Year: 2007 | Value: 73.8389379
+Year: 2008 | Value: 73.99659977
+Year: 2009 | Value: 74.38654953
+Year: 2010 | Value: 74.65168239
+Year: 2011 | Value: 75.03511843
+Year: 2012 | Value: 75.48068539
+Year: 2013 | Value: 75.84030781
+Year: 2014 | Value: 76.19910536
+Year: 2015 | Value: 76.5103545
+Year: 2016 | Value: 76.71571735
+Year: 2017 | Value: 76.94625698
+Year: 2018 | Value: 77.14021145
+Year: 2019 | Value: 77.31273653
+Year: 2020 | Value: 77.48113543
+Year: 2021 | Value: 77.61619672
+Remark: China
+Remark: Life expectancy at birth (years)",Text
+0890aebd68f89f9b5cfd135a699cd0e4e11a7e884aee72f41ab308de8b16c698,"Entity: CIV / WHOSIS_000001
+Year: 2000 | Value: 51.16878476
+Year: 2001 | Value: 51.50148868
+Year: 2002 | Value: 51.80536737
+Year: 2003 | Value: 52.20445217
+Year: 2004 | Value: 52.80209302
+Year: 2005 | Value: 53.84685304
+Year: 2006 | Value: 54.91662177
+Year: 2007 | Value: 55.73160801
+Year: 2008 | Value: 56.57054792
+Year: 2009 | Value: 57.18053039
+Year: 2010 | Value: 57.33114203
+Year: 2011 | Value: 57.55420401
+Year: 2012 | Value: 58.54983117
+Year: 2013 | Value: 59.30998362
+Year: 2014 | Value: 60.06789432
+Year: 2015 | Value: 60.9342411
+Year: 2016 | Value: 61.62678525
+Year: 2017 | Value: 62.27592918
+Year: 2018 | Value: 62.90790762
+Year: 2019 | Value: 63.48479652
+Year: 2020 | Value: 63.31088991
+Year: 2021 | Value: 63.5174083
+Remark: Cote d'Ivoire
+Remark: Life expectancy at birth (years)",Text
+080e91f32bf83e09497dd0dfd53474613ce1fd41fdf00dd7848107c31302c57f,"Entity: CMR / WHOSIS_000001
+Year: 2000 | Value: 52.95852821
+Year: 2001 | Value: 52.89875064
+Year: 2002 | Value: 52.90318218
+Year: 2003 | Value: 53.05889292
+Year: 2004 | Value: 53.56554781
+Year: 2005 | Value: 54.1270059
+Year: 2006 | Value: 54.52792524
+Year: 2007 | Value: 55.00397444
+Year: 2008 | Value: 55.69426406
+Year: 2009 | Value: 56.2682285
+Year: 2010 | Value: 56.78466995
+Year: 2011 | Value: 57.25716759
+Year: 2012 | Value: 57.77355305
+Year: 2013 | Value: 58.1602222
+Year: 2014 | Value: 58.43615921
+Year: 2015 | Value: 58.9843954
+Year: 2016 | Value: 59.79056297
+Year: 2017 | Value: 60.64260038
+Year: 2018 | Value: 61.3869156
+Year: 2019 | Value: 62.02612874
+Year: 2020 | Value: 62.18085382
+Year: 2021 | Value: 61.76934896
+Remark: Cameroon
+Remark: Life expectancy at birth (years)",Text
+8b3684ce4d8560905b002e85a0177dad676671c1e183a8cff02af412b5e14506,"Entity: COD / WHOSIS_000001
+Year: 2000 | Value: 52.64392739
+Year: 2001 | Value: 52.99713016
+Year: 2002 | Value: 53.2535703
+Year: 2003 | Value: 53.6935484
+Year: 2004 | Value: 54.34409074
+Year: 2005 | Value: 54.94182979
+Year: 2006 | Value: 55.48457469
+Year: 2007 | Value: 55.97784827
+Year: 2008 | Value: 56.32188866
+Year: 2009 | Value: 56.80885819
+Year: 2010 | Value: 57.39937072
+Year: 2011 | Value: 57.88760041
+Year: 2012 | Value: 58.3404554
+Year: 2013 | Value: 58.89523659
+Year: 2014 | Value: 59.46084106
+Year: 2015 | Value: 59.96244072
+Year: 2016 | Value: 60.43572174
+Year: 2017 | Value: 60.84101636
+Year: 2018 | Value: 61.4317933
+Year: 2019 | Value: 61.83901232
+Year: 2020 | Value: 62.03594732
+Year: 2021 | Value: 61.62552641
+Remark: Democratic Republic of the Congo
+Remark: Life expectancy at birth (years)",Text
+273304f50eb37ddebcc8248b3987338725bc92c45296c22c78c8f6c57d84b5d3,"Entity: COG / WHOSIS_000001
+Year: 2000 | Value: 52.21826617
+Year: 2001 | Value: 53.11126203
+Year: 2002 | Value: 53.80580675
+Year: 2003 | Value: 54.50087703
+Year: 2004 | Value: 55.40549068
+Year: 2005 | Value: 56.51057672
+Year: 2006 | Value: 57.53120192
+Year: 2007 | Value: 58.25955292
+Year: 2008 | Value: 59.22236239
+Year: 2009 | Value: 60.08941536
+Year: 2010 | Value: 60.60462815
+Year: 2011 | Value: 61.13100658
+Year: 2012 | Value: 61.21875153
+Year: 2013 | Value: 61.42791356
+Year: 2014 | Value: 61.64003199
+Year: 2015 | Value: 62.05475682
+Year: 2016 | Value: 62.56582962
+Year: 2017 | Value: 62.84312978
+Year: 2018 | Value: 63.05964242
+Year: 2019 | Value: 62.75844008
+Year: 2020 | Value: 63.35937843
+Year: 2021 | Value: 63.17262301
+Remark: Congo
+Remark: Life expectancy at birth (years)",Text
+307e053a86ab606bbdbe5f11010fc15cca674b3630d3f0296e5c45be7b15cb3f,"Entity: COL / WHOSIS_000001
+Year: 2000 | Value: 72.53854433
+Year: 2001 | Value: 72.62895792
+Year: 2002 | Value: 72.8310481
+Year: 2003 | Value: 73.54484514
+Year: 2004 | Value: 73.98320442
+Year: 2005 | Value: 74.43998835
+Year: 2006 | Value: 74.69666325
+Year: 2007 | Value: 75.19865773
+Year: 2008 | Value: 75.40888643
+Year: 2009 | Value: 75.75932913
+Year: 2010 | Value: 75.96054748
+Year: 2011 | Value: 76.68552906
+Year: 2012 | Value: 76.94484313
+Year: 2013 | Value: 77.2278702
+Year: 2014 | Value: 77.36559952
+Year: 2015 | Value: 77.34484367
+Year: 2016 | Value: 77.57662615
+Year: 2017 | Value: 77.7944403
+Year: 2018 | Value: 77.82372796
+Year: 2019 | Value: 77.9535847
+Year: 2020 | Value: 76.17457612
+Year: 2021 | Value: 74.53297363
+Remark: Colombia
+Remark: Life expectancy at birth (years)",Text
+1618fe59c5f51dbc9ac2f9c55d4d20c56fffc87d50fb92ffebb47dc7b81c572d,"Entity: COM / WHOSIS_000001
+Year: 2000 | Value: 62.03733666
+Year: 2001 | Value: 62.70292188
+Year: 2002 | Value: 63.12089097
+Year: 2003 | Value: 63.63164331
+Year: 2004 | Value: 63.97536549
+Year: 2005 | Value: 64.27700657
+Year: 2006 | Value: 64.55149646
+Year: 2007 | Value: 64.77430676
+Year: 2008 | Value: 65.33611843
+Year: 2009 | Value: 65.01480079
+Year: 2010 | Value: 65.96560133
+Year: 2011 | Value: 65.80471815
+Year: 2012 | Value: 66.39715563
+Year: 2013 | Value: 66.72653391
+Year: 2014 | Value: 67.0710997
+Year: 2015 | Value: 67.42647275
+Year: 2016 | Value: 67.70212624
+Year: 2017 | Value: 67.83204139
+Year: 2018 | Value: 68.19621524
+Year: 2019 | Value: 68.10062174
+Year: 2020 | Value: 68.30703432
+Year: 2021 | Value: 67.4970386
+Remark: Comoros
+Remark: Life expectancy at birth (years)",Text
+1998bd054dd3ce655d41c425ffe63be73cb4a5e977446fddc5885157a6766176,"Entity: CPV / WHOSIS_000001
+Year: 2000 | Value: 71.69763358
+Year: 2001 | Value: 71.98653007
+Year: 2002 | Value: 72.18506527
+Year: 2003 | Value: 72.33302782
+Year: 2004 | Value: 72.44024713
+Year: 2005 | Value: 72.6194338
+Year: 2006 | Value: 73.4096215
+Year: 2007 | Value: 73.46976452
+Year: 2008 | Value: 73.93039416
+Year: 2009 | Value: 73.98241137
+Year: 2010 | Value: 74.23169531
+Year: 2011 | Value: 74.33323277
+Year: 2012 | Value: 74.4642814
+Year: 2013 | Value: 74.70386595
+Year: 2014 | Value: 74.86891105
+Year: 2015 | Value: 74.82831017
+Year: 2016 | Value: 74.86326568
+Year: 2017 | Value: 74.91155361
+Year: 2018 | Value: 73.8583216
+Year: 2019 | Value: 74.05989707
+Year: 2020 | Value: 73.66739044
+Year: 2021 | Value: 73.16097765
+Remark: Cabo Verde
+Remark: Life expectancy at birth (years)",Text
+1f99e1d3565463e69e2d7c38a8834d0dd3802ef65641a0cf4d4791cc8190d85e,"Entity: CRI / WHOSIS_000001
+Year: 2000 | Value: 78.16621895
+Year: 2001 | Value: 78.07165726
+Year: 2002 | Value: 78.85732142
+Year: 2003 | Value: 78.7075014
+Year: 2004 | Value: 78.67775018
+Year: 2005 | Value: 79.72199388
+Year: 2006 | Value: 79.36411318
+Year: 2007 | Value: 80.2305467
+Year: 2008 | Value: 80.2939043
+Year: 2009 | Value: 80.60955741
+Year: 2010 | Value: 79.51380421
+Year: 2011 | Value: 80.26271645
+Year: 2012 | Value: 80.42316166
+Year: 2013 | Value: 80.59788537
+Year: 2014 | Value: 80.47995762
+Year: 2015 | Value: 80.57423676
+Year: 2016 | Value: 80.11048492
+Year: 2017 | Value: 80.19506162
+Year: 2018 | Value: 80.28882351
+Year: 2019 | Value: 80.30073211
+Year: 2020 | Value: 79.99304212
+Year: 2021 | Value: 78.63053412
+Remark: Costa Rica
+Remark: Life expectancy at birth (years)",Text
+b2ac65b181fa0a4e50b383de12b93cac82bd15b87c22e8c3e3087ed3c3fee8c6,"Entity: CUB / WHOSIS_000001
+Year: 2000 | Value: 76.74758667
+Year: 2001 | Value: 76.71378311
+Year: 2002 | Value: 77.74907347
+Year: 2003 | Value: 77.44238196
+Year: 2004 | Value: 77.44558258
+Year: 2005 | Value: 77.20755679
+Year: 2006 | Value: 78.02512407
+Year: 2007 | Value: 78.10025005
+Year: 2008 | Value: 77.87743841
+Year: 2009 | Value: 78.01983317
+Year: 2010 | Value: 77.83366676
+Year: 2011 | Value: 78.52888871
+Year: 2012 | Value: 78.42125643
+Year: 2013 | Value: 78.31147223
+Year: 2014 | Value: 78.1433227
+Year: 2015 | Value: 77.92972815
+Year: 2016 | Value: 78.14353782
+Year: 2017 | Value: 77.65330792
+Year: 2018 | Value: 77.85421876
+Year: 2019 | Value: 77.66173555
+Year: 2020 | Value: 77.63538969
+Year: 2021 | Value: 73.67333077
+Remark: Cuba
+Remark: Life expectancy at birth (years)",Text
+91f372a54199831ccd7ed315240128183cb3086e1e7b1ad4ffa59da6f914c4d8,"Entity: CYP / WHOSIS_000001
+Year: 2000 | Value: 78.83247264
+Year: 2001 | Value: 78.86668678
+Year: 2002 | Value: 78.99615853
+Year: 2003 | Value: 79.11243929
+Year: 2004 | Value: 79.27834154
+Year: 2005 | Value: 79.53715992
+Year: 2006 | Value: 79.83910882
+Year: 2007 | Value: 80.21271187
+Year: 2008 | Value: 80.589293
+Year: 2009 | Value: 80.92281877
+Year: 2010 | Value: 81.17822871
+Year: 2011 | Value: 81.38772648
+Year: 2012 | Value: 81.61972744
+Year: 2013 | Value: 81.84969587
+Year: 2014 | Value: 81.84705653
+Year: 2015 | Value: 81.80149333
+Year: 2016 | Value: 81.7149767
+Year: 2017 | Value: 81.86957092
+Year: 2018 | Value: 82.05668584
+Year: 2019 | Value: 82.17744701
+Year: 2020 | Value: 82.06263041
+Year: 2021 | Value: 81.912741
+Remark: Cyprus
+Remark: Life expectancy at birth (years)",Text
+5a11a3c7ea6730f8bb7d7881e8752171422090c2527d7735cf6fa53bf25815f1,"Entity: CZE / WHOSIS_000001
+Year: 2000 | Value: 75.0301441
+Year: 2001 | Value: 75.30051991
+Year: 2002 | Value: 75.36384265
+Year: 2003 | Value: 75.26103133
+Year: 2004 | Value: 75.78544673
+Year: 2005 | Value: 75.99869845
+Year: 2006 | Value: 76.60775206
+Year: 2007 | Value: 76.86519129
+Year: 2008 | Value: 77.1537423
+Year: 2009 | Value: 77.27519564
+Year: 2010 | Value: 77.55051822
+Year: 2011 | Value: 77.78639074
+Year: 2012 | Value: 77.96926876
+Year: 2013 | Value: 78.1114359
+Year: 2014 | Value: 78.68016445
+Year: 2015 | Value: 78.48257933
+Year: 2016 | Value: 78.93030378
+Year: 2017 | Value: 78.85473024
+Year: 2018 | Value: 78.89195159
+Year: 2019 | Value: 79.13720815
+Year: 2020 | Value: 78.12978194
+Year: 2021 | Value: 77.07730392
+Remark: Czechia
+Remark: Life expectancy at birth (years)",Text
+051aee5f050e75301f84ee97f365293f59ad310f4109d29e09530807c585c813,"Entity: DEU / WHOSIS_000001
+Year: 2000 | Value: 78.10603024
+Year: 2001 | Value: 78.44285248
+Year: 2002 | Value: 78.46153264
+Year: 2003 | Value: 78.45648391
+Year: 2004 | Value: 79.02932323
+Year: 2005 | Value: 79.20819712
+Year: 2006 | Value: 79.60448013
+Year: 2007 | Value: 79.79113261
+Year: 2008 | Value: 79.87792037
+Year: 2009 | Value: 79.99437865
+Year: 2010 | Value: 80.18047005
+Year: 2011 | Value: 80.46331457
+Year: 2012 | Value: 80.59346041
+Year: 2013 | Value: 80.28874618
+Year: 2014 | Value: 80.7599266
+Year: 2015 | Value: 80.4259243
+Year: 2016 | Value: 80.68537775
+Year: 2017 | Value: 80.75116875
+Year: 2018 | Value: 80.64820055
+Year: 2019 | Value: 80.97360663
+Year: 2020 | Value: 80.79637728
+Year: 2021 | Value: 80.49140555
+Remark: Germany
+Remark: Life expectancy at birth (years)",Text
+896fd28048a0447ea2d3ce57383d06f067c816d1f6bac465852a2fe12734d3b1,"Entity: DJI / WHOSIS_000001
+Year: 2000 | Value: 59.51993524
+Year: 2001 | Value: 59.48459433
+Year: 2002 | Value: 59.49469647
+Year: 2003 | Value: 59.65312998
+Year: 2004 | Value: 59.74871021
+Year: 2005 | Value: 60.0931017
+Year: 2006 | Value: 60.21901234
+Year: 2007 | Value: 60.99155224
+Year: 2008 | Value: 61.38655907
+Year: 2009 | Value: 61.71487892
+Year: 2010 | Value: 62.01403181
+Year: 2011 | Value: 62.33627596
+Year: 2012 | Value: 62.75529104
+Year: 2013 | Value: 63.13924805
+Year: 2014 | Value: 63.51525954
+Year: 2015 | Value: 63.87735947
+Year: 2016 | Value: 64.3388502
+Year: 2017 | Value: 64.73030842
+Year: 2018 | Value: 65.12011598
+Year: 2019 | Value: 65.43875202
+Year: 2020 | Value: 65.26548162
+Year: 2021 | Value: 64.87227149
+Remark: Djibouti
+Remark: Life expectancy at birth (years)",Text
+19056dadbe06f73311ab036e0ff415dd0aa2e99d7e46247edfe0744c0ab30c39,"Entity: DNK / WHOSIS_000001
+Year: 2000 | Value: 76.93482299
+Year: 2001 | Value: 77.04219494
+Year: 2002 | Value: 77.0288458
+Year: 2003 | Value: 77.31785032
+Year: 2004 | Value: 77.68985024
+Year: 2005 | Value: 78.13130379
+Year: 2006 | Value: 78.19096238
+Year: 2007 | Value: 78.29892667
+Year: 2008 | Value: 78.63896492
+Year: 2009 | Value: 78.87762743
+Year: 2010 | Value: 79.16903741
+Year: 2011 | Value: 79.68812406
+Year: 2012 | Value: 79.96581949
+Year: 2013 | Value: 80.1645831
+Year: 2014 | Value: 80.51401409
+Year: 2015 | Value: 80.59412958
+Year: 2016 | Value: 80.71406105
+Year: 2017 | Value: 80.94104357
+Year: 2018 | Value: 80.82345271
+Year: 2019 | Value: 81.27895276
+Year: 2020 | Value: 81.36821984
+Year: 2021 | Value: 81.18400442
+Remark: Denmark
+Remark: Life expectancy at birth (years)",Text
+f42bbb3de0d3034a5f1ac3032c4ae301aa2083c3247db0e6cc1c8c1d36a9f8ab,"Entity: DOM / WHOSIS_000001
+Year: 2000 | Value: 73.39790354
+Year: 2001 | Value: 73.59849431
+Year: 2002 | Value: 73.59133884
+Year: 2003 | Value: 73.229535
+Year: 2004 | Value: 72.74531085
+Year: 2005 | Value: 72.80023496
+Year: 2006 | Value: 72.80245873
+Year: 2007 | Value: 72.98138698
+Year: 2008 | Value: 73.27970118
+Year: 2009 | Value: 73.54510674
+Year: 2010 | Value: 73.80111624
+Year: 2011 | Value: 74.02906414
+Year: 2012 | Value: 73.71953299
+Year: 2013 | Value: 73.27936819
+Year: 2014 | Value: 73.26353439
+Year: 2015 | Value: 73.29460988
+Year: 2016 | Value: 73.33430363
+Year: 2017 | Value: 73.41062894
+Year: 2018 | Value: 73.52093617
+Year: 2019 | Value: 73.91314074
+Year: 2020 | Value: 73.56757121
+Year: 2021 | Value: 73.32102758
+Remark: Dominican Republic
+Remark: Life expectancy at birth (years)",Text
+606239780119b621a70e8a932dac922a08b1dd6d0b312c852f71104ce21dea0b,"Entity: DZA / WHOSIS_000001
+Year: 2000 | Value: 72.46839135
+Year: 2001 | Value: 72.77159448
+Year: 2002 | Value: 73.0881827
+Year: 2003 | Value: 73.27414327
+Year: 2004 | Value: 73.76320427
+Year: 2005 | Value: 74.07853584
+Year: 2006 | Value: 74.34609406
+Year: 2007 | Value: 74.59216684
+Year: 2008 | Value: 74.83898594
+Year: 2009 | Value: 75.06025654
+Year: 2010 | Value: 75.28662824
+Year: 2011 | Value: 75.4488721
+Year: 2012 | Value: 75.63920415
+Year: 2013 | Value: 75.79056138
+Year: 2014 | Value: 75.93393131
+Year: 2015 | Value: 76.06909233
+Year: 2016 | Value: 76.27818922
+Year: 2017 | Value: 76.40431934
+Year: 2018 | Value: 76.4358357
+Year: 2019 | Value: 76.54768313
+Year: 2020 | Value: 74.02004217
+Year: 2021 | Value: 75.97765182
+Remark: Algeria
+Remark: Life expectancy at birth (years)",Text
+ee44ba74814c9ca15e1d80aa0d4ee7f03c5fc848449c0546cf057ce89fc86331,"Entity: ECU / WHOSIS_000001
+Year: 2000 | Value: 72.58843233
+Year: 2001 | Value: 73.06545756
+Year: 2002 | Value: 73.16724011
+Year: 2003 | Value: 73.9172371
+Year: 2004 | Value: 73.96568777
+Year: 2005 | Value: 73.75770165
+Year: 2006 | Value: 73.97387898
+Year: 2007 | Value: 74.34691701
+Year: 2008 | Value: 74.40727021
+Year: 2009 | Value: 74.93359345
+Year: 2010 | Value: 75.14738891
+Year: 2011 | Value: 75.58177801
+Year: 2012 | Value: 75.807667
+Year: 2013 | Value: 76.40415478
+Year: 2014 | Value: 76.8969622
+Year: 2015 | Value: 77.15293465
+Year: 2016 | Value: 77.17996695
+Year: 2017 | Value: 77.31252311
+Year: 2018 | Value: 77.46907136
+Year: 2019 | Value: 77.75172721
+Year: 2020 | Value: 72.71138213
+Year: 2021 | Value: 73.95801182
+Remark: Ecuador
+Remark: Life expectancy at birth (years)",Text
+2d4d01b58b5c266bb562a8cb20060d7e5ff2b916033161093ac139aa33b65ba0,"Entity: EGY / WHOSIS_000001
+Year: 2000 | Value: 69.14860157
+Year: 2001 | Value: 68.84530776
+Year: 2002 | Value: 68.85252001
+Year: 2003 | Value: 68.78353005
+Year: 2004 | Value: 69.18228637
+Year: 2005 | Value: 69.52274009
+Year: 2006 | Value: 69.56785371
+Year: 2007 | Value: 69.74814425
+Year: 2008 | Value: 69.77109335
+Year: 2009 | Value: 69.78931749
+Year: 2010 | Value: 69.83444177
+Year: 2011 | Value: 70.08390953
+Year: 2012 | Value: 69.82990211
+Year: 2013 | Value: 70.47150621
+Year: 2014 | Value: 70.46262161
+Year: 2015 | Value: 70.05641038
+Year: 2016 | Value: 70.7024138
+Year: 2017 | Value: 71.25138812
+Year: 2018 | Value: 71.35791195
+Year: 2019 | Value: 71.58973358
+Year: 2020 | Value: 70.12068297
+Year: 2021 | Value: 69.10821615
+Remark: Egypt
+Remark: Life expectancy at birth (years)",Text
+360b131e9e42543c73b1e4f74832684c96d5edbc359651797d17fd216feb32bc,"Entity: EMR / WHOSIS_000001
+Year: 2000 | Value: 65.45448064
+Year: 2001 | Value: 65.64591089
+Year: 2002 | Value: 65.88711487
+Year: 2003 | Value: 65.93877747
+Year: 2004 | Value: 66.33371913
+Year: 2005 | Value: 66.40715771
+Year: 2006 | Value: 66.88891361
+Year: 2007 | Value: 67.21417049
+Year: 2008 | Value: 67.59196827
+Year: 2009 | Value: 67.91200906
+Year: 2010 | Value: 68.14019842
+Year: 2011 | Value: 68.18516686
+Year: 2012 | Value: 68.39586296
+Year: 2013 | Value: 68.82100699
+Year: 2014 | Value: 68.82634221
+Year: 2015 | Value: 68.93543861
+Year: 2016 | Value: 69.2312657
+Year: 2017 | Value: 69.50810208
+Year: 2018 | Value: 69.83224713
+Year: 2019 | Value: 70.18316524
+Year: 2020 | Value: 68.92815031
+Year: 2021 | Value: 68.48743553
+Remark: Life expectancy at birth (years)",Text
+807fbce4114aa1e69e40ae22cc9779b69af3460b63ffc25d43f4604a5e4409af,"Entity: ERI / WHOSIS_000001
+Year: 2000 | Value: 54.93355711
+Year: 2001 | Value: 56.20141934
+Year: 2002 | Value: 56.7567552
+Year: 2003 | Value: 57.22781288
+Year: 2004 | Value: 57.68987112
+Year: 2005 | Value: 58.13577563
+Year: 2006 | Value: 58.75833395
+Year: 2007 | Value: 59.29093298
+Year: 2008 | Value: 59.61833756
+Year: 2009 | Value: 60.06524888
+Year: 2010 | Value: 60.44258181
+Year: 2011 | Value: 60.90743675
+Year: 2012 | Value: 61.35054403
+Year: 2013 | Value: 61.71601531
+Year: 2014 | Value: 62.18741649
+Year: 2015 | Value: 62.5177156
+Year: 2016 | Value: 62.87736669
+Year: 2017 | Value: 63.17091217
+Year: 2018 | Value: 63.47224104
+Year: 2019 | Value: 63.76432633
+Year: 2020 | Value: 63.82002522
+Year: 2021 | Value: 63.57308435
+Remark: Eritrea
+Remark: Life expectancy at birth (years)",Text
+0108ee0327942d9ce50318fdab85bb2f1c42f443170f84fd197893f769e8c5f4,"Entity: ESP / WHOSIS_000001
+Year: 2000 | Value: 79.09037288
+Year: 2001 | Value: 79.39483865
+Year: 2002 | Value: 79.48845207
+Year: 2003 | Value: 79.41351479
+Year: 2004 | Value: 79.99552369
+Year: 2005 | Value: 80.00981734
+Year: 2006 | Value: 80.67223061
+Year: 2007 | Value: 80.67591348
+Year: 2008 | Value: 80.97341639
+Year: 2009 | Value: 81.32919045
+Year: 2010 | Value: 81.693057
+Year: 2011 | Value: 81.81256597
+Year: 2012 | Value: 81.9595375
+Year: 2013 | Value: 82.47881258
+Year: 2014 | Value: 82.58446278
+Year: 2015 | Value: 82.32940416
+Year: 2016 | Value: 82.73070599
+Year: 2017 | Value: 82.67579627
+Year: 2018 | Value: 82.76765981
+Year: 2019 | Value: 83.13561895
+Year: 2020 | Value: 81.92498871
+Year: 2021 | Value: 82.66267258
+Remark: Spain
+Remark: Life expectancy at birth (years)",Text
+3b5ab249d63ef1dc06e97aafdd5cd06d274fc42cd12e83fac77c004201a538fe,"Entity: EST / WHOSIS_000001
+Year: 2000 | Value: 70.96926531
+Year: 2001 | Value: 70.85470275
+Year: 2002 | Value: 71.18420468
+Year: 2003 | Value: 71.87885357
+Year: 2004 | Value: 72.26375853
+Year: 2005 | Value: 72.88570642
+Year: 2006 | Value: 73.02632317
+Year: 2007 | Value: 73.12739174
+Year: 2008 | Value: 74.24703915
+Year: 2009 | Value: 75.04425699
+Year: 2010 | Value: 75.84300326
+Year: 2011 | Value: 76.28720152
+Year: 2012 | Value: 76.40758544
+Year: 2013 | Value: 77.02989191
+Year: 2014 | Value: 77.0967995
+Year: 2015 | Value: 77.63428878
+Year: 2016 | Value: 77.71059498
+Year: 2017 | Value: 78.2161445
+Year: 2018 | Value: 78.3489275
+Year: 2019 | Value: 78.89055582
+Year: 2020 | Value: 78.62190265
+Year: 2021 | Value: 77.13131363
+Remark: Estonia
+Remark: Life expectancy at birth (years)",Text
+0c2d31cc78d0ed528d1246bede80dbb5d5242715503b205206a4671a8d97578d,"Entity: ETH / WHOSIS_000001
+Year: 2000 | Value: 50.78760514
+Year: 2001 | Value: 52.82154779
+Year: 2002 | Value: 53.81305038
+Year: 2003 | Value: 54.78484585
+Year: 2004 | Value: 55.83373985
+Year: 2005 | Value: 57.02975496
+Year: 2006 | Value: 58.32029564
+Year: 2007 | Value: 59.72840645
+Year: 2008 | Value: 61.00289968
+Year: 2009 | Value: 62.16370614
+Year: 2010 | Value: 63.25475143
+Year: 2011 | Value: 64.25857509
+Year: 2012 | Value: 65.13407348
+Year: 2013 | Value: 65.91159894
+Year: 2014 | Value: 66.55987824
+Year: 2015 | Value: 67.10395358
+Year: 2016 | Value: 67.58767511
+Year: 2017 | Value: 68.0726745
+Year: 2018 | Value: 68.47192846
+Year: 2019 | Value: 68.84848169
+Year: 2020 | Value: 68.79596101
+Year: 2021 | Value: 67.83909086
+Remark: Ethiopia
+Remark: Life expectancy at birth (years)",Text
+1f6b70873b67cc98060ad563cda2da696721531f8525d9b4de5861e254eb2e81,"Entity: EUR / WHOSIS_000001
+Year: 2000 | Value: 72.39957333
+Year: 2001 | Value: 72.67016514
+Year: 2002 | Value: 72.70757292
+Year: 2003 | Value: 72.7931665
+Year: 2004 | Value: 73.32032577
+Year: 2005 | Value: 73.41416905
+Year: 2006 | Value: 74.11279931
+Year: 2007 | Value: 74.51560779
+Year: 2008 | Value: 74.81612483
+Year: 2009 | Value: 75.31619825
+Year: 2010 | Value: 75.62937104
+Year: 2011 | Value: 76.14127866
+Year: 2012 | Value: 76.35705486
+Year: 2013 | Value: 76.70126192
+Year: 2014 | Value: 76.88838577
+Year: 2015 | Value: 77.02127407
+Year: 2016 | Value: 77.3506962
+Year: 2017 | Value: 77.62310671
+Year: 2018 | Value: 77.74803442
+Year: 2019 | Value: 78.09893217
+Year: 2020 | Value: 76.92095687
+Year: 2021 | Value: 76.28728907
+Remark: Life expectancy at birth (years)",Text
+85f107e19b4b719ae2edd3f036ca0f1dfcb2a0675487b886bfa5f0d22927e555,"Entity: FIN / WHOSIS_000001
+Year: 2000 | Value: 77.59494705
+Year: 2001 | Value: 78.01784738
+Year: 2002 | Value: 78.12614307
+Year: 2003 | Value: 78.41020069
+Year: 2004 | Value: 78.7283427
+Year: 2005 | Value: 78.98273143
+Year: 2006 | Value: 79.23326293
+Year: 2007 | Value: 79.26874907
+Year: 2008 | Value: 79.5834765
+Year: 2009 | Value: 79.70604252
+Year: 2010 | Value: 79.86591036
+Year: 2011 | Value: 80.2843093
+Year: 2012 | Value: 80.37588921
+Year: 2013 | Value: 80.67798392
+Year: 2014 | Value: 80.86537331
+Year: 2015 | Value: 81.19884704
+Year: 2016 | Value: 81.11659919
+Year: 2017 | Value: 81.32143707
+Year: 2018 | Value: 81.40768747
+Year: 2019 | Value: 81.64702187
+Year: 2020 | Value: 81.54461744
+Year: 2021 | Value: 81.53419484
+Remark: Finland
+Remark: Life expectancy at birth (years)",Text
+dbb4ef85c6f61007224d255d89ad9abba29645789e4eece28a436a3b03f4536d,"Entity: FJI / WHOSIS_000001
+Year: 2000 | Value: 65.82507716
+Year: 2001 | Value: 66.34541639
+Year: 2002 | Value: 66.70441423
+Year: 2003 | Value: 66.62544107
+Year: 2004 | Value: 67.12182465
+Year: 2005 | Value: 67.08454719
+Year: 2006 | Value: 67.08069927
+Year: 2007 | Value: 67.10363711
+Year: 2008 | Value: 67.02758771
+Year: 2009 | Value: 67.25290005
+Year: 2010 | Value: 67.3135839
+Year: 2011 | Value: 67.39745191
+Year: 2012 | Value: 67.51183712
+Year: 2013 | Value: 67.62910016
+Year: 2014 | Value: 67.72103011
+Year: 2015 | Value: 67.8018416
+Year: 2016 | Value: 67.7499939
+Year: 2017 | Value: 67.87169424
+Year: 2018 | Value: 67.86709271
+Year: 2019 | Value: 67.86595098
+Year: 2020 | Value: 67.71119355
+Year: 2021 | Value: 65.50058445
+Remark: Fiji
+Remark: Life expectancy at birth (years)",Text
+c52d2cdc0b53266a4b894273b92a4b2a28ef034ccbf305c5fc5a61c056d275c8,"Entity: FRA / WHOSIS_000001
+Year: 2000 | Value: 78.91105529
+Year: 2001 | Value: 79.01103311
+Year: 2002 | Value: 79.14448316
+Year: 2003 | Value: 79.09102734
+Year: 2004 | Value: 80.00018858
+Year: 2005 | Value: 80.00456559
+Year: 2006 | Value: 80.52598237
+Year: 2007 | Value: 80.79627532
+Year: 2008 | Value: 80.87497757
+Year: 2009 | Value: 81.04063075
+Year: 2010 | Value: 81.2215994
+Year: 2011 | Value: 81.57719696
+Year: 2012 | Value: 81.57752501
+Year: 2013 | Value: 81.81996075
+Year: 2014 | Value: 82.2489409
+Year: 2015 | Value: 81.90513823
+Year: 2016 | Value: 82.13202442
+Year: 2017 | Value: 82.17093951
+Year: 2018 | Value: 82.37708106
+Year: 2019 | Value: 82.52902201
+Year: 2020 | Value: 81.87409035
+Year: 2021 | Value: 81.92274175
+Remark: France
+Remark: Life expectancy at birth (years)",Text
+8fd09ee1e1e81a3265b8602f3a8b9ee0d098b3c389938af5a0ec9d5f0cd7d329,"Entity: FSM / WHOSIS_000001
+Year: 2000 | Value: 63.55831516
+Year: 2001 | Value: 63.81961029
+Year: 2002 | Value: 62.91664429
+Year: 2003 | Value: 64.10175678
+Year: 2004 | Value: 64.15853132
+Year: 2005 | Value: 64.2139938
+Year: 2006 | Value: 64.28893329
+Year: 2007 | Value: 64.36936061
+Year: 2008 | Value: 64.49273801
+Year: 2009 | Value: 64.68062183
+Year: 2010 | Value: 64.77779493
+Year: 2011 | Value: 64.90882285
+Year: 2012 | Value: 65.02895443
+Year: 2013 | Value: 65.16296685
+Year: 2014 | Value: 65.26774587
+Year: 2015 | Value: 65.32541233
+Year: 2016 | Value: 65.5242044
+Year: 2017 | Value: 65.6570782
+Year: 2018 | Value: 65.82693994
+Year: 2019 | Value: 65.9434567
+Year: 2020 | Value: 65.67162273
+Year: 2021 | Value: 65.70956674
+Remark: Micronesia (Federated States of)
+Remark: Life expectancy at birth (years)",Text
+81db9a27ab1e3de712caffbc33a597f04d7998e30cbf4a5afe6bb659d7cff7bf,"Entity: GAB / WHOSIS_000001
+Year: 2000 | Value: 57.68875146
+Year: 2001 | Value: 57.70877986
+Year: 2002 | Value: 58.05614161
+Year: 2003 | Value: 58.21558345
+Year: 2004 | Value: 58.70865642
+Year: 2005 | Value: 59.68914077
+Year: 2006 | Value: 60.2987489
+Year: 2007 | Value: 60.67060002
+Year: 2008 | Value: 60.80435396
+Year: 2009 | Value: 61.22876669
+Year: 2010 | Value: 61.73354089
+Year: 2011 | Value: 62.08769123
+Year: 2012 | Value: 62.66758728
+Year: 2013 | Value: 63.25439162
+Year: 2014 | Value: 63.76784225
+Year: 2015 | Value: 64.00078432
+Year: 2016 | Value: 64.25526743
+Year: 2017 | Value: 64.52552888
+Year: 2018 | Value: 64.70364722
+Year: 2019 | Value: 64.97251699
+Year: 2020 | Value: 65.12601321
+Year: 2021 | Value: 65.09380891
+Remark: Gabon
+Remark: Life expectancy at birth (years)",Text
+26f79736a39d244c134557840d9889e225db326642e97556e6291fecb8b909a0,"Entity: GBR / WHOSIS_000001
+Year: 2000 | Value: 77.85839464
+Year: 2001 | Value: 77.95184342
+Year: 2002 | Value: 78.07797235
+Year: 2003 | Value: 78.14795765
+Year: 2004 | Value: 78.67634871
+Year: 2005 | Value: 78.91215
+Year: 2006 | Value: 79.22561092
+Year: 2007 | Value: 79.41525763
+Year: 2008 | Value: 79.53700634
+Year: 2009 | Value: 80.03183927
+Year: 2010 | Value: 80.25257339
+Year: 2011 | Value: 80.64139781
+Year: 2012 | Value: 80.64107832
+Year: 2013 | Value: 80.68571114
+Year: 2014 | Value: 80.93676029
+Year: 2015 | Value: 80.65863594
+Year: 2016 | Value: 80.81034292
+Year: 2017 | Value: 80.92411386
+Year: 2018 | Value: 80.6238199
+Year: 2019 | Value: 81.22319266
+Year: 2020 | Value: 80.14044898
+Year: 2021 | Value: 80.10062783
+Remark: United Kingdom of Great Britain and Northern Ireland
+Remark: Life expectancy at birth (years)",Text
+f4c98eb3e1f7cc2d22626c8166a1ef100d79b0ae67be47cb3f9e882298047064,"Entity: GEO / WHOSIS_000001
+Year: 2000 | Value: 71.06803049
+Year: 2001 | Value: 71.59125705
+Year: 2002 | Value: 69.8928645
+Year: 2003 | Value: 70.79663901
+Year: 2004 | Value: 70.54094248
+Year: 2005 | Value: 72.04358005
+Year: 2006 | Value: 72.02382849
+Year: 2007 | Value: 72.55257679
+Year: 2008 | Value: 71.71817156
+Year: 2009 | Value: 71.32156688
+Year: 2010 | Value: 71.81805259
+Year: 2011 | Value: 71.94043757
+Year: 2012 | Value: 72.18519482
+Year: 2013 | Value: 72.60327856
+Year: 2014 | Value: 72.72305539
+Year: 2015 | Value: 72.85013916
+Year: 2016 | Value: 72.63239027
+Year: 2017 | Value: 73.50475808
+Year: 2018 | Value: 73.81278834
+Year: 2019 | Value: 73.85275108
+Year: 2020 | Value: 73.10852232
+Year: 2021 | Value: 71.24038597
+Remark: Georgia
+Remark: Life expectancy at birth (years)",Text
+189659fc4688db7a5b2172fbfb3e7673697db0c55e987d12a0ff4cf7553b4b78,"Entity: GHA / WHOSIS_000001
+Year: 2000 | Value: 59.08500401
+Year: 2001 | Value: 59.15248936
+Year: 2002 | Value: 59.31647181
+Year: 2003 | Value: 59.53762932
+Year: 2004 | Value: 59.79633543
+Year: 2005 | Value: 60.06629663
+Year: 2006 | Value: 60.34619824
+Year: 2007 | Value: 60.66755486
+Year: 2008 | Value: 61.08557755
+Year: 2009 | Value: 61.52802106
+Year: 2010 | Value: 61.9748058
+Year: 2011 | Value: 62.58287212
+Year: 2012 | Value: 63.16293767
+Year: 2013 | Value: 63.58672686
+Year: 2014 | Value: 63.96496972
+Year: 2015 | Value: 64.33720534
+Year: 2016 | Value: 64.70727537
+Year: 2017 | Value: 65.08594377
+Year: 2018 | Value: 65.51554359
+Year: 2019 | Value: 65.97133363
+Year: 2020 | Value: 66.18136667
+Year: 2021 | Value: 66.10178519
+Remark: Ghana
+Remark: Life expectancy at birth (years)",Text
+eeb6fc8444b03088511cadd67a386dc41b921863916f0aa7e8b5c0d33e1a0937,"Entity: GIN / WHOSIS_000001
+Year: 2000 | Value: 54.19541328
+Year: 2001 | Value: 54.67176541
+Year: 2002 | Value: 55.1808226
+Year: 2003 | Value: 55.63757789
+Year: 2004 | Value: 56.03427492
+Year: 2005 | Value: 56.45301837
+Year: 2006 | Value: 56.85533921
+Year: 2007 | Value: 57.16190125
+Year: 2008 | Value: 57.53628959
+Year: 2009 | Value: 57.8555884
+Year: 2010 | Value: 58.26432378
+Year: 2011 | Value: 58.59208329
+Year: 2012 | Value: 58.88851718
+Year: 2013 | Value: 59.12749175
+Year: 2014 | Value: 58.60749611
+Year: 2015 | Value: 59.19807943
+Year: 2016 | Value: 59.83918056
+Year: 2017 | Value: 60.25359445
+Year: 2018 | Value: 60.65900972
+Year: 2019 | Value: 61.12869188
+Year: 2020 | Value: 61.15586466
+Year: 2021 | Value: 61.26251027
+Remark: Guinea
+Remark: Life expectancy at birth (years)",Text
+969e4dc371f25169c7fb59d15de0617dd03eaa181ea294cd0f71063773312ecd,"Entity: GLOBAL / WHOSIS_000001
+Year: 2000 | Value: 66.77085146
+Year: 2001 | Value: 67.09900665
+Year: 2002 | Value: 67.35830321
+Year: 2003 | Value: 67.61658
+Year: 2004 | Value: 67.95251087
+Year: 2005 | Value: 68.38661135
+Year: 2006 | Value: 68.98465081
+Year: 2007 | Value: 69.42465871
+Year: 2008 | Value: 69.70064415
+Year: 2009 | Value: 70.21807678
+Year: 2010 | Value: 70.49808463
+Year: 2011 | Value: 70.93277488
+Year: 2012 | Value: 71.30778194
+Year: 2013 | Value: 71.6601959
+Year: 2014 | Value: 71.94618807
+Year: 2015 | Value: 72.18568947
+Year: 2016 | Value: 72.43889094
+Year: 2017 | Value: 72.67542225
+Year: 2018 | Value: 72.88886288
+Year: 2019 | Value: 73.12337447
+Year: 2020 | Value: 72.45043871
+Year: 2021 | Value: 71.36869906
+Remark: Life expectancy at birth (years)",Text
+1ed94b822a99743d8768849b01cec8204eba677c28a01a52130b72461cb4e1c3,"Entity: GMB / WHOSIS_000001
+Year: 2000 | Value: 59.15410966
+Year: 2001 | Value: 59.40248243
+Year: 2002 | Value: 59.58972076
+Year: 2003 | Value: 59.85443013
+Year: 2004 | Value: 60.16114704
+Year: 2005 | Value: 60.52311247
+Year: 2006 | Value: 60.88522742
+Year: 2007 | Value: 61.11617054
+Year: 2008 | Value: 61.50169712
+Year: 2009 | Value: 61.85818495
+Year: 2010 | Value: 62.35679034
+Year: 2011 | Value: 62.84614338
+Year: 2012 | Value: 63.20846898
+Year: 2013 | Value: 63.42180565
+Year: 2014 | Value: 63.57797414
+Year: 2015 | Value: 63.79523685
+Year: 2016 | Value: 64.05468717
+Year: 2017 | Value: 64.31746247
+Year: 2018 | Value: 64.60661374
+Year: 2019 | Value: 64.91162984
+Year: 2020 | Value: 64.7871582
+Year: 2021 | Value: 64.21396887
+Remark: Gambia
+Remark: Life expectancy at birth (years)",Text
+9d0e7fcfda00a0dcf6c406bca02a1e2cc26a7de4f9f8b63e02afeb440bdcc083,"Entity: GNB / WHOSIS_000001
+Year: 2000 | Value: 50.19859342
+Year: 2001 | Value: 50.63672662
+Year: 2002 | Value: 51.04081513
+Year: 2003 | Value: 51.43513822
+Year: 2004 | Value: 51.76786398
+Year: 2005 | Value: 52.21818539
+Year: 2006 | Value: 52.75265393
+Year: 2007 | Value: 53.47365795
+Year: 2008 | Value: 54.20231863
+Year: 2009 | Value: 54.71780339
+Year: 2010 | Value: 55.34491742
+Year: 2011 | Value: 55.96327117
+Year: 2012 | Value: 56.47290302
+Year: 2013 | Value: 56.92169618
+Year: 2014 | Value: 57.18296664
+Year: 2015 | Value: 57.5801364
+Year: 2016 | Value: 58.02773484
+Year: 2017 | Value: 58.3521892
+Year: 2018 | Value: 58.6003654
+Year: 2019 | Value: 58.97631495
+Year: 2020 | Value: 58.37604595
+Year: 2021 | Value: 58.62801846
+Remark: Guinea-Bissau
+Remark: Life expectancy at birth (years)",Text
+94d4bd5038d6d4a7bb036b204066bb7782fd3a75d20854b7c5ca7a02a79a5d6b,"Entity: GNQ / WHOSIS_000001
+Year: 2000 | Value: 54.03083545
+Year: 2001 | Value: 54.84349385
+Year: 2002 | Value: 55.47366319
+Year: 2003 | Value: 55.73628907
+Year: 2004 | Value: 56.18357801
+Year: 2005 | Value: 56.77339509
+Year: 2006 | Value: 57.74387549
+Year: 2007 | Value: 58.62674902
+Year: 2008 | Value: 59.26655739
+Year: 2009 | Value: 59.83637977
+Year: 2010 | Value: 60.00998447
+Year: 2011 | Value: 59.83129965
+Year: 2012 | Value: 60.11028327
+Year: 2013 | Value: 60.96850359
+Year: 2014 | Value: 61.53172347
+Year: 2015 | Value: 61.12739135
+Year: 2016 | Value: 60.85942801
+Year: 2017 | Value: 61.20572328
+Year: 2018 | Value: 61.42093734
+Year: 2019 | Value: 61.38714512
+Year: 2020 | Value: 61.15866176
+Year: 2021 | Value: 61.60542301
+Remark: Equatorial Guinea
+Remark: Life expectancy at birth (years)",Text
+37b4d4b84ae408fa15bbca0be445a011da214517fc1906c0340e988fbf253375,"Entity: GRC / WHOSIS_000001
+Year: 2000 | Value: 78.42147917
+Year: 2001 | Value: 78.82217341
+Year: 2002 | Value: 78.97253017
+Year: 2003 | Value: 79.0919372
+Year: 2004 | Value: 79.2117166
+Year: 2005 | Value: 79.40149641
+Year: 2006 | Value: 79.74258324
+Year: 2007 | Value: 79.45113677
+Year: 2008 | Value: 79.9292479
+Year: 2009 | Value: 80.02249419
+Year: 2010 | Value: 80.23861699
+Year: 2011 | Value: 80.35771121
+Year: 2012 | Value: 80.23315335
+Year: 2013 | Value: 80.77961776
+Year: 2014 | Value: 80.83818972
+Year: 2015 | Value: 80.41608244
+Year: 2016 | Value: 80.71256832
+Year: 2017 | Value: 80.69403193
+Year: 2018 | Value: 81.05191982
+Year: 2019 | Value: 80.90744762
+Year: 2020 | Value: 80.6317386
+Year: 2021 | Value: 79.59785025
+Remark: Greece
+Remark: Life expectancy at birth (years)",Text
+36d0a19f9ad38df97694bff5de80bafcbc207db4766123f3d86ea13b9c421ac4,"Entity: GRD / WHOSIS_000001
+Year: 2000 | Value: 71.59448817
+Year: 2001 | Value: 71.53484581
+Year: 2002 | Value: 71.12022945
+Year: 2003 | Value: 70.832783
+Year: 2004 | Value: 70.40655547
+Year: 2005 | Value: 70.64904308
+Year: 2006 | Value: 70.91199156
+Year: 2007 | Value: 71.03136798
+Year: 2008 | Value: 70.92544169
+Year: 2009 | Value: 70.93802753
+Year: 2010 | Value: 71.08230057
+Year: 2011 | Value: 72.12250252
+Year: 2012 | Value: 72.68392882
+Year: 2013 | Value: 72.62189848
+Year: 2014 | Value: 72.54366171
+Year: 2015 | Value: 72.54736101
+Year: 2016 | Value: 72.49134059
+Year: 2017 | Value: 72.61647079
+Year: 2018 | Value: 72.78877041
+Year: 2019 | Value: 72.72978901
+Year: 2020 | Value: 75.35142309
+Year: 2021 | Value: 72.77322454
+Remark: Grenada
+Remark: Life expectancy at birth (years)",Text
+21fd9e6a9f1ed314f94212a6b5ab297522f98c253a4b26f3ea10011e0154e088,"Entity: GTM / WHOSIS_000001
+Year: 2000 | Value: 68.30883271
+Year: 2001 | Value: 68.64112754
+Year: 2002 | Value: 69.34050502
+Year: 2003 | Value: 69.39160529
+Year: 2004 | Value: 69.65899192
+Year: 2005 | Value: 69.30530428
+Year: 2006 | Value: 69.85634314
+Year: 2007 | Value: 70.68269963
+Year: 2008 | Value: 71.01416309
+Year: 2009 | Value: 70.84468993
+Year: 2010 | Value: 71.06943555
+Year: 2011 | Value: 71.55408827
+Year: 2012 | Value: 71.91726662
+Year: 2013 | Value: 71.749288
+Year: 2014 | Value: 71.9774007
+Year: 2015 | Value: 72.0454314
+Year: 2016 | Value: 72.23492224
+Year: 2017 | Value: 72.69594645
+Year: 2018 | Value: 72.72918484
+Year: 2019 | Value: 72.70697215
+Year: 2020 | Value: 70.95988885
+Year: 2021 | Value: 68.69573697
+Remark: Guatemala
+Remark: Life expectancy at birth (years)",Text
+a9f7c17b2deac41b7a8506c3a159c367ae322e98abb1cddb603cad7d5a709c1a,"Entity: GUY / WHOSIS_000001
+Year: 2000 | Value: 64.65122902
+Year: 2001 | Value: 64.66515946
+Year: 2002 | Value: 64.62860972
+Year: 2003 | Value: 64.68058964
+Year: 2004 | Value: 64.85780334
+Year: 2005 | Value: 65.05195592
+Year: 2006 | Value: 65.30397068
+Year: 2007 | Value: 65.67248785
+Year: 2008 | Value: 65.75519494
+Year: 2009 | Value: 66.08669636
+Year: 2010 | Value: 66.14634849
+Year: 2011 | Value: 66.13531761
+Year: 2012 | Value: 66.17236525
+Year: 2013 | Value: 66.2421095
+Year: 2014 | Value: 66.55197342
+Year: 2015 | Value: 66.95276619
+Year: 2016 | Value: 67.56739413
+Year: 2017 | Value: 68.19380586
+Year: 2018 | Value: 68.74661773
+Year: 2019 | Value: 68.73185311
+Year: 2020 | Value: 66.93943966
+Year: 2021 | Value: 66.0777533
+Remark: Guyana
+Remark: Life expectancy at birth (years)",Text
+3abbb26c4084d0762096a178c57b8b8aacb7d9d18d071cb3d4299d470206c788,"Entity: HND / WHOSIS_000001
+Year: 2000 | Value: 69.7632118
+Year: 2001 | Value: 69.91583233
+Year: 2002 | Value: 70.08108435
+Year: 2003 | Value: 70.19195664
+Year: 2004 | Value: 70.3400508
+Year: 2005 | Value: 70.54437222
+Year: 2006 | Value: 70.7448816
+Year: 2007 | Value: 70.94703187
+Year: 2008 | Value: 70.9858569
+Year: 2009 | Value: 70.99448917
+Year: 2010 | Value: 70.83426628
+Year: 2011 | Value: 70.68279372
+Year: 2012 | Value: 68.99495317
+Year: 2013 | Value: 69.35287284
+Year: 2014 | Value: 69.52157081
+Year: 2015 | Value: 69.52898147
+Year: 2016 | Value: 71.09197895
+Year: 2017 | Value: 71.27116934
+Year: 2018 | Value: 71.31264864
+Year: 2019 | Value: 71.43843431
+Year: 2020 | Value: 70.3347631
+Year: 2021 | Value: 68.96309289
+Remark: Honduras
+Remark: Life expectancy at birth (years)",Text
+5bf85b19effe82b690707c2dfe85a19aa6e4e7be48a9d08f3074c22c9f9f3fbe,"Entity: HRV / WHOSIS_000001
+Year: 2000 | Value: 74.75166907
+Year: 2001 | Value: 75.00312259
+Year: 2002 | Value: 75.01293534
+Year: 2003 | Value: 74.86052687
+Year: 2004 | Value: 75.62048664
+Year: 2005 | Value: 75.47609796
+Year: 2006 | Value: 76.02870627
+Year: 2007 | Value: 75.91802017
+Year: 2008 | Value: 76.07190817
+Year: 2009 | Value: 76.44559714
+Year: 2010 | Value: 76.79829944
+Year: 2011 | Value: 77.21146034
+Year: 2012 | Value: 77.35911283
+Year: 2013 | Value: 77.85314853
+Year: 2014 | Value: 78.05645984
+Year: 2015 | Value: 77.60709528
+Year: 2016 | Value: 78.28594377
+Year: 2017 | Value: 78.12551064
+Year: 2018 | Value: 78.33929688
+Year: 2019 | Value: 78.60209541
+Year: 2020 | Value: 77.86469683
+Year: 2021 | Value: 76.8616792
+Remark: Croatia
+Remark: Life expectancy at birth (years)",Text
+48d5d5c39e1fb5856d6cf226f44eb6e99855c807af7788f76f3e3bf272e51c41,"Entity: HTI / WHOSIS_000001
+Year: 2000 | Value: 56.72887807
+Year: 2001 | Value: 57.13290254
+Year: 2002 | Value: 57.58049169
+Year: 2003 | Value: 57.92054551
+Year: 2004 | Value: 57.54298421
+Year: 2005 | Value: 58.63996581
+Year: 2006 | Value: 59.24644609
+Year: 2007 | Value: 59.85463205
+Year: 2008 | Value: 60.2556984
+Year: 2009 | Value: 60.74938385
+Year: 2010 | Value: 39.95809831
+Year: 2011 | Value: 61.10474412
+Year: 2012 | Value: 61.52991507
+Year: 2013 | Value: 61.91874198
+Year: 2014 | Value: 62.25423095
+Year: 2015 | Value: 62.5149437
+Year: 2016 | Value: 62.79654412
+Year: 2017 | Value: 63.2460029
+Year: 2018 | Value: 63.47163817
+Year: 2019 | Value: 63.66018845
+Year: 2020 | Value: 63.41051389
+Year: 2021 | Value: 62.4563858
+Remark: Haiti
+Remark: Life expectancy at birth (years)",Text
+77cff7590e31788686049111e70ee587c0d42d5580c6a46952ff166b36597a6d,"Entity: HUN / WHOSIS_000001
+Year: 2000 | Value: 71.36114531
+Year: 2001 | Value: 72.40337452
+Year: 2002 | Value: 72.48544621
+Year: 2003 | Value: 72.45014443
+Year: 2004 | Value: 72.86168111
+Year: 2005 | Value: 72.84811882
+Year: 2006 | Value: 73.37194198
+Year: 2007 | Value: 73.45839333
+Year: 2008 | Value: 74.0004346
+Year: 2009 | Value: 74.22416063
+Year: 2010 | Value: 74.5619878
+Year: 2011 | Value: 74.90161819
+Year: 2012 | Value: 75.11315879
+Year: 2013 | Value: 75.59159743
+Year: 2014 | Value: 75.777258
+Year: 2015 | Value: 75.5700037
+Year: 2016 | Value: 76.07385445
+Year: 2017 | Value: 75.90176306
+Year: 2018 | Value: 76.08502162
+Year: 2019 | Value: 76.33548535
+Year: 2020 | Value: 75.76307465
+Year: 2021 | Value: 74.39546955
+Remark: Hungary
+Remark: Life expectancy at birth (years)",Text
+49beec83fc506875e1991e3fdc8afe3e648fad530a3bfeba8b6c5dd4df504e18,"Entity: IDN / WHOSIS_000001
+Year: 2000 | Value: 67.20520958
+Year: 2001 | Value: 67.44224013
+Year: 2002 | Value: 67.65122104
+Year: 2003 | Value: 67.84714276
+Year: 2004 | Value: 66.25106515
+Year: 2005 | Value: 68.2347183
+Year: 2006 | Value: 68.40129097
+Year: 2007 | Value: 68.63781807
+Year: 2008 | Value: 68.84079087
+Year: 2009 | Value: 69.0239077
+Year: 2010 | Value: 69.23625966
+Year: 2011 | Value: 69.52313433
+Year: 2012 | Value: 69.79466506
+Year: 2013 | Value: 70.05398814
+Year: 2014 | Value: 70.30298584
+Year: 2015 | Value: 70.53899644
+Year: 2016 | Value: 70.77579907
+Year: 2017 | Value: 71.00063238
+Year: 2018 | Value: 71.1760389
+Year: 2019 | Value: 71.40110181
+Year: 2020 | Value: 69.70367312
+Year: 2021 | Value: 68.26167935
+Remark: Indonesia
+Remark: Life expectancy at birth (years)",Text
+73112154f800510146dbb11d4de63d78d3ae9b107c885b3be0a2f2a4a62a91fa,"Entity: IND / WHOSIS_000001
+Year: 2000 | Value: 63.19893734
+Year: 2001 | Value: 63.6569119
+Year: 2002 | Value: 64.16827815
+Year: 2003 | Value: 64.58440423
+Year: 2004 | Value: 65.06317912
+Year: 2005 | Value: 65.53031169
+Year: 2006 | Value: 65.87842362
+Year: 2007 | Value: 66.09434841
+Year: 2008 | Value: 66.42718453
+Year: 2009 | Value: 67.04997477
+Year: 2010 | Value: 67.480793
+Year: 2011 | Value: 67.83941098
+Year: 2012 | Value: 68.2280584
+Year: 2013 | Value: 68.51609058
+Year: 2014 | Value: 68.91972988
+Year: 2015 | Value: 69.3779891
+Year: 2016 | Value: 69.7812294
+Year: 2017 | Value: 70.06082604
+Year: 2018 | Value: 70.35439242
+Year: 2019 | Value: 70.72711152
+Year: 2020 | Value: 70.1869093
+Year: 2021 | Value: 67.30780612
+Remark: India
+Remark: Life expectancy at birth (years)",Text
+3e6f170114b9befe25a2637a2ccee3dda1a2e6aba4a8435eac783f97891d691a,"Entity: IRL / WHOSIS_000001
+Year: 2000 | Value: 76.41796785
+Year: 2001 | Value: 77.04413457
+Year: 2002 | Value: 77.48003704
+Year: 2003 | Value: 78.02379273
+Year: 2004 | Value: 78.39305519
+Year: 2005 | Value: 78.82008327
+Year: 2006 | Value: 79.06563288
+Year: 2007 | Value: 79.35545225
+Year: 2008 | Value: 79.58286978
+Year: 2009 | Value: 79.53106576
+Year: 2010 | Value: 80.6170111
+Year: 2011 | Value: 80.38545702
+Year: 2012 | Value: 80.49448401
+Year: 2013 | Value: 80.71347486
+Year: 2014 | Value: 81.05218065
+Year: 2015 | Value: 81.13790588
+Year: 2016 | Value: 81.40605545
+Year: 2017 | Value: 81.60361469
+Year: 2018 | Value: 81.71153553
+Year: 2019 | Value: 81.93976292
+Year: 2020 | Value: 81.69720975
+Year: 2021 | Value: 81.60162902
+Remark: Ireland
+Remark: Life expectancy at birth (years)",Text
+71e32f0861d8cf9afb909d79bb9bcd73f6f395b1ad29ad9292495ba2da722973,"Entity: IRN / WHOSIS_000001
+Year: 2000 | Value: 73.48542569
+Year: 2001 | Value: 73.7597003
+Year: 2002 | Value: 74.01828515
+Year: 2003 | Value: 73.34953209
+Year: 2004 | Value: 74.56900109
+Year: 2005 | Value: 74.88504507
+Year: 2006 | Value: 75.20305104
+Year: 2007 | Value: 75.56586174
+Year: 2008 | Value: 75.92719356
+Year: 2009 | Value: 76.24197751
+Year: 2010 | Value: 76.56624741
+Year: 2011 | Value: 76.87171379
+Year: 2012 | Value: 77.0924022
+Year: 2013 | Value: 77.19669632
+Year: 2014 | Value: 77.29855084
+Year: 2015 | Value: 77.27827213
+Year: 2016 | Value: 77.37336206
+Year: 2017 | Value: 77.47896726
+Year: 2018 | Value: 77.69013655
+Year: 2019 | Value: 77.78361908
+Year: 2020 | Value: 75.18860837
+Year: 2021 | Value: 74.71077692
+Remark: Iran (Islamic Republic of)
+Remark: Life expectancy at birth (years)",Text
+7066d838b28a4dea051808c0ed56dae0bb6d6c916870266b9660c6dc18fdfb00,"Entity: IRQ / WHOSIS_000001
+Year: 2000 | Value: 69.48152045
+Year: 2001 | Value: 69.81029867
+Year: 2002 | Value: 70.04461594
+Year: 2003 | Value: 68.91366628
+Year: 2004 | Value: 69.06294468
+Year: 2005 | Value: 68.68305138
+Year: 2006 | Value: 67.66517621
+Year: 2007 | Value: 67.80830577
+Year: 2008 | Value: 69.80976267
+Year: 2009 | Value: 70.61725364
+Year: 2010 | Value: 71.06507591
+Year: 2011 | Value: 71.39863224
+Year: 2012 | Value: 71.6393156
+Year: 2013 | Value: 71.2340952
+Year: 2014 | Value: 70.22637913
+Year: 2015 | Value: 71.00605468
+Year: 2016 | Value: 71.1253103
+Year: 2017 | Value: 71.60611249
+Year: 2018 | Value: 73.06286041
+Year: 2019 | Value: 72.90009776
+Year: 2020 | Value: 70.41410059
+Year: 2021 | Value: 71.46632369
+Remark: Iraq
+Remark: Life expectancy at birth (years)",Text
+a63a88aa9766ba2ebf784b9bcf7bcedf5b75649555cfdeeed7e66eef2585598f,"Entity: ISL / WHOSIS_000001
+Year: 2000 | Value: 79.6920726
+Year: 2001 | Value: 79.99493866
+Year: 2002 | Value: 80.30310703
+Year: 2003 | Value: 80.56916041
+Year: 2004 | Value: 80.76637117
+Year: 2005 | Value: 80.90304444
+Year: 2006 | Value: 81.03602001
+Year: 2007 | Value: 81.14698057
+Year: 2008 | Value: 81.29367071
+Year: 2009 | Value: 81.49587558
+Year: 2010 | Value: 81.68175374
+Year: 2011 | Value: 81.86017778
+Year: 2012 | Value: 81.9847692
+Year: 2013 | Value: 82.07380529
+Year: 2014 | Value: 82.09822512
+Year: 2015 | Value: 82.12605142
+Year: 2016 | Value: 82.17563351
+Year: 2017 | Value: 82.27340584
+Year: 2018 | Value: 82.37332681
+Year: 2019 | Value: 82.4706163
+Year: 2020 | Value: 82.56117418
+Year: 2021 | Value: 82.57766731
+Remark: Iceland
+Remark: Life expectancy at birth (years)",Text
+727edf2c45a9f075db4abc425309bc5eacd24c1796c7688ae1fafed36606fcf7,"Entity: ISR / WHOSIS_000001
+Year: 2000 | Value: 78.54383666
+Year: 2001 | Value: 78.80591438
+Year: 2002 | Value: 78.56218757
+Year: 2003 | Value: 79.09724844
+Year: 2004 | Value: 79.54240915
+Year: 2005 | Value: 79.7067797
+Year: 2006 | Value: 79.95901874
+Year: 2007 | Value: 80.12300616
+Year: 2008 | Value: 80.42212771
+Year: 2009 | Value: 81.12924437
+Year: 2010 | Value: 81.53399975
+Year: 2011 | Value: 81.64888794
+Year: 2012 | Value: 81.57002049
+Year: 2013 | Value: 81.92176085
+Year: 2014 | Value: 81.37964957
+Year: 2015 | Value: 81.91113219
+Year: 2016 | Value: 82.22430729
+Year: 2017 | Value: 82.38134543
+Year: 2018 | Value: 82.59262272
+Year: 2019 | Value: 82.57325579
+Year: 2020 | Value: 82.36508912
+Year: 2021 | Value: 81.74464677
+Remark: Israel
+Remark: Life expectancy at birth (years)",Text
+7e5210f99e3cd3e41b079bbc8b94c16d6669c53f930e2632afef9fb79d30c716,"Entity: ITA / WHOSIS_000001
+Year: 2000 | Value: 79.36611399
+Year: 2001 | Value: 79.67653939
+Year: 2002 | Value: 79.95596277
+Year: 2003 | Value: 79.81728413
+Year: 2004 | Value: 80.52668865
+Year: 2005 | Value: 80.51057716
+Year: 2006 | Value: 81.06442613
+Year: 2007 | Value: 81.17657713
+Year: 2008 | Value: 81.37070791
+Year: 2009 | Value: 81.5215304
+Year: 2010 | Value: 81.89505601
+Year: 2011 | Value: 81.82897949
+Year: 2012 | Value: 81.83712041
+Year: 2013 | Value: 82.2878749
+Year: 2014 | Value: 82.61004631
+Year: 2015 | Value: 82.20433624
+Year: 2016 | Value: 82.86744999
+Year: 2017 | Value: 82.52191209
+Year: 2018 | Value: 82.77664183
+Year: 2019 | Value: 82.98522568
+Year: 2020 | Value: 81.93997914
+Year: 2021 | Value: 82.19747411
+Remark: Italy
+Remark: Life expectancy at birth (years)",Text
+60525ae82d0d6f9f65bfe1a1f50c126095b9b7517d25c98f6373c130d85a6ef5,"Entity: JAM / WHOSIS_000001
+Year: 2000 | Value: 72.25330071
+Year: 2001 | Value: 72.14321688
+Year: 2002 | Value: 73.03304352
+Year: 2003 | Value: 73.46076447
+Year: 2004 | Value: 73.7183442
+Year: 2005 | Value: 71.36246208
+Year: 2006 | Value: 74.44972953
+Year: 2007 | Value: 69.58643623
+Year: 2008 | Value: 70.6377363
+Year: 2009 | Value: 72.19787809
+Year: 2010 | Value: 73.95794492
+Year: 2011 | Value: 72.86139713
+Year: 2012 | Value: 74.19029935
+Year: 2013 | Value: 74.2198557
+Year: 2014 | Value: 73.23854714
+Year: 2015 | Value: 72.28943851
+Year: 2016 | Value: 72.33025467
+Year: 2017 | Value: 72.33086714
+Year: 2018 | Value: 72.51790169
+Year: 2019 | Value: 72.23602877
+Year: 2020 | Value: 72.64037778
+Year: 2021 | Value: 70.1439437
+Remark: Jamaica
+Remark: Life expectancy at birth (years)",Text
+bc4053b7f440785b7c9a97591e28dd7314bc6e9eaa3274d005e77053d52d9af4,"Entity: JOR / WHOSIS_000001
+Year: 2000 | Value: 72.72227433
+Year: 2001 | Value: 72.6802332
+Year: 2002 | Value: 72.9283168
+Year: 2003 | Value: 73.51735567
+Year: 2004 | Value: 73.56285182
+Year: 2005 | Value: 73.42688191
+Year: 2006 | Value: 73.85308999
+Year: 2007 | Value: 74.97453582
+Year: 2008 | Value: 75.81217115
+Year: 2009 | Value: 76.34651794
+Year: 2010 | Value: 76.68909265
+Year: 2011 | Value: 76.9077149
+Year: 2012 | Value: 77.13092988
+Year: 2013 | Value: 77.52470069
+Year: 2014 | Value: 77.96984738
+Year: 2015 | Value: 78.50941007
+Year: 2016 | Value: 78.7600732
+Year: 2017 | Value: 79.14251842
+Year: 2018 | Value: 79.63154866
+Year: 2019 | Value: 79.7854181
+Year: 2020 | Value: 77.55988721
+Year: 2021 | Value: 75.64973596
+Remark: Jordan
+Remark: Life expectancy at birth (years)",Text
+6c5a5234ac4780c1da42db1ca266a857d4b1c3a9ced8543cff1a00c03ec90bd9,"Entity: JPN / WHOSIS_000001
+Year: 2000 | Value: 81.5301793
+Year: 2001 | Value: 81.84225924
+Year: 2002 | Value: 82.10074471
+Year: 2003 | Value: 82.14025197
+Year: 2004 | Value: 82.37003875
+Year: 2005 | Value: 82.23817071
+Year: 2006 | Value: 82.59216336
+Year: 2007 | Value: 82.7592849
+Year: 2008 | Value: 82.83288975
+Year: 2009 | Value: 83.15818254
+Year: 2010 | Value: 83.08330199
+Year: 2011 | Value: 82.82691604
+Year: 2012 | Value: 83.32740995
+Year: 2013 | Value: 83.56021789
+Year: 2014 | Value: 83.79493082
+Year: 2015 | Value: 83.99957263
+Year: 2016 | Value: 84.15707196
+Year: 2017 | Value: 84.25809871
+Year: 2018 | Value: 84.35134487
+Year: 2019 | Value: 84.46675304
+Year: 2020 | Value: 84.66324868
+Year: 2021 | Value: 84.46067178
+Remark: Japan
+Remark: Life expectancy at birth (years)",Text
+621e83336e2435916c29ffa648dc5ff02c65f4759ea992d4c6608fd6c210183d,"Entity: KAZ / WHOSIS_000001
+Year: 2000 | Value: 64.35326131
+Year: 2001 | Value: 64.70931637
+Year: 2002 | Value: 65.03142074
+Year: 2003 | Value: 64.77834271
+Year: 2004 | Value: 65.11633982
+Year: 2005 | Value: 65.06712568
+Year: 2006 | Value: 65.42456634
+Year: 2007 | Value: 65.80148574
+Year: 2008 | Value: 67.14338476
+Year: 2009 | Value: 68.51597079
+Year: 2010 | Value: 68.51031045
+Year: 2011 | Value: 69.12835849
+Year: 2012 | Value: 69.67761395
+Year: 2013 | Value: 70.6757737
+Year: 2014 | Value: 71.47528342
+Year: 2015 | Value: 71.97923102
+Year: 2016 | Value: 72.39593644
+Year: 2017 | Value: 72.96750185
+Year: 2018 | Value: 73.16779578
+Year: 2019 | Value: 73.20279408
+Year: 2020 | Value: 71.3205391
+Year: 2021 | Value: 70.27511981
+Remark: Kazakhstan
+Remark: Life expectancy at birth (years)",Text
+c32ff9e2b2cf79148a7b98e0e102b800d8a077dd46ec0997d8b99acf57cdcb09,"Entity: KEN / WHOSIS_000001
+Year: 2000 | Value: 54.09203911
+Year: 2001 | Value: 54.33283599
+Year: 2002 | Value: 54.58698847
+Year: 2003 | Value: 54.91168271
+Year: 2004 | Value: 55.51027953
+Year: 2005 | Value: 56.3951405
+Year: 2006 | Value: 57.46429328
+Year: 2007 | Value: 58.55063756
+Year: 2008 | Value: 59.48455643
+Year: 2009 | Value: 60.49062126
+Year: 2010 | Value: 61.28276083
+Year: 2011 | Value: 61.98126671
+Year: 2012 | Value: 62.61585724
+Year: 2013 | Value: 63.11575218
+Year: 2014 | Value: 63.63694431
+Year: 2015 | Value: 64.29968929
+Year: 2016 | Value: 65.03249549
+Year: 2017 | Value: 65.61126491
+Year: 2018 | Value: 66.06922549
+Year: 2019 | Value: 66.50141922
+Year: 2020 | Value: 66.79345007
+Year: 2021 | Value: 66.76221995
+Remark: Kenya
+Remark: Life expectancy at birth (years)",Text
+94ad552ae94599991412bfe4c0db238a2d1278f53631af54427ef106e959047c,"Entity: KGZ / WHOSIS_000001
+Year: 2000 | Value: 65.93470005
+Year: 2001 | Value: 66.68305593
+Year: 2002 | Value: 66.25500987
+Year: 2003 | Value: 66.27050684
+Year: 2004 | Value: 66.99096069
+Year: 2005 | Value: 67.04293061
+Year: 2006 | Value: 67.10547635
+Year: 2007 | Value: 67.79056016
+Year: 2008 | Value: 68.29544912
+Year: 2009 | Value: 68.88847772
+Year: 2010 | Value: 69.19156126
+Year: 2011 | Value: 69.54394591
+Year: 2012 | Value: 69.96020158
+Year: 2013 | Value: 70.72932374
+Year: 2014 | Value: 70.89588242
+Year: 2015 | Value: 71.54340028
+Year: 2016 | Value: 72.67043609
+Year: 2017 | Value: 72.80933995
+Year: 2018 | Value: 73.2888512
+Year: 2019 | Value: 73.58598166
+Year: 2020 | Value: 71.47082259
+Year: 2021 | Value: 72.18500345
+Remark: Kyrgyzstan
+Remark: Life expectancy at birth (years)",Text
+a19aae4b160ad048afbf17ef3a6990ac26f42165b6d3b11a3bfe1a1fa37ed160,"Entity: KHM / WHOSIS_000001
+Year: 2000 | Value: 59.10171682
+Year: 2001 | Value: 60.02516946
+Year: 2002 | Value: 60.98797015
+Year: 2003 | Value: 61.89363505
+Year: 2004 | Value: 62.73254827
+Year: 2005 | Value: 63.57944693
+Year: 2006 | Value: 64.39387062
+Year: 2007 | Value: 65.07853491
+Year: 2008 | Value: 65.7502876
+Year: 2009 | Value: 66.28526249
+Year: 2010 | Value: 66.7359551
+Year: 2011 | Value: 67.25370356
+Year: 2012 | Value: 67.72268359
+Year: 2013 | Value: 68.09456793
+Year: 2014 | Value: 68.40636847
+Year: 2015 | Value: 68.66739766
+Year: 2016 | Value: 68.91001703
+Year: 2017 | Value: 69.12694998
+Year: 2018 | Value: 69.35586113
+Year: 2019 | Value: 69.55846339
+Year: 2020 | Value: 69.84097141
+Year: 2021 | Value: 68.92399972
+Remark: Cambodia
+Remark: Life expectancy at birth (years)",Text
+34b52b873b323e02baa2e95c36860c9f28d1e151cc2b78760c97b2d8c109da14,"Entity: KIR / WHOSIS_000001
+Year: 2000 | Value: 60.08437065
+Year: 2001 | Value: 60.39204806
+Year: 2002 | Value: 60.60035552
+Year: 2003 | Value: 60.80039427
+Year: 2004 | Value: 60.91263256
+Year: 2005 | Value: 61.01859221
+Year: 2006 | Value: 61.1004495
+Year: 2007 | Value: 61.1868882
+Year: 2008 | Value: 61.27006207
+Year: 2009 | Value: 61.32259565
+Year: 2010 | Value: 61.36040242
+Year: 2011 | Value: 61.40193967
+Year: 2012 | Value: 61.47703351
+Year: 2013 | Value: 61.57296264
+Year: 2014 | Value: 61.63073757
+Year: 2015 | Value: 61.68537375
+Year: 2016 | Value: 61.75804085
+Year: 2017 | Value: 61.81777917
+Year: 2018 | Value: 60.74880481
+Year: 2019 | Value: 62.13784891
+Year: 2020 | Value: 61.87697198
+Year: 2021 | Value: 60.87345633
+Remark: Kiribati
+Remark: Life expectancy at birth (years)",Text
+eadd1e45b86ef21f30a2c6a5b9d123b8acc25939a405e3b0210ce82a5f04a32f,"Entity: KOR / WHOSIS_000001
+Year: 2000 | Value: 75.85981554
+Year: 2001 | Value: 76.56907797
+Year: 2002 | Value: 76.94317285
+Year: 2003 | Value: 77.4435747
+Year: 2004 | Value: 77.92814417
+Year: 2005 | Value: 78.37092125
+Year: 2006 | Value: 78.96689178
+Year: 2007 | Value: 79.37954426
+Year: 2008 | Value: 79.90917941
+Year: 2009 | Value: 80.36278413
+Year: 2010 | Value: 80.53713356
+Year: 2011 | Value: 80.95337202
+Year: 2012 | Value: 81.13219539
+Year: 2013 | Value: 81.68616863
+Year: 2014 | Value: 82.15999534
+Year: 2015 | Value: 82.40187033
+Year: 2016 | Value: 82.73176167
+Year: 2017 | Value: 83.09217588
+Year: 2018 | Value: 83.15048365
+Year: 2019 | Value: 83.68842093
+Year: 2020 | Value: 83.79726372
+Year: 2021 | Value: 83.79982334
+Remark: Republic of Korea
+Remark: Life expectancy at birth (years)",Text
+fb729c16d97e110196b94b52b67bd380cbae7936c9c585cafd1f3cc54838ff47,"Entity: KWT / WHOSIS_000001
+Year: 2000 | Value: 77.57714875
+Year: 2001 | Value: 78.81293796
+Year: 2002 | Value: 78.20659931
+Year: 2003 | Value: 78.76242947
+Year: 2004 | Value: 78.50276726
+Year: 2005 | Value: 78.37752584
+Year: 2006 | Value: 78.57389835
+Year: 2007 | Value: 79.05909554
+Year: 2008 | Value: 78.26367194
+Year: 2009 | Value: 79.20188159
+Year: 2010 | Value: 80.49475441
+Year: 2011 | Value: 81.44805413
+Year: 2012 | Value: 81.34259433
+Year: 2013 | Value: 81.73672815
+Year: 2014 | Value: 81.88077916
+Year: 2015 | Value: 81.44722022
+Year: 2016 | Value: 82.54800559
+Year: 2017 | Value: 82.62315795
+Year: 2018 | Value: 82.93662831
+Year: 2019 | Value: 82.50221054
+Year: 2020 | Value: 78.76948984
+Year: 2021 | Value: 78.95211671
+Remark: Kuwait
+Remark: Life expectancy at birth (years)",Text
+fc79a995270bed96b4e63995c08ac9cd9511234e5516650b2a668dac767e414d,"Entity: LAO / WHOSIS_000001
+Year: 2000 | Value: 58.27571315
+Year: 2001 | Value: 58.88681637
+Year: 2002 | Value: 59.61142102
+Year: 2003 | Value: 60.19558269
+Year: 2004 | Value: 60.73825821
+Year: 2005 | Value: 61.3511366
+Year: 2006 | Value: 61.98382706
+Year: 2007 | Value: 62.60763355
+Year: 2008 | Value: 63.1872824
+Year: 2009 | Value: 63.79585544
+Year: 2010 | Value: 64.42237003
+Year: 2011 | Value: 65.03889894
+Year: 2012 | Value: 65.52691412
+Year: 2013 | Value: 65.9670211
+Year: 2014 | Value: 66.43037564
+Year: 2015 | Value: 66.87363139
+Year: 2016 | Value: 67.33210713
+Year: 2017 | Value: 67.7232745
+Year: 2018 | Value: 68.05389772
+Year: 2019 | Value: 68.35701918
+Year: 2020 | Value: 68.74340275
+Year: 2021 | Value: 68.23189407
+Remark: Lao People's Democratic Republic
+Remark: Life expectancy at birth (years)",Text
+0ddaac0ba93094e12367b95700e490be9668385f63c034db0d8d32302977c408,"Entity: LBN / WHOSIS_000001
+Year: 2000 | Value: 75.71500924
+Year: 2001 | Value: 76.1562609
+Year: 2002 | Value: 76.55400992
+Year: 2003 | Value: 76.80310121
+Year: 2004 | Value: 77.0970413
+Year: 2005 | Value: 77.17133641
+Year: 2006 | Value: 76.79700172
+Year: 2007 | Value: 77.46682627
+Year: 2008 | Value: 77.52542218
+Year: 2009 | Value: 77.79033646
+Year: 2010 | Value: 77.96731586
+Year: 2011 | Value: 77.97377185
+Year: 2012 | Value: 78.05803939
+Year: 2013 | Value: 78.16479469
+Year: 2014 | Value: 78.22558226
+Year: 2015 | Value: 78.43741249
+Year: 2016 | Value: 78.81840788
+Year: 2017 | Value: 79.03043282
+Year: 2018 | Value: 79.36847038
+Year: 2019 | Value: 79.28679608
+Year: 2020 | Value: 77.70116098
+Year: 2021 | Value: 74.34207035
+Remark: Lebanon
+Remark: Life expectancy at birth (years)",Text
+78a3e53fcc5c21b0b1a012b2dc34aec01972655066872970b8401cef610917bc,"Entity: LBR / WHOSIS_000001
+Year: 2000 | Value: 53.27371266
+Year: 2001 | Value: 53.93145331
+Year: 2002 | Value: 53.66640831
+Year: 2003 | Value: 53.6245833
+Year: 2004 | Value: 56.44158136
+Year: 2005 | Value: 57.55945739
+Year: 2006 | Value: 58.56299111
+Year: 2007 | Value: 59.31134066
+Year: 2008 | Value: 59.75630294
+Year: 2009 | Value: 60.0506239
+Year: 2010 | Value: 60.3582726
+Year: 2011 | Value: 60.73430361
+Year: 2012 | Value: 61.08289847
+Year: 2013 | Value: 61.38474407
+Year: 2014 | Value: 58.11259758
+Year: 2015 | Value: 60.37754989
+Year: 2016 | Value: 62.21305435
+Year: 2017 | Value: 62.62958569
+Year: 2018 | Value: 63.09159913
+Year: 2019 | Value: 63.44171284
+Year: 2020 | Value: 63.45657848
+Year: 2021 | Value: 63.45730846
+Remark: Liberia
+Remark: Life expectancy at birth (years)",Text
+a0640354cab5d3fcc131890a0c3c7954f7b12252757bb71f7c304a01732ed38c,"Entity: LBY / WHOSIS_000001
+Year: 2000 | Value: 74.0447285
+Year: 2001 | Value: 73.7423441
+Year: 2002 | Value: 73.4501765
+Year: 2003 | Value: 73.51059338
+Year: 2004 | Value: 73.84878468
+Year: 2005 | Value: 74.01467345
+Year: 2006 | Value: 74.61102298
+Year: 2007 | Value: 74.50020642
+Year: 2008 | Value: 74.20131986
+Year: 2009 | Value: 74.13441802
+Year: 2010 | Value: 74.11333
+Year: 2011 | Value: 71.43952101
+Year: 2012 | Value: 73.92406847
+Year: 2013 | Value: 74.21873286
+Year: 2014 | Value: 72.6011445
+Year: 2015 | Value: 72.65332031
+Year: 2016 | Value: 72.63664308
+Year: 2017 | Value: 73.15169822
+Year: 2018 | Value: 73.52909525
+Year: 2019 | Value: 73.54365475
+Year: 2020 | Value: 72.64874878
+Year: 2021 | Value: 72.17844009
+Remark: Libya
+Remark: Life expectancy at birth (years)",Text
+0540e14ee40b6214205089c984b7d2368974176baf04d183c5cd2375ab424d9d,"Entity: LCA / WHOSIS_000001
+Year: 2000 | Value: 73.2192679
+Year: 2001 | Value: 73.33798376
+Year: 2002 | Value: 73.50932526
+Year: 2003 | Value: 73.77614845
+Year: 2004 | Value: 73.99518133
+Year: 2005 | Value: 74.35093561
+Year: 2006 | Value: 74.71126509
+Year: 2007 | Value: 75.22231763
+Year: 2008 | Value: 75.53396399
+Year: 2009 | Value: 75.83775931
+Year: 2010 | Value: 76.00781498
+Year: 2011 | Value: 76.24846107
+Year: 2012 | Value: 76.39869599
+Year: 2013 | Value: 76.18455493
+Year: 2014 | Value: 76.28411905
+Year: 2015 | Value: 76.39243252
+Year: 2016 | Value: 76.20059158
+Year: 2017 | Value: 76.138896
+Year: 2018 | Value: 76.11272762
+Year: 2019 | Value: 76.11613744
+Year: 2020 | Value: 75.63349527
+Year: 2021 | Value: 71.1130421
+Remark: Saint Lucia
+Remark: Life expectancy at birth (years)",Text
+2235eff190e65443c04972eb62171a38278cdf45a6d1cf851bd5793602762670,"Entity: LKA / WHOSIS_000001
+Year: 2000 | Value: 71.51130083
+Year: 2001 | Value: 72.65351771
+Year: 2002 | Value: 73.3381305
+Year: 2003 | Value: 73.36803088
+Year: 2004 | Value: 69.11941478
+Year: 2005 | Value: 73.48476487
+Year: 2006 | Value: 73.35813965
+Year: 2007 | Value: 73.81640208
+Year: 2008 | Value: 73.1378661
+Year: 2009 | Value: 72.41934945
+Year: 2010 | Value: 74.13617419
+Year: 2011 | Value: 74.95837466
+Year: 2012 | Value: 75.63306733
+Year: 2013 | Value: 75.82006448
+Year: 2014 | Value: 76.17612763
+Year: 2015 | Value: 76.44590803
+Year: 2016 | Value: 76.7665914
+Year: 2017 | Value: 76.91196371
+Year: 2018 | Value: 77.17579214
+Year: 2019 | Value: 77.45083261
+Year: 2020 | Value: 80.65621609
+Year: 2021 | Value: 77.22895472
+Remark: Sri Lanka
+Remark: Life expectancy at birth (years)",Text
+313982e308daf6cd333fd2a93acbdb67c7b04b4bde3cd72b59a8c5a351e0f12a,"Entity: LSO / WHOSIS_000001
+Year: 2000 | Value: 47.38127672
+Year: 2001 | Value: 47.97132353
+Year: 2002 | Value: 47.82881329
+Year: 2003 | Value: 45.64538324
+Year: 2004 | Value: 43.80676222
+Year: 2005 | Value: 42.6642992
+Year: 2006 | Value: 42.3928282
+Year: 2007 | Value: 43.88764108
+Year: 2008 | Value: 45.90439498
+Year: 2009 | Value: 47.42048599
+Year: 2010 | Value: 48.56510587
+Year: 2011 | Value: 49.10182257
+Year: 2012 | Value: 49.02029182
+Year: 2013 | Value: 48.96059544
+Year: 2014 | Value: 48.68389714
+Year: 2015 | Value: 48.83813559
+Year: 2016 | Value: 49.94866988
+Year: 2017 | Value: 51.05416565
+Year: 2018 | Value: 51.60129602
+Year: 2019 | Value: 51.77851899
+Year: 2020 | Value: 51.85352687
+Year: 2021 | Value: 51.47907482
+Remark: Lesotho
+Remark: Life expectancy at birth (years)",Text
+e3d51c90ba594914995023f6eaf16e48c15ca394531fb8e35850a09082112283,"Entity: LTU / WHOSIS_000001
+Year: 2000 | Value: 71.99825868
+Year: 2001 | Value: 71.51538807
+Year: 2002 | Value: 71.6891841
+Year: 2003 | Value: 71.84648999
+Year: 2004 | Value: 71.87471415
+Year: 2005 | Value: 71.1036825
+Year: 2006 | Value: 70.89301238
+Year: 2007 | Value: 70.61092139
+Year: 2008 | Value: 71.62596428
+Year: 2009 | Value: 72.78267615
+Year: 2010 | Value: 73.07761938
+Year: 2011 | Value: 73.54804338
+Year: 2012 | Value: 73.83806492
+Year: 2013 | Value: 73.86695735
+Year: 2014 | Value: 74.49843919
+Year: 2015 | Value: 74.36612877
+Year: 2016 | Value: 74.70145984
+Year: 2017 | Value: 75.48786469
+Year: 2018 | Value: 75.75173506
+Year: 2019 | Value: 76.24761609
+Year: 2020 | Value: 74.89538008
+Year: 2021 | Value: 74.13314711
+Remark: Lithuania
+Remark: Life expectancy at birth (years)",Text
+94500a204a0fd2deb3070b411258438a57013a31825fb67c6538d2c28e5f258b,"Entity: LUX / WHOSIS_000001
+Year: 2000 | Value: 78.4163246
+Year: 2001 | Value: 78.61781312
+Year: 2002 | Value: 78.80641336
+Year: 2003 | Value: 79.03207074
+Year: 2004 | Value: 79.25868688
+Year: 2005 | Value: 79.5758462
+Year: 2006 | Value: 79.91412753
+Year: 2007 | Value: 80.26355488
+Year: 2008 | Value: 80.56515483
+Year: 2009 | Value: 80.92194389
+Year: 2010 | Value: 81.17521457
+Year: 2011 | Value: 81.39260196
+Year: 2012 | Value: 81.56608895
+Year: 2013 | Value: 81.87819611
+Year: 2014 | Value: 82.1608587
+Year: 2015 | Value: 82.3849065
+Year: 2016 | Value: 82.55544194
+Year: 2017 | Value: 82.70166924
+Year: 2018 | Value: 82.81654634
+Year: 2019 | Value: 82.80168339
+Year: 2020 | Value: 82.82955161
+Year: 2021 | Value: 82.78028566
+Remark: Luxembourg
+Remark: Life expectancy at birth (years)",Text
+9546de0b877b39179e2dc5cba0732082f0dbd5ee44ff31dce4821d766d8c4445,"Entity: LVA / WHOSIS_000001
+Year: 2000 | Value: 70.21458573
+Year: 2001 | Value: 69.80978592
+Year: 2002 | Value: 70.10625692
+Year: 2003 | Value: 70.55494078
+Year: 2004 | Value: 70.8139625
+Year: 2005 | Value: 70.49159571
+Year: 2006 | Value: 70.37307271
+Year: 2007 | Value: 70.75226957
+Year: 2008 | Value: 71.85232762
+Year: 2009 | Value: 72.66145576
+Year: 2010 | Value: 72.87994756
+Year: 2011 | Value: 73.67057625
+Year: 2012 | Value: 73.86536335
+Year: 2013 | Value: 74.12560449
+Year: 2014 | Value: 74.4358747
+Year: 2015 | Value: 74.8108617
+Year: 2016 | Value: 74.95310955
+Year: 2017 | Value: 74.9627685
+Year: 2018 | Value: 75.05473366
+Year: 2019 | Value: 75.68490068
+Year: 2020 | Value: 75.49885883
+Year: 2021 | Value: 73.20251724
+Remark: Latvia
+Remark: Life expectancy at birth (years)",Text
+ee48e8667eb91153280eb67e8c91f4706e79725ec82e5b98ddb9efe4e82b6caf,"Entity: MAR / WHOSIS_000001
+Year: 2000 | Value: 70.19460372
+Year: 2001 | Value: 70.45857649
+Year: 2002 | Value: 70.73932756
+Year: 2003 | Value: 70.88040999
+Year: 2004 | Value: 71.03043411
+Year: 2005 | Value: 71.23383994
+Year: 2006 | Value: 71.42901619
+Year: 2007 | Value: 71.60883866
+Year: 2008 | Value: 71.88491111
+Year: 2009 | Value: 72.16145438
+Year: 2010 | Value: 72.37286998
+Year: 2011 | Value: 72.57738576
+Year: 2012 | Value: 72.78046277
+Year: 2013 | Value: 72.96566532
+Year: 2014 | Value: 73.12038211
+Year: 2015 | Value: 73.26259745
+Year: 2016 | Value: 73.4071743
+Year: 2017 | Value: 73.53352195
+Year: 2018 | Value: 73.60592779
+Year: 2019 | Value: 73.7488551
+Year: 2020 | Value: 72.50615909
+Year: 2021 | Value: 72.61868352
+Remark: Morocco
+Remark: Life expectancy at birth (years)",Text
+b104dcf8d9fa22ab19416527586e9df3cbdeff0dc18e7a0423524839e966a3c6,"Entity: MDA / WHOSIS_000001
+Year: 2000 | Value: 65.65922366
+Year: 2001 | Value: 66.20689138
+Year: 2002 | Value: 66.13288732
+Year: 2003 | Value: 66.19700504
+Year: 2004 | Value: 66.63893532
+Year: 2005 | Value: 65.99301769
+Year: 2006 | Value: 66.7168869
+Year: 2007 | Value: 67.22688687
+Year: 2008 | Value: 67.81121548
+Year: 2009 | Value: 68.02716399
+Year: 2010 | Value: 67.76693165
+Year: 2011 | Value: 69.82070445
+Year: 2012 | Value: 70.25455299
+Year: 2013 | Value: 71.32497048
+Year: 2014 | Value: 71.10984715
+Year: 2015 | Value: 71.14655162
+Year: 2016 | Value: 71.84582325
+Year: 2017 | Value: 72.85856435
+Year: 2018 | Value: 72.90339608
+Year: 2019 | Value: 73.32010877
+Year: 2020 | Value: 72.14867013
+Year: 2021 | Value: 69.55780877
+Remark: Republic of Moldova
+Remark: Life expectancy at birth (years)",Text
+8c25d69c8d88c66e094ca89e2cccf13d85457c0d2f58d33481ee35734036a41b,"Entity: MDG / WHOSIS_000001
+Year: 2000 | Value: 58.73234782
+Year: 2001 | Value: 59.24814899
+Year: 2002 | Value: 59.4274793
+Year: 2003 | Value: 59.72543671
+Year: 2004 | Value: 60.11149963
+Year: 2005 | Value: 60.67184175
+Year: 2006 | Value: 61.19063264
+Year: 2007 | Value: 61.67182144
+Year: 2008 | Value: 62.01528236
+Year: 2009 | Value: 62.2488395
+Year: 2010 | Value: 62.52359433
+Year: 2011 | Value: 62.75965875
+Year: 2012 | Value: 62.96002316
+Year: 2013 | Value: 63.11657152
+Year: 2014 | Value: 63.22596923
+Year: 2015 | Value: 63.35879155
+Year: 2016 | Value: 63.46510267
+Year: 2017 | Value: 63.57935928
+Year: 2018 | Value: 63.71423448
+Year: 2019 | Value: 63.81664617
+Year: 2020 | Value: 63.07628383
+Year: 2021 | Value: 62.9342555
+Remark: Madagascar
+Remark: Life expectancy at birth (years)",Text
+07da8ba6a070664a8681e4360d63ed6f77d6c3050e940f513d29811fc7274303,"Entity: MDV / WHOSIS_000001
+Year: 2000 | Value: 69.82223985
+Year: 2001 | Value: 70.45676102
+Year: 2002 | Value: 71.06296933
+Year: 2003 | Value: 71.62171461
+Year: 2004 | Value: 71.34887566
+Year: 2005 | Value: 72.865727
+Year: 2006 | Value: 73.36205884
+Year: 2007 | Value: 73.714686
+Year: 2008 | Value: 74.09191071
+Year: 2009 | Value: 74.43155141
+Year: 2010 | Value: 74.73135148
+Year: 2011 | Value: 75.10252928
+Year: 2012 | Value: 75.84622735
+Year: 2013 | Value: 76.29978199
+Year: 2014 | Value: 76.80961188
+Year: 2015 | Value: 77.25297582
+Year: 2016 | Value: 77.72035574
+Year: 2017 | Value: 78.16955603
+Year: 2018 | Value: 78.67792046
+Year: 2019 | Value: 75.44939578
+Year: 2020 | Value: 76.1908817
+Year: 2021 | Value: 75.39664085
+Remark: Maldives
+Remark: Life expectancy at birth (years)",Text
+1573264fad1f5831cfd6957c14a9d1b3813a8941148a8a23dcbd3fe13e4b884f,"Entity: MEX / WHOSIS_000001
+Year: 2000 | Value: 74.21831002
+Year: 2001 | Value: 74.55106521
+Year: 2002 | Value: 74.58875796
+Year: 2003 | Value: 74.62788874
+Year: 2004 | Value: 75.04316184
+Year: 2005 | Value: 74.92683948
+Year: 2006 | Value: 75.33649525
+Year: 2007 | Value: 75.52454869
+Year: 2008 | Value: 75.08739804
+Year: 2009 | Value: 75.14215277
+Year: 2010 | Value: 74.95254484
+Year: 2011 | Value: 75.42631561
+Year: 2012 | Value: 75.6445679
+Year: 2013 | Value: 75.92944746
+Year: 2014 | Value: 75.90738439
+Year: 2015 | Value: 75.93967708
+Year: 2016 | Value: 75.76103333
+Year: 2017 | Value: 75.87022362
+Year: 2018 | Value: 75.91673747
+Year: 2019 | Value: 75.8344286
+Year: 2020 | Value: 70.94625179
+Year: 2021 | Value: 70.83258685
+Remark: Mexico
+Remark: Life expectancy at birth (years)",Text
+adffbe6eb4ce596ad0cfe4f445900c490c3148c9d7bd31b5410f56675d7e44c1,"Entity: MKD / WHOSIS_000001
+Year: 2000 | Value: 72.94763036
+Year: 2001 | Value: 73.26733128
+Year: 2002 | Value: 72.91273812
+Year: 2003 | Value: 73.22933201
+Year: 2004 | Value: 73.62319794
+Year: 2005 | Value: 73.73592756
+Year: 2006 | Value: 73.8246386
+Year: 2007 | Value: 73.65892824
+Year: 2008 | Value: 74.31760094
+Year: 2009 | Value: 74.58841867
+Year: 2010 | Value: 74.84175417
+Year: 2011 | Value: 74.96127325
+Year: 2012 | Value: 74.93753664
+Year: 2013 | Value: 75.43073243
+Year: 2014 | Value: 75.25754035
+Year: 2015 | Value: 75.34082067
+Year: 2016 | Value: 75.56274435
+Year: 2017 | Value: 75.98451895
+Year: 2018 | Value: 76.46395817
+Year: 2019 | Value: 76.14804901
+Year: 2020 | Value: 74.37069175
+Year: 2021 | Value: 72.99535604
+Remark: North Macedonia
+Remark: Life expectancy at birth (years)",Text
+aa379fc58c69e68232a4111422d31633575591d6c5b828790634e290bd55ad1a,"Entity: MLI / WHOSIS_000001
+Year: 2000 | Value: 53.05862872
+Year: 2001 | Value: 53.62181973
+Year: 2002 | Value: 54.16297861
+Year: 2003 | Value: 54.85059982
+Year: 2004 | Value: 55.6927022
+Year: 2005 | Value: 56.25739607
+Year: 2006 | Value: 56.77509358
+Year: 2007 | Value: 57.34348988
+Year: 2008 | Value: 57.78455925
+Year: 2009 | Value: 58.27710615
+Year: 2010 | Value: 58.64806217
+Year: 2011 | Value: 59.04750126
+Year: 2012 | Value: 59.27099434
+Year: 2013 | Value: 59.37937448
+Year: 2014 | Value: 59.77561439
+Year: 2015 | Value: 60.12125985
+Year: 2016 | Value: 60.63666584
+Year: 2017 | Value: 61.01919215
+Year: 2018 | Value: 61.31661022
+Year: 2019 | Value: 61.83290988
+Year: 2020 | Value: 61.46815324
+Year: 2021 | Value: 61.67398609
+Remark: Mali
+Remark: Life expectancy at birth (years)",Text
+5e4bd9215432358f810df740a5043fa8374ec047373ad63dad7e8886e736efc2,"Entity: MLT / WHOSIS_000001
+Year: 2000 | Value: 77.81522196
+Year: 2001 | Value: 78.11450102
+Year: 2002 | Value: 78.4088864
+Year: 2003 | Value: 78.67686
+Year: 2004 | Value: 78.90071191
+Year: 2005 | Value: 79.12587951
+Year: 2006 | Value: 79.36712993
+Year: 2007 | Value: 79.64226641
+Year: 2008 | Value: 79.93204914
+Year: 2009 | Value: 80.24911661
+Year: 2010 | Value: 80.4834984
+Year: 2011 | Value: 80.71689503
+Year: 2012 | Value: 80.93951926
+Year: 2013 | Value: 81.20455704
+Year: 2014 | Value: 81.45292313
+Year: 2015 | Value: 81.67976101
+Year: 2016 | Value: 81.88080877
+Year: 2017 | Value: 82.05744637
+Year: 2018 | Value: 82.26456738
+Year: 2019 | Value: 82.14647613
+Year: 2020 | Value: 82.01477782
+Year: 2021 | Value: 81.81193837
+Remark: Malta
+Remark: Life expectancy at birth (years)",Text
+c4602a9fd2f4e971621e1bf2c34c841b27112ea43dacf37b3d31653e958fa73e,"Entity: MMR / WHOSIS_000001
+Year: 2000 | Value: 59.37966802
+Year: 2001 | Value: 59.77708716
+Year: 2002 | Value: 60.19994618
+Year: 2003 | Value: 60.64224077
+Year: 2004 | Value: 61.06960565
+Year: 2005 | Value: 61.61985762
+Year: 2006 | Value: 62.15642058
+Year: 2007 | Value: 62.77565744
+Year: 2008 | Value: 56.90830711
+Year: 2009 | Value: 63.9906783
+Year: 2010 | Value: 64.64371806
+Year: 2011 | Value: 65.22860154
+Year: 2012 | Value: 65.86631653
+Year: 2013 | Value: 66.44771624
+Year: 2014 | Value: 67.0395851
+Year: 2015 | Value: 67.42672255
+Year: 2016 | Value: 67.8624826
+Year: 2017 | Value: 67.95077876
+Year: 2018 | Value: 68.55999093
+Year: 2019 | Value: 68.80517618
+Year: 2020 | Value: 68.86849549
+Year: 2021 | Value: 67.84580637
+Remark: Myanmar
+Remark: Life expectancy at birth (years)",Text
+91a191866889d503a44c5a37c8ede1e0c7560872dc31cc1d0400115b595be1b2,"Entity: MNE / WHOSIS_000001
+Year: 2000 | Value: 73.43360465
+Year: 2001 | Value: 73.45014953
+Year: 2002 | Value: 73.54605523
+Year: 2003 | Value: 73.62012454
+Year: 2004 | Value: 73.73506539
+Year: 2005 | Value: 73.98743557
+Year: 2006 | Value: 74.28740727
+Year: 2007 | Value: 74.67252275
+Year: 2008 | Value: 75.02700903
+Year: 2009 | Value: 75.38841226
+Year: 2010 | Value: 75.71790981
+Year: 2011 | Value: 75.9899009
+Year: 2012 | Value: 76.17609575
+Year: 2013 | Value: 76.3576393
+Year: 2014 | Value: 76.62030337
+Year: 2015 | Value: 76.86028429
+Year: 2016 | Value: 77.06052079
+Year: 2017 | Value: 77.14980899
+Year: 2018 | Value: 77.222772
+Year: 2019 | Value: 76.83999351
+Year: 2020 | Value: 75.47582429
+Year: 2021 | Value: 74.70975149
+Remark: Montenegro
+Remark: Life expectancy at birth (years)",Text
+a46e03f7d58ac37acac7a7ea87e60943809df323478fc70f6e20c3f98c563890,"Entity: MNG / WHOSIS_000001
+Year: 2000 | Value: 63.19839599
+Year: 2001 | Value: 63.48955882
+Year: 2002 | Value: 63.99267039
+Year: 2003 | Value: 64.44695031
+Year: 2004 | Value: 64.84071925
+Year: 2005 | Value: 65.26255095
+Year: 2006 | Value: 65.78316962
+Year: 2007 | Value: 66.37749458
+Year: 2008 | Value: 66.90211117
+Year: 2009 | Value: 66.92759176
+Year: 2010 | Value: 67.10227644
+Year: 2011 | Value: 67.30366439
+Year: 2012 | Value: 67.84058521
+Year: 2013 | Value: 68.39260768
+Year: 2014 | Value: 68.96351192
+Year: 2015 | Value: 69.246045
+Year: 2016 | Value: 69.64443247
+Year: 2017 | Value: 70.09899409
+Year: 2018 | Value: 70.47775442
+Year: 2019 | Value: 70.7501793
+Year: 2020 | Value: 72.70622882
+Year: 2021 | Value: 70.09795294
+Remark: Mongolia
+Remark: Life expectancy at birth (years)",Text
+af418ac710512c3e5a6239bb30ef3274e9426cd8ad84507c8935db6600a36c81,"Entity: MOZ / WHOSIS_000001
+Year: 2000 | Value: 50.95314578
+Year: 2001 | Value: 51.31528926
+Year: 2002 | Value: 51.47014119
+Year: 2003 | Value: 51.67123667
+Year: 2004 | Value: 51.81518653
+Year: 2005 | Value: 51.92845833
+Year: 2006 | Value: 52.16412753
+Year: 2007 | Value: 52.58518387
+Year: 2008 | Value: 53.06339796
+Year: 2009 | Value: 53.32648003
+Year: 2010 | Value: 53.33150279
+Year: 2011 | Value: 53.5270243
+Year: 2012 | Value: 53.74174488
+Year: 2013 | Value: 54.24267779
+Year: 2014 | Value: 55.02757929
+Year: 2015 | Value: 55.85530982
+Year: 2016 | Value: 56.63490108
+Year: 2017 | Value: 57.33253714
+Year: 2018 | Value: 57.94330191
+Year: 2019 | Value: 58.50505639
+Year: 2020 | Value: 58.6314583
+Year: 2021 | Value: 57.66202708
+Remark: Mozambique
+Remark: Life expectancy at birth (years)",Text
+32c57b3c2b2be27dabecf8a29df0fc470ae59cd9189fa1efcd4a7a092e8ee448,"Entity: MRT / WHOSIS_000001
+Year: 2000 | Value: 62.9207429
+Year: 2001 | Value: 63.48748709
+Year: 2002 | Value: 64.15779119
+Year: 2003 | Value: 64.83743491
+Year: 2004 | Value: 65.40083987
+Year: 2005 | Value: 65.90883345
+Year: 2006 | Value: 66.62015995
+Year: 2007 | Value: 67.11455039
+Year: 2008 | Value: 67.64336926
+Year: 2009 | Value: 68.08446898
+Year: 2010 | Value: 68.45329118
+Year: 2011 | Value: 68.79857098
+Year: 2012 | Value: 69.09222123
+Year: 2013 | Value: 69.22463674
+Year: 2014 | Value: 69.29386756
+Year: 2015 | Value: 69.45426817
+Year: 2016 | Value: 69.65770027
+Year: 2017 | Value: 69.81185094
+Year: 2018 | Value: 69.9973737
+Year: 2019 | Value: 70.17546548
+Year: 2020 | Value: 68.92697523
+Year: 2021 | Value: 68.86843813
+Remark: Mauritania
+Remark: Life expectancy at birth (years)",Text
+699bf646b21cf531147c24f7203f569206ad6248987d6f35f782b71bc5088442,"Entity: MUS / WHOSIS_000001
+Year: 2000 | Value: 71.13541086
+Year: 2001 | Value: 71.43968836
+Year: 2002 | Value: 71.67923755
+Year: 2003 | Value: 71.8438719
+Year: 2004 | Value: 71.98706152
+Year: 2005 | Value: 72.14096947
+Year: 2006 | Value: 72.37604294
+Year: 2007 | Value: 72.6045072
+Year: 2008 | Value: 72.86571029
+Year: 2009 | Value: 73.10056755
+Year: 2010 | Value: 73.34550791
+Year: 2011 | Value: 73.5157206
+Year: 2012 | Value: 73.69029649
+Year: 2013 | Value: 73.803364
+Year: 2014 | Value: 74.00992363
+Year: 2015 | Value: 74.12593279
+Year: 2016 | Value: 74.15809377
+Year: 2017 | Value: 74.11525101
+Year: 2018 | Value: 74.02503816
+Year: 2019 | Value: 74.05607067
+Year: 2020 | Value: 73.56975445
+Year: 2021 | Value: 73.41967032
+Remark: Mauritius
+Remark: Life expectancy at birth (years)",Text
+af3cd955fccfd6d47e82ad8c4c43d07f39592f9b4d60e7d6604f402888567aae,"Entity: MWI / WHOSIS_000001
+Year: 2000 | Value: 44.64126346
+Year: 2001 | Value: 45.39400815
+Year: 2002 | Value: 46.23607096
+Year: 2003 | Value: 47.14250921
+Year: 2004 | Value: 48.06087588
+Year: 2005 | Value: 49.35021214
+Year: 2006 | Value: 50.92538724
+Year: 2007 | Value: 52.54577058
+Year: 2008 | Value: 54.26093144
+Year: 2009 | Value: 55.72789905
+Year: 2010 | Value: 56.87054565
+Year: 2011 | Value: 58.10856356
+Year: 2012 | Value: 59.42059707
+Year: 2013 | Value: 60.5549131
+Year: 2014 | Value: 61.34710538
+Year: 2015 | Value: 61.82512095
+Year: 2016 | Value: 62.19781015
+Year: 2017 | Value: 62.5519407
+Year: 2018 | Value: 62.91863389
+Year: 2019 | Value: 63.22930485
+Year: 2020 | Value: 63.46287777
+Year: 2021 | Value: 62.48652597
+Remark: Malawi
+Remark: Life expectancy at birth (years)",Text
+b987fd9781b2aa4c7085502ff0b32b3e4d7f29cac7c1159bfcf469d444f70f35,"Entity: MYS / WHOSIS_000001
+Year: 2000 | Value: 73.01343106
+Year: 2001 | Value: 73.51935373
+Year: 2002 | Value: 73.78194217
+Year: 2003 | Value: 73.62194031
+Year: 2004 | Value: 73.82138244
+Year: 2005 | Value: 74.06194883
+Year: 2006 | Value: 74.30399222
+Year: 2007 | Value: 74.43641055
+Year: 2008 | Value: 74.19396011
+Year: 2009 | Value: 74.01457452
+Year: 2010 | Value: 74.02631776
+Year: 2011 | Value: 74.23051803
+Year: 2012 | Value: 74.61637828
+Year: 2013 | Value: 74.72307296
+Year: 2014 | Value: 74.64731536
+Year: 2015 | Value: 74.27826363
+Year: 2016 | Value: 74.41949575
+Year: 2017 | Value: 74.40097684
+Year: 2018 | Value: 74.52805915
+Year: 2019 | Value: 74.68410362
+Year: 2020 | Value: 76.78965822
+Year: 2021 | Value: 72.8101035
+Remark: Malaysia
+Remark: Life expectancy at birth (years)",Text
+f936c4e8ddbe71c0c6734d020f11fca13c0771c778cda918b1e56a6d5ff37267,"Entity: NAM / WHOSIS_000001
+Year: 2000 | Value: 53.02475546
+Year: 2001 | Value: 52.37399446
+Year: 2002 | Value: 51.74325949
+Year: 2003 | Value: 51.39447349
+Year: 2004 | Value: 51.6479279
+Year: 2005 | Value: 52.83409474
+Year: 2006 | Value: 54.69956495
+Year: 2007 | Value: 56.83641554
+Year: 2008 | Value: 58.62203403
+Year: 2009 | Value: 59.50436576
+Year: 2010 | Value: 60.12459181
+Year: 2011 | Value: 60.88311335
+Year: 2012 | Value: 61.49462249
+Year: 2013 | Value: 61.87769769
+Year: 2014 | Value: 61.94948428
+Year: 2015 | Value: 61.8615054
+Year: 2016 | Value: 62.05755741
+Year: 2017 | Value: 62.37183813
+Year: 2018 | Value: 62.82854728
+Year: 2019 | Value: 63.49265302
+Year: 2020 | Value: 63.75209779
+Year: 2021 | Value: 60.35994599
+Remark: Namibia
+Remark: Life expectancy at birth (years)",Text
+692b17014f034d07551048839423dc1342b5b2850b3ff4c066364f87e1de612a,"Entity: NER / WHOSIS_000001
+Year: 2000 | Value: 50.24298341
+Year: 2001 | Value: 50.89945855
+Year: 2002 | Value: 51.88652859
+Year: 2003 | Value: 52.7806989
+Year: 2004 | Value: 53.86159387
+Year: 2005 | Value: 54.754071
+Year: 2006 | Value: 55.74288168
+Year: 2007 | Value: 56.45936065
+Year: 2008 | Value: 57.32288169
+Year: 2009 | Value: 57.84177819
+Year: 2010 | Value: 58.29155093
+Year: 2011 | Value: 58.60580875
+Year: 2012 | Value: 58.92187052
+Year: 2013 | Value: 59.22776171
+Year: 2014 | Value: 59.45072248
+Year: 2015 | Value: 59.63358442
+Year: 2016 | Value: 59.83593299
+Year: 2017 | Value: 60.22725166
+Year: 2018 | Value: 60.43807872
+Year: 2019 | Value: 60.57303502
+Year: 2020 | Value: 60.39192551
+Year: 2021 | Value: 59.97070525
+Remark: Niger
+Remark: Life expectancy at birth (years)",Text
+506a4d2ee797ca259c9c78e053a9f05a4805086f322ac6e66d0a973987b450a5,"Entity: NGA / WHOSIS_000001
+Year: 2000 | Value: 54.05766545
+Year: 2001 | Value: 54.47371595
+Year: 2002 | Value: 54.96389545
+Year: 2003 | Value: 55.58470303
+Year: 2004 | Value: 56.18946769
+Year: 2005 | Value: 56.9174905
+Year: 2006 | Value: 57.55220397
+Year: 2007 | Value: 58.17779892
+Year: 2008 | Value: 58.74901559
+Year: 2009 | Value: 59.30198282
+Year: 2010 | Value: 59.78799099
+Year: 2011 | Value: 60.1981229
+Year: 2012 | Value: 60.64324912
+Year: 2013 | Value: 61.04119261
+Year: 2014 | Value: 61.37523759
+Year: 2015 | Value: 61.73359862
+Year: 2016 | Value: 62.04834174
+Year: 2017 | Value: 62.36209316
+Year: 2018 | Value: 62.68563037
+Year: 2019 | Value: 63.06578367
+Year: 2020 | Value: 62.83540426
+Year: 2021 | Value: 63.3974984
+Remark: Nigeria
+Remark: Life expectancy at birth (years)",Text
+08cae00735d4ed876b98540ba4f412cc389211ad03b2241f6e5e1e411b668232,"Entity: NIC / WHOSIS_000001
+Year: 2000 | Value: 76.18011127
+Year: 2001 | Value: 76.09169207
+Year: 2002 | Value: 75.92476263
+Year: 2003 | Value: 75.81400954
+Year: 2004 | Value: 75.88808385
+Year: 2005 | Value: 75.7199093
+Year: 2006 | Value: 76.73424987
+Year: 2007 | Value: 76.42101694
+Year: 2008 | Value: 76.35592363
+Year: 2009 | Value: 76.56414767
+Year: 2010 | Value: 77.06996179
+Year: 2011 | Value: 76.94363065
+Year: 2012 | Value: 77.05200653
+Year: 2013 | Value: 77.25621199
+Year: 2014 | Value: 77.51891848
+Year: 2015 | Value: 78.26048387
+Year: 2016 | Value: 77.92580193
+Year: 2017 | Value: 78.50836352
+Year: 2018 | Value: 78.45090354
+Year: 2019 | Value: 78.87404349
+Year: 2020 | Value: 75.04233435
+Year: 2021 | Value: 75.02796138
+Remark: Nicaragua
+Remark: Life expectancy at birth (years)",Text
+c7b2b8871655817521fdc456f1048717073aa03e1b12f4f0e53fc9a3c9839f72,"Entity: NLD / WHOSIS_000001
+Year: 2000 | Value: 78.01203729
+Year: 2001 | Value: 78.21818271
+Year: 2002 | Value: 78.28829662
+Year: 2003 | Value: 78.52543386
+Year: 2004 | Value: 79.09591855
+Year: 2005 | Value: 79.34144338
+Year: 2006 | Value: 79.71293798
+Year: 2007 | Value: 80.12725056
+Year: 2008 | Value: 80.25577925
+Year: 2009 | Value: 80.54360994
+Year: 2010 | Value: 80.68591395
+Year: 2011 | Value: 80.95610777
+Year: 2012 | Value: 80.88872584
+Year: 2013 | Value: 81.11693502
+Year: 2014 | Value: 81.45622695
+Year: 2015 | Value: 81.28069061
+Year: 2016 | Value: 81.34048104
+Year: 2017 | Value: 81.52798471
+Year: 2018 | Value: 81.8952079
+Year: 2019 | Value: 82.33882776
+Year: 2020 | Value: 81.40141308
+Year: 2021 | Value: 81.12478594
+Remark: Netherlands (Kingdom of the)
+Remark: Life expectancy at birth (years)",Text
+c7ec787c33d3f53ca83d2036a1268136772c2e76daec767d83291083a25c21fd,"Entity: NOR / WHOSIS_000001
+Year: 2000 | Value: 78.53510862
+Year: 2001 | Value: 78.74570455
+Year: 2002 | Value: 78.85942368
+Year: 2003 | Value: 79.39711298
+Year: 2004 | Value: 79.81803393
+Year: 2005 | Value: 80.05177352
+Year: 2006 | Value: 80.28168328
+Year: 2007 | Value: 80.35099102
+Year: 2008 | Value: 80.49471477
+Year: 2009 | Value: 80.74746239
+Year: 2010 | Value: 80.86687696
+Year: 2011 | Value: 80.96925391
+Year: 2012 | Value: 81.23445235
+Year: 2013 | Value: 81.43412297
+Year: 2014 | Value: 81.82844761
+Year: 2015 | Value: 81.99495023
+Year: 2016 | Value: 82.11289124
+Year: 2017 | Value: 82.33383151
+Year: 2018 | Value: 82.44230107
+Year: 2019 | Value: 82.65752051
+Year: 2020 | Value: 82.83923455
+Year: 2021 | Value: 82.88199872
+Remark: Norway
+Remark: Life expectancy at birth (years)",Text
+91df08542911f106c56cb5db1494a1acb21caad867c6a7168879f0d3ae729e29,"Entity: NPL / WHOSIS_000001
+Year: 2000 | Value: 65.36598722
+Year: 2001 | Value: 66.16930825
+Year: 2002 | Value: 66.45258988
+Year: 2003 | Value: 67.3578409
+Year: 2004 | Value: 67.69735163
+Year: 2005 | Value: 68.18944823
+Year: 2006 | Value: 68.54567896
+Year: 2007 | Value: 68.80504578
+Year: 2008 | Value: 69.03486842
+Year: 2009 | Value: 69.26898964
+Year: 2010 | Value: 69.47191971
+Year: 2011 | Value: 69.60828031
+Year: 2012 | Value: 69.78951932
+Year: 2013 | Value: 69.97888467
+Year: 2014 | Value: 70.19243321
+Year: 2015 | Value: 69.77673885
+Year: 2016 | Value: 70.59248
+Year: 2017 | Value: 70.84484004
+Year: 2018 | Value: 71.10245577
+Year: 2019 | Value: 71.36142995
+Year: 2020 | Value: 70.98964531
+Year: 2021 | Value: 70.04936795
+Remark: Nepal
+Remark: Life expectancy at birth (years)",Text
+25c8d2b0622bdd58b6a657b297a9a9d8afa1d5070460db981a37d6d37f4c7532,"Entity: NZL / WHOSIS_000001
+Year: 2000 | Value: 78.57519182
+Year: 2001 | Value: 78.46853865
+Year: 2002 | Value: 78.65902491
+Year: 2003 | Value: 79.05551434
+Year: 2004 | Value: 79.15482107
+Year: 2005 | Value: 79.93637338
+Year: 2006 | Value: 79.88697688
+Year: 2007 | Value: 80.04299252
+Year: 2008 | Value: 80.3067588
+Year: 2009 | Value: 80.56243651
+Year: 2010 | Value: 80.9444522
+Year: 2011 | Value: 80.74980096
+Year: 2012 | Value: 81.08807722
+Year: 2013 | Value: 81.36359879
+Year: 2014 | Value: 81.19298738
+Year: 2015 | Value: 81.31375727
+Year: 2016 | Value: 81.73038595
+Year: 2017 | Value: 81.16380852
+Year: 2018 | Value: 81.75540508
+Year: 2019 | Value: 81.81181567
+Year: 2020 | Value: 82.5016081
+Year: 2021 | Value: 82.20149177
+Remark: New Zealand
+Remark: Life expectancy at birth (years)",Text
+82d60fd66857767b927b1e8efabaaf1294631d280888b5783777ca5615ce2aa7,"Entity: OMN / WHOSIS_000001
+Year: 2000 | Value: 71.65888476
+Year: 2001 | Value: 72.18472491
+Year: 2002 | Value: 72.45728033
+Year: 2003 | Value: 72.75427676
+Year: 2004 | Value: 73.14911872
+Year: 2005 | Value: 73.361458
+Year: 2006 | Value: 73.46705832
+Year: 2007 | Value: 73.4022288
+Year: 2008 | Value: 73.35031827
+Year: 2009 | Value: 73.06401823
+Year: 2010 | Value: 73.02000136
+Year: 2011 | Value: 73.21785366
+Year: 2012 | Value: 73.59906631
+Year: 2013 | Value: 73.91615999
+Year: 2014 | Value: 73.9416621
+Year: 2015 | Value: 73.77326508
+Year: 2016 | Value: 73.72044163
+Year: 2017 | Value: 74.14573276
+Year: 2018 | Value: 74.96470035
+Year: 2019 | Value: 75.28986006
+Year: 2020 | Value: 73.88668102
+Year: 2021 | Value: 72.47676726
+Remark: Oman
+Remark: Life expectancy at birth (years)",Text
+a0f138854d5d48aa27092d9df32573f03d70afd335b3acd68aca405e10338734,"Entity: PAK / WHOSIS_000001
+Year: 2000 | Value: 61.40857442
+Year: 2001 | Value: 61.67754226
+Year: 2002 | Value: 61.92897932
+Year: 2003 | Value: 62.14630981
+Year: 2004 | Value: 62.44387744
+Year: 2005 | Value: 61.99158191
+Year: 2006 | Value: 63.07149815
+Year: 2007 | Value: 63.38445782
+Year: 2008 | Value: 63.66141289
+Year: 2009 | Value: 63.92267166
+Year: 2010 | Value: 64.14819561
+Year: 2011 | Value: 64.54188869
+Year: 2012 | Value: 64.82124843
+Year: 2013 | Value: 65.10777782
+Year: 2014 | Value: 65.39254995
+Year: 2015 | Value: 65.69975806
+Year: 2016 | Value: 66.05197225
+Year: 2017 | Value: 66.3818317
+Year: 2018 | Value: 66.73689511
+Year: 2019 | Value: 67.02931501
+Year: 2020 | Value: 65.84948383
+Year: 2021 | Value: 65.99092295
+Remark: Pakistan
+Remark: Life expectancy at birth (years)",Text
+0c3aaa381921fb318f0c5dff036116c47ac85d39afbf50d3284f83ef453a6a7e,"Entity: PAN / WHOSIS_000001
+Year: 2000 | Value: 76.15178489
+Year: 2001 | Value: 76.07140858
+Year: 2002 | Value: 76.2835354
+Year: 2003 | Value: 76.1866534
+Year: 2004 | Value: 76.4816701
+Year: 2005 | Value: 76.45196957
+Year: 2006 | Value: 76.72660117
+Year: 2007 | Value: 76.98645861
+Year: 2008 | Value: 76.98278869
+Year: 2009 | Value: 77.16899668
+Year: 2010 | Value: 76.99379194
+Year: 2011 | Value: 77.51683567
+Year: 2012 | Value: 77.44906477
+Year: 2013 | Value: 77.6523099
+Year: 2014 | Value: 77.76557135
+Year: 2015 | Value: 78.14484121
+Year: 2016 | Value: 78.24463546
+Year: 2017 | Value: 78.33177954
+Year: 2018 | Value: 78.651343
+Year: 2019 | Value: 78.97361247
+Year: 2020 | Value: 77.34684989
+Year: 2021 | Value: 77.23869904
+Remark: Panama
+Remark: Life expectancy at birth (years)",Text
+e43027e0f84aa9fe5d7d387ea7559fa2b40ac6d7220a80218754157b8e0f1167,"Entity: PER / WHOSIS_000001
+Year: 2000 | Value: 75.12364237
+Year: 2001 | Value: 75.95904765
+Year: 2002 | Value: 76.14080179
+Year: 2003 | Value: 76.35423675
+Year: 2004 | Value: 76.9955842
+Year: 2005 | Value: 77.53672089
+Year: 2006 | Value: 78.10561579
+Year: 2007 | Value: 78.66735579
+Year: 2008 | Value: 78.86141336
+Year: 2009 | Value: 78.11832326
+Year: 2010 | Value: 78.21420603
+Year: 2011 | Value: 78.64438915
+Year: 2012 | Value: 79.02001015
+Year: 2013 | Value: 79.48260244
+Year: 2014 | Value: 80.00001335
+Year: 2015 | Value: 80.33747677
+Year: 2016 | Value: 80.1644759
+Year: 2017 | Value: 79.35847297
+Year: 2018 | Value: 78.99013811
+Year: 2019 | Value: 78.29293866
+Year: 2020 | Value: 72.7753962
+Year: 2021 | Value: 71.66727055
+Remark: Peru
+Remark: Life expectancy at birth (years)",Text
+cc3df225e1f21efb5b9dde61d0b69f44c7ddf6d94d3dd953190a40bb5080ac26,"Entity: PHL / WHOSIS_000001
+Year: 2000 | Value: 69.97452897
+Year: 2001 | Value: 69.62976888
+Year: 2002 | Value: 69.42147225
+Year: 2003 | Value: 69.52481782
+Year: 2004 | Value: 69.2903715
+Year: 2005 | Value: 69.36187224
+Year: 2006 | Value: 69.22944541
+Year: 2007 | Value: 69.58190674
+Year: 2008 | Value: 69.54674107
+Year: 2009 | Value: 69.39723001
+Year: 2010 | Value: 69.68865207
+Year: 2011 | Value: 69.78448284
+Year: 2012 | Value: 69.54178119
+Year: 2013 | Value: 69.44796065
+Year: 2014 | Value: 69.80391436
+Year: 2015 | Value: 69.51615532
+Year: 2016 | Value: 69.24553796
+Year: 2017 | Value: 69.6392585
+Year: 2018 | Value: 69.67627942
+Year: 2019 | Value: 69.42943033
+Year: 2020 | Value: 69.6404352
+Year: 2021 | Value: 66.40834182
+Remark: Philippines
+Remark: Life expectancy at birth (years)",Text
+79e249b3c726872528f787249b5c35e749ea0e4954380fc8d73d4988a666ceba,"Entity: PNG / WHOSIS_000001
+Year: 2000 | Value: 63.35685153
+Year: 2001 | Value: 63.3735659
+Year: 2002 | Value: 63.43343076
+Year: 2003 | Value: 63.55882521
+Year: 2004 | Value: 63.6270316
+Year: 2005 | Value: 63.68705774
+Year: 2006 | Value: 63.77212081
+Year: 2007 | Value: 64.07514301
+Year: 2008 | Value: 64.35307086
+Year: 2009 | Value: 64.63295489
+Year: 2010 | Value: 64.88774886
+Year: 2011 | Value: 65.03278821
+Year: 2012 | Value: 65.16940213
+Year: 2013 | Value: 65.47647701
+Year: 2014 | Value: 65.75249158
+Year: 2015 | Value: 66.00102041
+Year: 2016 | Value: 66.19035356
+Year: 2017 | Value: 66.39410121
+Year: 2018 | Value: 66.51753655
+Year: 2019 | Value: 66.67377821
+Year: 2020 | Value: 66.27049986
+Year: 2021 | Value: 65.48786529
+Remark: Papua New Guinea
+Remark: Life expectancy at birth (years)",Text
+8d4787f7465d2389338835369b614a2f8aff71e1b4b432dbf0a3ed32656c894b,"Entity: POL / WHOSIS_000001
+Year: 2000 | Value: 73.69538073
+Year: 2001 | Value: 74.09873292
+Year: 2002 | Value: 74.45428635
+Year: 2003 | Value: 74.54799786
+Year: 2004 | Value: 74.76713155
+Year: 2005 | Value: 74.89551806
+Year: 2006 | Value: 75.11534037
+Year: 2007 | Value: 75.17671647
+Year: 2008 | Value: 75.43243412
+Year: 2009 | Value: 75.638685
+Year: 2010 | Value: 76.23355347
+Year: 2011 | Value: 76.56402189
+Year: 2012 | Value: 76.63330274
+Year: 2013 | Value: 76.86531254
+Year: 2014 | Value: 77.47281866
+Year: 2015 | Value: 77.27808527
+Year: 2016 | Value: 77.66853135
+Year: 2017 | Value: 77.56192606
+Year: 2018 | Value: 77.56054122
+Year: 2019 | Value: 77.72984544
+Year: 2020 | Value: 76.38788167
+Year: 2021 | Value: 75.4021086
+Remark: Poland
+Remark: Life expectancy at birth (years)",Text
+4f6678654b5092aefbe2d449cb9cc5210abff4d1013f6687d8147584d9780e84,"Entity: PRI / WHOSIS_000001
+Year: 2000 | Value: 76.24708096
+Year: 2001 | Value: 76.24165094
+Year: 2002 | Value: 77.12054839
+Year: 2003 | Value: 77.39170794
+Year: 2004 | Value: 77.47011967
+Year: 2005 | Value: 77.60317033
+Year: 2006 | Value: 78.05684106
+Year: 2007 | Value: 78.30688641
+Year: 2008 | Value: 78.51538133
+Year: 2009 | Value: 78.42308292
+Year: 2010 | Value: 79.0570999
+Year: 2011 | Value: 78.60025958
+Year: 2012 | Value: 79.34782827
+Year: 2013 | Value: 79.37939532
+Year: 2014 | Value: 79.89363862
+Year: 2015 | Value: 80.5149692
+Year: 2016 | Value: 80.23535619
+Year: 2017 | Value: 78.42817699
+Year: 2018 | Value: 80.71857467
+Year: 2019 | Value: 80.50288098
+Year: 2020 | Value: 79.93442802
+Year: 2021 | Value: 79.90294803
+Remark: Puerto Rico
+Remark: Life expectancy at birth (years)",Text
+9c2bca1eb295d52fb18edee01bd13167db1844590b39b79b9e8b6c85176f3f7c,"Entity: PRK / WHOSIS_000001
+Year: 2000 | Value: 62.51800133
+Year: 2001 | Value: 62.62928485
+Year: 2002 | Value: 62.79218596
+Year: 2003 | Value: 69.38323785
+Year: 2004 | Value: 69.49692995
+Year: 2005 | Value: 69.62778426
+Year: 2006 | Value: 69.70476861
+Year: 2007 | Value: 69.69220494
+Year: 2008 | Value: 69.79894796
+Year: 2009 | Value: 69.87200709
+Year: 2010 | Value: 70.02263868
+Year: 2011 | Value: 70.26241873
+Year: 2012 | Value: 70.53323819
+Year: 2013 | Value: 70.83607796
+Year: 2014 | Value: 71.13791927
+Year: 2015 | Value: 71.407681
+Year: 2016 | Value: 71.62258579
+Year: 2017 | Value: 71.92237066
+Year: 2018 | Value: 72.10726148
+Year: 2019 | Value: 72.31891378
+Year: 2020 | Value: 72.37904945
+Year: 2021 | Value: 72.6431485
+Remark: Democratic People's Republic of Korea
+Remark: Life expectancy at birth (years)",Text
+eed43b9fc54c9ee0da2625870fa410fa0c570dada9bb352e1f3eeb380c936490,"Entity: PRT / WHOSIS_000001
+Year: 2000 | Value: 76.58820219
+Year: 2001 | Value: 76.92951203
+Year: 2002 | Value: 77.14647451
+Year: 2003 | Value: 77.31485554
+Year: 2004 | Value: 78.12094465
+Year: 2005 | Value: 77.99178078
+Year: 2006 | Value: 78.74114417
+Year: 2007 | Value: 78.95554595
+Year: 2008 | Value: 79.19526814
+Year: 2009 | Value: 79.40582714
+Year: 2010 | Value: 79.74021661
+Year: 2011 | Value: 80.24005801
+Year: 2012 | Value: 80.21024339
+Year: 2013 | Value: 80.52727852
+Year: 2014 | Value: 80.89996435
+Year: 2015 | Value: 80.89189476
+Year: 2016 | Value: 80.90466136
+Year: 2017 | Value: 81.14657369
+Year: 2018 | Value: 81.06316039
+Year: 2019 | Value: 81.36750616
+Year: 2020 | Value: 80.81837464
+Year: 2021 | Value: 81.17961003
+Remark: Portugal
+Remark: Life expectancy at birth (years)",Text
+eaebf29e5c059c4730723863467deadb71806ef1b3b34a59cf4ae681d06280eb,"Entity: PRY / WHOSIS_000001
+Year: 2000 | Value: 74.68296704
+Year: 2001 | Value: 74.99163931
+Year: 2002 | Value: 75.11313392
+Year: 2003 | Value: 75.00581985
+Year: 2004 | Value: 74.56424274
+Year: 2005 | Value: 74.85137666
+Year: 2006 | Value: 74.82171264
+Year: 2007 | Value: 74.95391274
+Year: 2008 | Value: 74.99888647
+Year: 2009 | Value: 74.78626703
+Year: 2010 | Value: 74.73073675
+Year: 2011 | Value: 74.93009617
+Year: 2012 | Value: 75.12046624
+Year: 2013 | Value: 75.03958612
+Year: 2014 | Value: 75.31468858
+Year: 2015 | Value: 75.16683709
+Year: 2016 | Value: 74.86420083
+Year: 2017 | Value: 75.34684774
+Year: 2018 | Value: 75.22367023
+Year: 2019 | Value: 75.07903551
+Year: 2020 | Value: 75.24817035
+Year: 2021 | Value: 70.27080999
+Remark: Paraguay
+Remark: Life expectancy at birth (years)",Text
+b6772dd41a32bf6afb223d63f6ac01b10972b2f65bcd1d9ff1c61cfebe9147be,"Entity: PSE / WHOSIS_000001
+Year: 2000 | Value: 69.88946674
+Year: 2001 | Value: 69.33250971
+Year: 2002 | Value: 68.63142308
+Year: 2003 | Value: 69.63177214
+Year: 2004 | Value: 69.48491624
+Year: 2005 | Value: 70.5600974
+Year: 2006 | Value: 69.22549809
+Year: 2007 | Value: 70.80594736
+Year: 2008 | Value: 68.97864967
+Year: 2009 | Value: 69.43075818
+Year: 2010 | Value: 72.64524424
+Year: 2011 | Value: 72.78320408
+Year: 2012 | Value: 73.09729954
+Year: 2013 | Value: 74.20101603
+Year: 2014 | Value: 74.19704282
+Year: 2015 | Value: 74.56005234
+Year: 2016 | Value: 74.99064876
+Year: 2017 | Value: 75.45369565
+Year: 2018 | Value: 75.71172174
+Year: 2019 | Value: 75.83098235
+Year: 2020 | Value: 75.1341365
+Year: 2021 | Value: 73.49178033
+Remark: occupied Palestinian territory, including east Jerusalem
+Remark: Life expectancy at birth (years)",Text
+188f33a0a3be81aa549d1051daa30e74a4defae3899607f215af70c066e3172b,"Entity: QAT / WHOSIS_000001
+Year: 2000 | Value: 70.38243907
+Year: 2001 | Value: 70.31526721
+Year: 2002 | Value: 70.33186981
+Year: 2003 | Value: 70.55987989
+Year: 2004 | Value: 70.84074247
+Year: 2005 | Value: 71.03950228
+Year: 2006 | Value: 71.48490844
+Year: 2007 | Value: 71.89910857
+Year: 2008 | Value: 72.36968987
+Year: 2009 | Value: 72.77133296
+Year: 2010 | Value: 73.45657467
+Year: 2011 | Value: 74.27799506
+Year: 2012 | Value: 74.98566602
+Year: 2013 | Value: 75.79521614
+Year: 2014 | Value: 76.57011341
+Year: 2015 | Value: 77.79140376
+Year: 2016 | Value: 78.22428304
+Year: 2017 | Value: 78.5144035
+Year: 2018 | Value: 78.6332828
+Year: 2019 | Value: 78.89595906
+Year: 2020 | Value: 77.27588364
+Year: 2021 | Value: 76.7101384
+Remark: Qatar
+Remark: Life expectancy at birth (years)",Text
+2473663e5902650f67c8a9e68e3ff9a21c9d471be99fadac72a233572b9f292d,"Entity: ROU / WHOSIS_000001
+Year: 2000 | Value: 71.14174922
+Year: 2001 | Value: 71.21463166
+Year: 2002 | Value: 70.90278508
+Year: 2003 | Value: 71.23111832
+Year: 2004 | Value: 71.76511513
+Year: 2005 | Value: 72.09847343
+Year: 2006 | Value: 72.58593443
+Year: 2007 | Value: 73.13558178
+Year: 2008 | Value: 73.30477662
+Year: 2009 | Value: 73.44267621
+Year: 2010 | Value: 73.69918195
+Year: 2011 | Value: 74.44084112
+Year: 2012 | Value: 74.34204624
+Year: 2013 | Value: 75.00346495
+Year: 2014 | Value: 74.86061311
+Year: 2015 | Value: 74.90936922
+Year: 2016 | Value: 75.08359177
+Year: 2017 | Value: 75.11122981
+Year: 2018 | Value: 75.12257592
+Year: 2019 | Value: 75.4603753
+Year: 2020 | Value: 74.09623224
+Year: 2021 | Value: 72.76430945
+Remark: Romania
+Remark: Life expectancy at birth (years)",Text
+fe87c75a4482eafaedd3b94ed9b9b36a824c80432ee682af751c54990876fe06,"Entity: RUS / WHOSIS_000001
+Year: 2000 | Value: 65.15997475
+Year: 2001 | Value: 65.100666
+Year: 2002 | Value: 64.86108252
+Year: 2003 | Value: 64.72303979
+Year: 2004 | Value: 65.14346957
+Year: 2005 | Value: 65.18978014
+Year: 2006 | Value: 66.48842347
+Year: 2007 | Value: 67.42224647
+Year: 2008 | Value: 67.78990217
+Year: 2009 | Value: 68.55662333
+Year: 2010 | Value: 68.82506177
+Year: 2011 | Value: 69.77052933
+Year: 2012 | Value: 70.1880117
+Year: 2013 | Value: 70.69584464
+Year: 2014 | Value: 70.68556822
+Year: 2015 | Value: 71.29790344
+Year: 2016 | Value: 71.6156235
+Year: 2017 | Value: 72.49941608
+Year: 2018 | Value: 72.66311936
+Year: 2019 | Value: 73.21856487
+Year: 2020 | Value: 71.37748039
+Year: 2021 | Value: 70.017337
+Remark: Russian Federation
+Remark: Life expectancy at birth (years)",Text
+e041cbc67b8c3edfd663300720008f75102014e060b8ab95e3d81f2e039872ca,"Entity: RWA / WHOSIS_000001
+Year: 2000 | Value: 46.89447249
+Year: 2001 | Value: 48.33271376
+Year: 2002 | Value: 50.60960504
+Year: 2003 | Value: 52.47567981
+Year: 2004 | Value: 54.65577616
+Year: 2005 | Value: 57.02758036
+Year: 2006 | Value: 59.15292023
+Year: 2007 | Value: 60.82526391
+Year: 2008 | Value: 62.1374836
+Year: 2009 | Value: 62.96873523
+Year: 2010 | Value: 64.20018842
+Year: 2011 | Value: 65.04603076
+Year: 2012 | Value: 65.68582887
+Year: 2013 | Value: 66.2811484
+Year: 2014 | Value: 66.67115526
+Year: 2015 | Value: 66.96378175
+Year: 2016 | Value: 67.17638437
+Year: 2017 | Value: 67.42986245
+Year: 2018 | Value: 67.62644841
+Year: 2019 | Value: 67.75562916
+Year: 2020 | Value: 68.26351399
+Year: 2021 | Value: 67.54213882
+Remark: Rwanda
+Remark: Life expectancy at birth (years)",Text
+cd8c6039317950767c773cec9b8720364f3548f15d72a00baefdea043bde0fa9,"Entity: SAU / WHOSIS_000001
+Year: 2000 | Value: 70.56634565
+Year: 2001 | Value: 70.80307838
+Year: 2002 | Value: 71.0757645
+Year: 2003 | Value: 71.30662801
+Year: 2004 | Value: 71.6044008
+Year: 2005 | Value: 71.81634573
+Year: 2006 | Value: 72.03628203
+Year: 2007 | Value: 72.35473902
+Year: 2008 | Value: 72.99776938
+Year: 2009 | Value: 73.90009021
+Year: 2010 | Value: 74.89591575
+Year: 2011 | Value: 76.13164239
+Year: 2012 | Value: 77.02520885
+Year: 2013 | Value: 77.33139242
+Year: 2014 | Value: 77.22323995
+Year: 2015 | Value: 76.88889936
+Year: 2016 | Value: 76.75114086
+Year: 2017 | Value: 76.74293531
+Year: 2018 | Value: 76.81092084
+Year: 2019 | Value: 76.93147355
+Year: 2020 | Value: 76.05844679
+Year: 2021 | Value: 76.42921259
+Remark: Saudi Arabia
+Remark: Life expectancy at birth (years)",Text
+c1933b6e5b3a8256017c1a496f86f345fa6b2237c07c43c62d114559cbd0ede3,"Entity: SDN / WHOSIS_000001
+Year: 2000 | Value: 62.48898469
+Year: 2001 | Value: 62.9787096
+Year: 2002 | Value: 63.22443726
+Year: 2003 | Value: 63.67737719
+Year: 2004 | Value: 63.6815858
+Year: 2005 | Value: 64.87410418
+Year: 2006 | Value: 65.28684508
+Year: 2007 | Value: 65.760154
+Year: 2008 | Value: 66.10814996
+Year: 2009 | Value: 66.44393468
+Year: 2010 | Value: 66.94489813
+Year: 2011 | Value: 67.06889355
+Year: 2012 | Value: 67.58268855
+Year: 2013 | Value: 67.75900519
+Year: 2014 | Value: 68.08985985
+Year: 2015 | Value: 68.32706556
+Year: 2016 | Value: 68.65126932
+Year: 2017 | Value: 69.04016145
+Year: 2018 | Value: 69.24813878
+Year: 2019 | Value: 69.46506253
+Year: 2020 | Value: 68.44077001
+Year: 2021 | Value: 67.58515204
+Remark: Sudan
+Remark: Life expectancy at birth (years)",Text
+67845c59d2f3d7a7de99753331af54ae5083c9384fd1dc89ff23a7d32fd403c6,"Entity: SEAR / WHOSIS_000001
+Year: 2000 | Value: 64.06863574
+Year: 2001 | Value: 64.52874216
+Year: 2002 | Value: 64.96527953
+Year: 2003 | Value: 65.44284512
+Year: 2004 | Value: 65.59142283
+Year: 2005 | Value: 66.31183727
+Year: 2006 | Value: 66.65395623
+Year: 2007 | Value: 66.92530001
+Year: 2008 | Value: 67.06696466
+Year: 2009 | Value: 67.80764711
+Year: 2010 | Value: 68.21992604
+Year: 2011 | Value: 68.63474835
+Year: 2012 | Value: 69.06374791
+Year: 2013 | Value: 69.37293715
+Year: 2014 | Value: 69.73314803
+Year: 2015 | Value: 70.14297402
+Year: 2016 | Value: 70.51674285
+Year: 2017 | Value: 70.7727814
+Year: 2018 | Value: 71.0517579
+Year: 2019 | Value: 71.3719063
+Year: 2020 | Value: 70.72011705
+Year: 2021 | Value: 68.36682977
+Remark: Life expectancy at birth (years)",Text
+a46c023b49300d1f99cf7fd8ddf4249273bcb94add306b18716708812c77c949,"Entity: SEN / WHOSIS_000001
+Year: 2000 | Value: 58.6097114
+Year: 2001 | Value: 59.28989485
+Year: 2002 | Value: 59.79580137
+Year: 2003 | Value: 60.79093407
+Year: 2004 | Value: 61.57202557
+Year: 2005 | Value: 62.36297007
+Year: 2006 | Value: 63.06775371
+Year: 2007 | Value: 63.89029063
+Year: 2008 | Value: 64.57897818
+Year: 2009 | Value: 65.11616175
+Year: 2010 | Value: 65.56526204
+Year: 2011 | Value: 65.97224307
+Year: 2012 | Value: 66.29422396
+Year: 2013 | Value: 66.58590644
+Year: 2014 | Value: 66.97585439
+Year: 2015 | Value: 67.3624183
+Year: 2016 | Value: 67.7658388
+Year: 2017 | Value: 68.11975233
+Year: 2018 | Value: 68.44236378
+Year: 2019 | Value: 68.76445374
+Year: 2020 | Value: 68.56112195
+Year: 2021 | Value: 67.79198263
+Remark: Senegal
+Remark: Life expectancy at birth (years)",Text
+07c55b2030ecf6719d58dc3199c93b3d2a4fc06ba7c5c03b2a9e70990efe0032,"Entity: SGP / WHOSIS_000001
+Year: 2000 | Value: 78.52088806
+Year: 2001 | Value: 79.14204312
+Year: 2002 | Value: 79.33785577
+Year: 2003 | Value: 79.61117466
+Year: 2004 | Value: 80.33727579
+Year: 2005 | Value: 80.54232367
+Year: 2006 | Value: 80.98074622
+Year: 2007 | Value: 80.58124756
+Year: 2008 | Value: 80.97823119
+Year: 2009 | Value: 81.58275269
+Year: 2010 | Value: 81.76163848
+Year: 2011 | Value: 81.96030215
+Year: 2012 | Value: 82.21523479
+Year: 2013 | Value: 82.36588027
+Year: 2014 | Value: 82.60495523
+Year: 2015 | Value: 82.84921063
+Year: 2016 | Value: 83.24199269
+Year: 2017 | Value: 83.22151158
+Year: 2018 | Value: 83.50811882
+Year: 2019 | Value: 83.8984774
+Year: 2020 | Value: 83.99653626
+Year: 2021 | Value: 83.85708962
+Remark: Singapore
+Remark: Life expectancy at birth (years)",Text
+29f5b15ab9dc3fbb5157cbcaab8846f4f472aef347662987067279b9174d71b0,"Entity: SLB / WHOSIS_000001
+Year: 2000 | Value: 63.397598
+Year: 2001 | Value: 63.45373664
+Year: 2002 | Value: 63.47177399
+Year: 2003 | Value: 63.54307905
+Year: 2004 | Value: 63.61418491
+Year: 2005 | Value: 63.69667846
+Year: 2006 | Value: 63.79244472
+Year: 2007 | Value: 63.76837921
+Year: 2008 | Value: 64.05632367
+Year: 2009 | Value: 64.16468031
+Year: 2010 | Value: 64.36844431
+Year: 2011 | Value: 64.51306313
+Year: 2012 | Value: 64.70197152
+Year: 2013 | Value: 64.84559966
+Year: 2014 | Value: 64.95591891
+Year: 2015 | Value: 65.15166823
+Year: 2016 | Value: 65.29462393
+Year: 2017 | Value: 65.4106128
+Year: 2018 | Value: 65.55013712
+Year: 2019 | Value: 65.67290557
+Year: 2020 | Value: 65.39475136
+Year: 2021 | Value: 64.79245685
+Remark: Solomon Islands
+Remark: Life expectancy at birth (years)",Text
+19b8e9ca6e815ac546dc7dd736f319f752c892b8bc3519dfa53f738b4cba8c43,"Entity: SLE / WHOSIS_000001
+Year: 2000 | Value: 49.78648969
+Year: 2001 | Value: 50.94581314
+Year: 2002 | Value: 51.28114602
+Year: 2003 | Value: 51.5179057
+Year: 2004 | Value: 51.79598226
+Year: 2005 | Value: 52.10902537
+Year: 2006 | Value: 52.49110548
+Year: 2007 | Value: 52.87597512
+Year: 2008 | Value: 53.55359388
+Year: 2009 | Value: 54.19029086
+Year: 2010 | Value: 54.97106845
+Year: 2011 | Value: 55.66429433
+Year: 2012 | Value: 56.36734502
+Year: 2013 | Value: 57.05432525
+Year: 2014 | Value: 55.83770997
+Year: 2015 | Value: 56.88673236
+Year: 2016 | Value: 58.75068972
+Year: 2017 | Value: 59.15812369
+Year: 2018 | Value: 59.8662114
+Year: 2019 | Value: 60.40224239
+Year: 2020 | Value: 60.52060193
+Year: 2021 | Value: 61.0228635
+Remark: Sierra Leone
+Remark: Life expectancy at birth (years)",Text
+a945784679fe3a0c6d21e40f74383ba06b0b7e296c08f24c4bed67c8c921ace7,"Entity: SLV / WHOSIS_000001
+Year: 2000 | Value: 71.64575132
+Year: 2001 | Value: 71.7165175
+Year: 2002 | Value: 73.27326528
+Year: 2003 | Value: 73.05229991
+Year: 2004 | Value: 73.29271781
+Year: 2005 | Value: 73.40349475
+Year: 2006 | Value: 73.70492095
+Year: 2007 | Value: 74.16542856
+Year: 2008 | Value: 74.41041249
+Year: 2009 | Value: 74.00196009
+Year: 2010 | Value: 74.56329622
+Year: 2011 | Value: 74.57443118
+Year: 2012 | Value: 75.27280087
+Year: 2013 | Value: 74.78717919
+Year: 2014 | Value: 73.8558025
+Year: 2015 | Value: 72.73292352
+Year: 2016 | Value: 73.58698324
+Year: 2017 | Value: 73.71813956
+Year: 2018 | Value: 74.65055232
+Year: 2019 | Value: 74.28004903
+Year: 2020 | Value: 72.06392712
+Year: 2021 | Value: 71.66703998
+Remark: El Salvador
+Remark: Life expectancy at birth (years)",Text
+158b9855f2ecbbb57ada026dbe1c46e02a8f0adb142bae8c8036ff2a2c3658dd,"Entity: SOM / WHOSIS_000001
+Year: 2000 | Value: 49.28203144
+Year: 2001 | Value: 49.32648692
+Year: 2002 | Value: 49.39676377
+Year: 2003 | Value: 49.50039991
+Year: 2004 | Value: 49.44567549
+Year: 2005 | Value: 49.79233436
+Year: 2006 | Value: 49.82524247
+Year: 2007 | Value: 49.97697257
+Year: 2008 | Value: 50.31128296
+Year: 2009 | Value: 50.66979598
+Year: 2010 | Value: 49.52620758
+Year: 2011 | Value: 43.81163424
+Year: 2012 | Value: 50.10797443
+Year: 2013 | Value: 52.50391976
+Year: 2014 | Value: 53.08816189
+Year: 2015 | Value: 53.54338351
+Year: 2016 | Value: 53.9446075
+Year: 2017 | Value: 54.18246164
+Year: 2018 | Value: 54.6726292
+Year: 2019 | Value: 55.21397342
+Year: 2020 | Value: 55.12925544
+Year: 2021 | Value: 53.95143945
+Remark: Somalia
+Remark: Life expectancy at birth (years)",Text
+7db4d4802dbe2df7e47d14c3153bcfe0ba1fd63c776761a454cb4cdb1236c0da,"Entity: SRB / WHOSIS_000001
+Year: 2000 | Value: 71.49721977
+Year: 2001 | Value: 72.28188573
+Year: 2002 | Value: 72.31660412
+Year: 2003 | Value: 72.44791076
+Year: 2004 | Value: 72.65350507
+Year: 2005 | Value: 72.78382532
+Year: 2006 | Value: 73.38118952
+Year: 2007 | Value: 73.57700553
+Year: 2008 | Value: 73.82988623
+Year: 2009 | Value: 73.97356349
+Year: 2010 | Value: 74.27310939
+Year: 2011 | Value: 74.54862943
+Year: 2012 | Value: 74.84163486
+Year: 2013 | Value: 75.22896744
+Year: 2014 | Value: 75.32134955
+Year: 2015 | Value: 75.27946837
+Year: 2016 | Value: 75.67951218
+Year: 2017 | Value: 75.57063328
+Year: 2018 | Value: 75.88354818
+Year: 2019 | Value: 75.91665371
+Year: 2020 | Value: 74.43296608
+Year: 2021 | Value: 72.80891574
+Remark: Serbia
+Remark: Life expectancy at birth (years)",Text
+d3df174f92f14dea462606f13a23034f2f348b16aeb6829a77adba4a2772e541,"Entity: SSD / WHOSIS_000001
+Year: 2000 | Value: 51.90046634
+Year: 2001 | Value: 52.94166517
+Year: 2002 | Value: 53.71928707
+Year: 2003 | Value: 54.40318481
+Year: 2004 | Value: 55.24391875
+Year: 2005 | Value: 55.89935062
+Year: 2006 | Value: 56.35280945
+Year: 2007 | Value: 57.0352965
+Year: 2008 | Value: 57.67870573
+Year: 2009 | Value: 57.82228027
+Year: 2010 | Value: 58.75152485
+Year: 2011 | Value: 58.95406766
+Year: 2012 | Value: 59.31057362
+Year: 2013 | Value: 59.03400442
+Year: 2014 | Value: 59.09264997
+Year: 2015 | Value: 59.27637583
+Year: 2016 | Value: 59.18616055
+Year: 2017 | Value: 58.88284459
+Year: 2018 | Value: 58.86129412
+Year: 2019 | Value: 58.99663561
+Year: 2020 | Value: 58.94518456
+Year: 2021 | Value: 58.57353884
+Remark: South Sudan
+Remark: Life expectancy at birth (years)",Text
+2e96ddcc4c552131906e0d2662aaa2ac2b363063afc623cafb3f00054e1f3766,"Entity: STP / WHOSIS_000001
+Year: 2000 | Value: 63.12867264
+Year: 2001 | Value: 63.93324972
+Year: 2002 | Value: 64.65366231
+Year: 2003 | Value: 65.23040933
+Year: 2004 | Value: 65.71008672
+Year: 2005 | Value: 66.27283192
+Year: 2006 | Value: 66.784757
+Year: 2007 | Value: 67.22798633
+Year: 2008 | Value: 67.68827914
+Year: 2009 | Value: 68.39802803
+Year: 2010 | Value: 68.81769379
+Year: 2011 | Value: 69.19904607
+Year: 2012 | Value: 69.53766595
+Year: 2013 | Value: 69.94836441
+Year: 2014 | Value: 70.26367532
+Year: 2015 | Value: 70.55687146
+Year: 2016 | Value: 70.89699364
+Year: 2017 | Value: 71.25615442
+Year: 2018 | Value: 71.4403986
+Year: 2019 | Value: 71.65568515
+Year: 2020 | Value: 71.25244214
+Year: 2021 | Value: 71.17810896
+Remark: Sao Tome and Principe
+Remark: Life expectancy at birth (years)",Text
+600519e7761c50fda0c640caa1463bbbac82bd85a2aa88183807d4a5fdaeeb8d,"Entity: SUR / WHOSIS_000001
+Year: 2000 | Value: 70.55904903
+Year: 2001 | Value: 70.47457078
+Year: 2002 | Value: 70.41647923
+Year: 2003 | Value: 70.50252643
+Year: 2004 | Value: 70.80110636
+Year: 2005 | Value: 71.23039924
+Year: 2006 | Value: 71.692617
+Year: 2007 | Value: 72.06527282
+Year: 2008 | Value: 72.20581026
+Year: 2009 | Value: 72.61759185
+Year: 2010 | Value: 72.79506364
+Year: 2011 | Value: 73.11587921
+Year: 2012 | Value: 73.34638856
+Year: 2013 | Value: 73.14787483
+Year: 2014 | Value: 73.05386141
+Year: 2015 | Value: 72.9788443
+Year: 2016 | Value: 73.09259708
+Year: 2017 | Value: 73.2092718
+Year: 2018 | Value: 73.08581977
+Year: 2019 | Value: 73.02285851
+Year: 2020 | Value: 72.80157877
+Year: 2021 | Value: 69.78412349
+Remark: Suriname
+Remark: Life expectancy at birth (years)",Text
+995691f09dff05a8e23bbdbdba21eeaf65dbde87b886c58f13fdd0317db11c26,"Entity: SVK / WHOSIS_000001
+Year: 2000 | Value: 73.32287483
+Year: 2001 | Value: 73.45130702
+Year: 2002 | Value: 73.72313973
+Year: 2003 | Value: 73.78042489
+Year: 2004 | Value: 74.14711692
+Year: 2005 | Value: 74.09775351
+Year: 2006 | Value: 74.36445517
+Year: 2007 | Value: 74.470327
+Year: 2008 | Value: 74.82525921
+Year: 2009 | Value: 75.21656698
+Year: 2010 | Value: 75.44924081
+Year: 2011 | Value: 75.93326104
+Year: 2012 | Value: 76.13275335
+Year: 2013 | Value: 76.47557345
+Year: 2014 | Value: 76.83437639
+Year: 2015 | Value: 76.59625031
+Year: 2016 | Value: 77.15076737
+Year: 2017 | Value: 77.09456027
+Year: 2018 | Value: 77.19646571
+Year: 2019 | Value: 77.61261952
+Year: 2020 | Value: 76.86888148
+Year: 2021 | Value: 74.50941328
+Remark: Slovakia
+Remark: Life expectancy at birth (years)",Text
+237c9e9ce72817b7ad06c0b4a6bcd71922fe54e3c22485809b113c8f3f3326fd,"Entity: SVN / WHOSIS_000001
+Year: 2000 | Value: 76.05440169
+Year: 2001 | Value: 76.22393944
+Year: 2002 | Value: 76.50389555
+Year: 2003 | Value: 76.34395429
+Year: 2004 | Value: 77.10892927
+Year: 2005 | Value: 77.44125575
+Year: 2006 | Value: 78.04014469
+Year: 2007 | Value: 78.21314391
+Year: 2008 | Value: 78.89957706
+Year: 2009 | Value: 79.05086528
+Year: 2010 | Value: 79.54577335
+Year: 2011 | Value: 79.84960348
+Year: 2012 | Value: 79.89107651
+Year: 2013 | Value: 80.1367942
+Year: 2014 | Value: 80.78508516
+Year: 2015 | Value: 80.46318817
+Year: 2016 | Value: 80.81692358
+Year: 2017 | Value: 80.7898907
+Year: 2018 | Value: 80.95873943
+Year: 2019 | Value: 81.28502446
+Year: 2020 | Value: 80.33576726
+Year: 2021 | Value: 80.41495666
+Remark: Slovenia
+Remark: Life expectancy at birth (years)",Text
+53e9c67a83a3d383b738b21b3123173825dfa45aac4ac995dfd826753f13494c,"Entity: SWE / WHOSIS_000001
+Year: 2000 | Value: 79.57418828
+Year: 2001 | Value: 79.66920996
+Year: 2002 | Value: 79.75650347
+Year: 2003 | Value: 80.00643909
+Year: 2004 | Value: 80.35214323
+Year: 2005 | Value: 80.4243719
+Year: 2006 | Value: 80.63113222
+Year: 2007 | Value: 80.77300072
+Year: 2008 | Value: 80.9280163
+Year: 2009 | Value: 81.1481904
+Year: 2010 | Value: 81.30465771
+Year: 2011 | Value: 81.52274171
+Year: 2012 | Value: 81.46624768
+Year: 2013 | Value: 81.64075183
+Year: 2014 | Value: 81.92750078
+Year: 2015 | Value: 81.74239456
+Year: 2016 | Value: 82.00943962
+Year: 2017 | Value: 82.0845963
+Year: 2018 | Value: 82.20163712
+Year: 2019 | Value: 82.71414637
+Year: 2020 | Value: 82.08200836
+Year: 2021 | Value: 82.6649092
+Remark: Sweden
+Remark: Life expectancy at birth (years)",Text
+23d948ed8aa4c160ad6d15d604549c9ba4580be3793934d3acd0b86fde02e77b,"Entity: SWZ / WHOSIS_000001
+Year: 2000 | Value: 46.7774174
+Year: 2001 | Value: 44.97441053
+Year: 2002 | Value: 43.63857902
+Year: 2003 | Value: 42.59286029
+Year: 2004 | Value: 41.87434793
+Year: 2005 | Value: 41.77987727
+Year: 2006 | Value: 42.74148839
+Year: 2007 | Value: 43.59627355
+Year: 2008 | Value: 44.27535626
+Year: 2009 | Value: 45.04734029
+Year: 2010 | Value: 46.38823095
+Year: 2011 | Value: 48.07568339
+Year: 2012 | Value: 49.10836702
+Year: 2013 | Value: 49.97813792
+Year: 2014 | Value: 50.93411451
+Year: 2015 | Value: 52.11336327
+Year: 2016 | Value: 53.13250876
+Year: 2017 | Value: 53.80924436
+Year: 2018 | Value: 54.73682091
+Year: 2019 | Value: 55.74729385
+Year: 2020 | Value: 55.96824586
+Year: 2021 | Value: 54.59266973
+Remark: Eswatini
+Remark: Life expectancy at birth (years)",Text
+5851096d89132626fdad3cb19ea866affb1aa1ed9293a6b8bf50c012987c56e7,"Entity: SYC / WHOSIS_000001
+Year: 2000 | Value: 72.10530836
+Year: 2001 | Value: 72.22760033
+Year: 2002 | Value: 72.11976114
+Year: 2003 | Value: 72.02646689
+Year: 2004 | Value: 72.21510064
+Year: 2005 | Value: 72.35775752
+Year: 2006 | Value: 72.35760551
+Year: 2007 | Value: 72.47348081
+Year: 2008 | Value: 72.66235739
+Year: 2009 | Value: 72.84593273
+Year: 2010 | Value: 73.11877031
+Year: 2011 | Value: 73.29952908
+Year: 2012 | Value: 73.25421096
+Year: 2013 | Value: 73.28849847
+Year: 2014 | Value: 73.23814592
+Year: 2015 | Value: 73.16237091
+Year: 2016 | Value: 73.07491735
+Year: 2017 | Value: 73.0936681
+Year: 2018 | Value: 73.08090426
+Year: 2019 | Value: 73.12375678
+Year: 2020 | Value: 77.26435364
+Year: 2021 | Value: 74.01196664
+Remark: Seychelles
+Remark: Life expectancy at birth (years)",Text
+ff0dc6c63d37e8c367e4dcd14688661ce94d1d6b67850572a71a0886e240b4ab,"Entity: SYR / WHOSIS_000001
+Year: 2000 | Value: 71.08679254
+Year: 2001 | Value: 71.76491508
+Year: 2002 | Value: 72.00814832
+Year: 2003 | Value: 72.65734085
+Year: 2004 | Value: 72.88238933
+Year: 2005 | Value: 73.23261717
+Year: 2006 | Value: 73.37955444
+Year: 2007 | Value: 73.62412875
+Year: 2008 | Value: 73.54815311
+Year: 2009 | Value: 73.73835464
+Year: 2010 | Value: 73.76180647
+Year: 2011 | Value: 71.88413217
+Year: 2012 | Value: 64.99959827
+Year: 2013 | Value: 64.68588767
+Year: 2014 | Value: 60.24065156
+Year: 2015 | Value: 60.0056598
+Year: 2016 | Value: 60.12484476
+Year: 2017 | Value: 59.23626681
+Year: 2018 | Value: 64.30375249
+Year: 2019 | Value: 69.17463554
+Year: 2020 | Value: 71.99813819
+Year: 2021 | Value: 72.43803165
+Remark: Syrian Arab Republic
+Remark: Life expectancy at birth (years)",Text
+9a1a2a072a6e459c94e521f7ba6cb5fd746bd59213ff688767256dcc3ab138ea,"Entity: TCD / WHOSIS_000001
+Year: 2000 | Value: 51.16932904
+Year: 2001 | Value: 51.59248612
+Year: 2002 | Value: 51.79475115
+Year: 2003 | Value: 52.10728656
+Year: 2004 | Value: 52.48451206
+Year: 2005 | Value: 52.94619682
+Year: 2006 | Value: 53.09314194
+Year: 2007 | Value: 53.97297101
+Year: 2008 | Value: 54.40322043
+Year: 2009 | Value: 55.19430969
+Year: 2010 | Value: 55.72346132
+Year: 2011 | Value: 56.17787256
+Year: 2012 | Value: 56.60362018
+Year: 2013 | Value: 57.01481483
+Year: 2014 | Value: 57.46459955
+Year: 2015 | Value: 57.84629101
+Year: 2016 | Value: 58.31677511
+Year: 2017 | Value: 58.6099778
+Year: 2018 | Value: 58.95783062
+Year: 2019 | Value: 59.37353739
+Year: 2020 | Value: 59.21180605
+Year: 2021 | Value: 59.08581443
+Remark: Chad
+Remark: Life expectancy at birth (years)",Text
+9b1751bc895478852f1aae294023b924db45f57f8f1a4de9ff4c775538925f5e,"Entity: TGO / WHOSIS_000001
+Year: 2000 | Value: 56.07824585
+Year: 2001 | Value: 56.11218609
+Year: 2002 | Value: 56.21544389
+Year: 2003 | Value: 56.35238007
+Year: 2004 | Value: 56.74808404
+Year: 2005 | Value: 56.95869918
+Year: 2006 | Value: 57.51444622
+Year: 2007 | Value: 57.69120242
+Year: 2008 | Value: 57.96842813
+Year: 2009 | Value: 58.50878639
+Year: 2010 | Value: 59.15723761
+Year: 2011 | Value: 59.7945853
+Year: 2012 | Value: 60.30947123
+Year: 2013 | Value: 60.71230247
+Year: 2014 | Value: 61.08981314
+Year: 2015 | Value: 61.52164894
+Year: 2016 | Value: 62.01053382
+Year: 2017 | Value: 62.55310805
+Year: 2018 | Value: 63.07923124
+Year: 2019 | Value: 63.64852176
+Year: 2020 | Value: 63.84914267
+Year: 2021 | Value: 63.86461122
+Remark: Togo
+Remark: Life expectancy at birth (years)",Text
+97149af6159aa9a082fd5faee29d92e0bc3ffc098a5fdffc7de8b213649f3f87,"Entity: THA / WHOSIS_000001
+Year: 2000 | Value: 71.0119193
+Year: 2001 | Value: 71.72869386
+Year: 2002 | Value: 71.71439141
+Year: 2003 | Value: 72.03975902
+Year: 2004 | Value: 72.04096222
+Year: 2005 | Value: 72.83579766
+Year: 2006 | Value: 73.40943067
+Year: 2007 | Value: 73.93719029
+Year: 2008 | Value: 74.46372111
+Year: 2009 | Value: 75.05244639
+Year: 2010 | Value: 75.29127601
+Year: 2011 | Value: 75.71879745
+Year: 2012 | Value: 76.18036117
+Year: 2013 | Value: 76.54383011
+Year: 2014 | Value: 76.7567559
+Year: 2015 | Value: 76.97043175
+Year: 2016 | Value: 76.9976755
+Year: 2017 | Value: 77.22944399
+Year: 2018 | Value: 77.14916132
+Year: 2019 | Value: 76.92495279
+Year: 2020 | Value: 76.50524949
+Year: 2021 | Value: 75.29014364
+Remark: Thailand
+Remark: Life expectancy at birth (years)",Text
+968206fc8d14066d50852f1eb12a1da4604bd020a775f2f7341bf3db9e469f05,"Entity: TJK / WHOSIS_000001
+Year: 2000 | Value: 65.64695846
+Year: 2001 | Value: 66.35716048
+Year: 2002 | Value: 66.94490991
+Year: 2003 | Value: 67.57088192
+Year: 2004 | Value: 67.99767342
+Year: 2005 | Value: 68.16382022
+Year: 2006 | Value: 68.48925177
+Year: 2007 | Value: 68.67357175
+Year: 2008 | Value: 69.0368299
+Year: 2009 | Value: 69.34531105
+Year: 2010 | Value: 69.92200868
+Year: 2011 | Value: 70.42452045
+Year: 2012 | Value: 70.97199509
+Year: 2013 | Value: 71.7590921
+Year: 2014 | Value: 72.02059888
+Year: 2015 | Value: 72.37216019
+Year: 2016 | Value: 72.72427435
+Year: 2017 | Value: 73.18915767
+Year: 2018 | Value: 73.49599296
+Year: 2019 | Value: 73.80997068
+Year: 2020 | Value: 70.55595856
+Year: 2021 | Value: 71.814877
+Remark: Tajikistan
+Remark: Life expectancy at birth (years)",Text
+33b827d5f5630c4d0b5962a2652dcac5e4277cc7fff0869be5227743644b78b1,"Entity: TKM / WHOSIS_000001
+Year: 2000 | Value: 65.56917712
+Year: 2001 | Value: 65.9484733
+Year: 2002 | Value: 65.87608131
+Year: 2003 | Value: 65.88787813
+Year: 2004 | Value: 65.61545494
+Year: 2005 | Value: 65.28550391
+Year: 2006 | Value: 65.67349206
+Year: 2007 | Value: 66.17071827
+Year: 2008 | Value: 66.98536912
+Year: 2009 | Value: 68.42683026
+Year: 2010 | Value: 69.12241685
+Year: 2011 | Value: 69.23413358
+Year: 2012 | Value: 69.3130409
+Year: 2013 | Value: 69.11794049
+Year: 2014 | Value: 68.91649587
+Year: 2015 | Value: 68.83222809
+Year: 2016 | Value: 68.96406385
+Year: 2017 | Value: 68.97743987
+Year: 2018 | Value: 69.07787312
+Year: 2019 | Value: 69.14190532
+Year: 2020 | Value: 68.47366895
+Year: 2021 | Value: 69.12049331
+Remark: Turkmenistan
+Remark: Life expectancy at birth (years)",Text
+4dedee3c143fdf871413482ff14c6684641b0c5b5d77d3bb0886eeaf5a92130f,"Entity: TLS / WHOSIS_000001
+Year: 2000 | Value: 62.86576561
+Year: 2001 | Value: 63.41630684
+Year: 2002 | Value: 63.92197693
+Year: 2003 | Value: 64.51597993
+Year: 2004 | Value: 65.10952919
+Year: 2005 | Value: 65.67751029
+Year: 2006 | Value: 65.99128891
+Year: 2007 | Value: 66.33184634
+Year: 2008 | Value: 66.57678716
+Year: 2009 | Value: 66.64368547
+Year: 2010 | Value: 67.00361983
+Year: 2011 | Value: 67.28464088
+Year: 2012 | Value: 67.450997
+Year: 2013 | Value: 67.45652515
+Year: 2014 | Value: 67.48250838
+Year: 2015 | Value: 67.83593705
+Year: 2016 | Value: 68.07445467
+Year: 2017 | Value: 68.23558592
+Year: 2018 | Value: 68.36839208
+Year: 2019 | Value: 68.49880356
+Year: 2020 | Value: 68.91671885
+Year: 2021 | Value: 67.99671222
+Remark: Timor-Leste
+Remark: Life expectancy at birth (years)",Text
+799b10485d3729db3016c882d3b15c76fd6de4e87720a417c416d2b72566481c,"Entity: TON / WHOSIS_000001
+Year: 2000 | Value: 70.95399808
+Year: 2001 | Value: 71.21713536
+Year: 2002 | Value: 71.2515614
+Year: 2003 | Value: 71.25830559
+Year: 2004 | Value: 71.44335848
+Year: 2005 | Value: 71.97193468
+Year: 2006 | Value: 72.01750935
+Year: 2007 | Value: 72.00901963
+Year: 2008 | Value: 72.00245834
+Year: 2009 | Value: 70.18279546
+Year: 2010 | Value: 72.11458049
+Year: 2011 | Value: 72.18060639
+Year: 2012 | Value: 72.2449478
+Year: 2013 | Value: 72.30723111
+Year: 2014 | Value: 72.38182372
+Year: 2015 | Value: 72.46352791
+Year: 2016 | Value: 72.56032607
+Year: 2017 | Value: 72.71571833
+Year: 2018 | Value: 72.84423109
+Year: 2019 | Value: 72.94212581
+Year: 2020 | Value: 73.18678447
+Year: 2021 | Value: 72.72088222
+Remark: Tonga
+Remark: Life expectancy at birth (years)",Text
+0396a043a7ef5e2f9a6dc365728a4c8c2d55fe8add165c640c28fea937248cae,"Entity: TTO / WHOSIS_000001
+Year: 2000 | Value: 70.4199372
+Year: 2001 | Value: 70.55567603
+Year: 2002 | Value: 71.08783441
+Year: 2003 | Value: 70.96473433
+Year: 2004 | Value: 71.34856579
+Year: 2005 | Value: 71.67544737
+Year: 2006 | Value: 72.20904818
+Year: 2007 | Value: 72.39472984
+Year: 2008 | Value: 72.03571655
+Year: 2009 | Value: 72.84103384
+Year: 2010 | Value: 73.32339874
+Year: 2011 | Value: 74.01459781
+Year: 2012 | Value: 74.64546221
+Year: 2013 | Value: 74.31731073
+Year: 2014 | Value: 74.31626767
+Year: 2015 | Value: 74.35412517
+Year: 2016 | Value: 73.83467512
+Year: 2017 | Value: 74.00520612
+Year: 2018 | Value: 73.99505843
+Year: 2019 | Value: 74.09327397
+Year: 2020 | Value: 73.63599489
+Year: 2021 | Value: 71.70712647
+Remark: Trinidad and Tobago
+Remark: Life expectancy at birth (years)",Text
+20b6bcf13a7f7e0b45ee185e277d7bd56d7b0b9c3dccf7ff846471500b5bc964,"Entity: TUN / WHOSIS_000001
+Year: 2000 | Value: 74.30098477
+Year: 2001 | Value: 74.55599136
+Year: 2002 | Value: 74.75755844
+Year: 2003 | Value: 74.95127697
+Year: 2004 | Value: 75.17294716
+Year: 2005 | Value: 75.37276042
+Year: 2006 | Value: 75.57522085
+Year: 2007 | Value: 75.74953958
+Year: 2008 | Value: 75.92697277
+Year: 2009 | Value: 76.07616117
+Year: 2010 | Value: 76.21500138
+Year: 2011 | Value: 76.36110917
+Year: 2012 | Value: 76.52515319
+Year: 2013 | Value: 76.61373105
+Year: 2014 | Value: 76.6974822
+Year: 2015 | Value: 76.78627015
+Year: 2016 | Value: 76.91365109
+Year: 2017 | Value: 77.03145853
+Year: 2018 | Value: 77.23195746
+Year: 2019 | Value: 77.50537971
+Year: 2020 | Value: 77.12175333
+Year: 2021 | Value: 74.06842662
+Remark: Tunisia
+Remark: Life expectancy at birth (years)",Text
+fb62c204be021f7f71ab1a62e174d977317c2cbf1fd9e9e40de6a2660a667e70,"Entity: TUR / WHOSIS_000001
+Year: 2000 | Value: 73.31499528
+Year: 2001 | Value: 74.03517034
+Year: 2002 | Value: 74.77351879
+Year: 2003 | Value: 75.30413279
+Year: 2004 | Value: 75.833599
+Year: 2005 | Value: 76.19636776
+Year: 2006 | Value: 76.53841522
+Year: 2007 | Value: 76.70654932
+Year: 2008 | Value: 76.65466357
+Year: 2009 | Value: 76.34599074
+Year: 2010 | Value: 76.50699578
+Year: 2011 | Value: 76.69522957
+Year: 2012 | Value: 76.83621576
+Year: 2013 | Value: 76.83417226
+Year: 2014 | Value: 76.74876869
+Year: 2015 | Value: 76.68525905
+Year: 2016 | Value: 76.66589183
+Year: 2017 | Value: 77.07084923
+Year: 2018 | Value: 77.55827507
+Year: 2019 | Value: 77.61966184
+Year: 2020 | Value: 76.17525576
+Year: 2021 | Value: 75.27238945
+Remark: Türkiye
+Remark: Life expectancy at birth (years)",Text
+32a168cb53f92a562abf4090d58a4d0283c97711edce20079887fa89fdea1395,"Entity: TZA / WHOSIS_000001
+Year: 2000 | Value: 52.79227334
+Year: 2001 | Value: 53.52029055
+Year: 2002 | Value: 54.24829544
+Year: 2003 | Value: 54.98804057
+Year: 2004 | Value: 55.69111865
+Year: 2005 | Value: 56.55203228
+Year: 2006 | Value: 57.81812716
+Year: 2007 | Value: 59.37881257
+Year: 2008 | Value: 60.43730538
+Year: 2009 | Value: 61.03787589
+Year: 2010 | Value: 61.6819464
+Year: 2011 | Value: 62.26370092
+Year: 2012 | Value: 63.07821297
+Year: 2013 | Value: 64.03254511
+Year: 2014 | Value: 64.69269786
+Year: 2015 | Value: 65.15719683
+Year: 2016 | Value: 65.60342077
+Year: 2017 | Value: 65.98183854
+Year: 2018 | Value: 66.39625941
+Year: 2019 | Value: 66.78631383
+Year: 2020 | Value: 67.40275668
+Year: 2021 | Value: 66.8101483
+Remark: United Republic of Tanzania
+Remark: Life expectancy at birth (years)",Text
+20eecb01294b6567787f69c2997e45ac757d5d257bc29476ed3b4428ebd4d3ff,"Entity: UGA / WHOSIS_000001
+Year: 2000 | Value: 48.8900405
+Year: 2001 | Value: 49.78388659
+Year: 2002 | Value: 50.65046911
+Year: 2003 | Value: 51.68238982
+Year: 2004 | Value: 53.13418916
+Year: 2005 | Value: 54.81013228
+Year: 2006 | Value: 55.99216305
+Year: 2007 | Value: 56.83050321
+Year: 2008 | Value: 57.97310088
+Year: 2009 | Value: 59.05814244
+Year: 2010 | Value: 59.96020545
+Year: 2011 | Value: 60.87012607
+Year: 2012 | Value: 61.8009059
+Year: 2013 | Value: 62.71779853
+Year: 2014 | Value: 63.49406001
+Year: 2015 | Value: 64.2155816
+Year: 2016 | Value: 64.67477151
+Year: 2017 | Value: 65.21733648
+Year: 2018 | Value: 65.71888649
+Year: 2019 | Value: 66.0878394
+Year: 2020 | Value: 66.29850916
+Year: 2021 | Value: 65.98577935
+Remark: Uganda
+Remark: Life expectancy at birth (years)",Text
+74e2fd2d8e8abf815da73e94bc1c14db23a7b1107aa47775d516523739026100,"Entity: UKR / WHOSIS_000001
+Year: 2000 | Value: 67.55459596
+Year: 2001 | Value: 67.7115647
+Year: 2002 | Value: 67.49385199
+Year: 2003 | Value: 67.52472284
+Year: 2004 | Value: 67.43010343
+Year: 2005 | Value: 67.10598289
+Year: 2006 | Value: 67.7845536
+Year: 2007 | Value: 67.5915603
+Year: 2008 | Value: 67.905744
+Year: 2009 | Value: 69.49300841
+Year: 2010 | Value: 70.14904515
+Year: 2011 | Value: 70.93317751
+Year: 2012 | Value: 71.09437239
+Year: 2013 | Value: 71.55330688
+Year: 2014 | Value: 70.89072091
+Year: 2015 | Value: 72.14894514
+Year: 2016 | Value: 72.62863559
+Year: 2017 | Value: 73.00099017
+Year: 2018 | Value: 72.71826067
+Year: 2019 | Value: 73.00449182
+Year: 2020 | Value: 72.49786713
+Year: 2021 | Value: 70.90674708
+Remark: Ukraine
+Remark: Life expectancy at birth (years)",Text
+85c5f0c891849e65048389e0802bb229e9dcf4cc433ff4228a690177dc1e76f5,"Entity: URY / WHOSIS_000001
+Year: 2000 | Value: 74.87862057
+Year: 2001 | Value: 74.92750681
+Year: 2002 | Value: 75.11068373
+Year: 2003 | Value: 74.80937399
+Year: 2004 | Value: 75.26030661
+Year: 2005 | Value: 75.64994667
+Year: 2006 | Value: 76.33233577
+Year: 2007 | Value: 75.38115954
+Year: 2008 | Value: 76.39345878
+Year: 2009 | Value: 76.67128798
+Year: 2010 | Value: 76.48217264
+Year: 2011 | Value: 76.59711654
+Year: 2012 | Value: 76.40566239
+Year: 2013 | Value: 76.7019772
+Year: 2014 | Value: 77.15013883
+Year: 2015 | Value: 77.09925201
+Year: 2016 | Value: 76.84527198
+Year: 2017 | Value: 77.33933717
+Year: 2018 | Value: 77.03739696
+Year: 2019 | Value: 77.01365627
+Year: 2020 | Value: 77.79436073
+Year: 2021 | Value: 74.98295244
+Remark: Uruguay
+Remark: Life expectancy at birth (years)",Text
+ec717b8deee13c7f026702e513932ecf5f9d9eb1632a4437eb03655c098e81ce,"Entity: USA / WHOSIS_000001
+Year: 2000 | Value: 76.65847648
+Year: 2001 | Value: 76.75000279
+Year: 2002 | Value: 76.84998093
+Year: 2003 | Value: 76.98967151
+Year: 2004 | Value: 77.3972613
+Year: 2005 | Value: 77.38462128
+Year: 2006 | Value: 77.68331379
+Year: 2007 | Value: 77.94056193
+Year: 2008 | Value: 78.0493345
+Year: 2009 | Value: 78.42393798
+Year: 2010 | Value: 78.6069239
+Year: 2011 | Value: 78.65364022
+Year: 2012 | Value: 78.77111574
+Year: 2013 | Value: 78.75952758
+Year: 2014 | Value: 78.80026105
+Year: 2015 | Value: 78.61058161
+Year: 2016 | Value: 78.55677254
+Year: 2017 | Value: 78.50077044
+Year: 2018 | Value: 78.62912526
+Year: 2019 | Value: 78.73923827
+Year: 2020 | Value: 76.89250856
+Year: 2021 | Value: 76.37368104
+Remark: United States of America
+Remark: Life expectancy at birth (years)",Text
+0358e9777953794758525c4cf0c25d33a7df8bedb10a61643aab37f2dc245a5d,"Entity: UZB / WHOSIS_000001
+Year: 2000 | Value: 61.67667881
+Year: 2001 | Value: 62.16554368
+Year: 2002 | Value: 62.19230023
+Year: 2003 | Value: 62.74285785
+Year: 2004 | Value: 63.42369036
+Year: 2005 | Value: 63.20028511
+Year: 2006 | Value: 64.19601086
+Year: 2007 | Value: 64.796684
+Year: 2008 | Value: 65.44084852
+Year: 2009 | Value: 66.2800996
+Year: 2010 | Value: 66.71556004
+Year: 2011 | Value: 67.18064136
+Year: 2012 | Value: 67.64432032
+Year: 2013 | Value: 68.3723982
+Year: 2014 | Value: 68.81484391
+Year: 2015 | Value: 69.42591804
+Year: 2016 | Value: 69.95773109
+Year: 2017 | Value: 70.40271496
+Year: 2018 | Value: 71.46640597
+Year: 2019 | Value: 72.27007322
+Year: 2020 | Value: 71.36099727
+Year: 2021 | Value: 72.18877681
+Remark: Uzbekistan
+Remark: Life expectancy at birth (years)",Text
+fb35339cd79e8e0430de56f70c595c4faa96e8d235f41229e40bc295f58b6f9b,"Entity: VCT / WHOSIS_000001
+Year: 2000 | Value: 71.66187212
+Year: 2001 | Value: 71.90344128
+Year: 2002 | Value: 72.01069433
+Year: 2003 | Value: 72.24268792
+Year: 2004 | Value: 72.36667565
+Year: 2005 | Value: 72.5595686
+Year: 2006 | Value: 72.92616303
+Year: 2007 | Value: 73.25297188
+Year: 2008 | Value: 73.51667142
+Year: 2009 | Value: 73.56239685
+Year: 2010 | Value: 73.48342047
+Year: 2011 | Value: 73.21012386
+Year: 2012 | Value: 72.98728933
+Year: 2013 | Value: 72.60483816
+Year: 2014 | Value: 72.73600877
+Year: 2015 | Value: 72.79473614
+Year: 2016 | Value: 72.98153488
+Year: 2017 | Value: 73.09125438
+Year: 2018 | Value: 73.17900227
+Year: 2019 | Value: 73.10795228
+Year: 2020 | Value: 72.74742918
+Year: 2021 | Value: 72.55709418
+Remark: Saint Vincent and the Grenadines
+Remark: Life expectancy at birth (years)",Text
+2468092c0a3106d3ea87c383eab0d99a773ea55e48b338003c93775727555dff,"Entity: VEN / WHOSIS_000001
+Year: 2000 | Value: 74.03248641
+Year: 2001 | Value: 73.89650756
+Year: 2002 | Value: 74.25516144
+Year: 2003 | Value: 73.64690409
+Year: 2004 | Value: 74.41023981
+Year: 2005 | Value: 74.71197022
+Year: 2006 | Value: 74.69093059
+Year: 2007 | Value: 74.52946535
+Year: 2008 | Value: 74.27958667
+Year: 2009 | Value: 74.56885736
+Year: 2010 | Value: 74.662242
+Year: 2011 | Value: 74.58939214
+Year: 2012 | Value: 74.44482492
+Year: 2013 | Value: 74.60132769
+Year: 2014 | Value: 74.05573564
+Year: 2015 | Value: 73.93795547
+Year: 2016 | Value: 72.39034431
+Year: 2017 | Value: 72.98365736
+Year: 2018 | Value: 72.81771282
+Year: 2019 | Value: 72.71401189
+Year: 2020 | Value: 72.40374475
+Year: 2021 | Value: 71.22082891
+Remark: Venezuela (Bolivarian Republic of)
+Remark: Life expectancy at birth (years)",Text
+0f26a32516feac6ec9012211701ee8357bef856ca6b2223413281ce8c85563c0,"Entity: VNM / WHOSIS_000001
+Year: 2000 | Value: 71.87399979
+Year: 2001 | Value: 71.97988323
+Year: 2002 | Value: 72.06004934
+Year: 2003 | Value: 72.11217075
+Year: 2004 | Value: 72.15340395
+Year: 2005 | Value: 72.17650018
+Year: 2006 | Value: 72.23737668
+Year: 2007 | Value: 72.30106944
+Year: 2008 | Value: 72.35184572
+Year: 2009 | Value: 72.41132963
+Year: 2010 | Value: 72.48813081
+Year: 2011 | Value: 72.61270345
+Year: 2012 | Value: 72.74028809
+Year: 2013 | Value: 72.83984641
+Year: 2014 | Value: 72.95094965
+Year: 2015 | Value: 73.03125783
+Year: 2016 | Value: 73.21381033
+Year: 2017 | Value: 73.40138207
+Year: 2018 | Value: 73.56096825
+Year: 2019 | Value: 73.71007094
+Year: 2020 | Value: 74.77582966
+Year: 2021 | Value: 73.7965773
+Remark: Viet Nam
+Remark: Life expectancy at birth (years)",Text
+5e427f67a3999046ec2004d2112a859351ca6e68746d00d3b297e3e886edbfe5,"Entity: VUT / WHOSIS_000001
+Year: 2000 | Value: 64.92630401
+Year: 2001 | Value: 64.97955845
+Year: 2002 | Value: 65.03950977
+Year: 2003 | Value: 65.08697701
+Year: 2004 | Value: 65.14603809
+Year: 2005 | Value: 65.24030241
+Year: 2006 | Value: 65.37131308
+Year: 2007 | Value: 65.5182575
+Year: 2008 | Value: 65.68985149
+Year: 2009 | Value: 65.89385815
+Year: 2010 | Value: 66.08385743
+Year: 2011 | Value: 66.2618784
+Year: 2012 | Value: 66.43172159
+Year: 2013 | Value: 66.60736544
+Year: 2014 | Value: 66.71134263
+Year: 2015 | Value: 66.79010699
+Year: 2016 | Value: 66.91782394
+Year: 2017 | Value: 66.98064455
+Year: 2018 | Value: 67.04714117
+Year: 2019 | Value: 67.13030878
+Year: 2020 | Value: 67.09750807
+Year: 2021 | Value: 66.3483713
+Remark: Vanuatu
+Remark: Life expectancy at birth (years)",Text
+89e4ab640b06e0a27267b84602018a581d93626cd24493be60b07c4caeb1ab39,"Entity: WB_HI / WHOSIS_000001
+Year: 2000 | Value: 77.53178071
+Year: 2001 | Value: 77.77308056
+Year: 2002 | Value: 77.91958141
+Year: 2003 | Value: 78.01340604
+Year: 2004 | Value: 78.48672448
+Year: 2005 | Value: 78.55484133
+Year: 2006 | Value: 78.9430904
+Year: 2007 | Value: 79.13737329
+Year: 2008 | Value: 79.31835213
+Year: 2009 | Value: 79.61497249
+Year: 2010 | Value: 79.83143411
+Year: 2011 | Value: 80.00535625
+Year: 2012 | Value: 80.14050022
+Year: 2013 | Value: 80.30511012
+Year: 2014 | Value: 80.53130986
+Year: 2015 | Value: 80.39036377
+Year: 2016 | Value: 80.5831754
+Year: 2017 | Value: 80.58823029
+Year: 2018 | Value: 80.68924788
+Year: 2019 | Value: 80.90566753
+Year: 2020 | Value: 79.95969437
+Year: 2021 | Value: 79.65119873
+Remark: Life expectancy at birth (years)",Text
+f85196ef697ead0fb8094cbcf2d6450ab5dbbfd2482cfb2cf31e3c1031c472eb,"Entity: WB_LI / WHOSIS_000001
+Year: 2000 | Value: 53.61347237
+Year: 2001 | Value: 54.40413809
+Year: 2002 | Value: 55.01066748
+Year: 2003 | Value: 55.8836598
+Year: 2004 | Value: 56.58061879
+Year: 2005 | Value: 57.38958544
+Year: 2006 | Value: 58.16441655
+Year: 2007 | Value: 58.89891622
+Year: 2008 | Value: 59.5862953
+Year: 2009 | Value: 60.19604573
+Year: 2010 | Value: 60.71751447
+Year: 2011 | Value: 60.89766106
+Year: 2012 | Value: 61.39453419
+Year: 2013 | Value: 61.93490536
+Year: 2014 | Value: 62.16568407
+Year: 2015 | Value: 62.58328954
+Year: 2016 | Value: 62.96122947
+Year: 2017 | Value: 63.30409889
+Year: 2018 | Value: 63.71209289
+Year: 2019 | Value: 64.21817017
+Year: 2020 | Value: 64.20605991
+Year: 2021 | Value: 63.66755209
+Remark: Life expectancy at birth (years)",Text
+8b7c99fdcfbc484c0708575967bdfbe8657228519b733a113ae3dee16fb0f684,"Entity: WB_LMI / WHOSIS_000001
+Year: 2000 | Value: 62.60002727
+Year: 2001 | Value: 62.98194731
+Year: 2002 | Value: 63.35215132
+Year: 2003 | Value: 63.69823422
+Year: 2004 | Value: 64.12115275
+Year: 2005 | Value: 64.51534212
+Year: 2006 | Value: 64.97632364
+Year: 2007 | Value: 65.31977487
+Year: 2008 | Value: 65.5652106
+Year: 2009 | Value: 66.22674258
+Year: 2010 | Value: 66.49609395
+Year: 2011 | Value: 67.03129462
+Year: 2012 | Value: 67.39300802
+Year: 2013 | Value: 67.72575062
+Year: 2014 | Value: 68.03975837
+Year: 2015 | Value: 68.38628464
+Year: 2016 | Value: 68.75196172
+Year: 2017 | Value: 69.02369556
+Year: 2018 | Value: 69.2822965
+Year: 2019 | Value: 69.57356781
+Year: 2020 | Value: 69.04426229
+Year: 2021 | Value: 67.21688028
+Remark: Life expectancy at birth (years)",Text
+77c7b378dbd63f5067f8a4d5afd2d99214963e60a5f182df161c776ef2acc998,"Entity: WB_UMI / WHOSIS_000001
+Year: 2000 | Value: 69.79700261
+Year: 2001 | Value: 70.02443002
+Year: 2002 | Value: 70.1811273
+Year: 2003 | Value: 70.31483368
+Year: 2004 | Value: 70.37973198
+Year: 2005 | Value: 70.9395141
+Year: 2006 | Value: 71.61510574
+Year: 2007 | Value: 72.11880953
+Year: 2008 | Value: 72.3619814
+Year: 2009 | Value: 72.7546341
+Year: 2010 | Value: 73.03544767
+Year: 2011 | Value: 73.48016867
+Year: 2012 | Value: 73.925872
+Year: 2013 | Value: 74.28341937
+Year: 2014 | Value: 74.53468804
+Year: 2015 | Value: 74.81672772
+Year: 2016 | Value: 74.97657756
+Year: 2017 | Value: 75.28837476
+Year: 2018 | Value: 75.50618266
+Year: 2019 | Value: 75.66886287
+Year: 2020 | Value: 74.89743849
+Year: 2021 | Value: 74.23577164
+Remark: Life expectancy at birth (years)",Text
+205b2c3882ba72c64678b0c7d5ffd3dec18ab640a086df3ddc71084f42b7d860,"Entity: WPR / WHOSIS_000001
+Year: 2000 | Value: 71.96302959
+Year: 2001 | Value: 72.23557905
+Year: 2002 | Value: 72.52305924
+Year: 2003 | Value: 72.71503181
+Year: 2004 | Value: 72.92242384
+Year: 2005 | Value: 73.33346567
+Year: 2006 | Value: 74.06441894
+Year: 2007 | Value: 74.54521674
+Year: 2008 | Value: 74.68933231
+Year: 2009 | Value: 75.02841936
+Year: 2010 | Value: 75.2467766
+Year: 2011 | Value: 75.55207918
+Year: 2012 | Value: 75.95105819
+Year: 2013 | Value: 76.25932609
+Year: 2014 | Value: 76.5927032
+Year: 2015 | Value: 76.83133302
+Year: 2016 | Value: 77.00014055
+Year: 2017 | Value: 77.21591876
+Year: 2018 | Value: 77.3741563
+Year: 2019 | Value: 77.48911331
+Year: 2020 | Value: 77.70194212
+Year: 2021 | Value: 77.41814299
+Remark: Life expectancy at birth (years)",Text
+6670102ffa681045c90464ed606718f54ea7bbfc51638cee261727da34e00e85,"Entity: WSM / WHOSIS_000001
+Year: 2000 | Value: 69.60483332
+Year: 2001 | Value: 69.77577511
+Year: 2002 | Value: 69.93318688
+Year: 2003 | Value: 70.05898224
+Year: 2004 | Value: 70.17537437
+Year: 2005 | Value: 70.24626535
+Year: 2006 | Value: 70.43219518
+Year: 2007 | Value: 70.4708852
+Year: 2008 | Value: 70.48283276
+Year: 2009 | Value: 68.73125976
+Year: 2010 | Value: 70.48867026
+Year: 2011 | Value: 70.50058194
+Year: 2012 | Value: 70.27478818
+Year: 2013 | Value: 70.24040584
+Year: 2014 | Value: 70.13172182
+Year: 2015 | Value: 70.01944065
+Year: 2016 | Value: 69.92083473
+Year: 2017 | Value: 69.98522366
+Year: 2018 | Value: 70.09269594
+Year: 2019 | Value: 69.99170791
+Year: 2020 | Value: 70.19462777
+Year: 2021 | Value: 70.27372108
+Remark: Samoa
+Remark: Life expectancy at birth (years)",Text
+e14ed8050672e32468fd27cdc3e53d8a76a2df05762714d91a0630134cfd6842,"Entity: YEM / WHOSIS_000001
+Year: 2000 | Value: 63.08164608
+Year: 2001 | Value: 63.62361632
+Year: 2002 | Value: 64.16252882
+Year: 2003 | Value: 64.67397283
+Year: 2004 | Value: 65.2063964
+Year: 2005 | Value: 65.75114077
+Year: 2006 | Value: 66.27840827
+Year: 2007 | Value: 66.73494764
+Year: 2008 | Value: 67.19372426
+Year: 2009 | Value: 67.58534902
+Year: 2010 | Value: 67.95702862
+Year: 2011 | Value: 68.13030665
+Year: 2012 | Value: 68.26819831
+Year: 2013 | Value: 68.75410162
+Year: 2014 | Value: 68.71723916
+Year: 2015 | Value: 68.25299786
+Year: 2016 | Value: 67.6890605
+Year: 2017 | Value: 67.67597451
+Year: 2018 | Value: 66.38937201
+Year: 2019 | Value: 66.89863946
+Year: 2020 | Value: 66.51267259
+Year: 2021 | Value: 65.76206783
+Remark: Yemen
+Remark: Life expectancy at birth (years)",Text
+08a4fe31ae291137a48ac6255bc1f92b8149ede73d87a5ef6f0b7313295ae4a4,"Entity: ZAF / WHOSIS_000001
+Year: 2000 | Value: 57.11947907
+Year: 2001 | Value: 55.86714584
+Year: 2002 | Value: 54.31987896
+Year: 2003 | Value: 52.93394541
+Year: 2004 | Value: 52.24650084
+Year: 2005 | Value: 52.03156981
+Year: 2006 | Value: 52.10797353
+Year: 2007 | Value: 52.90958642
+Year: 2008 | Value: 53.91253666
+Year: 2009 | Value: 55.26976416
+Year: 2010 | Value: 57.09683041
+Year: 2011 | Value: 59.100348
+Year: 2012 | Value: 60.81522121
+Year: 2013 | Value: 62.08498269
+Year: 2014 | Value: 62.78312708
+Year: 2015 | Value: 63.26267522
+Year: 2016 | Value: 63.87748533
+Year: 2017 | Value: 64.74836762
+Year: 2018 | Value: 65.31532246
+Year: 2019 | Value: 65.83739077
+Year: 2020 | Value: 64.30356494
+Year: 2021 | Value: 61.49918805
+Remark: South Africa
+Remark: Life expectancy at birth (years)",Text
+fba7476d47e4eeade67aff03603b15948cf73b655c6746cd077071fc10de0931,"Entity: ZMB / WHOSIS_000001
+Year: 2000 | Value: 44.52713939
+Year: 2001 | Value: 44.99215514
+Year: 2002 | Value: 45.80351415
+Year: 2003 | Value: 47.10240747
+Year: 2004 | Value: 48.77289416
+Year: 2005 | Value: 50.2612912
+Year: 2006 | Value: 51.7626963
+Year: 2007 | Value: 53.57698997
+Year: 2008 | Value: 55.35570144
+Year: 2009 | Value: 56.61649649
+Year: 2010 | Value: 57.42656833
+Year: 2011 | Value: 58.02295113
+Year: 2012 | Value: 58.68526361
+Year: 2013 | Value: 59.35535185
+Year: 2014 | Value: 59.98021269
+Year: 2015 | Value: 60.4135173
+Year: 2016 | Value: 60.96146792
+Year: 2017 | Value: 61.28533224
+Year: 2018 | Value: 61.41187871
+Year: 2019 | Value: 61.76313302
+Year: 2020 | Value: 61.83164861
+Year: 2021 | Value: 60.96884286
+Remark: Zambia
+Remark: Life expectancy at birth (years)",Text
+3c49611d32e4b269d9ad4f107fdcb4f85086a0039c42d02e81bedf33e5e65fff,"Entity: ZWE / WHOSIS_000001
+Year: 2000 | Value: 45.74529001
+Year: 2001 | Value: 45.43212975
+Year: 2002 | Value: 45.11250007
+Year: 2003 | Value: 45.01274563
+Year: 2004 | Value: 45.152854
+Year: 2005 | Value: 45.7065362
+Year: 2006 | Value: 46.40915188
+Year: 2007 | Value: 47.34902637
+Year: 2008 | Value: 48.32688541
+Year: 2009 | Value: 49.66000005
+Year: 2010 | Value: 51.41783245
+Year: 2011 | Value: 53.27755042
+Year: 2012 | Value: 54.90174943
+Year: 2013 | Value: 56.08364808
+Year: 2014 | Value: 56.95717402
+Year: 2015 | Value: 57.4934476
+Year: 2016 | Value: 57.9178434
+Year: 2017 | Value: 58.23863624
+Year: 2018 | Value: 58.69836684
+Year: 2019 | Value: 59.07171997
+Year: 2020 | Value: 59.40476255
+Year: 2021 | Value: 58.48102238
+Remark: Zimbabwe
+Remark: Life expectancy at birth (years)",Text

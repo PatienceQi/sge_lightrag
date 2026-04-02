@@ -1,0 +1,42 @@
+Entity: BOL / SH.STA.MMRT
+Year: 1985 | Value: 518
+Year: 1986 | Value: 503
+Year: 1987 | Value: 478
+Year: 1988 | Value: 457
+Year: 1989 | Value: 430
+Year: 1990 | Value: 407
+Year: 1991 | Value: 391
+Year: 1992 | Value: 375
+Year: 1993 | Value: 354
+Year: 1994 | Value: 336
+Year: 1995 | Value: 322
+Year: 1996 | Value: 314
+Year: 1997 | Value: 306
+Year: 1998 | Value: 298
+Year: 1999 | Value: 292
+Year: 2000 | Value: 287
+Year: 2001 | Value: 276
+Year: 2002 | Value: 262
+Year: 2003 | Value: 256
+Year: 2004 | Value: 251
+Year: 2005 | Value: 242
+Year: 2006 | Value: 236
+Year: 2007 | Value: 224
+Year: 2008 | Value: 214
+Year: 2009 | Value: 205
+Year: 2010 | Value: 196
+Year: 2011 | Value: 187
+Year: 2012 | Value: 180
+Year: 2013 | Value: 175
+Year: 2014 | Value: 171
+Year: 2015 | Value: 166
+Year: 2016 | Value: 162
+Year: 2017 | Value: 160
+Year: 2018 | Value: 157
+Year: 2019 | Value: 156
+Year: 2020 | Value: 218
+Year: 2021 | Value: 270
+Year: 2022 | Value: 164
+Year: 2023 | Value: 146
+Remark: Bolivia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

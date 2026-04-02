@@ -1,0 +1,37 @@
+Entity: LIC / SH.DYN.MORT
+Year: 1990 | Value: 184.1
+Year: 1991 | Value: 188.6
+Year: 1992 | Value: 185.8
+Year: 1993 | Value: 175.7
+Year: 1994 | Value: 174.5
+Year: 1995 | Value: 168.5
+Year: 1996 | Value: 164.5
+Year: 1997 | Value: 160.5
+Year: 1998 | Value: 159.8
+Year: 1999 | Value: 150.4
+Year: 2000 | Value: 145.1
+Year: 2001 | Value: 139.5
+Year: 2002 | Value: 133.9
+Year: 2003 | Value: 127
+Year: 2004 | Value: 122.3
+Year: 2005 | Value: 117.1
+Year: 2006 | Value: 111.2
+Year: 2007 | Value: 106.3
+Year: 2008 | Value: 101.7
+Year: 2009 | Value: 101.7
+Year: 2010 | Value: 95
+Year: 2011 | Value: 97.2
+Year: 2012 | Value: 88.6
+Year: 2013 | Value: 84.9
+Year: 2014 | Value: 84.6
+Year: 2015 | Value: 82.5
+Year: 2016 | Value: 80.2
+Year: 2017 | Value: 79
+Year: 2018 | Value: 73.5
+Year: 2019 | Value: 71.6
+Year: 2020 | Value: 68.2
+Year: 2021 | Value: 66.8
+Year: 2022 | Value: 68.5
+Year: 2023 | Value: 62.3
+Remark: Low income
+Remark: Mortality rate, under-5 (per 1,000 live births)

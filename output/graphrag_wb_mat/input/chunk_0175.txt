@@ -1,0 +1,42 @@
+Entity: NGA / SH.STA.MMRT
+Year: 1985 | Value: 1344
+Year: 1986 | Value: 1363
+Year: 1987 | Value: 1351
+Year: 1988 | Value: 1332
+Year: 1989 | Value: 1304
+Year: 1990 | Value: 1285
+Year: 1991 | Value: 1282
+Year: 1992 | Value: 1246
+Year: 1993 | Value: 1200
+Year: 1994 | Value: 1193
+Year: 1995 | Value: 1186
+Year: 1996 | Value: 1185
+Year: 1997 | Value: 1184
+Year: 1998 | Value: 1189
+Year: 1999 | Value: 1165
+Year: 2000 | Value: 1136
+Year: 2001 | Value: 1130
+Year: 2002 | Value: 1117
+Year: 2003 | Value: 1090
+Year: 2004 | Value: 1075
+Year: 2005 | Value: 1060
+Year: 2006 | Value: 1067
+Year: 2007 | Value: 1063
+Year: 2008 | Value: 1081
+Year: 2009 | Value: 1088
+Year: 2010 | Value: 1094
+Year: 2011 | Value: 1108
+Year: 2012 | Value: 1124
+Year: 2013 | Value: 1146
+Year: 2014 | Value: 1155
+Year: 2015 | Value: 1168
+Year: 2016 | Value: 1155
+Year: 2017 | Value: 1142
+Year: 2018 | Value: 1118
+Year: 2019 | Value: 1091
+Year: 2020 | Value: 1065
+Year: 2021 | Value: 1046
+Year: 2022 | Value: 1016
+Year: 2023 | Value: 993
+Remark: Nigeria
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

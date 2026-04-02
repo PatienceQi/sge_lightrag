@@ -29,6 +29,72 @@ except ImportError:
 
 
 # ---------------------------------------------------------------------------
+# HippoRAG igraph pickle loader
+# ---------------------------------------------------------------------------
+
+def load_hipporag_igraph(pickle_path: str):
+    """
+    Load a HippoRAG v2 igraph pickle and convert to unified format.
+
+    HippoRAG stores graphs as igraph objects with:
+      - Vertex attrs: hash_id, content, name (hash_id is also name)
+      - Edge attrs: weight (only)
+      - Undirected graph
+
+    The 'content' field contains entity text (e.g., country names, full
+    time-series like "Entity: CHN / WHOSIS_000001\\nYear: 2000 | Value: 70.83...")
+    """
+    try:
+        import igraph
+    except ImportError:
+        raise ImportError("python-igraph is required: pip install python-igraph")
+
+    ig = igraph.Graph.Read_Pickle(pickle_path)
+
+    G = nx.DiGraph()
+    nodes = {}
+    entity_text: dict[str, list[str]] = {}
+
+    # Build nodes: use content as both name and description
+    idx_to_name: dict[int, str] = {}
+    for v in ig.vs:
+        content = str(v["content"]).strip()
+        vid = str(v["name"])  # hash_id
+        # Use content as entity_name (this is where fact data lives)
+        G.add_node(vid, entity_name=content, entity_type="", description=content)
+        nodes[content] = {"type": "", "description": content}
+        idx_to_name[v.index] = content
+        # Index content for fact search
+        entity_text.setdefault(content, []).append(content)
+
+    # Build edges: HippoRAG edges only have weight, no descriptions
+    for e in ig.es:
+        src_name = idx_to_name.get(e.source, str(e.source))
+        tgt_name = idx_to_name.get(e.target, str(e.target))
+        src_vid = ig.vs[e.source]["name"]
+        tgt_vid = ig.vs[e.target]["name"]
+        G.add_edge(src_vid, tgt_vid, keywords="", description="")
+        # Cross-reference: add neighbor content to each entity's text
+        entity_text.setdefault(src_name, []).append(tgt_name)
+        entity_text.setdefault(tgt_name, []).append(src_name)
+
+    # Build 2-hop index
+    node_id_to_name = {
+        nid: G.nodes[nid].get("entity_name", nid) for nid in G.nodes()
+    }
+    entity_text_2hop: dict[str, list[str]] = {}
+    for node_id in G.nodes():
+        name = node_id_to_name[node_id]
+        texts = list(entity_text.get(name, []))
+        for nb_id in G.neighbors(node_id):
+            nb_name = node_id_to_name.get(nb_id, nb_id)
+            texts.extend(entity_text.get(nb_name, []))
+        entity_text_2hop[name] = texts
+
+    return G, nodes, entity_text_2hop
+
+
+# ---------------------------------------------------------------------------
 # GraphML loader (existing LightRAG format)
 # ---------------------------------------------------------------------------
 
@@ -280,6 +346,9 @@ def load_graph_auto(path: str):
 
     if p.is_file() and p.suffix == ".graphml":
         return load_graphml(str(p))
+
+    if p.is_file() and p.suffix == ".pickle":
+        return load_hipporag_igraph(str(p))
 
     if p.is_file() and p.suffix == ".parquet":
         # Assume root is 2 levels up (output/artifacts/)

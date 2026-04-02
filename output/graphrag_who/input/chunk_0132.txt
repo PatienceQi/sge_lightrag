@@ -1,0 +1,25 @@
+Entity: OMN / WHOSIS_000001
+Year: 2000 | Value: 71.65888476
+Year: 2001 | Value: 72.18472491
+Year: 2002 | Value: 72.45728033
+Year: 2003 | Value: 72.75427676
+Year: 2004 | Value: 73.14911872
+Year: 2005 | Value: 73.361458
+Year: 2006 | Value: 73.46705832
+Year: 2007 | Value: 73.4022288
+Year: 2008 | Value: 73.35031827
+Year: 2009 | Value: 73.06401823
+Year: 2010 | Value: 73.02000136
+Year: 2011 | Value: 73.21785366
+Year: 2012 | Value: 73.59906631
+Year: 2013 | Value: 73.91615999
+Year: 2014 | Value: 73.9416621
+Year: 2015 | Value: 73.77326508
+Year: 2016 | Value: 73.72044163
+Year: 2017 | Value: 74.14573276
+Year: 2018 | Value: 74.96470035
+Year: 2019 | Value: 75.28986006
+Year: 2020 | Value: 73.88668102
+Year: 2021 | Value: 72.47676726
+Remark: Oman
+Remark: Life expectancy at birth (years)

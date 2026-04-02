@@ -1,0 +1,42 @@
+Entity: SAS / SH.STA.MMRT
+Year: 1985 | Value: 697
+Year: 1986 | Value: 659
+Year: 1987 | Value: 633
+Year: 1988 | Value: 607
+Year: 1989 | Value: 585
+Year: 1990 | Value: 567
+Year: 1991 | Value: 555
+Year: 1992 | Value: 534
+Year: 1993 | Value: 522
+Year: 1994 | Value: 509
+Year: 1995 | Value: 496
+Year: 1996 | Value: 481
+Year: 1997 | Value: 466
+Year: 1998 | Value: 451
+Year: 1999 | Value: 432
+Year: 2000 | Value: 415
+Year: 2001 | Value: 396
+Year: 2002 | Value: 376
+Year: 2003 | Value: 357
+Year: 2004 | Value: 338
+Year: 2005 | Value: 318
+Year: 2006 | Value: 296
+Year: 2007 | Value: 278
+Year: 2008 | Value: 259
+Year: 2009 | Value: 243
+Year: 2010 | Value: 229
+Year: 2011 | Value: 215
+Year: 2012 | Value: 203
+Year: 2013 | Value: 192
+Year: 2014 | Value: 182
+Year: 2015 | Value: 173
+Year: 2016 | Value: 163
+Year: 2017 | Value: 155
+Year: 2018 | Value: 148
+Year: 2019 | Value: 142
+Year: 2020 | Value: 145
+Year: 2021 | Value: 194
+Year: 2022 | Value: 130
+Year: 2023 | Value: 120
+Remark: South Asia
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

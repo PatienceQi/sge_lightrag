@@ -1,0 +1,42 @@
+Entity: RWA / SH.STA.MMRT
+Year: 1985 | Value: 1116
+Year: 1986 | Value: 1126
+Year: 1987 | Value: 1145
+Year: 1988 | Value: 1188
+Year: 1989 | Value: 1238
+Year: 1990 | Value: 1309
+Year: 1991 | Value: 1386
+Year: 1992 | Value: 1530
+Year: 1993 | Value: 1619
+Year: 1994 | Value: 5721
+Year: 1995 | Value: 1505
+Year: 1996 | Value: 1295
+Year: 1997 | Value: 1318
+Year: 1998 | Value: 1268
+Year: 1999 | Value: 1073
+Year: 2000 | Value: 885
+Year: 2001 | Value: 769
+Year: 2002 | Value: 677
+Year: 2003 | Value: 551
+Year: 2004 | Value: 460
+Year: 2005 | Value: 465
+Year: 2006 | Value: 494
+Year: 2007 | Value: 494
+Year: 2008 | Value: 454
+Year: 2009 | Value: 418
+Year: 2010 | Value: 393
+Year: 2011 | Value: 358
+Year: 2012 | Value: 331
+Year: 2013 | Value: 317
+Year: 2014 | Value: 301
+Year: 2015 | Value: 292
+Year: 2016 | Value: 278
+Year: 2017 | Value: 275
+Year: 2018 | Value: 269
+Year: 2019 | Value: 261
+Year: 2020 | Value: 252
+Year: 2021 | Value: 254
+Year: 2022 | Value: 234
+Year: 2023 | Value: 229
+Remark: Rwanda
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

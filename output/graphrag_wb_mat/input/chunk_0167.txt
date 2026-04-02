@@ -1,0 +1,42 @@
+Entity: MRT / SH.STA.MMRT
+Year: 1985 | Value: 998
+Year: 1986 | Value: 961
+Year: 1987 | Value: 914
+Year: 1988 | Value: 887
+Year: 1989 | Value: 883
+Year: 1990 | Value: 858
+Year: 1991 | Value: 845
+Year: 1992 | Value: 811
+Year: 1993 | Value: 813
+Year: 1994 | Value: 809
+Year: 1995 | Value: 815
+Year: 1996 | Value: 813
+Year: 1997 | Value: 752
+Year: 1998 | Value: 698
+Year: 1999 | Value: 669
+Year: 2000 | Value: 644
+Year: 2001 | Value: 616
+Year: 2002 | Value: 590
+Year: 2003 | Value: 571
+Year: 2004 | Value: 557
+Year: 2005 | Value: 536
+Year: 2006 | Value: 521
+Year: 2007 | Value: 516
+Year: 2008 | Value: 506
+Year: 2009 | Value: 500
+Year: 2010 | Value: 499
+Year: 2011 | Value: 494
+Year: 2012 | Value: 496
+Year: 2013 | Value: 496
+Year: 2014 | Value: 484
+Year: 2015 | Value: 469
+Year: 2016 | Value: 456
+Year: 2017 | Value: 450
+Year: 2018 | Value: 437
+Year: 2019 | Value: 424
+Year: 2020 | Value: 413
+Year: 2021 | Value: 425
+Year: 2022 | Value: 385
+Year: 2023 | Value: 381
+Remark: Mauritania
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

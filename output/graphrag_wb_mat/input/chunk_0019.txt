@@ -1,0 +1,42 @@
+Entity: BEN / SH.STA.MMRT
+Year: 1985 | Value: 910
+Year: 1986 | Value: 858
+Year: 1987 | Value: 817
+Year: 1988 | Value: 765
+Year: 1989 | Value: 732
+Year: 1990 | Value: 692
+Year: 1991 | Value: 666
+Year: 1992 | Value: 625
+Year: 1993 | Value: 591
+Year: 1994 | Value: 605
+Year: 1995 | Value: 586
+Year: 1996 | Value: 576
+Year: 1997 | Value: 556
+Year: 1998 | Value: 547
+Year: 1999 | Value: 536
+Year: 2000 | Value: 529
+Year: 2001 | Value: 532
+Year: 2002 | Value: 534
+Year: 2003 | Value: 532
+Year: 2004 | Value: 531
+Year: 2005 | Value: 514
+Year: 2006 | Value: 509
+Year: 2007 | Value: 501
+Year: 2008 | Value: 563
+Year: 2009 | Value: 598
+Year: 2010 | Value: 607
+Year: 2011 | Value: 613
+Year: 2012 | Value: 618
+Year: 2013 | Value: 607
+Year: 2014 | Value: 605
+Year: 2015 | Value: 606
+Year: 2016 | Value: 604
+Year: 2017 | Value: 592
+Year: 2018 | Value: 585
+Year: 2019 | Value: 572
+Year: 2020 | Value: 578
+Year: 2021 | Value: 584
+Year: 2022 | Value: 547
+Year: 2023 | Value: 518
+Remark: Benin
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

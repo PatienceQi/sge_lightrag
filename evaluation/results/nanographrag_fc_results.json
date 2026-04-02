@@ -1,0 +1,11 @@
+{
+  "system": "nano-graphrag",
+  "dataset": "who",
+  "nodes": 331,
+  "edges": 2832,
+  "gold_facts": 150,
+  "covered": 55,
+  "fc": 0.3667,
+  "chunks_indexed": 196,
+  "note": "complete indexing (196/196 chunks)"
+}

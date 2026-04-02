@@ -1,0 +1,42 @@
+Entity: UGA / SH.STA.MMRT
+Year: 1985 | Value: 842
+Year: 1986 | Value: 781
+Year: 1987 | Value: 709
+Year: 1988 | Value: 655
+Year: 1989 | Value: 609
+Year: 1990 | Value: 575
+Year: 1991 | Value: 549
+Year: 1992 | Value: 530
+Year: 1993 | Value: 515
+Year: 1994 | Value: 507
+Year: 1995 | Value: 514
+Year: 1996 | Value: 513
+Year: 1997 | Value: 522
+Year: 1998 | Value: 523
+Year: 1999 | Value: 504
+Year: 2000 | Value: 475
+Year: 2001 | Value: 440
+Year: 2002 | Value: 416
+Year: 2003 | Value: 395
+Year: 2004 | Value: 384
+Year: 2005 | Value: 417
+Year: 2006 | Value: 409
+Year: 2007 | Value: 345
+Year: 2008 | Value: 324
+Year: 2009 | Value: 322
+Year: 2010 | Value: 304
+Year: 2011 | Value: 295
+Year: 2012 | Value: 285
+Year: 2013 | Value: 308
+Year: 2014 | Value: 311
+Year: 2015 | Value: 299
+Year: 2016 | Value: 272
+Year: 2017 | Value: 246
+Year: 2018 | Value: 232
+Year: 2019 | Value: 219
+Year: 2020 | Value: 209
+Year: 2021 | Value: 216
+Year: 2022 | Value: 184
+Year: 2023 | Value: 170
+Remark: Uganda
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

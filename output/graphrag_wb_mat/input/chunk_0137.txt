@@ -1,0 +1,42 @@
+Entity: LIC / SH.STA.MMRT
+Year: 1985 | Value: 1163
+Year: 1986 | Value: 1111
+Year: 1987 | Value: 1169
+Year: 1988 | Value: 1091
+Year: 1989 | Value: 1059
+Year: 1990 | Value: 1048
+Year: 1991 | Value: 1019
+Year: 1992 | Value: 1051
+Year: 1993 | Value: 1026
+Year: 1994 | Value: 974
+Year: 1995 | Value: 904
+Year: 1996 | Value: 885
+Year: 1997 | Value: 855
+Year: 1998 | Value: 903
+Year: 1999 | Value: 776
+Year: 2000 | Value: 747
+Year: 2001 | Value: 719
+Year: 2002 | Value: 696
+Year: 2003 | Value: 669
+Year: 2004 | Value: 647
+Year: 2005 | Value: 636
+Year: 2006 | Value: 623
+Year: 2007 | Value: 609
+Year: 2008 | Value: 592
+Year: 2009 | Value: 581
+Year: 2010 | Value: 566
+Year: 2011 | Value: 547
+Year: 2012 | Value: 525
+Year: 2013 | Value: 508
+Year: 2014 | Value: 504
+Year: 2015 | Value: 491
+Year: 2016 | Value: 472
+Year: 2017 | Value: 454
+Year: 2018 | Value: 421
+Year: 2019 | Value: 408
+Year: 2020 | Value: 396
+Year: 2021 | Value: 418
+Year: 2022 | Value: 364
+Year: 2023 | Value: 346
+Remark: Low income
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

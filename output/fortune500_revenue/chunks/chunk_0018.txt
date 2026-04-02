@@ -1,0 +1,6 @@
+Entity: Phillips 66
+Year: 2015 | Value: 149434.0
+Year: 2016 | Value: 87169.0
+Year: 2017 | Value: 72396.0
+Year: 2018 | Value: 91568.0
+Year: 2019 | Value: 114217.0

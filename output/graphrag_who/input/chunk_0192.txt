@@ -1,0 +1,25 @@
+Entity: WSM / WHOSIS_000001
+Year: 2000 | Value: 69.60483332
+Year: 2001 | Value: 69.77577511
+Year: 2002 | Value: 69.93318688
+Year: 2003 | Value: 70.05898224
+Year: 2004 | Value: 70.17537437
+Year: 2005 | Value: 70.24626535
+Year: 2006 | Value: 70.43219518
+Year: 2007 | Value: 70.4708852
+Year: 2008 | Value: 70.48283276
+Year: 2009 | Value: 68.73125976
+Year: 2010 | Value: 70.48867026
+Year: 2011 | Value: 70.50058194
+Year: 2012 | Value: 70.27478818
+Year: 2013 | Value: 70.24040584
+Year: 2014 | Value: 70.13172182
+Year: 2015 | Value: 70.01944065
+Year: 2016 | Value: 69.92083473
+Year: 2017 | Value: 69.98522366
+Year: 2018 | Value: 70.09269594
+Year: 2019 | Value: 69.99170791
+Year: 2020 | Value: 70.19462777
+Year: 2021 | Value: 70.27372108
+Remark: Samoa
+Remark: Life expectancy at birth (years)

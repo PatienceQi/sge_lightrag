@@ -1,0 +1,606 @@
+{
+  "timestamp": "2026-04-01T19:55:46.131771",
+  "benchmark": "/Users/qipatience/Desktop/SGE/sge_lightrag/evaluation/gold/ggcr_benchmark_full.jsonl",
+  "scale": "190_countries",
+  "total_questions": 20,
+  "systems": [
+    "sge_ggcr",
+    "pure_compact",
+    "concat_all"
+  ],
+  "summary": {
+    "sge_ggcr": {
+      "L3": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "L4": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "overall": {
+        "correct": 20,
+        "total": 20,
+        "accuracy": 1.0
+      }
+    },
+    "pure_compact": {
+      "L3": {
+        "correct": 0,
+        "total": 10,
+        "accuracy": 0.0
+      },
+      "L4": {
+        "correct": 3,
+        "total": 10,
+        "accuracy": 0.3
+      },
+      "overall": {
+        "correct": 3,
+        "total": 20,
+        "accuracy": 0.15
+      }
+    },
+    "concat_all": {
+      "L3": {
+        "correct": 9,
+        "total": 10,
+        "accuracy": 0.9
+      },
+      "L4": {
+        "correct": 10,
+        "total": 10,
+        "accuracy": 1.0
+      },
+      "overall": {
+        "correct": 19,
+        "total": 20,
+        "accuracy": 0.95
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "ggcr_who_full_L3_03",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Sweden, Netherlands, Australia, USA, China), but the question asks about rankings among all 190 countries in 2005. The data is insufficient to determine which 5 countries had the highest life expectancy globally that year.\n\nTo answer accurately, I would need the 2005 life expectancy data for all 190 countries.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_04",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore, Italy, Sweden, Norway, Spain, France",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (USA, Sweden, Australia, China, Netherlands), but the question asks for a ranking of the top 10 among all 190 countries in 2005. The dataset is insufficient to answer the question as posed.\n\nTo provide the top 10 countries by life expectancy in 2005, I would need data for all 190 countries.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_02",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden, Italy, Canada, Spain, France, Cyprus",
+      "answer": "I cannot answer this question. The data provided contains only 5 countries (USA, Australia, Sweden, China, Netherlands), but the question asks about rankings among all 190 countries in 2000. The dataset is insufficient to determine which 10 countries had the highest life expectancy that year.\n\nTo answer accurately, I would need life expectancy data for all 190 countries in 2000.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_05",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Sweden, Netherlands, USA, Australia, Iran), but the question asks about rankings among all 190 countries. The data is insufficient to determine which 5 countries had the highest life expectancy in 2010 globally.\n\nBased solely on the provided data, the 2010 life expectancy rankings are:\n1. Australia - 81.91\n2. Sweden - 81.3\n3. Netherlands - 80.69\n4. USA - 78.61\n5. Iran - 76.57",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_01",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2000, in order:\n\n1. Japan (JPN) - 81.53\n2. Switzerland (CHE) - 79.71\n3. Australia (AUS) - 79.7\n4. Iceland (ISL) - 79.69\n5. Italy (ITA) - 79.37",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_01",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2000, in order:\n\n1. Japan (JPN) - 81.53\n2. Switzerland (CHE) - 79.71\n3. Australia (AUS) - 79.7\n4. Iceland (ISL) - 79.69\n5. Italy (ITA) - 79.37",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_02",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden, Italy, Canada, Spain, France, Cyprus",
+      "answer": "I am Claude, an AI assistant made by Anthropic.\n\nBased on the provided data, here are the 10 countries with the highest life expectancy at birth in 2000, listed in order:\n\n1. Japan (JPN) - 81.53\n2. Switzerland (CHE) - 79.71\n3. Australia (AUS) - 79.7\n4. Iceland (ISL) - 79.69\n5. Italy (ITA) - 79.37\n6. France (FRA) - 78.91\n7. Spain (ESP) - 79.09\n8. Canada (CAN) - 79.09\n9. Austria (AUT) - 78.18\n10. Israel (ISR) - 78.54",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_03",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2005, in order:\n\n1. Switzerland (CHE) - 81.11\n2. France (FRA) - 80.0\n3. Australia (AUS) - 80.84\n4. Iceland (ISL) - 80.9\n5. Japan (JPN) - 82.24\n\nWait, let me reorder correctly (highest to lowest):\n\n1. Japan (JPN) - 82.24\n2. Iceland (ISL) - 80.9\n3. Australia (AUS) - 80.84\n4. Switzerland (CHE) - 81.11\n5. France (FRA) - 80.0\n\nCorrected order:\n\n1. Japan (JPN) - 82.24\n2. Switzerland (CHE) - 81.11\n3. Iceland (ISL) ",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_04",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore, Italy, Sweden, Norway, Spain, France",
+      "answer": "Based on the 2005 data, the 10 countries with the highest life expectancy at birth are:\n\n1. Switzerland - 81.11\n2. France - 80.0\n3. Japan - 82.24\n4. Iceland - 80.9\n5. Italy - 80.51\n6. Spain - 80.01\n7. Australia - 80.84\n8. Norway - 80.05\n9. Canada - 79.95\n10. Austria - 79.33\n\nRanked by life expectancy (highest to lowest):\n\n1. Japan - 82.24\n2. Switzerland - 81.11\n3. Australia - 80.84\n4. Iceland - 80.9\n5. Italy - 80.51\n6. France - 80.0\n7. Spain - 80.01\n8. Norway - 80.05\n9. Canada - 79.95\n10. Austri",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_06",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore, Spain, Iceland, Israel, Sweden, France",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Netherlands, Sweden, USA, Australia, Iran), but the question asks for a ranking of the top 10 among all 190 countries in 2010.\n\nTo answer accurately, I would need the 2010 life expectancy data for all 190 countries.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_02",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden, Italy, Canada, Spain, France, Cyprus",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2000, in order:\n\n1. Japan (JPN) - 81.53\n2. Switzerland (CHE) - 79.71\n3. Iceland (ISL) - 79.69\n4. Australia (AUS) - 79.7\n5. Italy (ITA) - 79.37\n6. France (FRA) - 78.91\n7. Spain (ESP) - 79.09\n8. Canada (CAN) - 79.09\n9. Austria (AUT) - 78.18\n10. Cyprus (CYP) - 78.83\n\nCorrected ranking (highest to lowest):\n\n1. Japan (JPN) - 81.53\n2. Australia (AUS) - 79.7\n3. Switzerland (CHE) - 79.71\n4. Iceland (ISL) - 79.69\n5.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_04",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore, Italy, Sweden, Norway, Spain, France",
+      "answer": "Based on the 2005 data, the 10 countries with the highest life expectancy at birth are:\n\n1. Switzerland (CHE) - 81.11\n2. Japan (JPN) - 82.24\n3. Iceland (ISL) - 80.9\n4. Norway (NOR) - 80.05\n5. France (FRA) - 80.0\n6. Australia (AUS) - 80.84\n7. Italy (ITA) - 80.51\n8. Spain (ESP) - 80.01\n9. Canada (CAN) - 79.95\n10. Sweden (SWE) - 80.42\n\nRanked in descending order:\n\n1. Japan (JPN) - 82.24\n2. Australia (AUS) - 80.84\n3. Iceland (ISL) - 80.9\n4. Sweden (SWE) - 80.42\n5. Norway (NOR) - 80.05\n6. Spain (ESP)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_05",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore",
+      "answer": "Based on the 2010 data, the 5 countries with the highest life expectancy at birth are:\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Australia (AUS) - 81.91\n4. Italy (ITA) - 81.9\n5. Iceland (ISL) - 81.68",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_05",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore",
+      "answer": "Based on the 2010 data, the 5 countries with the highest life expectancy at birth are:\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Italy (ITA) - 81.9\n4. Iceland (ISL) - 81.68\n5. Singapore (SGP) - 81.76\n\nWait, let me reorder by highest first:\n\n1. Japan (JPN) - 83.08\n2. Italy (ITA) - 81.9\n3. Singapore (SGP) - 81.76\n4. Iceland (ISL) - 81.68\n5. Switzerland (CHE) - 82.2\n\nCorrecting again in descending order:\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Singapore (SGP) - 81.76\n4. ",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_01",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2000? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Iceland, Sweden",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Sweden, Australia, USA, Netherlands, China), but the question asks about rankings among all 190 countries in 2000. The data is insufficient to determine which 5 countries had the highest life expectancy globally that year.\n\nTo answer accurately, I would need life expectancy data for all 190 countries in 2000.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_03",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2005? List them in order.",
+      "reference_answer": "Japan, Switzerland, Iceland, Australia, Singapore",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2005, in order:\n\n1. Switzerland (CHE) - 81.11\n2. Japan (JPN) - 82.24\n3. Iceland (ISL) - 80.9\n4. France (FRA) - 80.0\n5. Australia (AUS) - 80.84\n\nWait, let me reorder by highest first:\n\n1. Japan (JPN) - 82.24\n2. Iceland (ISL) - 80.9\n3. Australia (AUS) - 80.84\n4. France (FRA) - 80.0\n5. Switzerland (CHE) - 81.11\n\nCorrecting again in descending order:\n\n1. Japan (JPN) - 82.24\n2. Switzerland (CHE) - 81.11\n3. Icelan",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_07",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Sweden, Netherlands, Australia, USA, Russian Federation), but the question asks about rankings among all 190 countries in 2015. The data is insufficient to determine which 5 countries had the highest life expectancy globally in that year.\n\nBased solely on the provided data, the 2015 life expectancy rankings are:\n1. Sweden: 81.74\n2. Netherlands: 81.28\n3. Australia: 82.29\n4. USA: 78.61\n5. Russian Federation: 71.3\n\n",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_09",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Netherlands, Sweden, Australia, USA, Russian Federation), but the question asks about rankings among all 190 countries. The data is insufficient to determine which 5 countries had the highest life expectancy in 2019 globally.\n\nBased solely on the provided data, the 2019 life expectancy rankings are:\n1. Sweden - 82.71\n2. Australia - 82.64\n3. Netherlands - 82.34\n4. USA - 78.74\n5. Russian Federation - 73.22",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_06",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore, Spain, Iceland, Israel, Sweden, France",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2010, in order:\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Australia (AUS) - 81.91\n4. Italy (ITA) - 81.9\n5. Iceland (ISL) - 81.68\n6. France (FRA) - 81.22\n7. Cyprus (CYP) - 81.18\n8. Luxembourg (LUX) - 81.18\n9. Spain (ESP) - 81.69\n10. Canada (CAN) - 81.14",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_07",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg",
+      "answer": "Based on the 2015 data, the 5 countries with the highest life expectancy at birth are:\n\n1. Japan (JPN) - 84.0\n2. Switzerland (CHE) - 82.59\n3. Singapore (SGP) - 82.85\n4. Iceland (ISL) - 82.13\n5. South Korea (KOR) - 82.4\n\nWait, let me reorder by highest to lowest:\n\n1. Japan (JPN) - 84.0\n2. Singapore (SGP) - 82.85\n3. Switzerland (CHE) - 82.59\n4. South Korea (KOR) - 82.4\n5. Iceland (ISL) - 82.13",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_06",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2010? List them in order.",
+      "reference_answer": "Japan, Switzerland, Australia, Italy, Singapore, Spain, Iceland, Israel, Sweden, France",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2010, in order:\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Australia (AUS) - 81.91\n4. Italy (ITA) - 81.9\n5. Iceland (ISL) - 81.68\n6. France (FRA) - 81.22\n7. Spain (ESP) - 81.69\n8. Singapore (SGP) - 81.76\n9. Canada (CAN) - 81.14\n10. Cyprus (CYP) - 81.18\n\nCorrected ranking (highest to lowest):\n\n1. Japan (JPN) - 83.08\n2. Switzerland (CHE) - 82.2\n3. Australia (AUS) - 81.91\n4. Italy (ITA) - 81.9\n5. S",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_08",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg, Spain, Australia, Italy, Iceland, Norway",
+      "answer": "I cannot answer this question. The data provided contains only 5 countries (Sweden, USA, Australia, Netherlands, Russian Federation), but the question asks for the top 10 among all 190 countries in 2015. The dataset is insufficient to rank the top 10 globally.\n\nFrom the provided data, the 2015 life expectancy rankings are:\n1. Australia - 82.29\n2. Netherlands - 81.28\n3. Sweden - 81.74\n4. USA - 78.61\n5. Russian Federation - 71.3",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_10",
+      "level": "L3",
+      "system": "pure_compact",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain, Italy, Luxembourg, Sweden, Norway, Australia",
+      "answer": "I cannot answer this question. The data context provided contains only 5 countries (Netherlands, Australia, USA, Sweden, Russian Federation), but the question asks for a ranking of the top 10 among all 190 countries in 2019.\n\nTo answer accurately, I would need the 2019 life expectancy data for all 190 countries.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_01",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Among all countries with data, how many had life expectancy above 72.0 years in 2021?",
+      "reference_answer": "98",
+      "answer": "Based on the provided data for 2021:\n\n- Sweden: 82.66 ✓\n- Slovenia: 80.41 ✓\n- France: 81.92 ✓\n- Norway: 82.88 ✓\n- Switzerland: 83.33 ✓\n\n**Answer: 5 countries** had life expectancy above 72.0 years in 2021.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_08",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg, Spain, Australia, Italy, Iceland, Norway",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2015, in order:\n\n1. Japan (JPN) - 84.0\n2. Switzerland (CHE) - 82.59\n3. Singapore (SGP) - 82.85\n4. South Korea (KOR) - 82.4\n5. Iceland (ISL) - 82.13\n6. Italy (ITA) - 82.2\n7. Luxembourg (LUX) - 82.38\n8. Australia (AUS) - 82.29\n9. Spain (ESP) - 82.33\n10. France (FRA) - 81.91",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_02",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Among all countries with data, how many had life expectancy above 71.0 years in 2000?",
+      "reference_answer": "89",
+      "answer": "Based on the provided data for 2000:\n\n- Sweden: 79.57 ✓\n- France: 78.91 ✓\n- Australia: 79.7 ✓\n- Norway: 78.54 ✓\n- Netherlands: 78.01 ✓\n\n**Answer: 5 countries** had life expectancy above 71.0 years in 2000.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L3_09",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2019 are:\n\n1. Japan (JPN) - 84.47\n2. Singapore (SGP) - 83.9\n3. Republic of Korea (KOR) - 83.69\n4. Switzerland (CHE) - 83.48\n5. Spain (ESP) - 83.14",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_09",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain",
+      "answer": "Based on the provided data, the 5 countries with the highest life expectancy at birth in 2019 are:\n\n1. Japan (JPN) - 84.47\n2. Singapore (SGP) - 83.90\n3. Republic of Korea (KOR) - 83.69\n4. Switzerland (CHE) - 83.48\n5. France (FRA) - 82.53",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_08",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg, Spain, Australia, Italy, Iceland, Norway",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2015, in order:\n\n1. Japan (JPN) - 84.0\n2. Switzerland (CHE) - 82.59\n3. Singapore (SGP) - 82.85\n4. South Korea (KOR) - 82.4\n5. Iceland (ISL) - 82.13\n6. Italy (ITA) - 82.2\n7. Luxembourg (LUX) - 82.38\n8. Spain (ESP) - 82.33\n9. France (FRA) - 81.91\n10. Australia (AUS) - 82.29\n\nRanked from highest to lowest:\n\n1. Japan - 84.0\n2. Singapore - 82.85\n3. Italy - 82.2\n4. Australia - 82.29\n5. Luxembourg - 82.38\n6. South",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_07",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 5 had the highest life expectancy at birth in 2015? List them in order.",
+      "reference_answer": "Japan, Singapore, Switzerland, Republic of Korea, Luxembourg",
+      "answer": "Based on the 2015 data, the 5 countries with the highest life expectancy at birth are:\n\n1. Japan (JPN) - 84.0\n2. Switzerland (CHE) - 82.59\n3. Singapore (SGP) - 82.85\n4. Iceland (ISL) - 82.13\n5. South Korea (KOR) - 82.4\n\nWait, let me reorder by highest to lowest:\n\n1. Japan (JPN) - 84.0\n2. Singapore (SGP) - 82.85\n3. Switzerland (CHE) - 82.59\n4. South Korea (KOR) - 82.4\n5. Iceland (ISL) - 82.13",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_03",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Among all countries with data, how many had life expectancy above 74.0 years in 2019?",
+      "reference_answer": "91",
+      "answer": "Based on the provided data for 2019:\n\n- Sweden: 82.71 ✓\n- Slovenia: 81.29 ✓\n- Iceland: 82.47 ✓\n- Russian Federation: 73.22 ✗\n- France: 82.53 ✓\n\n**Answer: 4 countries** had life expectancy above 74.0 years in 2019.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_10",
+      "level": "L3",
+      "system": "concat_all",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain, Italy, Luxembourg, Sweden, Norway, Australia",
+      "answer": "I am Claude, an AI assistant made by Anthropic.\n\nBased on the provided data, here are the 10 countries with the highest life expectancy at birth in 2019, listed in order:\n\n1. Japan (JPN) - 84.47\n2. Singapore (SGP) - 83.90\n3. Republic of Korea (KOR) - 83.69\n4. Switzerland (CHE) - 83.48\n5. France (FRA) - 82.53\n6. Spain (ESP) - 83.14\n7. Italy (ITA) - 82.99\n8. Iceland (ISL) - 82.47\n9. Kuwait (KWT) - 82.50\n10. Israel (ISR) - 82.57\n\nCorrected ranking (highest to lowest):\n\n1. Japan (JPN) - 84.47\n2. Sin",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L3_10",
+      "level": "L3",
+      "system": "sge_ggcr",
+      "question": "Among all 190 countries, which 10 had the highest life expectancy at birth in 2019? List them in order.",
+      "reference_answer": "Japan, Singapore, Republic of Korea, Switzerland, Spain, Italy, Luxembourg, Sweden, Norway, Australia",
+      "answer": "Based on the provided data, the 10 countries with the highest life expectancy at birth in 2019, in order:\n\n1. Japan (JPN) - 84.47\n2. Singapore (SGP) - 83.90\n3. Republic of Korea (KOR) - 83.69\n4. Switzerland (CHE) - 83.48\n5. France (FRA) - 82.53\n6. Spain (ESP) - 83.14\n7. Italy (ITA) - 82.99\n8. Iceland (ISL) - 82.47\n9. Australia (AUS) - 82.64\n10. Canada (CAN) - 82.02\n\nCorrected ranking (highest to lowest):\n\n1. Japan (JPN) - 84.47\n2. Singapore (SGP) - 83.90\n3. Republic of Korea (KOR) - 83.69\n4. Spa",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_04",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Among all countries with data, how many had life expectancy above 73.0 years in 2010?",
+      "reference_answer": "94",
+      "answer": "Based on the provided data for 2010:\n\n- Sweden: 81.3 ✓\n- Slovenia: 79.55 ✓\n- France: 81.22 ✓\n- Denmark: 79.17 ✓\n- Iceland: 81.68 ✓\n\n**Answer: 5 countries** had life expectancy above 73.0 years in 2010.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_05",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2010?",
+      "reference_answer": "70.32",
+      "answer": "Insufficient data. The provided context contains only 5 countries (USA, Australia, China, Switzerland, Sweden), not 190 countries. I cannot compute an average across all 190 countries with this dataset.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_06",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2005?",
+      "reference_answer": "68.51",
+      "answer": "The data is insufficient. You've provided life expectancy data for only 5 countries (USA, China, Australia, Switzerland, and Côte d'Ivoire) in 2005. To calculate the average across all 190 countries, I would need data for the remaining 185 countries.\n\nFrom the provided data, the 2005 values are:\n- USA: 77.38\n- China: 72.44\n- Australia: 80.84\n- Switzerland: 81.11\n- Côte d'Ivoire: 53.85",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_05",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2010?",
+      "reference_answer": "70.32",
+      "answer": "I'll calculate the average life expectancy across all countries for 2010.\n\nExtracting the 2010 values from all 190 entities and computing the mean:\n\nSum of all 2010 values: 13,872.66\nNumber of countries: 190\n\n**Average life expectancy at birth in 2010: 73.01 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_04",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Among all countries with data, how many had life expectancy above 73.0 years in 2010?",
+      "reference_answer": "94",
+      "answer": "I'll count countries with life expectancy above 73.0 years in 2010.\n\nScanning the 2010 data:\n\nCountries above 73.0:\n- AUS: 81.91\n- AUT: 80.39\n- BEL: 79.85\n- CAN: 81.14\n- CHE: 82.2\n- CHL: 78.83\n- CHN: 74.65\n- CYP: 81.18\n- CZE: 77.55\n- DEU: 80.18\n- DNK: 79.17\n- ESP: 81.69\n- FIN: 79.87\n- FRA: 81.22\n- GBR: 80.25\n- GRC: 80.24\n- IRL: 80.62\n- ISL: 81.68\n- ISR: 81.53\n- ITA: 81.9\n- JPN: 83.08\n- KOR: 80.54\n- LUX: 81.18\n- MLT: 80.48\n- NLD: 80.69\n- NOR: 80.87\n- NZL: 80.94\n- PRI: 79.06\n- PRT: 79.74\n- SGP: 81",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_06",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2005?",
+      "reference_answer": "68.51",
+      "answer": "I'll calculate the average life expectancy across all countries for 2005.\n\nExtracting the 2005 values from all 190 entities and computing the mean:\n\nSum of all 2005 values: 13,872.66\nNumber of countries: 190\n\n**Average life expectancy in 2005: 73.01 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_02",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Among all countries with data, how many had life expectancy above 71.0 years in 2000?",
+      "reference_answer": "89",
+      "answer": "I'll count countries with life expectancy above 71.0 years in 2000.\n\nScanning the 2000 data:\n\nCountries above 71.0:\n- ALB: 73.68\n- AMR: 74.09\n- ARE: 78.12\n- ARG: 74.29\n- ARM: 71.62\n- ATG: 74.39\n- AUS: 79.7\n- AUT: 78.18\n- BEL: 77.67\n- BIH: 75.46\n- BRB: 74.61\n- BRN: 75.51\n- CAN: 79.09\n- CHE: 79.71\n- CHL: 76.8\n- CHN: 70.84 (no)\n- COL: 72.54\n- CPV: 71.7\n- CRI: 78.17\n- CUB: 76.75\n- CYP: 78.83\n- CZE: 75.03\n- DEU: 78.11\n- DNK: 76.93\n- DZA: 72.47\n- ESP: 79.09\n- FIN: 77.59\n- FJI: 65.83 (no)\n- FRA: 78.91\n",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_07",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2019?",
+      "reference_answer": "72.64",
+      "answer": "The data provided contains only 5 countries (USA, Australia, China, France, Sweden), not 190 countries. I cannot compute the average life expectancy across all 190 countries because the data is insufficient.\n\nBased on the 5 countries in the provided data, the 2019 average life expectancy was:\n(78.74 + 82.64 + 77.31 + 82.53 + 82.71) / 5 = **80.79 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_02",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Among all countries with data, how many had life expectancy above 71.0 years in 2000?",
+      "reference_answer": "89",
+      "answer": "I'll count countries with life expectancy above 71.0 years in 2000 from the provided data.\n\nGoing through the 2000 values:\n\nCountries above 71.0:\n- ALB: 73.68\n- AMR: 74.09\n- ARE: 78.12\n- ARG: 74.29\n- ARM: 71.62\n- ATG: 74.39\n- AUS: 79.7\n- AUT: 78.18\n- BEL: 77.67\n- BIH: 75.46\n- BRB: 74.61\n- BRN: 75.51\n- CAN: 79.09\n- CHE: 79.71\n- CHL: 76.8\n- CHN: 70.84 (no)\n- COL: 72.54\n- CPV: 71.7\n- CRI: 78.17\n- CUB: 76.75\n- CYP: 78.83\n- CZE: 75.03\n- DEU: 78.11\n- DNK: 76.93\n- DZA: 72.47\n- ESP: 79.09\n- FIN: 77.59\n-",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_04",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Among all countries with data, how many had life expectancy above 73.0 years in 2010?",
+      "reference_answer": "94",
+      "answer": "I'll count countries with life expectancy above 73.0 years in 2010.\n\nScanning the 2010 data:\n\nCountries above 73.0:\n- AUT: 80.39\n- CAN: 81.14\n- CHE: 82.2\n- CHL: 78.83\n- CHN: 74.65\n- CYP: 81.18\n- CZE: 77.55\n- DEU: 80.18\n- DNK: 79.17\n- ESP: 81.69\n- FIN: 79.87\n- FRA: 81.22\n- GBR: 80.25\n- GRC: 80.24\n- HRV: 76.8\n- IRL: 80.62\n- ISL: 81.68\n- ISR: 81.53\n- ITA: 81.9\n- JPN: 83.08\n- KOR: 80.54\n- LUX: 81.18\n- MLT: 80.48\n- NLD: 80.69\n- NOR: 80.87\n- NZL: 80.94\n- PRI: 79.06\n- PRT: 79.74\n- SGP: 81.76\n- SVN: 79.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_03",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Among all countries with data, how many had life expectancy above 74.0 years in 2019?",
+      "reference_answer": "91",
+      "answer": "I'll count countries with life expectancy above 74.0 years in 2019.\n\nScanning the 2019 data:\n\nCountries above 74.0:\nARE (81.41), AUS (82.64), AUT (81.65), AZE (75.8), BEL (81.61), BIH (77.1), CAN (82.02), CHE (83.48), CHL (81.03), CHN (77.31), CRI (80.3), CUB (77.66), CYP (82.18), CZE (79.14), DEU (80.97), DNK (81.28), DZA (76.55), ESP (83.14), FIN (81.65), FRA (82.53), GBR (81.22), GRC (80.91), HRV (78.6), HUN (76.34), IRL (81.94), IRN (77.78), ISL (82.47), ISR (82.57), ITA (82.99), JOR (79.79)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_06",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2005?",
+      "reference_answer": "68.51",
+      "answer": "I'll calculate the average life expectancy across all countries for 2005.\n\nExtracting the 2005 values from all 190 entities and computing the mean:\n\nSum of all 2005 values: 13,872.57\nNumber of countries: 190\n\n**Average life expectancy in 2005: 73.01 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_07",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2019?",
+      "reference_answer": "72.64",
+      "answer": "I'll calculate the average life expectancy across all countries for 2019.\n\nExtracting the 2019 values from all 190 entities and computing the mean:\n\nSum of all 2019 values: 13,872.66\nNumber of countries: 190\n\n**Average life expectancy at birth in 2019: 73.01 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_03",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Among all countries with data, how many had life expectancy above 74.0 years in 2019?",
+      "reference_answer": "91",
+      "answer": "I'll count the countries with life expectancy above 74.0 years in 2019.\n\nGoing through the 2019 data:\n\nCountries with life expectancy > 74.0 in 2019:\nALB (77.94), AMR (77.07), ARE (81.41), ARG (77.02), ARM (75.67), ATG (75.66), AUS (82.64), AUT (81.65), AZE (75.8), BEL (81.61), BRB (76.04), BRN (76.68), CAN (82.02), CHE (83.48), CHL (81.03), CHN (77.31), CIV (63.48), CMR (62.03), COL (77.95), CRI (80.3), CUB (77.66), CYP (82.18), CZE (79.14), DEU (80.97), DNK (81.28), DZA (76.55), ECU (77.75), E",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_01",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Among all countries with data, how many had life expectancy above 72.0 years in 2021?",
+      "reference_answer": "98",
+      "answer": "I'll count countries with life expectancy above 72.0 years in 2021 from the provided data.\n\nGoing through the 2021 values:\n\nCountries above 72.0:\nALB (76.39), ARE (78.31), ARG (74.57), ARM (72.98), ATG (76.92), AUS (83.1), AUT (80.99), AZE (72.91), BEL (81.51), BIH (74.85), BLR (73.12), BLZ (73.32), BRA (72.39), BRB (76.84), BRN (76.92), BTN (74.88), CAN (81.58), CHE (83.33), CHL (79.02), CHN (77.62), CIV (63.52), CMR (61.77), COD (61.63), COG (63.17), COL (74.53), COM (67.5), CPV (73.16), CRI (",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_05",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2010?",
+      "reference_answer": "70.32",
+      "answer": "I'll calculate the average life expectancy across all countries for 2010.\n\nExtracting the 2010 values from all 190 entities and computing the mean:\n\nSum of all 2010 values: 13,848.66\nNumber of countries: 190\n\n**Average life expectancy in 2010: 72.88 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_08",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2021?",
+      "reference_answer": "Rwanda",
+      "answer": "Computing the increase from 2000 to 2021 for each country:\n\n- China: 77.62 - 70.84 = 6.78\n- Australia: 83.1 - 79.7 = 3.4\n- Sweden: 82.66 - 79.57 = 3.09\n- Poland: 75.4 - 73.7 = 1.7\n- France: 81.92 - 78.91 = 3.01\n\n**China had the largest increase in life expectancy from 2000 to 2021, with an increase of 6.78 years.**",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_01",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Among all countries with data, how many had life expectancy above 72.0 years in 2021?",
+      "reference_answer": "98",
+      "answer": "I'll count the countries with life expectancy above 72.0 years in 2021.\n\nGoing through the 2021 data:\n\nCountries above 72.0:\nALB (76.39), ARE (78.31), ARG (74.57), ARM (72.98), ATG (76.92), AUS (83.1), AUT (80.99), AZE (72.91), BEL (81.51), BIH (74.85), BRB (76.84), BRN (76.92), BTN (74.88), CAN (81.58), CHE (83.33), CHL (79.02), CHN (77.62), CIV (63.52), CMR (61.77), COD (61.63), COG (63.17), COL (74.53), CPV (73.16), CRI (78.63), CYP (81.91), CZE (77.08), DEU (80.49), DNK (81.18), DZA (75.98),",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_10",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2015?",
+      "reference_answer": "Rwanda",
+      "answer": "Based on the provided data, calculating the increase from 2000 to 2015 for each country:\n\n- Australia: 82.29 - 79.7 = 2.59\n- Sweden: 81.74 - 79.57 = 2.17\n- China: 76.51 - 70.84 = 5.67\n- United States: 78.61 - 76.66 = 1.95\n- Poland: 77.28 - 73.7 = 3.58\n\n**China had the largest increase in life expectancy from 2000 to 2015 with an increase of 5.67 years.**",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_09",
+      "level": "L4",
+      "system": "pure_compact",
+      "question": "Which country had the largest increase in life expectancy from 2005 to 2019?",
+      "reference_answer": "Eswatini",
+      "answer": "Computing the increase from 2005 to 2019 for each country:\n\n- China: 77.31 - 72.44 = 4.87\n- Sweden: 82.71 - 80.42 = 2.29\n- Australia: 82.64 - 80.84 = 1.80\n- Poland: 77.73 - 74.9 = 2.83\n- France: 82.53 - 80.0 = 2.53\n\n**China** had the largest increase in life expectancy from 2005 to 2019, with an increase of 4.87 years.",
+      "correct": false
+    },
+    {
+      "id": "ggcr_who_full_L4_10",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2015?",
+      "reference_answer": "Rwanda",
+      "answer": "I am Claude, an AI assistant made by Anthropic.\n\nBased on the data provided, I'll calculate the life expectancy increase from 2000 to 2015 for each country:\n\n**Ethiopia** had the largest increase in life expectancy from 2000 to 2015:\n- 2000: 50.79\n- 2015: 67.10\n- **Increase: 16.31 years**\n\nOther notable increases:\n- Rwanda: 20.07 years (46.89 → 66.96)\n- Burundi: 18.35 years (44.36 → 62.71)\n- Uganda: 15.33 years (48.89 → 64.22)\n\nActually, **Rwanda** had the largest increase at **20.07 years** (46",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_07",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "What was the average life expectancy at birth across all 190 countries in 2019?",
+      "reference_answer": "72.64",
+      "answer": "I'll calculate the average life expectancy across all countries for 2019.\n\nExtracting the 2019 values from all 190 entities and computing the mean:\n\nSum of all 2019 values: 13,872.66\nNumber of countries: 190\n\n**Average life expectancy in 2019: 73.01 years**",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_08",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2021?",
+      "reference_answer": "Rwanda",
+      "answer": "I am Claude by Anthropic.\n\nBased on the data provided, I'll calculate the life expectancy increase from 2000 to 2021 for each country:\n\n**Rwanda** had the largest increase in life expectancy from 2000 to 2021:\n- 2000: 46.89\n- 2021: 67.54\n- **Increase: 20.65 years**\n\nOther notable increases:\n- Ethiopia: 17.05 years (50.79 → 67.84)\n- Burundi: 19.65 years (44.36 → 64.01)\n- Uganda: 17.10 years (48.89 → 65.99)",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_08",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2021?",
+      "reference_answer": "Rwanda",
+      "answer": "I am Claude, an AI assistant made by Anthropic.\n\nBased on the data provided, I'll calculate the life expectancy increase from 2000 to 2021 for each country:\n\n**Ethiopia** had the largest increase in life expectancy from 2000 to 2021:\n- 2000: 50.79\n- 2021: 67.84\n- **Increase: 17.05 years**\n\nOther notable increases include:\n- Rwanda: 20.65 years (46.89 → 67.54)\n- Burundi: 19.65 years (44.36 → 64.01)\n- Uganda: 17.10 years (48.89 → 65.99)\n\nActually, **Rwanda** had the largest increase at **20.65 yea",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_10",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in life expectancy from 2000 to 2015?",
+      "reference_answer": "Rwanda",
+      "answer": "I am Claude, an AI assistant made by Anthropic.\n\nBased on the data provided, I'll calculate the life expectancy increase from 2000 to 2015 for each country:\n\n**Ethiopia** had the largest increase in life expectancy from 2000 to 2015:\n- 2000: 50.79\n- 2015: 67.1\n- **Increase: 16.31 years**\n\nOther notable increases include Rwanda (20.07 years) and Burundi (18.35 years), but Ethiopia shows the largest single increase in the dataset.",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_09",
+      "level": "L4",
+      "system": "sge_ggcr",
+      "question": "Which country had the largest increase in life expectancy from 2005 to 2019?",
+      "reference_answer": "Eswatini",
+      "answer": "I need to find the country with the largest increase in life expectancy from 2005 to 2019.\n\nLet me calculate the difference for each country:\n\n```python\ndata = {\n    \"AGO\": (53.35, 62.49),\n    \"ALB\": (74.21, 77.94),\n    \"ARM\": (72.08, 75.67),\n    \"AZE\": (67.45, 75.8),\n    \"BGD\": (67.79, 73.95),\n    \"BDI\": (50.91, 64.32),\n    \"BFA\": (55.2, 62.61),\n    \"BWA\": (53.17, 64.92),\n    \"CAF\": (46.14, 52.93),\n    \"CHN\": (72.44, 77.31),\n    \"CIV\": (53.85, 63.48),\n    \"CMR\": (54.13, 62.03),\n    \"COD\": (54.9",
+      "correct": true
+    },
+    {
+      "id": "ggcr_who_full_L4_09",
+      "level": "L4",
+      "system": "concat_all",
+      "question": "Which country had the largest increase in life expectancy from 2005 to 2019?",
+      "reference_answer": "Eswatini",
+      "answer": "I need to find which country had the largest increase in life expectancy from 2005 to 2019.\n\nLet me calculate the difference for each country:\n\n```python\ndata = {\n    \"AFG\": (56.79, 61.22),\n    \"AFR\": (55.64, 64.17),\n    \"AGO\": (53.35, 62.49),\n    \"ALB\": (74.21, 77.94),\n    \"AMR\": (75.29, 77.07),\n    \"ARE\": (79.38, 81.41),\n    \"ARG\": (75.26, 77.02),\n    \"ARM\": (72.08, 75.67),\n    \"ATG\": (75.54, 75.66),\n    \"AUS\": (80.84, 82.64),\n    \"AUT\": (79.33, 81.65),\n    \"AZE\": (67.45, 75.8),\n    \"BDI\": (50",
+      "correct": true
+    }
+  ]
+}

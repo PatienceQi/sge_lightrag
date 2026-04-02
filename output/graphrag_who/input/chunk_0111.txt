@@ -1,0 +1,25 @@
+Entity: MDV / WHOSIS_000001
+Year: 2000 | Value: 69.82223985
+Year: 2001 | Value: 70.45676102
+Year: 2002 | Value: 71.06296933
+Year: 2003 | Value: 71.62171461
+Year: 2004 | Value: 71.34887566
+Year: 2005 | Value: 72.865727
+Year: 2006 | Value: 73.36205884
+Year: 2007 | Value: 73.714686
+Year: 2008 | Value: 74.09191071
+Year: 2009 | Value: 74.43155141
+Year: 2010 | Value: 74.73135148
+Year: 2011 | Value: 75.10252928
+Year: 2012 | Value: 75.84622735
+Year: 2013 | Value: 76.29978199
+Year: 2014 | Value: 76.80961188
+Year: 2015 | Value: 77.25297582
+Year: 2016 | Value: 77.72035574
+Year: 2017 | Value: 78.16955603
+Year: 2018 | Value: 78.67792046
+Year: 2019 | Value: 75.44939578
+Year: 2020 | Value: 76.1908817
+Year: 2021 | Value: 75.39664085
+Remark: Maldives
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: TZA / WHOSIS_000001
+Year: 2000 | Value: 52.79227334
+Year: 2001 | Value: 53.52029055
+Year: 2002 | Value: 54.24829544
+Year: 2003 | Value: 54.98804057
+Year: 2004 | Value: 55.69111865
+Year: 2005 | Value: 56.55203228
+Year: 2006 | Value: 57.81812716
+Year: 2007 | Value: 59.37881257
+Year: 2008 | Value: 60.43730538
+Year: 2009 | Value: 61.03787589
+Year: 2010 | Value: 61.6819464
+Year: 2011 | Value: 62.26370092
+Year: 2012 | Value: 63.07821297
+Year: 2013 | Value: 64.03254511
+Year: 2014 | Value: 64.69269786
+Year: 2015 | Value: 65.15719683
+Year: 2016 | Value: 65.60342077
+Year: 2017 | Value: 65.98183854
+Year: 2018 | Value: 66.39625941
+Year: 2019 | Value: 66.78631383
+Year: 2020 | Value: 67.40275668
+Year: 2021 | Value: 66.8101483
+Remark: United Republic of Tanzania
+Remark: Life expectancy at birth (years)

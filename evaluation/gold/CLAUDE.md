@@ -29,6 +29,13 @@
 | `gold_health.jsonl` | Health Statistics | II-T | 3 | 14 |
 | `gold_inpatient_2023.jsonl` | Inpatient | III | 8 | 16 |
 
+## Non-Government (auto-generated, non-gov domains)
+
+| File | Dataset | Type | Entities/Facts |
+|------|---------|------|---------------|
+| `gold_fortune500_revenue.jsonl` | Fortune 500 Revenue | Type-II | 25e/125f |
+| `gold_the_university_ranking.jsonl` | THE University Ranking | Type-III | 25e/150f |
+
 ## OOD (10 blind test datasets, 40 facts each except Education 23, Literacy 10)
 
 | File | Domain |
@@ -56,5 +63,5 @@
 
 ## Totals
 
-- **Paper primary (v2):** 702 facts (600 international + 102 local)
+- **Paper primary (v2):** 977 facts (600 international + 102 local + 275 non-gov)
 - **OOD:** 353 facts (10 datasets)

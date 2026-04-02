@@ -1,0 +1,25 @@
+Entity: MUS / WHOSIS_000001
+Year: 2000 | Value: 71.13541086
+Year: 2001 | Value: 71.43968836
+Year: 2002 | Value: 71.67923755
+Year: 2003 | Value: 71.8438719
+Year: 2004 | Value: 71.98706152
+Year: 2005 | Value: 72.14096947
+Year: 2006 | Value: 72.37604294
+Year: 2007 | Value: 72.6045072
+Year: 2008 | Value: 72.86571029
+Year: 2009 | Value: 73.10056755
+Year: 2010 | Value: 73.34550791
+Year: 2011 | Value: 73.5157206
+Year: 2012 | Value: 73.69029649
+Year: 2013 | Value: 73.803364
+Year: 2014 | Value: 74.00992363
+Year: 2015 | Value: 74.12593279
+Year: 2016 | Value: 74.15809377
+Year: 2017 | Value: 74.11525101
+Year: 2018 | Value: 74.02503816
+Year: 2019 | Value: 74.05607067
+Year: 2020 | Value: 73.56975445
+Year: 2021 | Value: 73.41967032
+Remark: Mauritius
+Remark: Life expectancy at birth (years)

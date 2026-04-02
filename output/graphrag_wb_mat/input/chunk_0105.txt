@@ -1,0 +1,42 @@
+Entity: IDA / SH.STA.MMRT
+Year: 1985 | Value: 946
+Year: 1986 | Value: 914
+Year: 1987 | Value: 926
+Year: 1988 | Value: 886
+Year: 1989 | Value: 864
+Year: 1990 | Value: 850
+Year: 1991 | Value: 835
+Year: 1992 | Value: 833
+Year: 1993 | Value: 813
+Year: 1994 | Value: 788
+Year: 1995 | Value: 753
+Year: 1996 | Value: 738
+Year: 1997 | Value: 718
+Year: 1998 | Value: 729
+Year: 1999 | Value: 668
+Year: 2000 | Value: 643
+Year: 2001 | Value: 623
+Year: 2002 | Value: 604
+Year: 2003 | Value: 583
+Year: 2004 | Value: 565
+Year: 2005 | Value: 554
+Year: 2006 | Value: 545
+Year: 2007 | Value: 539
+Year: 2008 | Value: 535
+Year: 2009 | Value: 530
+Year: 2010 | Value: 522
+Year: 2011 | Value: 512
+Year: 2012 | Value: 502
+Year: 2013 | Value: 493
+Year: 2014 | Value: 487
+Year: 2015 | Value: 477
+Year: 2016 | Value: 461
+Year: 2017 | Value: 443
+Year: 2018 | Value: 421
+Year: 2019 | Value: 405
+Year: 2020 | Value: 390
+Year: 2021 | Value: 404
+Year: 2022 | Value: 361
+Year: 2023 | Value: 352
+Remark: IDA total
+Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

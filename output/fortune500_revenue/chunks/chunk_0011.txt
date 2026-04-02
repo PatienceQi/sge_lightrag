@@ -1,0 +1,6 @@
+Entity: Chevron
+Year: 2015 | Value: 203784.0
+Year: 2016 | Value: 131118.0
+Year: 2017 | Value: 107567.0
+Year: 2018 | Value: 134533.0
+Year: 2019 | Value: 166339.0

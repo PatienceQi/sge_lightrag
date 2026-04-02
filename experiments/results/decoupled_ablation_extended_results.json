@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "wb_pop",
+    "dataset_label": "WB Population",
+    "condition": "full_sge",
+    "ec": 1.0,
+    "fc": 1.0,
+    "ec_matched": 25,
+    "ec_total": 25,
+    "fc_covered": 150,
+    "fc_total": 150,
+    "nodes": 6551,
+    "edges": 6317,
+    "timestamp": "2026-04-02T02:31:13.721624"
+  },
+  {
+    "dataset": "wb_pop",
+    "dataset_label": "WB Population",
+    "condition": "serial_only",
+    "ec": 1.0,
+    "fc": 0.0,
+    "ec_matched": 25,
+    "ec_total": 25,
+    "fc_covered": 0,
+    "fc_total": 150,
+    "nodes": 318,
+    "edges": 1453,
+    "timestamp": "2026-04-02T02:31:13.721624"
+  },
+  {
+    "dataset": "wb_pop",
+    "dataset_label": "WB Population",
+    "condition": "schema_only",
+    "ec": 1.0,
+    "fc": 0.0067,
+    "ec_matched": 25,
+    "ec_total": 25,
+    "fc_covered": 1,
+    "fc_total": 150,
+    "nodes": 11403,
+    "edges": 7676,
+    "timestamp": "2026-04-02T02:31:13.721624"
+  },
+  {
+    "dataset": "wb_pop",
+    "dataset_label": "WB Population",
+    "condition": "baseline",
+    "ec": 0.88,
+    "fc": 0.1867,
+    "ec_matched": 22,
+    "ec_total": 25,
+    "fc_covered": 28,
+    "fc_total": 150,
+    "nodes": 317,
+    "edges": 1969,
+    "timestamp": "2026-04-02T02:31:13.721624"
+  }
+]

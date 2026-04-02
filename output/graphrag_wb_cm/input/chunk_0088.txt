@@ -1,0 +1,42 @@
+Entity: GNB / SH.DYN.MORT
+Year: 1985 | Value: 244.1
+Year: 1986 | Value: 239.5
+Year: 1987 | Value: 234.9
+Year: 1988 | Value: 230.7
+Year: 1989 | Value: 226.6
+Year: 1990 | Value: 222.3
+Year: 1991 | Value: 217.9
+Year: 1992 | Value: 213.4
+Year: 1993 | Value: 208.6
+Year: 1994 | Value: 204.1
+Year: 1995 | Value: 199.3
+Year: 1996 | Value: 194.3
+Year: 1997 | Value: 189.2
+Year: 1998 | Value: 184.2
+Year: 1999 | Value: 179
+Year: 2000 | Value: 173.8
+Year: 2001 | Value: 168.4
+Year: 2002 | Value: 162.8
+Year: 2003 | Value: 157
+Year: 2004 | Value: 151.1
+Year: 2005 | Value: 144.9
+Year: 2006 | Value: 138.6
+Year: 2007 | Value: 132.2
+Year: 2008 | Value: 126.1
+Year: 2009 | Value: 120
+Year: 2010 | Value: 114.2
+Year: 2011 | Value: 108.7
+Year: 2012 | Value: 103.7
+Year: 2013 | Value: 99.3
+Year: 2014 | Value: 95.3
+Year: 2015 | Value: 91.8
+Year: 2016 | Value: 88.4
+Year: 2017 | Value: 85.3
+Year: 2018 | Value: 82.1
+Year: 2019 | Value: 79.1
+Year: 2020 | Value: 76.6
+Year: 2021 | Value: 74.1
+Year: 2022 | Value: 71.6
+Year: 2023 | Value: 69.3
+Remark: Guinea-Bissau
+Remark: Mortality rate, under-5 (per 1,000 live births)
