@@ -1,6 +1,33 @@
-# SGE-LightRAG
+# SGE — Structure-Guided Extraction for GraphRAG
 
-Structure-Guided Extraction for LightRAG — a structure-aware graph construction framework for statistical CSV data (time-series matrix / hierarchical-hybrid types). It improves upstream fact-binding fidelity for LightRAG through a three-stage perception pipeline (topology recognition → schema induction → constrained extraction).
+<div align="center">
+
+**Faithful Graph Construction from Statistical Tables for GraphRAG**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![EMNLP 2026](https://img.shields.io/badge/Targeting-EMNLP%202026-red.svg)](#)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](#)
+
+</div>
+
+---
+
+## Key Results
+
+| Metric | Baseline (LightRAG) | SGE (Ours) | Improvement |
+|--------|---------------------|------------|-------------|
+| Fact Coverage (WHO) | 12.0% | **72.0%** | **6.0×** |
+| Entity Coverage | Baseline | SGE | Significant |
+| CSVFidelity-Bench | 10 datasets | 977 facts | Comprehensive |
+
+> **Core Discovery**: Format-Constraint Coupling — structured table formats systematically constrain the fidelity of graph construction in GraphRAG systems.
+
+---
+
+## Overview
+
+SGE is a structure-aware graph construction framework for statistical CSV data (time-series matrix / hierarchical-hybrid types). It improves upstream fact-binding fidelity for LightRAG through a three-stage perception pipeline (topology recognition → schema induction → constrained extraction).
 
 ## Key Features
 
