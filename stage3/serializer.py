@@ -247,10 +247,16 @@ def _serialize_type_ii(df: pd.DataFrame, column_roles: dict, schema: dict) -> li
                 clean = _clean_col_name(col)
                 lines.append(f"{clean}: {val}")
 
-        # Metadata
+        # Metadata — use column name as label for named columns,
+        # fall back to "Remark:" for anonymous/remark columns.
+        extra_meta = set(schema.get("extra_metadata_columns", []))
         for col in metadata_cols:
             if col in row and _is_valid(row[col]):
-                lines.append(f"Remark: {row[col]}")
+                if col in extra_meta:
+                    clean = _clean_col_name(col)
+                    lines.append(f"{clean}: {row[col]}")
+                else:
+                    lines.append(f"Remark: {row[col]}")
 
         chunks.append("\n".join(lines))
 

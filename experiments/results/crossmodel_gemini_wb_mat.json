@@ -1,0 +1,8 @@
+{
+  "dataset": "wb_mat",
+  "model": "gemini-2.5-flash",
+  "ec": 0.92,
+  "fc": 0.04,
+  "nodes": 489,
+  "edges": 398
+}

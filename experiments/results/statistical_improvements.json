@@ -1,0 +1,517 @@
+{
+  "metadata": {
+    "description": "Interaction CI + permutation test for SGE 2x2 ablation",
+    "n_bootstrap": 10000,
+    "rng_seed": 42
+  },
+  "interaction_analysis": {
+    "description": "Bootstrap 95% CI for 2x2 factorial interaction term. Interaction = Full_SGE - Serial_Only - Schema_Only + Baseline. CI computed by resampling facts with replacement (n=10000).",
+    "per_dataset": [
+      {
+        "dataset": "WHO",
+        "label": "WHO Life Expectancy",
+        "n_facts": 150,
+        "computed_fc": {
+          "full_sge": 1.0,
+          "serial_only": 0.0133,
+          "schema_only": 0.48,
+          "baseline": 0.1667
+        },
+        "paper_fc": {
+          "full": 1.0,
+          "serial": 0.013,
+          "schema": 0.38,
+          "baseline": 0.167
+        },
+        "interaction_point_estimate": 0.6733,
+        "interaction_analytic": 0.6733,
+        "interaction_ci_95": [
+          0.5733,
+          0.7733
+        ],
+        "bootstrap_p_interaction_positive": 1.0,
+        "bootstrap_p_value_one_sided": 0.0,
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_CM",
+        "label": "WB Child Mortality",
+        "n_facts": 150,
+        "computed_fc": {
+          "full_sge": 1.0,
+          "serial_only": 0.76,
+          "schema_only": 0.0,
+          "baseline": 0.4733
+        },
+        "paper_fc": {
+          "full": 1.0,
+          "serial": 0.76,
+          "schema": 0.0,
+          "baseline": 0.473
+        },
+        "interaction_point_estimate": 0.7133,
+        "interaction_analytic": 0.7133,
+        "interaction_ci_95": [
+          0.64,
+          0.7867
+        ],
+        "bootstrap_p_interaction_positive": 1.0,
+        "bootstrap_p_value_one_sided": 0.0,
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "Inpatient",
+        "label": "HK Inpatient 2023",
+        "n_facts": 16,
+        "computed_fc": {
+          "full_sge": 0.9375,
+          "serial_only": 0.4375,
+          "schema_only": 0.75,
+          "baseline": 0.4375
+        },
+        "paper_fc": {
+          "full": 0.938,
+          "serial": 0.438,
+          "schema": 0.75,
+          "baseline": 0.438
+        },
+        "interaction_point_estimate": 0.1875,
+        "interaction_analytic": 0.1875,
+        "interaction_ci_95": [
+          -0.3125,
+          0.625
+        ],
+        "bootstrap_p_interaction_positive": 0.7488,
+        "bootstrap_p_value_one_sided": 0.2512,
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_Pop",
+        "label": "WB Population",
+        "n_facts": 150,
+        "computed_fc": {
+          "full_sge": 1.0,
+          "serial_only": 0.0,
+          "schema_only": 0.0067,
+          "baseline": 0.1867
+        },
+        "paper_fc": {
+          "full": 1.0,
+          "serial": 0.0,
+          "schema": 0.007,
+          "baseline": 0.187
+        },
+        "interaction_point_estimate": 1.18,
+        "interaction_analytic": 1.18,
+        "interaction_ci_95": [
+          1.12,
+          1.2467
+        ],
+        "bootstrap_p_interaction_positive": 1.0,
+        "bootstrap_p_value_one_sided": 0.0,
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_Mat",
+        "label": "WB Maternal Mortality",
+        "n_facts": 150,
+        "computed_fc": {
+          "full_sge": 0.9667,
+          "serial_only": 0.8267,
+          "schema_only": 0.0,
+          "baseline": 0.7867
+        },
+        "paper_fc": {
+          "full": 0.967,
+          "serial": 0.827,
+          "schema": 0.0,
+          "baseline": 0.787
+        },
+        "interaction_point_estimate": 0.9267,
+        "interaction_analytic": 0.9267,
+        "interaction_ci_95": [
+          0.8667,
+          0.9867
+        ],
+        "bootstrap_p_interaction_positive": 1.0,
+        "bootstrap_p_value_one_sided": 0.0,
+        "n_bootstrap": 10000
+      }
+    ],
+    "combined_fisher_test": {
+      "n_datasets": 5,
+      "fisher_chi_squared": 186.9698,
+      "df": 10,
+      "p_combined": 0.0,
+      "individual_p_values": [
+        0.0,
+        0.0,
+        0.2512,
+        0.0,
+        0.0
+      ],
+      "significant_at_0.05": true
+    }
+  },
+  "permutation_analysis": {
+    "description": "Entity-level Wilcoxon signed-rank test (alternative='greater') on per-entity (country/subject) fact coverage rates. V3 graphs (50-country) not found; used v2 gold (25-country) with existing SGE and Baseline graphs. Effect size r = Z/sqrt(N_nonzero). CI for r computed via bootstrap resampling of entity pairs.",
+    "per_dataset": [
+      {
+        "dataset": "WHO",
+        "label": "WHO Life Expectancy",
+        "gold_version": "v2",
+        "note": "25-country v2 gold (v3 graphs not found; falling back to entity-level permutation)",
+        "n_facts": 150,
+        "n_entities": 25,
+        "mean_sge_rate": 1.0,
+        "mean_base_rate": 0.1667,
+        "entity_sge_rates": {
+          "CHN": 1.0,
+          "IND": 1.0,
+          "USA": 1.0,
+          "GBR": 1.0,
+          "DEU": 1.0,
+          "FRA": 1.0,
+          "JPN": 1.0,
+          "BRA": 1.0,
+          "CAN": 1.0,
+          "AUS": 1.0,
+          "KOR": 1.0,
+          "MEX": 1.0,
+          "RUS": 1.0,
+          "SAU": 1.0,
+          "ZAF": 1.0,
+          "TUR": 1.0,
+          "IDN": 1.0,
+          "ARG": 1.0,
+          "ITA": 1.0,
+          "ESP": 1.0,
+          "EGY": 1.0,
+          "NGA": 1.0,
+          "PAK": 1.0,
+          "BGD": 1.0,
+          "THA": 1.0
+        },
+        "entity_base_rates": {
+          "CHN": 0.0,
+          "IND": 0.0,
+          "USA": 0.0,
+          "GBR": 0.1667,
+          "DEU": 0.3333,
+          "FRA": 0.1667,
+          "JPN": 0.5,
+          "BRA": 0.0,
+          "CAN": 0.1667,
+          "AUS": 0.5,
+          "KOR": 0.0,
+          "MEX": 0.1667,
+          "RUS": 0.0,
+          "SAU": 0.1667,
+          "ZAF": 0.0,
+          "TUR": 0.1667,
+          "IDN": 0.3333,
+          "ARG": 0.0,
+          "ITA": 0.0,
+          "ESP": 0.1667,
+          "EGY": 0.0,
+          "NGA": 0.0,
+          "PAK": 0.3333,
+          "BGD": 0.3333,
+          "THA": 0.6667
+        },
+        "wilcoxon": {
+          "n": 25,
+          "n_nonzero": 25,
+          "W": 325.0,
+          "p_value": 4.71e-06,
+          "Z": 4.4303,
+          "r_effect_size": 0.8861,
+          "interpretation": "large"
+        },
+        "effect_size_ci_95": [
+          0.8813,
+          0.9036
+        ],
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_CM",
+        "label": "WB Child Mortality",
+        "gold_version": "v2",
+        "note": "25-country v2 gold (v3 graphs not found; falling back to entity-level permutation)",
+        "n_facts": 150,
+        "n_entities": 25,
+        "mean_sge_rate": 1.0,
+        "mean_base_rate": 0.4733,
+        "entity_sge_rates": {
+          "ARG": 1.0,
+          "AUS": 1.0,
+          "BGD": 1.0,
+          "BRA": 1.0,
+          "CAN": 1.0,
+          "CHN": 1.0,
+          "DEU": 1.0,
+          "EGY": 1.0,
+          "ESP": 1.0,
+          "FRA": 1.0,
+          "GBR": 1.0,
+          "IDN": 1.0,
+          "IND": 1.0,
+          "ITA": 1.0,
+          "JPN": 1.0,
+          "KOR": 1.0,
+          "MEX": 1.0,
+          "NGA": 1.0,
+          "PAK": 1.0,
+          "RUS": 1.0,
+          "SAU": 1.0,
+          "THA": 1.0,
+          "TUR": 1.0,
+          "USA": 1.0,
+          "ZAF": 1.0
+        },
+        "entity_base_rates": {
+          "ARG": 0.3333,
+          "AUS": 1.0,
+          "BGD": 0.0,
+          "BRA": 0.5,
+          "CAN": 1.0,
+          "CHN": 0.0,
+          "DEU": 0.8333,
+          "EGY": 0.5,
+          "ESP": 1.0,
+          "FRA": 0.5,
+          "GBR": 0.0,
+          "IDN": 0.0,
+          "IND": 0.3333,
+          "ITA": 1.0,
+          "JPN": 0.0,
+          "KOR": 1.0,
+          "MEX": 0.3333,
+          "NGA": 0.1667,
+          "PAK": 0.5,
+          "RUS": 0.6667,
+          "SAU": 0.5,
+          "THA": 0.5,
+          "TUR": 0.5,
+          "USA": 0.6667,
+          "ZAF": 0.0
+        },
+        "wilcoxon": {
+          "n": 25,
+          "n_nonzero": 20,
+          "W": 210.0,
+          "p_value": 3.857e-05,
+          "Z": 3.9531,
+          "r_effect_size": 0.8839,
+          "interpretation": "large"
+        },
+        "effect_size_ci_95": [
+          0.8807,
+          0.8992
+        ],
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "Inpatient",
+        "label": "HK Inpatient 2023",
+        "gold_version": "v2",
+        "note": "25-country v2 gold (v3 graphs not found; falling back to entity-level permutation)",
+        "n_facts": 16,
+        "n_entities": 8,
+        "mean_sge_rate": 0.9375,
+        "mean_base_rate": 0.3333,
+        "entity_sge_rates": {
+          "肺炎": 1.0,
+          "肾衰竭": 1.0,
+          "乳房恶性肿瘤": 0.5,
+          "气管、支气管和肺恶性肿瘤": 1.0,
+          "其他缺血性心脏病": 1.0,
+          "呼吸道结核病": 1.0,
+          "胃炎和十二指肠炎": 1.0,
+          "白内障和晶状体的其他疾患": 1.0
+        },
+        "entity_base_rates": {
+          "肺炎": 0.6667,
+          "肾衰竭": 1.0,
+          "乳房恶性肿瘤": 0.0,
+          "气管、支气管和肺恶性肿瘤": 0.0,
+          "其他缺血性心脏病": 0.5,
+          "呼吸道结核病": 0.5,
+          "胃炎和十二指肠炎": 0.0,
+          "白内障和晶状体的其他疾患": 0.0
+        },
+        "wilcoxon": {
+          "n": 8,
+          "n_nonzero": 7,
+          "W": 28.0,
+          "p_value": 0.00817561,
+          "Z": 2.401,
+          "r_effect_size": 0.9075,
+          "interpretation": "large"
+        },
+        "effect_size_ci_95": [
+          0.9011,
+          0.9562
+        ],
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_Pop",
+        "label": "WB Population",
+        "gold_version": "v2",
+        "note": "25-country v2 gold (v3 graphs not found; falling back to entity-level permutation)",
+        "n_facts": 150,
+        "n_entities": 25,
+        "mean_sge_rate": 1.0,
+        "mean_base_rate": 0.1867,
+        "entity_sge_rates": {
+          "Argentina": 1.0,
+          "Australia": 1.0,
+          "Bangladesh": 1.0,
+          "Brazil": 1.0,
+          "Canada": 1.0,
+          "China": 1.0,
+          "Germany": 1.0,
+          "Egypt, Arab Rep.": 1.0,
+          "Spain": 1.0,
+          "France": 1.0,
+          "United Kingdom": 1.0,
+          "Indonesia": 1.0,
+          "India": 1.0,
+          "Italy": 1.0,
+          "Japan": 1.0,
+          "Korea, Rep.": 1.0,
+          "Mexico": 1.0,
+          "Nigeria": 1.0,
+          "Pakistan": 1.0,
+          "Russian Federation": 1.0,
+          "Saudi Arabia": 1.0,
+          "Thailand": 1.0,
+          "Turkiye": 1.0,
+          "United States": 1.0,
+          "South Africa": 1.0
+        },
+        "entity_base_rates": {
+          "Argentina": 0.0,
+          "Australia": 0.0,
+          "Bangladesh": 0.0,
+          "Brazil": 0.3333,
+          "Canada": 1.0,
+          "China": 0.0,
+          "Germany": 0.0,
+          "Egypt, Arab Rep.": 0.0,
+          "Spain": 0.0,
+          "France": 0.0,
+          "United Kingdom": 0.0,
+          "Indonesia": 1.0,
+          "India": 0.0,
+          "Italy": 0.0,
+          "Japan": 1.0,
+          "Korea, Rep.": 1.0,
+          "Mexico": 0.3333,
+          "Nigeria": 0.0,
+          "Pakistan": 0.0,
+          "Russian Federation": 0.0,
+          "Saudi Arabia": 0.0,
+          "Thailand": 0.0,
+          "Turkiye": 0.0,
+          "United States": 0.0,
+          "South Africa": 0.0
+        },
+        "wilcoxon": {
+          "n": 25,
+          "n_nonzero": 21,
+          "W": 231.0,
+          "p_value": 5.11e-06,
+          "Z": 4.4126,
+          "r_effect_size": 0.9629,
+          "interpretation": "large"
+        },
+        "effect_size_ci_95": [
+          0.9264,
+          1.0
+        ],
+        "n_bootstrap": 10000
+      },
+      {
+        "dataset": "WB_Mat",
+        "label": "WB Maternal Mortality",
+        "gold_version": "v2",
+        "note": "25-country v2 gold (v3 graphs not found; falling back to entity-level permutation)",
+        "n_facts": 150,
+        "n_entities": 25,
+        "mean_sge_rate": 0.9667,
+        "mean_base_rate": 0.7867,
+        "entity_sge_rates": {
+          "Argentina": 1.0,
+          "Australia": 1.0,
+          "Bangladesh": 1.0,
+          "Brazil": 1.0,
+          "Canada": 1.0,
+          "China": 1.0,
+          "Germany": 1.0,
+          "Egypt, Arab Rep.": 1.0,
+          "Spain": 1.0,
+          "France": 1.0,
+          "United Kingdom": 1.0,
+          "Indonesia": 0.1667,
+          "India": 1.0,
+          "Italy": 1.0,
+          "Japan": 1.0,
+          "Korea, Rep.": 1.0,
+          "Mexico": 1.0,
+          "Nigeria": 1.0,
+          "Pakistan": 1.0,
+          "Russian Federation": 1.0,
+          "Saudi Arabia": 1.0,
+          "Thailand": 1.0,
+          "Turkiye": 1.0,
+          "United States": 1.0,
+          "South Africa": 1.0
+        },
+        "entity_base_rates": {
+          "Argentina": 1.0,
+          "Australia": 1.0,
+          "Bangladesh": 0.3333,
+          "Brazil": 0.8333,
+          "Canada": 1.0,
+          "China": 1.0,
+          "Germany": 1.0,
+          "Egypt, Arab Rep.": 1.0,
+          "Spain": 1.0,
+          "France": 1.0,
+          "United Kingdom": 1.0,
+          "Indonesia": 0.6667,
+          "India": 0.3333,
+          "Italy": 1.0,
+          "Japan": 1.0,
+          "Korea, Rep.": 1.0,
+          "Mexico": 1.0,
+          "Nigeria": 0.0,
+          "Pakistan": 0.1667,
+          "Russian Federation": 1.0,
+          "Saudi Arabia": 1.0,
+          "Thailand": 1.0,
+          "Turkiye": 0.3333,
+          "United States": 1.0,
+          "South Africa": 0.0
+        },
+        "wilcoxon": {
+          "n": 25,
+          "n_nonzero": 8,
+          "W": 34.0,
+          "p_value": 0.01208853,
+          "Z": 2.2543,
+          "r_effect_size": 0.797,
+          "interpretation": "large"
+        },
+        "effect_size_ci_95": [
+          0.3682,
+          0.9428
+        ],
+        "n_bootstrap": 10000
+      }
+    ]
+  }
+}

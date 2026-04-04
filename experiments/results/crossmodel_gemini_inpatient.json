@@ -1,0 +1,8 @@
+{
+  "dataset": "inpatient",
+  "model": "gemini-2.5-flash",
+  "ec": 1.0,
+  "fc": 0.875,
+  "nodes": 1029,
+  "edges": 736
+}

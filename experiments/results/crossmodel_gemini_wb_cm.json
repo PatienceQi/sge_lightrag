@@ -1,0 +1,8 @@
+{
+  "dataset": "wb_cm",
+  "model": "gemini-2.5-flash",
+  "ec": 0.64,
+  "fc": 0.02,
+  "nodes": 1424,
+  "edges": 1224
+}

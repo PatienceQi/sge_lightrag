@@ -34,16 +34,22 @@ def build_meta_schema(features: FeatureSet, table_type: str) -> dict:
     ]
 
     # ── Primary subject columns ───────────────────────────────────────────────
-    # Text columns that are NOT remarks and NOT time-header columns
+    # Text columns that are NOT remarks and NOT time-header columns.
+    # Leading text columns (composite key candidates) always qualify as
+    # subjects even if their values triggered the long-text remarks heuristic
+    # (e.g. "California Institute of Technology" is >20 chars but is an entity
+    # name, not a remark).
     time_col_set = set(features.time_cols_in_headers)
     remarks_set  = set(features.remarks_cols)
+    leading_col_set = set(raw_cols[:features.leading_text_col_count])
 
     primary_subject_cols = [
         raw_cols[i]
         for i, col in enumerate(df.columns)
         if (not _col_is_mostly_numeric(df[col])
             and raw_cols[i] not in time_col_set
-            and raw_cols[i] not in remarks_set)
+            and (raw_cols[i] in leading_col_set
+                 or raw_cols[i] not in remarks_set))
     ]
 
     # ── Time dimension ────────────────────────────────────────────────────────

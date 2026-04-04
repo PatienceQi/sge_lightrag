@@ -1,0 +1,331 @@
+{
+  "wb_maternal": {
+    "total_gold": 150,
+    "covered": 145,
+    "missed_count": 5,
+    "missed": [
+      {
+        "subject": "Indonesia",
+        "value": "268",
+        "year": "2005",
+        "reason": "value_wrong_binding",
+        "detail": "Value '268' exists in graph but not reachable from entity 'Indonesia'"
+      },
+      {
+        "subject": "Indonesia",
+        "value": "242",
+        "year": "2010",
+        "reason": "value_wrong_binding",
+        "detail": "Value '242' exists in graph but not reachable from entity 'Indonesia'"
+      },
+      {
+        "subject": "Indonesia",
+        "value": "190",
+        "year": "2015",
+        "reason": "value_wrong_binding",
+        "detail": "Value '190' exists in graph but not reachable from entity 'Indonesia'"
+      },
+      {
+        "subject": "Indonesia",
+        "value": "161",
+        "year": "2019",
+        "reason": "value_wrong_binding",
+        "detail": "Value '161' exists in graph but not reachable from entity 'Indonesia'"
+      },
+      {
+        "subject": "Indonesia",
+        "value": "226",
+        "year": "2021",
+        "reason": "value_wrong_binding",
+        "detail": "Value '226' exists in graph but not reachable from entity 'Indonesia'"
+      }
+    ],
+    "category_summary": {
+      "entity_missing": 0,
+      "entity_isolated": 0,
+      "value_missing": 0,
+      "value_wrong_binding": 5,
+      "year_missing": 0,
+      "unknown": 0
+    },
+    "graph_structure": {
+      "num_nodes": 3764,
+      "num_edges": 5299,
+      "typed_nodes": 3724,
+      "typed_ratio": 0.9894,
+      "isolated_nodes": 14,
+      "isolated_ratio": 0.0037,
+      "avg_degree": 2.8156
+    },
+    "source_csv_available": true
+  },
+  "the_ranking": {
+    "total_gold": 150,
+    "covered": 90,
+    "missed_count": 60,
+    "missed_categories": {
+      "entity_isolated": 60
+    },
+    "isolated_universities": [
+      "Georgia Institute of Technology",
+      "Massachusetts Institute of Technology",
+      "Princeton University",
+      "University College London",
+      "University of British Columbia",
+      "University of California, Los Angeles",
+      "University of California, San Diego",
+      "University of California, Santa Barbara",
+      "University of Cambridge",
+      "University of Chicago",
+      "University of Hong Kong",
+      "University of North Carolina at Chapel Hill",
+      "University of Oxford",
+      "University of Pennsylvania",
+      "University of Tokyo",
+      "University of Toronto",
+      "Yale University"
+    ],
+    "isolated_university_count": 17,
+    "universities_with_most_misses": [
+      {
+        "university": "University of Oxford",
+        "missed_count": 6
+      },
+      {
+        "university": "Princeton University",
+        "missed_count": 6
+      },
+      {
+        "university": "University of Chicago",
+        "missed_count": 6
+      },
+      {
+        "university": "University of Pennsylvania",
+        "missed_count": 6
+      },
+      {
+        "university": "University College London",
+        "missed_count": 6
+      },
+      {
+        "university": "University of Toronto",
+        "missed_count": 6
+      },
+      {
+        "university": "University of Tokyo",
+        "missed_count": 6
+      },
+      {
+        "university": "Massachusetts Institute of Technology",
+        "missed_count": 5
+      },
+      {
+        "university": "University of California, Los Angeles",
+        "missed_count": 5
+      },
+      {
+        "university": "University of Cambridge",
+        "missed_count": 4
+      }
+    ],
+    "reachable_via_2hop_count": 0,
+    "graph_structure": {
+      "num_nodes": 72,
+      "num_edges": 196,
+      "typed_nodes": 50,
+      "typed_ratio": 0.6944,
+      "isolated_nodes": 17,
+      "isolated_ratio": 0.2361,
+      "avg_degree": 5.4444
+    },
+    "sample_missed": [
+      {
+        "subject": "University of Oxford",
+        "value": "91.2",
+        "year": "2011",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Oxford",
+        "value": "93.6",
+        "year": "2012",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Oxford",
+        "value": "93.7",
+        "year": "2013",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Oxford",
+        "value": "93.9",
+        "year": "2014",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Oxford",
+        "value": "93.2",
+        "year": "2015",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Oxford",
+        "value": "94.2",
+        "year": "2016",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Massachusetts Institute of Technology",
+        "value": "92.3",
+        "year": "2012",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Massachusetts Institute of Technology",
+        "value": "93.1",
+        "year": "2013",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Massachusetts Institute of Technology",
+        "value": "93.0",
+        "year": "2014",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Massachusetts Institute of Technology",
+        "value": "91.9",
+        "year": "2015",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Massachusetts Institute of Technology",
+        "value": "92.0",
+        "year": "2016",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "94.2",
+        "year": "2011",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "92.9",
+        "year": "2012",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "92.7",
+        "year": "2013",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "92.7",
+        "year": "2014",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "90.9",
+        "year": "2015",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "Princeton University",
+        "value": "90.1",
+        "year": "2016",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Cambridge",
+        "value": "92.4",
+        "year": "2012",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Cambridge",
+        "value": "92.6",
+        "year": "2013",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      },
+      {
+        "subject": "University of Cambridge",
+        "value": "92.3",
+        "year": "2014",
+        "category": "entity_isolated",
+        "detail": "University node exists but has 0 edges (LLM skipped this university's data)"
+      }
+    ]
+  },
+  "ood_failures": {
+    "unemployment": {
+      "total_gold": 40,
+      "covered": 1,
+      "missed_count": 39,
+      "fact_coverage": 0.025,
+      "edge_node_ratio": 0.7934,
+      "entity_count": 121,
+      "edge_count": 96,
+      "orphan_node_ratio": 0.124,
+      "failure_mode": "incomplete_year_extraction: edge/node=0.7934; FC=0.025. LLM extracts only a subset of years per entity (each 23-column chunk yields only ~4 edges instead of 23). Values exist in the graph but for wrong years — gold sampled years are systematically skipped by the LLM.",
+      "miss_reason_breakdown": {
+        "value_not_found": 39
+      },
+      "sample_chunk": "Entity: Argentina\nYear: 2000 | Value: 15.0\nYear: 2001 | Value: 17.32\nYear: 2002 | Value: 19.59\nYear: 2003 | Value: 15.36\nYear: 2004 | Value: 13.522\nYear: 2005 | Value: 11.506\nYear: 2006 | Value: 10.078\nYear: 2007 | Value: 8.47\nYear: 2008 | Value: 7.837\nYear: 2009 | Value: 8.645\nYear: 2010 | Value: 7.714\nYear: 2011 | Value: 7.18\nYear: 2012 | Value: 7.217\nYear: 2013 | Value: 7.1\nYear: 2014 | Value: 7.268\nYear: 2015 | Value: 7.577\nYear: 2016 | Value: 8.088\nYear: 2017 | Value: 8.347\nYear: 2018 | Val"
+    },
+    "immunization_dpt": {
+      "total_gold": 40,
+      "covered": 0,
+      "missed_count": 40,
+      "fact_coverage": 0.0,
+      "edge_node_ratio": 0.0,
+      "entity_count": 25,
+      "edge_count": 0,
+      "orphan_node_ratio": 1.0,
+      "failure_mode": "complete_extraction_failure: graph has nodes but 0 edges; LLM produced entity nodes but no relations. Likely cause: integer-only values (e.g., immunization percentages 83, 93) are ambiguous — LLM may skip relation creation when values look like stand-alone integers.",
+      "miss_reason_breakdown": {
+        "value_not_found": 40
+      },
+      "sample_chunk": "Entity: Argentina\nYear: 2000 | Value: 83\nYear: 2001 | Value: 83\nYear: 2002 | Value: 93\nYear: 2003 | Value: 96\nYear: 2004 | Value: 98\nYear: 2005 | Value: 98\nYear: 2006 | Value: 91\nYear: 2007 | Value: 91\nYear: 2008 | Value: 93\nYear: 2009 | Value: 94\nYear: 2010 | Value: 94\nYear: 2011 | Value: 91\nYear: 2012 | Value: 91\nYear: 2013 | Value: 94\nYear: 2014 | Value: 94\nYear: 2015 | Value: 94\nYear: 2016 | Value: 92\nYear: 2017 | Value: 88\nYear: 2018 | Value: 86\nYear: 2019 | Value: 83\nYear: 2020 | Value: 74"
+    },
+    "immunization_measles": {
+      "total_gold": 40,
+      "covered": 0,
+      "missed_count": 40,
+      "fact_coverage": 0.0,
+      "edge_node_ratio": 0.0,
+      "entity_count": 25,
+      "edge_count": 0,
+      "orphan_node_ratio": 1.0,
+      "failure_mode": "complete_extraction_failure: graph has nodes but 0 edges; LLM produced entity nodes but no relations. Likely cause: integer-only values (e.g., immunization percentages 83, 93) are ambiguous — LLM may skip relation creation when values look like stand-alone integers.",
+      "miss_reason_breakdown": {
+        "value_not_found": 40
+      },
+      "sample_chunk": "Entity: Argentina\nYear: 2000 | Value: 91\nYear: 2001 | Value: 89\nYear: 2002 | Value: 95\nYear: 2003 | Value: 97\nYear: 2004 | Value: 99\nYear: 2005 | Value: 98\nYear: 2006 | Value: 97\nYear: 2007 | Value: 94\nYear: 2008 | Value: 96\nYear: 2009 | Value: 96\nYear: 2010 | Value: 95\nYear: 2011 | Value: 95\nYear: 2012 | Value: 94\nYear: 2013 | Value: 94\nYear: 2014 | Value: 95\nYear: 2015 | Value: 89\nYear: 2016 | Value: 90\nYear: 2017 | Value: 90\nYear: 2018 | Value: 94\nYear: 2019 | Value: 86\nYear: 2020 | Value: 77"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "dataset": "who",
+    "label": "WHO Life Expectancy (Type-II)",
+    "timestamp": "2026-04-03T15:53:26.459212",
+    "fewshot": {
+      "label": "Few-Shot",
+      "ec": 0.68,
+      "fc": 0.0133,
+      "ec_matched": 17,
+      "ec_total": 25,
+      "fc_covered": 2,
+      "fc_total": 150,
+      "node_count": 118,
+      "edge_count": 101
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150,
+      "node_count": 4508,
+      "edge_count": 4312
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.92,
+      "fc": 0.1667,
+      "ec_matched": 23,
+      "ec_total": 25,
+      "fc_covered": 25,
+      "fc_total": 150,
+      "node_count": 402,
+      "edge_count": 647
+    }
+  },
+  {
+    "dataset": "wb_cm",
+    "label": "WB Child Mortality (Type-II)",
+    "timestamp": "2026-04-03T22:44:45.416116",
+    "fewshot": {
+      "label": "Few-Shot",
+      "ec": 0.92,
+      "fc": 0.0,
+      "ec_matched": 23,
+      "ec_total": 25,
+      "fc_covered": 0,
+      "fc_total": 150,
+      "node_count": 417,
+      "edge_count": 442
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150,
+      "node_count": 5218,
+      "edge_count": 5509
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.76,
+      "fc": 0.4733,
+      "ec_matched": 19,
+      "ec_total": 25,
+      "fc_covered": 71,
+      "fc_total": 150,
+      "node_count": 383,
+      "edge_count": 653
+    }
+  },
+  {
+    "dataset": "wb_pop",
+    "label": "WB Population (Type-II)",
+    "timestamp": "2026-04-04T00:00:36.834717",
+    "fewshot": {
+      "label": "Few-Shot",
+      "ec": 1.0,
+      "fc": 0.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 0,
+      "fc_total": 150,
+      "node_count": 615,
+      "edge_count": 623
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150,
+      "node_count": 6551,
+      "edge_count": 6317
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.88,
+      "fc": 0.1867,
+      "ec_matched": 22,
+      "ec_total": 25,
+      "fc_covered": 28,
+      "fc_total": 150,
+      "node_count": 317,
+      "edge_count": 1969
+    }
+  },
+  {
+    "dataset": "wb_mat",
+    "label": "WB Maternal Mortality (Type-II)",
+    "timestamp": "2026-04-04T00:12:31.424279",
+    "fewshot": {
+      "label": "Few-Shot",
+      "ec": 1.0,
+      "fc": 0.1333,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 20,
+      "fc_total": 150,
+      "node_count": 390,
+      "edge_count": 393
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 0.9667,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 145,
+      "fc_total": 150,
+      "node_count": 3764,
+      "edge_count": 5299
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 0.96,
+      "fc": 0.7867,
+      "ec_matched": 24,
+      "ec_total": 25,
+      "fc_covered": 118,
+      "fc_total": 150,
+      "node_count": 355,
+      "edge_count": 1475
+    }
+  },
+  {
+    "dataset": "inpatient",
+    "label": "HK Inpatient 2023 (Type-III)",
+    "timestamp": "2026-04-04T00:20:02.093054",
+    "fewshot": {
+      "label": "Few-Shot",
+      "ec": 1.0,
+      "fc": 0.5,
+      "ec_matched": 8,
+      "ec_total": 8,
+      "fc_covered": 8,
+      "fc_total": 16,
+      "node_count": 599,
+      "edge_count": 327
+    },
+    "sge": {
+      "label": "SGE",
+      "ec": 1.0,
+      "fc": 0.9375,
+      "ec_matched": 8,
+      "ec_total": 8,
+      "fc_covered": 15,
+      "fc_total": 16,
+      "node_count": 1190,
+      "edge_count": 996
+    },
+    "baseline": {
+      "label": "Baseline",
+      "ec": 1.0,
+      "fc": 0.4375,
+      "ec_matched": 8,
+      "ec_total": 8,
+      "fc_covered": 7,
+      "fc_total": 16,
+      "node_count": 450,
+      "edge_count": 961
+    }
+  }
+]

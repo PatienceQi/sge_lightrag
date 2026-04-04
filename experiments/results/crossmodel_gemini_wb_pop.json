@@ -1,0 +1,8 @@
+{
+  "dataset": "wb_pop",
+  "model": "gemini-2.5-flash",
+  "ec": 1.0,
+  "fc": 1.0,
+  "nodes": 16874,
+  "edges": 16793
+}

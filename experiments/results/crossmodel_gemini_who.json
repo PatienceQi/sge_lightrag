@@ -1,0 +1,8 @@
+{
+  "dataset": "who",
+  "model": "gemini-2.5-flash",
+  "ec": 0.68,
+  "fc": 0.49333333333333335,
+  "nodes": 186,
+  "edges": 180
+}

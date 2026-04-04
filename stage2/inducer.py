@@ -104,10 +104,17 @@ def _induce_type_i(meta_schema: dict, features: "FeatureSet") -> dict:
 def _induce_type_ii(meta_schema: dict, features: "FeatureSet") -> dict:
     subject_cols = meta_schema["primary_subject_columns"]
     value_cols   = meta_schema["value_columns"]
-    remarks_cols = meta_schema["metadata_columns"]
+    remarks_cols = list(meta_schema["metadata_columns"])  # copy to avoid mutation
     time_info    = meta_schema["time_dimension"]
 
     transposed = (time_info.get("location") == "rows")
+
+    # When a Type-II table has multiple subject columns (e.g. University + Country),
+    # only the first is the true entity identifier; the rest are metadata attributes.
+    extra_subject_as_metadata: list[str] = []
+    if len(subject_cols) > 1 and not transposed:
+        extra_subject_as_metadata = subject_cols[1:]
+        subject_cols = subject_cols[:1]
 
     # Parse all column headers for compound time info
     parsed_headers = parse_all_headers(features.raw_columns)
@@ -129,12 +136,13 @@ def _induce_type_ii(meta_schema: dict, features: "FeatureSet") -> dict:
     entity_types   = [entity_name]
     relation_types = [relation_name]
 
-    # Column roles
+    # Column roles — demoted subject columns become metadata
+    all_remarks = remarks_cols + extra_subject_as_metadata
     column_roles = _assign_column_roles_flat(
         raw_columns=features.raw_columns,
         subject_cols=subject_cols,
         value_cols=value_cols,
-        remarks_cols=remarks_cols,
+        remarks_cols=all_remarks,
         time_cols=time_col_names,
     )
 
@@ -152,6 +160,7 @@ def _induce_type_ii(meta_schema: dict, features: "FeatureSet") -> dict:
         "entity_types": entity_types,
         "relation_types": relation_types,
         "column_roles": column_roles,
+        "extra_metadata_columns": extra_subject_as_metadata,
         **templates,
         "parsed_time_headers": [ph.to_dict() for ph in time_parsed],
     }

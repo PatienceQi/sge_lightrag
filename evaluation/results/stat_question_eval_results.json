@@ -1,0 +1,1787 @@
+{
+  "sge": {
+    "overall": {
+      "answerable": 149,
+      "total": 231,
+      "accuracy": 0.645
+    },
+    "by_level": {
+      "L1": {
+        "answerable": 33,
+        "total": 56,
+        "accuracy": 0.5893
+      },
+      "L2": {
+        "answerable": 33,
+        "total": 43,
+        "accuracy": 0.7674
+      },
+      "L3": {
+        "answerable": 15,
+        "total": 43,
+        "accuracy": 0.3488
+      },
+      "L4": {
+        "answerable": 68,
+        "total": 89,
+        "accuracy": 0.764
+      }
+    },
+    "by_dataset": {
+      "Inpatient": {
+        "answerable": 0,
+        "total": 31,
+        "accuracy": 0.0
+      },
+      "WB_ChildMortality": {
+        "answerable": 31,
+        "total": 50,
+        "accuracy": 0.62
+      },
+      "WB_Maternal": {
+        "answerable": 38,
+        "total": 50,
+        "accuracy": 0.76
+      },
+      "WB_Population": {
+        "answerable": 40,
+        "total": 50,
+        "accuracy": 0.8
+      },
+      "WHO": {
+        "answerable": 40,
+        "total": 50,
+        "accuracy": 0.8
+      }
+    },
+    "by_category": {
+      "aggregation": {
+        "answerable": 15,
+        "total": 43,
+        "accuracy": 0.3488
+      },
+      "comparison": {
+        "answerable": 36,
+        "total": 49,
+        "accuracy": 0.7347
+      },
+      "point_lookup": {
+        "answerable": 33,
+        "total": 56,
+        "accuracy": 0.5893
+      },
+      "ranking": {
+        "answerable": 33,
+        "total": 43,
+        "accuracy": 0.7674
+      },
+      "trend": {
+        "answerable": 32,
+        "total": 40,
+        "accuracy": 0.8
+      }
+    }
+  },
+  "baseline": {
+    "overall": {
+      "answerable": 126,
+      "total": 231,
+      "accuracy": 0.5455
+    },
+    "by_level": {
+      "L1": {
+        "answerable": 19,
+        "total": 56,
+        "accuracy": 0.3393
+      },
+      "L2": {
+        "answerable": 35,
+        "total": 43,
+        "accuracy": 0.814
+      },
+      "L3": {
+        "answerable": 6,
+        "total": 43,
+        "accuracy": 0.1395
+      },
+      "L4": {
+        "answerable": 66,
+        "total": 89,
+        "accuracy": 0.7416
+      }
+    },
+    "by_dataset": {
+      "Inpatient": {
+        "answerable": 18,
+        "total": 31,
+        "accuracy": 0.5806
+      },
+      "WB_ChildMortality": {
+        "answerable": 37,
+        "total": 50,
+        "accuracy": 0.74
+      },
+      "WB_Maternal": {
+        "answerable": 32,
+        "total": 50,
+        "accuracy": 0.64
+      },
+      "WB_Population": {
+        "answerable": 26,
+        "total": 50,
+        "accuracy": 0.52
+      },
+      "WHO": {
+        "answerable": 13,
+        "total": 50,
+        "accuracy": 0.26
+      }
+    },
+    "by_category": {
+      "aggregation": {
+        "answerable": 6,
+        "total": 43,
+        "accuracy": 0.1395
+      },
+      "comparison": {
+        "answerable": 38,
+        "total": 49,
+        "accuracy": 0.7755
+      },
+      "point_lookup": {
+        "answerable": 19,
+        "total": 56,
+        "accuracy": 0.3393
+      },
+      "ranking": {
+        "answerable": 35,
+        "total": 43,
+        "accuracy": 0.814
+      },
+      "trend": {
+        "answerable": 28,
+        "total": 40,
+        "accuracy": 0.7
+      }
+    }
+  },
+  "per_question": {
+    "1": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "2": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "3": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "4": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "5": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "6": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "7": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "8": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "9": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "10": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "11": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "12": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "13": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "14": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "15": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "16": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "17": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "18": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "19": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "20": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "21": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "22": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "23": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "24": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "25": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "26": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "27": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "28": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "29": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "30": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "31": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "32": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "33": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "34": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "35": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "36": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "37": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "38": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "39": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "40": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "trend"
+    },
+    "41": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "42": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "43": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "44": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "45": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "46": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "47": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "48": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "49": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "50": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WHO",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "51": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "52": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "53": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "54": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "55": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "56": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "57": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "58": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "59": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "60": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "61": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "62": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "63": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "64": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "65": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "66": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "67": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "68": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "69": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "70": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "71": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "72": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "73": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "74": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "75": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "76": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "77": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "78": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "79": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "80": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "81": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "82": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "83": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "84": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "85": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "86": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "87": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "88": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "89": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "90": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "trend"
+    },
+    "91": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "92": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "93": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "94": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "95": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "96": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "97": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "98": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "99": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "100": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_ChildMortality",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "101": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "102": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "103": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "104": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "105": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "106": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "107": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "108": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "109": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "110": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "111": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "112": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "113": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "114": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "115": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "116": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "117": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "118": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "119": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "120": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "121": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "122": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "123": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "124": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "125": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "126": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "127": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "128": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "129": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "130": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "131": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "132": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "133": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "134": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "135": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "136": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "137": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "138": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "139": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "140": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "trend"
+    },
+    "141": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "142": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "143": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "144": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "145": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "146": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "147": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "148": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "149": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "150": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Population",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "151": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "152": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "153": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "154": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "155": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "156": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "157": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "158": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "159": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "160": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "161": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "162": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "163": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "164": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "165": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "166": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "167": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "168": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "169": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "170": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "171": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "172": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "173": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "174": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "175": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "176": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "177": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "178": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "179": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "180": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "181": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "182": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "183": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "184": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "185": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "186": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "187": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "188": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "189": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "190": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "trend"
+    },
+    "191": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "192": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "193": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "194": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "195": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "196": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "197": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "198": {
+      "sge_answerable": true,
+      "baseline_answerable": false,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "199": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "200": {
+      "sge_answerable": true,
+      "baseline_answerable": true,
+      "dataset": "WB_Maternal",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "201": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "202": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "203": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "204": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "205": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "206": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "207": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "208": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "209": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "210": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "211": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "212": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "213": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "214": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "215": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "216": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "217": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "218": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "219": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "220": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "221": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "222": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "223": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "224": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "225": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "226": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L1",
+      "category": "point_lookup"
+    },
+    "227": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L2",
+      "category": "ranking"
+    },
+    "228": {
+      "sge_answerable": false,
+      "baseline_answerable": false,
+      "dataset": "Inpatient",
+      "level": "L3",
+      "category": "aggregation"
+    },
+    "229": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "230": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    },
+    "231": {
+      "sge_answerable": false,
+      "baseline_answerable": true,
+      "dataset": "Inpatient",
+      "level": "L4",
+      "category": "comparison"
+    }
+  }
+}
