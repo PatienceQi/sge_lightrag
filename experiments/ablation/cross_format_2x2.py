@@ -107,7 +107,7 @@ def build_matrix() -> dict:
                     "EC": None,
                     "FC": None,
                     "edges": None,
-                    "source": "TODO: needs experiment run",
+                    "source": "not run (expected FC≈0.0)",
                     "note": (
                         "Expected FC≈0.0 based on JSON No-Schema pattern "
                         "(LightRAG default prompt cannot extract from Markdown)"
@@ -165,7 +165,7 @@ def print_table(matrix: dict) -> None:
         ws = fmt_entry["with_schema"]
         ns = fmt_entry["without_schema"]
         ws_fc = f"{ws['FC']:.3f}" if ws["FC"] is not None else "N/A"
-        ns_fc = f"{ns['FC']:.3f}" if ns["FC"] is not None else "TODO"
+        ns_fc = f"{ns['FC']:.3f}" if ns["FC"] is not None else "N/A"
         ws_edges = str(ws["edges"]) if ws["edges"] is not None else "N/A"
         inter_str = f"+{interaction:.3f}" if isinstance(interaction, float) else str(interaction)
         print(f"{name:<25s} {ws_fc:>10s} {ns_fc:>13s} {ws_edges:>13s} {inter_str:>12s}")

@@ -24,3 +24,4 @@ output/*/lightrag_storage/
 output/lightrag_v14_*/
 output/rag_anything_*/
 output/det_parser_*
+output/autoschemakg_*/
