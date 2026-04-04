@@ -15,13 +15,14 @@
 
 ## Key Results
 
-| Metric | Baseline (LightRAG) | SGE (Ours) | Improvement |
-|--------|---------------------|------------|-------------|
-| Fact Coverage (WHO) | 12.0% | **72.0%** | **6.0×** |
-| Entity Coverage | Baseline | SGE | Significant |
-| CSVFidelity-Bench | 10 datasets | 977 facts | Comprehensive |
+| Dataset | Baseline FC | SGE FC | Improvement |
+|---------|-------------|--------|-------------|
+| WHO Life Expectancy | 16.7% | **100%** | **6.0×** |
+| WB Population | 18.7% | **100%** | **5.35×** |
+| WB Child Mortality | 47.3% | **100%** | **2.11×** |
+| HK Inpatient | 43.8% | **93.8%** | **2.14×** |
 
-> **Core Discovery**: Format-Constraint Coupling — structured table formats systematically constrain the fidelity of graph construction in GraphRAG systems.
+> **Core Discovery**: **Format-Constraint Coupling** — serialization format and schema constraints exhibit strong positive interaction (Bootstrap 95% CI, Fisher p<0.001). Neither component alone is sufficient; few-shot prompting is even harmful (FC≤0.013). Validated across 3 LLM backends (Claude Haiku / GPT-5-mini / Gemini 2.5 Flash) and 2 GraphRAG hosts (LightRAG / MS GraphRAG).
 
 ---
 
@@ -35,7 +36,8 @@ SGE is a structure-aware graph construction framework for statistical CSV data (
 - **Dual-mode schema induction**: Rule-based (deterministic, fast) + LLM-enhanced (semantic-rich), with automatic fallback
 - **Adaptive degradation**: Small Type-III (n_rows < 20) auto-switches to baseline mode to avoid over-constraining
 - **Compact time-series representation**: Large Type-II (n_rows > 100) auto-enables node compression
-- **Comprehensive evaluation**: EC/FC metrics + Gold Standard (702 facts) + 100-question QA + de-biased validation + Wilcoxon with Bonferroni correction
+- **Comprehensive evaluation**: EC/FC metrics + Gold Standard (977 facts) + 231 statistical analysis questions + de-biased validation + Bootstrap CI + Wilcoxon effect size CI
+- **Cross-model validation**: Claude Haiku 4.5 / GPT-5-mini / Gemini 2.5 Flash — format-constraint coupling holds across all three
 
 ## Quick Start
 
@@ -124,9 +126,9 @@ sge_lightrag/
 │   └── _archive/               #   Deprecated scripts
 ├── experiments/                # Experiment Scripts (grouped by type)
 │   ├── ablation/               #   Decoupled ablation, threshold, C4
-│   ├── statistical/            #   Wilcoxon, McNemar, LODO, Bootstrap
+│   ├── statistical/            #   Wilcoxon, McNemar, LODO, Bootstrap, interaction CI
 │   ├── probes/                 #   Graph-native probe, E2E, compact
-│   ├── crossmodel/             #   Cross-model (GPT-5-mini) expansion
+│   ├── crossmodel/             #   Cross-model (GPT-5-mini + Gemini 2.5 Flash)
 │   └── results/                #   Experiment output JSONs
 ├── tests/                      # Test Suite (pytest)
 ├── scripts/                    # Utility Scripts
@@ -146,7 +148,7 @@ sge_lightrag/
 | C4: SGE w/o Schema | — | No | SGE chunks, no schema |
 | C5: Rule Baseline | — | No | Vanilla LightRAG |
 
-## Key Results (v2 Gold Standard, 702 facts)
+## Key Results (v2 Gold Standard, 977 facts)
 
 | Dataset | SGE FC | Baseline FC | Ratio |
 |---------|--------|-------------|-------|
@@ -155,6 +157,16 @@ sge_lightrag/
 | WB Child Mortality (25 countries × 150 facts) | 1.000 | 0.473 | **2.11×** |
 | HK Inpatient (318 ICD categories) | 0.938 | 0.438 | **2.14×** |
 | WB Maternal Mortality (25 countries × 150 facts) | 0.967 | 0.787 | **1.23×** |
+| Fortune 500 Revenue | 1.000 | 0.400 | **2.50×** |
+| THE University Ranking | 0.600 | 0.207 | **2.90×** |
+
+### Cross-Model Validation
+
+| Dataset | Claude Haiku | GPT-5-mini | Gemini 2.5 Flash |
+|---------|-------------|------------|-----------------|
+| WHO | 1.000 | 1.000 | 0.493 |
+| WB Pop | 1.000 | 1.000 | 1.000 |
+| Inpatient | 0.938 | 0.625 | 0.875 |
 
 De-biased validation: SGE FC unchanged under value-first protocol; Baseline naming bias ≤ 1.6%.
 

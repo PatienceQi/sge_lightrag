@@ -13,11 +13,11 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 ### Stage 1: Topological Pattern Recognition (`stage1/`)
 - `preprocessor.py` — CSV preprocessing (BOM, encoding detection, WB metadata skip)
 - `features.py` — Extracts 5 feature signals: C_T, C_key, fiscal, transposed, yearInBody
-- `classifier.py` — Algorithm 1: 3 priority rules → τ assignment (complete: every CSV maps to exactly one type)
+- `classifier.py` — Algorithm 1: 3 priority rules → τ assignment with `deep_hierarchy` (|C_key|≥3) and `few_time_cols` (|C_T|≤6) guards. 100% accuracy on 33 dev + 18 OOD files
 - `schema.py` — Builds Meta-Schema S from features + classification
 
 ### Stage 2: Schema Induction (`stage2/` + `stage2_llm/`)
-- `stage2/inductor.py` — Rule-based induction entry point; includes adaptive mode (`SMALL_TABLE_THRESHOLD = 20`)
+- `stage2/inducer.py` — Rule-based induction entry point; adaptive mode (`SMALL_TABLE_THRESHOLD = 20`); extra subject columns auto-demoted to metadata for Type-II
 - `stage2/type_handlers.py` — Type-specific handlers (Type-I/II/III)
 - `stage2/prompt_builder.py` — Extraction constraint prompt construction
 - `stage2_llm/inductor.py` — LLM-enhanced induction (entity_types ≤ 2 constraint)
@@ -40,12 +40,20 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `generate_gold_non_gov.py` — Non-government Gold Standard generation
 - `table_aware_baseline.py` — Table-aware prompt baseline (weak + strong)
 - `error_analysis_schema_only.py` — Schema-only failure mode analysis
+- `fewshot_baseline.py` — Few-shot structured prompt baseline (3 example triples)
+- `generate_stat_questions.py` — 231 statistical analysis question generator
+- `run_stat_question_eval.py` — Graph answerability evaluation (SGE vs Baseline)
+- `run_independent_annotation.py` — Dual-LLM annotator precision evaluation
+- `run_error_analysis.py` — Detailed error analysis (missed facts, OOD failures)
+- `generate_gold_new_datasets.py` — Gold standards for Eurostat Crime + US Census
 - `gold/` — Gold standard JSONL files (DO NOT modify without instruction)
 - `results/` — Authoritative evaluation result JSONs
 
 ### Experiments (`experiments/`)
-- `results/` — Experiment output JSONs (Wilcoxon, probes, ablations, etc.)
-- 21 experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, non-gov domain, table-aware baseline, schema-only error analysis
+- `results/` — Experiment output JSONs (Wilcoxon, probes, ablations, cross-model, etc.)
+- `crossmodel/` — Cross-model validation (GPT-5-mini + Gemini 2.5 Flash)
+- `statistical/interaction_ci_analysis.py` — Interaction term Bootstrap CI + Wilcoxon effect size CI
+- 25+ experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, non-gov domain, table-aware baseline, cross-model, error analysis
 
 ## Key Design Decisions
 
@@ -87,7 +95,7 @@ sge_lightrag/
 │   ├── ablation/               #   Decoupled ablation, threshold, misclassify, C4
 │   ├── statistical/            #   Wilcoxon, McNemar, LODO, Bootstrap
 │   ├── probes/                 #   Graph-native probe, E2E, compact
-│   ├── crossmodel/             #   Cross-model (GPT-5-mini) expansion
+│   ├── crossmodel/             #   Cross-model (GPT-5-mini + Gemini 2.5 Flash)
 │   └── results/                #   Experiment output JSONs
 ├── tests/                      # pytest test suite
 ├── scripts/                    # Utility scripts
@@ -108,7 +116,12 @@ sge_lightrag/
 | `evaluation/results/qa_results_v3_100q.json` | Authoritative QA results (93/100 SGE, 59/100 Baseline) |
 | `evaluation/results/debiased_results.json` | Value-first de-biased FC results |
 | `evaluation/results/non_gov_fc_results.json` | Non-government domain FC results |
-| `experiments/results/error_analysis_results.json` | Schema-only error analysis |
+| `evaluation/results/fewshot_baseline_results.json` | Few-shot baseline (5 datasets, all worse than baseline) |
+| `evaluation/results/stat_question_eval_results.json` | 231-question answerability (SGE 64.5% vs Base 54.6%) |
+| `evaluation/results/error_analysis_detailed.json` | Error analysis (WB_Mat/THE/OOD failures) |
+| `evaluation/results/independent_annotation_results.json` | Dual-LLM precision annotation |
+| `experiments/results/crossmodel_gemini_*.json` | Gemini 2.5 Flash cross-model (5 datasets) |
+| `experiments/results/statistical_improvements.json` | Interaction CI + Wilcoxon effect size CI |
 | `experiments/results/unified_cross_system.json` | Central aggregation of all results |
 
 ## Conventions
