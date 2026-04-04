@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-04-03T12:51:27.944766",
+  "system": "sge_graphrag_v3.0.8",
+  "experiment": "WB Population SGE serialization + SGE schema prompt (Country_Code, YearValue, HAS_POPULATION)",
+  "gold_file": "gold_wb_population_v2.jsonl",
+  "gold_facts": 150,
+  "conditions": {
+    "sge_graphrag_wb_pop": {
+      "condition": "sge_graphrag_wb_pop",
+      "total_facts": 150,
+      "covered": 150,
+      "fc": 1.0,
+      "entity_count": 16404,
+      "relationship_count": 16155,
+      "text_unit_count": 265,
+      "entity_types": {
+        "YEARVALUE": 16155,
+        "COUNTRY_CODE": 249
+      },
+      "uncovered_sample": [],
+      "description": "SGE serialization + SGE schema (Country_Code, YearValue, HAS_POPULATION)"
+    }
+  }
+}

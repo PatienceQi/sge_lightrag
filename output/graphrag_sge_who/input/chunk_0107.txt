@@ -1,0 +1,25 @@
+Entity: LVA / WHOSIS_000001
+Year: 2000 | Value: 70.21458573
+Year: 2001 | Value: 69.80978592
+Year: 2002 | Value: 70.10625692
+Year: 2003 | Value: 70.55494078
+Year: 2004 | Value: 70.8139625
+Year: 2005 | Value: 70.49159571
+Year: 2006 | Value: 70.37307271
+Year: 2007 | Value: 70.75226957
+Year: 2008 | Value: 71.85232762
+Year: 2009 | Value: 72.66145576
+Year: 2010 | Value: 72.87994756
+Year: 2011 | Value: 73.67057625
+Year: 2012 | Value: 73.86536335
+Year: 2013 | Value: 74.12560449
+Year: 2014 | Value: 74.4358747
+Year: 2015 | Value: 74.8108617
+Year: 2016 | Value: 74.95310955
+Year: 2017 | Value: 74.9627685
+Year: 2018 | Value: 75.05473366
+Year: 2019 | Value: 75.68490068
+Year: 2020 | Value: 75.49885883
+Year: 2021 | Value: 73.20251724
+Remark: Latvia
+Remark: Life expectancy at birth (years)

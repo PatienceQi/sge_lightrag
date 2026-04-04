@@ -1,0 +1,25 @@
+Entity: ETH / WHOSIS_000001
+Year: 2000 | Value: 50.78760514
+Year: 2001 | Value: 52.82154779
+Year: 2002 | Value: 53.81305038
+Year: 2003 | Value: 54.78484585
+Year: 2004 | Value: 55.83373985
+Year: 2005 | Value: 57.02975496
+Year: 2006 | Value: 58.32029564
+Year: 2007 | Value: 59.72840645
+Year: 2008 | Value: 61.00289968
+Year: 2009 | Value: 62.16370614
+Year: 2010 | Value: 63.25475143
+Year: 2011 | Value: 64.25857509
+Year: 2012 | Value: 65.13407348
+Year: 2013 | Value: 65.91159894
+Year: 2014 | Value: 66.55987824
+Year: 2015 | Value: 67.10395358
+Year: 2016 | Value: 67.58767511
+Year: 2017 | Value: 68.0726745
+Year: 2018 | Value: 68.47192846
+Year: 2019 | Value: 68.84848169
+Year: 2020 | Value: 68.79596101
+Year: 2021 | Value: 67.83909086
+Remark: Ethiopia
+Remark: Life expectancy at birth (years)

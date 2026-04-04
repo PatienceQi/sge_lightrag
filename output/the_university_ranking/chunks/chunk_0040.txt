@@ -1,1 +1,8 @@
-Category: New York University > SubCategory: United States of America | 2011: 63.9 | 2012: 69.0 | 2013: 72.8 | 2014: 67.4 | 2015: 69.9 | 2016: 77.2
+Entity: New York University
+Year: 2011 | Value: 63.9
+Year: 2012 | Value: 69.0
+Year: 2013 | Value: 72.8
+Year: 2014 | Value: 67.4
+Year: 2015 | Value: 69.9
+Year: 2016 | Value: 77.2
+Country: United States of America

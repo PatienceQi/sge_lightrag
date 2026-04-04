@@ -1,0 +1,25 @@
+Entity: IND / WHOSIS_000001
+Year: 2000 | Value: 63.19893734
+Year: 2001 | Value: 63.6569119
+Year: 2002 | Value: 64.16827815
+Year: 2003 | Value: 64.58440423
+Year: 2004 | Value: 65.06317912
+Year: 2005 | Value: 65.53031169
+Year: 2006 | Value: 65.87842362
+Year: 2007 | Value: 66.09434841
+Year: 2008 | Value: 66.42718453
+Year: 2009 | Value: 67.04997477
+Year: 2010 | Value: 67.480793
+Year: 2011 | Value: 67.83941098
+Year: 2012 | Value: 68.2280584
+Year: 2013 | Value: 68.51609058
+Year: 2014 | Value: 68.91972988
+Year: 2015 | Value: 69.3779891
+Year: 2016 | Value: 69.7812294
+Year: 2017 | Value: 70.06082604
+Year: 2018 | Value: 70.35439242
+Year: 2019 | Value: 70.72711152
+Year: 2020 | Value: 70.1869093
+Year: 2021 | Value: 67.30780612
+Remark: India
+Remark: Life expectancy at birth (years)

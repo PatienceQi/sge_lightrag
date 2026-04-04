@@ -1,0 +1,25 @@
+Entity: BHS / WHOSIS_000001
+Year: 2000 | Value: 70.96744554
+Year: 2001 | Value: 71.11367814
+Year: 2002 | Value: 71.58107452
+Year: 2003 | Value: 72.01356703
+Year: 2004 | Value: 72.14409998
+Year: 2005 | Value: 72.65880067
+Year: 2006 | Value: 72.66353382
+Year: 2007 | Value: 73.08736276
+Year: 2008 | Value: 72.97662842
+Year: 2009 | Value: 72.80785073
+Year: 2010 | Value: 72.74533372
+Year: 2011 | Value: 72.74543627
+Year: 2012 | Value: 72.84562635
+Year: 2013 | Value: 73.00901267
+Year: 2014 | Value: 72.64786335
+Year: 2015 | Value: 72.92357543
+Year: 2016 | Value: 72.949178
+Year: 2017 | Value: 73.21936648
+Year: 2018 | Value: 73.38286364
+Year: 2019 | Value: 70.73776422
+Year: 2020 | Value: 72.61586296
+Year: 2021 | Value: 70.43274063
+Remark: Bahamas
+Remark: Life expectancy at birth (years)

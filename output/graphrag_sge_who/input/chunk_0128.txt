@@ -1,0 +1,25 @@
+Entity: NLD / WHOSIS_000001
+Year: 2000 | Value: 78.01203729
+Year: 2001 | Value: 78.21818271
+Year: 2002 | Value: 78.28829662
+Year: 2003 | Value: 78.52543386
+Year: 2004 | Value: 79.09591855
+Year: 2005 | Value: 79.34144338
+Year: 2006 | Value: 79.71293798
+Year: 2007 | Value: 80.12725056
+Year: 2008 | Value: 80.25577925
+Year: 2009 | Value: 80.54360994
+Year: 2010 | Value: 80.68591395
+Year: 2011 | Value: 80.95610777
+Year: 2012 | Value: 80.88872584
+Year: 2013 | Value: 81.11693502
+Year: 2014 | Value: 81.45622695
+Year: 2015 | Value: 81.28069061
+Year: 2016 | Value: 81.34048104
+Year: 2017 | Value: 81.52798471
+Year: 2018 | Value: 81.8952079
+Year: 2019 | Value: 82.33882776
+Year: 2020 | Value: 81.40141308
+Year: 2021 | Value: 81.12478594
+Remark: Netherlands (Kingdom of the)
+Remark: Life expectancy at birth (years)

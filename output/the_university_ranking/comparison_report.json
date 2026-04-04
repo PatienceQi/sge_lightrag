@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-03T15:40:19.195743",
+  "dataset": "the_ranking",
+  "csv": "/Users/qipatience/Desktop/SGE/dataset/non_gov/the_university_ranking.csv",
+  "sge": {
+    "label": "SGE-the_ranking",
+    "chunks": 50,
+    "nodes": 72,
+    "edges": 196
+  },
+  "serial_only": {
+    "label": "SerialOnly-the_ranking",
+    "chunks": 50,
+    "nodes": 64,
+    "edges": 53
+  },
+  "naive_baseline": {
+    "label": "NaiveBaseline-the_ranking",
+    "chunks": 2,
+    "nodes": 92,
+    "edges": 92
+  }
+}

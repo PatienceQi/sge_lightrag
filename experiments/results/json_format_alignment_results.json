@@ -80,6 +80,19 @@
       "fc_total": 150,
       "nodes": 120,
       "edges": 95
+    },
+    "markdown_structured_default": {
+      "format": "Markdown table",
+      "schema": false,
+      "chunks": 25,
+      "EC": 0.96,
+      "FC": 0.1267,
+      "ec_matched": 24,
+      "ec_total": 25,
+      "fc_covered": 19,
+      "fc_total": 150,
+      "nodes": 34,
+      "edges": 37
     }
   },
   "validation": {
@@ -89,5 +102,5 @@
       "baseline_fc": 0.167
     }
   },
-  "last_updated": "2026-04-02T15:05:01.968434"
+  "last_updated": "2026-04-03T11:59:58.188343"
 }

@@ -1,0 +1,114 @@
+---Role---
+You are a Knowledge Graph Specialist extracting structured data from policy CSV records.
+You MUST follow the Domain Schema below. Do NOT extract entities or relationships outside the defined types.
+
+---Domain Schema---
+```json
+{
+  "table_type": "Time-Series-Matrix",
+  "entity_types": [
+    "University"
+  ],
+  "relation_types": [
+    "HAS_PERFORMANCE_METRIC"
+  ],
+  "column_roles": {
+    "University_Name": "subject",
+    "Country": "metadata",
+    "2011": "time_value",
+    "2012": "time_value",
+    "2013": "time_value",
+    "2014": "time_value",
+    "2015": "time_value",
+    "2016": "time_value"
+  },
+  "extra_metadata_columns": [
+    "Country"
+  ],
+  "entity_extraction_template": "For each row, extract the value of 'University_Name' as a University_Name entity node.",
+  "relation_extraction_template": "For each time column, create: (University_Name) -[HAS_VALUE {year: X, status: Y, unit: Z}]-> (value). Example time columns: {2011}; {2012}; {2013}.",
+  "extraction_constraints": [
+    "Each row represents one University_Name entity identified by 'University_Name'.",
+    "Time columns encode fiscal year, status, and unit in compound headers.",
+    "Parse compound headers (newline-separated) into year/status/unit attributes.",
+    "Create one HAS_VALUE relation per (entity, time_column) pair.",
+    "Skip cells with null or non-numeric values."
+  ],
+  "parsed_time_headers": [
+    {
+      "raw": "2011",
+      "year": "2011",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2012",
+      "year": "2012",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2013",
+      "year": "2013",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2014",
+      "year": "2014",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2015",
+      "year": "2015",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    },
+    {
+      "raw": "2016",
+      "year": "2016",
+      "status": null,
+      "unit": null,
+      "label": null,
+      "is_time_column": true
+    }
+  ],
+  "prompt_context": "这是一个时间序列矩阵表，记录了不同大学在2011-2016年间的性能评分。每一行代表一个University实体，由University_Name和Country两个字段唯一标识。表中的2011-2016列包含该大学在对应年份的性能指标数值。在知识图谱提取时，应为每个University实体创建HAS_PERFORMANCE_METRIC关系，关系属性包括：year（年份，整数类型）和score（性能评分，浮点数类型）。例如，California Institute of Technology在2011年的性能评分为96.0，应提取为一条关系：(California Institute of Technology, HAS_PERFORMANCE_METRIC, {year: 2011, score: 96.0})。不要为年份或数值创建独立的实体节点。",
+  "extraction_rules": {
+    "subject_extraction": "Each row represents a University entity identified by the composite key (University_Name, Country). Extract University_Name as the entity name and Country as a location attribute.",
+    "value_extraction": "Numeric values in columns 2011-2016 represent performance metrics (scores ranging 91.0-96.1). Extract as floating-point numbers without unit conversion.",
+    "time_handling": "Time periods are column headers (2011, 2012, 2013, 2014, 2015, 2016). Parse each year as an integer attribute in the HAS_PERFORMANCE_METRIC relation. Each (University, year) pair maps to one relation instance with the score as the value attribute.",
+    "hierarchy": "N/A",
+    "remarks": "N/A"
+  }
+}
+```
+
+---Instructions---
+1. Entity types: use ONLY the types listed in schema.entity_types
+2. Relationship types: use ONLY the predicates listed in schema.relation_types
+3. Follow ALL extraction constraints in schema.extraction_constraints exactly
+4. Output Format — Entity:
+   entity<|#|>entity_name<|#|>entity_type<|#|>entity_description
+5. Output Format — Relation:
+   relation<|#|>source_entity<|#|>target_entity<|#|>keywords<|#|>description
+6. <|#|> is a field separator ONLY — never include it in content
+7. End output with <|COMPLETE|>
+8. Output language: Chinese
+9. Do NOT output JSON, Markdown, or any other format — only the delimiter-based lines above
+
+---Examples---
+entity<|#|>防止贪污<|#|>Policy_Program<|#|>廉政公署下设的政策纲领，负责防止贪污相关工作
+relation<|#|>防止贪污<|#|>97.2<|#|>HAS_BUDGET, 2024-25, 预算<|#|>防止贪污纲领在2024-25财年的预算为97.2百万元
+<|COMPLETE|>

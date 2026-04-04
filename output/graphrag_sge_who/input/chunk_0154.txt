@@ -1,0 +1,25 @@
+Entity: SLE / WHOSIS_000001
+Year: 2000 | Value: 49.78648969
+Year: 2001 | Value: 50.94581314
+Year: 2002 | Value: 51.28114602
+Year: 2003 | Value: 51.5179057
+Year: 2004 | Value: 51.79598226
+Year: 2005 | Value: 52.10902537
+Year: 2006 | Value: 52.49110548
+Year: 2007 | Value: 52.87597512
+Year: 2008 | Value: 53.55359388
+Year: 2009 | Value: 54.19029086
+Year: 2010 | Value: 54.97106845
+Year: 2011 | Value: 55.66429433
+Year: 2012 | Value: 56.36734502
+Year: 2013 | Value: 57.05432525
+Year: 2014 | Value: 55.83770997
+Year: 2015 | Value: 56.88673236
+Year: 2016 | Value: 58.75068972
+Year: 2017 | Value: 59.15812369
+Year: 2018 | Value: 59.8662114
+Year: 2019 | Value: 60.40224239
+Year: 2020 | Value: 60.52060193
+Year: 2021 | Value: 61.0228635
+Remark: Sierra Leone
+Remark: Life expectancy at birth (years)

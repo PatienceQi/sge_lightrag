@@ -1,1 +1,8 @@
-Category: University of Michigan > SubCategory: United States of America | 2011: 83.4 | 2012: 82.8 | 2013: 82.6 | 2014: 79.2 | 2015: 80.9 | 2016: 82.4
+Entity: University of Michigan
+Year: 2011 | Value: 83.4
+Year: 2012 | Value: 82.8
+Year: 2013 | Value: 82.6
+Year: 2014 | Value: 79.2
+Year: 2015 | Value: 80.9
+Year: 2016 | Value: 82.4
+Country: United States of America

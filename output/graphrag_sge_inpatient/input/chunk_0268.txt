@@ -1,0 +1,6 @@
+Disease: Q41 / 小肠先天性缺如、闭锁和狭窄
+INPATIENT_HA_HOSPITAL: 11
+INPATIENT_TOTAL: 11
+REGISTERED_DEATHS: 0
+Remark: ICD Q41
+Remark: 小肠先天性缺如、闭锁和狭窄

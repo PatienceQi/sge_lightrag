@@ -1,1 +1,8 @@
-Category: Carnegie Mellon University > SubCategory: United States of America | 2011: 79.3 | 2012: 78.4 | 2013: 81.5 | 2014: 76.0 | 2015: 74.3 | 2016: 82.3
+Entity: Carnegie Mellon University
+Year: 2011 | Value: 79.3
+Year: 2012 | Value: 78.4
+Year: 2013 | Value: 81.5
+Year: 2014 | Value: 76.0
+Year: 2015 | Value: 74.3
+Year: 2016 | Value: 82.3
+Country: United States of America

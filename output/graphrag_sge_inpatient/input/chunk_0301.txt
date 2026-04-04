@@ -1,0 +1,6 @@
+Disease: Z21 / 无症状的人类免疫缺陷病毒感染状态
+INPATIENT_HA_HOSPITAL: 7
+INPATIENT_TOTAL: 7
+REGISTERED_DEATHS: 0
+Remark: ICD Z21
+Remark: 无症状的人类免疫缺陷病毒感染状态

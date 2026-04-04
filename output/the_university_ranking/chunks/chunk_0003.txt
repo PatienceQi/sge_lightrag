@@ -1,1 +1,8 @@
-Category: Harvard University > SubCategory: United States of America | 2011: 96.1 | 2012: 93.9 | 2013: 93.6 | 2014: 93.9 | 2015: 93.3 | 2016: 91.6
+Entity: Harvard University
+Year: 2011 | Value: 96.1
+Year: 2012 | Value: 93.9
+Year: 2013 | Value: 93.6
+Year: 2014 | Value: 93.9
+Year: 2015 | Value: 93.3
+Year: 2016 | Value: 91.6
+Country: United States of America

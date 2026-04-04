@@ -1,0 +1,852 @@
+{
+  "doc-585fbbf6faaf2d2005a7bb512789db5f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f"
+    ],
+    "content_summary": "Category: California Institute of Technology| 2011: 96.0 | 2012: 94.8 | 2013: 95.5 | 2014: 94.9 | 2015: 94.3 | 2016: 95.2",
+    "content_length": 121,
+    "created_at": "2026-04-03T06:10:30.850972+00:00",
+    "updated_at": "2026-04-03T06:10:37.853571+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141030_53109df2",
+    "metadata": {
+      "processing_start_time": 1775196630,
+      "processing_end_time": 1775196637
+    }
+  },
+  "doc-b28e9a9e510f49ec3c13c959d79a75b3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3"
+    ],
+    "content_summary": "Category: Stanford University| 2011: 94.3 | 2012: 93.9 | 2013: 93.7 | 2014: 93.8 | 2015: 92.9 | 2016: 93.9",
+    "content_length": 106,
+    "created_at": "2026-04-03T06:10:37.885981+00:00",
+    "updated_at": "2026-04-03T06:10:44.277860+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141037_58439b6d",
+    "metadata": {
+      "processing_start_time": 1775196637,
+      "processing_end_time": 1775196644
+    }
+  },
+  "doc-fd761d2029183293c631f0c4f39b123b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-fd761d2029183293c631f0c4f39b123b"
+    ],
+    "content_summary": "Category: Harvard University| 2011: 96.1 | 2012: 93.9 | 2013: 93.6 | 2014: 93.9 | 2015: 93.3 | 2016: 91.6",
+    "content_length": 105,
+    "created_at": "2026-04-03T06:10:44.284646+00:00",
+    "updated_at": "2026-04-03T06:10:48.829679+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141044_0f00e967",
+    "metadata": {
+      "processing_start_time": 1775196644,
+      "processing_end_time": 1775196648
+    }
+  },
+  "doc-1dc5e371c5aa507a754a329d7fdaee3e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e"
+    ],
+    "content_summary": "Category: University of Oxford| 2011: 91.2 | 2012: 93.6 | 2013: 93.7 | 2014: 93.9 | 2015: 93.2 | 2016: 94.2",
+    "content_length": 107,
+    "created_at": "2026-04-03T06:10:48.837821+00:00",
+    "updated_at": "2026-04-03T06:10:54.867388+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141048_91be8cc1",
+    "metadata": {
+      "processing_start_time": 1775196648,
+      "processing_end_time": 1775196654
+    }
+  },
+  "doc-ad99513f675fcaa96dc1cf730c88323a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ad99513f675fcaa96dc1cf730c88323a"
+    ],
+    "content_summary": "Category: Massachusetts Institute of Technology| 2011: 95.6 | 2012: 92.3 | 2013: 93.1 | 2014: 93.0 | 2015: 91.9 | 2016: 92.0",
+    "content_length": 124,
+    "created_at": "2026-04-03T06:10:54.874970+00:00",
+    "updated_at": "2026-04-03T06:11:01.250097+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141054_4fb0e4ba",
+    "metadata": {
+      "processing_start_time": 1775196654,
+      "processing_end_time": 1775196661
+    }
+  },
+  "doc-cff3e5960042c3ac2cd8086fa2cb0b8d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d"
+    ],
+    "content_summary": "Category: Princeton University| 2011: 94.2 | 2012: 92.9 | 2013: 92.7 | 2014: 92.7 | 2015: 90.9 | 2016: 90.1",
+    "content_length": 107,
+    "created_at": "2026-04-03T06:11:01.261685+00:00",
+    "updated_at": "2026-04-03T06:11:08.402816+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141101_5952ec02",
+    "metadata": {
+      "processing_start_time": 1775196661,
+      "processing_end_time": 1775196668
+    }
+  },
+  "doc-362d7f7032cb506afaf64e9b2bd8cdd6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6"
+    ],
+    "content_summary": "Category: University of Cambridge| 2011: 91.2 | 2012: 92.4 | 2013: 92.6 | 2014: 92.3 | 2015: 92.0 | 2016: 92.8",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:11:08.422602+00:00",
+    "updated_at": "2026-04-03T06:11:15.381376+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141108_7405b48b",
+    "metadata": {
+      "processing_start_time": 1775196668,
+      "processing_end_time": 1775196675
+    }
+  },
+  "doc-4c3aca4276a9723b65e9896804c2f2d7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7"
+    ],
+    "content_summary": "Category: University of California, Berkeley| 2011: 91.1 | 2012: 89.8 | 2013: 90.5 | 2014: 89.8 | 2015: 89.5 | 2016: 87.2",
+    "content_length": 121,
+    "created_at": "2026-04-03T06:11:15.392251+00:00",
+    "updated_at": "2026-04-03T06:11:22.365167+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141115_7a28c475",
+    "metadata": {
+      "processing_start_time": 1775196675,
+      "processing_end_time": 1775196682
+    }
+  },
+  "doc-acff4e65b7895d0f779b67f4959da34f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-acff4e65b7895d0f779b67f4959da34f"
+    ],
+    "content_summary": "Category: Imperial College London| 2011: 90.6 | 2012: 90.7 | 2013: 90.6 | 2014: 87.5 | 2015: 87.5 | 2016: 89.1",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:11:22.376534+00:00",
+    "updated_at": "2026-04-03T06:11:27.191638+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141122_0c38e83d",
+    "metadata": {
+      "processing_start_time": 1775196682,
+      "processing_end_time": 1775196687
+    }
+  },
+  "doc-5b4b0879c7c7c5d84029a478ba5949be": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5b4b0879c7c7c5d84029a478ba5949be"
+    ],
+    "content_summary": "Category: University of Chicago| 2011: 86.9 | 2012: 90.2 | 2013: 90.4 | 2014: 87.8 | 2015: 87.1 | 2016: 87.9",
+    "content_length": 108,
+    "created_at": "2026-04-03T06:11:27.206896+00:00",
+    "updated_at": "2026-04-03T06:11:31.802418+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141127_8931a2f8",
+    "metadata": {
+      "processing_start_time": 1775196687,
+      "processing_end_time": 1775196691
+    }
+  },
+  "doc-9a22096d64784c21f23d9c1b6ff1f126": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9a22096d64784c21f23d9c1b6ff1f126"
+    ],
+    "content_summary": "Category: Yale University| 2011: 89.5 | 2012: 89.1 | 2013: 89.2 | 2014: 87.4 | 2015: 87.5 | 2016: 87.4",
+    "content_length": 102,
+    "created_at": "2026-04-03T06:11:31.821213+00:00",
+    "updated_at": "2026-04-03T06:11:36.866002+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141131_61ca716f",
+    "metadata": {
+      "processing_start_time": 1775196691,
+      "processing_end_time": 1775196696
+    }
+  },
+  "doc-1aae47578acbeb722129493e1909c490": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-1aae47578acbeb722129493e1909c490"
+    ],
+    "content_summary": "Category: University of California, Los Angeles| 2011: 87.7 | 2012: 87.3 | 2013: 87.7 | 2014: 86.3 | 2015: 85.5 | 2016: 85.8",
+    "content_length": 124,
+    "created_at": "2026-04-03T06:11:36.884898+00:00",
+    "updated_at": "2026-04-03T06:11:43.411131+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141136_6df73a52",
+    "metadata": {
+      "processing_start_time": 1775196696,
+      "processing_end_time": 1775196703
+    }
+  },
+  "doc-924e316a97b4f949f979be2d05f8ef5e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-924e316a97b4f949f979be2d05f8ef5e"
+    ],
+    "content_summary": "Category: ETH Zurich – Swiss Federal Institute of Technology Zurich| 2011: 83.4 | 2012: 85.0 | 2013: 87.8 | 2014: 84.5 | 2015: 84.6 | 2016: 88.3",
+    "content_length": 144,
+    "created_at": "2026-04-03T06:11:43.433002+00:00",
+    "updated_at": "2026-04-03T06:11:47.597406+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141143_bc966b29",
+    "metadata": {
+      "processing_start_time": 1775196703,
+      "processing_end_time": 1775196707
+    }
+  },
+  "doc-897b58651fa54b4798c190adf306f8b6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-897b58651fa54b4798c190adf306f8b6"
+    ],
+    "content_summary": "Category: Johns Hopkins University| 2011: 86.4 | 2012: 85.8 | 2013: 85.6 | 2014: 83.7 | 2015: 83.0 | 2016: 87.6",
+    "content_length": 111,
+    "created_at": "2026-04-03T06:11:47.622427+00:00",
+    "updated_at": "2026-04-03T06:11:53.873204+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141147_847ccc02",
+    "metadata": {
+      "processing_start_time": 1775196707,
+      "processing_end_time": 1775196713
+    }
+  },
+  "doc-dff9f2843ac34903f1edcc91d064ec37": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dff9f2843ac34903f1edcc91d064ec37"
+    ],
+    "content_summary": "Category: Columbia University| 2011: 81.0 | 2012: 87.5 | 2013: 87.0 | 2014: 85.2 | 2015: 84.4 | 2016: 86.1",
+    "content_length": 106,
+    "created_at": "2026-04-03T06:11:53.895559+00:00",
+    "updated_at": "2026-04-03T06:12:00.656208+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141153_b47fed9e",
+    "metadata": {
+      "processing_start_time": 1775196713,
+      "processing_end_time": 1775196720
+    }
+  },
+  "doc-c1000880d5bd07e21676a9676f48be75": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-c1000880d5bd07e21676a9676f48be75"
+    ],
+    "content_summary": "Category: University of Pennsylvania| 2011: 79.5 | 2012: 84.9 | 2013: 86.6 | 2014: 81.0 | 2015: 81.0 | 2016: 85.2",
+    "content_length": 113,
+    "created_at": "2026-04-03T06:12:00.682501+00:00",
+    "updated_at": "2026-04-03T06:12:07.671063+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141200_5fd68c94",
+    "metadata": {
+      "processing_start_time": 1775196720,
+      "processing_end_time": 1775196727
+    }
+  },
+  "doc-8e25f9ab35a9bf924916d78888cfd12f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f"
+    ],
+    "content_summary": "Category: University of Michigan| 2011: 83.4 | 2012: 82.8 | 2013: 82.6 | 2014: 79.2 | 2015: 80.9 | 2016: 82.4",
+    "content_length": 109,
+    "created_at": "2026-04-03T06:12:07.697797+00:00",
+    "updated_at": "2026-04-03T06:12:15.545569+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141207_9d92bd03",
+    "metadata": {
+      "processing_start_time": 1775196727,
+      "processing_end_time": 1775196735
+    }
+  },
+  "doc-37a007ee3fd3c103e8cdf8696d0f2521": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521"
+    ],
+    "content_summary": "Category: University College London| 2011: 78.4 | 2012: 83.2 | 2013: 85.5 | 2014: 77.6 | 2015: 78.7 | 2016: 87.1",
+    "content_length": 112,
+    "created_at": "2026-04-03T06:12:15.571192+00:00",
+    "updated_at": "2026-04-03T06:12:22.792064+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141215_960611f4",
+    "metadata": {
+      "processing_start_time": 1775196735,
+      "processing_end_time": 1775196742
+    }
+  },
+  "doc-5526f8d2008c4d3b880412cb8436ef71": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5526f8d2008c4d3b880412cb8436ef71"
+    ],
+    "content_summary": "Category: Cornell University| 2011: 83.9 | 2012: 80.5 | 2013: 83.3 | 2014: 79.1 | 2015: 79.4 | 2016: 84.0",
+    "content_length": 105,
+    "created_at": "2026-04-03T06:12:22.820839+00:00",
+    "updated_at": "2026-04-03T06:12:28.287649+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141222_19a154dc",
+    "metadata": {
+      "processing_start_time": 1775196742,
+      "processing_end_time": 1775196748
+    }
+  },
+  "doc-e815538d0826e826b391f3bedbae20da": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e815538d0826e826b391f3bedbae20da"
+    ],
+    "content_summary": "Category: University of Toronto| 2011: 82.0 | 2012: 81.6 | 2013: 82.2 | 2014: 78.3 | 2015: 79.3 | 2016: 83.9",
+    "content_length": 108,
+    "created_at": "2026-04-03T06:12:28.311603+00:00",
+    "updated_at": "2026-04-03T06:12:35.335932+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141228_d52dbe68",
+    "metadata": {
+      "processing_start_time": 1775196748,
+      "processing_end_time": 1775196755
+    }
+  },
+  "doc-d00b873da3f433c1cf6c2b67eee5bb67": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d00b873da3f433c1cf6c2b67eee5bb67"
+    ],
+    "content_summary": "Category: Duke University| 2011: 76.5 | 2012: 77.4 | 2013: 81.2 | 2014: 79.3 | 2015: 79.9 | 2016: 82.7",
+    "content_length": 102,
+    "created_at": "2026-04-03T06:12:35.362363+00:00",
+    "updated_at": "2026-04-03T06:12:40.999021+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141235_5622271f",
+    "metadata": {
+      "processing_start_time": 1775196755,
+      "processing_end_time": 1775196760
+    }
+  },
+  "doc-0bfe3b23de589d658a534f6af0a06c88": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0bfe3b23de589d658a534f6af0a06c88"
+    ],
+    "content_summary": "Category: Carnegie Mellon University| 2011: 79.3 | 2012: 78.4 | 2013: 81.5 | 2014: 76.0 | 2015: 74.3 | 2016: 82.3",
+    "content_length": 113,
+    "created_at": "2026-04-03T06:12:41.026944+00:00",
+    "updated_at": "2026-04-03T06:12:47.736725+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141241_5fb7b51f",
+    "metadata": {
+      "processing_start_time": 1775196761,
+      "processing_end_time": 1775196767
+    }
+  },
+  "doc-71fc2bcc705632bb203b8138d9fe7c12": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12"
+    ],
+    "content_summary": "Category: Northwestern University| 2011: 75.9 | 2012: 76.2 | 2013: 83.1 | 2014: 77.1 | 2015: 79.2 | 2016: 79.5",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:12:47.767693+00:00",
+    "updated_at": "2026-04-03T06:12:54.331043+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141247_349c1fdf",
+    "metadata": {
+      "processing_start_time": 1775196767,
+      "processing_end_time": 1775196774
+    }
+  },
+  "doc-90f558563bf04b46252a7f90786242ec": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-90f558563bf04b46252a7f90786242ec"
+    ],
+    "content_summary": "Category: University of Washington| 2011: 78.0 | 2012: 76.5 | 2013: 79.9 | 2014: 73.4 | 2015: 73.2 | 2016: 75.6",
+    "content_length": 111,
+    "created_at": "2026-04-03T06:12:54.354816+00:00",
+    "updated_at": "2026-04-03T06:12:58.960111+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141254_a8c33d14",
+    "metadata": {
+      "processing_start_time": 1775196774,
+      "processing_end_time": 1775196778
+    }
+  },
+  "doc-62667299648fbb5a1bc04726aefeaf2a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-62667299648fbb5a1bc04726aefeaf2a"
+    ],
+    "content_summary": "Category: University of Tokyo| 2011: 75.6 | 2012: 74.3 | 2013: 78.3 | 2014: 76.4 | 2015: 76.1 | 2016: 71.1",
+    "content_length": 106,
+    "created_at": "2026-04-03T06:12:58.995773+00:00",
+    "updated_at": "2026-04-03T06:13:16.766548+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141258_5658d4b4",
+    "metadata": {
+      "processing_start_time": 1775196778,
+      "processing_end_time": 1775196796
+    }
+  },
+  "doc-4bd9b9d225ae67c42bd9fac8f03af691": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691"
+    ],
+    "content_summary": "Category: Georgia Institute of Technology| 2011: 75.3 | 2012: 77.0 | 2013: 78.8 | 2014: 71.6 | 2015: 72.8 | 2016: 72.1",
+    "content_length": 118,
+    "created_at": "2026-04-03T06:13:16.812522+00:00",
+    "updated_at": "2026-04-03T06:13:23.479904+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141316_70c5a945",
+    "metadata": {
+      "processing_start_time": 1775196796,
+      "processing_end_time": 1775196803
+    }
+  },
+  "doc-977dfd7e17dbcb3c76b9c6972c954be3": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3"
+    ],
+    "content_summary": "Category: University of British Columbia| 2011: 73.8 | 2012: 77.4 | 2013: 77.3 | 2014: 70.8 | 2015: 71.8 | 2016: 75.3",
+    "content_length": 117,
+    "created_at": "2026-04-03T06:13:23.512364+00:00",
+    "updated_at": "2026-04-03T06:13:31.333767+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141323_78d810e2",
+    "metadata": {
+      "processing_start_time": 1775196803,
+      "processing_end_time": 1775196811
+    }
+  },
+  "doc-4d202571e3a96b3bdbef19301c384031": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-4d202571e3a96b3bdbef19301c384031"
+    ],
+    "content_summary": "Category: National University of Singapore| 2011: 72.9 | 2012: 70.9 | 2013: 77.5 | 2014: 72.4 | 2015: 73.3 | 2016: 79.2",
+    "content_length": 119,
+    "created_at": "2026-04-03T06:13:31.359666+00:00",
+    "updated_at": "2026-04-03T06:13:37.816425+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141331_90a65f2d",
+    "metadata": {
+      "processing_start_time": 1775196811,
+      "processing_end_time": 1775196817
+    }
+  },
+  "doc-ecf2315ba9e807991aa697e669029b89": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ecf2315ba9e807991aa697e669029b89"
+    ],
+    "content_summary": "Category: University of Texas at Austin| 2012: 74.9 | 2013: 78.8 | 2014: 72.2 | 2015: 72.3 | 2016: 70.3",
+    "content_length": 103,
+    "created_at": "2026-04-03T06:13:37.852174+00:00",
+    "updated_at": "2026-04-03T06:13:44.962068+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141337_bf540cab",
+    "metadata": {
+      "processing_start_time": 1775196817,
+      "processing_end_time": 1775196824
+    }
+  },
+  "doc-eabcde21ef4b9fdbad73cfcf72eb5448": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448"
+    ],
+    "content_summary": "Category: University of Illinois at Urbana-Champaign| 2011: 73.0 | 2012: 74.2 | 2013: 75.8 | 2014: 71.4 | 2015: 71.9 | 2016: 74.5",
+    "content_length": 129,
+    "created_at": "2026-04-03T06:13:44.994577+00:00",
+    "updated_at": "2026-04-03T06:13:53.016725+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141344_cbf9438a",
+    "metadata": {
+      "processing_start_time": 1775196824,
+      "processing_end_time": 1775196833
+    }
+  },
+  "doc-0ce5542b0572856289de1e2ecd10d682": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "content_summary": "Category: University of Wisconsin-Madison| 2012: 75.8 | 2013: 76.9 | 2014: 71.1 | 2015: 71.9 | 2016: 69.7",
+    "content_length": 105,
+    "created_at": "2026-04-03T06:13:53.060267+00:00",
+    "updated_at": "2026-04-03T06:13:59.517447+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141353_7fdd12fa",
+    "metadata": {
+      "processing_start_time": 1775196833,
+      "processing_end_time": 1775196839
+    }
+  },
+  "doc-b8ccef36cc526f6c382444151fba3b19": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-b8ccef36cc526f6c382444151fba3b19"
+    ],
+    "content_summary": "Category: University of Melbourne| 2011: 71.0 | 2012: 71.9 | 2013: 77.9 | 2014: 68.2 | 2015: 71.2 | 2016: 75.4",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:13:59.557711+00:00",
+    "updated_at": "2026-04-03T06:14:04.961682+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141359_965f97e6",
+    "metadata": {
+      "processing_start_time": 1775196839,
+      "processing_end_time": 1775196844
+    }
+  },
+  "doc-d51b5d90253e13fb1c8177079b99daad": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "content_summary": "Category: University of Edinburgh| 2011: 69.2 | 2012: 72.0 | 2013: 76.1 | 2014: 67.5 | 2015: 70.4 | 2016: 80.3",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:14:04.999945+00:00",
+    "updated_at": "2026-04-03T06:14:12.386201+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141404_66abb912",
+    "metadata": {
+      "processing_start_time": 1775196845,
+      "processing_end_time": 1775196852
+    }
+  },
+  "doc-ed705f3efcf0a3a0a4afbc320cf14fce": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce"
+    ],
+    "content_summary": "Category: University of California, Santa Barbara| 2011: 75.0 | 2012: 72.1 | 2013: 75.6 | 2014: 68.4 | 2015: 70.0 | 2016: 72.2",
+    "content_length": 126,
+    "created_at": "2026-04-03T06:14:12.425563+00:00",
+    "updated_at": "2026-04-03T06:14:20.539272+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141412_c8911e39",
+    "metadata": {
+      "processing_start_time": 1775196852,
+      "processing_end_time": 1775196860
+    }
+  },
+  "doc-280a7ae0fb8ad42364816f57c91af9e8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8"
+    ],
+    "content_summary": "Category: McGill University| 2011: 71.7 | 2012: 75.5 | 2013: 75.7 | 2014: 68.1 | 2015: 69.6 | 2016: 72.6",
+    "content_length": 104,
+    "created_at": "2026-04-03T06:14:20.579091+00:00",
+    "updated_at": "2026-04-03T06:14:40.965193+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141420_41f981ba",
+    "metadata": {
+      "processing_start_time": 1775196860,
+      "processing_end_time": 1775196880
+    }
+  },
+  "doc-861a75f78daeaa810908e3a989b80fdd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-861a75f78daeaa810908e3a989b80fdd"
+    ],
+    "content_summary": "Category: University of Hong Kong| 2011: 79.2 | 2012: 72.3 | 2013: 75.6 | 2014: 65.3 | 2015: 67.5 | 2016: 71.0",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:14:41.004494+00:00",
+    "updated_at": "2026-04-03T06:14:49.202095+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141441_08394ade",
+    "metadata": {
+      "processing_start_time": 1775196881,
+      "processing_end_time": 1775196889
+    }
+  },
+  "doc-259c0e33cab48d182a66bd6c289ec01f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-259c0e33cab48d182a66bd6c289ec01f"
+    ],
+    "content_summary": "Category: University of California, San Diego| 2011: 73.2 | 2012: 73.0 | 2013: 75.2 | 2014: 67.4 | 2015: 68.6 | 2016: 72.2",
+    "content_length": 122,
+    "created_at": "2026-04-03T06:14:49.245651+00:00",
+    "updated_at": "2026-04-03T06:14:57.692309+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141449_d9a6dbe5",
+    "metadata": {
+      "processing_start_time": 1775196889,
+      "processing_end_time": 1775196897
+    }
+  },
+  "doc-6590cd120d2bec87c7751f8ea9b56ed8": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8"
+    ],
+    "content_summary": "Category: Karolinska Institute| 2011: 67.0 | 2012: 73.1 | 2013: 72.4 | 2014: 67.8 | 2015: 66.8 | 2016: 77.5",
+    "content_length": 107,
+    "created_at": "2026-04-03T06:14:57.736191+00:00",
+    "updated_at": "2026-04-03T06:15:05.079861+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141457_94f35815",
+    "metadata": {
+      "processing_start_time": 1775196897,
+      "processing_end_time": 1775196905
+    }
+  },
+  "doc-7cdf6049c6acace06a3396b27d543f7a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7cdf6049c6acace06a3396b27d543f7a"
+    ],
+    "content_summary": "Category: École Polytechnique Fédérale de Lausanne| 2011: 66.5 | 2012: 66.3 | 2013: 73.0 | 2014: 67.7 | 2015: 70.9 | 2016: 76.1",
+    "content_length": 127,
+    "created_at": "2026-04-03T06:15:05.121059+00:00",
+    "updated_at": "2026-04-03T06:15:11.030200+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141505_f942ef41",
+    "metadata": {
+      "processing_start_time": 1775196905,
+      "processing_end_time": 1775196911
+    }
+  },
+  "doc-60be69e5f86095e634367cd1dea861a0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-60be69e5f86095e634367cd1dea861a0"
+    ],
+    "content_summary": "Category: New York University| 2011: 63.9 | 2012: 69.0 | 2013: 72.8 | 2014: 67.4 | 2015: 69.9 | 2016: 77.2",
+    "content_length": 106,
+    "created_at": "2026-04-03T06:15:11.075140+00:00",
+    "updated_at": "2026-04-03T06:15:31.871200+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141511_78c1c70e",
+    "metadata": {
+      "processing_start_time": 1775196911,
+      "processing_end_time": 1775196931
+    }
+  },
+  "doc-f8958d12aa92692c8fb3bfb766ad6e41": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41"
+    ],
+    "content_summary": "Category: London School of Economics and Political Science| 2011: 58.3 | 2012: 66.0 | 2013: 73.1 | 2014: 69.8 | 2015: 70.9 | 2016: 81.3",
+    "content_length": 135,
+    "created_at": "2026-04-03T06:15:31.917344+00:00",
+    "updated_at": "2026-04-03T06:15:39.441033+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141531_b0aa509f",
+    "metadata": {
+      "processing_start_time": 1775196931,
+      "processing_end_time": 1775196939
+    }
+  },
+  "doc-f7f16bbb94fdf497180207b8fae1766f": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f7f16bbb94fdf497180207b8fae1766f"
+    ],
+    "content_summary": "Category: Washington University in St Louis| 2011: 69.9 | 2012: 70.5 | 2013: 71.8 | 2014: 67.2 | 2015: 67.8 | 2016: 67.0",
+    "content_length": 120,
+    "created_at": "2026-04-03T06:15:39.488974+00:00",
+    "updated_at": "2026-04-03T06:15:44.974292+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141539_793e3425",
+    "metadata": {
+      "processing_start_time": 1775196939,
+      "processing_end_time": 1775196944
+    }
+  },
+  "doc-94ab4ec01d51d0734a362a17fdcac9d0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0"
+    ],
+    "content_summary": "Category: Australian National University| 2011: 67.0 | 2012: 71.2 | 2013: 75.4 | 2014: 64.4 | 2015: 66.5 | 2016: 69.5",
+    "content_length": 117,
+    "created_at": "2026-04-03T06:15:45.021458+00:00",
+    "updated_at": "2026-04-03T06:15:57.978429+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141545_69d3e7bc",
+    "metadata": {
+      "processing_start_time": 1775196945,
+      "processing_end_time": 1775196957
+    }
+  },
+  "doc-f6674b4e5c8a1507da11221fecd644cd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f6674b4e5c8a1507da11221fecd644cd"
+    ],
+    "content_summary": "Category: LMU Munich| 2011: 63.0 | 2012: 67.6 | 2013: 70.4 | 2014: 63.1 | 2015: 71.9 | 2016: 77.3",
+    "content_length": 97,
+    "created_at": "2026-04-03T06:15:58.025992+00:00",
+    "updated_at": "2026-04-03T06:16:02.553018+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141558_0fabaada",
+    "metadata": {
+      "processing_start_time": 1775196958,
+      "processing_end_time": 1775196962
+    }
+  },
+  "doc-eecbe57db1438e971999c19f4e1cc992": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "content_summary": "Category: University of North Carolina at Chapel Hill| 2011: 73.8 | 2012: 69.3 | 2013: 72.4 | 2014: 64.5 | 2015: 65.9 | 2016: 66.4",
+    "content_length": 130,
+    "created_at": "2026-04-03T06:16:02.600815+00:00",
+    "updated_at": "2026-04-03T06:16:09.652916+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141602_905b8c00",
+    "metadata": {
+      "processing_start_time": 1775196962,
+      "processing_end_time": 1775196969
+    }
+  },
+  "doc-8403b64c17da9b8d05e7153784bebd5d": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-8403b64c17da9b8d05e7153784bebd5d"
+    ],
+    "content_summary": "Category: Peking University| 2011: 70.7 | 2012: 65.6 | 2013: 70.7 | 2014: 65.0 | 2015: 65.2 | 2016: 72.0",
+    "content_length": 104,
+    "created_at": "2026-04-03T06:16:09.702039+00:00",
+    "updated_at": "2026-04-03T06:16:16.615203+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141609_f174566c",
+    "metadata": {
+      "processing_start_time": 1775196969,
+      "processing_end_time": 1775196976
+    }
+  },
+  "doc-db7f39ecd543540106b3b66070aa4a5c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-db7f39ecd543540106b3b66070aa4a5c"
+    ],
+    "content_summary": "Category: University of California, Davis| 2011: 65.0 | 2012: 71.2 | 2013: 71.8 | 2014: 63.2 | 2015: 63.7 | 2016: 71.0",
+    "content_length": 118,
+    "created_at": "2026-04-03T06:16:16.667212+00:00",
+    "updated_at": "2026-04-03T06:16:23.707198+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141616_d282f3c4",
+    "metadata": {
+      "processing_start_time": 1775196976,
+      "processing_end_time": 1775196983
+    }
+  },
+  "doc-9946565d16304c690880ca3101d8694e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-9946565d16304c690880ca3101d8694e"
+    ],
+    "content_summary": "Category: King’s College London| 2011: 59.7 | 2012: 63.2 | 2013: 66.2 | 2014: 67.6 | 2015: 69.4 | 2016: 78.2",
+    "content_length": 108,
+    "created_at": "2026-04-03T06:16:23.759969+00:00",
+    "updated_at": "2026-04-03T06:16:33.585686+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141623_e68a9a73",
+    "metadata": {
+      "processing_start_time": 1775196983,
+      "processing_end_time": 1775196993
+    }
+  },
+  "doc-aa1ed3c36f13ceadc1644a26c1e1b2ce": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce"
+    ],
+    "content_summary": "Category: University of Minnesota| 2011: 65.6 | 2012: 70.0 | 2013: 70.5 | 2014: 64.9 | 2015: 65.9 | 2016: 65.9",
+    "content_length": 110,
+    "created_at": "2026-04-03T06:16:33.639578+00:00",
+    "updated_at": "2026-04-03T06:16:38.211921+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141633_cbdc2494",
+    "metadata": {
+      "processing_start_time": 1775196993,
+      "processing_end_time": 1775196998
+    }
+  },
+  "doc-881f2a19041e8308add6dbef8f69309b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "content_summary": "Category: Brown University| 2011: 64.9 | 2012: 65.6 | 2013: 68.9 | 2014: 63.2 | 2015: 64.1 | 2016: 69.6",
+    "content_length": 103,
+    "created_at": "2026-04-03T06:16:38.266314+00:00",
+    "updated_at": "2026-04-03T06:16:44.864103+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260403_141638_60bf704f",
+    "metadata": {
+      "processing_start_time": 1775196998,
+      "processing_end_time": 1775197004
+    }
+  }
+}

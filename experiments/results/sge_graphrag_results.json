@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-04-03T12:20:07.761789",
+  "system": "sge_graphrag_v3.0.8",
+  "experiment": "SGE serialization + SGE schema prompt vs baseline prompt",
+  "gold_file": "gold_who_life_expectancy_v2.jsonl",
+  "gold_facts": 150,
+  "conditions": {
+    "sge_graphrag_who": {
+      "condition": "sge_graphrag_who",
+      "total_facts": 150,
+      "covered": 150,
+      "fc": 1.0,
+      "entity_count": 4508,
+      "relationship_count": 4312,
+      "text_unit_count": 196,
+      "entity_types": {
+        "YEARVALUE": 4312,
+        "COUNTRY_CODE": 196
+      },
+      "uncovered_sample": [],
+      "description": "SGE serialization + SGE schema (Country_Code, YearValue, HAS_MEASUREMENT)"
+    },
+    "graphrag_who_baseline": {
+      "condition": "graphrag_who_baseline",
+      "total_facts": 150,
+      "covered": 150,
+      "fc": 1.0,
+      "entity_count": 4529,
+      "relationship_count": 5348,
+      "text_unit_count": 196,
+      "entity_types": {
+        "STAT_VALUE": 4310,
+        "COUNTRY": 196,
+        "YEAR": 22,
+        "HEALTH_INDICATOR": 1
+      },
+      "uncovered_sample": [],
+      "description": "SGE serialization + broader entity types (country, health_indicator, stat_value, year)"
+    }
+  }
+}

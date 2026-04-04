@@ -1,0 +1,6 @@
+Disease: B90 / 结核病后遗症
+INPATIENT_HA_HOSPITAL: 37
+INPATIENT_TOTAL: 37
+REGISTERED_DEATHS: 0
+Remark: ICD B90
+Remark: 结核病后遗症

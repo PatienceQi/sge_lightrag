@@ -1,0 +1,6 @@
+Disease: E50 / 维生素A缺乏
+INPATIENT_HA_HOSPITAL: 1
+INPATIENT_TOTAL: 1
+REGISTERED_DEATHS: 0
+Remark: ICD E50
+Remark: 维生素A缺乏

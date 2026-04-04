@@ -1,1 +1,7 @@
-Category: University of Texas at Austin > SubCategory: United States of America | 2012: 74.9 | 2013: 78.8 | 2014: 72.2 | 2015: 72.3 | 2016: 70.3
+Entity: University of Texas at Austin
+Year: 2012 | Value: 74.9
+Year: 2013 | Value: 78.8
+Year: 2014 | Value: 72.2
+Year: 2015 | Value: 72.3
+Year: 2016 | Value: 70.3
+Country: United States of America

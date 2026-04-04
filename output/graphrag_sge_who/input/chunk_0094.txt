@@ -1,0 +1,25 @@
+Entity: KHM / WHOSIS_000001
+Year: 2000 | Value: 59.10171682
+Year: 2001 | Value: 60.02516946
+Year: 2002 | Value: 60.98797015
+Year: 2003 | Value: 61.89363505
+Year: 2004 | Value: 62.73254827
+Year: 2005 | Value: 63.57944693
+Year: 2006 | Value: 64.39387062
+Year: 2007 | Value: 65.07853491
+Year: 2008 | Value: 65.7502876
+Year: 2009 | Value: 66.28526249
+Year: 2010 | Value: 66.7359551
+Year: 2011 | Value: 67.25370356
+Year: 2012 | Value: 67.72268359
+Year: 2013 | Value: 68.09456793
+Year: 2014 | Value: 68.40636847
+Year: 2015 | Value: 68.66739766
+Year: 2016 | Value: 68.91001703
+Year: 2017 | Value: 69.12694998
+Year: 2018 | Value: 69.35586113
+Year: 2019 | Value: 69.55846339
+Year: 2020 | Value: 69.84097141
+Year: 2021 | Value: 68.92399972
+Remark: Cambodia
+Remark: Life expectancy at birth (years)

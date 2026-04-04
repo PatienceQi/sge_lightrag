@@ -1,0 +1,887 @@
+{
+  "California Institute of Technology": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f"
+    ],
+    "count": 1,
+    "create_time": 1775196637,
+    "update_time": 1775196637,
+    "_id": "California Institute of Technology"
+  },
+  "2011 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2011 Metric"
+  },
+  "2012 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2012 Metric"
+  },
+  "2013 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2013 Metric"
+  },
+  "2014 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2014 Metric"
+  },
+  "2015 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2015 Metric"
+  },
+  "2016 Metric": {
+    "chunk_ids": [
+      "chunk-585fbbf6faaf2d2005a7bb512789db5f",
+      "chunk-ad99513f675fcaa96dc1cf730c88323a",
+      "chunk-897b58651fa54b4798c190adf306f8b6",
+      "chunk-e815538d0826e826b391f3bedbae20da",
+      "chunk-0bfe3b23de589d658a534f6af0a06c88",
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3",
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448",
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8",
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 9,
+    "update_time": 1775196968,
+    "_id": "2016 Metric"
+  },
+  "Stanford University": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3"
+    ],
+    "count": 1,
+    "create_time": 1775196643,
+    "update_time": 1775196643,
+    "_id": "Stanford University"
+  },
+  "2011": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2011"
+  },
+  "2012": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2012"
+  },
+  "2013": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2013"
+  },
+  "2014": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2014"
+  },
+  "2015": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2015"
+  },
+  "2016": {
+    "chunk_ids": [
+      "chunk-b28e9a9e510f49ec3c13c959d79a75b3",
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d",
+      "chunk-1aae47578acbeb722129493e1909c490",
+      "chunk-dff9f2843ac34903f1edcc91d064ec37",
+      "chunk-c1000880d5bd07e21676a9676f48be75",
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f",
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12",
+      "chunk-62667299648fbb5a1bc04726aefeaf2a",
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691",
+      "chunk-4d202571e3a96b3bdbef19301c384031",
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce",
+      "chunk-861a75f78daeaa810908e3a989b80fdd",
+      "chunk-259c0e33cab48d182a66bd6c289ec01f",
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8",
+      "chunk-60be69e5f86095e634367cd1dea861a0",
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41",
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0",
+      "chunk-8403b64c17da9b8d05e7153784bebd5d",
+      "chunk-db7f39ecd543540106b3b66070aa4a5c",
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 20,
+    "update_time": 1775197003,
+    "_id": "2016"
+  },
+  "Harvard University": {
+    "chunk_ids": [
+      "chunk-fd761d2029183293c631f0c4f39b123b"
+    ],
+    "count": 1,
+    "create_time": 1775196648,
+    "update_time": 1775196648,
+    "_id": "Harvard University"
+  },
+  "Performance Metrics": {
+    "chunk_ids": [
+      "chunk-fd761d2029183293c631f0c4f39b123b",
+      "chunk-acff4e65b7895d0f779b67f4959da34f",
+      "chunk-5b4b0879c7c7c5d84029a478ba5949be",
+      "chunk-924e316a97b4f949f979be2d05f8ef5e",
+      "chunk-b8ccef36cc526f6c382444151fba3b19",
+      "chunk-7cdf6049c6acace06a3396b27d543f7a",
+      "chunk-f6674b4e5c8a1507da11221fecd644cd",
+      "chunk-9946565d16304c690880ca3101d8694e"
+    ],
+    "count": 8,
+    "update_time": 1775196988,
+    "_id": "Performance Metrics"
+  },
+  "University Of Oxford": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e"
+    ],
+    "count": 1,
+    "create_time": 1775196654,
+    "update_time": 1775196654,
+    "_id": "University Of Oxford"
+  },
+  "2011 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2011 Performance Metric"
+  },
+  "2012 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2012 Performance Metric"
+  },
+  "2013 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2013 Performance Metric"
+  },
+  "2014 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2014 Performance Metric"
+  },
+  "2015 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2015 Performance Metric"
+  },
+  "2016 Performance Metric": {
+    "chunk_ids": [
+      "chunk-1dc5e371c5aa507a754a329d7fdaee3e",
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6",
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7",
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521",
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 5,
+    "update_time": 1775196851,
+    "_id": "2016 Performance Metric"
+  },
+  "Massachusetts Institute Of Technology": {
+    "chunk_ids": [
+      "chunk-ad99513f675fcaa96dc1cf730c88323a"
+    ],
+    "count": 1,
+    "create_time": 1775196660,
+    "update_time": 1775196660,
+    "_id": "Massachusetts Institute Of Technology"
+  },
+  "Princeton University": {
+    "chunk_ids": [
+      "chunk-cff3e5960042c3ac2cd8086fa2cb0b8d"
+    ],
+    "count": 1,
+    "create_time": 1775196667,
+    "update_time": 1775196667,
+    "_id": "Princeton University"
+  },
+  "University Of Cambridge": {
+    "chunk_ids": [
+      "chunk-362d7f7032cb506afaf64e9b2bd8cdd6"
+    ],
+    "count": 1,
+    "create_time": 1775196674,
+    "update_time": 1775196674,
+    "_id": "University Of Cambridge"
+  },
+  "University Of California, Berkeley": {
+    "chunk_ids": [
+      "chunk-4c3aca4276a9723b65e9896804c2f2d7"
+    ],
+    "count": 1,
+    "create_time": 1775196681,
+    "update_time": 1775196681,
+    "_id": "University Of California, Berkeley"
+  },
+  "Imperial College London": {
+    "chunk_ids": [
+      "chunk-acff4e65b7895d0f779b67f4959da34f"
+    ],
+    "count": 1,
+    "create_time": 1775196686,
+    "update_time": 1775196686,
+    "_id": "Imperial College London"
+  },
+  "University Of Chicago": {
+    "chunk_ids": [
+      "chunk-5b4b0879c7c7c5d84029a478ba5949be"
+    ],
+    "count": 1,
+    "create_time": 1775196691,
+    "update_time": 1775196691,
+    "_id": "University Of Chicago"
+  },
+  "Yale University": {
+    "chunk_ids": [
+      "chunk-9a22096d64784c21f23d9c1b6ff1f126"
+    ],
+    "count": 1,
+    "create_time": 1775196696,
+    "update_time": 1775196696,
+    "_id": "Yale University"
+  },
+  "Yale University Metrics 2011-2016": {
+    "chunk_ids": [
+      "chunk-9a22096d64784c21f23d9c1b6ff1f126"
+    ],
+    "count": 1,
+    "create_time": 1775196696,
+    "update_time": 1775196696,
+    "_id": "Yale University Metrics 2011-2016"
+  },
+  "University Of California, Los Angeles": {
+    "chunk_ids": [
+      "chunk-1aae47578acbeb722129493e1909c490"
+    ],
+    "count": 1,
+    "create_time": 1775196702,
+    "update_time": 1775196702,
+    "_id": "University Of California, Los Angeles"
+  },
+  "ETH Zurich": {
+    "chunk_ids": [
+      "chunk-924e316a97b4f949f979be2d05f8ef5e"
+    ],
+    "count": 1,
+    "create_time": 1775196707,
+    "update_time": 1775196707,
+    "_id": "ETH Zurich"
+  },
+  "Johns Hopkins University": {
+    "chunk_ids": [
+      "chunk-897b58651fa54b4798c190adf306f8b6"
+    ],
+    "count": 1,
+    "create_time": 1775196713,
+    "update_time": 1775196713,
+    "_id": "Johns Hopkins University"
+  },
+  "Columbia University": {
+    "chunk_ids": [
+      "chunk-dff9f2843ac34903f1edcc91d064ec37"
+    ],
+    "count": 1,
+    "create_time": 1775196719,
+    "update_time": 1775196719,
+    "_id": "Columbia University"
+  },
+  "University Of Pennsylvania": {
+    "chunk_ids": [
+      "chunk-c1000880d5bd07e21676a9676f48be75"
+    ],
+    "count": 1,
+    "create_time": 1775196726,
+    "update_time": 1775196726,
+    "_id": "University Of Pennsylvania"
+  },
+  "University Of Michigan": {
+    "chunk_ids": [
+      "chunk-8e25f9ab35a9bf924916d78888cfd12f"
+    ],
+    "count": 1,
+    "create_time": 1775196734,
+    "update_time": 1775196734,
+    "_id": "University Of Michigan"
+  },
+  "University College London": {
+    "chunk_ids": [
+      "chunk-37a007ee3fd3c103e8cdf8696d0f2521"
+    ],
+    "count": 1,
+    "create_time": 1775196741,
+    "update_time": 1775196741,
+    "_id": "University College London"
+  },
+  "Cornell University": {
+    "chunk_ids": [
+      "chunk-5526f8d2008c4d3b880412cb8436ef71"
+    ],
+    "count": 1,
+    "create_time": 1775196748,
+    "update_time": 1775196748,
+    "_id": "Cornell University"
+  },
+  "Cornell University Performance Data": {
+    "chunk_ids": [
+      "chunk-5526f8d2008c4d3b880412cb8436ef71"
+    ],
+    "count": 1,
+    "create_time": 1775196748,
+    "update_time": 1775196748,
+    "_id": "Cornell University Performance Data"
+  },
+  "University Of Toronto": {
+    "chunk_ids": [
+      "chunk-e815538d0826e826b391f3bedbae20da"
+    ],
+    "count": 1,
+    "create_time": 1775196754,
+    "update_time": 1775196754,
+    "_id": "University Of Toronto"
+  },
+  "Duke University": {
+    "chunk_ids": [
+      "chunk-d00b873da3f433c1cf6c2b67eee5bb67"
+    ],
+    "count": 1,
+    "create_time": 1775196760,
+    "update_time": 1775196760,
+    "_id": "Duke University"
+  },
+  "Duke University Performance Data": {
+    "chunk_ids": [
+      "chunk-d00b873da3f433c1cf6c2b67eee5bb67"
+    ],
+    "count": 1,
+    "create_time": 1775196760,
+    "update_time": 1775196760,
+    "_id": "Duke University Performance Data"
+  },
+  "Carnegie Mellon University": {
+    "chunk_ids": [
+      "chunk-0bfe3b23de589d658a534f6af0a06c88"
+    ],
+    "count": 1,
+    "create_time": 1775196766,
+    "update_time": 1775196766,
+    "_id": "Carnegie Mellon University"
+  },
+  "Northwestern University": {
+    "chunk_ids": [
+      "chunk-71fc2bcc705632bb203b8138d9fe7c12"
+    ],
+    "count": 1,
+    "create_time": 1775196773,
+    "update_time": 1775196773,
+    "_id": "Northwestern University"
+  },
+  "University Of Washington": {
+    "chunk_ids": [
+      "chunk-90f558563bf04b46252a7f90786242ec"
+    ],
+    "count": 1,
+    "create_time": 1775196778,
+    "update_time": 1775196778,
+    "_id": "University Of Washington"
+  },
+  "2011-2016 Performance Data": {
+    "chunk_ids": [
+      "chunk-90f558563bf04b46252a7f90786242ec",
+      "chunk-f7f16bbb94fdf497180207b8fae1766f"
+    ],
+    "count": 2,
+    "update_time": 1775196944,
+    "_id": "2011-2016 Performance Data"
+  },
+  "University Of Tokyo": {
+    "chunk_ids": [
+      "chunk-62667299648fbb5a1bc04726aefeaf2a"
+    ],
+    "count": 1,
+    "create_time": 1775196784,
+    "update_time": 1775196784,
+    "_id": "University Of Tokyo"
+  },
+  "Georgia Institute Of Technology": {
+    "chunk_ids": [
+      "chunk-4bd9b9d225ae67c42bd9fac8f03af691"
+    ],
+    "count": 1,
+    "create_time": 1775196802,
+    "update_time": 1775196802,
+    "_id": "Georgia Institute Of Technology"
+  },
+  "University Of British Columbia": {
+    "chunk_ids": [
+      "chunk-977dfd7e17dbcb3c76b9c6972c954be3"
+    ],
+    "count": 1,
+    "create_time": 1775196810,
+    "update_time": 1775196810,
+    "_id": "University Of British Columbia"
+  },
+  "National University Of Singapore": {
+    "chunk_ids": [
+      "chunk-4d202571e3a96b3bdbef19301c384031"
+    ],
+    "count": 1,
+    "create_time": 1775196816,
+    "update_time": 1775196816,
+    "_id": "National University Of Singapore"
+  },
+  "University of Texas at Austin": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89"
+    ],
+    "count": 1,
+    "create_time": 1775196824,
+    "update_time": 1775196824,
+    "_id": "University of Texas at Austin"
+  },
+  "2012 Data Point": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89",
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 2,
+    "update_time": 1775196838,
+    "_id": "2012 Data Point"
+  },
+  "2013 Data Point": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89",
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 2,
+    "update_time": 1775196838,
+    "_id": "2013 Data Point"
+  },
+  "2014 Data Point": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89",
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 2,
+    "update_time": 1775196838,
+    "_id": "2014 Data Point"
+  },
+  "2015 Data Point": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89",
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 2,
+    "update_time": 1775196838,
+    "_id": "2015 Data Point"
+  },
+  "2016 Data Point": {
+    "chunk_ids": [
+      "chunk-ecf2315ba9e807991aa697e669029b89",
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 2,
+    "update_time": 1775196838,
+    "_id": "2016 Data Point"
+  },
+  "University Of Illinois At Urbana-Champaign": {
+    "chunk_ids": [
+      "chunk-eabcde21ef4b9fdbad73cfcf72eb5448"
+    ],
+    "count": 1,
+    "create_time": 1775196831,
+    "update_time": 1775196831,
+    "_id": "University Of Illinois At Urbana-Champaign"
+  },
+  "University of Wisconsin-Madison": {
+    "chunk_ids": [
+      "chunk-0ce5542b0572856289de1e2ecd10d682"
+    ],
+    "count": 1,
+    "create_time": 1775196838,
+    "update_time": 1775196838,
+    "_id": "University of Wisconsin-Madison"
+  },
+  "University Of Melbourne": {
+    "chunk_ids": [
+      "chunk-b8ccef36cc526f6c382444151fba3b19"
+    ],
+    "count": 1,
+    "create_time": 1775196844,
+    "update_time": 1775196844,
+    "_id": "University Of Melbourne"
+  },
+  "University Of Edinburgh": {
+    "chunk_ids": [
+      "chunk-d51b5d90253e13fb1c8177079b99daad"
+    ],
+    "count": 1,
+    "create_time": 1775196851,
+    "update_time": 1775196851,
+    "_id": "University Of Edinburgh"
+  },
+  "University Of California, Santa Barbara": {
+    "chunk_ids": [
+      "chunk-ed705f3efcf0a3a0a4afbc320cf14fce"
+    ],
+    "count": 1,
+    "create_time": 1775196859,
+    "update_time": 1775196859,
+    "_id": "University Of California, Santa Barbara"
+  },
+  "McGill University": {
+    "chunk_ids": [
+      "chunk-280a7ae0fb8ad42364816f57c91af9e8"
+    ],
+    "count": 1,
+    "create_time": 1775196866,
+    "update_time": 1775196866,
+    "_id": "McGill University"
+  },
+  "University Of Hong Kong": {
+    "chunk_ids": [
+      "chunk-861a75f78daeaa810908e3a989b80fdd"
+    ],
+    "count": 1,
+    "create_time": 1775196887,
+    "update_time": 1775196887,
+    "_id": "University Of Hong Kong"
+  },
+  "University Of California, San Diego": {
+    "chunk_ids": [
+      "chunk-259c0e33cab48d182a66bd6c289ec01f"
+    ],
+    "count": 1,
+    "create_time": 1775196896,
+    "update_time": 1775196896,
+    "_id": "University Of California, San Diego"
+  },
+  "Karolinska Institute": {
+    "chunk_ids": [
+      "chunk-6590cd120d2bec87c7751f8ea9b56ed8"
+    ],
+    "count": 1,
+    "create_time": 1775196903,
+    "update_time": 1775196903,
+    "_id": "Karolinska Institute"
+  },
+  "École Polytechnique Fédérale de Lausanne": {
+    "chunk_ids": [
+      "chunk-7cdf6049c6acace06a3396b27d543f7a"
+    ],
+    "count": 1,
+    "create_time": 1775196910,
+    "update_time": 1775196910,
+    "_id": "École Polytechnique Fédérale de Lausanne"
+  },
+  "New York University": {
+    "chunk_ids": [
+      "chunk-60be69e5f86095e634367cd1dea861a0"
+    ],
+    "count": 1,
+    "create_time": 1775196919,
+    "update_time": 1775196919,
+    "_id": "New York University"
+  },
+  "London School of Economics and Political Science": {
+    "chunk_ids": [
+      "chunk-f8958d12aa92692c8fb3bfb766ad6e41"
+    ],
+    "count": 1,
+    "create_time": 1775196937,
+    "update_time": 1775196937,
+    "_id": "London School of Economics and Political Science"
+  },
+  "Washington University in St Louis": {
+    "chunk_ids": [
+      "chunk-f7f16bbb94fdf497180207b8fae1766f"
+    ],
+    "count": 1,
+    "create_time": 1775196944,
+    "update_time": 1775196944,
+    "_id": "Washington University in St Louis"
+  },
+  "Australian National University": {
+    "chunk_ids": [
+      "chunk-94ab4ec01d51d0734a362a17fdcac9d0"
+    ],
+    "count": 1,
+    "create_time": 1775196956,
+    "update_time": 1775196956,
+    "_id": "Australian National University"
+  },
+  "LMU Munich": {
+    "chunk_ids": [
+      "chunk-f6674b4e5c8a1507da11221fecd644cd"
+    ],
+    "count": 1,
+    "create_time": 1775196962,
+    "update_time": 1775196962,
+    "_id": "LMU Munich"
+  },
+  "University of North Carolina at Chapel Hill": {
+    "chunk_ids": [
+      "chunk-eecbe57db1438e971999c19f4e1cc992"
+    ],
+    "count": 1,
+    "create_time": 1775196968,
+    "update_time": 1775196968,
+    "_id": "University of North Carolina at Chapel Hill"
+  },
+  "Peking University": {
+    "chunk_ids": [
+      "chunk-8403b64c17da9b8d05e7153784bebd5d"
+    ],
+    "count": 1,
+    "create_time": 1775196974,
+    "update_time": 1775196974,
+    "_id": "Peking University"
+  },
+  "University Of California, Davis": {
+    "chunk_ids": [
+      "chunk-db7f39ecd543540106b3b66070aa4a5c"
+    ],
+    "count": 1,
+    "create_time": 1775196982,
+    "update_time": 1775196982,
+    "_id": "University Of California, Davis"
+  },
+  "King's College London": {
+    "chunk_ids": [
+      "chunk-9946565d16304c690880ca3101d8694e"
+    ],
+    "count": 1,
+    "create_time": 1775196988,
+    "update_time": 1775196988,
+    "_id": "King's College London"
+  },
+  "University Of Minnesota": {
+    "chunk_ids": [
+      "chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce"
+    ],
+    "count": 1,
+    "create_time": 1775196998,
+    "update_time": 1775196998,
+    "_id": "University Of Minnesota"
+  },
+  "2011-2016 Data Series": {
+    "chunk_ids": [
+      "chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce"
+    ],
+    "count": 1,
+    "create_time": 1775196998,
+    "update_time": 1775196998,
+    "_id": "2011-2016 Data Series"
+  },
+  "Brown University": {
+    "chunk_ids": [
+      "chunk-881f2a19041e8308add6dbef8f69309b"
+    ],
+    "count": 1,
+    "create_time": 1775197003,
+    "update_time": 1775197003,
+    "_id": "Brown University"
+  }
+}

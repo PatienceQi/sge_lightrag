@@ -1,1 +1,8 @@
-Category: California Institute of Technology > SubCategory: United States of America | 2011: 96.0 | 2012: 94.8 | 2013: 95.5 | 2014: 94.9 | 2015: 94.3 | 2016: 95.2
+Entity: California Institute of Technology
+Year: 2011 | Value: 96.0
+Year: 2012 | Value: 94.8
+Year: 2013 | Value: 95.5
+Year: 2014 | Value: 94.9
+Year: 2015 | Value: 94.3
+Year: 2016 | Value: 95.2
+Country: United States of America

@@ -1,0 +1,25 @@
+Entity: SLV / WHOSIS_000001
+Year: 2000 | Value: 71.64575132
+Year: 2001 | Value: 71.7165175
+Year: 2002 | Value: 73.27326528
+Year: 2003 | Value: 73.05229991
+Year: 2004 | Value: 73.29271781
+Year: 2005 | Value: 73.40349475
+Year: 2006 | Value: 73.70492095
+Year: 2007 | Value: 74.16542856
+Year: 2008 | Value: 74.41041249
+Year: 2009 | Value: 74.00196009
+Year: 2010 | Value: 74.56329622
+Year: 2011 | Value: 74.57443118
+Year: 2012 | Value: 75.27280087
+Year: 2013 | Value: 74.78717919
+Year: 2014 | Value: 73.8558025
+Year: 2015 | Value: 72.73292352
+Year: 2016 | Value: 73.58698324
+Year: 2017 | Value: 73.71813956
+Year: 2018 | Value: 74.65055232
+Year: 2019 | Value: 74.28004903
+Year: 2020 | Value: 72.06392712
+Year: 2021 | Value: 71.66703998
+Remark: El Salvador
+Remark: Life expectancy at birth (years)

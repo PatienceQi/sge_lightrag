@@ -1,0 +1,120 @@
+### SGE-GraphRAG settings for WHO Life Expectancy dataset
+### This is the SGE port to MS GraphRAG v3.0.8:
+###   - Input: SGE-serialized text chunks (Entity: COUNTRY/INDICATOR | Year: YYYY | Value: X)
+###   - Prompt: SGE schema-constrained extraction (Country_Code + YearValue + HAS_MEASUREMENT)
+###   - Comparison: graphrag_who uses generic entity types; graphrag_sge_who uses SGE schema
+
+completion_models:
+  default_completion_model:
+    model_provider: openai
+    model: claude-haiku-4-5-20251001
+    auth_method: api_key
+    api_key: sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr
+    api_base: https://wolfai.top/v1
+    retry:
+      type: exponential_backoff
+    parallelization:
+      num_threads: 2
+
+embedding_models:
+  default_embedding_model:
+    model_provider: openai
+    model: text-embedding-3-small
+    auth_method: api_key
+    api_key: sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr
+    api_base: https://wolfai.top/v1
+    retry:
+      type: exponential_backoff
+
+### Document processing settings ###
+
+input:
+  type: text
+
+chunking:
+  type: tokens
+  size: 1200
+  overlap: 100
+  encoding_model: cl100k_base
+
+### Storage settings ###
+
+input_storage:
+  type: file
+  base_dir: "input"
+
+output_storage:
+  type: file
+  base_dir: "output"
+
+reporting:
+  type: file
+  base_dir: "logs"
+
+cache:
+  type: json
+  storage:
+    type: file
+    base_dir: "cache"
+
+### Graph extraction settings ###
+
+extract_graph:
+  completion_model_id: default_completion_model
+  prompt: "prompts/extract_graph.txt"
+  entity_types: [Country_Code,YearValue]
+  max_gleanings: 1
+
+summarize_descriptions:
+  completion_model_id: default_completion_model
+  prompt: "prompts/summarize_descriptions.txt"
+  max_length: 500
+
+extract_graph_nlp:
+  text_analyzer:
+    extractor_type: regex_english
+
+cluster_graph:
+  max_cluster_size: 10
+
+extract_claims:
+  enabled: false
+  completion_model_id: default_completion_model
+  prompt: "prompts/extract_claims.txt"
+  description: "Any claims or facts that could be relevant to information discovery."
+  max_gleanings: 1
+
+community_reports:
+  completion_model_id: default_completion_model
+  graph_prompt: "prompts/community_report_graph.txt"
+  text_prompt: "prompts/community_report_text.txt"
+  max_length: 2000
+  max_input_length: 8000
+
+snapshots:
+  graphml: true
+  embeddings: false
+
+### Query settings ###
+
+local_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/local_search_system_prompt.txt"
+
+global_search:
+  completion_model_id: default_completion_model
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  knowledge_prompt: "prompts/global_search_knowledge_system_prompt.txt"
+
+drift_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/drift_search_system_prompt.txt"
+  reduce_prompt: "prompts/drift_search_reduce_prompt.txt"
+
+basic_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/basic_search_system_prompt.txt"

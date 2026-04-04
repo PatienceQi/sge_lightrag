@@ -1,0 +1,25 @@
+Entity: KGZ / WHOSIS_000001
+Year: 2000 | Value: 65.93470005
+Year: 2001 | Value: 66.68305593
+Year: 2002 | Value: 66.25500987
+Year: 2003 | Value: 66.27050684
+Year: 2004 | Value: 66.99096069
+Year: 2005 | Value: 67.04293061
+Year: 2006 | Value: 67.10547635
+Year: 2007 | Value: 67.79056016
+Year: 2008 | Value: 68.29544912
+Year: 2009 | Value: 68.88847772
+Year: 2010 | Value: 69.19156126
+Year: 2011 | Value: 69.54394591
+Year: 2012 | Value: 69.96020158
+Year: 2013 | Value: 70.72932374
+Year: 2014 | Value: 70.89588242
+Year: 2015 | Value: 71.54340028
+Year: 2016 | Value: 72.67043609
+Year: 2017 | Value: 72.80933995
+Year: 2018 | Value: 73.2888512
+Year: 2019 | Value: 73.58598166
+Year: 2020 | Value: 71.47082259
+Year: 2021 | Value: 72.18500345
+Remark: Kyrgyzstan
+Remark: Life expectancy at birth (years)

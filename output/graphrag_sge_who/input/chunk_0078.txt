@@ -1,0 +1,25 @@
+Entity: HTI / WHOSIS_000001
+Year: 2000 | Value: 56.72887807
+Year: 2001 | Value: 57.13290254
+Year: 2002 | Value: 57.58049169
+Year: 2003 | Value: 57.92054551
+Year: 2004 | Value: 57.54298421
+Year: 2005 | Value: 58.63996581
+Year: 2006 | Value: 59.24644609
+Year: 2007 | Value: 59.85463205
+Year: 2008 | Value: 60.2556984
+Year: 2009 | Value: 60.74938385
+Year: 2010 | Value: 39.95809831
+Year: 2011 | Value: 61.10474412
+Year: 2012 | Value: 61.52991507
+Year: 2013 | Value: 61.91874198
+Year: 2014 | Value: 62.25423095
+Year: 2015 | Value: 62.5149437
+Year: 2016 | Value: 62.79654412
+Year: 2017 | Value: 63.2460029
+Year: 2018 | Value: 63.47163817
+Year: 2019 | Value: 63.66018845
+Year: 2020 | Value: 63.41051389
+Year: 2021 | Value: 62.4563858
+Remark: Haiti
+Remark: Life expectancy at birth (years)

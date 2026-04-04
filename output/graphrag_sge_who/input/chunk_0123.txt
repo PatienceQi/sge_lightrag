@@ -1,0 +1,25 @@
+Entity: MYS / WHOSIS_000001
+Year: 2000 | Value: 73.01343106
+Year: 2001 | Value: 73.51935373
+Year: 2002 | Value: 73.78194217
+Year: 2003 | Value: 73.62194031
+Year: 2004 | Value: 73.82138244
+Year: 2005 | Value: 74.06194883
+Year: 2006 | Value: 74.30399222
+Year: 2007 | Value: 74.43641055
+Year: 2008 | Value: 74.19396011
+Year: 2009 | Value: 74.01457452
+Year: 2010 | Value: 74.02631776
+Year: 2011 | Value: 74.23051803
+Year: 2012 | Value: 74.61637828
+Year: 2013 | Value: 74.72307296
+Year: 2014 | Value: 74.64731536
+Year: 2015 | Value: 74.27826363
+Year: 2016 | Value: 74.41949575
+Year: 2017 | Value: 74.40097684
+Year: 2018 | Value: 74.52805915
+Year: 2019 | Value: 74.68410362
+Year: 2020 | Value: 76.78965822
+Year: 2021 | Value: 72.8101035
+Remark: Malaysia
+Remark: Life expectancy at birth (years)

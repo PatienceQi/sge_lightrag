@@ -1,0 +1,7 @@
+Disease: A90-A94, A96-A99 / 其他节肢动物媒介的病毒性发热和病毒性出血热
+INPATIENT_HA_HOSPITAL: 55
+INPATIENT_PRIVATE_HOSPITAL: 15
+INPATIENT_TOTAL: 70
+REGISTERED_DEATHS: 0
+Remark: ICD A90-A94, A96-A99
+Remark: 其他节肢动物媒介的病毒性发热和病毒性出血热

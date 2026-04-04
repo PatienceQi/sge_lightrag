@@ -1,0 +1,25 @@
+Entity: DJI / WHOSIS_000001
+Year: 2000 | Value: 59.51993524
+Year: 2001 | Value: 59.48459433
+Year: 2002 | Value: 59.49469647
+Year: 2003 | Value: 59.65312998
+Year: 2004 | Value: 59.74871021
+Year: 2005 | Value: 60.0931017
+Year: 2006 | Value: 60.21901234
+Year: 2007 | Value: 60.99155224
+Year: 2008 | Value: 61.38655907
+Year: 2009 | Value: 61.71487892
+Year: 2010 | Value: 62.01403181
+Year: 2011 | Value: 62.33627596
+Year: 2012 | Value: 62.75529104
+Year: 2013 | Value: 63.13924805
+Year: 2014 | Value: 63.51525954
+Year: 2015 | Value: 63.87735947
+Year: 2016 | Value: 64.3388502
+Year: 2017 | Value: 64.73030842
+Year: 2018 | Value: 65.12011598
+Year: 2019 | Value: 65.43875202
+Year: 2020 | Value: 65.26548162
+Year: 2021 | Value: 64.87227149
+Remark: Djibouti
+Remark: Life expectancy at birth (years)

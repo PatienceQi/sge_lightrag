@@ -1,1 +1,8 @@
-Category: Georgia Institute of Technology > SubCategory: United States of America | 2011: 75.3 | 2012: 77.0 | 2013: 78.8 | 2014: 71.6 | 2015: 72.8 | 2016: 72.1
+Entity: Georgia Institute of Technology
+Year: 2011 | Value: 75.3
+Year: 2012 | Value: 77.0
+Year: 2013 | Value: 78.8
+Year: 2014 | Value: 71.6
+Year: 2015 | Value: 72.8
+Year: 2016 | Value: 72.1
+Country: United States of America

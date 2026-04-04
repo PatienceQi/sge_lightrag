@@ -1,0 +1,25 @@
+Entity: PER / WHOSIS_000001
+Year: 2000 | Value: 75.12364237
+Year: 2001 | Value: 75.95904765
+Year: 2002 | Value: 76.14080179
+Year: 2003 | Value: 76.35423675
+Year: 2004 | Value: 76.9955842
+Year: 2005 | Value: 77.53672089
+Year: 2006 | Value: 78.10561579
+Year: 2007 | Value: 78.66735579
+Year: 2008 | Value: 78.86141336
+Year: 2009 | Value: 78.11832326
+Year: 2010 | Value: 78.21420603
+Year: 2011 | Value: 78.64438915
+Year: 2012 | Value: 79.02001015
+Year: 2013 | Value: 79.48260244
+Year: 2014 | Value: 80.00001335
+Year: 2015 | Value: 80.33747677
+Year: 2016 | Value: 80.1644759
+Year: 2017 | Value: 79.35847297
+Year: 2018 | Value: 78.99013811
+Year: 2019 | Value: 78.29293866
+Year: 2020 | Value: 72.7753962
+Year: 2021 | Value: 71.66727055
+Remark: Peru
+Remark: Life expectancy at birth (years)

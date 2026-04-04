@@ -1,0 +1,25 @@
+Entity: TON / WHOSIS_000001
+Year: 2000 | Value: 70.95399808
+Year: 2001 | Value: 71.21713536
+Year: 2002 | Value: 71.2515614
+Year: 2003 | Value: 71.25830559
+Year: 2004 | Value: 71.44335848
+Year: 2005 | Value: 71.97193468
+Year: 2006 | Value: 72.01750935
+Year: 2007 | Value: 72.00901963
+Year: 2008 | Value: 72.00245834
+Year: 2009 | Value: 70.18279546
+Year: 2010 | Value: 72.11458049
+Year: 2011 | Value: 72.18060639
+Year: 2012 | Value: 72.2449478
+Year: 2013 | Value: 72.30723111
+Year: 2014 | Value: 72.38182372
+Year: 2015 | Value: 72.46352791
+Year: 2016 | Value: 72.56032607
+Year: 2017 | Value: 72.71571833
+Year: 2018 | Value: 72.84423109
+Year: 2019 | Value: 72.94212581
+Year: 2020 | Value: 73.18678447
+Year: 2021 | Value: 72.72088222
+Remark: Tonga
+Remark: Life expectancy at birth (years)

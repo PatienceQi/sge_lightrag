@@ -1,0 +1,25 @@
+Entity: UGA / WHOSIS_000001
+Year: 2000 | Value: 48.8900405
+Year: 2001 | Value: 49.78388659
+Year: 2002 | Value: 50.65046911
+Year: 2003 | Value: 51.68238982
+Year: 2004 | Value: 53.13418916
+Year: 2005 | Value: 54.81013228
+Year: 2006 | Value: 55.99216305
+Year: 2007 | Value: 56.83050321
+Year: 2008 | Value: 57.97310088
+Year: 2009 | Value: 59.05814244
+Year: 2010 | Value: 59.96020545
+Year: 2011 | Value: 60.87012607
+Year: 2012 | Value: 61.8009059
+Year: 2013 | Value: 62.71779853
+Year: 2014 | Value: 63.49406001
+Year: 2015 | Value: 64.2155816
+Year: 2016 | Value: 64.67477151
+Year: 2017 | Value: 65.21733648
+Year: 2018 | Value: 65.71888649
+Year: 2019 | Value: 66.0878394
+Year: 2020 | Value: 66.29850916
+Year: 2021 | Value: 65.98577935
+Remark: Uganda
+Remark: Life expectancy at birth (years)

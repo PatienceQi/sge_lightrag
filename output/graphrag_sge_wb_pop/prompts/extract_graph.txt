@@ -1,0 +1,96 @@
+-Goal-
+Given a text document containing World Bank population data, extract entities and relationships using ONLY the SGE domain schema below.
+
+---SGE Domain Schema---
+Entity types: [{entity_types}]
+  - Country_Code: A World Bank country or region identifier (e.g., CHN, USA, ARG). Each chunk header "Entity: COUNTRY_CODE / SP.POP.TOTL" contains exactly one Country_Code.
+  - YearValue: A population measurement for a specific country and year, encoded as "COUNTRY_CODE_YYYY=VALUE" (e.g., CHN_2000=1262645000).
+
+Relationship type: HAS_POPULATION
+  Pattern: (Country_Code) --[HAS_POPULATION]--> (YearValue)
+  Description: Records that a country had a specific total population value in a given year.
+  REQUIRED: Extract one HAS_POPULATION relationship per year line in the chunk.
+
+Extraction constraints (MANDATORY):
+  1. Extract EXACTLY ONE Country_Code entity per chunk (from "Entity: COUNTRY_CODE / SP.POP.TOTL").
+  2. For EACH "Year: YYYY | Value: V" line, create one YearValue entity named "COUNTRY_CODE_YYYY=V" and one HAS_POPULATION relationship.
+  3. Preserve the EXACT integer value from the text — never round or truncate.
+  4. Do NOT create entities for: indicator codes, year labels alone, country names (use as description only), or remarks.
+  5. Use ONLY Country_Code and YearValue as entity types.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, as specified in the schema above
+- entity_type: One of the following types: [{entity_types}]
+- entity_description: Brief description including the full numeric value
+Format each entity as ("entity"<|><entity_name><|><entity_type><|><entity_description>)
+
+2. From the entities identified in step 1, identify all HAS_POPULATION relationships:
+- source_entity: the Country_Code entity name
+- target_entity: the YearValue entity name (COUNTRY_CODE_YYYY=VALUE)
+- relationship_description: "<country> had total population of <value> persons in <year>"
+- relationship_strength: 9
+Format each relationship as ("relationship"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **##** as the list delimiter.
+
+4. When finished, output <|COMPLETE|>
+
+######################
+-Examples-
+######################
+Example 1:
+Entity_types: Country_Code,YearValue
+Text:
+Entity: CHN / SP.POP.TOTL
+Year: 2000 | Value: 1262645000
+Year: 2005 | Value: 1303720000
+Year: 2020 | Value: 1410929362
+Remark: China
+Remark: Population, total
+######################
+Output:
+("entity"<|>CHN<|>Country_Code<|>China (CHN), World Bank population data)
+##
+("entity"<|>CHN_2000=1262645000<|>YearValue<|>China total population in 2000: 1262645000 persons)
+##
+("entity"<|>CHN_2005=1303720000<|>YearValue<|>China total population in 2005: 1303720000 persons)
+##
+("entity"<|>CHN_2020=1410929362<|>YearValue<|>China total population in 2020: 1410929362 persons)
+##
+("relationship"<|>CHN<|>CHN_2000=1262645000<|>CHN had total population of 1262645000 persons in 2000<|>9)
+##
+("relationship"<|>CHN<|>CHN_2005=1303720000<|>CHN had total population of 1303720000 persons in 2005<|>9)
+##
+("relationship"<|>CHN<|>CHN_2020=1410929362<|>CHN had total population of 1410929362 persons in 2020<|>9)
+<|COMPLETE|>
+
+######################
+Example 2:
+Entity_types: Country_Code,YearValue
+Text:
+Entity: USA / SP.POP.TOTL
+Year: 2015 | Value: 320738994
+Year: 2020 | Value: 331511512
+Remark: United States
+Remark: Population, total
+######################
+Output:
+("entity"<|>USA<|>Country_Code<|>United States (USA), World Bank population data)
+##
+("entity"<|>USA_2015=320738994<|>YearValue<|>USA total population in 2015: 320738994 persons)
+##
+("entity"<|>USA_2020=331511512<|>YearValue<|>USA total population in 2020: 331511512 persons)
+##
+("relationship"<|>USA<|>USA_2015=320738994<|>USA had total population of 320738994 persons in 2015<|>9)
+##
+("relationship"<|>USA<|>USA_2020=331511512<|>USA had total population of 331511512 persons in 2020<|>9)
+<|COMPLETE|>
+
+######################
+-Real Data-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
+######################
+Output:

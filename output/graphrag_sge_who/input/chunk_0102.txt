@@ -1,0 +1,25 @@
+Entity: LCA / WHOSIS_000001
+Year: 2000 | Value: 73.2192679
+Year: 2001 | Value: 73.33798376
+Year: 2002 | Value: 73.50932526
+Year: 2003 | Value: 73.77614845
+Year: 2004 | Value: 73.99518133
+Year: 2005 | Value: 74.35093561
+Year: 2006 | Value: 74.71126509
+Year: 2007 | Value: 75.22231763
+Year: 2008 | Value: 75.53396399
+Year: 2009 | Value: 75.83775931
+Year: 2010 | Value: 76.00781498
+Year: 2011 | Value: 76.24846107
+Year: 2012 | Value: 76.39869599
+Year: 2013 | Value: 76.18455493
+Year: 2014 | Value: 76.28411905
+Year: 2015 | Value: 76.39243252
+Year: 2016 | Value: 76.20059158
+Year: 2017 | Value: 76.138896
+Year: 2018 | Value: 76.11272762
+Year: 2019 | Value: 76.11613744
+Year: 2020 | Value: 75.63349527
+Year: 2021 | Value: 71.1130421
+Remark: Saint Lucia
+Remark: Life expectancy at birth (years)

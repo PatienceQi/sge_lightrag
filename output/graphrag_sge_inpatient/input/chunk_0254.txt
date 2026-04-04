@@ -1,0 +1,8 @@
+Disease: O85-O99 / 主要与产褥期和其他产科情况有关的并发症，不可归类在他处者
+INPATIENT_HA_HOSPITAL: 6386
+INPATIENT_PRIVATE_HOSPITAL: 68
+INPATIENT_TOTAL: 6454
+REGISTERED_DEATHS_FEMALE: 1
+REGISTERED_DEATHS: 1
+Remark: ICD O85-O99
+Remark: 主要与产褥期和其他产科情况有关的并发症，不可归类在他处者

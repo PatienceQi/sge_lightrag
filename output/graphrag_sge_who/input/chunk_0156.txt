@@ -1,0 +1,25 @@
+Entity: SOM / WHOSIS_000001
+Year: 2000 | Value: 49.28203144
+Year: 2001 | Value: 49.32648692
+Year: 2002 | Value: 49.39676377
+Year: 2003 | Value: 49.50039991
+Year: 2004 | Value: 49.44567549
+Year: 2005 | Value: 49.79233436
+Year: 2006 | Value: 49.82524247
+Year: 2007 | Value: 49.97697257
+Year: 2008 | Value: 50.31128296
+Year: 2009 | Value: 50.66979598
+Year: 2010 | Value: 49.52620758
+Year: 2011 | Value: 43.81163424
+Year: 2012 | Value: 50.10797443
+Year: 2013 | Value: 52.50391976
+Year: 2014 | Value: 53.08816189
+Year: 2015 | Value: 53.54338351
+Year: 2016 | Value: 53.9446075
+Year: 2017 | Value: 54.18246164
+Year: 2018 | Value: 54.6726292
+Year: 2019 | Value: 55.21397342
+Year: 2020 | Value: 55.12925544
+Year: 2021 | Value: 53.95143945
+Remark: Somalia
+Remark: Life expectancy at birth (years)

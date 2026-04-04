@@ -1,0 +1,25 @@
+Entity: ERI / WHOSIS_000001
+Year: 2000 | Value: 54.93355711
+Year: 2001 | Value: 56.20141934
+Year: 2002 | Value: 56.7567552
+Year: 2003 | Value: 57.22781288
+Year: 2004 | Value: 57.68987112
+Year: 2005 | Value: 58.13577563
+Year: 2006 | Value: 58.75833395
+Year: 2007 | Value: 59.29093298
+Year: 2008 | Value: 59.61833756
+Year: 2009 | Value: 60.06524888
+Year: 2010 | Value: 60.44258181
+Year: 2011 | Value: 60.90743675
+Year: 2012 | Value: 61.35054403
+Year: 2013 | Value: 61.71601531
+Year: 2014 | Value: 62.18741649
+Year: 2015 | Value: 62.5177156
+Year: 2016 | Value: 62.87736669
+Year: 2017 | Value: 63.17091217
+Year: 2018 | Value: 63.47224104
+Year: 2019 | Value: 63.76432633
+Year: 2020 | Value: 63.82002522
+Year: 2021 | Value: 63.57308435
+Remark: Eritrea
+Remark: Life expectancy at birth (years)

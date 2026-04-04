@@ -1,0 +1,1314 @@
+{
+  "doc-585fbbf6faaf2d2005a7bb512789db5f": {
+    "relation_pairs": [
+      [
+        "2016 Metric",
+        "California Institute of Technology"
+      ],
+      [
+        "2012 Metric",
+        "California Institute of Technology"
+      ],
+      [
+        "2013 Metric",
+        "California Institute of Technology"
+      ],
+      [
+        "2011 Metric",
+        "California Institute of Technology"
+      ],
+      [
+        "2015 Metric",
+        "California Institute of Technology"
+      ],
+      [
+        "2014 Metric",
+        "California Institute of Technology"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196637,
+    "update_time": 1775196637,
+    "_id": "doc-585fbbf6faaf2d2005a7bb512789db5f"
+  },
+  "doc-b28e9a9e510f49ec3c13c959d79a75b3": {
+    "relation_pairs": [
+      [
+        "2014",
+        "Stanford University"
+      ],
+      [
+        "2015",
+        "Stanford University"
+      ],
+      [
+        "2011",
+        "Stanford University"
+      ],
+      [
+        "2012",
+        "Stanford University"
+      ],
+      [
+        "2016",
+        "Stanford University"
+      ],
+      [
+        "2013",
+        "Stanford University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196644,
+    "update_time": 1775196644,
+    "_id": "doc-b28e9a9e510f49ec3c13c959d79a75b3"
+  },
+  "doc-fd761d2029183293c631f0c4f39b123b": {
+    "relation_pairs": [
+      [
+        "Harvard University",
+        "Performance Metrics"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196648,
+    "update_time": 1775196648,
+    "_id": "doc-fd761d2029183293c631f0c4f39b123b"
+  },
+  "doc-1dc5e371c5aa507a754a329d7fdaee3e": {
+    "relation_pairs": [
+      [
+        "2016 Performance Metric",
+        "University Of Oxford"
+      ],
+      [
+        "2014 Performance Metric",
+        "University Of Oxford"
+      ],
+      [
+        "2011 Performance Metric",
+        "University Of Oxford"
+      ],
+      [
+        "2012 Performance Metric",
+        "University Of Oxford"
+      ],
+      [
+        "2015 Performance Metric",
+        "University Of Oxford"
+      ],
+      [
+        "2013 Performance Metric",
+        "University Of Oxford"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196654,
+    "update_time": 1775196654,
+    "_id": "doc-1dc5e371c5aa507a754a329d7fdaee3e"
+  },
+  "doc-ad99513f675fcaa96dc1cf730c88323a": {
+    "relation_pairs": [
+      [
+        "2012 Metric",
+        "Massachusetts Institute Of Technology"
+      ],
+      [
+        "2015 Metric",
+        "Massachusetts Institute Of Technology"
+      ],
+      [
+        "2011 Metric",
+        "Massachusetts Institute Of Technology"
+      ],
+      [
+        "2014 Metric",
+        "Massachusetts Institute Of Technology"
+      ],
+      [
+        "2013 Metric",
+        "Massachusetts Institute Of Technology"
+      ],
+      [
+        "2016 Metric",
+        "Massachusetts Institute Of Technology"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196661,
+    "update_time": 1775196661,
+    "_id": "doc-ad99513f675fcaa96dc1cf730c88323a"
+  },
+  "doc-cff3e5960042c3ac2cd8086fa2cb0b8d": {
+    "relation_pairs": [
+      [
+        "2013",
+        "Princeton University"
+      ],
+      [
+        "2014",
+        "Princeton University"
+      ],
+      [
+        "2015",
+        "Princeton University"
+      ],
+      [
+        "2011",
+        "Princeton University"
+      ],
+      [
+        "2012",
+        "Princeton University"
+      ],
+      [
+        "2016",
+        "Princeton University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196668,
+    "update_time": 1775196668,
+    "_id": "doc-cff3e5960042c3ac2cd8086fa2cb0b8d"
+  },
+  "doc-362d7f7032cb506afaf64e9b2bd8cdd6": {
+    "relation_pairs": [
+      [
+        "2016 Performance Metric",
+        "University Of Cambridge"
+      ],
+      [
+        "2014 Performance Metric",
+        "University Of Cambridge"
+      ],
+      [
+        "2011 Performance Metric",
+        "University Of Cambridge"
+      ],
+      [
+        "2012 Performance Metric",
+        "University Of Cambridge"
+      ],
+      [
+        "2015 Performance Metric",
+        "University Of Cambridge"
+      ],
+      [
+        "2013 Performance Metric",
+        "University Of Cambridge"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196675,
+    "update_time": 1775196675,
+    "_id": "doc-362d7f7032cb506afaf64e9b2bd8cdd6"
+  },
+  "doc-4c3aca4276a9723b65e9896804c2f2d7": {
+    "relation_pairs": [
+      [
+        "2016 Performance Metric",
+        "University Of California, Berkeley"
+      ],
+      [
+        "2014 Performance Metric",
+        "University Of California, Berkeley"
+      ],
+      [
+        "2011 Performance Metric",
+        "University Of California, Berkeley"
+      ],
+      [
+        "2012 Performance Metric",
+        "University Of California, Berkeley"
+      ],
+      [
+        "2015 Performance Metric",
+        "University Of California, Berkeley"
+      ],
+      [
+        "2013 Performance Metric",
+        "University Of California, Berkeley"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196682,
+    "update_time": 1775196682,
+    "_id": "doc-4c3aca4276a9723b65e9896804c2f2d7"
+  },
+  "doc-acff4e65b7895d0f779b67f4959da34f": {
+    "relation_pairs": [
+      [
+        "Imperial College London",
+        "Performance Metrics"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196687,
+    "update_time": 1775196687,
+    "_id": "doc-acff4e65b7895d0f779b67f4959da34f"
+  },
+  "doc-5b4b0879c7c7c5d84029a478ba5949be": {
+    "relation_pairs": [
+      [
+        "Performance Metrics",
+        "University Of Chicago"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196691,
+    "update_time": 1775196691,
+    "_id": "doc-5b4b0879c7c7c5d84029a478ba5949be"
+  },
+  "doc-9a22096d64784c21f23d9c1b6ff1f126": {
+    "relation_pairs": [
+      [
+        "Yale University",
+        "Yale University Metrics 2011-2016"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196696,
+    "update_time": 1775196696,
+    "_id": "doc-9a22096d64784c21f23d9c1b6ff1f126"
+  },
+  "doc-1aae47578acbeb722129493e1909c490": {
+    "relation_pairs": [
+      [
+        "2016",
+        "University Of California, Los Angeles"
+      ],
+      [
+        "2011",
+        "University Of California, Los Angeles"
+      ],
+      [
+        "2013",
+        "University Of California, Los Angeles"
+      ],
+      [
+        "2014",
+        "University Of California, Los Angeles"
+      ],
+      [
+        "2015",
+        "University Of California, Los Angeles"
+      ],
+      [
+        "2012",
+        "University Of California, Los Angeles"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196703,
+    "update_time": 1775196703,
+    "_id": "doc-1aae47578acbeb722129493e1909c490"
+  },
+  "doc-924e316a97b4f949f979be2d05f8ef5e": {
+    "relation_pairs": [
+      [
+        "ETH Zurich",
+        "Performance Metrics"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196707,
+    "update_time": 1775196707,
+    "_id": "doc-924e316a97b4f949f979be2d05f8ef5e"
+  },
+  "doc-897b58651fa54b4798c190adf306f8b6": {
+    "relation_pairs": [
+      [
+        "2013 Metric",
+        "Johns Hopkins University"
+      ],
+      [
+        "2012 Metric",
+        "Johns Hopkins University"
+      ],
+      [
+        "2014 Metric",
+        "Johns Hopkins University"
+      ],
+      [
+        "2011 Metric",
+        "Johns Hopkins University"
+      ],
+      [
+        "2015 Metric",
+        "Johns Hopkins University"
+      ],
+      [
+        "2016 Metric",
+        "Johns Hopkins University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196713,
+    "update_time": 1775196713,
+    "_id": "doc-897b58651fa54b4798c190adf306f8b6"
+  },
+  "doc-dff9f2843ac34903f1edcc91d064ec37": {
+    "relation_pairs": [
+      [
+        "2013",
+        "Columbia University"
+      ],
+      [
+        "2014",
+        "Columbia University"
+      ],
+      [
+        "2015",
+        "Columbia University"
+      ],
+      [
+        "2011",
+        "Columbia University"
+      ],
+      [
+        "2012",
+        "Columbia University"
+      ],
+      [
+        "2016",
+        "Columbia University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196720,
+    "update_time": 1775196720,
+    "_id": "doc-dff9f2843ac34903f1edcc91d064ec37"
+  },
+  "doc-c1000880d5bd07e21676a9676f48be75": {
+    "relation_pairs": [
+      [
+        "2012",
+        "University Of Pennsylvania"
+      ],
+      [
+        "2013",
+        "University Of Pennsylvania"
+      ],
+      [
+        "2016",
+        "University Of Pennsylvania"
+      ],
+      [
+        "2014",
+        "University Of Pennsylvania"
+      ],
+      [
+        "2015",
+        "University Of Pennsylvania"
+      ],
+      [
+        "2011",
+        "University Of Pennsylvania"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196727,
+    "update_time": 1775196727,
+    "_id": "doc-c1000880d5bd07e21676a9676f48be75"
+  },
+  "doc-8e25f9ab35a9bf924916d78888cfd12f": {
+    "relation_pairs": [
+      [
+        "2016",
+        "University Of Michigan"
+      ],
+      [
+        "2012",
+        "University Of Michigan"
+      ],
+      [
+        "2013",
+        "University Of Michigan"
+      ],
+      [
+        "2014",
+        "University Of Michigan"
+      ],
+      [
+        "2015",
+        "University Of Michigan"
+      ],
+      [
+        "2011",
+        "University Of Michigan"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196735,
+    "update_time": 1775196735,
+    "_id": "doc-8e25f9ab35a9bf924916d78888cfd12f"
+  },
+  "doc-37a007ee3fd3c103e8cdf8696d0f2521": {
+    "relation_pairs": [
+      [
+        "2016 Performance Metric",
+        "University College London"
+      ],
+      [
+        "2014 Performance Metric",
+        "University College London"
+      ],
+      [
+        "2011 Performance Metric",
+        "University College London"
+      ],
+      [
+        "2012 Performance Metric",
+        "University College London"
+      ],
+      [
+        "2015 Performance Metric",
+        "University College London"
+      ],
+      [
+        "2013 Performance Metric",
+        "University College London"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196742,
+    "update_time": 1775196742,
+    "_id": "doc-37a007ee3fd3c103e8cdf8696d0f2521"
+  },
+  "doc-5526f8d2008c4d3b880412cb8436ef71": {
+    "relation_pairs": [
+      [
+        "Cornell University",
+        "Cornell University Performance Data"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196748,
+    "update_time": 1775196748,
+    "_id": "doc-5526f8d2008c4d3b880412cb8436ef71"
+  },
+  "doc-e815538d0826e826b391f3bedbae20da": {
+    "relation_pairs": [
+      [
+        "2011 Metric",
+        "University Of Toronto"
+      ],
+      [
+        "2014 Metric",
+        "University Of Toronto"
+      ],
+      [
+        "2013 Metric",
+        "University Of Toronto"
+      ],
+      [
+        "2015 Metric",
+        "University Of Toronto"
+      ],
+      [
+        "2016 Metric",
+        "University Of Toronto"
+      ],
+      [
+        "2012 Metric",
+        "University Of Toronto"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196755,
+    "update_time": 1775196755,
+    "_id": "doc-e815538d0826e826b391f3bedbae20da"
+  },
+  "doc-d00b873da3f433c1cf6c2b67eee5bb67": {
+    "relation_pairs": [
+      [
+        "Duke University",
+        "Duke University Performance Data"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196760,
+    "update_time": 1775196760,
+    "_id": "doc-d00b873da3f433c1cf6c2b67eee5bb67"
+  },
+  "doc-0bfe3b23de589d658a534f6af0a06c88": {
+    "relation_pairs": [
+      [
+        "2012 Metric",
+        "Carnegie Mellon University"
+      ],
+      [
+        "2011 Metric",
+        "Carnegie Mellon University"
+      ],
+      [
+        "2015 Metric",
+        "Carnegie Mellon University"
+      ],
+      [
+        "2013 Metric",
+        "Carnegie Mellon University"
+      ],
+      [
+        "2014 Metric",
+        "Carnegie Mellon University"
+      ],
+      [
+        "2016 Metric",
+        "Carnegie Mellon University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196767,
+    "update_time": 1775196767,
+    "_id": "doc-0bfe3b23de589d658a534f6af0a06c88"
+  },
+  "doc-71fc2bcc705632bb203b8138d9fe7c12": {
+    "relation_pairs": [
+      [
+        "2013",
+        "Northwestern University"
+      ],
+      [
+        "2016",
+        "Northwestern University"
+      ],
+      [
+        "2015",
+        "Northwestern University"
+      ],
+      [
+        "2011",
+        "Northwestern University"
+      ],
+      [
+        "2014",
+        "Northwestern University"
+      ],
+      [
+        "2012",
+        "Northwestern University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196774,
+    "update_time": 1775196774,
+    "_id": "doc-71fc2bcc705632bb203b8138d9fe7c12"
+  },
+  "doc-90f558563bf04b46252a7f90786242ec": {
+    "relation_pairs": [
+      [
+        "2011-2016 Performance Data",
+        "University Of Washington"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196778,
+    "update_time": 1775196778,
+    "_id": "doc-90f558563bf04b46252a7f90786242ec"
+  },
+  "doc-62667299648fbb5a1bc04726aefeaf2a": {
+    "relation_pairs": [
+      [
+        "2015",
+        "University Of Tokyo"
+      ],
+      [
+        "2012",
+        "University Of Tokyo"
+      ],
+      [
+        "2013",
+        "University Of Tokyo"
+      ],
+      [
+        "2016",
+        "University Of Tokyo"
+      ],
+      [
+        "2011",
+        "University Of Tokyo"
+      ],
+      [
+        "2014",
+        "University Of Tokyo"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196796,
+    "update_time": 1775196796,
+    "_id": "doc-62667299648fbb5a1bc04726aefeaf2a"
+  },
+  "doc-4bd9b9d225ae67c42bd9fac8f03af691": {
+    "relation_pairs": [
+      [
+        "2013",
+        "Georgia Institute Of Technology"
+      ],
+      [
+        "2014",
+        "Georgia Institute Of Technology"
+      ],
+      [
+        "2015",
+        "Georgia Institute Of Technology"
+      ],
+      [
+        "2011",
+        "Georgia Institute Of Technology"
+      ],
+      [
+        "2012",
+        "Georgia Institute Of Technology"
+      ],
+      [
+        "2016",
+        "Georgia Institute Of Technology"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196803,
+    "update_time": 1775196803,
+    "_id": "doc-4bd9b9d225ae67c42bd9fac8f03af691"
+  },
+  "doc-977dfd7e17dbcb3c76b9c6972c954be3": {
+    "relation_pairs": [
+      [
+        "2014 Metric",
+        "University Of British Columbia"
+      ],
+      [
+        "2011 Metric",
+        "University Of British Columbia"
+      ],
+      [
+        "2013 Metric",
+        "University Of British Columbia"
+      ],
+      [
+        "2015 Metric",
+        "University Of British Columbia"
+      ],
+      [
+        "2016 Metric",
+        "University Of British Columbia"
+      ],
+      [
+        "2012 Metric",
+        "University Of British Columbia"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196811,
+    "update_time": 1775196811,
+    "_id": "doc-977dfd7e17dbcb3c76b9c6972c954be3"
+  },
+  "doc-4d202571e3a96b3bdbef19301c384031": {
+    "relation_pairs": [
+      [
+        "2013",
+        "National University Of Singapore"
+      ],
+      [
+        "2016",
+        "National University Of Singapore"
+      ],
+      [
+        "2015",
+        "National University Of Singapore"
+      ],
+      [
+        "2011",
+        "National University Of Singapore"
+      ],
+      [
+        "2014",
+        "National University Of Singapore"
+      ],
+      [
+        "2012",
+        "National University Of Singapore"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196817,
+    "update_time": 1775196817,
+    "_id": "doc-4d202571e3a96b3bdbef19301c384031"
+  },
+  "doc-ecf2315ba9e807991aa697e669029b89": {
+    "relation_pairs": [
+      [
+        "2015 Data Point",
+        "University of Texas at Austin"
+      ],
+      [
+        "2014 Data Point",
+        "University of Texas at Austin"
+      ],
+      [
+        "2013 Data Point",
+        "University of Texas at Austin"
+      ],
+      [
+        "2016 Data Point",
+        "University of Texas at Austin"
+      ],
+      [
+        "2012 Data Point",
+        "University of Texas at Austin"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1775196824,
+    "update_time": 1775196824,
+    "_id": "doc-ecf2315ba9e807991aa697e669029b89"
+  },
+  "doc-eabcde21ef4b9fdbad73cfcf72eb5448": {
+    "relation_pairs": [
+      [
+        "2016 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ],
+      [
+        "2011 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ],
+      [
+        "2012 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ],
+      [
+        "2014 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ],
+      [
+        "2013 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ],
+      [
+        "2015 Metric",
+        "University Of Illinois At Urbana-Champaign"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196833,
+    "update_time": 1775196833,
+    "_id": "doc-eabcde21ef4b9fdbad73cfcf72eb5448"
+  },
+  "doc-0ce5542b0572856289de1e2ecd10d682": {
+    "relation_pairs": [
+      [
+        "2012 Data Point",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "2015 Data Point",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "2014 Data Point",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "2013 Data Point",
+        "University of Wisconsin-Madison"
+      ],
+      [
+        "2016 Data Point",
+        "University of Wisconsin-Madison"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1775196839,
+    "update_time": 1775196839,
+    "_id": "doc-0ce5542b0572856289de1e2ecd10d682"
+  },
+  "doc-b8ccef36cc526f6c382444151fba3b19": {
+    "relation_pairs": [
+      [
+        "Performance Metrics",
+        "University Of Melbourne"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196844,
+    "update_time": 1775196844,
+    "_id": "doc-b8ccef36cc526f6c382444151fba3b19"
+  },
+  "doc-d51b5d90253e13fb1c8177079b99daad": {
+    "relation_pairs": [
+      [
+        "2015 Performance Metric",
+        "University Of Edinburgh"
+      ],
+      [
+        "2013 Performance Metric",
+        "University Of Edinburgh"
+      ],
+      [
+        "2016 Performance Metric",
+        "University Of Edinburgh"
+      ],
+      [
+        "2014 Performance Metric",
+        "University Of Edinburgh"
+      ],
+      [
+        "2011 Performance Metric",
+        "University Of Edinburgh"
+      ],
+      [
+        "2012 Performance Metric",
+        "University Of Edinburgh"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196852,
+    "update_time": 1775196852,
+    "_id": "doc-d51b5d90253e13fb1c8177079b99daad"
+  },
+  "doc-ed705f3efcf0a3a0a4afbc320cf14fce": {
+    "relation_pairs": [
+      [
+        "2016",
+        "University Of California, Santa Barbara"
+      ],
+      [
+        "2013",
+        "University Of California, Santa Barbara"
+      ],
+      [
+        "2014",
+        "University Of California, Santa Barbara"
+      ],
+      [
+        "2015",
+        "University Of California, Santa Barbara"
+      ],
+      [
+        "2011",
+        "University Of California, Santa Barbara"
+      ],
+      [
+        "2012",
+        "University Of California, Santa Barbara"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196860,
+    "update_time": 1775196860,
+    "_id": "doc-ed705f3efcf0a3a0a4afbc320cf14fce"
+  },
+  "doc-280a7ae0fb8ad42364816f57c91af9e8": {
+    "relation_pairs": [
+      [
+        "2016 Metric",
+        "McGill University"
+      ],
+      [
+        "2014 Metric",
+        "McGill University"
+      ],
+      [
+        "2012 Metric",
+        "McGill University"
+      ],
+      [
+        "2011 Metric",
+        "McGill University"
+      ],
+      [
+        "2015 Metric",
+        "McGill University"
+      ],
+      [
+        "2013 Metric",
+        "McGill University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196880,
+    "update_time": 1775196880,
+    "_id": "doc-280a7ae0fb8ad42364816f57c91af9e8"
+  },
+  "doc-861a75f78daeaa810908e3a989b80fdd": {
+    "relation_pairs": [
+      [
+        "2016",
+        "University Of Hong Kong"
+      ],
+      [
+        "2013",
+        "University Of Hong Kong"
+      ],
+      [
+        "2014",
+        "University Of Hong Kong"
+      ],
+      [
+        "2015",
+        "University Of Hong Kong"
+      ],
+      [
+        "2011",
+        "University Of Hong Kong"
+      ],
+      [
+        "2012",
+        "University Of Hong Kong"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196889,
+    "update_time": 1775196889,
+    "_id": "doc-861a75f78daeaa810908e3a989b80fdd"
+  },
+  "doc-259c0e33cab48d182a66bd6c289ec01f": {
+    "relation_pairs": [
+      [
+        "2012",
+        "University Of California, San Diego"
+      ],
+      [
+        "2016",
+        "University Of California, San Diego"
+      ],
+      [
+        "2011",
+        "University Of California, San Diego"
+      ],
+      [
+        "2013",
+        "University Of California, San Diego"
+      ],
+      [
+        "2014",
+        "University Of California, San Diego"
+      ],
+      [
+        "2015",
+        "University Of California, San Diego"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196897,
+    "update_time": 1775196897,
+    "_id": "doc-259c0e33cab48d182a66bd6c289ec01f"
+  },
+  "doc-6590cd120d2bec87c7751f8ea9b56ed8": {
+    "relation_pairs": [
+      [
+        "2012",
+        "Karolinska Institute"
+      ],
+      [
+        "2013",
+        "Karolinska Institute"
+      ],
+      [
+        "2016",
+        "Karolinska Institute"
+      ],
+      [
+        "2015",
+        "Karolinska Institute"
+      ],
+      [
+        "2011",
+        "Karolinska Institute"
+      ],
+      [
+        "2014",
+        "Karolinska Institute"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196905,
+    "update_time": 1775196905,
+    "_id": "doc-6590cd120d2bec87c7751f8ea9b56ed8"
+  },
+  "doc-7cdf6049c6acace06a3396b27d543f7a": {
+    "relation_pairs": [
+      [
+        "Performance Metrics",
+        "École Polytechnique Fédérale de Lausanne"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196911,
+    "update_time": 1775196911,
+    "_id": "doc-7cdf6049c6acace06a3396b27d543f7a"
+  },
+  "doc-60be69e5f86095e634367cd1dea861a0": {
+    "relation_pairs": [
+      [
+        "2012",
+        "New York University"
+      ],
+      [
+        "2016",
+        "New York University"
+      ],
+      [
+        "2013",
+        "New York University"
+      ],
+      [
+        "2014",
+        "New York University"
+      ],
+      [
+        "2015",
+        "New York University"
+      ],
+      [
+        "2011",
+        "New York University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196931,
+    "update_time": 1775196931,
+    "_id": "doc-60be69e5f86095e634367cd1dea861a0"
+  },
+  "doc-f8958d12aa92692c8fb3bfb766ad6e41": {
+    "relation_pairs": [
+      [
+        "2016",
+        "London School of Economics and Political Science"
+      ],
+      [
+        "2013",
+        "London School of Economics and Political Science"
+      ],
+      [
+        "2014",
+        "London School of Economics and Political Science"
+      ],
+      [
+        "2015",
+        "London School of Economics and Political Science"
+      ],
+      [
+        "2011",
+        "London School of Economics and Political Science"
+      ],
+      [
+        "2012",
+        "London School of Economics and Political Science"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196939,
+    "update_time": 1775196939,
+    "_id": "doc-f8958d12aa92692c8fb3bfb766ad6e41"
+  },
+  "doc-f7f16bbb94fdf497180207b8fae1766f": {
+    "relation_pairs": [
+      [
+        "2011-2016 Performance Data",
+        "Washington University in St Louis"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196944,
+    "update_time": 1775196944,
+    "_id": "doc-f7f16bbb94fdf497180207b8fae1766f"
+  },
+  "doc-94ab4ec01d51d0734a362a17fdcac9d0": {
+    "relation_pairs": [
+      [
+        "2014",
+        "Australian National University"
+      ],
+      [
+        "2012",
+        "Australian National University"
+      ],
+      [
+        "2013",
+        "Australian National University"
+      ],
+      [
+        "2016",
+        "Australian National University"
+      ],
+      [
+        "2015",
+        "Australian National University"
+      ],
+      [
+        "2011",
+        "Australian National University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196957,
+    "update_time": 1775196957,
+    "_id": "doc-94ab4ec01d51d0734a362a17fdcac9d0"
+  },
+  "doc-f6674b4e5c8a1507da11221fecd644cd": {
+    "relation_pairs": [
+      [
+        "LMU Munich",
+        "Performance Metrics"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196962,
+    "update_time": 1775196962,
+    "_id": "doc-f6674b4e5c8a1507da11221fecd644cd"
+  },
+  "doc-eecbe57db1438e971999c19f4e1cc992": {
+    "relation_pairs": [
+      [
+        "2011 Metric",
+        "University of North Carolina at Chapel Hill"
+      ],
+      [
+        "2015 Metric",
+        "University of North Carolina at Chapel Hill"
+      ],
+      [
+        "2014 Metric",
+        "University of North Carolina at Chapel Hill"
+      ],
+      [
+        "2016 Metric",
+        "University of North Carolina at Chapel Hill"
+      ],
+      [
+        "2013 Metric",
+        "University of North Carolina at Chapel Hill"
+      ],
+      [
+        "2012 Metric",
+        "University of North Carolina at Chapel Hill"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196969,
+    "update_time": 1775196969,
+    "_id": "doc-eecbe57db1438e971999c19f4e1cc992"
+  },
+  "doc-8403b64c17da9b8d05e7153784bebd5d": {
+    "relation_pairs": [
+      [
+        "2015",
+        "Peking University"
+      ],
+      [
+        "2012",
+        "Peking University"
+      ],
+      [
+        "2013",
+        "Peking University"
+      ],
+      [
+        "2016",
+        "Peking University"
+      ],
+      [
+        "2011",
+        "Peking University"
+      ],
+      [
+        "2014",
+        "Peking University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196976,
+    "update_time": 1775196976,
+    "_id": "doc-8403b64c17da9b8d05e7153784bebd5d"
+  },
+  "doc-db7f39ecd543540106b3b66070aa4a5c": {
+    "relation_pairs": [
+      [
+        "2011",
+        "University Of California, Davis"
+      ],
+      [
+        "2012",
+        "University Of California, Davis"
+      ],
+      [
+        "2016",
+        "University Of California, Davis"
+      ],
+      [
+        "2013",
+        "University Of California, Davis"
+      ],
+      [
+        "2014",
+        "University Of California, Davis"
+      ],
+      [
+        "2015",
+        "University Of California, Davis"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775196983,
+    "update_time": 1775196983,
+    "_id": "doc-db7f39ecd543540106b3b66070aa4a5c"
+  },
+  "doc-9946565d16304c690880ca3101d8694e": {
+    "relation_pairs": [
+      [
+        "King's College London",
+        "Performance Metrics"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196993,
+    "update_time": 1775196993,
+    "_id": "doc-9946565d16304c690880ca3101d8694e"
+  },
+  "doc-aa1ed3c36f13ceadc1644a26c1e1b2ce": {
+    "relation_pairs": [
+      [
+        "2011-2016 Data Series",
+        "University Of Minnesota"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1775196998,
+    "update_time": 1775196998,
+    "_id": "doc-aa1ed3c36f13ceadc1644a26c1e1b2ce"
+  },
+  "doc-881f2a19041e8308add6dbef8f69309b": {
+    "relation_pairs": [
+      [
+        "2012",
+        "Brown University"
+      ],
+      [
+        "2016",
+        "Brown University"
+      ],
+      [
+        "2011",
+        "Brown University"
+      ],
+      [
+        "2013",
+        "Brown University"
+      ],
+      [
+        "2014",
+        "Brown University"
+      ],
+      [
+        "2015",
+        "Brown University"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1775197004,
+    "update_time": 1775197004,
+    "_id": "doc-881f2a19041e8308add6dbef8f69309b"
+  }
+}

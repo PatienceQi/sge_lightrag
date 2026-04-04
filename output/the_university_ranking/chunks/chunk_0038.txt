@@ -1,1 +1,8 @@
-Category: Karolinska Institute > SubCategory: Sweden | 2011: 67.0 | 2012: 73.1 | 2013: 72.4 | 2014: 67.8 | 2015: 66.8 | 2016: 77.5
+Entity: Karolinska Institute
+Year: 2011 | Value: 67.0
+Year: 2012 | Value: 73.1
+Year: 2013 | Value: 72.4
+Year: 2014 | Value: 67.8
+Year: 2015 | Value: 66.8
+Year: 2016 | Value: 77.5
+Country: Sweden

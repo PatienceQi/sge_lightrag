@@ -1,0 +1,25 @@
+Entity: LKA / WHOSIS_000001
+Year: 2000 | Value: 71.51130083
+Year: 2001 | Value: 72.65351771
+Year: 2002 | Value: 73.3381305
+Year: 2003 | Value: 73.36803088
+Year: 2004 | Value: 69.11941478
+Year: 2005 | Value: 73.48476487
+Year: 2006 | Value: 73.35813965
+Year: 2007 | Value: 73.81640208
+Year: 2008 | Value: 73.1378661
+Year: 2009 | Value: 72.41934945
+Year: 2010 | Value: 74.13617419
+Year: 2011 | Value: 74.95837466
+Year: 2012 | Value: 75.63306733
+Year: 2013 | Value: 75.82006448
+Year: 2014 | Value: 76.17612763
+Year: 2015 | Value: 76.44590803
+Year: 2016 | Value: 76.7665914
+Year: 2017 | Value: 76.91196371
+Year: 2018 | Value: 77.17579214
+Year: 2019 | Value: 77.45083261
+Year: 2020 | Value: 80.65621609
+Year: 2021 | Value: 77.22895472
+Remark: Sri Lanka
+Remark: Life expectancy at birth (years)

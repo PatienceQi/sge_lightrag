@@ -1,0 +1,28 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "Crime_Category",
+    "Country"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE"
+  ],
+  "column_roles": {
+    "Crime_Category": "key_level_0",
+    "Country": "key_level_1",
+    "Year": "value",
+    "Rate_per_100k": "value"
+  },
+  "entity_extraction_template": "Composite key columns: 'Crime_Category' → 'Country'. Empty cells inherit the last non-empty value from the same column above. Top-level key 'Crime_Category' → Crime_Category entity. Second-level key 'Country' → Country entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (Crime_Category) -[HAS_SUB_ITEM]-> (Country). Create HAS_VALUE relations from leaf entities to numeric columns: \"Year\", \"Rate_per_100k\".",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key 'Crime_Category' defines the root entity (Crime_Category).",
+    "Second-level key 'Country' defines child entities (Country) linked to their parent via HAS_SUB_ITEM.",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": []
+}

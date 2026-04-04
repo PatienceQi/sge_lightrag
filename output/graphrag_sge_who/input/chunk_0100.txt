@@ -1,0 +1,25 @@
+Entity: LBR / WHOSIS_000001
+Year: 2000 | Value: 53.27371266
+Year: 2001 | Value: 53.93145331
+Year: 2002 | Value: 53.66640831
+Year: 2003 | Value: 53.6245833
+Year: 2004 | Value: 56.44158136
+Year: 2005 | Value: 57.55945739
+Year: 2006 | Value: 58.56299111
+Year: 2007 | Value: 59.31134066
+Year: 2008 | Value: 59.75630294
+Year: 2009 | Value: 60.0506239
+Year: 2010 | Value: 60.3582726
+Year: 2011 | Value: 60.73430361
+Year: 2012 | Value: 61.08289847
+Year: 2013 | Value: 61.38474407
+Year: 2014 | Value: 58.11259758
+Year: 2015 | Value: 60.37754989
+Year: 2016 | Value: 62.21305435
+Year: 2017 | Value: 62.62958569
+Year: 2018 | Value: 63.09159913
+Year: 2019 | Value: 63.44171284
+Year: 2020 | Value: 63.45657848
+Year: 2021 | Value: 63.45730846
+Remark: Liberia
+Remark: Life expectancy at birth (years)

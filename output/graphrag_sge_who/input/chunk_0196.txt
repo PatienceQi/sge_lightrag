@@ -1,0 +1,25 @@
+Entity: ZWE / WHOSIS_000001
+Year: 2000 | Value: 45.74529001
+Year: 2001 | Value: 45.43212975
+Year: 2002 | Value: 45.11250007
+Year: 2003 | Value: 45.01274563
+Year: 2004 | Value: 45.152854
+Year: 2005 | Value: 45.7065362
+Year: 2006 | Value: 46.40915188
+Year: 2007 | Value: 47.34902637
+Year: 2008 | Value: 48.32688541
+Year: 2009 | Value: 49.66000005
+Year: 2010 | Value: 51.41783245
+Year: 2011 | Value: 53.27755042
+Year: 2012 | Value: 54.90174943
+Year: 2013 | Value: 56.08364808
+Year: 2014 | Value: 56.95717402
+Year: 2015 | Value: 57.4934476
+Year: 2016 | Value: 57.9178434
+Year: 2017 | Value: 58.23863624
+Year: 2018 | Value: 58.69836684
+Year: 2019 | Value: 59.07171997
+Year: 2020 | Value: 59.40476255
+Year: 2021 | Value: 58.48102238
+Remark: Zimbabwe
+Remark: Life expectancy at birth (years)

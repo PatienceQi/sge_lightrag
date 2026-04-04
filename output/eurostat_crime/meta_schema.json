@@ -1,0 +1,19 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "primary_subject_columns": [
+    "Crime_Category",
+    "Country"
+  ],
+  "time_dimension": {
+    "is_present": false,
+    "location": null,
+    "columns": []
+  },
+  "value_columns": [
+    "Year",
+    "Rate_per_100k"
+  ],
+  "metadata_columns": [],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is identified by a composite key across \"Crime_Category\", \"Country\"; numeric values follow the key columns; remarks column may contain annotations."
+}

@@ -1,1 +1,8 @@
-Category: University of Chicago > SubCategory: United States of America | 2011: 86.9 | 2012: 90.2 | 2013: 90.4 | 2014: 87.8 | 2015: 87.1 | 2016: 87.9
+Entity: University of Chicago
+Year: 2011 | Value: 86.9
+Year: 2012 | Value: 90.2
+Year: 2013 | Value: 90.4
+Year: 2014 | Value: 87.8
+Year: 2015 | Value: 87.1
+Year: 2016 | Value: 87.9
+Country: United States of America

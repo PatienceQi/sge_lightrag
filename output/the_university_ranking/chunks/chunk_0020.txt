@@ -1,1 +1,8 @@
-Category: University of Toronto > SubCategory: Canada | 2011: 82.0 | 2012: 81.6 | 2013: 82.2 | 2014: 78.3 | 2015: 79.3 | 2016: 83.9
+Entity: University of Toronto
+Year: 2011 | Value: 82.0
+Year: 2012 | Value: 81.6
+Year: 2013 | Value: 82.2
+Year: 2014 | Value: 78.3
+Year: 2015 | Value: 79.3
+Year: 2016 | Value: 83.9
+Country: Canada

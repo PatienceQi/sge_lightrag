@@ -1,1 +1,8 @@
-Category: Stanford University > SubCategory: United States of America | 2011: 94.3 | 2012: 93.9 | 2013: 93.7 | 2014: 93.8 | 2015: 92.9 | 2016: 93.9
+Entity: Stanford University
+Year: 2011 | Value: 94.3
+Year: 2012 | Value: 93.9
+Year: 2013 | Value: 93.7
+Year: 2014 | Value: 93.8
+Year: 2015 | Value: 92.9
+Year: 2016 | Value: 93.9
+Country: United States of America

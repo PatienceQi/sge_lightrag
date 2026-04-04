@@ -1,1 +1,8 @@
-Category: University of Oxford > SubCategory: United Kingdom | 2011: 91.2 | 2012: 93.6 | 2013: 93.7 | 2014: 93.9 | 2015: 93.2 | 2016: 94.2
+Entity: University of Oxford
+Year: 2011 | Value: 91.2
+Year: 2012 | Value: 93.6
+Year: 2013 | Value: 93.7
+Year: 2014 | Value: 93.9
+Year: 2015 | Value: 93.2
+Year: 2016 | Value: 94.2
+Country: United Kingdom

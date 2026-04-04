@@ -1,0 +1,25 @@
+Entity: SLB / WHOSIS_000001
+Year: 2000 | Value: 63.397598
+Year: 2001 | Value: 63.45373664
+Year: 2002 | Value: 63.47177399
+Year: 2003 | Value: 63.54307905
+Year: 2004 | Value: 63.61418491
+Year: 2005 | Value: 63.69667846
+Year: 2006 | Value: 63.79244472
+Year: 2007 | Value: 63.76837921
+Year: 2008 | Value: 64.05632367
+Year: 2009 | Value: 64.16468031
+Year: 2010 | Value: 64.36844431
+Year: 2011 | Value: 64.51306313
+Year: 2012 | Value: 64.70197152
+Year: 2013 | Value: 64.84559966
+Year: 2014 | Value: 64.95591891
+Year: 2015 | Value: 65.15166823
+Year: 2016 | Value: 65.29462393
+Year: 2017 | Value: 65.4106128
+Year: 2018 | Value: 65.55013712
+Year: 2019 | Value: 65.67290557
+Year: 2020 | Value: 65.39475136
+Year: 2021 | Value: 64.79245685
+Remark: Solomon Islands
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: ECU / WHOSIS_000001
+Year: 2000 | Value: 72.58843233
+Year: 2001 | Value: 73.06545756
+Year: 2002 | Value: 73.16724011
+Year: 2003 | Value: 73.9172371
+Year: 2004 | Value: 73.96568777
+Year: 2005 | Value: 73.75770165
+Year: 2006 | Value: 73.97387898
+Year: 2007 | Value: 74.34691701
+Year: 2008 | Value: 74.40727021
+Year: 2009 | Value: 74.93359345
+Year: 2010 | Value: 75.14738891
+Year: 2011 | Value: 75.58177801
+Year: 2012 | Value: 75.807667
+Year: 2013 | Value: 76.40415478
+Year: 2014 | Value: 76.8969622
+Year: 2015 | Value: 77.15293465
+Year: 2016 | Value: 77.17996695
+Year: 2017 | Value: 77.31252311
+Year: 2018 | Value: 77.46907136
+Year: 2019 | Value: 77.75172721
+Year: 2020 | Value: 72.71138213
+Year: 2021 | Value: 73.95801182
+Remark: Ecuador
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,7 @@
+Disease: Z20, Z22-Z29 / 具有与传染病有关的潜在健康危害的其他人
+INPATIENT_HA_HOSPITAL: 642
+INPATIENT_PRIVATE_HOSPITAL: 22
+INPATIENT_TOTAL: 664
+REGISTERED_DEATHS: 0
+Remark: ICD Z20, Z22-Z29
+Remark: 具有与传染病有关的潜在健康危害的其他人

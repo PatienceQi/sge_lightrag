@@ -1,1 +1,8 @@
-Category: McGill University > SubCategory: Canada | 2011: 71.7 | 2012: 75.5 | 2013: 75.7 | 2014: 68.1 | 2015: 69.6 | 2016: 72.6
+Entity: McGill University
+Year: 2011 | Value: 71.7
+Year: 2012 | Value: 75.5
+Year: 2013 | Value: 75.7
+Year: 2014 | Value: 68.1
+Year: 2015 | Value: 69.6
+Year: 2016 | Value: 72.6
+Country: Canada

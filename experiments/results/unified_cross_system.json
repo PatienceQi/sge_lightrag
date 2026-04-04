@@ -44,6 +44,10 @@
     "Table-Aware_Prompt_Strong": {
       "who": 0.253,
       "note": "full column metadata + sample data + entity types + relationship templates"
+    },
+    "SGE-GraphRAG": {
+      "who": 1.0,
+      "note": "SGE serialization + SGE schema (Country_Code, YearValue, HAS_MEASUREMENT) on MS GraphRAG v3.0.8; 196 entities, 4312 YearValue nodes; experiment: sge_graphrag_results.json"
     }
   },
   "non_gov_datasets": {

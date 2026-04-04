@@ -1,1 +1,8 @@
-Category: London School of Economics and Political Science > SubCategory: United Kingdom | 2011: 58.3 | 2012: 66.0 | 2013: 73.1 | 2014: 69.8 | 2015: 70.9 | 2016: 81.3
+Entity: London School of Economics and Political Science
+Year: 2011 | Value: 58.3
+Year: 2012 | Value: 66.0
+Year: 2013 | Value: 73.1
+Year: 2014 | Value: 69.8
+Year: 2015 | Value: 70.9
+Year: 2016 | Value: 81.3
+Country: United Kingdom

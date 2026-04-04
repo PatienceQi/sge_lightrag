@@ -1,0 +1,24 @@
+Entity: WB_HI / WHOSIS_000001
+Year: 2000 | Value: 77.53178071
+Year: 2001 | Value: 77.77308056
+Year: 2002 | Value: 77.91958141
+Year: 2003 | Value: 78.01340604
+Year: 2004 | Value: 78.48672448
+Year: 2005 | Value: 78.55484133
+Year: 2006 | Value: 78.9430904
+Year: 2007 | Value: 79.13737329
+Year: 2008 | Value: 79.31835213
+Year: 2009 | Value: 79.61497249
+Year: 2010 | Value: 79.83143411
+Year: 2011 | Value: 80.00535625
+Year: 2012 | Value: 80.14050022
+Year: 2013 | Value: 80.30511012
+Year: 2014 | Value: 80.53130986
+Year: 2015 | Value: 80.39036377
+Year: 2016 | Value: 80.5831754
+Year: 2017 | Value: 80.58823029
+Year: 2018 | Value: 80.68924788
+Year: 2019 | Value: 80.90566753
+Year: 2020 | Value: 79.95969437
+Year: 2021 | Value: 79.65119873
+Remark: Life expectancy at birth (years)

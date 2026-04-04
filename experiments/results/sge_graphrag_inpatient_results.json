@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-04-03T13:36:52.555371",
+  "system": "sge_graphrag_v3.0.8",
+  "experiment": "Inpatient SGE serialization + SGE schema prompt (Disease_Category, StatValue)",
+  "gold_file": "gold_inpatient_2023.jsonl",
+  "gold_facts": 16,
+  "conditions": {
+    "sge_graphrag_inpatient": {
+      "condition": "sge_graphrag_inpatient",
+      "total_facts": 16,
+      "covered": 16,
+      "fc": 1.0,
+      "entity_count": 1232,
+      "relationship_count": 924,
+      "text_unit_count": 308,
+      "entity_types": {
+        "STATVALUE": 924,
+        "DISEASE_CATEGORY": 308
+      },
+      "uncovered_facts": [],
+      "description": "SGE serialization + SGE schema (Disease_Category, StatValue)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+Entity: BRB / WHOSIS_000001
+Year: 2000 | Value: 74.60503157
+Year: 2001 | Value: 75.05768919
+Year: 2002 | Value: 74.85759375
+Year: 2003 | Value: 74.55086448
+Year: 2004 | Value: 74.61548026
+Year: 2005 | Value: 74.96322109
+Year: 2006 | Value: 75.05596421
+Year: 2007 | Value: 75.24398474
+Year: 2008 | Value: 75.50932099
+Year: 2009 | Value: 75.90513677
+Year: 2010 | Value: 75.95734033
+Year: 2011 | Value: 76.02367426
+Year: 2012 | Value: 76.23035481
+Year: 2013 | Value: 76.24143589
+Year: 2014 | Value: 76.24311034
+Year: 2015 | Value: 76.29023437
+Year: 2016 | Value: 76.32461251
+Year: 2017 | Value: 76.33626177
+Year: 2018 | Value: 76.28319327
+Year: 2019 | Value: 76.03984637
+Year: 2020 | Value: 76.9491323
+Year: 2021 | Value: 76.8418344
+Remark: Barbados
+Remark: Life expectancy at birth (years)

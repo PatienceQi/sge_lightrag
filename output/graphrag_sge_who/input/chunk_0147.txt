@@ -1,0 +1,25 @@
+Entity: RWA / WHOSIS_000001
+Year: 2000 | Value: 46.89447249
+Year: 2001 | Value: 48.33271376
+Year: 2002 | Value: 50.60960504
+Year: 2003 | Value: 52.47567981
+Year: 2004 | Value: 54.65577616
+Year: 2005 | Value: 57.02758036
+Year: 2006 | Value: 59.15292023
+Year: 2007 | Value: 60.82526391
+Year: 2008 | Value: 62.1374836
+Year: 2009 | Value: 62.96873523
+Year: 2010 | Value: 64.20018842
+Year: 2011 | Value: 65.04603076
+Year: 2012 | Value: 65.68582887
+Year: 2013 | Value: 66.2811484
+Year: 2014 | Value: 66.67115526
+Year: 2015 | Value: 66.96378175
+Year: 2016 | Value: 67.17638437
+Year: 2017 | Value: 67.42986245
+Year: 2018 | Value: 67.62644841
+Year: 2019 | Value: 67.75562916
+Year: 2020 | Value: 68.26351399
+Year: 2021 | Value: 67.54213882
+Remark: Rwanda
+Remark: Life expectancy at birth (years)

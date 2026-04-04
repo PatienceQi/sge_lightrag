@@ -1,1 +1,8 @@
-Category: National University of Singapore > SubCategory: Singapore | 2011: 72.9 | 2012: 70.9 | 2013: 77.5 | 2014: 72.4 | 2015: 73.3 | 2016: 79.2
+Entity: National University of Singapore
+Year: 2011 | Value: 72.9
+Year: 2012 | Value: 70.9
+Year: 2013 | Value: 77.5
+Year: 2014 | Value: 72.4
+Year: 2015 | Value: 73.3
+Year: 2016 | Value: 79.2
+Country: Singapore

@@ -1,1 +1,8 @@
-Category: LMU Munich > SubCategory: Germany | 2011: 63.0 | 2012: 67.6 | 2013: 70.4 | 2014: 63.1 | 2015: 71.9 | 2016: 77.3
+Entity: LMU Munich
+Year: 2011 | Value: 63.0
+Year: 2012 | Value: 67.6
+Year: 2013 | Value: 70.4
+Year: 2014 | Value: 63.1
+Year: 2015 | Value: 71.9
+Year: 2016 | Value: 77.3
+Country: Germany

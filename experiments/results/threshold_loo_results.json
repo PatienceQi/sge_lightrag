@@ -1,0 +1,95 @@
+{
+  "method": "leave-one-out cross-validation for e/n threshold",
+  "n_datasets": 10,
+  "loo_accuracy": 0.9,
+  "loo_correct": 9,
+  "separation_gap": {
+    "failure_max": 0.7934,
+    "success_min": 0.9431
+  },
+  "any_threshold_in_range_works": "[0.7934, 0.9431]",
+  "chosen_threshold": 0.9,
+  "chosen_within_gap": true,
+  "per_dataset": [
+    {
+      "held_out": "cereal_production",
+      "e_n_ratio": 0.9568,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "co2_emissions",
+      "e_n_ratio": 0.957,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "education_spending",
+      "e_n_ratio": 0.9431,
+      "actual_success": true,
+      "threshold_from_9": 0.875,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "gdp_growth",
+      "e_n_ratio": 0.9577,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "health_expenditure",
+      "e_n_ratio": 0.9583,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "immunization_dpt",
+      "e_n_ratio": 0.0,
+      "actual_success": false,
+      "threshold_from_9": 0.8682,
+      "predicted_success": false,
+      "correct": true
+    },
+    {
+      "held_out": "immunization_measles",
+      "e_n_ratio": 0.0,
+      "actual_success": false,
+      "threshold_from_9": 0.8682,
+      "predicted_success": false,
+      "correct": true
+    },
+    {
+      "held_out": "literacy_rate",
+      "e_n_ratio": 0.9603,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "population_growth",
+      "e_n_ratio": 0.9567,
+      "actual_success": true,
+      "threshold_from_9": 0.8682,
+      "predicted_success": true,
+      "correct": true
+    },
+    {
+      "held_out": "unemployment",
+      "e_n_ratio": 0.7934,
+      "actual_success": false,
+      "threshold_from_9": 0.4716,
+      "predicted_success": true,
+      "correct": false
+    }
+  ]
+}

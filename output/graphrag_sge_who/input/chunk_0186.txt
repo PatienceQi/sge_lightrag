@@ -1,0 +1,25 @@
+Entity: VUT / WHOSIS_000001
+Year: 2000 | Value: 64.92630401
+Year: 2001 | Value: 64.97955845
+Year: 2002 | Value: 65.03950977
+Year: 2003 | Value: 65.08697701
+Year: 2004 | Value: 65.14603809
+Year: 2005 | Value: 65.24030241
+Year: 2006 | Value: 65.37131308
+Year: 2007 | Value: 65.5182575
+Year: 2008 | Value: 65.68985149
+Year: 2009 | Value: 65.89385815
+Year: 2010 | Value: 66.08385743
+Year: 2011 | Value: 66.2618784
+Year: 2012 | Value: 66.43172159
+Year: 2013 | Value: 66.60736544
+Year: 2014 | Value: 66.71134263
+Year: 2015 | Value: 66.79010699
+Year: 2016 | Value: 66.91782394
+Year: 2017 | Value: 66.98064455
+Year: 2018 | Value: 67.04714117
+Year: 2019 | Value: 67.13030878
+Year: 2020 | Value: 67.09750807
+Year: 2021 | Value: 66.3483713
+Remark: Vanuatu
+Remark: Life expectancy at birth (years)

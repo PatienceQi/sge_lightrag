@@ -1,0 +1,28 @@
+{
+  "table_type": "Hierarchical-Hybrid",
+  "entity_types": [
+    "State",
+    "Age_Group"
+  ],
+  "relation_types": [
+    "HAS_SUB_ITEM",
+    "HAS_VALUE"
+  ],
+  "column_roles": {
+    "State": "key_level_0",
+    "Age_Group": "key_level_1",
+    "Year": "value",
+    "Population_Thousands": "value"
+  },
+  "entity_extraction_template": "Composite key columns: 'State' → 'Age_Group'. Empty cells inherit the last non-empty value from the same column above. Top-level key 'State' → State entity. Second-level key 'Age_Group' → Age_Group entity. ",
+  "relation_extraction_template": "Create HAS_SUB_ITEM relations between hierarchy levels: (State) -[HAS_SUB_ITEM]-> (Age_Group). Create HAS_VALUE relations from leaf entities to numeric columns: \"Year\", \"Population_Thousands\".",
+  "extraction_constraints": [
+    "Detect hierarchy by sparse fill: empty cells in key columns inherit the parent value.",
+    "Top-level key 'State' defines the root entity (State).",
+    "Second-level key 'Age_Group' defines child entities (Age_Group) linked to their parent via HAS_SUB_ITEM.",
+    "Numeric columns become HAS_VALUE relations from the leaf entity.",
+    "Remarks/notes columns become metadata properties (not separate entities).",
+    "Skip rows that are entirely empty or contain only section headers."
+  ],
+  "parsed_time_headers": []
+}

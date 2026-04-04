@@ -1,0 +1,25 @@
+Entity: BEL / WHOSIS_000001
+Year: 2000 | Value: 77.67190502
+Year: 2001 | Value: 77.97358091
+Year: 2002 | Value: 78.01455674
+Year: 2003 | Value: 78.11449295
+Year: 2004 | Value: 78.79615664
+Year: 2005 | Value: 78.85239236
+Year: 2006 | Value: 79.23388393
+Year: 2007 | Value: 79.56569667
+Year: 2008 | Value: 79.56481171
+Year: 2009 | Value: 79.82665275
+Year: 2010 | Value: 79.84805119
+Year: 2011 | Value: 80.16687766
+Year: 2012 | Value: 80.07118579
+Year: 2013 | Value: 80.32474948
+Year: 2014 | Value: 80.94130643
+Year: 2015 | Value: 80.70631194
+Year: 2016 | Value: 81.07460591
+Year: 2017 | Value: 81.1512532
+Year: 2018 | Value: 81.2494226
+Year: 2019 | Value: 81.60895006
+Year: 2020 | Value: 80.77564866
+Year: 2021 | Value: 81.5059627
+Remark: Belgium
+Remark: Life expectancy at birth (years)

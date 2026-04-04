@@ -1,0 +1,25 @@
+Entity: IDN / WHOSIS_000001
+Year: 2000 | Value: 67.20520958
+Year: 2001 | Value: 67.44224013
+Year: 2002 | Value: 67.65122104
+Year: 2003 | Value: 67.84714276
+Year: 2004 | Value: 66.25106515
+Year: 2005 | Value: 68.2347183
+Year: 2006 | Value: 68.40129097
+Year: 2007 | Value: 68.63781807
+Year: 2008 | Value: 68.84079087
+Year: 2009 | Value: 69.0239077
+Year: 2010 | Value: 69.23625966
+Year: 2011 | Value: 69.52313433
+Year: 2012 | Value: 69.79466506
+Year: 2013 | Value: 70.05398814
+Year: 2014 | Value: 70.30298584
+Year: 2015 | Value: 70.53899644
+Year: 2016 | Value: 70.77579907
+Year: 2017 | Value: 71.00063238
+Year: 2018 | Value: 71.1760389
+Year: 2019 | Value: 71.40110181
+Year: 2020 | Value: 69.70367312
+Year: 2021 | Value: 68.26167935
+Remark: Indonesia
+Remark: Life expectancy at birth (years)

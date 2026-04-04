@@ -1,0 +1,25 @@
+Entity: CAN / WHOSIS_000001
+Year: 2000 | Value: 79.08864173
+Year: 2001 | Value: 79.3114365
+Year: 2002 | Value: 79.42214804
+Year: 2003 | Value: 79.5801332
+Year: 2004 | Value: 79.85004413
+Year: 2005 | Value: 79.95094625
+Year: 2006 | Value: 80.37081942
+Year: 2007 | Value: 80.38195578
+Year: 2008 | Value: 80.56313756
+Year: 2009 | Value: 80.88259979
+Year: 2010 | Value: 81.14359407
+Year: 2011 | Value: 81.40188658
+Year: 2012 | Value: 81.49329928
+Year: 2013 | Value: 81.55829938
+Year: 2014 | Value: 81.59103957
+Year: 2015 | Value: 81.64860674
+Year: 2016 | Value: 81.74452018
+Year: 2017 | Value: 81.70954318
+Year: 2018 | Value: 81.73382897
+Year: 2019 | Value: 82.0216251
+Year: 2020 | Value: 81.29950989
+Year: 2021 | Value: 81.58276248
+Remark: Canada
+Remark: Life expectancy at birth (years)

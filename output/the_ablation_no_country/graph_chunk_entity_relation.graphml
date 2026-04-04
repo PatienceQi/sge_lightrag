@@ -1,0 +1,2807 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="California Institute of Technology">
+  <data key="d0">California Institute of Technology</data>
+  <data key="d1">organization</data>
+  <data key="d2">California Institute of Technology is an educational institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196637</data>
+  <data key="d6"></data>
+</node>
+<node id="2011 Metric">
+  <data key="d0">2011 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2011 Metric represents a set of performance measurements recorded across eight leading North American research institutions during 2011. These metrics appear to reflect institutional performance or ranking scores, with values ranging from 96.0 to 71.7.
+
+The California Institute of Technology achieved the highest recorded value at 96.0, followed closely by the Massachusetts Institute of Technology at 95.6. Johns Hopkins University recorded 86.4, while the University of Toronto measured 82.0. Carnegie Mellon University's metric stood at 79.3, with the University of British Columbia at 73.8. The University of Illinois at Urbana-Champaign recorded 73.0, and McGill University completed the dataset with a value of 71.7.
+
+These 2011 metrics collectively document a comparative assessment of these institutions' performance during that year, with the values suggesting a hierarchical ranking among these prominent universities in research and academic excellence.&lt;SEP&gt;A recorded value of 73.8 for University of North Carolina at Chapel Hill in 2011.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="2012 Metric">
+  <data key="d0">2012 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2012 Metric represents a set of performance measurements recorded across leading North American research institutions during 2012. These metrics appear to reflect institutional rankings or assessments based on research output, academic reputation, or similar evaluative criteria.
+
+California Institute of Technology achieved the highest recorded value at 94.8, followed by Massachusetts Institute of Technology at 92.3. Johns Hopkins University recorded 85.8, while University of Toronto measured 81.6. Carnegie Mellon University registered 78.4, McGill University recorded 75.5, and University of British Columbia achieved 77.4. University of Illinois at Urbana-Champaign recorded the lowest value among the institutions at 74.2.
+
+The 2012 Metric data collectively demonstrates a performance hierarchy among these prominent research universities, with scores ranging from 74.2 to 94.8. The concentration of higher-scoring institutions on the West Coast and in the Northeast reflects the geographic distribution of top-tier research universities in North America during this period.&lt;SEP&gt;A recorded value of 69.3 for University of North Carolina at Chapel Hill in 2012.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="2013 Metric">
+  <data key="d0">2013 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2013 Metric represents a performance measurement recorded across eight leading North American research institutions during 2013. California Institute of Technology achieved the highest recorded value at 95.5, followed by Massachusetts Institute of Technology at 93.1. Johns Hopkins University recorded 85.6, while University of Toronto measured 82.2. Carnegie Mellon University registered 81.5, with University of British Columbia at 77.3. University of Illinois at Urbana-Champaign and McGill University completed the dataset with values of 75.8 and 75.7 respectively. These metrics collectively reflect the comparative performance standings of these institutions during the 2013 measurement period.&lt;SEP&gt;A recorded value of 72.4 for University of North Carolina at Chapel Hill in 2013.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="2014 Metric">
+  <data key="d0">2014 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2014 Metric represents a set of performance measurements recorded across eight prominent North American research institutions during 2014. These metrics appear to reflect institutional rankings or assessments based on research output, academic reputation, or similar evaluative criteria.
+
+California Institute of Technology achieved the highest recorded value at 94.9, followed by Massachusetts Institute of Technology at 93.0. Johns Hopkins University recorded 83.7, while University of Toronto measured 78.3. Carnegie Mellon University registered 76.0, and University of Illinois at Urbana-Champaign recorded 71.4. University of British Columbia achieved 70.8, with McGill University recording the lowest value among the institutions at 68.1.
+
+The 2014 Metric data demonstrates a clear hierarchical distribution across these institutions, with scores ranging from 94.9 to 68.1, suggesting differentiated performance levels or standings within the measured category during that year.&lt;SEP&gt;A recorded value of 64.5 for University of North Carolina at Chapel Hill in 2014.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="2015 Metric">
+  <data key="d0">2015 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2015 Metric represents a performance measurement recorded across eight leading North American research institutions during 2015. California Institute of Technology achieved the highest recorded value at 94.3, followed by Massachusetts Institute of Technology at 91.9. Johns Hopkins University recorded 83.0, while University of Toronto measured 79.3. Carnegie Mellon University registered 74.3, with University of Illinois at Urbana-Champaign at 71.9 and University of British Columbia at 71.8. McGill University recorded the lowest value among the institutions at 69.6.
+
+These metrics collectively document a comparative assessment of these institutions in 2015, with scores ranging from 69.6 to 94.3, reflecting relative performance or ranking differences across the measured institutions during that year.&lt;SEP&gt;A recorded value of 65.9 for University of North Carolina at Chapel Hill in 2015.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="2016 Metric">
+  <data key="d0">2016 Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2016 Metric represents a performance measurement recorded across eight leading North American research institutions during 2016. California Institute of Technology achieved the highest recorded value at 95.2, followed by Massachusetts Institute of Technology at 92.0. Johns Hopkins University recorded 87.6, while University of Toronto measured 83.9. Carnegie Mellon University registered 82.3, with University of British Columbia at 75.3. University of Illinois at Urbana-Champaign recorded 74.5, and McGill University completed the dataset at 72.6. These metrics collectively document comparative performance assessments across these institutions during the 2016 calendar year, with values ranging from 72.6 to 95.2.&lt;SEP&gt;A recorded value of 66.4 for University of North Carolina at Chapel Hill in 2016.</data>
+  <data key="d3">chunk-585fbbf6faaf2d2005a7bb512789db5f&lt;SEP&gt;chunk-ad99513f675fcaa96dc1cf730c88323a&lt;SEP&gt;chunk-897b58651fa54b4798c190adf306f8b6&lt;SEP&gt;chunk-e815538d0826e826b391f3bedbae20da&lt;SEP&gt;chunk-0bfe3b23de589d658a534f6af0a06c88&lt;SEP&gt;chunk-977dfd7e17dbcb3c76b9c6972c954be3&lt;SEP&gt;chunk-eabcde21ef4b9fdbad73cfcf72eb5448&lt;SEP&gt;chunk-280a7ae0fb8ad42364816f57c91af9e8&lt;SEP&gt;chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="Stanford University">
+  <data key="d0">Stanford University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Stanford University is an educational institution with recorded performance metrics across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196643</data>
+  <data key="d6"></data>
+</node>
+<node id="2011">
+  <data key="d0">2011</data>
+  <data key="d1">data</data>
+  <data key="d2">2011 represents the baseline year of a recorded data series capturing metric values across prominent universities worldwide. Stanford University recorded the highest value at 94.3, followed by Princeton University at 94.2. University of California, Los Angeles registered 87.7, while University of Michigan recorded 83.4. Columbia University's value stood at 81.0, University of Hong Kong at 79.2, and University of Pennsylvania at 79.5. Northwestern University reported 75.9, University of Tokyo recorded 75.6, Georgia Institute of Technology measured 75.3, and University of California, Santa Barbara registered 75.0. National University of Singapore recorded 72.9, University of California, San Diego measured 73.2, New York University reported 63.9, and Karolinska Institute recorded the lowest value at 67.0. These measurements collectively establish 2011 as a foundational reference point for comparative institutional metrics across these leading academic institutions globally.&lt;SEP&gt;2011 represents a year with a recorded metric value of 58.3 for London School of Economics and Political Science.&lt;SEP&gt;2011 represents a year in which Australian National University recorded a metric value of 67.0.&lt;SEP&gt;Year 2011 with an associated metric value of 70.7 for Peking University.&lt;SEP&gt;2011 represents a year with a recorded value of 65.0 for University of California, Davis.&lt;SEP&gt;Year 2011 with a recorded value of 64.9 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="2012">
+  <data key="d0">2012</data>
+  <data key="d1">data</data>
+  <data key="d2">2012 represents a single year for which metric values were recorded across multiple prestigious universities worldwide. Stanford University recorded the highest value at 93.9, followed by Princeton University at 92.9. Columbia University and University of California, Los Angeles both recorded values in the upper 80s range at 87.5 and 87.3 respectively. University of Pennsylvania recorded 84.9, while University of Michigan recorded 82.8. Northwestern University recorded 76.2, and Georgia Institute of Technology recorded 77.0.
+
+Among additional institutions, University of Tokyo recorded 74.3, Karolinska Institute recorded 73.1, University of Hong Kong recorded 72.3, University of California, Santa Barbara recorded 72.1, and University of California, San Diego recorded 73.0. National University of Singapore recorded 70.9, while New York University recorded the lowest value at 69.0. These data points collectively represent a comparative snapshot of institutional metrics across leading academic institutions during 2012.&lt;SEP&gt;2012 represents a year with a recorded metric value of 66.0 for London School of Economics and Political Science.&lt;SEP&gt;2012 represents a year in which Australian National University recorded a metric value of 71.2.&lt;SEP&gt;Year 2012 with an associated metric value of 65.6 for Peking University.&lt;SEP&gt;2012 represents a year with a recorded value of 71.2 for University of California, Davis.&lt;SEP&gt;Year 2012 with a recorded value of 65.6 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="2013">
+  <data key="d0">2013</data>
+  <data key="d1">data</data>
+  <data key="d2">2013 is a year for which metric values were recorded across multiple prominent universities worldwide. Stanford University recorded the highest value at 93.7, followed by Princeton University at 92.7. University of California, Los Angeles and Columbia University recorded values of 87.7 and 87.0 respectively, while University of Pennsylvania recorded 86.6. Northwestern University and University of Michigan recorded values of 83.1 and 82.6 respectively.
+
+Additional institutions recorded the following metric values in 2013: Georgia Institute of Technology at 78.8, University of Tokyo at 78.3, National University of Singapore at 77.5, New York University at 72.8, University of California, Santa Barbara at 75.6, University of Hong Kong at 75.6, University of California, San Diego at 75.2, and Karolinska Institute at 72.4.&lt;SEP&gt;2013 represents a year with a recorded metric value of 73.1 for London School of Economics and Political Science.&lt;SEP&gt;2013 represents a year in which Australian National University recorded a metric value of 75.4.&lt;SEP&gt;Year 2013 with an associated metric value of 70.7 for Peking University.&lt;SEP&gt;2013 represents a year with a recorded value of 71.8 for University of California, Davis.&lt;SEP&gt;Year 2013 with a recorded value of 68.9 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="2014">
+  <data key="d0">2014</data>
+  <data key="d1">data</data>
+  <data key="d2">2014 is a temporal data point characterized by recorded metric values across a diverse set of international universities. Stanford University achieved the highest value at 93.8, followed by Princeton University at 92.7. University of California, Los Angeles reported 86.3, while Columbia University recorded 85.2. University of Pennsylvania documented 81.0, University of Michigan 79.2, and Northwestern University 77.1. University of Tokyo, the only non-U.S. institution among the top performers, recorded 76.4.
+
+Additional institutions recorded the following values for 2014: Georgia Institute of Technology at 71.6, National University of Singapore at 72.4, University of California, Santa Barbara at 68.4, Karolinska Institute at 67.8, University of California, San Diego at 67.4, and New York University at 67.4. University of Hong Kong recorded a metric value of 65.3 for the same year.&lt;SEP&gt;2014 represents a year with a recorded metric value of 69.8 for London School of Economics and Political Science.&lt;SEP&gt;2014 represents a year in which Australian National University recorded a metric value of 64.4.&lt;SEP&gt;Year 2014 with an associated metric value of 65.0 for Peking University.&lt;SEP&gt;2014 represents a year with a recorded value of 63.2 for University of California, Davis.&lt;SEP&gt;Year 2014 with a recorded value of 63.2 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="2015">
+  <data key="d0">2015</data>
+  <data key="d1">data</data>
+  <data key="d2">2015 is a reference year for which metric values were recorded across multiple prominent universities worldwide. Stanford University recorded the highest value at 92.9, followed by Princeton University at 90.9. University of California, Los Angeles reported 85.5, while Columbia University recorded 84.4. University of Pennsylvania and University of Michigan reported values of 81.0 and 80.9 respectively. Northwestern University recorded 79.2, and University of Tokyo reported 76.1.
+
+Additional institutions recorded the following metric values for 2015: Georgia Institute of Technology at 72.8, National University of Singapore at 73.3, New York University at 69.9, University of California, Santa Barbara at 70.0, University of California, San Diego at 68.6, and Karolinska Institute at 66.8. University of Hong Kong recorded the lowest value among all listed institutions at 67.5.&lt;SEP&gt;2015 represents a year with a recorded metric value of 70.9 for London School of Economics and Political Science.&lt;SEP&gt;2015 represents a year in which Australian National University recorded a metric value of 66.5.&lt;SEP&gt;Year 2015 with an associated metric value of 65.2 for Peking University.&lt;SEP&gt;2015 represents a year with a recorded value of 63.7 for University of California, Davis.&lt;SEP&gt;Year 2015 with a recorded value of 64.1 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="2016">
+  <data key="d0">2016</data>
+  <data key="d1">data</data>
+  <data key="d2">2016 represents a year for which metric values were recorded across multiple prominent universities worldwide. Stanford University recorded the highest value at 93.9, marking the end of its data series, followed by Princeton University at 90.1. University of California, Los Angeles and Columbia University recorded 86.8 and 86.1 respectively, while University of Pennsylvania registered 85.2. University of Michigan recorded 82.4, and Northwestern University registered 79.5. National University of Singapore recorded 79.2, Karolinska Institute recorded 77.5, and New York University recorded 77.2. Georgia Institute of Technology and University of California, Santa Barbara both recorded 72.1 and 72.2 respectively, while University of California, San Diego recorded 72.2. University of Tokyo and University of Hong Kong recorded 71.1 and 71.0 respectively for the same year.&lt;SEP&gt;2016 represents a year with a recorded metric value of 81.3 for London School of Economics and Political Science.&lt;SEP&gt;2016 represents a year in which Australian National University recorded a metric value of 69.5.&lt;SEP&gt;Year 2016 with an associated metric value of 72.0 for Peking University.&lt;SEP&gt;2016 represents a year with a recorded value of 71.0 for University of California, Davis.&lt;SEP&gt;Year 2016 with a recorded value of 69.6 for Brown University.</data>
+  <data key="d3">chunk-b28e9a9e510f49ec3c13c959d79a75b3&lt;SEP&gt;chunk-cff3e5960042c3ac2cd8086fa2cb0b8d&lt;SEP&gt;chunk-1aae47578acbeb722129493e1909c490&lt;SEP&gt;chunk-dff9f2843ac34903f1edcc91d064ec37&lt;SEP&gt;chunk-c1000880d5bd07e21676a9676f48be75&lt;SEP&gt;chunk-8e25f9ab35a9bf924916d78888cfd12f&lt;SEP&gt;chunk-71fc2bcc705632bb203b8138d9fe7c12&lt;SEP&gt;chunk-62667299648fbb5a1bc04726aefeaf2a&lt;SEP&gt;chunk-4bd9b9d225ae67c42bd9fac8f03af691&lt;SEP&gt;chunk-4d202571e3a96b3bdbef19301c384031&lt;SEP&gt;chunk-ed705f3efcf0a3a0a4afbc320cf14fce&lt;SEP&gt;chunk-861a75f78daeaa810908e3a989b80fdd&lt;SEP&gt;chunk-259c0e33cab48d182a66bd6c289ec01f&lt;SEP&gt;chunk-6590cd120d2bec87c7751f8ea9b56ed8&lt;SEP&gt;chunk-60be69e5f86095e634367cd1dea861a0&lt;SEP&gt;chunk-f8958d12aa92692c8fb3bfb766ad6e41&lt;SEP&gt;chunk-94ab4ec01d51d0734a362a17fdcac9d0&lt;SEP&gt;chunk-8403b64c17da9b8d05e7153784bebd5d&lt;SEP&gt;chunk-db7f39ecd543540106b3b66070aa4a5c&lt;SEP&gt;chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<node id="Harvard University">
+  <data key="d0">Harvard University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Harvard University is an educational institution with recorded performance metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-fd761d2029183293c631f0c4f39b123b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196648</data>
+  <data key="d6"></data>
+</node>
+<node id="Performance Metrics">
+  <data key="d0">Performance Metrics</data>
+  <data key="d1">data</data>
+  <data key="d2">Performance Metrics represent a comprehensive dataset of numerical scores assigned to eight leading international universities over a six-year period from 2011 to 2016. These metrics provide a quantitative assessment of institutional performance across this timeframe.
+
+Harvard University achieved the highest performance scores among the institutions tracked, with metrics ranging from 91.6 to 96.1. Imperial College London followed with scores between 87.5 and 90.7, while the University of Chicago recorded metrics ranging from 86.9 to 90.4. ETH Zurich demonstrated performance scores between 83.4 and 88.3 across the same period.
+
+The University of Melbourne's performance metrics ranged from 68.2 to 77.9, while École Polytechnique Fédérale de Lausanne recorded values between 66.3 and 76.1. LMU Munich showed metrics spanning from 63.0 to 77.3 over the six-year interval. King's College London exhibited the widest relative growth trajectory, with performance metrics increasing from 59.7 in 2011 to 78.2 in 2016.
+
+Collectively, these Performance Metrics illustrate a comparative ranking of institutional excellence, with scores generally trending upward or remaining stable across the 2011-2016 period, reflecting the sustained or improving performance of these prestigious universities during this timeframe.</data>
+  <data key="d3">chunk-fd761d2029183293c631f0c4f39b123b&lt;SEP&gt;chunk-acff4e65b7895d0f779b67f4959da34f&lt;SEP&gt;chunk-5b4b0879c7c7c5d84029a478ba5949be&lt;SEP&gt;chunk-924e316a97b4f949f979be2d05f8ef5e&lt;SEP&gt;chunk-b8ccef36cc526f6c382444151fba3b19&lt;SEP&gt;chunk-7cdf6049c6acace06a3396b27d543f7a&lt;SEP&gt;chunk-f6674b4e5c8a1507da11221fecd644cd&lt;SEP&gt;chunk-9946565d16304c690880ca3101d8694e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196993</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Oxford">
+  <data key="d0">University Of Oxford</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Oxford is an academic institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196654</data>
+  <data key="d6"></data>
+</node>
+<node id="2011 Performance Metric">
+  <data key="d0">2011 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 91.2 in 2011.&lt;SEP&gt;University of Cambridge recorded a performance score of 91.2 in 2011.&lt;SEP&gt;A performance score of 91.1 recorded for University of California, Berkeley in 2011.&lt;SEP&gt;University College London recorded a performance value of 78.4 in 2011.&lt;SEP&gt;A performance score of 69.2 recorded for University of Edinburgh in 2011.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="2012 Performance Metric">
+  <data key="d0">2012 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 93.6 in 2012.&lt;SEP&gt;University of Cambridge recorded a performance score of 92.4 in 2012.&lt;SEP&gt;A performance score of 89.8 recorded for University of California, Berkeley in 2012.&lt;SEP&gt;University College London recorded a performance value of 83.2 in 2012.&lt;SEP&gt;A performance score of 72.0 recorded for University of Edinburgh in 2012.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="2013 Performance Metric">
+  <data key="d0">2013 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 93.7 in 2013.&lt;SEP&gt;University of Cambridge recorded a performance score of 92.6 in 2013.&lt;SEP&gt;A performance score of 90.5 recorded for University of California, Berkeley in 2013.&lt;SEP&gt;University College London recorded a performance value of 85.5 in 2013.&lt;SEP&gt;A performance score of 76.1 recorded for University of Edinburgh in 2013.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="2014 Performance Metric">
+  <data key="d0">2014 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 93.9 in 2014.&lt;SEP&gt;University of Cambridge recorded a performance score of 92.3 in 2014.&lt;SEP&gt;A performance score of 89.8 recorded for University of California, Berkeley in 2014.&lt;SEP&gt;University College London recorded a performance value of 77.6 in 2014.&lt;SEP&gt;A performance score of 67.5 recorded for University of Edinburgh in 2014.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="2015 Performance Metric">
+  <data key="d0">2015 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 93.2 in 2015.&lt;SEP&gt;University of Cambridge recorded a performance score of 92.0 in 2015.&lt;SEP&gt;A performance score of 89.5 recorded for University of California, Berkeley in 2015.&lt;SEP&gt;University College London recorded a performance value of 78.7 in 2015.&lt;SEP&gt;A performance score of 70.4 recorded for University of Edinburgh in 2015.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="2016 Performance Metric">
+  <data key="d0">2016 Performance Metric</data>
+  <data key="d1">data</data>
+  <data key="d2">University of Oxford recorded a performance score of 94.2 in 2016.&lt;SEP&gt;University of Cambridge recorded a performance score of 92.8 in 2016.&lt;SEP&gt;A performance score of 87.2 recorded for University of California, Berkeley in 2016.&lt;SEP&gt;University College London recorded a performance value of 87.1 in 2016.&lt;SEP&gt;A performance score of 80.3 recorded for University of Edinburgh in 2016.</data>
+  <data key="d3">chunk-1dc5e371c5aa507a754a329d7fdaee3e&lt;SEP&gt;chunk-362d7f7032cb506afaf64e9b2bd8cdd6&lt;SEP&gt;chunk-4c3aca4276a9723b65e9896804c2f2d7&lt;SEP&gt;chunk-37a007ee3fd3c103e8cdf8696d0f2521&lt;SEP&gt;chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="Massachusetts Institute Of Technology">
+  <data key="d0">Massachusetts Institute Of Technology</data>
+  <data key="d1">organization</data>
+  <data key="d2">Massachusetts Institute of Technology is an educational institution with recorded performance metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196660</data>
+  <data key="d6"></data>
+</node>
+<node id="Princeton University">
+  <data key="d0">Princeton University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Princeton University is an educational institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196667</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Cambridge">
+  <data key="d0">University Of Cambridge</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Cambridge is an educational institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196674</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of California, Berkeley">
+  <data key="d0">University Of California, Berkeley</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of California, Berkeley is an academic institution with performance metrics tracked from 2011 to 2016.</data>
+  <data key="d3">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196681</data>
+  <data key="d6"></data>
+</node>
+<node id="Imperial College London">
+  <data key="d0">Imperial College London</data>
+  <data key="d1">organization</data>
+  <data key="d2">Imperial College London is an educational institution with recorded performance metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-acff4e65b7895d0f779b67f4959da34f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196686</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Chicago">
+  <data key="d0">University Of Chicago</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Chicago is an educational institution with recorded performance metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-5b4b0879c7c7c5d84029a478ba5949be</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196691</data>
+  <data key="d6"></data>
+</node>
+<node id="Yale University">
+  <data key="d0">Yale University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Yale University is an educational institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-9a22096d64784c21f23d9c1b6ff1f126</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196696</data>
+  <data key="d6"></data>
+</node>
+<node id="Yale University Metrics 2011-2016">
+  <data key="d0">Yale University Metrics 2011-2016</data>
+  <data key="d1">data</data>
+  <data key="d2">A dataset containing Yale University's performance or rating values across six years, ranging from 87.4 to 89.5.</data>
+  <data key="d3">chunk-9a22096d64784c21f23d9c1b6ff1f126</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196696</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of California, Los Angeles">
+  <data key="d0">University Of California, Los Angeles</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of California, Los Angeles is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196702</data>
+  <data key="d6"></data>
+</node>
+<node id="ETH Zurich">
+  <data key="d0">ETH Zurich</data>
+  <data key="d1">organization</data>
+  <data key="d2">ETH Zurich is the Swiss Federal Institute of Technology Zurich, an institution with performance metrics tracked from 2011 to 2016.</data>
+  <data key="d3">chunk-924e316a97b4f949f979be2d05f8ef5e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196707</data>
+  <data key="d6"></data>
+</node>
+<node id="Johns Hopkins University">
+  <data key="d0">Johns Hopkins University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Johns Hopkins University is an institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196713</data>
+  <data key="d6"></data>
+</node>
+<node id="Columbia University">
+  <data key="d0">Columbia University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Columbia University is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196719</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Pennsylvania">
+  <data key="d0">University Of Pennsylvania</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Pennsylvania is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196726</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Michigan">
+  <data key="d0">University Of Michigan</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Michigan is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196734</data>
+  <data key="d6"></data>
+</node>
+<node id="University College London">
+  <data key="d0">University College London</data>
+  <data key="d1">organization</data>
+  <data key="d2">University College London is an educational institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196741</data>
+  <data key="d6"></data>
+</node>
+<node id="Cornell University">
+  <data key="d0">Cornell University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Cornell University is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-5526f8d2008c4d3b880412cb8436ef71</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196748</data>
+  <data key="d6"></data>
+</node>
+<node id="Cornell University Performance Data">
+  <data key="d0">Cornell University Performance Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Performance metrics for Cornell University recorded annually from 2011 to 2016, with values ranging from 79.1 to 84.0.</data>
+  <data key="d3">chunk-5526f8d2008c4d3b880412cb8436ef71</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196748</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Toronto">
+  <data key="d0">University Of Toronto</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Toronto is an educational institution with recorded performance metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196754</data>
+  <data key="d6"></data>
+</node>
+<node id="Duke University">
+  <data key="d0">Duke University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Duke University is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-d00b873da3f433c1cf6c2b67eee5bb67</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196760</data>
+  <data key="d6"></data>
+</node>
+<node id="Duke University Performance Data">
+  <data key="d0">Duke University Performance Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Numerical performance metrics for Duke University recorded annually from 2011 to 2016, with values ranging from 76.5 to 82.7.</data>
+  <data key="d3">chunk-d00b873da3f433c1cf6c2b67eee5bb67</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196760</data>
+  <data key="d6"></data>
+</node>
+<node id="Carnegie Mellon University">
+  <data key="d0">Carnegie Mellon University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Carnegie Mellon University is an institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196766</data>
+  <data key="d6"></data>
+</node>
+<node id="Northwestern University">
+  <data key="d0">Northwestern University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Northwestern University is an educational institution with recorded data values across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196773</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Washington">
+  <data key="d0">University Of Washington</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Washington is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-90f558563bf04b46252a7f90786242ec</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196778</data>
+  <data key="d6"></data>
+</node>
+<node id="2011-2016 Performance Data">
+  <data key="d0">2011-2016 Performance Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Performance metrics for University of Washington recorded annually from 2011 to 2016, with values ranging from 73.2 to 79.9.&lt;SEP&gt;Performance metrics for Washington University in St Louis recorded annually from 2011 to 2016, with values ranging from 67.0 to 71.8.</data>
+  <data key="d3">chunk-90f558563bf04b46252a7f90786242ec&lt;SEP&gt;chunk-f7f16bbb94fdf497180207b8fae1766f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196944</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Tokyo">
+  <data key="d0">University Of Tokyo</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Tokyo is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196784</data>
+  <data key="d6"></data>
+</node>
+<node id="Georgia Institute Of Technology">
+  <data key="d0">Georgia Institute Of Technology</data>
+  <data key="d1">organization</data>
+  <data key="d2">Georgia Institute of Technology is an educational institution with recorded data values spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196802</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of British Columbia">
+  <data key="d0">University Of British Columbia</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of British Columbia is an educational institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196810</data>
+  <data key="d6"></data>
+</node>
+<node id="National University Of Singapore">
+  <data key="d0">National University Of Singapore</data>
+  <data key="d1">organization</data>
+  <data key="d2">National University of Singapore is an educational institution with recorded performance metrics across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196816</data>
+  <data key="d6"></data>
+</node>
+<node id="University of Texas at Austin">
+  <data key="d0">University of Texas at Austin</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Texas at Austin is an educational institution with recorded data spanning from 2012 to 2016.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196824</data>
+  <data key="d6"></data>
+</node>
+<node id="2012 Data Point">
+  <data key="d0">2012 Data Point</data>
+  <data key="d1">data</data>
+  <data key="d2">A data value of 74.9 recorded for University of Texas at Austin in 2012.&lt;SEP&gt;A data value of 75.8 recorded for University of Wisconsin-Madison in 2012.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89&lt;SEP&gt;chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="2013 Data Point">
+  <data key="d0">2013 Data Point</data>
+  <data key="d1">data</data>
+  <data key="d2">A data value of 78.8 recorded for University of Texas at Austin in 2013.&lt;SEP&gt;A data value of 76.9 recorded for University of Wisconsin-Madison in 2013.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89&lt;SEP&gt;chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="2014 Data Point">
+  <data key="d0">2014 Data Point</data>
+  <data key="d1">data</data>
+  <data key="d2">A data value of 72.2 recorded for University of Texas at Austin in 2014.&lt;SEP&gt;A data value of 71.1 recorded for University of Wisconsin-Madison in 2014.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89&lt;SEP&gt;chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="2015 Data Point">
+  <data key="d0">2015 Data Point</data>
+  <data key="d1">data</data>
+  <data key="d2">A data value of 72.3 recorded for University of Texas at Austin in 2015.&lt;SEP&gt;A data value of 71.9 recorded for University of Wisconsin-Madison in 2015.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89&lt;SEP&gt;chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="2016 Data Point">
+  <data key="d0">2016 Data Point</data>
+  <data key="d1">data</data>
+  <data key="d2">A data value of 70.3 recorded for University of Texas at Austin in 2016.&lt;SEP&gt;A data value of 69.7 recorded for University of Wisconsin-Madison in 2016.</data>
+  <data key="d3">chunk-ecf2315ba9e807991aa697e669029b89&lt;SEP&gt;chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Illinois At Urbana-Champaign">
+  <data key="d0">University Of Illinois At Urbana-Champaign</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Illinois at Urbana-Champaign is an educational institution with recorded metrics spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196831</data>
+  <data key="d6"></data>
+</node>
+<node id="University of Wisconsin-Madison">
+  <data key="d0">University of Wisconsin-Madison</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Wisconsin-Madison is an educational institution with recorded data values across multiple years from 2012 to 2016.</data>
+  <data key="d3">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196838</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Melbourne">
+  <data key="d0">University Of Melbourne</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Melbourne is an educational institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-b8ccef36cc526f6c382444151fba3b19</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196844</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Edinburgh">
+  <data key="d0">University Of Edinburgh</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Edinburgh is an educational institution with performance metrics recorded across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196851</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of California, Santa Barbara">
+  <data key="d0">University Of California, Santa Barbara</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of California, Santa Barbara is an academic institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196859</data>
+  <data key="d6"></data>
+</node>
+<node id="McGill University">
+  <data key="d0">McGill University</data>
+  <data key="d1">organization</data>
+  <data key="d2">McGill University is an institution with recorded performance metrics across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196866</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Hong Kong">
+  <data key="d0">University Of Hong Kong</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Hong Kong is an educational institution with performance metrics recorded across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196887</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of California, San Diego">
+  <data key="d0">University Of California, San Diego</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of California, San Diego is an academic institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196896</data>
+  <data key="d6"></data>
+</node>
+<node id="Karolinska Institute">
+  <data key="d0">Karolinska Institute</data>
+  <data key="d1">organization</data>
+  <data key="d2">Karolinska Institute is an organization with performance metrics recorded across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196903</data>
+  <data key="d6"></data>
+</node>
+<node id="École Polytechnique Fédérale de Lausanne">
+  <data key="d0">École Polytechnique Fédérale de Lausanne</data>
+  <data key="d1">organization</data>
+  <data key="d2">École Polytechnique Fédérale de Lausanne is an institution with recorded performance metrics across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-7cdf6049c6acace06a3396b27d543f7a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196910</data>
+  <data key="d6"></data>
+</node>
+<node id="New York University">
+  <data key="d0">New York University</data>
+  <data key="d1">organization</data>
+  <data key="d2">New York University is an educational institution with recorded data values across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196919</data>
+  <data key="d6"></data>
+</node>
+<node id="London School of Economics and Political Science">
+  <data key="d0">London School of Economics and Political Science</data>
+  <data key="d1">organization</data>
+  <data key="d2">London School of Economics and Political Science is an educational institution with performance metrics tracked from 2011 to 2016.</data>
+  <data key="d3">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196937</data>
+  <data key="d6"></data>
+</node>
+<node id="Washington University in St Louis">
+  <data key="d0">Washington University in St Louis</data>
+  <data key="d1">organization</data>
+  <data key="d2">Washington University in St Louis is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-f7f16bbb94fdf497180207b8fae1766f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196944</data>
+  <data key="d6"></data>
+</node>
+<node id="Australian National University">
+  <data key="d0">Australian National University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Australian National University is an educational institution with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196956</data>
+  <data key="d6"></data>
+</node>
+<node id="LMU Munich">
+  <data key="d0">LMU Munich</data>
+  <data key="d1">organization</data>
+  <data key="d2">LMU Munich is an organization with performance metrics tracked across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-f6674b4e5c8a1507da11221fecd644cd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196962</data>
+  <data key="d6"></data>
+</node>
+<node id="University of North Carolina at Chapel Hill">
+  <data key="d0">University of North Carolina at Chapel Hill</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of North Carolina at Chapel Hill is an educational institution with recorded metrics from 2011 to 2016.</data>
+  <data key="d3">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196968</data>
+  <data key="d6"></data>
+</node>
+<node id="Peking University">
+  <data key="d0">Peking University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Peking University is an educational institution with recorded performance metrics across multiple years from 2011 to 2016.</data>
+  <data key="d3">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196974</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of California, Davis">
+  <data key="d0">University Of California, Davis</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of California, Davis is an academic institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196982</data>
+  <data key="d6"></data>
+</node>
+<node id="King's College London">
+  <data key="d0">King's College London</data>
+  <data key="d1">organization</data>
+  <data key="d2">King's College London is an educational institution with performance metrics tracked from 2011 to 2016.</data>
+  <data key="d3">chunk-9946565d16304c690880ca3101d8694e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196988</data>
+  <data key="d6"></data>
+</node>
+<node id="University Of Minnesota">
+  <data key="d0">University Of Minnesota</data>
+  <data key="d1">organization</data>
+  <data key="d2">University of Minnesota is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196998</data>
+  <data key="d6"></data>
+</node>
+<node id="2011-2016 Data Series">
+  <data key="d0">2011-2016 Data Series</data>
+  <data key="d1">data</data>
+  <data key="d2">A dataset containing annual values for University of Minnesota from 2011 to 2016, with values ranging from 64.9 to 70.5.</data>
+  <data key="d3">chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775196998</data>
+  <data key="d6"></data>
+</node>
+<node id="Brown University">
+  <data key="d0">Brown University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Brown University is an educational institution with recorded data spanning from 2011 to 2016.</data>
+  <data key="d3">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1775197003</data>
+  <data key="d6"></data>
+</node>
+<edge source="California Institute of Technology" target="2011 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 96.0 in 2011.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="California Institute of Technology" target="2012 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 94.8 in 2012.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="California Institute of Technology" target="2013 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 95.5 in 2013.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="California Institute of Technology" target="2014 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 94.9 in 2014.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="California Institute of Technology" target="2015 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 94.3 in 2015.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="California Institute of Technology" target="2016 Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">California Institute of Technology has a recorded metric value of 95.2 in 2016.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-585fbbf6faaf2d2005a7bb512789db5f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196637</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 95.6 for the year 2011.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196660</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 86.4 in 2011.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 82.0 for the year 2011.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 79.3 in 2011.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 73.8 for the year 2011.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 73.0 recorded in 2011.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 71.7 for the year 2011.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 73.8 in 2011.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 92.3 for the year 2012.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 85.8 in 2012.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 81.6 for the year 2012.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 78.4 in 2012.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 77.4 for the year 2012.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 74.2 recorded in 2012.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 75.5 for the year 2012.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 69.3 in 2012.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 93.1 for the year 2013.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 85.6 in 2013.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 82.2 for the year 2013.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 81.5 in 2013.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 77.3 for the year 2013.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 75.8 recorded in 2013.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 75.7 for the year 2013.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 72.4 in 2013.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 93.0 for the year 2014.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 83.7 in 2014.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 78.3 for the year 2014.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 76.0 in 2014.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 70.8 for the year 2014.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 71.4 recorded in 2014.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 68.1 for the year 2014.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 64.5 in 2014.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 91.9 for the year 2015.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 83.0 in 2015.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 79.3 for the year 2015.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 74.3 in 2015.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 71.8 for the year 2015.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 71.9 recorded in 2015.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 69.6 for the year 2015.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 65.9 in 2015.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="Massachusetts Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Massachusetts Institute of Technology has a recorded metric value of 92.0 for the year 2016.</data>
+  <data key="d9">annual metrics,performance data</data>
+  <data key="d10">chunk-ad99513f675fcaa96dc1cf730c88323a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196661</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="Johns Hopkins University">
+  <data key="d7">1.0</data>
+  <data key="d8">Johns Hopkins University recorded a metric value of 87.6 in 2016.</data>
+  <data key="d9">annual measurement,institutional performance</data>
+  <data key="d10">chunk-897b58651fa54b4798c190adf306f8b6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="University Of Toronto">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Toronto has a recorded metric value of 83.9 for the year 2016.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-e815538d0826e826b391f3bedbae20da</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196755</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="Carnegie Mellon University">
+  <data key="d7">1.0</data>
+  <data key="d8">Carnegie Mellon University has a recorded metric value of 82.3 in 2016.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-0bfe3b23de589d658a534f6af0a06c88</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196767</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="University Of British Columbia">
+  <data key="d7">1.0</data>
+  <data key="d8">University of British Columbia has a recorded metric value of 75.3 for the year 2016.</data>
+  <data key="d9">annual data,performance tracking</data>
+  <data key="d10">chunk-977dfd7e17dbcb3c76b9c6972c954be3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="University Of Illinois At Urbana-Champaign">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Illinois at Urbana-Champaign has an associated metric value of 74.5 recorded in 2016.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eabcde21ef4b9fdbad73cfcf72eb5448</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="McGill University">
+  <data key="d7">1.0</data>
+  <data key="d8">McGill University has a recorded metric value of 72.6 for the year 2016.</data>
+  <data key="d9">annual measurement,performance data</data>
+  <data key="d10">chunk-280a7ae0fb8ad42364816f57c91af9e8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196880</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Metric" target="University of North Carolina at Chapel Hill">
+  <data key="d7">1.0</data>
+  <data key="d8">University of North Carolina at Chapel Hill recorded a metric value of 66.4 in 2016.</data>
+  <data key="d9">annual measurement,institutional data</data>
+  <data key="d10">chunk-eecbe57db1438e971999c19f4e1cc992</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2011">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 94.3 in 2011.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2012">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 93.9 in 2012.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2013">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 93.7 in 2013.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2014">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 93.8 in 2014.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2015">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 92.9 in 2015.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Stanford University" target="2016">
+  <data key="d7">1.0</data>
+  <data key="d8">Stanford University had a metric value of 93.9 in 2016.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-b28e9a9e510f49ec3c13c959d79a75b3</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196644</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 94.2 in 2011.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 87.7 in 2011.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 81.0 in 2011.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 79.5 in 2011.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 83.4 in 2011.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 75.9 in 2011.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 75.6 in 2011.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 75.3 in 2011.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 72.9 in 2011.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 75.0 in 2011.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 79.2 in 2011.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196888</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 73.2 in 2011.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 67.0 in 2011.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 63.9 in 2011.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 58.3 in 2011.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 67.0 in 2011.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 70.7 in 2011.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 65.0 in 2011.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 64.9 in 2011.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 92.9 in 2012.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 87.3 in 2012.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 87.5 in 2012.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 84.9 in 2012.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 82.8 in 2012.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 76.2 in 2012.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 74.3 in 2012.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 77.0 in 2012.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 70.9 in 2012.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 72.1 in 2012.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 72.3 in 2012.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196888</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 73.0 in 2012.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 73.1 in 2012.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 69.0 in 2012.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 66.0 in 2012.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 71.2 in 2012.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 65.6 in 2012.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 71.2 in 2012.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 65.6 in 2012.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 92.7 in 2013.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 87.7 in 2013.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 87.0 in 2013.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 86.6 in 2013.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 82.6 in 2013.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 83.1 in 2013.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 78.3 in 2013.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 78.8 in 2013.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 77.5 in 2013.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 75.6 in 2013.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 75.6 in 2013.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196888</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 75.2 in 2013.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 72.4 in 2013.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 72.8 in 2013.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 73.1 in 2013.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 75.4 in 2013.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 70.7 in 2013.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 71.8 in 2013.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 68.9 in 2013.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 92.7 in 2014.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 86.3 in 2014.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 85.2 in 2014.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 81.0 in 2014.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 79.2 in 2014.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 77.1 in 2014.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 76.4 in 2014.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 71.6 in 2014.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 72.4 in 2014.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 68.4 in 2014.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 65.3 in 2014.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196889</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 67.4 in 2014.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 67.8 in 2014.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 67.4 in 2014.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 69.8 in 2014.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 64.4 in 2014.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 65.0 in 2014.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 63.2 in 2014.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 63.2 in 2014.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 90.9 in 2015.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 85.5 in 2015.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 84.4 in 2015.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 81.0 in 2015.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 80.9 in 2015.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 79.2 in 2015.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 76.1 in 2015.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 72.8 in 2015.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 73.3 in 2015.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 70.0 in 2015.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 67.5 in 2015.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196889</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 68.6 in 2015.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 66.8 in 2015.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196904</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 69.9 in 2015.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 70.9 in 2015.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 66.5 in 2015.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 65.2 in 2015.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 63.7 in 2015.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 64.1 in 2015.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Princeton University">
+  <data key="d7">1.0</data>
+  <data key="d8">Princeton University had a metric value of 90.1 in 2016.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-cff3e5960042c3ac2cd8086fa2cb0b8d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196668</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of California, Los Angeles">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Los Angeles has a recorded value of 85.8 in 2016.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-1aae47578acbeb722129493e1909c490</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196703</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Columbia University">
+  <data key="d7">1.0</data>
+  <data key="d8">Columbia University has a recorded value of 86.1 in 2016.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-dff9f2843ac34903f1edcc91d064ec37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196720</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of Pennsylvania">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Pennsylvania has a recorded value of 85.2 in 2016.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-c1000880d5bd07e21676a9676f48be75</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196727</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of Michigan">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Michigan has a recorded value of 82.4 in 2016.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-8e25f9ab35a9bf924916d78888cfd12f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196735</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Northwestern University">
+  <data key="d7">1.0</data>
+  <data key="d8">Northwestern University has a recorded value of 79.5 in 2016.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-71fc2bcc705632bb203b8138d9fe7c12</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196774</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Tokyo has a recorded value of 71.1 in 2016.</data>
+  <data key="d9">metric,performance data</data>
+  <data key="d10">chunk-62667299648fbb5a1bc04726aefeaf2a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196796</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Georgia Institute Of Technology">
+  <data key="d7">1.0</data>
+  <data key="d8">Georgia Institute of Technology has a recorded value of 72.1 in 2016.</data>
+  <data key="d9">metric measurement,temporal data</data>
+  <data key="d10">chunk-4bd9b9d225ae67c42bd9fac8f03af691</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196803</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="National University Of Singapore">
+  <data key="d7">1.0</data>
+  <data key="d8">National University of Singapore recorded a metric value of 79.2 in 2016.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-4d202571e3a96b3bdbef19301c384031</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of California, Santa Barbara">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Santa Barbara has a recorded value of 72.2 in 2016.</data>
+  <data key="d9">measurement,temporal data</data>
+  <data key="d10">chunk-ed705f3efcf0a3a0a4afbc320cf14fce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of Hong Kong">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Hong Kong recorded a metric value of 71.0 in 2016.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-861a75f78daeaa810908e3a989b80fdd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196889</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of California, San Diego">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, San Diego has a recorded value of 72.2 in 2016.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-259c0e33cab48d182a66bd6c289ec01f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196897</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Karolinska Institute">
+  <data key="d7">1.0</data>
+  <data key="d8">Karolinska Institute recorded a metric value of 77.5 in 2016.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-6590cd120d2bec87c7751f8ea9b56ed8</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196905</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="New York University">
+  <data key="d7">1.0</data>
+  <data key="d8">New York University has a recorded value of 77.2 in 2016.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-60be69e5f86095e634367cd1dea861a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196931</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="London School of Economics and Political Science">
+  <data key="d7">1.0</data>
+  <data key="d8">London School of Economics and Political Science recorded a metric value of 81.3 in 2016.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-f8958d12aa92692c8fb3bfb766ad6e41</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196939</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Australian National University">
+  <data key="d7">1.0</data>
+  <data key="d8">Australian National University recorded a metric value of 69.5 in 2016.</data>
+  <data key="d9">performance metric,temporal data</data>
+  <data key="d10">chunk-94ab4ec01d51d0734a362a17fdcac9d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196957</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Peking University">
+  <data key="d7">1.0</data>
+  <data key="d8">Peking University recorded a metric value of 72.0 in 2016.</data>
+  <data key="d9">annual data,performance metric</data>
+  <data key="d10">chunk-8403b64c17da9b8d05e7153784bebd5d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="University Of California, Davis">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Davis has a recorded value of 71.0 in 2016.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-db7f39ecd543540106b3b66070aa4a5c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196983</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016" target="Brown University">
+  <data key="d7">1.0</data>
+  <data key="d8">Brown University has a recorded value of 69.6 in 2016.</data>
+  <data key="d9">data association,temporal measurement</data>
+  <data key="d10">chunk-881f2a19041e8308add6dbef8f69309b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775197004</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Harvard University" target="Performance Metrics">
+  <data key="d7">1.0</data>
+  <data key="d8">Harvard University's performance is tracked through metrics recorded annually from 2011 to 2016.</data>
+  <data key="d9">annual evaluation,institutional assessment</data>
+  <data key="d10">chunk-fd761d2029183293c631f0c4f39b123b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196648</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="Imperial College London">
+  <data key="d7">1.0</data>
+  <data key="d8">Imperial College London's performance is measured through metrics recorded annually from 2011 to 2016.</data>
+  <data key="d9">institutional assessment,ranking data</data>
+  <data key="d10">chunk-acff4e65b7895d0f779b67f4959da34f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196687</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="University Of Chicago">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Chicago has associated performance metrics recorded annually from 2011 to 2016.</data>
+  <data key="d9">data tracking,institutional performance</data>
+  <data key="d10">chunk-5b4b0879c7c7c5d84029a478ba5949be</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196691</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="ETH Zurich">
+  <data key="d7">1.0</data>
+  <data key="d8">ETH Zurich's performance is measured and tracked through annual metrics from 2011 to 2016.</data>
+  <data key="d9">data tracking,institutional performance</data>
+  <data key="d10">chunk-924e316a97b4f949f979be2d05f8ef5e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196707</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="University Of Melbourne">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Melbourne's performance is measured through annual metrics spanning 2011 to 2016.</data>
+  <data key="d9">annual tracking,institutional performance</data>
+  <data key="d10">chunk-b8ccef36cc526f6c382444151fba3b19</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196844</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="École Polytechnique Fédérale de Lausanne">
+  <data key="d7">1.0</data>
+  <data key="d8">École Polytechnique Fédérale de Lausanne has associated performance metrics recorded annually from 2011 to 2016.</data>
+  <data key="d9">data tracking,institutional measurement</data>
+  <data key="d10">chunk-7cdf6049c6acace06a3396b27d543f7a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196910</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="LMU Munich">
+  <data key="d7">1.0</data>
+  <data key="d8">LMU Munich's performance is measured and tracked through numerical metrics over a six-year period.</data>
+  <data key="d9">data tracking,organizational performance</data>
+  <data key="d10">chunk-f6674b4e5c8a1507da11221fecd644cd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196962</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Performance Metrics" target="King's College London">
+  <data key="d7">1.0</data>
+  <data key="d8">King's College London's performance metrics demonstrate a consistent upward trend over the six-year period from 2011 to 2016.</data>
+  <data key="d9">data tracking,institutional performance</data>
+  <data key="d10">chunk-9946565d16304c690880ca3101d8694e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196993</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2011 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 91.2 in 2011.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2012 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 93.6 in 2012.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2013 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 93.7 in 2013.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2014 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 93.9 in 2014.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2015 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 93.2 in 2015.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Oxford" target="2016 Performance Metric">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Oxford achieved a performance score of 94.2 in 2016.</data>
+  <data key="d9">annual metrics,institutional performance</data>
+  <data key="d10">chunk-1dc5e371c5aa507a754a329d7fdaee3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2011 was measured at 91.2.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 91.1 in 2011.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2011 was measured at 78.4.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 69.2 in 2011.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2012 was measured at 92.4.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 89.8 in 2012.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2012 was measured at 83.2.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 72.0 in 2012.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2013 was measured at 92.6.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 90.5 in 2013.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2013 was measured at 85.5.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 76.1 in 2013.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2014 was measured at 92.3.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 89.8 in 2014.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2014 was measured at 77.6.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 67.5 in 2014.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2015 was measured at 92.0.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 89.5 in 2015.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2015 was measured at 78.7.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 70.4 in 2015.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Performance Metric" target="University Of Cambridge">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Cambridge's performance in 2016 was measured at 92.8.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-362d7f7032cb506afaf64e9b2bd8cdd6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196675</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Performance Metric" target="University Of California, Berkeley">
+  <data key="d7">1.0</data>
+  <data key="d8">University of California, Berkeley recorded a performance score of 87.2 in 2016.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-4c3aca4276a9723b65e9896804c2f2d7</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Performance Metric" target="University College London">
+  <data key="d7">1.0</data>
+  <data key="d8">University College London's performance in 2016 was measured at 87.1.</data>
+  <data key="d9">annual metrics,performance tracking</data>
+  <data key="d10">chunk-37a007ee3fd3c103e8cdf8696d0f2521</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196742</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Performance Metric" target="University Of Edinburgh">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Edinburgh recorded a performance score of 80.3 in 2016.</data>
+  <data key="d9">annual data,performance measurement</data>
+  <data key="d10">chunk-d51b5d90253e13fb1c8177079b99daad</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Yale University" target="Yale University Metrics 2011-2016">
+  <data key="d7">1.0</data>
+  <data key="d8">Yale University is associated with the metrics dataset that tracks its values from 2011 to 2016.</data>
+  <data key="d9">institutional data,performance tracking</data>
+  <data key="d10">chunk-9a22096d64784c21f23d9c1b6ff1f126</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196696</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Cornell University" target="Cornell University Performance Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Cornell University is associated with performance data collected across six years from 2011 to 2016.</data>
+  <data key="d9">annual tracking,institutional metrics</data>
+  <data key="d10">chunk-5526f8d2008c4d3b880412cb8436ef71</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196748</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Duke University" target="Duke University Performance Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Duke University is associated with performance data collected across six years from 2011 to 2016.</data>
+  <data key="d9">annual tracking,institutional metrics</data>
+  <data key="d10">chunk-d00b873da3f433c1cf6c2b67eee5bb67</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196760</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Washington" target="2011-2016 Performance Data">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Washington has associated performance data recorded across six years from 2011 to 2016.</data>
+  <data key="d9">annual performance,institutional metrics</data>
+  <data key="d10">chunk-90f558563bf04b46252a7f90786242ec</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196778</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2011-2016 Performance Data" target="Washington University in St Louis">
+  <data key="d7">1.0</data>
+  <data key="d8">Washington University in St Louis has associated performance data recorded across six years from 2011 to 2016.</data>
+  <data key="d9">annual tracking,institutional metrics</data>
+  <data key="d10">chunk-f7f16bbb94fdf497180207b8fae1766f</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196944</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University of Texas at Austin" target="2012 Data Point">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Texas at Austin has a recorded data value of 74.9 for the year 2012.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University of Texas at Austin" target="2013 Data Point">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Texas at Austin has a recorded data value of 78.8 for the year 2013.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University of Texas at Austin" target="2014 Data Point">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Texas at Austin has a recorded data value of 72.2 for the year 2014.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University of Texas at Austin" target="2015 Data Point">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Texas at Austin has a recorded data value of 72.3 for the year 2015.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University of Texas at Austin" target="2016 Data Point">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Texas at Austin has a recorded data value of 70.3 for the year 2016.</data>
+  <data key="d9">institutional data,temporal record</data>
+  <data key="d10">chunk-ecf2315ba9e807991aa697e669029b89</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2012 Data Point" target="University of Wisconsin-Madison">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Wisconsin-Madison has an associated data value of 75.8 for the year 2012.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196839</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2013 Data Point" target="University of Wisconsin-Madison">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Wisconsin-Madison has an associated data value of 76.9 for the year 2013.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196839</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2014 Data Point" target="University of Wisconsin-Madison">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Wisconsin-Madison has an associated data value of 71.1 for the year 2014.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196839</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2015 Data Point" target="University of Wisconsin-Madison">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Wisconsin-Madison has an associated data value of 71.9 for the year 2015.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196839</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2016 Data Point" target="University of Wisconsin-Madison">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Wisconsin-Madison has an associated data value of 69.7 for the year 2016.</data>
+  <data key="d9">institutional data,temporal measurement</data>
+  <data key="d10">chunk-0ce5542b0572856289de1e2ecd10d682</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196839</data>
+  <data key="d13"></data>
+</edge>
+<edge source="University Of Minnesota" target="2011-2016 Data Series">
+  <data key="d7">1.0</data>
+  <data key="d8">University of Minnesota is associated with the annual data series recorded from 2011 to 2016.</data>
+  <data key="d9">institutional metrics,performance tracking</data>
+  <data key="d10">chunk-aa1ed3c36f13ceadc1644a26c1e1b2ce</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1775196998</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

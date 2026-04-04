@@ -1,0 +1,25 @@
+Entity: HUN / WHOSIS_000001
+Year: 2000 | Value: 71.36114531
+Year: 2001 | Value: 72.40337452
+Year: 2002 | Value: 72.48544621
+Year: 2003 | Value: 72.45014443
+Year: 2004 | Value: 72.86168111
+Year: 2005 | Value: 72.84811882
+Year: 2006 | Value: 73.37194198
+Year: 2007 | Value: 73.45839333
+Year: 2008 | Value: 74.0004346
+Year: 2009 | Value: 74.22416063
+Year: 2010 | Value: 74.5619878
+Year: 2011 | Value: 74.90161819
+Year: 2012 | Value: 75.11315879
+Year: 2013 | Value: 75.59159743
+Year: 2014 | Value: 75.777258
+Year: 2015 | Value: 75.5700037
+Year: 2016 | Value: 76.07385445
+Year: 2017 | Value: 75.90176306
+Year: 2018 | Value: 76.08502162
+Year: 2019 | Value: 76.33548535
+Year: 2020 | Value: 75.76307465
+Year: 2021 | Value: 74.39546955
+Remark: Hungary
+Remark: Life expectancy at birth (years)

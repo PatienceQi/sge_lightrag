@@ -1,1 +1,8 @@
-Category: Yale University > SubCategory: United States of America | 2011: 89.5 | 2012: 89.1 | 2013: 89.2 | 2014: 87.4 | 2015: 87.5 | 2016: 87.4
+Entity: Yale University
+Year: 2011 | Value: 89.5
+Year: 2012 | Value: 89.1
+Year: 2013 | Value: 89.2
+Year: 2014 | Value: 87.4
+Year: 2015 | Value: 87.5
+Year: 2016 | Value: 87.4
+Country: United States of America

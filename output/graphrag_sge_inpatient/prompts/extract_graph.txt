@@ -1,0 +1,114 @@
+-Goal-
+Given a text document containing Hong Kong inpatient hospital statistics data (2023), extract entities and relationships using ONLY the SGE domain schema below. The text is in Chinese (Simplified) and contains ICD codes, disease names, and numeric statistics.
+
+---SGE Domain Schema---
+Entity types: [{entity_types}]
+  - Disease_Category: A Hong Kong disease category identified by ICD-10 code and Chinese name. Each chunk header "Disease: ICD_CODE / DISEASE_NAME" contains exactly one Disease_Category. Use the Chinese disease name as the entity name.
+  - StatValue: A statistical measurement for a specific disease and metric type, encoded as "ICD_CODE_METRIC=VALUE" (e.g., "J12-J18_INPATIENT_TOTAL=60614").
+
+Relationship types:
+  - INPATIENT_TOTAL: Total inpatient discharges and deaths (住院病人出院及死亡人次*-合计)
+    Pattern: (Disease_Category) --[INPATIENT_TOTAL]--> (StatValue)
+  - INPATIENT_HA_HOSPITAL: Inpatient count in Hospital Authority hospitals (医院管理局辖下医院)
+    Pattern: (Disease_Category) --[INPATIENT_HA_HOSPITAL]--> (StatValue)
+  - REGISTERED_DEATHS: Total registered deaths in Hong Kong (全港登记死亡人数-合计)
+    Pattern: (Disease_Category) --[REGISTERED_DEATHS]--> (StatValue)
+
+Extraction constraints (MANDATORY):
+  1. Extract EXACTLY ONE Disease_Category entity per chunk (from "Disease: ICD_CODE / DISEASE_NAME"). Use the Chinese disease name as the entity name (e.g., "肺炎", "肾衰竭").
+  2. For the "INPATIENT_TOTAL: V" line, create one StatValue entity named "ICD_CODE_INPATIENT_TOTAL=V" and one INPATIENT_TOTAL relationship.
+  3. For the "INPATIENT_HA_HOSPITAL: V" line, create one StatValue entity named "ICD_CODE_INPATIENT_HA_HOSPITAL=V" and one INPATIENT_HA_HOSPITAL relationship.
+  4. For the "REGISTERED_DEATHS: V" line, create one StatValue entity named "ICD_CODE_REGISTERED_DEATHS=V" and one REGISTERED_DEATHS relationship.
+  5. Preserve the EXACT integer value from the text — never round or truncate.
+  6. Do NOT create entities for: ICD codes alone, remarks, male/female breakdown values, prison hospital values, private hospital values.
+  7. Use ONLY Disease_Category and StatValue as entity types.
+  8. The entity name for Disease_Category MUST be the Chinese disease name (e.g., "肺炎"), NOT the ICD code.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, as specified in the schema above
+- entity_type: One of the following types: [{entity_types}]
+- entity_description: Brief description including the ICD code and full numeric value
+Format each entity as ("entity"<|><entity_name><|><entity_type><|><entity_description>)
+
+2. From the entities identified in step 1, identify all relationships:
+- source_entity: the Disease_Category entity name (Chinese disease name)
+- target_entity: the StatValue entity name (ICD_CODE_METRIC=VALUE)
+- relationship_description: "<disease_name> (ICD: <icd_code>) had <metric> of <value> in 2023"
+- relationship_strength: 9
+Format each relationship as ("relationship"<|><source_entity><|><target_entity><|><relationship_description><|><relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **##** as the list delimiter.
+
+4. When finished, output <|COMPLETE|>
+
+######################
+-Examples-
+######################
+Example 1:
+Entity_types: Disease_Category,StatValue
+Text:
+Disease: J12-J18 / 肺炎
+INPATIENT_HA_HOSPITAL: 55487
+INPATIENT_PRIVATE_HOSPITAL: 5127
+INPATIENT_TOTAL: 60614
+REGISTERED_DEATHS_MALE: 6166
+REGISTERED_DEATHS_FEMALE: 5168
+REGISTERED_DEATHS: 11334
+Remark: ICD J12-J18
+Remark: 肺炎
+######################
+Output:
+("entity"<|>肺炎<|>Disease_Category<|>Pneumonia (肺炎), ICD J12-J18, Hong Kong inpatient data 2023)
+##
+("entity"<|>J12-J18_INPATIENT_TOTAL=60614<|>StatValue<|>肺炎 total inpatient discharges and deaths in 2023: 60614 cases)
+##
+("entity"<|>J12-J18_INPATIENT_HA_HOSPITAL=55487<|>StatValue<|>肺炎 Hospital Authority inpatient count in 2023: 55487 cases)
+##
+("entity"<|>J12-J18_REGISTERED_DEATHS=11334<|>StatValue<|>肺炎 registered deaths in Hong Kong 2023: 11334 persons)
+##
+("relationship"<|>肺炎<|>J12-J18_INPATIENT_TOTAL=60614<|>肺炎 (ICD: J12-J18) had total inpatient discharges and deaths of 60614 in 2023<|>9)
+##
+("relationship"<|>肺炎<|>J12-J18_INPATIENT_HA_HOSPITAL=55487<|>肺炎 (ICD: J12-J18) had Hospital Authority inpatient count of 55487 in 2023<|>9)
+##
+("relationship"<|>肺炎<|>J12-J18_REGISTERED_DEATHS=11334<|>肺炎 (ICD: J12-J18) had registered deaths of 11334 in Hong Kong 2023<|>9)
+<|COMPLETE|>
+
+######################
+Example 2:
+Entity_types: Disease_Category,StatValue
+Text:
+Disease: N17-N19 / 肾衰竭
+INPATIENT_HA_HOSPITAL: 190562
+INPATIENT_PRISON_HOSPITAL: 4
+INPATIENT_PRIVATE_HOSPITAL: 6051
+INPATIENT_TOTAL: 196617
+REGISTERED_DEATHS_MALE: 763
+REGISTERED_DEATHS_FEMALE: 842
+REGISTERED_DEATHS: 1605
+Remark: ICD N17-N19
+Remark: 肾衰竭
+######################
+Output:
+("entity"<|>肾衰竭<|>Disease_Category<|>Renal failure (肾衰竭), ICD N17-N19, Hong Kong inpatient data 2023)
+##
+("entity"<|>N17-N19_INPATIENT_TOTAL=196617<|>StatValue<|>肾衰竭 total inpatient discharges and deaths in 2023: 196617 cases)
+##
+("entity"<|>N17-N19_INPATIENT_HA_HOSPITAL=190562<|>StatValue<|>肾衰竭 Hospital Authority inpatient count in 2023: 190562 cases)
+##
+("entity"<|>N17-N19_REGISTERED_DEATHS=1605<|>StatValue<|>肾衰竭 registered deaths in Hong Kong 2023: 1605 persons)
+##
+("relationship"<|>肾衰竭<|>N17-N19_INPATIENT_TOTAL=196617<|>肾衰竭 (ICD: N17-N19) had total inpatient discharges and deaths of 196617 in 2023<|>9)
+##
+("relationship"<|>肾衰竭<|>N17-N19_INPATIENT_HA_HOSPITAL=190562<|>肾衰竭 (ICD: N17-N19) had Hospital Authority inpatient count of 190562 in 2023<|>9)
+##
+("relationship"<|>肾衰竭<|>N17-N19_REGISTERED_DEATHS=1605<|>肾衰竭 (ICD: N17-N19) had registered deaths of 1605 in Hong Kong 2023<|>9)
+<|COMPLETE|>
+
+######################
+-Real Data-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
+######################
+Output:

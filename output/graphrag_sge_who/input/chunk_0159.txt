@@ -1,0 +1,25 @@
+Entity: STP / WHOSIS_000001
+Year: 2000 | Value: 63.12867264
+Year: 2001 | Value: 63.93324972
+Year: 2002 | Value: 64.65366231
+Year: 2003 | Value: 65.23040933
+Year: 2004 | Value: 65.71008672
+Year: 2005 | Value: 66.27283192
+Year: 2006 | Value: 66.784757
+Year: 2007 | Value: 67.22798633
+Year: 2008 | Value: 67.68827914
+Year: 2009 | Value: 68.39802803
+Year: 2010 | Value: 68.81769379
+Year: 2011 | Value: 69.19904607
+Year: 2012 | Value: 69.53766595
+Year: 2013 | Value: 69.94836441
+Year: 2014 | Value: 70.26367532
+Year: 2015 | Value: 70.55687146
+Year: 2016 | Value: 70.89699364
+Year: 2017 | Value: 71.25615442
+Year: 2018 | Value: 71.4403986
+Year: 2019 | Value: 71.65568515
+Year: 2020 | Value: 71.25244214
+Year: 2021 | Value: 71.17810896
+Remark: Sao Tome and Principe
+Remark: Life expectancy at birth (years)

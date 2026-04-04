@@ -1,1 +1,8 @@
-Category: University of Melbourne > SubCategory: Australia | 2011: 71.0 | 2012: 71.9 | 2013: 77.9 | 2014: 68.2 | 2015: 71.2 | 2016: 75.4
+Entity: University of Melbourne
+Year: 2011 | Value: 71.0
+Year: 2012 | Value: 71.9
+Year: 2013 | Value: 77.9
+Year: 2014 | Value: 68.2
+Year: 2015 | Value: 71.2
+Year: 2016 | Value: 75.4
+Country: Australia

@@ -1,0 +1,25 @@
+Entity: CPV / WHOSIS_000001
+Year: 2000 | Value: 71.69763358
+Year: 2001 | Value: 71.98653007
+Year: 2002 | Value: 72.18506527
+Year: 2003 | Value: 72.33302782
+Year: 2004 | Value: 72.44024713
+Year: 2005 | Value: 72.6194338
+Year: 2006 | Value: 73.4096215
+Year: 2007 | Value: 73.46976452
+Year: 2008 | Value: 73.93039416
+Year: 2009 | Value: 73.98241137
+Year: 2010 | Value: 74.23169531
+Year: 2011 | Value: 74.33323277
+Year: 2012 | Value: 74.4642814
+Year: 2013 | Value: 74.70386595
+Year: 2014 | Value: 74.86891105
+Year: 2015 | Value: 74.82831017
+Year: 2016 | Value: 74.86326568
+Year: 2017 | Value: 74.91155361
+Year: 2018 | Value: 73.8583216
+Year: 2019 | Value: 74.05989707
+Year: 2020 | Value: 73.66739044
+Year: 2021 | Value: 73.16097765
+Remark: Cabo Verde
+Remark: Life expectancy at birth (years)

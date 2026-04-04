@@ -1,0 +1,103 @@
+{
+  "description": "OOD evaluation with auto-fallback (edge/node ratio threshold = 0.9)",
+  "threshold": 0.9,
+  "datasets": [
+    {
+      "dataset": "cereal_production",
+      "sge_fc": 0.95,
+      "base_fc": 0.05,
+      "edge_node_ratio": 0.9568,
+      "fallback_triggered": false,
+      "final_fc": 0.95,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "co2_emissions",
+      "sge_fc": 0.7,
+      "base_fc": 0.025,
+      "edge_node_ratio": 0.957,
+      "fallback_triggered": false,
+      "final_fc": 0.7,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "education_spending",
+      "sge_fc": 0.609,
+      "base_fc": 0.0,
+      "edge_node_ratio": 0.9431,
+      "fallback_triggered": false,
+      "final_fc": 0.609,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "gdp_growth",
+      "sge_fc": 0.475,
+      "base_fc": 0.025,
+      "edge_node_ratio": 0.9577,
+      "fallback_triggered": false,
+      "final_fc": 0.475,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "health_expenditure",
+      "sge_fc": 0.55,
+      "base_fc": 0.05,
+      "edge_node_ratio": 0.9583,
+      "fallback_triggered": false,
+      "final_fc": 0.55,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "immunization_dpt",
+      "sge_fc": 0.0,
+      "base_fc": 0.3,
+      "edge_node_ratio": 0.0,
+      "fallback_triggered": true,
+      "final_fc": 0.3,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "immunization_measles",
+      "sge_fc": 0.0,
+      "base_fc": 0.325,
+      "edge_node_ratio": 0.0,
+      "fallback_triggered": true,
+      "final_fc": 0.325,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "literacy_rate",
+      "sge_fc": 0.6,
+      "base_fc": 0.1,
+      "edge_node_ratio": 0.9603,
+      "fallback_triggered": false,
+      "final_fc": 0.6,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "population_growth",
+      "sge_fc": 0.625,
+      "base_fc": 0.075,
+      "edge_node_ratio": 0.9567,
+      "fallback_triggered": false,
+      "final_fc": 0.625,
+      "geq_baseline": true
+    },
+    {
+      "dataset": "unemployment",
+      "sge_fc": 0.025,
+      "base_fc": 0.125,
+      "edge_node_ratio": 0.7934,
+      "fallback_triggered": true,
+      "final_fc": 0.125,
+      "geq_baseline": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sge_wins": 7,
+    "fallback_triggered": 3,
+    "geq_baseline_count": 10,
+    "all_geq_baseline": true
+  }
+}

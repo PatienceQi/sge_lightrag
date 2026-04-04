@@ -1,1 +1,8 @@
-Category: University of Edinburgh > SubCategory: United Kingdom | 2011: 69.2 | 2012: 72.0 | 2013: 76.1 | 2014: 67.5 | 2015: 70.4 | 2016: 80.3
+Entity: University of Edinburgh
+Year: 2011 | Value: 69.2
+Year: 2012 | Value: 72.0
+Year: 2013 | Value: 76.1
+Year: 2014 | Value: 67.5
+Year: 2015 | Value: 70.4
+Year: 2016 | Value: 80.3
+Country: United Kingdom

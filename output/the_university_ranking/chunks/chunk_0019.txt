@@ -1,1 +1,8 @@
-Category: Cornell University > SubCategory: United States of America | 2011: 83.9 | 2012: 80.5 | 2013: 83.3 | 2014: 79.1 | 2015: 79.4 | 2016: 84.0
+Entity: Cornell University
+Year: 2011 | Value: 83.9
+Year: 2012 | Value: 80.5
+Year: 2013 | Value: 83.3
+Year: 2014 | Value: 79.1
+Year: 2015 | Value: 79.4
+Year: 2016 | Value: 84.0
+Country: United States of America

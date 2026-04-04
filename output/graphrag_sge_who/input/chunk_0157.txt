@@ -1,0 +1,25 @@
+Entity: SRB / WHOSIS_000001
+Year: 2000 | Value: 71.49721977
+Year: 2001 | Value: 72.28188573
+Year: 2002 | Value: 72.31660412
+Year: 2003 | Value: 72.44791076
+Year: 2004 | Value: 72.65350507
+Year: 2005 | Value: 72.78382532
+Year: 2006 | Value: 73.38118952
+Year: 2007 | Value: 73.57700553
+Year: 2008 | Value: 73.82988623
+Year: 2009 | Value: 73.97356349
+Year: 2010 | Value: 74.27310939
+Year: 2011 | Value: 74.54862943
+Year: 2012 | Value: 74.84163486
+Year: 2013 | Value: 75.22896744
+Year: 2014 | Value: 75.32134955
+Year: 2015 | Value: 75.27946837
+Year: 2016 | Value: 75.67951218
+Year: 2017 | Value: 75.57063328
+Year: 2018 | Value: 75.88354818
+Year: 2019 | Value: 75.91665371
+Year: 2020 | Value: 74.43296608
+Year: 2021 | Value: 72.80891574
+Remark: Serbia
+Remark: Life expectancy at birth (years)

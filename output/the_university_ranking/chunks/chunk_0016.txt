@@ -1,1 +1,8 @@
-Category: University of Pennsylvania > SubCategory: United States of America | 2011: 79.5 | 2012: 84.9 | 2013: 86.6 | 2014: 81.0 | 2015: 81.0 | 2016: 85.2
+Entity: University of Pennsylvania
+Year: 2011 | Value: 79.5
+Year: 2012 | Value: 84.9
+Year: 2013 | Value: 86.6
+Year: 2014 | Value: 81.0
+Year: 2015 | Value: 81.0
+Year: 2016 | Value: 85.2
+Country: United States of America

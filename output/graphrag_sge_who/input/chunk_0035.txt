@@ -1,0 +1,25 @@
+Entity: CIV / WHOSIS_000001
+Year: 2000 | Value: 51.16878476
+Year: 2001 | Value: 51.50148868
+Year: 2002 | Value: 51.80536737
+Year: 2003 | Value: 52.20445217
+Year: 2004 | Value: 52.80209302
+Year: 2005 | Value: 53.84685304
+Year: 2006 | Value: 54.91662177
+Year: 2007 | Value: 55.73160801
+Year: 2008 | Value: 56.57054792
+Year: 2009 | Value: 57.18053039
+Year: 2010 | Value: 57.33114203
+Year: 2011 | Value: 57.55420401
+Year: 2012 | Value: 58.54983117
+Year: 2013 | Value: 59.30998362
+Year: 2014 | Value: 60.06789432
+Year: 2015 | Value: 60.9342411
+Year: 2016 | Value: 61.62678525
+Year: 2017 | Value: 62.27592918
+Year: 2018 | Value: 62.90790762
+Year: 2019 | Value: 63.48479652
+Year: 2020 | Value: 63.31088991
+Year: 2021 | Value: 63.5174083
+Remark: Cote d'Ivoire
+Remark: Life expectancy at birth (years)

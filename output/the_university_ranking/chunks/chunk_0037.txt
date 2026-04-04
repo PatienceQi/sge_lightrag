@@ -1,1 +1,8 @@
-Category: University of California, San Diego > SubCategory: United States of America | 2011: 73.2 | 2012: 73.0 | 2013: 75.2 | 2014: 67.4 | 2015: 68.6 | 2016: 72.2
+Entity: University of California, San Diego
+Year: 2011 | Value: 73.2
+Year: 2012 | Value: 73.0
+Year: 2013 | Value: 75.2
+Year: 2014 | Value: 67.4
+Year: 2015 | Value: 68.6
+Year: 2016 | Value: 72.2
+Country: United States of America

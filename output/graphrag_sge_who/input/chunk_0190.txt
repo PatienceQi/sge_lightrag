@@ -1,0 +1,24 @@
+Entity: WB_UMI / WHOSIS_000001
+Year: 2000 | Value: 69.79700261
+Year: 2001 | Value: 70.02443002
+Year: 2002 | Value: 70.1811273
+Year: 2003 | Value: 70.31483368
+Year: 2004 | Value: 70.37973198
+Year: 2005 | Value: 70.9395141
+Year: 2006 | Value: 71.61510574
+Year: 2007 | Value: 72.11880953
+Year: 2008 | Value: 72.3619814
+Year: 2009 | Value: 72.7546341
+Year: 2010 | Value: 73.03544767
+Year: 2011 | Value: 73.48016867
+Year: 2012 | Value: 73.925872
+Year: 2013 | Value: 74.28341937
+Year: 2014 | Value: 74.53468804
+Year: 2015 | Value: 74.81672772
+Year: 2016 | Value: 74.97657756
+Year: 2017 | Value: 75.28837476
+Year: 2018 | Value: 75.50618266
+Year: 2019 | Value: 75.66886287
+Year: 2020 | Value: 74.89743849
+Year: 2021 | Value: 74.23577164
+Remark: Life expectancy at birth (years)

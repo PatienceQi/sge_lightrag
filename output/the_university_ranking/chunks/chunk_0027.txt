@@ -1,1 +1,8 @@
-Category: University of British Columbia > SubCategory: Canada | 2011: 73.8 | 2012: 77.4 | 2013: 77.3 | 2014: 70.8 | 2015: 71.8 | 2016: 75.3
+Entity: University of British Columbia
+Year: 2011 | Value: 73.8
+Year: 2012 | Value: 77.4
+Year: 2013 | Value: 77.3
+Year: 2014 | Value: 70.8
+Year: 2015 | Value: 71.8
+Year: 2016 | Value: 75.3
+Country: Canada

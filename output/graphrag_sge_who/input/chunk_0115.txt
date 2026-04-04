@@ -1,0 +1,25 @@
+Entity: MLT / WHOSIS_000001
+Year: 2000 | Value: 77.81522196
+Year: 2001 | Value: 78.11450102
+Year: 2002 | Value: 78.4088864
+Year: 2003 | Value: 78.67686
+Year: 2004 | Value: 78.90071191
+Year: 2005 | Value: 79.12587951
+Year: 2006 | Value: 79.36712993
+Year: 2007 | Value: 79.64226641
+Year: 2008 | Value: 79.93204914
+Year: 2009 | Value: 80.24911661
+Year: 2010 | Value: 80.4834984
+Year: 2011 | Value: 80.71689503
+Year: 2012 | Value: 80.93951926
+Year: 2013 | Value: 81.20455704
+Year: 2014 | Value: 81.45292313
+Year: 2015 | Value: 81.67976101
+Year: 2016 | Value: 81.88080877
+Year: 2017 | Value: 82.05744637
+Year: 2018 | Value: 82.26456738
+Year: 2019 | Value: 82.14647613
+Year: 2020 | Value: 82.01477782
+Year: 2021 | Value: 81.81193837
+Remark: Malta
+Remark: Life expectancy at birth (years)

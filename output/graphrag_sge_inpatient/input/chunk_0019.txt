@@ -1,0 +1,6 @@
+Disease: A50 / 先天性梅毒
+INPATIENT_HA_HOSPITAL: 4
+INPATIENT_TOTAL: 4
+REGISTERED_DEATHS: 0
+Remark: ICD A50
+Remark: 先天性梅毒

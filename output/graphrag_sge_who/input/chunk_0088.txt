@@ -1,0 +1,25 @@
+Entity: JAM / WHOSIS_000001
+Year: 2000 | Value: 72.25330071
+Year: 2001 | Value: 72.14321688
+Year: 2002 | Value: 73.03304352
+Year: 2003 | Value: 73.46076447
+Year: 2004 | Value: 73.7183442
+Year: 2005 | Value: 71.36246208
+Year: 2006 | Value: 74.44972953
+Year: 2007 | Value: 69.58643623
+Year: 2008 | Value: 70.6377363
+Year: 2009 | Value: 72.19787809
+Year: 2010 | Value: 73.95794492
+Year: 2011 | Value: 72.86139713
+Year: 2012 | Value: 74.19029935
+Year: 2013 | Value: 74.2198557
+Year: 2014 | Value: 73.23854714
+Year: 2015 | Value: 72.28943851
+Year: 2016 | Value: 72.33025467
+Year: 2017 | Value: 72.33086714
+Year: 2018 | Value: 72.51790169
+Year: 2019 | Value: 72.23602877
+Year: 2020 | Value: 72.64037778
+Year: 2021 | Value: 70.1439437
+Remark: Jamaica
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: TUN / WHOSIS_000001
+Year: 2000 | Value: 74.30098477
+Year: 2001 | Value: 74.55599136
+Year: 2002 | Value: 74.75755844
+Year: 2003 | Value: 74.95127697
+Year: 2004 | Value: 75.17294716
+Year: 2005 | Value: 75.37276042
+Year: 2006 | Value: 75.57522085
+Year: 2007 | Value: 75.74953958
+Year: 2008 | Value: 75.92697277
+Year: 2009 | Value: 76.07616117
+Year: 2010 | Value: 76.21500138
+Year: 2011 | Value: 76.36110917
+Year: 2012 | Value: 76.52515319
+Year: 2013 | Value: 76.61373105
+Year: 2014 | Value: 76.6974822
+Year: 2015 | Value: 76.78627015
+Year: 2016 | Value: 76.91365109
+Year: 2017 | Value: 77.03145853
+Year: 2018 | Value: 77.23195746
+Year: 2019 | Value: 77.50537971
+Year: 2020 | Value: 77.12175333
+Year: 2021 | Value: 74.06842662
+Remark: Tunisia
+Remark: Life expectancy at birth (years)

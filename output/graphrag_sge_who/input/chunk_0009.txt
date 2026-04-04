@@ -1,0 +1,25 @@
+Entity: ATG / WHOSIS_000001
+Year: 2000 | Value: 74.39228457
+Year: 2001 | Value: 74.69656338
+Year: 2002 | Value: 74.99067045
+Year: 2003 | Value: 75.21279447
+Year: 2004 | Value: 75.37748429
+Year: 2005 | Value: 75.53604558
+Year: 2006 | Value: 75.54507792
+Year: 2007 | Value: 74.95910853
+Year: 2008 | Value: 75.05552794
+Year: 2009 | Value: 75.51285045
+Year: 2010 | Value: 75.57823922
+Year: 2011 | Value: 75.62067241
+Year: 2012 | Value: 75.66312684
+Year: 2013 | Value: 75.71757904
+Year: 2014 | Value: 75.59206584
+Year: 2015 | Value: 75.61540401
+Year: 2016 | Value: 75.54812509
+Year: 2017 | Value: 75.565575
+Year: 2018 | Value: 75.62352245
+Year: 2019 | Value: 75.65878463
+Year: 2020 | Value: 77.61326031
+Year: 2021 | Value: 76.91527032
+Remark: Antigua and Barbuda
+Remark: Life expectancy at birth (years)

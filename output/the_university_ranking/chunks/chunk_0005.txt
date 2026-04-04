@@ -1,1 +1,8 @@
-Category: Massachusetts Institute of Technology > SubCategory: United States of America | 2011: 95.6 | 2012: 92.3 | 2013: 93.1 | 2014: 93.0 | 2015: 91.9 | 2016: 92.0
+Entity: Massachusetts Institute of Technology
+Year: 2011 | Value: 95.6
+Year: 2012 | Value: 92.3
+Year: 2013 | Value: 93.1
+Year: 2014 | Value: 93.0
+Year: 2015 | Value: 91.9
+Year: 2016 | Value: 92.0
+Country: United States of America

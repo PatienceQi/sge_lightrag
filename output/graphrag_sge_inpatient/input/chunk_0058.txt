@@ -1,0 +1,6 @@
+Disease: B91 / 脊髓灰质炎后遗症
+INPATIENT_HA_HOSPITAL: 1
+INPATIENT_TOTAL: 1
+REGISTERED_DEATHS: 0
+Remark: ICD B91
+Remark: 脊髓灰质炎后遗症

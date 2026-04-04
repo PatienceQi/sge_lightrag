@@ -1,0 +1,25 @@
+Entity: KAZ / WHOSIS_000001
+Year: 2000 | Value: 64.35326131
+Year: 2001 | Value: 64.70931637
+Year: 2002 | Value: 65.03142074
+Year: 2003 | Value: 64.77834271
+Year: 2004 | Value: 65.11633982
+Year: 2005 | Value: 65.06712568
+Year: 2006 | Value: 65.42456634
+Year: 2007 | Value: 65.80148574
+Year: 2008 | Value: 67.14338476
+Year: 2009 | Value: 68.51597079
+Year: 2010 | Value: 68.51031045
+Year: 2011 | Value: 69.12835849
+Year: 2012 | Value: 69.67761395
+Year: 2013 | Value: 70.6757737
+Year: 2014 | Value: 71.47528342
+Year: 2015 | Value: 71.97923102
+Year: 2016 | Value: 72.39593644
+Year: 2017 | Value: 72.96750185
+Year: 2018 | Value: 73.16779578
+Year: 2019 | Value: 73.20279408
+Year: 2020 | Value: 71.3205391
+Year: 2021 | Value: 70.27511981
+Remark: Kazakhstan
+Remark: Life expectancy at birth (years)

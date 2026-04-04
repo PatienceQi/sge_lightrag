@@ -1,0 +1,25 @@
+Entity: KIR / WHOSIS_000001
+Year: 2000 | Value: 60.08437065
+Year: 2001 | Value: 60.39204806
+Year: 2002 | Value: 60.60035552
+Year: 2003 | Value: 60.80039427
+Year: 2004 | Value: 60.91263256
+Year: 2005 | Value: 61.01859221
+Year: 2006 | Value: 61.1004495
+Year: 2007 | Value: 61.1868882
+Year: 2008 | Value: 61.27006207
+Year: 2009 | Value: 61.32259565
+Year: 2010 | Value: 61.36040242
+Year: 2011 | Value: 61.40193967
+Year: 2012 | Value: 61.47703351
+Year: 2013 | Value: 61.57296264
+Year: 2014 | Value: 61.63073757
+Year: 2015 | Value: 61.68537375
+Year: 2016 | Value: 61.75804085
+Year: 2017 | Value: 61.81777917
+Year: 2018 | Value: 60.74880481
+Year: 2019 | Value: 62.13784891
+Year: 2020 | Value: 61.87697198
+Year: 2021 | Value: 60.87345633
+Remark: Kiribati
+Remark: Life expectancy at birth (years)

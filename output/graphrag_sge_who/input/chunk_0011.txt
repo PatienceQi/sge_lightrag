@@ -1,0 +1,25 @@
+Entity: AUT / WHOSIS_000001
+Year: 2000 | Value: 78.17598734
+Year: 2001 | Value: 78.64264138
+Year: 2002 | Value: 78.70354232
+Year: 2003 | Value: 78.62740132
+Year: 2004 | Value: 79.11359324
+Year: 2005 | Value: 79.32619587
+Year: 2006 | Value: 79.80520182
+Year: 2007 | Value: 80.0322621
+Year: 2008 | Value: 80.26667316
+Year: 2009 | Value: 80.12103248
+Year: 2010 | Value: 80.39157197
+Year: 2011 | Value: 80.73795859
+Year: 2012 | Value: 80.71875852
+Year: 2013 | Value: 80.91227276
+Year: 2014 | Value: 81.23527679
+Year: 2015 | Value: 80.98621911
+Year: 2016 | Value: 81.38820091
+Year: 2017 | Value: 81.38857295
+Year: 2018 | Value: 81.42361625
+Year: 2019 | Value: 81.64847998
+Year: 2020 | Value: 81.08512036
+Year: 2021 | Value: 80.99297519
+Remark: Austria
+Remark: Life expectancy at birth (years)

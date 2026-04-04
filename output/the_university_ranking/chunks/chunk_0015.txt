@@ -1,1 +1,8 @@
-Category: Columbia University > SubCategory: United States of America | 2011: 81.0 | 2012: 87.5 | 2013: 87.0 | 2014: 85.2 | 2015: 84.4 | 2016: 86.1
+Entity: Columbia University
+Year: 2011 | Value: 81.0
+Year: 2012 | Value: 87.5
+Year: 2013 | Value: 87.0
+Year: 2014 | Value: 85.2
+Year: 2015 | Value: 84.4
+Year: 2016 | Value: 86.1
+Country: United States of America

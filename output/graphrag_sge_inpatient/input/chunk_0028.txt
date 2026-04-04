@@ -1,0 +1,6 @@
+Disease: A80 / 急性脊髓灰质炎
+INPATIENT_HA_HOSPITAL: 3
+INPATIENT_TOTAL: 3
+REGISTERED_DEATHS: 0
+Remark: ICD A80
+Remark: 急性脊髓灰质炎

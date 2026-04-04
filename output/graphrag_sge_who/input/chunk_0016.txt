@@ -1,0 +1,25 @@
+Entity: BFA / WHOSIS_000001
+Year: 2000 | Value: 51.8877146
+Year: 2001 | Value: 52.3617692
+Year: 2002 | Value: 52.90685822
+Year: 2003 | Value: 53.57987835
+Year: 2004 | Value: 54.3424593
+Year: 2005 | Value: 55.19811279
+Year: 2006 | Value: 55.97968949
+Year: 2007 | Value: 56.71279625
+Year: 2008 | Value: 57.43072999
+Year: 2009 | Value: 58.06655977
+Year: 2010 | Value: 58.61217661
+Year: 2011 | Value: 59.07175267
+Year: 2012 | Value: 59.51806294
+Year: 2013 | Value: 59.96461158
+Year: 2014 | Value: 60.46448541
+Year: 2015 | Value: 60.94298433
+Year: 2016 | Value: 61.35518157
+Year: 2017 | Value: 61.8809308
+Year: 2018 | Value: 62.36096547
+Year: 2019 | Value: 62.61228276
+Year: 2020 | Value: 62.92621842
+Year: 2021 | Value: 62.29728841
+Remark: Burkina Faso
+Remark: Life expectancy at birth (years)

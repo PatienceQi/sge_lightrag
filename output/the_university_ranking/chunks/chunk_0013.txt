@@ -1,1 +1,8 @@
-Category: ETH Zurich – Swiss Federal Institute of Technology Zurich > SubCategory: Switzerland | 2011: 83.4 | 2012: 85.0 | 2013: 87.8 | 2014: 84.5 | 2015: 84.6 | 2016: 88.3
+Entity: ETH Zurich – Swiss Federal Institute of Technology Zurich
+Year: 2011 | Value: 83.4
+Year: 2012 | Value: 85.0
+Year: 2013 | Value: 87.8
+Year: 2014 | Value: 84.5
+Year: 2015 | Value: 84.6
+Year: 2016 | Value: 88.3
+Country: Switzerland

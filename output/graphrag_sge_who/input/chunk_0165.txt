@@ -1,0 +1,25 @@
+Entity: SYC / WHOSIS_000001
+Year: 2000 | Value: 72.10530836
+Year: 2001 | Value: 72.22760033
+Year: 2002 | Value: 72.11976114
+Year: 2003 | Value: 72.02646689
+Year: 2004 | Value: 72.21510064
+Year: 2005 | Value: 72.35775752
+Year: 2006 | Value: 72.35760551
+Year: 2007 | Value: 72.47348081
+Year: 2008 | Value: 72.66235739
+Year: 2009 | Value: 72.84593273
+Year: 2010 | Value: 73.11877031
+Year: 2011 | Value: 73.29952908
+Year: 2012 | Value: 73.25421096
+Year: 2013 | Value: 73.28849847
+Year: 2014 | Value: 73.23814592
+Year: 2015 | Value: 73.16237091
+Year: 2016 | Value: 73.07491735
+Year: 2017 | Value: 73.0936681
+Year: 2018 | Value: 73.08090426
+Year: 2019 | Value: 73.12375678
+Year: 2020 | Value: 77.26435364
+Year: 2021 | Value: 74.01196664
+Remark: Seychelles
+Remark: Life expectancy at birth (years)

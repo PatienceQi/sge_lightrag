@@ -1,0 +1,25 @@
+Entity: CHN / WHOSIS_000001
+Year: 2000 | Value: 70.83886138
+Year: 2001 | Value: 71.13400253
+Year: 2002 | Value: 71.4546616
+Year: 2003 | Value: 71.68827313
+Year: 2004 | Value: 71.93150989
+Year: 2005 | Value: 72.44256077
+Year: 2006 | Value: 73.28900157
+Year: 2007 | Value: 73.8389379
+Year: 2008 | Value: 73.99659977
+Year: 2009 | Value: 74.38654953
+Year: 2010 | Value: 74.65168239
+Year: 2011 | Value: 75.03511843
+Year: 2012 | Value: 75.48068539
+Year: 2013 | Value: 75.84030781
+Year: 2014 | Value: 76.19910536
+Year: 2015 | Value: 76.5103545
+Year: 2016 | Value: 76.71571735
+Year: 2017 | Value: 76.94625698
+Year: 2018 | Value: 77.14021145
+Year: 2019 | Value: 77.31273653
+Year: 2020 | Value: 77.48113543
+Year: 2021 | Value: 77.61619672
+Remark: China
+Remark: Life expectancy at birth (years)

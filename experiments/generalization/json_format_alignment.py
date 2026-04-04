@@ -66,6 +66,7 @@ ALL_CONDITIONS = [
     "json_flat_schema",
     "json_flat_default",
     "markdown_structured_schema",
+    "markdown_structured_default",
     "markdown_flat_schema",
 ]
 
@@ -426,6 +427,7 @@ async def main() -> None:
         "json_flat_schema":          (format_json_flat(df, countries), True),
         "json_flat_default":         (format_json_flat(df, countries), False),
         "markdown_structured_schema": (format_markdown_structured(df, countries), True),
+        "markdown_structured_default": (format_markdown_structured(df, countries), False),
         "markdown_flat_schema":      (format_markdown_flat(df, countries), True),
     }
 
@@ -435,6 +437,7 @@ async def main() -> None:
         "json_flat_schema":          {"format": "JSON-wrapped CSV", "schema": True},
         "json_flat_default":         {"format": "JSON-wrapped CSV", "schema": False},
         "markdown_structured_schema": {"format": "Markdown table", "schema": True},
+        "markdown_structured_default": {"format": "Markdown table", "schema": False},
         "markdown_flat_schema":      {"format": "Raw text", "schema": True},
     }
 

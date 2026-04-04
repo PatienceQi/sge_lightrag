@@ -1,1 +1,8 @@
-Category: Washington University in St Louis > SubCategory: United States of America | 2011: 69.9 | 2012: 70.5 | 2013: 71.8 | 2014: 67.2 | 2015: 67.8 | 2016: 67.0
+Entity: Washington University in St Louis
+Year: 2011 | Value: 69.9
+Year: 2012 | Value: 70.5
+Year: 2013 | Value: 71.8
+Year: 2014 | Value: 67.2
+Year: 2015 | Value: 67.8
+Year: 2016 | Value: 67.0
+Country: United States of America

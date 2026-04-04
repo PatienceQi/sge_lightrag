@@ -1,0 +1,25 @@
+Entity: GHA / WHOSIS_000001
+Year: 2000 | Value: 59.08500401
+Year: 2001 | Value: 59.15248936
+Year: 2002 | Value: 59.31647181
+Year: 2003 | Value: 59.53762932
+Year: 2004 | Value: 59.79633543
+Year: 2005 | Value: 60.06629663
+Year: 2006 | Value: 60.34619824
+Year: 2007 | Value: 60.66755486
+Year: 2008 | Value: 61.08557755
+Year: 2009 | Value: 61.52802106
+Year: 2010 | Value: 61.9748058
+Year: 2011 | Value: 62.58287212
+Year: 2012 | Value: 63.16293767
+Year: 2013 | Value: 63.58672686
+Year: 2014 | Value: 63.96496972
+Year: 2015 | Value: 64.33720534
+Year: 2016 | Value: 64.70727537
+Year: 2017 | Value: 65.08594377
+Year: 2018 | Value: 65.51554359
+Year: 2019 | Value: 65.97133363
+Year: 2020 | Value: 66.18136667
+Year: 2021 | Value: 66.10178519
+Remark: Ghana
+Remark: Life expectancy at birth (years)

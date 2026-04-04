@@ -1,1 +1,8 @@
-Category: University of Hong Kong > SubCategory: Hong Kong | 2011: 79.2 | 2012: 72.3 | 2013: 75.6 | 2014: 65.3 | 2015: 67.5 | 2016: 71.0
+Entity: University of Hong Kong
+Year: 2011 | Value: 79.2
+Year: 2012 | Value: 72.3
+Year: 2013 | Value: 75.6
+Year: 2014 | Value: 65.3
+Year: 2015 | Value: 67.5
+Year: 2016 | Value: 71.0
+Country: Hong Kong

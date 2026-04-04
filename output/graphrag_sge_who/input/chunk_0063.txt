@@ -1,0 +1,25 @@
+Entity: GAB / WHOSIS_000001
+Year: 2000 | Value: 57.68875146
+Year: 2001 | Value: 57.70877986
+Year: 2002 | Value: 58.05614161
+Year: 2003 | Value: 58.21558345
+Year: 2004 | Value: 58.70865642
+Year: 2005 | Value: 59.68914077
+Year: 2006 | Value: 60.2987489
+Year: 2007 | Value: 60.67060002
+Year: 2008 | Value: 60.80435396
+Year: 2009 | Value: 61.22876669
+Year: 2010 | Value: 61.73354089
+Year: 2011 | Value: 62.08769123
+Year: 2012 | Value: 62.66758728
+Year: 2013 | Value: 63.25439162
+Year: 2014 | Value: 63.76784225
+Year: 2015 | Value: 64.00078432
+Year: 2016 | Value: 64.25526743
+Year: 2017 | Value: 64.52552888
+Year: 2018 | Value: 64.70364722
+Year: 2019 | Value: 64.97251699
+Year: 2020 | Value: 65.12601321
+Year: 2021 | Value: 65.09380891
+Remark: Gabon
+Remark: Life expectancy at birth (years)

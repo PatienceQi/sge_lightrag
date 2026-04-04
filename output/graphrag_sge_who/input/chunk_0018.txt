@@ -1,0 +1,25 @@
+Entity: BGR / WHOSIS_000001
+Year: 2000 | Value: 71.6428836
+Year: 2001 | Value: 71.85118008
+Year: 2002 | Value: 72.11466914
+Year: 2003 | Value: 72.29415331
+Year: 2004 | Value: 72.48173145
+Year: 2005 | Value: 72.47648279
+Year: 2006 | Value: 72.62332365
+Year: 2007 | Value: 72.92323217
+Year: 2008 | Value: 73.24591413
+Year: 2009 | Value: 73.57651207
+Year: 2010 | Value: 73.66597105
+Year: 2011 | Value: 74.07018001
+Year: 2012 | Value: 74.28202002
+Year: 2013 | Value: 74.79512219
+Year: 2014 | Value: 74.40807537
+Year: 2015 | Value: 74.56358707
+Year: 2016 | Value: 74.77317639
+Year: 2017 | Value: 74.71989724
+Year: 2018 | Value: 74.85071858
+Year: 2019 | Value: 75.0010583
+Year: 2020 | Value: 73.48961137
+Year: 2021 | Value: 71.30586
+Remark: Bulgaria
+Remark: Life expectancy at birth (years)

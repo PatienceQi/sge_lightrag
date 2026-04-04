@@ -1,1 +1,8 @@
-Category: École Polytechnique Fédérale de Lausanne > SubCategory: Switzerland | 2011: 66.5 | 2012: 66.3 | 2013: 73.0 | 2014: 67.7 | 2015: 70.9 | 2016: 76.1
+Entity: École Polytechnique Fédérale de Lausanne
+Year: 2011 | Value: 66.5
+Year: 2012 | Value: 66.3
+Year: 2013 | Value: 73.0
+Year: 2014 | Value: 67.7
+Year: 2015 | Value: 70.9
+Year: 2016 | Value: 76.1
+Country: Switzerland

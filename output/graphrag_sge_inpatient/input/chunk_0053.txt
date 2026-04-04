@@ -1,0 +1,6 @@
+Disease: B73 / 盘尾丝虫病
+INPATIENT_HA_HOSPITAL: 0
+INPATIENT_TOTAL: 0
+REGISTERED_DEATHS: 0
+Remark: ICD B73
+Remark: 盘尾丝虫病

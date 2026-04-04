@@ -1,0 +1,9 @@
+{
+  "experiment": "THE_ablation_no_country",
+  "original_fc": 0.567,
+  "ablation_fc": 0.0,
+  "gold_facts": 150,
+  "covered": 0,
+  "nodes": 79,
+  "edges": 228
+}

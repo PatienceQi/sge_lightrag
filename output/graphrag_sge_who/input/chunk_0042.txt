@@ -1,0 +1,25 @@
+Entity: CRI / WHOSIS_000001
+Year: 2000 | Value: 78.16621895
+Year: 2001 | Value: 78.07165726
+Year: 2002 | Value: 78.85732142
+Year: 2003 | Value: 78.7075014
+Year: 2004 | Value: 78.67775018
+Year: 2005 | Value: 79.72199388
+Year: 2006 | Value: 79.36411318
+Year: 2007 | Value: 80.2305467
+Year: 2008 | Value: 80.2939043
+Year: 2009 | Value: 80.60955741
+Year: 2010 | Value: 79.51380421
+Year: 2011 | Value: 80.26271645
+Year: 2012 | Value: 80.42316166
+Year: 2013 | Value: 80.59788537
+Year: 2014 | Value: 80.47995762
+Year: 2015 | Value: 80.57423676
+Year: 2016 | Value: 80.11048492
+Year: 2017 | Value: 80.19506162
+Year: 2018 | Value: 80.28882351
+Year: 2019 | Value: 80.30073211
+Year: 2020 | Value: 79.99304212
+Year: 2021 | Value: 78.63053412
+Remark: Costa Rica
+Remark: Life expectancy at birth (years)

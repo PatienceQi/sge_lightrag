@@ -1,0 +1,25 @@
+Entity: DZA / WHOSIS_000001
+Year: 2000 | Value: 72.46839135
+Year: 2001 | Value: 72.77159448
+Year: 2002 | Value: 73.0881827
+Year: 2003 | Value: 73.27414327
+Year: 2004 | Value: 73.76320427
+Year: 2005 | Value: 74.07853584
+Year: 2006 | Value: 74.34609406
+Year: 2007 | Value: 74.59216684
+Year: 2008 | Value: 74.83898594
+Year: 2009 | Value: 75.06025654
+Year: 2010 | Value: 75.28662824
+Year: 2011 | Value: 75.4488721
+Year: 2012 | Value: 75.63920415
+Year: 2013 | Value: 75.79056138
+Year: 2014 | Value: 75.93393131
+Year: 2015 | Value: 76.06909233
+Year: 2016 | Value: 76.27818922
+Year: 2017 | Value: 76.40431934
+Year: 2018 | Value: 76.4358357
+Year: 2019 | Value: 76.54768313
+Year: 2020 | Value: 74.02004217
+Year: 2021 | Value: 75.97765182
+Remark: Algeria
+Remark: Life expectancy at birth (years)

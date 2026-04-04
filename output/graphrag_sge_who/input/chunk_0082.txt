@@ -1,0 +1,25 @@
+Entity: IRL / WHOSIS_000001
+Year: 2000 | Value: 76.41796785
+Year: 2001 | Value: 77.04413457
+Year: 2002 | Value: 77.48003704
+Year: 2003 | Value: 78.02379273
+Year: 2004 | Value: 78.39305519
+Year: 2005 | Value: 78.82008327
+Year: 2006 | Value: 79.06563288
+Year: 2007 | Value: 79.35545225
+Year: 2008 | Value: 79.58286978
+Year: 2009 | Value: 79.53106576
+Year: 2010 | Value: 80.6170111
+Year: 2011 | Value: 80.38545702
+Year: 2012 | Value: 80.49448401
+Year: 2013 | Value: 80.71347486
+Year: 2014 | Value: 81.05218065
+Year: 2015 | Value: 81.13790588
+Year: 2016 | Value: 81.40605545
+Year: 2017 | Value: 81.60361469
+Year: 2018 | Value: 81.71153553
+Year: 2019 | Value: 81.93976292
+Year: 2020 | Value: 81.69720975
+Year: 2021 | Value: 81.60162902
+Remark: Ireland
+Remark: Life expectancy at birth (years)

@@ -1,0 +1,25 @@
+Entity: PRK / WHOSIS_000001
+Year: 2000 | Value: 62.51800133
+Year: 2001 | Value: 62.62928485
+Year: 2002 | Value: 62.79218596
+Year: 2003 | Value: 69.38323785
+Year: 2004 | Value: 69.49692995
+Year: 2005 | Value: 69.62778426
+Year: 2006 | Value: 69.70476861
+Year: 2007 | Value: 69.69220494
+Year: 2008 | Value: 69.79894796
+Year: 2009 | Value: 69.87200709
+Year: 2010 | Value: 70.02263868
+Year: 2011 | Value: 70.26241873
+Year: 2012 | Value: 70.53323819
+Year: 2013 | Value: 70.83607796
+Year: 2014 | Value: 71.13791927
+Year: 2015 | Value: 71.407681
+Year: 2016 | Value: 71.62258579
+Year: 2017 | Value: 71.92237066
+Year: 2018 | Value: 72.10726148
+Year: 2019 | Value: 72.31891378
+Year: 2020 | Value: 72.37904945
+Year: 2021 | Value: 72.6431485
+Remark: Democratic People's Republic of Korea
+Remark: Life expectancy at birth (years)

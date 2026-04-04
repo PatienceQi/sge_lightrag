@@ -1,0 +1,79 @@
+{
+  "description": "Cross-format × Schema 2×2 matrix for WHO Life Expectancy. Demonstrates format-constraint coupling: Schema constraints are effective only with SGE serialization format.",
+  "dataset": "WHO Life Expectancy",
+  "gold_facts": 150,
+  "formats": [
+    {
+      "format": "SGE serialization",
+      "description": "Row-level structured text (Stage 3 output)",
+      "with_schema": {
+        "EC": 1.0,
+        "FC": 1.0,
+        "edges": 4312,
+        "source": "all_results_v2.json (Full SGE)"
+      },
+      "without_schema": {
+        "EC": 1.0,
+        "FC": 0.013,
+        "edges": 433,
+        "source": "decoupled_ablation (Serial-only)"
+      }
+    },
+    {
+      "format": "Flat text (naive)",
+      "description": "LightRAG default CSV serialization",
+      "with_schema": {
+        "EC": 1.0,
+        "FC": 0.207,
+        "edges": 95,
+        "source": "json_format_alignment (raw text + schema)"
+      },
+      "without_schema": {
+        "EC": 0.92,
+        "FC": 0.167,
+        "edges": 647,
+        "source": "all_results_v2.json (Baseline)"
+      }
+    },
+    {
+      "format": "JSON structured records",
+      "description": "Per-entity JSON objects with year:value pairs",
+      "with_schema": {
+        "EC": 1.0,
+        "FC": 0.0,
+        "edges": 0,
+        "source": "json_format_alignment"
+      },
+      "without_schema": {
+        "EC": 0.0,
+        "FC": 0.0,
+        "edges": 0,
+        "source": "json_format_alignment"
+      }
+    },
+    {
+      "format": "Markdown table",
+      "description": "Pipe-delimited table with header row",
+      "with_schema": {
+        "EC": 0.96,
+        "FC": 0.0,
+        "edges": 0,
+        "source": "json_format_alignment"
+      },
+      "without_schema": {
+        "EC": 0.96,
+        "FC": 0.127,
+        "edges": 37,
+        "source": "json_format_alignment (markdown_structured_default)"
+      }
+    }
+  ],
+  "interaction_analysis": {
+    "description": "Interaction = (Format+Schema) - (Format only) - (Schema only) + Baseline. Positive interaction means Schema and Format are synergistic.",
+    "sge_interaction": 0.947,
+    "flat_interaction": 0.0,
+    "json_interaction": "0.000 (both conditions FC=0)",
+    "markdown_interaction": -0.167
+  },
+  "key_finding": "Schema constraint is effective ONLY with SGE serialization (interaction = +0.947). With flat text, interaction = 0. With Markdown, Schema is harmful (interaction = -0.167): default prompt achieves FC=0.127 but Schema drops it to FC=0.000. With JSON, both conditions produce FC=0.000."
+}

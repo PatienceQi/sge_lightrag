@@ -1,0 +1,25 @@
+Entity: LSO / WHOSIS_000001
+Year: 2000 | Value: 47.38127672
+Year: 2001 | Value: 47.97132353
+Year: 2002 | Value: 47.82881329
+Year: 2003 | Value: 45.64538324
+Year: 2004 | Value: 43.80676222
+Year: 2005 | Value: 42.6642992
+Year: 2006 | Value: 42.3928282
+Year: 2007 | Value: 43.88764108
+Year: 2008 | Value: 45.90439498
+Year: 2009 | Value: 47.42048599
+Year: 2010 | Value: 48.56510587
+Year: 2011 | Value: 49.10182257
+Year: 2012 | Value: 49.02029182
+Year: 2013 | Value: 48.96059544
+Year: 2014 | Value: 48.68389714
+Year: 2015 | Value: 48.83813559
+Year: 2016 | Value: 49.94866988
+Year: 2017 | Value: 51.05416565
+Year: 2018 | Value: 51.60129602
+Year: 2019 | Value: 51.77851899
+Year: 2020 | Value: 51.85352687
+Year: 2021 | Value: 51.47907482
+Remark: Lesotho
+Remark: Life expectancy at birth (years)

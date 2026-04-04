@@ -1,0 +1,6 @@
+Disease: A55-A56 / 性传播的衣原体疾病
+INPATIENT_HA_HOSPITAL: 10
+INPATIENT_TOTAL: 10
+REGISTERED_DEATHS: 0
+Remark: ICD A55-A56
+Remark: 性传播的衣原体疾病

@@ -1,1 +1,8 @@
-Category: King’s College London > SubCategory: United Kingdom | 2011: 59.7 | 2012: 63.2 | 2013: 66.2 | 2014: 67.6 | 2015: 69.4 | 2016: 78.2
+Entity: King’s College London
+Year: 2011 | Value: 59.7
+Year: 2012 | Value: 63.2
+Year: 2013 | Value: 66.2
+Year: 2014 | Value: 67.6
+Year: 2015 | Value: 69.4
+Year: 2016 | Value: 78.2
+Country: United Kingdom

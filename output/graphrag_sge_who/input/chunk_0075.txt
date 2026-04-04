@@ -1,0 +1,25 @@
+Entity: GUY / WHOSIS_000001
+Year: 2000 | Value: 64.65122902
+Year: 2001 | Value: 64.66515946
+Year: 2002 | Value: 64.62860972
+Year: 2003 | Value: 64.68058964
+Year: 2004 | Value: 64.85780334
+Year: 2005 | Value: 65.05195592
+Year: 2006 | Value: 65.30397068
+Year: 2007 | Value: 65.67248785
+Year: 2008 | Value: 65.75519494
+Year: 2009 | Value: 66.08669636
+Year: 2010 | Value: 66.14634849
+Year: 2011 | Value: 66.13531761
+Year: 2012 | Value: 66.17236525
+Year: 2013 | Value: 66.2421095
+Year: 2014 | Value: 66.55197342
+Year: 2015 | Value: 66.95276619
+Year: 2016 | Value: 67.56739413
+Year: 2017 | Value: 68.19380586
+Year: 2018 | Value: 68.74661773
+Year: 2019 | Value: 68.73185311
+Year: 2020 | Value: 66.93943966
+Year: 2021 | Value: 66.0777533
+Remark: Guyana
+Remark: Life expectancy at birth (years)

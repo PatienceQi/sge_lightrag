@@ -1,0 +1,25 @@
+Entity: GIN / WHOSIS_000001
+Year: 2000 | Value: 54.19541328
+Year: 2001 | Value: 54.67176541
+Year: 2002 | Value: 55.1808226
+Year: 2003 | Value: 55.63757789
+Year: 2004 | Value: 56.03427492
+Year: 2005 | Value: 56.45301837
+Year: 2006 | Value: 56.85533921
+Year: 2007 | Value: 57.16190125
+Year: 2008 | Value: 57.53628959
+Year: 2009 | Value: 57.8555884
+Year: 2010 | Value: 58.26432378
+Year: 2011 | Value: 58.59208329
+Year: 2012 | Value: 58.88851718
+Year: 2013 | Value: 59.12749175
+Year: 2014 | Value: 58.60749611
+Year: 2015 | Value: 59.19807943
+Year: 2016 | Value: 59.83918056
+Year: 2017 | Value: 60.25359445
+Year: 2018 | Value: 60.65900972
+Year: 2019 | Value: 61.12869188
+Year: 2020 | Value: 61.15586466
+Year: 2021 | Value: 61.26251027
+Remark: Guinea
+Remark: Life expectancy at birth (years)

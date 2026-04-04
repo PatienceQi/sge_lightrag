@@ -1,0 +1,6 @@
+Disease: A33 / 新生儿破伤风
+INPATIENT_HA_HOSPITAL: 0
+INPATIENT_TOTAL: 0
+REGISTERED_DEATHS: 0
+Remark: ICD A33
+Remark: 新生儿破伤风

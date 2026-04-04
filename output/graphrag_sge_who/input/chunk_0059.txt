@@ -1,0 +1,25 @@
+Entity: FIN / WHOSIS_000001
+Year: 2000 | Value: 77.59494705
+Year: 2001 | Value: 78.01784738
+Year: 2002 | Value: 78.12614307
+Year: 2003 | Value: 78.41020069
+Year: 2004 | Value: 78.7283427
+Year: 2005 | Value: 78.98273143
+Year: 2006 | Value: 79.23326293
+Year: 2007 | Value: 79.26874907
+Year: 2008 | Value: 79.5834765
+Year: 2009 | Value: 79.70604252
+Year: 2010 | Value: 79.86591036
+Year: 2011 | Value: 80.2843093
+Year: 2012 | Value: 80.37588921
+Year: 2013 | Value: 80.67798392
+Year: 2014 | Value: 80.86537331
+Year: 2015 | Value: 81.19884704
+Year: 2016 | Value: 81.11659919
+Year: 2017 | Value: 81.32143707
+Year: 2018 | Value: 81.40768747
+Year: 2019 | Value: 81.64702187
+Year: 2020 | Value: 81.54461744
+Year: 2021 | Value: 81.53419484
+Remark: Finland
+Remark: Life expectancy at birth (years)

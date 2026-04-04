@@ -1,0 +1,25 @@
+Entity: CHL / WHOSIS_000001
+Year: 2000 | Value: 76.79721978
+Year: 2001 | Value: 76.75737429
+Year: 2002 | Value: 77.34180988
+Year: 2003 | Value: 77.44592963
+Year: 2004 | Value: 77.54890712
+Year: 2005 | Value: 78.0049121
+Year: 2006 | Value: 78.48262712
+Year: 2007 | Value: 78.48498969
+Year: 2008 | Value: 79.19803048
+Year: 2009 | Value: 79.00490643
+Year: 2010 | Value: 78.83198498
+Year: 2011 | Value: 79.55204941
+Year: 2012 | Value: 79.58354937
+Year: 2013 | Value: 79.82550323
+Year: 2014 | Value: 79.93658439
+Year: 2015 | Value: 80.12508082
+Year: 2016 | Value: 80.46247256
+Year: 2017 | Value: 80.65876294
+Year: 2018 | Value: 80.96185803
+Year: 2019 | Value: 81.02769155
+Year: 2020 | Value: 79.90385052
+Year: 2021 | Value: 79.02404788
+Remark: Chile
+Remark: Life expectancy at birth (years)

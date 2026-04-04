@@ -1,0 +1,33 @@
+{
+  "table_type": "Time-Series-Matrix",
+  "primary_subject_columns": [
+    "University_Name",
+    "Country"
+  ],
+  "time_dimension": {
+    "is_present": true,
+    "location": "headers",
+    "columns": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ]
+  },
+  "value_columns": [
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+  ],
+  "metadata_columns": [
+    "Country",
+    "University_Name"
+  ],
+  "composite_key": true,
+  "extraction_rule_summary": "Each row is an entity identified by \"University_Name\", \"Country\"; 6 time-period column(s) in the header hold numeric values."
+}

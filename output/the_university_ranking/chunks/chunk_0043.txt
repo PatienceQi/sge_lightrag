@@ -1,1 +1,8 @@
-Category: Australian National University > SubCategory: Australia | 2011: 67.0 | 2012: 71.2 | 2013: 75.4 | 2014: 64.4 | 2015: 66.5 | 2016: 69.5
+Entity: Australian National University
+Year: 2011 | Value: 67.0
+Year: 2012 | Value: 71.2
+Year: 2013 | Value: 75.4
+Year: 2014 | Value: 64.4
+Year: 2015 | Value: 66.5
+Year: 2016 | Value: 69.5
+Country: Australia

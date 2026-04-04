@@ -1,0 +1,25 @@
+Entity: BEN / WHOSIS_000001
+Year: 2000 | Value: 57.42109531
+Year: 2001 | Value: 57.74456271
+Year: 2002 | Value: 58.09380517
+Year: 2003 | Value: 58.45855402
+Year: 2004 | Value: 58.86876901
+Year: 2005 | Value: 59.21023989
+Year: 2006 | Value: 59.54016851
+Year: 2007 | Value: 59.82688455
+Year: 2008 | Value: 60.45115465
+Year: 2009 | Value: 60.99409615
+Year: 2010 | Value: 61.3045144
+Year: 2011 | Value: 61.56618181
+Year: 2012 | Value: 61.81459199
+Year: 2013 | Value: 62.11743236
+Year: 2014 | Value: 62.37267295
+Year: 2015 | Value: 62.62662
+Year: 2016 | Value: 63.0021663
+Year: 2017 | Value: 63.34863103
+Year: 2018 | Value: 63.73859672
+Year: 2019 | Value: 64.13827469
+Year: 2020 | Value: 64.40363479
+Year: 2021 | Value: 64.01268515
+Remark: Benin
+Remark: Life expectancy at birth (years)

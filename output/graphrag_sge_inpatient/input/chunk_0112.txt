@@ -1,0 +1,6 @@
+Disease: E64 / 营养不良和其他营养缺乏的后遗症
+INPATIENT_HA_HOSPITAL: 0
+INPATIENT_TOTAL: 0
+REGISTERED_DEATHS: 0
+Remark: ICD E64
+Remark: 营养不良和其他营养缺乏的后遗症

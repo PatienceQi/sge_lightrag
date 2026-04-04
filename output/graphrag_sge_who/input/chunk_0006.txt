@@ -1,0 +1,25 @@
+Entity: ARE / WHOSIS_000001
+Year: 2000 | Value: 78.11838329
+Year: 2001 | Value: 78.27568092
+Year: 2002 | Value: 78.35124382
+Year: 2003 | Value: 78.5604186
+Year: 2004 | Value: 78.88949949
+Year: 2005 | Value: 79.38497277
+Year: 2006 | Value: 80.09096187
+Year: 2007 | Value: 80.5952165
+Year: 2008 | Value: 80.7993244
+Year: 2009 | Value: 80.73659279
+Year: 2010 | Value: 80.45344335
+Year: 2011 | Value: 80.25767057
+Year: 2012 | Value: 80.30618497
+Year: 2013 | Value: 80.56393138
+Year: 2014 | Value: 80.64754288
+Year: 2015 | Value: 80.71356774
+Year: 2016 | Value: 80.78348374
+Year: 2017 | Value: 80.92702059
+Year: 2018 | Value: 81.16639668
+Year: 2019 | Value: 81.41096307
+Year: 2020 | Value: 80.1312721
+Year: 2021 | Value: 78.30645695
+Remark: United Arab Emirates
+Remark: Life expectancy at birth (years)

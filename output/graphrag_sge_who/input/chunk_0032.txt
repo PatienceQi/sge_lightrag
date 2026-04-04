@@ -1,0 +1,25 @@
+Entity: CHE / WHOSIS_000001
+Year: 2000 | Value: 79.71469969
+Year: 2001 | Value: 80.10038738
+Year: 2002 | Value: 80.41025592
+Year: 2003 | Value: 80.40439825
+Year: 2004 | Value: 80.94173199
+Year: 2005 | Value: 81.11493442
+Year: 2006 | Value: 81.41480541
+Year: 2007 | Value: 81.59797301
+Year: 2008 | Value: 81.86194325
+Year: 2009 | Value: 81.89043047
+Year: 2010 | Value: 82.19541207
+Year: 2011 | Value: 82.36855875
+Year: 2012 | Value: 82.39224777
+Year: 2013 | Value: 82.47547076
+Year: 2014 | Value: 82.84919576
+Year: 2015 | Value: 82.58994495
+Year: 2016 | Value: 83.17109413
+Year: 2017 | Value: 83.13986197
+Year: 2018 | Value: 83.28963498
+Year: 2019 | Value: 83.47957563
+Year: 2020 | Value: 82.73602492
+Year: 2021 | Value: 83.32795777
+Remark: Switzerland
+Remark: Life expectancy at birth (years)
