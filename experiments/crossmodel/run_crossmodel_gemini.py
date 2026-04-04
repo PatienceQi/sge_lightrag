@@ -261,6 +261,10 @@ async def run_lightrag(chunks: list[str], working_dir: Path,
     await rag.initialize_storages()
 
     # Inject SGE system prompt
+    # The raw_prompt is fully rendered (all placeholders filled by prompt_injector).
+    # LightRAG calls .format(**context_base) on the system prompt, so we must
+    # escape all literal braces ({} from JSON schema) to avoid KeyError.
+    # The restore loop below is a no-op (vars already filled), kept for clarity.
     original_prompt = PROMPTS["entity_extraction_system_prompt"]
     raw_prompt = payload["system_prompt"]
     escaped = raw_prompt.replace("{", "{{").replace("}", "}}")
@@ -268,6 +272,18 @@ async def run_lightrag(chunks: list[str], working_dir: Path,
                 "examples", "language"):
         escaped = escaped.replace("{{" + var + "}}", "{" + var + "}")
     PROMPTS["entity_extraction_system_prompt"] = escaped
+    # Diagnostic: verify JSON schema survives escaping after .format()
+    try:
+        test_fmt = escaped.format(
+            tuple_delimiter="<|#|>", completion_delimiter="<|COMPLETE|>",
+            entity_types="test", examples="test", language="test",
+        )
+        if '"table_type"' in test_fmt or '"entity_types"' in test_fmt:
+            print("  [DIAG] Schema JSON intact after .format() ✓")
+        else:
+            print("  [DIAG] WARNING: Schema JSON may be malformed after .format()")
+    except (KeyError, IndexError) as e:
+        print(f"  [DIAG] WARNING: .format() failed: {e}")
     _op.extract_entities = _sge_passthrough
 
     try:

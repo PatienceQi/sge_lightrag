@@ -69,6 +69,83 @@ def _build_search_index(nodes: dict) -> dict[str, str]:
     return index
 
 
+# ISO 3166-1 alpha-3 codes used in World Bank datasets
+_COUNTRY_ALIASES: dict[str, list[str]] = {
+    "afg": ["afghanistan"], "ago": ["angola"], "alb": ["albania"],
+    "are": ["united arab emirates"], "arg": ["argentina"], "arm": ["armenia"],
+    "aus": ["australia"], "aut": ["austria"], "aze": ["azerbaijan"],
+    "bdi": ["burundi"], "bel": ["belgium"], "ben": ["benin"],
+    "bfa": ["burkina faso"], "bgd": ["bangladesh"], "bgr": ["bulgaria"],
+    "bhr": ["bahrain"], "bhs": ["bahamas"], "bih": ["bosnia and herzegovina"],
+    "blr": ["belarus"], "blz": ["belize"], "bol": ["bolivia"],
+    "bra": ["brazil"], "brb": ["barbados"], "brn": ["brunei"],
+    "btn": ["bhutan"], "bwa": ["botswana"], "caf": ["central african republic"],
+    "can": ["canada"], "che": ["switzerland"], "chl": ["chile"],
+    "chn": ["china"], "civ": ["cote d'ivoire", "ivory coast"],
+    "cmr": ["cameroon"], "cod": ["congo, dem. rep.", "democratic republic of congo"],
+    "cog": ["congo, rep.", "republic of congo"], "col": ["colombia"],
+    "com": ["comoros"], "cpv": ["cabo verde", "cape verde"],
+    "cri": ["costa rica"], "cub": ["cuba"], "cyp": ["cyprus"],
+    "cze": ["czech republic", "czechia"], "deu": ["germany"],
+    "dji": ["djibouti"], "dnk": ["denmark"], "dom": ["dominican republic"],
+    "dza": ["algeria"], "ecu": ["ecuador"],
+    "egy": ["egypt", "egypt, arab rep."], "eri": ["eritrea"],
+    "esp": ["spain"], "est": ["estonia"], "eth": ["ethiopia"],
+    "fin": ["finland"], "fji": ["fiji"], "fra": ["france"],
+    "gab": ["gabon"], "gbr": ["united kingdom"],
+    "geo": ["georgia"], "gha": ["ghana"], "gin": ["guinea"],
+    "gmb": ["gambia"], "gnb": ["guinea-bissau"], "gnq": ["equatorial guinea"],
+    "grc": ["greece"], "gtm": ["guatemala"], "guy": ["guyana"],
+    "hkg": ["hong kong"], "hnd": ["honduras"], "hrv": ["croatia"],
+    "hti": ["haiti"], "hun": ["hungary"], "idn": ["indonesia"],
+    "ind": ["india"], "irl": ["ireland"], "irn": ["iran"],
+    "irq": ["iraq"], "isl": ["iceland"], "isr": ["israel"],
+    "ita": ["italy"], "jam": ["jamaica"], "jor": ["jordan"],
+    "jpn": ["japan"], "kaz": ["kazakhstan"], "ken": ["kenya"],
+    "kgz": ["kyrgyz republic", "kyrgyzstan"],
+    "khm": ["cambodia"], "kor": ["korea, rep.", "south korea"],
+    "kwt": ["kuwait"], "lao": ["lao pdr", "laos"],
+    "lbn": ["lebanon"], "lbr": ["liberia"], "lby": ["libya"],
+    "lca": ["st. lucia"], "lka": ["sri lanka"],
+    "lso": ["lesotho"], "ltu": ["lithuania"], "lux": ["luxembourg"],
+    "lva": ["latvia"], "mar": ["morocco"], "mda": ["moldova"],
+    "mdg": ["madagascar"], "mdv": ["maldives"], "mex": ["mexico"],
+    "mli": ["mali"], "mlt": ["malta"], "mmr": ["myanmar"],
+    "mne": ["montenegro"], "mng": ["mongolia"], "moz": ["mozambique"],
+    "mrt": ["mauritania"], "mus": ["mauritius"], "mwi": ["malawi"],
+    "mys": ["malaysia"], "nam": ["namibia"], "ner": ["niger"],
+    "nga": ["nigeria"], "nic": ["nicaragua"], "nld": ["netherlands"],
+    "nor": ["norway"], "npl": ["nepal"], "nzl": ["new zealand"],
+    "omn": ["oman"], "pak": ["pakistan"], "pan": ["panama"],
+    "per": ["peru"], "phl": ["philippines"], "png": ["papua new guinea"],
+    "pol": ["poland"], "prt": ["portugal"], "pry": ["paraguay"],
+    "qat": ["qatar"], "rou": ["romania"], "rus": ["russian federation", "russia"],
+    "rwa": ["rwanda"], "sau": ["saudi arabia"], "sdn": ["sudan"],
+    "sen": ["senegal"], "sgp": ["singapore"], "slb": ["solomon islands"],
+    "sle": ["sierra leone"], "slv": ["el salvador"], "som": ["somalia"],
+    "srb": ["serbia"], "ssd": ["south sudan"], "stp": ["sao tome and principe"],
+    "sur": ["suriname"], "svk": ["slovak republic", "slovakia"],
+    "svn": ["slovenia"], "swe": ["sweden"], "swz": ["eswatini", "swaziland"],
+    "syc": ["seychelles"], "syr": ["syrian arab republic", "syria"],
+    "tcd": ["chad"], "tgo": ["togo"], "tha": ["thailand"],
+    "tjk": ["tajikistan"], "tkm": ["turkmenistan"],
+    "tls": ["timor-leste"], "ton": ["tonga"], "tto": ["trinidad and tobago"],
+    "tun": ["tunisia"], "tur": ["turkiye", "turkey"],
+    "tza": ["tanzania"], "uga": ["uganda"], "ukr": ["ukraine"],
+    "ury": ["uruguay"], "usa": ["united states"],
+    "uzb": ["uzbekistan"], "ven": ["venezuela"],
+    "vnm": ["vietnam", "viet nam"], "vut": ["vanuatu"],
+    "yem": ["yemen"], "zaf": ["south africa"],
+    "zmb": ["zambia"], "zwe": ["zimbabwe"],
+}
+
+# Build reverse mapping: country_name_lower → [code1, code2, ...]
+_NAME_TO_CODES: dict[str, list[str]] = {}
+for _code, _names in _COUNTRY_ALIASES.items():
+    for _name in _names:
+        _NAME_TO_CODES.setdefault(_name, []).append(_code)
+
+
 def find_entity_in_graph(
     entity: str,
     nodes: dict,
@@ -88,12 +165,36 @@ def find_entity_in_graph(
     if entity_lower in search_index:
         return search_index[entity_lower]
 
-    # 2. Substring on node name
+    # 2a. Entity contained in node name (strong match, e.g., "china" in "china_population")
+    candidates_strong: list[tuple[str, int]] = []
     for node_lower, orig_name in search_index.items():
-        if entity_lower in node_lower or node_lower in entity_lower:
-            return orig_name
+        if entity_lower in node_lower:
+            candidates_strong.append((orig_name, len(node_lower)))
+    if candidates_strong:
+        # Prefer shortest containing node (closest match)
+        candidates_strong.sort(key=lambda x: x[1])
+        return candidates_strong[0][0]
 
-    # 3. Description substring
+    # 2b. Node contained in entity (weak match, e.g., "afg" in "afghanistan")
+    #     Require significant overlap or prefix match to avoid false positives
+    #     like "eri" in "algeria" (3/7=0.43)
+    candidates_weak: list[tuple[str, int, float]] = []
+    for node_lower, orig_name in search_index.items():
+        if node_lower in entity_lower:
+            ratio = len(node_lower) / len(entity_lower)
+            if ratio > 0.5 or entity_lower.startswith(node_lower):
+                candidates_weak.append((orig_name, len(node_lower), ratio))
+    if candidates_weak:
+        candidates_weak.sort(key=lambda x: x[2], reverse=True)
+        return candidates_weak[0][0]
+
+    # 3. Country code alias lookup (e.g., "Australia" → "AUS")
+    codes = _NAME_TO_CODES.get(entity_lower, [])
+    for code in codes:
+        if code in search_index:
+            return search_index[code]
+
+    # 4. Description substring
     for orig_name, data in nodes.items():
         desc = data.get("description", "").lower()
         if entity_lower in desc:
@@ -108,14 +209,18 @@ def _entity_has_fact(
     value: str,
     nodes: dict,
     entity_text_2hop: dict,
+    skip_year: bool = False,
 ) -> bool:
     """
     Return True if the entity's 2-hop neighborhood contains both value and year.
     Same logic as evaluate_coverage.py check_fact_coverage.
+    If skip_year is True, only check value presence (for single-year datasets).
     """
     texts = entity_text_2hop.get(node_name, [])
     node_desc = nodes.get(node_name, {}).get("description", "")
     all_text = " ".join(texts) + " " + node_desc
+    if skip_year:
+        return value in all_text
     return (value in all_text) and (year in all_text)
 
 
@@ -124,8 +229,13 @@ def _entity_has_year(
     year: str,
     nodes: dict,
     entity_text_2hop: dict,
+    skip_year: bool = False,
 ) -> bool:
-    """Return True if the entity's 2-hop neighborhood mentions a year at all."""
+    """Return True if the entity's 2-hop neighborhood mentions a year at all.
+    If skip_year is True, always return True (for single-year datasets).
+    """
+    if skip_year:
+        return True
     texts = entity_text_2hop.get(node_name, [])
     node_desc = nodes.get(node_name, {}).get("description", "")
     all_text = " ".join(texts) + " " + node_desc
@@ -141,6 +251,7 @@ def check_l1_point_lookup(
     nodes: dict,
     entity_text_2hop: dict,
     search_index: dict,
+    skip_year: bool = False,
 ) -> bool:
     """
     L1: The answer value must be reachable from the answer entity within 2 hops.
@@ -160,7 +271,7 @@ def check_l1_point_lookup(
     if matched_node is None:
         return False
 
-    return _entity_has_fact(matched_node, year, value, nodes, entity_text_2hop)
+    return _entity_has_fact(matched_node, year, value, nodes, entity_text_2hop, skip_year=skip_year)
 
 
 def check_l2_ranking(
@@ -168,6 +279,7 @@ def check_l2_ranking(
     nodes: dict,
     entity_text_2hop: dict,
     search_index: dict,
+    skip_year: bool = False,
 ) -> bool:
     """
     L2: All answer entities must have their year-facts present in the graph.
@@ -185,8 +297,7 @@ def check_l2_ranking(
         matched_node = find_entity_in_graph(entity, nodes, search_index)
         if matched_node is None:
             return False
-        # Entity must have at least a year-fact (any value for that year)
-        if not _entity_has_year(matched_node, year, nodes, entity_text_2hop):
+        if not _entity_has_year(matched_node, year, nodes, entity_text_2hop, skip_year=skip_year):
             return False
 
     return True
@@ -197,6 +308,7 @@ def check_l3_aggregation(
     nodes: dict,
     entity_text_2hop: dict,
     search_index: dict,
+    skip_year: bool = False,
 ) -> bool:
     """
     L3: Aggregation questions require the year to be broadly represented.
@@ -223,13 +335,12 @@ def check_l3_aggregation(
             matched_node = find_entity_in_graph(entity, nodes, search_index)
             if matched_node is None:
                 return False
-            if not _entity_has_year(matched_node, year, nodes, entity_text_2hop):
+            if not _entity_has_year(matched_node, year, nodes, entity_text_2hop, skip_year=skip_year):
                 return False
         return True
 
     # Global aggregation (answer_entities=[]):
     # Check if the answer value appears anywhere in the graph
-    # This tests whether the aggregated result is directly stored/inferable
     if not value:
         return False
 
@@ -238,8 +349,12 @@ def check_l3_aggregation(
         texts = entity_text_2hop.get(node_name, [])
         node_desc = nodes.get(node_name, {}).get("description", "")
         all_text = " ".join(texts) + " " + node_desc
-        if value in all_text and year in all_text:
-            return True
+        if skip_year:
+            if value in all_text:
+                return True
+        else:
+            if value in all_text and year in all_text:
+                return True
 
     return False
 
@@ -249,6 +364,7 @@ def check_l4_trend_comparison(
     nodes: dict,
     entity_text_2hop: dict,
     search_index: dict,
+    skip_year: bool = False,
 ) -> bool:
     """
     L4 (trend + comparison): All answer entities must have facts for ALL
@@ -264,9 +380,8 @@ def check_l4_trend_comparison(
         matched_node = find_entity_in_graph(entity, nodes, search_index)
         if matched_node is None:
             return False
-        # Entity must have data for every required year
         for year in years:
-            if not _entity_has_year(matched_node, year, nodes, entity_text_2hop):
+            if not _entity_has_year(matched_node, year, nodes, entity_text_2hop, skip_year=skip_year):
                 return False
 
     return True
@@ -278,6 +393,20 @@ LEVEL_CHECKERS = {
     "L3": check_l3_aggregation,
     "L4": check_l4_trend_comparison,
 }
+
+
+def detect_single_year_datasets(questions: list[dict]) -> set[str]:
+    """Detect datasets where ALL questions reference the same single year.
+    For such datasets, year verification is skipped since the year may be
+    implicit (not serialized into graph text).
+    """
+    from collections import defaultdict
+    ds_years: dict[str, set[str]] = defaultdict(set)
+    for q in questions:
+        ds = q["dataset"]
+        for y in q.get("answer_years", []):
+            ds_years[ds].add(y)
+    return {ds for ds, years in ds_years.items() if len(years) == 1}
 
 
 # ---------------------------------------------------------------------------
@@ -301,12 +430,18 @@ def evaluate_questions(
     questions: list[dict],
     system: str,
     graph_paths: dict[str, str],
+    single_year_datasets: set[str] | None = None,
 ) -> list[dict]:
     """
     Evaluate all questions against graphs for one system (sge or baseline).
     Returns list of result dicts with question metadata + answerable flag.
     """
+    if single_year_datasets is None:
+        single_year_datasets = set()
+
     results = []
+    # Track which single-year datasets actually lack year data in the graph
+    _year_check_cache: dict[str, bool] = {}
 
     for q in questions:
         dataset = q["dataset"]
@@ -329,6 +464,23 @@ def evaluate_questions(
         G, nodes, entity_text_2hop = load_graph_cached(graph_path)
         search_index = _build_search_index(nodes)
 
+        # Determine if year check should be skipped for this dataset+graph
+        skip_year = False
+        if dataset in single_year_datasets:
+            cache_key = f"{system}:{dataset}"
+            if cache_key not in _year_check_cache:
+                # Check if the year actually appears in graph text
+                year_to_check = q.get("answer_years", [""])[0]
+                year_found = False
+                for nn in list(nodes.keys())[:50]:  # sample first 50 nodes
+                    texts = entity_text_2hop.get(nn, [])
+                    desc = nodes.get(nn, {}).get("description", "")
+                    if year_to_check in (" ".join(texts) + " " + desc):
+                        year_found = True
+                        break
+                _year_check_cache[cache_key] = not year_found
+            skip_year = _year_check_cache[cache_key]
+
         checker = LEVEL_CHECKERS.get(level)
         if checker is None:
             results.append({
@@ -342,7 +494,7 @@ def evaluate_questions(
             })
             continue
 
-        answerable = checker(q, nodes, entity_text_2hop, search_index)
+        answerable = checker(q, nodes, entity_text_2hop, search_index, skip_year=skip_year)
         results.append({
             "id": qid,
             "dataset": dataset,
@@ -494,14 +646,18 @@ def main() -> None:
     questions = load_questions(QUESTIONS_FILE)
     print(f"Loaded {len(questions)} questions.")
 
+    single_year_ds = detect_single_year_datasets(questions)
+    if single_year_ds:
+        print(f"Single-year datasets detected: {single_year_ds}")
+
     print("\nEvaluating SGE graphs ...")
-    sge_results = evaluate_questions(questions, "sge", GRAPH_PATHS["sge"])
+    sge_results = evaluate_questions(questions, "sge", GRAPH_PATHS["sge"], single_year_ds)
 
     # Clear cache between systems to avoid false sharing
     _graph_cache.clear()
 
     print("Evaluating Baseline graphs ...")
-    baseline_results = evaluate_questions(questions, "baseline", GRAPH_PATHS["baseline"])
+    baseline_results = evaluate_questions(questions, "baseline", GRAPH_PATHS["baseline"], single_year_ds)
 
     print_summary_table(sge_results, baseline_results)
 

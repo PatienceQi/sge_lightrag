@@ -48,6 +48,27 @@ DATASET_CONFIG = {
         "filename_pattern": "who_chunks",
         "label": "WHO Life Expectancy",
     },
+    "wb_cm": {
+        "csv_path": "dataset/世界银行数据/child_mortality/API_SH.DYN.MORT_DS2_en_csv_v2_632.csv",
+        "gold_path": "evaluation/gold/gold_wb_child_mortality_v2.jsonl",
+        "chunks_dir": "output/wb_child_mortality/chunks",
+        "filename_pattern": "wb_cm_chunks",
+        "label": "WB Child Mortality",
+    },
+    "wb_pop": {
+        "csv_path": "dataset/世界银行数据/population/API_SP.POP.TOTL_DS2_en_csv_v2_61.csv",
+        "gold_path": "evaluation/gold/gold_wb_population_v2.jsonl",
+        "chunks_dir": "output/wb_population/chunks",
+        "filename_pattern": "wb_pop_chunks",
+        "label": "WB Population",
+    },
+    "inpatient": {
+        "csv_path": "dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
+        "gold_path": "evaluation/gold/gold_inpatient_2023.jsonl",
+        "chunks_dir": "output/inpatient_2023/chunks",
+        "filename_pattern": "inpatient_chunks",
+        "label": "HK Inpatient 2023",
+    },
 }
 
 
@@ -306,8 +327,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--output",
-        default="output/autoschemakg_who",
-        help="Output directory for AutoSchemaKG artifacts",
+        default=None,
+        help="Output directory for AutoSchemaKG artifacts (default: output/autoschemakg_{dataset})",
     )
     parser.add_argument(
         "--results",
@@ -322,7 +343,7 @@ def main() -> None:
     args = parser.parse_args()
 
     dataset = args.dataset
-    output_dir = args.output
+    output_dir = args.output or f"output/autoschemakg_{dataset}"
     cfg = DATASET_CONFIG[dataset]
     gold_path = PROJECT_ROOT / cfg["gold_path"]
     pattern = cfg["filename_pattern"]
@@ -349,7 +370,13 @@ def main() -> None:
     print(f"\nEvaluating FC...")
     metrics = evaluate_fc(str(graphml_path), str(gold_path))
 
-    # Build results payload
+    # Build results payload — merge with existing if available
+    results_path = PROJECT_ROOT / args.results
+    existing: dict = {}
+    if results_path.exists():
+        with open(results_path, encoding="utf-8") as f:
+            existing = json.load(f)
+
     results = {
         "system": "autoschemakg",
         "timestamp": datetime.now().isoformat(),
@@ -357,17 +384,16 @@ def main() -> None:
             "llm_model": LLM_MODEL,
             "atlas_rag_version": "0.0.5.post1",
         },
-        "datasets": {
-            dataset: {
-                "label": cfg["label"],
-                "nodes": metrics["nodes"],
-                "edges": metrics["edges"],
-                "fc": metrics["fc"],
-                "gold_facts": metrics["gold_facts"],
-                "covered_facts": metrics["covered_facts"],
-                "uncovered_reasons": metrics["uncovered_reasons"],
-            }
-        },
+        "datasets": existing.get("datasets", {}),
+    }
+    results["datasets"][dataset] = {
+        "label": cfg["label"],
+        "nodes": metrics["nodes"],
+        "edges": metrics["edges"],
+        "fc": metrics["fc"],
+        "gold_facts": metrics["gold_facts"],
+        "covered_facts": metrics["covered_facts"],
+        "uncovered_reasons": metrics["uncovered_reasons"],
     }
 
     print("\n" + "=" * 55)

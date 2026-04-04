@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-04T11:48:10.652938",
+  "description": "Eurostat Crime Statistics FC evaluation (SGE vs Baseline)",
+  "eurostat_crime": {
+    "sge": {
+      "ec": 1.0,
+      "fc": 0.0,
+      "nodes": 31,
+      "edges": 38,
+      "gold_facts": 105,
+      "covered_facts": 0,
+      "note": "Graph has entities/years but no crime rate values bound"
+    },
+    "baseline": {
+      "ec": 1.0,
+      "fc": 0.4095,
+      "nodes": 932,
+      "edges": 1570,
+      "gold_facts": 105,
+      "covered_facts": 43
+    }
+  }
+}

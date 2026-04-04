@@ -1,0 +1,38 @@
+{
+  "us_census": {
+    "dataset": "us_census",
+    "label": "US Census Demographics",
+    "csv": "/Users/qipatience/Desktop/SGE/dataset/ood_blind_test/synthetic_us_census_population_by_demographics.csv",
+    "gold": "/Users/qipatience/Desktop/SGE/sge_lightrag/evaluation/gold/gold_us_census_demographics.jsonl",
+    "sge": {
+      "label": "SGE-us_census",
+      "chunks": 840,
+      "nodes": 294,
+      "edges": 452,
+      "ec": 1.0,
+      "fc": 0.2444,
+      "covered": 22,
+      "total": 90,
+      "gold_entities": 30,
+      "matched_entities": 30,
+      "graph_nodes": 294,
+      "graph_edges": 452
+    },
+    "baseline": {
+      "label": "Baseline-us_census",
+      "chunks": 13,
+      "nodes": 185,
+      "edges": 578,
+      "ec": 1.0,
+      "fc": 0.0222,
+      "covered": 2,
+      "total": 90,
+      "gold_entities": 30,
+      "matched_entities": 30,
+      "graph_nodes": 185,
+      "graph_edges": 578
+    },
+    "fc_ratio": 11.009,
+    "timestamp": "2026-04-04T11:52:08.200583"
+  }
+}

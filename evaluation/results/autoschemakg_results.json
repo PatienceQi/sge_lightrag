@@ -1,6 +1,6 @@
 {
   "system": "autoschemakg",
-  "timestamp": "2026-04-01T23:25:59.621478",
+  "timestamp": "2026-04-04T12:23:05.872313",
   "config": {
     "llm_model": "claude-haiku-4-5-20251001",
     "atlas_rag_version": "0.0.5.post1"
@@ -16,6 +16,35 @@
       "uncovered_reasons": {
         "value_not_found": 21
       }
+    },
+    "wb_cm": {
+      "label": "WB Child Mortality",
+      "nodes": 10013,
+      "edges": 25674,
+      "fc": 0.98,
+      "gold_facts": 150,
+      "covered_facts": 147,
+      "uncovered_reasons": {
+        "value_not_found": 3
+      }
+    },
+    "inpatient": {
+      "label": "HK Inpatient 2023",
+      "nodes": 4153,
+      "edges": 8418,
+      "fc": 1.0,
+      "gold_facts": 16,
+      "covered_facts": 16,
+      "uncovered_reasons": {}
+    },
+    "wb_pop": {
+      "label": "WB Population",
+      "nodes": 11895,
+      "edges": 25621,
+      "fc": 1.0,
+      "gold_facts": 150,
+      "covered_facts": 150,
+      "uncovered_reasons": {}
     }
   }
 }

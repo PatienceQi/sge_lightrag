@@ -1,42 +1,42 @@
 {
   "sge": {
     "overall": {
-      "answerable": 149,
+      "answerable": 196,
       "total": 231,
-      "accuracy": 0.645
+      "accuracy": 0.8485
     },
     "by_level": {
       "L1": {
-        "answerable": 33,
+        "answerable": 52,
         "total": 56,
-        "accuracy": 0.5893
+        "accuracy": 0.9286
       },
       "L2": {
-        "answerable": 33,
+        "answerable": 41,
         "total": 43,
-        "accuracy": 0.7674
+        "accuracy": 0.9535
       },
       "L3": {
-        "answerable": 15,
+        "answerable": 16,
         "total": 43,
-        "accuracy": 0.3488
+        "accuracy": 0.3721
       },
       "L4": {
-        "answerable": 68,
+        "answerable": 87,
         "total": 89,
-        "accuracy": 0.764
+        "accuracy": 0.9775
       }
     },
     "by_dataset": {
       "Inpatient": {
-        "answerable": 0,
+        "answerable": 28,
         "total": 31,
-        "accuracy": 0.0
+        "accuracy": 0.9032
       },
       "WB_ChildMortality": {
-        "answerable": 31,
+        "answerable": 48,
         "total": 50,
-        "accuracy": 0.62
+        "accuracy": 0.96
       },
       "WB_Maternal": {
         "answerable": 38,
@@ -49,36 +49,36 @@
         "accuracy": 0.8
       },
       "WHO": {
-        "answerable": 40,
+        "answerable": 42,
         "total": 50,
-        "accuracy": 0.8
+        "accuracy": 0.84
       }
     },
     "by_category": {
       "aggregation": {
-        "answerable": 15,
+        "answerable": 16,
         "total": 43,
-        "accuracy": 0.3488
+        "accuracy": 0.3721
       },
       "comparison": {
-        "answerable": 36,
+        "answerable": 47,
         "total": 49,
-        "accuracy": 0.7347
+        "accuracy": 0.9592
       },
       "point_lookup": {
-        "answerable": 33,
+        "answerable": 52,
         "total": 56,
-        "accuracy": 0.5893
+        "accuracy": 0.9286
       },
       "ranking": {
-        "answerable": 33,
+        "answerable": 41,
         "total": 43,
-        "accuracy": 0.7674
+        "accuracy": 0.9535
       },
       "trend": {
-        "answerable": 32,
+        "answerable": 40,
         "total": 40,
-        "accuracy": 0.8
+        "accuracy": 1.0
       }
     }
   },
@@ -95,9 +95,9 @@
         "accuracy": 0.3393
       },
       "L2": {
-        "answerable": 35,
+        "answerable": 34,
         "total": 43,
-        "accuracy": 0.814
+        "accuracy": 0.7907
       },
       "L3": {
         "answerable": 6,
@@ -105,9 +105,9 @@
         "accuracy": 0.1395
       },
       "L4": {
-        "answerable": 66,
+        "answerable": 67,
         "total": 89,
-        "accuracy": 0.7416
+        "accuracy": 0.7528
       }
     },
     "by_dataset": {
@@ -117,9 +117,9 @@
         "accuracy": 0.5806
       },
       "WB_ChildMortality": {
-        "answerable": 37,
+        "answerable": 39,
         "total": 50,
-        "accuracy": 0.74
+        "accuracy": 0.78
       },
       "WB_Maternal": {
         "answerable": 32,
@@ -132,9 +132,9 @@
         "accuracy": 0.52
       },
       "WHO": {
-        "answerable": 13,
+        "answerable": 11,
         "total": 50,
-        "accuracy": 0.26
+        "accuracy": 0.22
       }
     },
     "by_category": {
@@ -144,9 +144,9 @@
         "accuracy": 0.1395
       },
       "comparison": {
-        "answerable": 38,
+        "answerable": 37,
         "total": 49,
-        "accuracy": 0.7755
+        "accuracy": 0.7551
       },
       "point_lookup": {
         "answerable": 19,
@@ -154,14 +154,14 @@
         "accuracy": 0.3393
       },
       "ranking": {
-        "answerable": 35,
+        "answerable": 34,
         "total": 43,
-        "accuracy": 0.814
+        "accuracy": 0.7907
       },
       "trend": {
-        "answerable": 28,
+        "answerable": 30,
         "total": 40,
-        "accuracy": 0.7
+        "accuracy": 0.75
       }
     }
   },
@@ -209,7 +209,7 @@
       "category": "point_lookup"
     },
     "7": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L1",
@@ -287,7 +287,7 @@
     },
     "18": {
       "sge_answerable": true,
-      "baseline_answerable": true,
+      "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L2",
       "category": "ranking"
@@ -419,7 +419,7 @@
       "category": "trend"
     },
     "37": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L4",
@@ -475,21 +475,21 @@
       "category": "comparison"
     },
     "45": {
-      "sge_answerable": true,
-      "baseline_answerable": true,
+      "sge_answerable": false,
+      "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L4",
       "category": "comparison"
     },
     "46": {
-      "sge_answerable": true,
+      "sge_answerable": false,
       "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L4",
       "category": "comparison"
     },
     "47": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L4",
@@ -510,7 +510,7 @@
       "category": "comparison"
     },
     "50": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WHO",
       "level": "L4",
@@ -545,7 +545,7 @@
       "category": "point_lookup"
     },
     "55": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WB_ChildMortality",
       "level": "L1",
@@ -573,28 +573,28 @@
       "category": "point_lookup"
     },
     "59": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L1",
       "category": "point_lookup"
     },
     "60": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "WB_ChildMortality",
       "level": "L1",
       "category": "point_lookup"
     },
     "61": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L2",
       "category": "ranking"
     },
     "62": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L2",
@@ -608,7 +608,7 @@
       "category": "ranking"
     },
     "64": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L2",
@@ -629,14 +629,14 @@
       "category": "ranking"
     },
     "67": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L2",
       "category": "ranking"
     },
     "68": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L2",
@@ -727,21 +727,21 @@
       "category": "aggregation"
     },
     "81": {
-      "sge_answerable": false,
-      "baseline_answerable": false,
+      "sge_answerable": true,
+      "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
       "category": "trend"
     },
     "82": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
       "category": "trend"
     },
     "83": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
@@ -755,7 +755,7 @@
       "category": "trend"
     },
     "85": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
@@ -769,21 +769,21 @@
       "category": "trend"
     },
     "87": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
       "category": "trend"
     },
     "88": {
-      "sge_answerable": false,
-      "baseline_answerable": false,
+      "sge_answerable": true,
+      "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
       "category": "trend"
     },
     "89": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
@@ -797,7 +797,7 @@
       "category": "trend"
     },
     "91": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
@@ -853,7 +853,7 @@
       "category": "comparison"
     },
     "99": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "WB_ChildMortality",
       "level": "L4",
@@ -1567,63 +1567,63 @@
       "category": "comparison"
     },
     "201": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "202": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "203": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "204": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "205": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "206": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "207": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "208": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "209": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L2",
@@ -1637,42 +1637,42 @@
       "category": "aggregation"
     },
     "211": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "212": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "213": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "214": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "215": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "216": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L2",
@@ -1686,35 +1686,35 @@
       "category": "aggregation"
     },
     "218": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "219": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "220": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "221": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "222": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
@@ -1728,56 +1728,56 @@
       "category": "point_lookup"
     },
     "224": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "225": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "226": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L1",
       "category": "point_lookup"
     },
     "227": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L2",
       "category": "ranking"
     },
     "228": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": false,
       "dataset": "Inpatient",
       "level": "L3",
       "category": "aggregation"
     },
     "229": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "230": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",
       "category": "comparison"
     },
     "231": {
-      "sge_answerable": false,
+      "sge_answerable": true,
       "baseline_answerable": true,
       "dataset": "Inpatient",
       "level": "L4",

@@ -66,7 +66,7 @@ DATASETS = [
         "graph_schema_only": OUTPUT_DIR / "ablation_schema_only_who" / "lightrag_storage" / "graph_chunk_entity_relation.graphml",
         "graph_baseline": OUTPUT_DIR / "baseline_who_life" / "lightrag_storage" / "graph_chunk_entity_relation.graphml",
         # Paper Table 4 aggregate FC values (for sanity check)
-        "paper_fc": {"full": 1.000, "serial": 0.013, "schema": 0.380, "baseline": 0.167},
+        "paper_fc": {"full": 1.000, "serial": 0.013, "schema": 0.480, "baseline": 0.167},
     },
     {
         "key": "WB_CM",

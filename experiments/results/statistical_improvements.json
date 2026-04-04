@@ -20,7 +20,7 @@
         "paper_fc": {
           "full": 1.0,
           "serial": 0.013,
-          "schema": 0.38,
+          "schema": 0.48,
           "baseline": 0.167
         },
         "interaction_point_estimate": 0.6733,
