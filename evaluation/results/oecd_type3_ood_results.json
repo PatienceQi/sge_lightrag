@@ -1,0 +1,158 @@
+{
+  "oecd_gdp": {
+    "dataset": "oecd_gdp",
+    "timestamp": "2026-04-05T21:20:32.911124",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_oecd_gdp/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 25,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.0,
+      "matched_entities": 5,
+      "total_entities": 5,
+      "covered_facts": 0,
+      "total_facts": 25
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_oecd_gdp/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 3,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.0,
+      "matched_entities": 5,
+      "total_entities": 5,
+      "covered_facts": 0,
+      "total_facts": 25
+    }
+  },
+  "oecd_beds": {
+    "dataset": "oecd_beds",
+    "timestamp": "2026-04-05T21:23:16.946599",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_oecd_beds/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 25,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.76,
+      "matched_entities": 5,
+      "total_entities": 5,
+      "covered_facts": 19,
+      "total_facts": 25
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_oecd_beds/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 1,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.28,
+      "matched_entities": 5,
+      "total_entities": 5,
+      "covered_facts": 7,
+      "total_facts": 25
+    }
+  },
+  "oecd_discharge": {
+    "dataset": "oecd_discharge",
+    "timestamp": "2026-04-05T21:28:14.659747",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_oecd_discharge/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 18,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.0,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 0,
+      "total_facts": 18
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_oecd_discharge/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 2,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.0,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 0,
+      "total_facts": 18
+    }
+  },
+  "oecd_germany": {
+    "dataset": "oecd_germany",
+    "timestamp": "2026-04-05T21:30:27.484287",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_oecd_germany/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 155,
+      "exists": true,
+      "ec": 0.4,
+      "fc": 0.0,
+      "matched_entities": 2,
+      "total_entities": 5,
+      "covered_facts": 0,
+      "total_facts": 15
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_oecd_germany/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 12,
+      "exists": true,
+      "ec": 0.6,
+      "fc": 0.0,
+      "matched_entities": 3,
+      "total_entities": 5,
+      "covered_facts": 0,
+      "total_facts": 15
+    }
+  },
+  "type3_health_exp": {
+    "dataset": "type3_health_exp",
+    "timestamp": "2026-04-05T21:48:20.509659",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_type3_health_exp/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 2027,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 1.0,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 9,
+      "total_facts": 9
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_type3_health_exp/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 72,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.0,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 0,
+      "total_facts": 9
+    }
+  },
+  "type3_immun_multi": {
+    "dataset": "type3_immun_multi",
+    "timestamp": "2026-04-06T01:50:51.052872",
+    "sge": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/sge_type3_immun_multi/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 1516,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 0.9333,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 14,
+      "total_facts": 15
+    },
+    "baseline": {
+      "graph": "/Users/qipatience/Desktop/SGE/sge_lightrag/output/baseline_type3_immun_multi/lightrag_storage/graph_chunk_entity_relation.graphml",
+      "chunks": 35,
+      "exists": true,
+      "ec": 1.0,
+      "fc": 1.0,
+      "matched_entities": 3,
+      "total_entities": 3,
+      "covered_facts": 15,
+      "total_facts": 15
+    }
+  }
+}

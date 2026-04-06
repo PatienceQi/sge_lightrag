@@ -28,7 +28,13 @@ WB CM:   SGE FC=1.000, Base FC=0.473, Δ=2.11×
 WB Pop:  SGE FC=1.000, Base FC=0.187, Δ=5.35×
 WB Mat:  SGE FC=0.967, Base FC=0.787, Δ=1.23×
 Inpat:   SGE FC=0.938, Base FC=0.438, Δ=2.14×
+Fort500: SGE FC=1.000, Base FC=0.400, Δ=2.50×
+THE:     SGE FC=0.600, Base FC=0.207, Δ=2.90×
 QA:      SGE 93/100 (93%), Baseline 59/100 (59%)
-Prec:    50/50 = 100% (both systems)
+StatQ:   SGE 84.8%, Baseline 54.5% (231 questions)
+Prec:    CSV-verified Type-II 150/150=100%
 Gold:    977 facts total (600 auto + 102 manual + 275 non-gov)
+DetPar:  WHO FC=0.68, 5/7 FC≥0.96 (zero LLM)
+JSON:    WHO FC=1.000 (multiple coupling mechanisms)
+RowLoc:  WHO FC=0.167 = Baseline (format alone = 0)
 ```

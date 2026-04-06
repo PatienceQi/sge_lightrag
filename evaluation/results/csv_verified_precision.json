@@ -1,0 +1,175 @@
+{
+  "description": "CSV-verified precision audit: sampled edges checked against source CSV",
+  "sample_size_per_dataset": 50,
+  "seed": 42,
+  "results": {
+    "who_sge": {
+      "dataset": "WHO Life Expectancy",
+      "system": "sge",
+      "precision": 1.0,
+      "verified": 50,
+      "total": 50,
+      "reasons": {
+        "exact_match_year_2010": 5,
+        "exact_match_year_2006": 1,
+        "exact_match_year_2009": 4,
+        "exact_match_year_2004": 2,
+        "exact_match_year_2002": 3,
+        "exact_match_year_2021": 1,
+        "exact_match_year_2003": 5,
+        "exact_match_year_2008": 2,
+        "exact_match_year_2018": 2,
+        "exact_match_year_2019": 4,
+        "exact_match_year_2013": 2,
+        "exact_match_year_2000": 2,
+        "exact_match_year_2001": 5,
+        "exact_match_year_2005": 1,
+        "exact_match_year_2012": 1,
+        "exact_match_year_2015": 3,
+        "exact_match_year_2007": 2,
+        "exact_match_year_2011": 1,
+        "exact_match_year_2014": 2,
+        "exact_match_year_2020": 1,
+        "exact_match_year_2016": 1
+      }
+    },
+    "who_baseline": {
+      "dataset": "WHO Life Expectancy",
+      "system": "baseline",
+      "precision": 0.0,
+      "verified": 0,
+      "total": 50,
+      "reasons": {
+        "subject_not_found_in_csv": 33,
+        "value_not_found_in_matched_rows": 15,
+        "no_value_extracted": 2
+      }
+    },
+    "wb_cm_sge": {
+      "dataset": "WB Child Mortality",
+      "system": "sge",
+      "precision": 1.0,
+      "verified": 50,
+      "total": 50,
+      "reasons": {
+        "exact_match_year_2002": 2,
+        "exact_match_year_2013": 2,
+        "exact_match_year_2016": 4,
+        "exact_match_year_2000": 3,
+        "exact_match_year_2010": 5,
+        "exact_match_year_2005": 3,
+        "exact_match_year_2007": 2,
+        "exact_match_year_2019": 3,
+        "exact_match_year_2011": 2,
+        "exact_match_year_2017": 3,
+        "exact_match_year_2003": 1,
+        "exact_match_year_2018": 3,
+        "exact_match_year_2008": 2,
+        "exact_match_year_2015": 2,
+        "exact_match_year_2012": 1,
+        "exact_match_year_2006": 4,
+        "exact_match_year_2009": 2,
+        "exact_match_year_2001": 1,
+        "exact_match_year_2004": 2,
+        "exact_match_year_2020": 2,
+        "exact_match_year_2021": 1
+      }
+    },
+    "wb_cm_baseline": {
+      "dataset": "WB Child Mortality",
+      "system": "baseline",
+      "precision": 0.0,
+      "verified": 0,
+      "total": 50,
+      "reasons": {
+        "subject_not_found_in_csv": 40,
+        "no_value_extracted": 4,
+        "value_not_found_in_matched_rows": 6
+      }
+    },
+    "wb_pop_sge": {
+      "dataset": "WB Population",
+      "system": "sge",
+      "precision": 1.0,
+      "verified": 50,
+      "total": 50,
+      "reasons": {
+        "exact_match_year_2010": 2,
+        "exact_match_year_2000": 2,
+        "exact_match_year_2012": 1,
+        "exact_match_year_2006": 1,
+        "exact_match_year_2021": 3,
+        "exact_match_year_2014": 1,
+        "exact_match_year_2004": 5,
+        "exact_match_year_2015": 5,
+        "exact_match_year_2013": 3,
+        "exact_match_year_2023": 4,
+        "exact_match_year_2003": 2,
+        "exact_match_year_2007": 2,
+        "exact_match_year_2016": 2,
+        "exact_match_year_2017": 2,
+        "exact_match_year_2020": 3,
+        "exact_match_year_2009": 1,
+        "exact_match_year_2001": 2,
+        "exact_match_year_2008": 1,
+        "exact_match_year_2005": 2,
+        "exact_match_year_2011": 4,
+        "exact_match_year_2022": 1,
+        "exact_match_year_2018": 1
+      }
+    },
+    "wb_pop_baseline": {
+      "dataset": "WB Population",
+      "system": "baseline",
+      "precision": 0.0,
+      "verified": 0,
+      "total": 50,
+      "reasons": {
+        "subject_not_found_in_csv": 44,
+        "no_value_extracted": 5,
+        "value_not_found_in_matched_rows": 1
+      }
+    },
+    "inpatient_sge": {
+      "dataset": "HK Inpatient 2023",
+      "system": "sge",
+      "precision": 0.52,
+      "verified": 26,
+      "total": 50,
+      "reasons": {
+        "value_not_found_in_matched_rows": 17,
+        "subject_not_found_in_csv": 7,
+        "value_found_in_col_住院病人出院及死亡人次*-合计": 9,
+        "value_found_in_col_住院病人出院及死亡人次*-惩教署辖下医院": 3,
+        "value_found_in_col_住院病人出院及死亡人次*-私家医院": 6,
+        "value_found_in_col_住院病人出院及死亡人次*-医院管理局辖下医院": 6,
+        "value_found_in_col_全港登记死亡人数-男性": 1,
+        "value_found_in_col_全港登记死亡人数-合计": 1
+      }
+    },
+    "inpatient_baseline": {
+      "dataset": "HK Inpatient 2023",
+      "system": "baseline",
+      "precision": 0.0,
+      "verified": 0,
+      "total": 50,
+      "reasons": {
+        "subject_not_found_in_csv": 19,
+        "no_value_extracted": 29,
+        "value_not_found_in_matched_rows": 2
+      }
+    }
+  },
+  "aggregate": {
+    "sge": {
+      "verified": 176,
+      "sampled": 200,
+      "precision": 0.88
+    },
+    "baseline": {
+      "verified": 0,
+      "sampled": 200,
+      "precision": 0.0
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "description": "OOD Two-Layer Analysis: Layer 1 = true generalization (no fallback), Layer 2 = deployment safety (with fallback)",
+  "layer_1_generalization": {
+    "description": "SGE without fallback vs Baseline - measures true generalization ability",
+    "datasets": {
+      "cereal_production": {
+        "sge_fc": 0.95,
+        "baseline_fc": 0.05,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9568
+      },
+      "co2_emissions": {
+        "sge_fc": 0.7,
+        "baseline_fc": 0.025,
+        "sge_wins": true,
+        "edge_node_ratio": 0.957
+      },
+      "education_spending": {
+        "sge_fc": 0.609,
+        "baseline_fc": 0.0,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9431
+      },
+      "gdp_growth": {
+        "sge_fc": 0.475,
+        "baseline_fc": 0.025,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9577
+      },
+      "health_expenditure": {
+        "sge_fc": 0.55,
+        "baseline_fc": 0.05,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9583
+      },
+      "immunization_dpt": {
+        "sge_fc": 0.0,
+        "baseline_fc": 0.3,
+        "sge_wins": false,
+        "edge_node_ratio": 0.0
+      },
+      "immunization_measles": {
+        "sge_fc": 0.0,
+        "baseline_fc": 0.325,
+        "sge_wins": false,
+        "edge_node_ratio": 0.0
+      },
+      "literacy_rate": {
+        "sge_fc": 0.6,
+        "baseline_fc": 0.1,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9603
+      },
+      "population_growth": {
+        "sge_fc": 0.625,
+        "baseline_fc": 0.075,
+        "sge_wins": true,
+        "edge_node_ratio": 0.9567
+      },
+      "unemployment": {
+        "sge_fc": 0.025,
+        "baseline_fc": 0.125,
+        "sge_wins": false,
+        "edge_node_ratio": 0.7934
+      }
+    },
+    "summary": {
+      "sge_wins": "7/10",
+      "avg_sge_fc": 0.4535,
+      "avg_baseline_fc": 0.1025
+    }
+  },
+  "layer_2_deployment_safety": {
+    "description": "SGE with auto-fallback vs Baseline - measures deployment safety guarantee",
+    "datasets": {
+      "cereal_production": {
+        "final_fc": 0.95,
+        "baseline_fc": 0.05,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9568
+      },
+      "co2_emissions": {
+        "final_fc": 0.7,
+        "baseline_fc": 0.025,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.957
+      },
+      "education_spending": {
+        "final_fc": 0.609,
+        "baseline_fc": 0.0,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9431
+      },
+      "gdp_growth": {
+        "final_fc": 0.475,
+        "baseline_fc": 0.025,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9577
+      },
+      "health_expenditure": {
+        "final_fc": 0.55,
+        "baseline_fc": 0.05,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9583
+      },
+      "immunization_dpt": {
+        "final_fc": 0.3,
+        "baseline_fc": 0.3,
+        "fallback_triggered": true,
+        "edge_node_ratio": 0.0
+      },
+      "immunization_measles": {
+        "final_fc": 0.325,
+        "baseline_fc": 0.325,
+        "fallback_triggered": true,
+        "edge_node_ratio": 0.0
+      },
+      "literacy_rate": {
+        "final_fc": 0.6,
+        "baseline_fc": 0.1,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9603
+      },
+      "population_growth": {
+        "final_fc": 0.625,
+        "baseline_fc": 0.075,
+        "fallback_triggered": false,
+        "edge_node_ratio": 0.9567
+      },
+      "unemployment": {
+        "final_fc": 0.125,
+        "baseline_fc": 0.125,
+        "fallback_triggered": true,
+        "edge_node_ratio": 0.7934
+      }
+    },
+    "summary": {
+      "all_ge_baseline": true,
+      "fallback_triggered_count": 3,
+      "fallback_datasets": ["immunization_dpt", "immunization_measles", "unemployment"]
+    }
+  },
+  "key_finding": "Without fallback, SGE generalizes to 7/10 OOD datasets (true wins). With fallback, 10/10 achieve FC >= Baseline, providing deployment safety guarantee. The distinction matters: fallback is a safety net, not a generalization mechanism."
+}

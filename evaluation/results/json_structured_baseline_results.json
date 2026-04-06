@@ -1,0 +1,163 @@
+{
+  "wb_pop": {
+    "dataset": "wb_pop",
+    "label": "WB Population",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 266,
+      "facts_extracted": 16516,
+      "errors": 11,
+      "nodes": 16771,
+      "edges": 16516
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 0.68,
+      "fc": 0.4733,
+      "ec_matched": 17,
+      "ec_total": 25,
+      "fc_covered": 71,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-04T16:14:40.689681"
+  },
+  "inpatient": {
+    "dataset": "inpatient",
+    "label": "HK Inpatient 2023",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 316,
+      "facts_extracted": 2261,
+      "errors": 11,
+      "nodes": 1928,
+      "edges": 2261
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 0.375,
+      "fc": 0.0625,
+      "ec_matched": 3,
+      "ec_total": 8,
+      "fc_covered": 1,
+      "fc_total": 16
+    },
+    "timestamp": "2026-04-04T15:55:38.128485"
+  },
+  "fortune500": {
+    "dataset": "fortune500",
+    "label": "Fortune 500 Revenue",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 50,
+      "facts_extracted": 250,
+      "errors": 0,
+      "nodes": 300,
+      "edges": 250
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 125,
+      "fc_total": 125
+    },
+    "timestamp": "2026-04-04T15:57:08.099629"
+  },
+  "the": {
+    "dataset": "the",
+    "label": "THE University Ranking",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 50,
+      "facts_extracted": 298,
+      "errors": 0,
+      "nodes": 348,
+      "edges": 298
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-04T15:58:37.587844"
+  },
+  "who": {
+    "dataset": "who",
+    "label": "WHO Life Expectancy",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 196,
+      "facts_extracted": 4312,
+      "errors": 0,
+      "nodes": 4506,
+      "edges": 4312
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-05T21:18:11.278268"
+  },
+  "wb_cm": {
+    "dataset": "wb_cm",
+    "label": "WB Child Mortality",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 266,
+      "facts_extracted": 13212,
+      "errors": 22,
+      "nodes": 13456,
+      "edges": 13212
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 1.0,
+      "fc": 0.9867,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 148,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-05T21:33:00.766895"
+  },
+  "wb_mat": {
+    "dataset": "wb_mat",
+    "label": "WB Maternal Mortality",
+    "baseline_type": "json_structured_output",
+    "description": "Per-row CSV → LLM JSON structured output → direct graph assembly. No LightRAG, no delimiter parsing, no schema induction. Tests whether JSON output mode alone achieves coupling.",
+    "stats": {
+      "rows_processed": 266,
+      "facts_extracted": 9366,
+      "errors": 24,
+      "nodes": 9608,
+      "edges": 9366
+    },
+    "evaluation": {
+      "label": "JSON-Structured",
+      "ec": 0.76,
+      "fc": 0.6267,
+      "ec_matched": 19,
+      "ec_total": 25,
+      "fc_covered": 94,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-05T21:43:50.755579"
+  }
+}

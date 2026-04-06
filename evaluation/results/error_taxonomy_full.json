@@ -1,0 +1,367 @@
+{
+  "who": {
+    "label": "WHO Life Expectancy",
+    "type": "Type-II",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 150,
+        "covered": 150,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 4508,
+        "edges": 4312
+      },
+      "baseline": {
+        "ec": 0.92,
+        "fc": 0.1667,
+        "total_facts": 150,
+        "covered": 25,
+        "missed": 125,
+        "error_categories": {
+          "entity_missing": 12,
+          "entity_isolated": 0,
+          "value_missing": 96,
+          "year_missing": 2,
+          "value_wrong_binding": 15,
+          "unknown": 0
+        },
+        "nodes": 402,
+        "edges": 647
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 0.68,
+        "total_facts": 150,
+        "covered": 102,
+        "missed": 48,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 48,
+          "unknown": 0
+        },
+        "nodes": 4508,
+        "edges": 4312
+      }
+    }
+  },
+  "wb_cm": {
+    "label": "WB Child Mortality",
+    "type": "Type-II",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 150,
+        "covered": 150,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 5218,
+        "edges": 5509
+      },
+      "baseline": {
+        "ec": 0.76,
+        "fc": 0.4733,
+        "total_facts": 150,
+        "covered": 71,
+        "missed": 79,
+        "error_categories": {
+          "entity_missing": 36,
+          "entity_isolated": 0,
+          "value_missing": 19,
+          "year_missing": 0,
+          "value_wrong_binding": 24,
+          "unknown": 0
+        },
+        "nodes": 383,
+        "edges": 653
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 0.7267,
+        "total_facts": 150,
+        "covered": 109,
+        "missed": 41,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 6,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 35,
+          "unknown": 0
+        },
+        "nodes": 13517,
+        "edges": 13251
+      }
+    }
+  },
+  "wb_pop": {
+    "label": "WB Population",
+    "type": "Type-II",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 150,
+        "covered": 150,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 6551,
+        "edges": 6317
+      },
+      "baseline": {
+        "ec": 0.88,
+        "fc": 0.1867,
+        "total_facts": 150,
+        "covered": 28,
+        "missed": 122,
+        "error_categories": {
+          "entity_missing": 18,
+          "entity_isolated": 0,
+          "value_missing": 101,
+          "year_missing": 0,
+          "value_wrong_binding": 3,
+          "unknown": 0
+        },
+        "nodes": 317,
+        "edges": 1969
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 0.96,
+        "total_facts": 150,
+        "covered": 144,
+        "missed": 6,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 6,
+          "unknown": 0
+        },
+        "nodes": 17461,
+        "edges": 17195
+      }
+    }
+  },
+  "wb_mat": {
+    "label": "WB Maternal Mortality",
+    "type": "Type-II",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 0.9667,
+        "total_facts": 150,
+        "covered": 145,
+        "missed": 5,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 5,
+          "unknown": 0
+        },
+        "nodes": 3764,
+        "edges": 5299
+      },
+      "baseline": {
+        "ec": 0.96,
+        "fc": 0.7867,
+        "total_facts": 150,
+        "covered": 118,
+        "missed": 32,
+        "error_categories": {
+          "entity_missing": 6,
+          "entity_isolated": 0,
+          "value_missing": 9,
+          "year_missing": 3,
+          "value_wrong_binding": 14,
+          "unknown": 0
+        },
+        "nodes": 355,
+        "edges": 1475
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 0.9667,
+        "total_facts": 150,
+        "covered": 145,
+        "missed": 5,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 5,
+          "unknown": 0
+        },
+        "nodes": 9704,
+        "edges": 9438
+      }
+    }
+  },
+  "inpatient": {
+    "label": "HK Inpatient 2023",
+    "type": "Type-III",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 0.9375,
+        "total_facts": 16,
+        "covered": 15,
+        "missed": 1,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 1,
+          "unknown": 0
+        },
+        "nodes": 1190,
+        "edges": 996
+      },
+      "baseline": {
+        "ec": 1.0,
+        "fc": 0.4375,
+        "total_facts": 16,
+        "covered": 7,
+        "missed": 9,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 1,
+          "value_missing": 8,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 450,
+        "edges": 961
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 16,
+        "covered": 16,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 2796,
+        "edges": 2480
+      }
+    }
+  },
+  "fortune500": {
+    "label": "Fortune 500 Revenue",
+    "type": "Type-II",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 125,
+        "covered": 125,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 300,
+        "edges": 250
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 125,
+        "covered": 125,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 300,
+        "edges": 250
+      }
+    }
+  },
+  "the": {
+    "label": "THE University Ranking",
+    "type": "Type-III",
+    "systems": {
+      "sge": {
+        "ec": 1.0,
+        "fc": 0.6,
+        "total_facts": 150,
+        "covered": 90,
+        "missed": 60,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 60,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 72,
+        "edges": 196
+      },
+      "det_parser": {
+        "ec": 1.0,
+        "fc": 1.0,
+        "total_facts": 150,
+        "covered": 150,
+        "missed": 0,
+        "error_categories": {
+          "entity_missing": 0,
+          "entity_isolated": 0,
+          "value_missing": 0,
+          "year_missing": 0,
+          "value_wrong_binding": 0,
+          "unknown": 0
+        },
+        "nodes": 348,
+        "edges": 298
+      }
+    }
+  }
+}

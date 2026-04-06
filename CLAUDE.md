@@ -46,6 +46,14 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `run_independent_annotation.py` — Dual-LLM annotator precision evaluation
 - `run_error_analysis.py` — Detailed error analysis (missed facts, OOD failures)
 - `generate_gold_new_datasets.py` — Gold standards for Eurostat Crime + US Census
+- `generate_gold_oecd.py` — Gold standards for OECD blind test (4 datasets, 83 facts)
+- `run_error_taxonomy.py` — Full error taxonomy (7 datasets × 3 systems)
+- `csv_verified_precision.py` — Deterministic CSV cell lookup precision audit
+- `row_local_baseline.py` — Per-row + default prompt baseline (format-only control)
+- `fixed_stv_baseline.py` — Fixed generic schema baseline (static vs dynamic schema)
+- `json_structured_baseline.py` — JSON structured output baseline (alternative coupling)
+- `config.py` — Centralized API key/model config (use env vars: SGE_API_KEY, SGE_API_BASE)
+- `baseline_common.py` — Shared LLM/embedding/evaluation utilities for all baselines
 - `gold/` — Gold standard JSONL files (DO NOT modify without instruction)
 - `results/` — Authoritative evaluation result JSONs
 
@@ -53,7 +61,8 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `results/` — Experiment output JSONs (Wilcoxon, probes, ablations, cross-model, etc.)
 - `crossmodel/` — Cross-model validation (GPT-5-mini + Gemini 2.5 Flash)
 - `statistical/interaction_ci_analysis.py` — Interaction term Bootstrap CI + Wilcoxon effect size CI
-- 25+ experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, non-gov domain, table-aware baseline, cross-model, error analysis
+- `statistical/hierarchical_bootstrap.py` — Entity-cluster hierarchical bootstrap (addresses within-entity dependence)
+- 48 experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, cross-model, error analysis
 
 ## Key Design Decisions
 

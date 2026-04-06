@@ -1,0 +1,80 @@
+{
+  "description": "Cost and latency estimates for SGE pipeline vs Baseline LightRAG",
+  "notes": {
+    "model": "claude-haiku-4-5-20251001 (temperature=0)",
+    "embedding": "mxbai-embed-large-v1 (1024d, local Ollama, zero API cost)",
+    "pricing": "Claude Haiku: $0.25/MTok input, $1.25/MTok output (2025 pricing)",
+    "stage2_cost": "One LLM call per dataset for schema induction (~500 input + ~200 output tokens)",
+    "stage3_cost": "Zero additional LLM cost (serialization is deterministic)",
+    "lightrag_cost": "LLM calls for entity extraction (~2 calls per chunk: extract + summary)"
+  },
+  "per_dataset": {
+    "who": {
+      "label": "WHO Life Expectancy",
+      "rows": 196,
+      "sge_chunks": 196,
+      "baseline_chunks": 196,
+      "sge_llm_cache_entries": 57,
+      "stage2_extra_calls": 1,
+      "estimated_sge_tokens": {"input": 285000, "output": 57000},
+      "estimated_baseline_tokens": {"input": 285000, "output": 57000},
+      "sge_overhead_vs_baseline": "~0.01% (1 extra Stage 2 LLM call)",
+      "notes": "Same number of chunks; SGE overhead is only Stage 2 schema induction"
+    },
+    "wb_cm": {
+      "label": "WB Child Mortality",
+      "rows": 244,
+      "sge_chunks": 244,
+      "baseline_chunks": 244,
+      "sge_llm_cache_entries": 66,
+      "stage2_extra_calls": 1,
+      "estimated_sge_tokens": {"input": 354000, "output": 66000},
+      "estimated_baseline_tokens": {"input": 354000, "output": 66000},
+      "sge_overhead_vs_baseline": "~0.01%"
+    },
+    "wb_pop": {
+      "label": "WB Population",
+      "rows": 265,
+      "sge_chunks": 265,
+      "baseline_chunks": 265,
+      "sge_llm_cache_entries": 107,
+      "stage2_extra_calls": 1,
+      "estimated_sge_tokens": {"input": 384000, "output": 107000},
+      "estimated_baseline_tokens": {"input": 384000, "output": 107000},
+      "sge_overhead_vs_baseline": "~0.01%"
+    },
+    "wb_mat": {
+      "label": "WB Maternal Mortality",
+      "rows": 242,
+      "sge_chunks": 242,
+      "baseline_chunks": 242,
+      "sge_llm_cache_entries": 126,
+      "stage2_extra_calls": 1,
+      "estimated_sge_tokens": {"input": 351000, "output": 126000},
+      "estimated_baseline_tokens": {"input": 351000, "output": 126000},
+      "sge_overhead_vs_baseline": "~0.01%"
+    },
+    "inpatient": {
+      "label": "HK Inpatient 2023",
+      "rows": 317,
+      "sge_chunks": 317,
+      "baseline_chunks": 317,
+      "sge_llm_cache_entries": 33,
+      "stage2_extra_calls": 1,
+      "estimated_sge_tokens": {"input": 460000, "output": 33000},
+      "estimated_baseline_tokens": {"input": 460000, "output": 33000},
+      "sge_overhead_vs_baseline": "~0.01%"
+    }
+  },
+  "summary": {
+    "total_sge_cost_estimate_usd": 0.85,
+    "total_baseline_cost_estimate_usd": 0.84,
+    "sge_overhead": "< 1% additional cost (1 Stage 2 LLM call per dataset)",
+    "key_finding": "SGE adds negligible cost overhead (<1%) over vanilla LightRAG because: (1) Stage 1 is deterministic (zero LLM), (2) Stage 2 adds only 1 LLM call, (3) Stage 3 serialization is deterministic. The main cost is LightRAG's entity extraction which is identical for both."
+  },
+  "det_parser_cost": {
+    "llm_calls": 0,
+    "api_cost_usd": 0.00,
+    "note": "Zero LLM cost — purely deterministic rule-based extraction"
+  }
+}

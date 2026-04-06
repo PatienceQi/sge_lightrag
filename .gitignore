@@ -14,14 +14,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# LightRAG output (large graph files)
-output/*/lightrag_storage/
+# LightRAG output (large graph files, 2.4GB+ regenerable)
+output/
 
 # Secrets
 .env
 
-# Experiment output (temporary, regenerable)
-output/lightrag_v14_*/
-output/rag_anything_*/
-output/det_parser_*
-output/autoschemakg_*/
+# Temporary files
+rag_storage/

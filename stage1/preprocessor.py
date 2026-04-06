@@ -18,8 +18,8 @@ import io
 import pandas as pd
 from pathlib import Path
 
-# Reuse encoding detection from stage1.features
-from stage1.features import _detect_encoding
+# Reuse encoding detection and skiprows detection from stage1.features
+from stage1.features import _detect_encoding, _detect_skiprows
 
 
 # ---------------------------------------------------------------------------
@@ -150,11 +150,14 @@ def preprocess_csv(
         # UTF-16 tab-separated: read without header first to inspect structure
         raw_df = pd.read_csv(path, encoding="utf-16", sep="\t", header=None)
     else:
+        # Detect and skip leading metadata rows (e.g., World Bank 4-row header)
+        skiprows = _detect_skiprows(path, encoding)
         # Try encodings in order
         raw_df = None
         for enc in [encoding, "utf-8-sig", "utf-8", "gbk", "big5hkscs"]:
             try:
-                raw_df = pd.read_csv(path, encoding=enc, header=None)
+                raw_df = pd.read_csv(path, encoding=enc, header=None,
+                                     skiprows=skiprows)
                 break
             except (UnicodeDecodeError, Exception):
                 continue
@@ -188,10 +191,10 @@ def preprocess_csv(
         df = raw_df.copy()
         # If headerless (UTF-16), keep integer column indices
         if not was_utf16:
-            # Re-read with proper header
+            # Re-read with proper header (applying same skiprows as initial read)
             for enc in [encoding, "utf-8-sig", "utf-8", "gbk", "big5hkscs"]:
                 try:
-                    df = pd.read_csv(path, encoding=enc)
+                    df = pd.read_csv(path, encoding=enc, skiprows=skiprows)
                     break
                 except (UnicodeDecodeError, Exception):
                     continue

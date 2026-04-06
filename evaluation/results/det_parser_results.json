@@ -1,0 +1,47 @@
+{
+  "description": "Deterministic parser baseline - zero LLM, ALL rows (no sampling)",
+  "datasets": {
+    "who": {
+      "EC": 1.0,
+      "FC": 0.68,
+      "nodes": 4508,
+      "edges": 4312
+    },
+    "wb_cm": {
+      "EC": 1.0,
+      "FC": 0.7267,
+      "nodes": 13517,
+      "edges": 13251
+    },
+    "wb_pop": {
+      "EC": 1.0,
+      "FC": 0.96,
+      "nodes": 17461,
+      "edges": 17195
+    },
+    "wb_mat": {
+      "EC": 1.0,
+      "FC": 0.9667,
+      "nodes": 9704,
+      "edges": 9438
+    },
+    "inpatient": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "nodes": 2796,
+      "edges": 2480
+    },
+    "fortune500": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "nodes": 300,
+      "edges": 250
+    },
+    "the": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "nodes": 348,
+      "edges": 298
+    }
+  }
+}

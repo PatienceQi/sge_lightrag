@@ -325,13 +325,87 @@ def _extract_strategy_c(G: nx.Graph) -> list[SystemTriple]:
     return triples
 
 
+def _extract_strategy_e(G: nx.Graph) -> list[SystemTriple]:
+    """Strategy E: yearless value binding for Type-III hierarchical data.
+
+    Handles single-year datasets (e.g., Inpatient 2023) where:
+      - Gold triples have no year field
+      - Graph edges connect category nodes to numeric values
+      - Value may appear in edge description, keywords, or destination node name
+
+    Also handles hierarchical keys where subject is in Chinese.
+    """
+    triples = []
+    for u, v, data in G.edges(data=True):
+        kw = str(data.get("keywords", ""))
+        desc = str(data.get("description", ""))
+
+        u_name = _node_name(G, u)
+        v_name = _node_name(G, v)
+
+        # Skip edges already handled by year-based strategies
+        if _YEAR_KW.search(kw) or _YEAR_INLINE.search(kw):
+            continue
+
+        # Look for numeric values in: destination node name, description, keywords
+        values = []
+        for text in [v_name, desc, kw, u_name]:
+            for m in _VALUE_RE.finditer(text):
+                values.append(m.group())
+            for m in _VALUE_INT_RE.finditer(text):
+                val = m.group()
+                # Skip very short integers that could be noise
+                if len(val) >= 3:
+                    values.append(val)
+        values = list(dict.fromkeys(values))  # deduplicate
+
+        if not values:
+            continue
+
+        # Both endpoints could be subjects in hierarchical data
+        candidate_subjects = set()
+        for name in [u_name, v_name]:
+            if not _is_numeric_node(name):
+                candidate_subjects.add(name)
+
+        # For Type-III hierarchical graphs: if one endpoint is a short
+        # code/identifier (e.g., ICD code "J12-J18"), expand to its
+        # neighbors to find the human-readable category name.
+        # Only expand when the endpoint has few neighbors (≤5) to avoid
+        # explosion on hub nodes.
+        for endpoint in [u, v]:
+            ep_name = _node_name(G, endpoint)
+            if _is_numeric_node(ep_name):
+                continue
+            degree = G.degree(endpoint)
+            if degree <= 10:
+                for nb in (list(G.predecessors(endpoint)) if G.is_directed() else []) + \
+                          (list(G.successors(endpoint)) if G.is_directed() else list(G.neighbors(endpoint))):
+                    nb_name = _node_name(G, nb)
+                    if not _is_numeric_node(nb_name) and nb_name not in candidate_subjects:
+                        candidate_subjects.add(nb_name)
+
+        for subj_name in candidate_subjects:
+            for val in values:
+                if val == subj_name:
+                    continue
+                triples.append(SystemTriple(
+                    subject=subj_name.lower(),
+                    year="",  # no year for Type-III single-year
+                    value=val,
+                ))
+
+    return triples
+
+
 def extract_system_triples(G: nx.Graph) -> list[SystemTriple]:
-    """Extract system triples using all three strategies combined."""
+    """Extract system triples using all strategies combined."""
     triples: list[SystemTriple] = []
     triples.extend(_extract_strategy_a(G))
     triples.extend(_extract_strategy_b(G))
     triples.extend(_extract_strategy_c(G))
     triples.extend(_extract_strategy_d(G))
+    triples.extend(_extract_strategy_e(G))
     return triples
 
 

@@ -1,0 +1,29 @@
+{
+  "description": "OECD blind test - det parser only (blind to SGE development)",
+  "det_parser": {
+    "oecd_gdp": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "facts": 25,
+      "covered": 25
+    },
+    "oecd_beds": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "facts": 25,
+      "covered": 25
+    },
+    "oecd_discharge": {
+      "EC": 1.0,
+      "FC": 0.5,
+      "facts": 18,
+      "covered": 9
+    },
+    "oecd_germany": {
+      "EC": 1.0,
+      "FC": 1.0,
+      "facts": 15,
+      "covered": 15
+    }
+  }
+}

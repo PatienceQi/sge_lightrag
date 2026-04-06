@@ -1,0 +1,116 @@
+{
+  "description": "Hierarchical bootstrap CI (entity-cluster resampling, n=10000)",
+  "methodology": "Level 1: resample entity clusters with replacement. Level 2: include all facts from sampled entities. Addresses within-entity dependence from shared LLM extraction context.",
+  "results": {
+    "who": {
+      "sge": {
+        "point_estimate": 1.0,
+        "ci_95_lo": 1.0,
+        "ci_95_hi": 1.0,
+        "bootstrap_mean": 1.0,
+        "bootstrap_std": 0.0,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      },
+      "baseline": {
+        "point_estimate": 0.1667,
+        "ci_95_lo": 0.1,
+        "ci_95_hi": 0.2467,
+        "bootstrap_mean": 0.1665,
+        "bootstrap_std": 0.0379,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      }
+    },
+    "wb_cm": {
+      "sge": {
+        "point_estimate": 1.0,
+        "ci_95_lo": 1.0,
+        "ci_95_hi": 1.0,
+        "bootstrap_mean": 1.0,
+        "bootstrap_std": 0.0,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      },
+      "baseline": {
+        "point_estimate": 0.4733,
+        "ci_95_lo": 0.34,
+        "ci_95_hi": 0.6133,
+        "bootstrap_mean": 0.474,
+        "bootstrap_std": 0.0697,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      }
+    },
+    "wb_pop": {
+      "sge": {
+        "point_estimate": 1.0,
+        "ci_95_lo": 1.0,
+        "ci_95_hi": 1.0,
+        "bootstrap_mean": 1.0,
+        "bootstrap_std": 0.0,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      },
+      "baseline": {
+        "point_estimate": 0.1867,
+        "ci_95_lo": 0.0533,
+        "ci_95_hi": 0.3467,
+        "bootstrap_mean": 0.1864,
+        "bootstrap_std": 0.0729,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      }
+    },
+    "wb_mat": {
+      "sge": {
+        "point_estimate": 0.9667,
+        "ci_95_lo": 0.9,
+        "ci_95_hi": 1.0,
+        "bootstrap_mean": 0.9671,
+        "bootstrap_std": 0.0329,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      },
+      "baseline": {
+        "point_estimate": 0.7867,
+        "ci_95_lo": 0.64,
+        "ci_95_hi": 0.9133,
+        "bootstrap_mean": 0.7868,
+        "bootstrap_std": 0.0693,
+        "n_entities": 25,
+        "n_facts": 150,
+        "n_bootstrap": 10000
+      }
+    },
+    "inpatient": {
+      "sge": {
+        "point_estimate": 0.9375,
+        "ci_95_lo": 0.8,
+        "ci_95_hi": 1.0,
+        "bootstrap_mean": 0.9371,
+        "bootstrap_std": 0.0601,
+        "n_entities": 8,
+        "n_facts": 16,
+        "n_bootstrap": 10000
+      },
+      "baseline": {
+        "point_estimate": 0.4375,
+        "ci_95_lo": 0.1429,
+        "ci_95_hi": 0.6875,
+        "bootstrap_mean": 0.4246,
+        "bootstrap_std": 0.1452,
+        "n_entities": 8,
+        "n_facts": 16,
+        "n_bootstrap": 10000
+      }
+    }
+  }
+}
