@@ -14,6 +14,7 @@
 | `run_stage2.py` | Stage 2 only (rule-based schema induction) |
 | `run_stage2_llm.py` | Stage 2 only (LLM-enhanced schema induction) |
 | `run_non_gov_experiments.py` | Non-government dataset experiments (Fortune 500, THE Ranking) |
+| `run_oecd_and_type3_ood.py` | Combined OECD blind test (4 datasets) + Type-III OOD (2 datasets) runner |
 
 ## Path Convention
 

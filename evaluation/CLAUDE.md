@@ -32,6 +32,15 @@ Gold Standard (gold/*.jsonl) + Graph (*.graphml)
 | `nanographrag_baseline.py` | nano-GraphRAG cross-system baseline |
 | `graphrag_qa_eval.py` | MS GraphRAG QA evaluation (parquet-based) |
 | `run_stratified_precision.py` | Stratified precision sampling (250 edges) |
+| `csv_verified_precision.py` | Deterministic CSV cell lookup precision audit (Type-II 150/150=100%) |
+| `fixed_stv_baseline.py` | Fixed generic S/T/V schema baseline (static vs dynamic schema ablation) |
+| `json_structured_baseline.py` | JSON structured output baseline (alternative format-constraint coupling) |
+| `row_local_baseline.py` | Per-row + default prompt baseline (format-only control; WHO FC=0.167=Baseline) |
+| `run_error_taxonomy.py` | Full error taxonomy across 7 datasets × 3 systems |
+| `generate_gold_oecd.py` | Gold Standard generation for OECD blind test (4 datasets, 83 facts) |
+| `config.py` | Centralized API key/model config (env vars: SGE_API_KEY, SGE_API_BASE) |
+| `baseline_common.py` | Shared LLM/embedding/evaluation utilities for all baselines |
+| `batch_runner.py` | Batch execution harness for multiple baseline/evaluation scripts |
 
 ## Gold Standards (`gold/`)
 

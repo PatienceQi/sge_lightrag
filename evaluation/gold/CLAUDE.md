@@ -36,6 +36,22 @@
 | `gold_fortune500_revenue.jsonl` | Fortune 500 Revenue | Type-II | 25e/125f |
 | `gold_the_university_ranking.jsonl` | THE University Ranking | Type-III | 25e/150f |
 
+## OECD Blind Test (auto-generated, 4 datasets, 83 facts total)
+
+| File | Dataset | Facts |
+|------|---------|------:|
+| `gold_oecd_gdp.jsonl` | OECD GDP per capita | ~20 |
+| `gold_oecd_hospital_beds.jsonl` | OECD Hospital Beds | ~21 |
+| `gold_oecd_discharge_country.jsonl` | OECD Hospital Discharges (country-level) | ~21 |
+| `gold_oecd_germany_discharge.jsonl` | OECD Germany Discharge (sub-national) | ~21 |
+
+## Type-III OOD Extension (auto-generated, 2 datasets, 24 facts total)
+
+| File | Dataset | Facts |
+|------|---------|------:|
+| `gold_ood_wb_health_exp_category.jsonl` | WB Health Expenditure by Category (Type-III) | ~12 |
+| `gold_ood_wb_immunization_multi.jsonl` | WB Immunization Multi-indicator (Type-III) | ~12 |
+
 ## OOD (10 blind test datasets, 40 facts each except Education 23, Literacy 10)
 
 | File | Domain |
@@ -64,4 +80,7 @@
 ## Totals
 
 - **Paper primary (v2):** 977 facts (600 international + 102 local + 275 non-gov)
-- **OOD:** 353 facts (10 datasets)
+- **OECD blind test:** 83 facts (4 datasets)
+- **Type-III OOD extension:** 24 facts (2 datasets)
+- **OOD (WB 10 datasets):** 353 facts
+- **Grand total:** 1084 facts (977 + 83 OECD + 24 Type-III OOD)

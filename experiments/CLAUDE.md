@@ -7,7 +7,7 @@ Paper experiment scripts grouped by type. All scripts use `PROJECT_ROOT = Path(_
 | Directory | Purpose | Key Scripts |
 |-----------|---------|-------------|
 | `ablation/` | Ablation experiments (decoupled, C4, threshold, misclassify) | 4 scripts |
-| `statistical/` | Statistical tests (Wilcoxon, McNemar, LODO, Bootstrap) | 5 scripts |
+| `statistical/` | Statistical tests (Wilcoxon, McNemar, LODO, Bootstrap, hierarchical bootstrap) | 6 scripts |
 | `probes/` | Downstream probes (graph-native, E2E, compact) | 9 scripts |
 | `crossmodel/` | Cross-model validation (GPT-5-mini) | 1 script |
 | `results/` | Experiment output JSONs (authoritative) | JSON files |
@@ -24,3 +24,7 @@ python3 experiments/probes/graph_native_probe.py
 ## Results
 
 All results save to `experiments/results/*.json`. These are referenced by the paper but are NOT authoritative evaluation numbers — those live in `evaluation/results/`.
+
+New result files added:
+- `hierarchical_bootstrap_results.json` — entity-cluster hierarchical bootstrap CI
+- `ood_two_layer_analysis.json` — OOD two-layer analysis (OECD + Type-III OOD breakdown)

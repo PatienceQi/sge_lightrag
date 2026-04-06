@@ -19,6 +19,16 @@ These JSONs are the **single source of truth** for all paper numbers. Never gues
 | `ood_llm_results.json` | Table 3 footnote | LLM-enhanced OOD results (3 failed datasets) |
 | `precision_analysis_v1.json` | — (superseded) | Old v1 precision analysis |
 | `qa_results_v2.json` | — (superseded by v3) | Old v2 QA results |
+| `det_parser_results.json` | §4.3 | Deterministic parser upper bound (WHO FC=0.68, 5/7 ≥0.96) |
+| `row_local_baseline_results.json` | §4.3 | Per-row + default prompt (WHO FC=0.167 = Baseline; format alone = 0 gain) |
+| `fixed_stv_baseline_results.json` | §4.3 | Fixed S/T/V generic schema (WHO FC≈0.49; dynamic > static) |
+| `json_structured_baseline_results.json` | §4.3 | JSON structured output (WHO FC=1.000; confirms coupling) |
+| `oecd_type3_ood_results.json` | §4.4 | OECD OOD Type-III evaluation (4 datasets, 83 facts) |
+| `oecd_blind_test_results.json` | §4.4 | OECD blind test FC results |
+| `csv_verified_precision.json` | §4.4 | CSV-verified precision audit (Type-II 150/150=100%) |
+| `error_taxonomy_full.json` | Appendix | Full error taxonomy (7 datasets × 3 systems) |
+| `comprehensive_baseline_comparison.json` | Table 1 | All baselines aggregated for comparison table |
+| `cost_latency_estimates.json` | Appendix | Cost and latency estimates per system |
 
 ## Key Numbers Quick Reference
 

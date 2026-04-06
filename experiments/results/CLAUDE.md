@@ -48,3 +48,10 @@ Output JSONs from experiment scripts. These support paper claims but are **NOT**
 | File | Script | Paper Section |
 |------|--------|--------------|
 | `blind_test_stage1_results.json` | — (from run_all_tests) | Appendix H |
+| `ood_two_layer_analysis.json` | — | OECD + Type-III OOD two-layer breakdown (FC by dataset type) |
+
+## Advanced Statistical
+
+| File | Script | Paper Section |
+|------|--------|--------------|
+| `hierarchical_bootstrap_results.json` | statistical/hierarchical_bootstrap.py | Appendix C (entity-cluster CI, within-entity dependence) |

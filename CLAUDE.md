@@ -54,6 +54,7 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `json_structured_baseline.py` — JSON structured output baseline (alternative coupling)
 - `config.py` — Centralized API key/model config (use env vars: SGE_API_KEY, SGE_API_BASE)
 - `baseline_common.py` — Shared LLM/embedding/evaluation utilities for all baselines
+- `batch_runner.py` — Timeout + retry runner for batch baseline evaluation jobs
 - `gold/` — Gold standard JSONL files (DO NOT modify without instruction)
 - `results/` — Authoritative evaluation result JSONs
 
@@ -63,6 +64,9 @@ CSV → Stage 1 (classifier.py)  → τ ∈ {Type-I, II, III} + Meta-Schema S
 - `statistical/interaction_ci_analysis.py` — Interaction term Bootstrap CI + Wilcoxon effect size CI
 - `statistical/hierarchical_bootstrap.py` — Entity-cluster hierarchical bootstrap (addresses within-entity dependence)
 - 48 experiment scripts: statistical tests, graph-native probes, E2E evaluations, ablations, cross-model, error analysis
+
+### Scripts (`scripts/`)
+- `runners/run_oecd_and_type3_ood.py` — Combined OECD blind test + Type-III OOD runner
 
 ## Key Design Decisions
 
@@ -126,12 +130,18 @@ sge_lightrag/
 | `evaluation/results/debiased_results.json` | Value-first de-biased FC results |
 | `evaluation/results/non_gov_fc_results.json` | Non-government domain FC results |
 | `evaluation/results/fewshot_baseline_results.json` | Few-shot baseline (5 datasets, all worse than baseline) |
-| `evaluation/results/stat_question_eval_results.json` | 231-question answerability (SGE 64.5% vs Base 54.6%) |
+| `evaluation/results/stat_question_eval_results.json` | 231-question answerability (SGE 84.8% vs Base 54.5%) |
 | `evaluation/results/error_analysis_detailed.json` | Error analysis (WB_Mat/THE/OOD failures) |
 | `evaluation/results/independent_annotation_results.json` | Dual-LLM precision annotation |
 | `experiments/results/crossmodel_gemini_*.json` | Gemini 2.5 Flash cross-model (5 datasets) |
 | `experiments/results/statistical_improvements.json` | Interaction CI + Wilcoxon effect size CI |
 | `experiments/results/unified_cross_system.json` | Central aggregation of all results |
+| `evaluation/results/csv_verified_precision.json` | CSV cell lookup precision (Type-II SGE 150/150 = 100%) |
+| `evaluation/results/row_local_baseline_results.json` | Row-local baseline (4/7 datasets worse than Baseline) |
+| `evaluation/results/fixed_stv_baseline_results.json` | Fixed S/T/V baseline (0.12–0.92 range, dynamic > static) |
+| `evaluation/results/json_structured_baseline_results.json` | JSON structured output baseline (inconsistent across datasets) |
+| `experiments/results/hierarchical_bootstrap_results.json` | Hierarchical bootstrap (5/5 CIs non-overlapping) |
+| `experiments/results/oecd_blind_test_results.json` | OECD blind test (SGE 3/6 > Baseline, type3_health_exp=1.0) |
 
 ## Conventions
 
