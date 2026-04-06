@@ -1,2 +1,0 @@
-Entity: 病床 / B系列 (4)
-Year: 2015 | Value: 4.0

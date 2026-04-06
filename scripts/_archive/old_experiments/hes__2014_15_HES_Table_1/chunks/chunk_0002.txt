@@ -1,1 +1,0 @@
-Category: Table 1  | Unnamed: 3: 平均住戶人數 | Remark: 住戶每月平均開支 ($) | Remark: 每人每月平均開支 ($)
