@@ -185,9 +185,6 @@ python3 evaluation/fixed_stv_baseline.py          # Static schema control
 python3 evaluation/json_structured_baseline.py    # Alternative coupling mechanism
 python3 evaluation/fewshot_baseline.py            # Few-shot structured prompt
 
-# OECD blind test
-python3 evaluation/run_ood_evaluation.py --split oecd
-
 # Error taxonomy (7 datasets × 3 systems)
 python3 evaluation/run_error_taxonomy.py
 ```
@@ -214,28 +211,23 @@ sge_lightrag/
 ├── stage3/                     # Stage 3: Constrained Extraction
 │
 ├── evaluation/                 # Evaluation Framework
-│   ├── evaluate_coverage.py    #   EC/FC (entity-first, 2-hop)
+│   ├── evaluate_coverage.py    #   EC/FC metrics (entity-first, 2-hop)
 │   ├── evaluate_coverage_debiased.py  # FC (value-first, de-biased)
-│   ├── batch_runner.py         #   Batch evaluation runner (all datasets)
-│   ├── row_local_baseline.py   #   Format-only control (per-row + default prompt)
-│   ├── fixed_stv_baseline.py   #   Static schema control
-│   ├── json_structured_baseline.py  # JSON structured output baseline
+│   ├── row_local_baseline.py   #   Format-only control baseline
+│   ├── fixed_stv_baseline.py   #   Static schema control baseline
+│   ├── json_structured_baseline.py  # Alternative coupling baseline
 │   ├── fewshot_baseline.py     #   Few-shot structured prompt baseline
-│   ├── run_error_taxonomy.py   #   Error taxonomy (7 datasets × 3 systems)
-│   ├── gold/                   #   Gold standard JSONL files (DO NOT modify)
-│   ├── results/                #   Authoritative result JSONs
-│   └── _archive/               #   Deprecated scripts
-├── experiments/                # Experiment Scripts (grouped by type)
-│   ├── ablation/               #   Decoupled ablation, threshold, C4
-│   ├── statistical/            #   Wilcoxon, McNemar, LODO, Bootstrap, interaction CI
-│   ├── probes/                 #   Graph-native probe, E2E, compact
+│   ├── table_aware_baseline.py #   Table-aware prompt baseline
+│   ├── deterministic_parser_baseline.py  # Zero-LLM deterministic parser
+│   ├── gold/                   #   Gold standard JSONL (977 facts)
+│   └── results/                #   Authoritative result JSONs
+├── experiments/                # Reproducibility Scripts
+│   ├── ablation/               #   Decoupled ablation (C4 serialization-only)
+│   ├── statistical/            #   Interaction CI, Wilcoxon, hierarchical bootstrap
 │   ├── crossmodel/             #   Cross-model (GPT-5-mini + Gemini 2.5 Flash)
 │   └── results/                #   Experiment output JSONs
-├── tests/                      # Test Suite (pytest)
-├── scripts/                    # Utility Scripts
-│   ├── runners/                #   Pipeline runners (batch, integration, OOD)
-│   ├── batch/                  #   Shell batch scripts
-│   └── _archive/               #   One-time data fixes
+├── tests/                      # Test Suite (pytest, 284 tests)
+├── scripts/runners/            #   Pipeline runners (integration, OOD)
 └── output/                     # LightRAG graph outputs (gitignored)
 ```
 
