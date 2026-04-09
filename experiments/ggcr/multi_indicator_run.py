@@ -17,6 +17,7 @@ Usage:
 """
 from __future__ import annotations
 
+import os
 import re
 import json
 import time
@@ -35,8 +36,8 @@ DATA_PATH = CACHE_DIR / "multi_indicator_data.json"
 RESULTS_PATH = PROJECT_ROOT / "experiments" / "results" / "ggcr_results_multi_indicator.json"
 
 # LLM config (same as run_ggcr_eval.py)
-API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL = "claude-haiku-4-5-20251001"
 
 SYSTEM_PROMPT = (

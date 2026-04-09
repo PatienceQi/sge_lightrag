@@ -99,7 +99,6 @@ SGE is a structure-aware graph construction framework for statistical CSV data (
 ### Requirements
 
 - Python 3.10+
-- Dependencies: `pandas`, `networkx`, `openai` SDK, `lightrag-hku`
 - [Ollama](https://ollama.com) with `mxbai-embed-large`:
   ```bash
   ollama pull mxbai-embed-large
@@ -108,8 +107,34 @@ SGE is a structure-aware graph construction framework for statistical CSV data (
 ### Install
 
 ```bash
-pip3 install pandas networkx openai lightrag-hku
+pip3 install -r requirements.txt
 ```
+
+### Configuration
+
+Copy the environment template and fill in your API key:
+
+```bash
+cp .env.example .env
+# Edit .env with your API key (OpenAI-compatible endpoint)
+source .env
+```
+
+### Dataset Setup
+
+The evaluation datasets are stored in a sibling `dataset/` directory. Download or place your CSV files following this structure:
+
+```
+project_root/
+├── sge_lightrag/          # this repo
+└── dataset/
+    ├── WHO/               # WHO Life Expectancy CSV
+    ├── 世界银行数据/        # World Bank datasets (CM, Pop, Mat)
+    ├── 住院病人统计/        # HK Inpatient statistics
+    └── non_gov/           # Fortune 500, THE University Ranking
+```
+
+The WHO Life Expectancy sample is included in `dataset/WHO/` within this repo for quick testing.
 
 ## Usage
 
@@ -234,18 +259,12 @@ sge_lightrag/
 
 ## API Configuration
 
-LLM calls use OpenAI-compatible API, configured in `stage2_llm/llm_client.py`:
-
-```python
-_DEFAULT_BASE_URL = "https://www.packyapi.com/v1"
-_DEFAULT_MODEL    = "claude-haiku-4-5-20251001"
-```
-
-Use environment variables to override (never hardcode keys):
+LLM calls use an OpenAI-compatible API. Configure via environment variables (see `.env.example`):
 
 ```bash
 export SGE_API_KEY="your-key-here"
 export SGE_API_BASE="https://api.openai.com/v1"
+export SGE_MODEL="claude-haiku-4-5-20251001"
 ```
 
 Environment: LightRAG `v1.3.8`, mxbai-embed-large (1024d), `llm_model_max_async=5`.

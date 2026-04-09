@@ -11,6 +11,7 @@ the gain comes from compression alone; if low, it confirms SGE schema is needed.
 
 from __future__ import annotations
 
+import os
 import re, sys, json, asyncio, numpy as np
 from pathlib import Path
 
@@ -24,8 +25,8 @@ import aiohttp
 import pandas as pd
 
 # ── Config ──────────────────────────────────────────────────────────────────
-API_KEY = "sk-7S8fU9gBMpK5Banzc0mM8DdOac7XFW0Mt7WCRbjSNTErrHPG"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 BUILD_MODEL = "claude-haiku-4-5-20251001"  # Same as SGE compact build
 QUERY_MODEL = "gpt-5-mini"  # Same as SGE compact query (JSON compatible)
 OLLAMA_HOST = "127.0.0.1"
@@ -148,7 +149,7 @@ async def main():
     if not Path(csv_path).exists():
         # Try alternate paths
         for alt in [
-            "/Users/qipatience/Desktop/SGE/dataset/WHO/API_WHO_WHOSIS_000001_life_expectancy.csv",
+            str(PROJECT_ROOT.parent / "dataset" / "WHO" / "API_WHO_WHOSIS_000001_life_expectancy.csv"),
         ]:
             if Path(alt).exists():
                 csv_path = alt

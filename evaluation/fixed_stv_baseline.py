@@ -25,6 +25,7 @@ import asyncio
 import argparse
 import hashlib
 import json
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -50,7 +51,7 @@ from stage3.prompt_injector import generate_system_prompt
 # API config
 # ---------------------------------------------------------------------------
 
-API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
 BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 EMBED_DIM = 1024
@@ -150,7 +151,7 @@ DATASETS: dict[str, dict] = {
     },
     "fortune500": {
         "label": "Fortune 500 Revenue",
-        "csv_path_abs": "/Users/qipatience/Desktop/SGE/dataset/non_gov/fortune500_revenue.csv",
+        "csv_path_abs": str(PROJECT_ROOT.parent / "dataset" / "non_gov" / "fortune500_revenue.csv"),
         "gold": "evaluation/gold/gold_fortune500_revenue.jsonl",
         "output_dir": "output/fixed_stv_fortune500",
         "schema": FIXED_SCHEMA_TYPE_II,
@@ -158,7 +159,7 @@ DATASETS: dict[str, dict] = {
     },
     "the": {
         "label": "THE University Ranking",
-        "csv_path_abs": "/Users/qipatience/Desktop/SGE/dataset/non_gov/the_university_ranking.csv",
+        "csv_path_abs": str(PROJECT_ROOT.parent / "dataset" / "non_gov" / "the_university_ranking.csv"),
         "gold": "evaluation/gold/gold_the_university_ranking.jsonl",
         "output_dir": "output/fixed_stv_the",
         "schema": FIXED_SCHEMA_TYPE_III,

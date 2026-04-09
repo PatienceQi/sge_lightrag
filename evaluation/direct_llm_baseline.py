@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -24,7 +25,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from lightrag.llm.openai import openai_complete_if_cache
 
-API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
 BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 

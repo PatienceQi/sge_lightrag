@@ -4,12 +4,13 @@ llm_client.py — Thin wrapper around the OpenRouter / OpenAI-compatible API.
 Uses the openai SDK pointed at https://api.packy.ai/v1.
 """
 
+import os
 import time
 from openai import OpenAI
 
-_DEFAULT_BASE_URL = "https://wolfai.top/v1"
-_DEFAULT_API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
-_DEFAULT_MODEL    = "claude-haiku-4-5-20251001"
+_DEFAULT_BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
+_DEFAULT_API_KEY  = os.environ.get("SGE_API_KEY", "")
+_DEFAULT_MODEL    = os.environ.get("SGE_MODEL", "claude-haiku-4-5-20251001")
 
 _MAX_RETRIES = 3
 

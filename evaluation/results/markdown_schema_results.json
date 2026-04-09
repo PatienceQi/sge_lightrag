@@ -1,0 +1,29 @@
+{
+  "dataset": "who_life_expectancy",
+  "label": "WHO Life Expectancy",
+  "baseline_type": "markdown_native_schema",
+  "description": "Markdown table serialization + Markdown-native extraction schema. Tests format-constraint coupling: when format and schema are matched (both Markdown-based), does FC recover from the 0.000 mismatch case?",
+  "hypothesis": {
+    "sge_format_sge_schema": 1.0,
+    "markdown_sge_schema": 0.0,
+    "markdown_markdown_schema": "this experiment"
+  },
+  "stats": {
+    "chunks_processed": 40,
+    "triples_extracted": 4092,
+    "errors": 0,
+    "skipped_empty": 0,
+    "nodes": 4278,
+    "edges": 4092
+  },
+  "evaluation": {
+    "label": "Markdown-Schema",
+    "ec": 1.0,
+    "fc": 1.0,
+    "ec_matched": 25,
+    "ec_total": 25,
+    "fc_covered": 150,
+    "fc_total": 150
+  },
+  "timestamp": "2026-04-06T18:31:14.100327"
+}

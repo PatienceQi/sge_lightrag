@@ -1,0 +1,26 @@
+{
+  "who_known": {
+    "ec": 1.0,
+    "fc": 1.0
+  },
+  "wb_pop": {
+    "dataset": "wb_pop",
+    "label": "WB Population (Large Type-II)",
+    "stats": {
+      "chunks": 54,
+      "triples": 16833,
+      "errors": 1,
+      "nodes": 17093,
+      "edges": 16833
+    },
+    "evaluation": {
+      "ec": 1.0,
+      "fc": 0.92,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 138,
+      "fc_total": 150
+    },
+    "timestamp": "2026-04-07T00:48:54.396572"
+  }
+}

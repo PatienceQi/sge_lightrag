@@ -26,6 +26,7 @@ from __future__ import annotations
 import asyncio
 import argparse
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -45,7 +46,7 @@ from evaluation.evaluate_coverage import (
 # API config
 # ---------------------------------------------------------------------------
 
-API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
 BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 
@@ -119,13 +120,13 @@ DATASETS: dict[str, dict] = {
     },
     "fortune500": {
         "label": "Fortune 500 Revenue",
-        "csv_path": "/Users/qipatience/Desktop/SGE/dataset/non_gov/fortune500_revenue.csv",
+        "csv_path": str(PROJECT_ROOT.parent / "dataset" / "non_gov" / "fortune500_revenue.csv"),
         "gold": "evaluation/gold/gold_fortune500_revenue.jsonl",
         "output_dir": "output/json_structured_fortune500",
     },
     "the": {
         "label": "THE University Ranking",
-        "csv_path": "/Users/qipatience/Desktop/SGE/dataset/non_gov/the_university_ranking.csv",
+        "csv_path": str(PROJECT_ROOT.parent / "dataset" / "non_gov" / "the_university_ranking.csv"),
         "gold": "evaluation/gold/gold_the_university_ranking.jsonl",
         "output_dir": "output/json_structured_the",
     },

@@ -11,6 +11,7 @@ Only the LightRAG extraction LLM backend is changed.
 
 from __future__ import annotations
 
+import os
 import sys
 import json
 import asyncio
@@ -24,8 +25,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from stage3.integrator import patch_lightrag
 
-API_KEY  = "sk-7S8fU9gBMpK5Banzc0mM8DdOac7XFW0Mt7WCRbjSNTErrHPG"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 TARGET_MODEL = "gpt-5-mini"
 EMBED_DIM = 1024
 

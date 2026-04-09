@@ -17,7 +17,7 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 GOLD_DIR = BASE_DIR / "evaluation" / "gold"
-OECD_DIR = Path("/Users/qipatience/Desktop/SGE/dataset/OECD_blind_test")
+OECD_DIR = BASE_DIR.parent / "dataset" / "OECD_blind_test"
 
 # Sample countries for Type-II datasets (diverse, not in training set)
 SAMPLE_COUNTRIES_GDP = ["Australia", "Canada", "Germany", "Japan", "Korea"]

@@ -34,7 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-LLM_API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+LLM_API_KEY = os.environ.get("SGE_API_KEY", "")
 LLM_BASE_URL = "https://wolfai.top/v1"
 LLM_MODEL = "claude-haiku-4-5-20251001"
 

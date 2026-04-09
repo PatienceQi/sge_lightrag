@@ -1,0 +1,19 @@
+{
+  "dataset": "Inpatient 2023",
+  "baseline_fc": 0.938,
+  "results": [
+    {
+      "condition": "BY",
+      "timestamp": "2026-04-08T05:52:15.379081",
+      "nodes": 600,
+      "edges": 453,
+      "ec": 0.75,
+      "fc": 0.625,
+      "ec_matched": 6,
+      "ec_total": 8,
+      "fc_covered": 10,
+      "fc_total": 16
+    }
+  ],
+  "timestamp": "2026-04-08T05:52:15.427142"
+}

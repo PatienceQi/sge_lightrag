@@ -20,7 +20,7 @@ from pathlib import Path
 from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-WB_BASE = Path("/Users/qipatience/Desktop/SGE/dataset/世界银行数据")
+WB_BASE = PROJECT_ROOT.parent / "dataset" / "世界银行数据"
 WHO_BASE = PROJECT_ROOT / "dataset" / "WHO"
 CACHE_DIR = PROJECT_ROOT / "output" / "ggcr_cache"
 

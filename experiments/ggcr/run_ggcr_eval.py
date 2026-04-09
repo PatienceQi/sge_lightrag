@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-run_ggcr_eval.py — Main evaluation: 5 systems × ~97 questions.
+run_ggcr_eval.py — Main evaluation: 6 systems × ~97 questions.
 
 Systems:
   1. sge_ggcr      — Graph BFS entity enumeration → compact chunks → LLM
@@ -8,6 +8,7 @@ Systems:
   3. graph_native   — Pure graph traversal + deterministic rules (no LLM)
   4. naive_rag      — Vector retrieval on naive serialization → LLM
   5. concat_all     — Concatenate ALL compact chunks → LLM (no retrieval)
+  6. baseline_ggcr  — Same as sge_ggcr but entity enumeration from Baseline graph
 
 Usage:
     python3 experiments/ggcr/run_ggcr_eval.py [--systems sge_ggcr,pure_compact] [--verbose]
@@ -31,7 +32,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from experiments.ggcr.compact_chunks import build_compact_index, _embed_text_sync, _embed_batch_sync, cosine_similarity
 from experiments.ggcr.graph_guided_retriever import (
     retrieve_ggcr, retrieve_pure_compact, retrieve_concat_all,
-    retrieve_naive_rag, retrieve_graph_native,
+    retrieve_naive_rag, retrieve_graph_native, retrieve_baseline_ggcr,
 )
 
 BENCHMARK_PATH = PROJECT_ROOT / "evaluation" / "gold" / "ggcr_benchmark.jsonl"
@@ -161,7 +162,7 @@ def _load_naive_chunks(dataset: str) -> tuple[list[str], np.ndarray] | None:
 # Main evaluation
 # ---------------------------------------------------------------------------
 
-ALL_SYSTEMS = ["sge_ggcr", "pure_compact", "graph_native", "naive_rag", "concat_all"]
+ALL_SYSTEMS = ["sge_ggcr", "pure_compact", "graph_native", "naive_rag", "concat_all", "baseline_ggcr"]
 
 
 def run_evaluation(systems: list[str] | None = None, verbose: bool = False):
@@ -222,6 +223,8 @@ def run_evaluation(systems: list[str] | None = None, verbose: bool = False):
                     answer = retrieve_naive_rag(q, chunks, embs)
                 else:
                     answer = "[No naive chunks]"
+            elif system == "baseline_ggcr":
+                answer = retrieve_baseline_ggcr(q, compact_indices[ds], ds)
         except Exception as e:
             answer = f"[Error: {e}]"
         correct = score_answer(answer, q)

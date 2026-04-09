@@ -1,0 +1,51 @@
+{"dataset": "who", "question": "日本2019年的人均预期寿命是多少？", "query_type": "lookup", "id": "ext_001"}
+{"dataset": "who", "question": "在2000年和2021年之间，瑞士的人均预期寿命增加了多少年？", "query_type": "trend", "id": "ext_002"}
+{"dataset": "who", "question": "哪个国家在2021年的人均预期寿命最高？", "query_type": "ranking", "id": "ext_003"}
+{"dataset": "who", "question": "在25个国家中，有多少个国家在2021年的人均预期寿命超过80岁？", "query_type": "aggregation", "id": "ext_004"}
+{"dataset": "wb_cm", "question": "印度2015年的5岁以下儿童死亡率是多少？", "query_type": "lookup", "id": "ext_005"}
+{"dataset": "wb_cm", "question": "从2000年到2021年，巴西的儿童死亡率下降了多少？", "query_type": "trend", "id": "ext_006"}
+{"dataset": "wb_cm", "question": "2021年儿童死亡率最高的三个国家是哪些？", "query_type": "ranking", "id": "ext_007"}
+{"dataset": "wb_cm", "question": "美国和中国在2021年的儿童死亡率各是多少，差异有多大？", "query_type": "comparison", "id": "ext_008"}
+{"dataset": "wb_pop", "question": "中国在2010年的总人口是多少？", "query_type": "lookup", "id": "ext_009"}
+{"dataset": "wb_pop", "question": "从2000年到2021年，日本的人口变化趋势如何？", "query_type": "trend", "id": "ext_010"}
+{"dataset": "wb_pop", "question": "2021年，哪个国家的人口最多，哪个最少？", "query_type": "ranking", "id": "ext_011"}
+{"dataset": "wb_pop", "question": "2021年印度和中国的人口差异是多少？", "query_type": "comparison", "id": "ext_012"}
+{"dataset": "wb_mat", "question": "美国在2018年的孕产妇死亡率是多少？", "query_type": "lookup", "id": "ext_013"}
+{"dataset": "wb_mat", "question": "英国从2000年到2021年的孕产妇死亡率下降了多少百分比？", "query_type": "trend", "id": "ext_014"}
+{"dataset": "wb_mat", "question": "在2021年，孕产妇死亡率最高的5个国家是哪些？", "query_type": "ranking", "id": "ext_015"}
+{"dataset": "wb_mat", "question": "德国和印度在2021年的孕产妇死亡率各是多少，哪个国家的指标更好？", "query_type": "comparison", "id": "ext_016"}
+{"dataset": "inpatient", "question": "2023年香港因感冒（上呼吸道感染）出院的人次有多少？", "query_type": "lookup", "id": "ext_017"}
+{"dataset": "inpatient", "question": "按出院人次排序，2023年香港前10种最常见的住院疾病是什么？", "query_type": "ranking", "id": "ext_018"}
+{"dataset": "inpatient", "question": "2023年香港在医管局、惩教署和私家医院中，哪类机构的住院人次最多？", "query_type": "aggregation", "id": "ext_019"}
+{"dataset": "inpatient", "question": "2023年香港住院患者的总死亡人数是多少，与出院总人次的比例如何？", "query_type": "lookup", "id": "ext_020"}
+{"dataset": "fortune500", "question": "沃尔玛在2019年的年度营收是多少百万美元？", "query_type": "lookup", "id": "ext_021"}
+{"dataset": "fortune500", "question": "从最早年份到最近年份，亚马逊的营收增长了多少倍？", "query_type": "trend", "id": "ext_022"}
+{"dataset": "fortune500", "question": "这25家企业中，哪家公司在最近一年的营收最高？", "query_type": "ranking", "id": "ext_023"}
+{"dataset": "fortune500", "question": "苹果和微软的营收差异是多少？", "query_type": "comparison", "id": "ext_024"}
+{"dataset": "the", "question": "牛津大学在2020年的THE世界排名分数是多少？", "query_type": "lookup", "id": "ext_025"}
+{"dataset": "the", "question": "从开始年份到最后年份，斯坦福大学的排名分数如何变化？", "query_type": "trend", "id": "ext_026"}
+{"dataset": "the", "question": "在最近一年，排名分数最高的5所大学是哪些？", "query_type": "ranking", "id": "ext_027"}
+{"dataset": "who", "question": "Which country had the highest life expectancy in 2020?", "query_type": "ranking", "id": "ext_028"}
+{"dataset": "who", "question": "What is the life expectancy trend for Japan over 2000-2021?", "query_type": "trend", "id": "ext_029"}
+{"dataset": "who", "question": "Compare life expectancy between USA and China in 2021", "query_type": "comparison", "id": "ext_030"}
+{"dataset": "who", "question": "How many countries had life expectancy above 80 years in 2021?", "query_type": "aggregation", "id": "ext_031"}
+{"dataset": "wb_cm", "question": "Which country had the lowest child mortality rate in 2021?", "query_type": "ranking", "id": "ext_032"}
+{"dataset": "wb_cm", "question": "What is the child mortality trend for India from 2000 to 2021?", "query_type": "trend", "id": "ext_033"}
+{"dataset": "wb_cm", "question": "Has child mortality in Germany been consistently lower than in Brazil?", "query_type": "comparison", "id": "ext_034"}
+{"dataset": "wb_pop", "question": "Which country had the largest population growth between 2000 and 2021?", "query_type": "trend", "id": "ext_035"}
+{"dataset": "wb_pop", "question": "What was China's total population in 2010?", "query_type": "lookup", "id": "ext_036"}
+{"dataset": "wb_pop", "question": "Compare population size between India and USA in 2021", "query_type": "comparison", "id": "ext_037"}
+{"dataset": "wb_mat", "question": "Which country had the highest maternal mortality rate in 2015?", "query_type": "ranking", "id": "ext_038"}
+{"dataset": "wb_mat", "question": "Has the gap in maternal mortality between developed and developing nations narrowed?", "query_type": "comparison", "id": "ext_039"}
+{"dataset": "wb_mat", "question": "What is the average maternal mortality rate across all 25 countries in 2021?", "query_type": "aggregation", "id": "ext_040"}
+{"dataset": "inpatient", "question": "Which disease category had the highest inpatient discharges in 2023?", "query_type": "ranking", "id": "ext_041"}
+{"dataset": "inpatient", "question": "What is the mortality rate for cardiovascular diseases in Hong Kong hospitals in 2023?", "query_type": "lookup", "id": "ext_042"}
+{"dataset": "inpatient", "question": "Compare inpatient rates between public and private hospitals for respiratory diseases", "query_type": "comparison", "id": "ext_043"}
+{"dataset": "inpatient", "question": "How many deaths occurred from infectious diseases across all hospital types in 2023?", "query_type": "aggregation", "id": "ext_044"}
+{"dataset": "fortune500", "question": "Which company had the highest revenue in 2023?", "query_type": "ranking", "id": "ext_045"}
+{"dataset": "fortune500", "question": "What is Amazon's revenue growth trend from 2019-2023?", "query_type": "trend", "id": "ext_046"}
+{"dataset": "fortune500", "question": "Compare revenue between technology and energy sector companies in 2023", "query_type": "comparison", "id": "ext_047"}
+{"dataset": "the", "question": "Which university had the highest THE ranking score in 2023?", "query_type": "ranking", "id": "ext_048"}
+{"dataset": "the", "question": "How has Tsinghua University's ranking changed from 2018-2023?", "query_type": "trend", "id": "ext_049"}
+{"dataset": "the", "question": "Compare average ranking scores between US and UK universities in 2023", "query_type": "comparison", "id": "ext_050"}
+{"dataset": "the", "question": "How many universities achieved a ranking score above 90?", "query_type": "aggregation", "id": "ext_051"}

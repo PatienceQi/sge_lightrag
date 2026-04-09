@@ -16,6 +16,7 @@ Usage:
 
 from __future__ import annotations
 
+import os
 import re
 import sys
 import json
@@ -35,8 +36,8 @@ from lightrag.utils import EmbeddingFunc
 from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL = "claude-haiku-4-5-20251001"
 
 OLLAMA_BASE_URL = "http://localhost:11434/v1"

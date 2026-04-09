@@ -11,6 +11,7 @@ SGE treats them as default (batch=5 merge), so SGE ≈ Baseline is expected.
 
 from __future__ import annotations
 
+import os
 import sys, json, asyncio, re
 from pathlib import Path
 
@@ -23,8 +24,8 @@ from lightrag.llm.openai import openai_complete_if_cache
 from lightrag.prompt import PROMPTS
 
 # ── Config ──────────────────────────────────────────────────────────────────
-API_KEY = "sk-7S8fU9gBMpK5Banzc0mM8DdOac7XFW0Mt7WCRbjSNTErrHPG"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL = "claude-haiku-4-5-20251001"
 
 # Use remote Ollama embedding
@@ -61,18 +62,19 @@ async def llm_func(prompt, system_prompt=None, history_messages=[], **kwargs):
 
 
 # ── Type-I files to test ────────────────────────────────────────────────────
+_DATASET_BASE = PROJECT_ROOT.parent / "dataset"
 TYPE1_FILES = [
     {
         "name": "医疗开支 Table_1",
-        "csv": "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_1.csv",
+        "csv": str(_DATASET_BASE / "香港本地医疗卫生总开支账目 " / "Table_1.csv"),
     },
     {
         "name": "医疗开支 Table_3",
-        "csv": "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_3.csv",
+        "csv": str(_DATASET_BASE / "香港本地医疗卫生总开支账目 " / "Table_3.csv"),
     },
     {
         "name": "医疗开支 Table_5",
-        "csv": "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_5.csv",
+        "csv": str(_DATASET_BASE / "香港本地医疗卫生总开支账目 " / "Table_5.csv"),
     },
 ]
 

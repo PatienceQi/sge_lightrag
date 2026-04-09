@@ -1,0 +1,93 @@
+{
+  "description": "Expanded evaluation on 3 new datasets covering different topologies. Includes long-format (Type-II-Long) detection fix validation.",
+  "bootstrap_samples": 1000,
+  "datasets": [
+    {
+      "dataset": "imf_fiscal",
+      "label": "IMF Fiscal Cross-Tab (Type-III, hierarchical financial)",
+      "topology": "Type-III",
+      "actual_type": "Hierarchical-Hybrid",
+      "gold_facts": 75,
+      "sge": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      },
+      "baseline": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      }
+    },
+    {
+      "dataset": "un_census",
+      "label": "UN Census Cross-Tab (Type-III, no time dimension)",
+      "topology": "Type-III",
+      "actual_type": "Hierarchical-Hybrid",
+      "gold_facts": 60,
+      "sge": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      },
+      "baseline": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      }
+    },
+    {
+      "dataset": "wb_long",
+      "label": "WB Indicators Long-Format (Type-II-Long, melted time-series)",
+      "topology": "Type-II-Long",
+      "actual_type": "Time-Series-Long",
+      "gold_facts": 90,
+      "sge": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      },
+      "baseline": {
+        "ec": null,
+        "fc": null,
+        "fc_matched": 0,
+        "fc_total": 0,
+        "fc_ci_95": [
+          null,
+          null
+        ],
+        "graph_found": false
+      }
+    }
+  ]
+}

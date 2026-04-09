@@ -19,13 +19,12 @@ from pathlib import Path
 
 import pandas as pd
 
-CSV_PATH = Path(
-    "/Users/qipatience/Desktop/SGE/dataset/世界银行数据/population"
-    "/API_SP.POP.TOTL_DS2_en_csv_v2_61.csv"
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+CSV_PATH = (
+    _PROJECT_ROOT.parent / "dataset" / "世界银行数据" / "population"
+    / "API_SP.POP.TOTL_DS2_en_csv_v2_61.csv"
 )
-OUTPUT_DIR = Path(
-    "/Users/qipatience/Desktop/SGE/sge_lightrag/output/graphrag_sge_wb_pop/input"
-)
+OUTPUT_DIR = _PROJECT_ROOT / "output" / "graphrag_sge_wb_pop" / "input"
 
 
 def _format_value(raw_val) -> str | None:

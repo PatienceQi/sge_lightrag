@@ -11,6 +11,7 @@ Usage:
 """
 from __future__ import annotations
 
+import os
 import sys
 import json
 import shutil
@@ -39,8 +40,8 @@ from lightrag.prompt import PROMPTS
 import lightrag.operate as _op
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_KEY  = "sk-wMPHAJ5PsHQpf06bD1ki2N581rx83y5qdtcDOSjZGONIoDVu"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL    = "gemini-2.5-flash"
 EMBED_DIM = 1024
 

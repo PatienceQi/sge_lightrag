@@ -8,47 +8,49 @@ import json
 import traceback
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(_PROJECT_ROOT))
 
 from stage1.features import extract_features
 from stage1.classifier import classify
 from stage1.schema import build_meta_schema
 
-CSV_FILES = [
+_DATASET = _PROJECT_ROOT.parent / "dataset"
+CSV_FILES = [str(p) for p in [
     # 香港本地医疗卫生总开支账目
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_1.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_2.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_3.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_4.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_5.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_6.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_7.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港本地医疗卫生总开支账目 /Table_8.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_1.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_2.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_3.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_4.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_5.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_6.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_7.csv",
+    _DATASET / "香港本地医疗卫生总开支账目 " / "Table_8.csv",
     # 食物安全及公众卫生统计数字
-    "/Users/qipatience/Desktop/SGE/dataset/食物安全及公众卫生统计数字/stat_foodSafty_publicHealth.csv",
+    _DATASET / "食物安全及公众卫生统计数字" / "stat_foodSafty_publicHealth.csv",
     # 香港主要医疗卫生统计数字
-    "/Users/qipatience/Desktop/SGE/dataset/香港主要医疗卫生统计数字/healthstat_table1.csv",
-    "/Users/qipatience/Desktop/SGE/dataset/香港主要医疗卫生统计数字/healthstat_table2.csv",
+    _DATASET / "香港主要医疗卫生统计数字" / "healthstat_table1.csv",
+    _DATASET / "香港主要医疗卫生统计数字" / "healthstat_table2.csv",
     # 年度预算
-    "/Users/qipatience/Desktop/SGE/dataset/年度预算/annualbudget_sc.csv",
+    _DATASET / "年度预算" / "annualbudget_sc.csv",
     # 住院病人统计
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2012 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2013 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2014 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2015 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2016 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2017 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2018 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2019 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2020 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2021 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2022 (SC).csv",
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计/Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2012 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2013 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2014 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2015 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2016 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2017 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2018 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2019 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2020 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2021 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2022 (SC).csv",
+    _DATASET / "住院病人统计" / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths in Hong Kong by Disease 2023 (SC).csv",
     # 有关人口的专题文章 - 住户开支统计调查结果
-    "/Users/qipatience/Desktop/SGE/dataset/有关人口的专题文章 - 住户开支统计调查结果/B71608FB2016XXXXB01/2014_15_HES_Table 1.CSV",
-    "/Users/qipatience/Desktop/SGE/dataset/有关人口的专题文章 - 住户开支统计调查结果/B71608FB2016XXXXB01/2014_15_HES_Table 2.CSV",
-    "/Users/qipatience/Desktop/SGE/dataset/有关人口的专题文章 - 住户开支统计调查结果/B71608FB2016XXXXB01/2014_15_HES_Table 3.CSV",
-]
+    _DATASET / "有关人口的专题文章 - 住户开支统计调查结果" / "B71608FB2016XXXXB01" / "2014_15_HES_Table 1.CSV",
+    _DATASET / "有关人口的专题文章 - 住户开支统计调查结果" / "B71608FB2016XXXXB01" / "2014_15_HES_Table 2.CSV",
+    _DATASET / "有关人口的专题文章 - 住户开支统计调查结果" / "B71608FB2016XXXXB01" / "2014_15_HES_Table 3.CSV",
+]]
 
 results = []
 

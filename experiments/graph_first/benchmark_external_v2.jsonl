@@ -1,0 +1,70 @@
+{"dataset": "who", "question": "What was USA's life expectancy in 2015?", "query_type": "lookup", "id": "ext_v2_001"}
+{"dataset": "who", "question": "What was CHN's life expectancy in 2010?", "query_type": "lookup", "id": "ext_v2_002"}
+{"dataset": "who", "question": "What was IND's life expectancy in 2005?", "query_type": "lookup", "id": "ext_v2_003"}
+{"dataset": "who", "question": "What was BRA's life expectancy in 2018?", "query_type": "lookup", "id": "ext_v2_004"}
+{"dataset": "who", "question": "How did JPN's life expectancy change from 2000 to 2021?", "query_type": "trend", "id": "ext_v2_005"}
+{"dataset": "who", "question": "Did GBR's life expectancy increase or decrease between 2010 and 2021?", "query_type": "trend", "id": "ext_v2_006"}
+{"dataset": "who", "question": "How much did NGA's life expectancy improve from 2000 to 2021?", "query_type": "trend", "id": "ext_v2_007"}
+{"dataset": "who", "question": "Was AUS's life expectancy higher than USA's in 2019?", "query_type": "comparison", "id": "ext_v2_008"}
+{"dataset": "who", "question": "Compare JPN's life expectancy to KOR's in 2021.", "query_type": "comparison", "id": "ext_v2_009"}
+{"dataset": "who", "question": "Which was higher in 2015: DEU's life expectancy or FRA's?", "query_type": "comparison", "id": "ext_v2_010"}
+{"dataset": "wb_cm", "question": "What was India's under-5 mortality rate in 2010?", "query_type": "lookup", "id": "ext_v2_011"}
+{"dataset": "wb_cm", "question": "What was Nigeria's child mortality rate per 1000 in 2005?", "query_type": "lookup", "id": "ext_v2_012"}
+{"dataset": "wb_cm", "question": "What was China's under-5 mortality rate in 2015?", "query_type": "lookup", "id": "ext_v2_013"}
+{"dataset": "wb_cm", "question": "How did Ethiopia's child mortality rate change from 2000 to 2022?", "query_type": "trend", "id": "ext_v2_014"}
+{"dataset": "wb_cm", "question": "Did Pakistan's under-5 mortality rate decline between 2005 and 2020?", "query_type": "trend", "id": "ext_v2_015"}
+{"dataset": "wb_cm", "question": "How much did Bangladesh's child mortality rate fall from 2000 to 2022?", "query_type": "trend", "id": "ext_v2_016"}
+{"dataset": "wb_cm", "question": "Was Japan's child mortality rate lower than Germany's in 2020?", "query_type": "comparison", "id": "ext_v2_017"}
+{"dataset": "wb_cm", "question": "Compare India's and China's under-5 mortality rates in 2015.", "query_type": "comparison", "id": "ext_v2_018"}
+{"dataset": "wb_cm", "question": "Which had a lower child mortality rate in 2022: Brazil or Colombia?", "query_type": "comparison", "id": "ext_v2_019"}
+{"dataset": "wb_cm", "question": "Did the United States have a higher or lower child mortality rate than the United Kingdom in 2018?", "query_type": "comparison", "id": "ext_v2_020"}
+{"dataset": "wb_pop", "question": "What was India's total population in 2020?", "query_type": "lookup", "id": "ext_v2_021"}
+{"dataset": "wb_pop", "question": "What was the United States population in 2000?", "query_type": "lookup", "id": "ext_v2_022"}
+{"dataset": "wb_pop", "question": "What was Indonesia's total population in 2010?", "query_type": "lookup", "id": "ext_v2_023"}
+{"dataset": "wb_pop", "question": "How did Nigeria's population change from 2000 to 2023?", "query_type": "trend", "id": "ext_v2_024"}
+{"dataset": "wb_pop", "question": "Did Brazil's population grow or shrink between 2010 and 2023?", "query_type": "trend", "id": "ext_v2_025"}
+{"dataset": "wb_pop", "question": "How much did Ethiopia's population increase from 1990 to 2020?", "query_type": "trend", "id": "ext_v2_026"}
+{"dataset": "wb_pop", "question": "Was China's population larger than India's in 2010?", "query_type": "comparison", "id": "ext_v2_027"}
+{"dataset": "wb_pop", "question": "Compare the population of the United States and Indonesia in 2023.", "query_type": "comparison", "id": "ext_v2_028"}
+{"dataset": "wb_pop", "question": "Which country had a larger population in 2000: Pakistan or Russia?", "query_type": "comparison", "id": "ext_v2_029"}
+{"dataset": "wb_pop", "question": "Did Japan's population in 2023 exceed its population in 2000?", "query_type": "comparison", "id": "ext_v2_030"}
+{"dataset": "wb_mat", "question": "What was Ethiopia's maternal mortality ratio in 2010?", "query_type": "lookup", "id": "ext_v2_031"}
+{"dataset": "wb_mat", "question": "What was Nigeria's maternal mortality ratio per 100,000 in 2015?", "query_type": "lookup", "id": "ext_v2_032"}
+{"dataset": "wb_mat", "question": "What was India's maternal mortality ratio in 2005?", "query_type": "lookup", "id": "ext_v2_033"}
+{"dataset": "wb_mat", "question": "How did Bangladesh's maternal mortality ratio change from 2000 to 2020?", "query_type": "trend", "id": "ext_v2_034"}
+{"dataset": "wb_mat", "question": "Did Indonesia's maternal mortality ratio decline between 2000 and 2020?", "query_type": "trend", "id": "ext_v2_035"}
+{"dataset": "wb_mat", "question": "How much did Pakistan's maternal mortality ratio decrease from 2000 to 2020?", "query_type": "trend", "id": "ext_v2_036"}
+{"dataset": "wb_mat", "question": "Was France's maternal mortality ratio lower than Germany's in 2015?", "query_type": "comparison", "id": "ext_v2_037"}
+{"dataset": "wb_mat", "question": "Compare Nigeria's and Ethiopia's maternal mortality ratios in 2020.", "query_type": "comparison", "id": "ext_v2_038"}
+{"dataset": "wb_mat", "question": "Which had a lower maternal mortality ratio in 2020: China or India?", "query_type": "comparison", "id": "ext_v2_039"}
+{"dataset": "wb_mat", "question": "Did the United Kingdom's maternal mortality ratio exceed Japan's in 2010?", "query_type": "comparison", "id": "ext_v2_040"}
+{"dataset": "inpatient", "question": "肺炎的住院出院人次在数据中是多少？", "query_type": "lookup", "id": "ext_v2_041"}
+{"dataset": "inpatient", "question": "糖尿病的住院死亡人数是多少？", "query_type": "lookup", "id": "ext_v2_042"}
+{"dataset": "inpatient", "question": "缺血性心脏病的住院出院总人次是多少？", "query_type": "lookup", "id": "ext_v2_043"}
+{"dataset": "inpatient", "question": "肾衰竭的住院死亡人数与出院总人次相比如何？", "query_type": "comparison", "id": "ext_v2_044"}
+{"dataset": "inpatient", "question": "脑血管疾病的住院出院人次是否高于肾衰竭？", "query_type": "comparison", "id": "ext_v2_045"}
+{"dataset": "inpatient", "question": "恶性肿瘤与糖尿病相比，哪种疾病的住院死亡人数更多？", "query_type": "comparison", "id": "ext_v2_046"}
+{"dataset": "inpatient", "question": "霍乱的住院出院人次是多少？", "query_type": "lookup", "id": "ext_v2_047"}
+{"dataset": "inpatient", "question": "结核病的住院死亡人数是多少？", "query_type": "lookup", "id": "ext_v2_048"}
+{"dataset": "inpatient", "question": "肺炎的住院死亡人数是否高于脑血管疾病？", "query_type": "comparison", "id": "ext_v2_049"}
+{"dataset": "inpatient", "question": "缺血性心脏病与恶性肿瘤相比，哪种疾病的出院人次更高？", "query_type": "comparison", "id": "ext_v2_050"}
+{"dataset": "fortune500", "question": "What was Walmart's revenue in 2019?", "query_type": "lookup", "id": "ext_v2_f01"}
+{"dataset": "fortune500", "question": "What was Apple's revenue in 2017?", "query_type": "lookup", "id": "ext_v2_f02"}
+{"dataset": "fortune500", "question": "What was Amazon.com's revenue in 2018?", "query_type": "lookup", "id": "ext_v2_f03"}
+{"dataset": "fortune500", "question": "How did Exxon Mobil's revenue change from 2015 to 2019?", "query_type": "trend", "id": "ext_v2_f04"}
+{"dataset": "fortune500", "question": "How did CVS Health's revenue change from 2016 to 2019?", "query_type": "trend", "id": "ext_v2_f05"}
+{"dataset": "fortune500", "question": "How did Ford Motor's revenue change from 2015 to 2018?", "query_type": "trend", "id": "ext_v2_f06"}
+{"dataset": "fortune500", "question": "Was Walmart's revenue higher than Apple's in 2019?", "query_type": "comparison", "id": "ext_v2_f07"}
+{"dataset": "fortune500", "question": "Which had higher revenue in 2017, Amazon.com or Berkshire Hathaway?", "query_type": "comparison", "id": "ext_v2_f08"}
+{"dataset": "fortune500", "question": "Compare General Motors and Ford Motor revenue in 2018.", "query_type": "comparison", "id": "ext_v2_f09"}
+{"dataset": "fortune500", "question": "Was UnitedHealth Group's revenue higher than McKesson's in 2016?", "query_type": "comparison", "id": "ext_v2_f10"}
+{"dataset": "the", "question": "What was Stanford University's ranking score in 2016?", "query_type": "lookup", "id": "ext_v2_t01"}
+{"dataset": "the", "question": "What was Harvard University's ranking score in 2013?", "query_type": "lookup", "id": "ext_v2_t02"}
+{"dataset": "the", "question": "What was University of Oxford's ranking score in 2011?", "query_type": "lookup", "id": "ext_v2_t03"}
+{"dataset": "the", "question": "How did MIT's ranking score change from 2011 to 2016?", "query_type": "trend", "id": "ext_v2_t04"}
+{"dataset": "the", "question": "How did Princeton University's score change from 2012 to 2015?", "query_type": "trend", "id": "ext_v2_t05"}
+{"dataset": "the", "question": "How did Imperial College London's score change from 2011 to 2016?", "query_type": "trend", "id": "ext_v2_t06"}
+{"dataset": "the", "question": "Which had a higher score in 2016, Stanford University or Harvard University?", "query_type": "comparison", "id": "ext_v2_t07"}
+{"dataset": "the", "question": "Compare University of Oxford and University of Cambridge scores in 2014.", "query_type": "comparison", "id": "ext_v2_t08"}
+{"dataset": "the", "question": "Was California Institute of Technology's score higher than Yale University's in 2013?", "query_type": "comparison", "id": "ext_v2_t09"}
+{"dataset": "the", "question": "Which had a higher score in 2015, ETH Zurich or Johns Hopkins University?", "query_type": "comparison", "id": "ext_v2_t10"}

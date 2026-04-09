@@ -9,7 +9,7 @@ Dependencies: standard library + pandas only (no chardet).
 
 import re
 import pandas as pd
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 # ---------------------------------------------------------------------------
 # Regex patterns for time-dimension detection
@@ -62,6 +62,11 @@ class FeatureSet:
 
     # --- Actual data row count (exact for small CSVs, min(_SAMPLE_ROWS+5) for large) ---
     n_rows: int = 0
+
+    # --- Long-format (melted/tidy) detection ---
+    # True when year values appear as data values in a dedicated year column
+    # rather than as column headers. Example: Country, Indicator, Year, Value
+    is_long_format: bool = False
 
 
 def _detect_encoding(path: str) -> str:
@@ -221,6 +226,72 @@ def _data_body_has_year_row(df: pd.DataFrame) -> bool:
     return False
 
 
+_YEAR_COL_NAMES = re.compile(r"^(year|yr|ano|année|jahr|年|年份|年度)$", re.IGNORECASE)
+_INDICATOR_COL_NAMES = re.compile(
+    r"^(indicator|indicator_name|series|series_name|metric|measure|variable|"
+    r"subject|category|item|指标|指标名称|项目|类别)$",
+    re.IGNORECASE,
+)
+
+
+def _detect_long_format(df: pd.DataFrame, header_strings: list[str]) -> bool:
+    """
+    Detect long-format (melted/tidy) tables where year values appear as data
+    cell values rather than column headers.
+
+    Signals (ALL must be present):
+    1. A column whose *name* matches a year-related keyword (year, yr, etc.) AND
+       whose *values* are mostly 4-digit year integers (≥60% strict year match).
+    2. At least one column whose name matches an indicator/category keyword OR
+       whose values are a small set of repeated categorical strings (cardinality ≤15).
+    3. No year-pattern column *headers* (i.e., years are not in the header row).
+
+    Returns True if the table is confidently long-format.
+    """
+    # Condition 3: year headers already present → not long-format
+    has_year_headers = any(_YEAR_PATTERN.search(h) for h in header_strings)
+    if has_year_headers:
+        return False
+
+    year_col_index = None
+    for i, h in enumerate(header_strings):
+        if _YEAR_COL_NAMES.match(h.strip()):
+            year_col_index = i
+            break
+
+    if year_col_index is None:
+        return False
+
+    # Confirm the identified column contains mostly year-like integers
+    col = df.iloc[:, year_col_index].dropna()
+    if len(col) == 0:
+        return False
+    year_hits = sum(
+        1 for v in col.astype(str)
+        if _YEAR_STRICT.match(str(v).split(".")[0].strip())
+    )
+    if year_hits / len(col) < 0.6:
+        return False
+
+    # Condition 2: at least one indicator-like column
+    has_indicator_col = False
+    for i, h in enumerate(header_strings):
+        if i == year_col_index:
+            continue
+        if _INDICATOR_COL_NAMES.match(h.strip()):
+            has_indicator_col = True
+            break
+        # Or: a text column with very few unique values (categorical indicator)
+        col_series = df.iloc[:, i].dropna()
+        if len(col_series) > 0 and not _col_is_mostly_numeric(col_series):
+            n_unique = col_series.nunique()
+            if 2 <= n_unique <= 15:
+                has_indicator_col = True
+                break
+
+    return has_indicator_col
+
+
 def extract_features(path: str) -> FeatureSet:
     """
     Main entry point: read the CSV at *path* and return a FeatureSet.
@@ -272,6 +343,13 @@ def extract_features(path: str) -> FeatureSet:
         elif not _col_is_mostly_numeric(df[col]) and _col_has_long_text(df[col]):
             remarks_cols.append(raw_columns[i])
 
+    # --- Long-format detection (melted/tidy tables) ---
+    is_long_fmt = (
+        _detect_long_format(df, header_strings)
+        if not headerless
+        else False
+    )
+
     return FeatureSet(
         df=df,
         header_strings=header_strings,
@@ -285,4 +363,5 @@ def extract_features(path: str) -> FeatureSet:
         raw_columns=raw_columns,
         headerless=headerless,
         n_rows=len(df),
+        is_long_format=is_long_fmt,
     )

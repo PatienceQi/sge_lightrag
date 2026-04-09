@@ -22,6 +22,7 @@ Usage:
 from __future__ import annotations
 
 import re
+import os
 import sys
 import json
 import asyncio
@@ -42,7 +43,7 @@ except ImportError:
 from lightrag.llm.openai import openai_complete_if_cache
 
 # ── API config ────────────────────────────────────────────────────────────────
-API_KEY  = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
 BASE_URL = "https://wolfai.top/v1"
 MODEL    = "claude-haiku-4-5-20251001"
 

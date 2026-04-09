@@ -19,8 +19,10 @@ from __future__ import annotations
 import json
 import os
 from collections import Counter, defaultdict
+from pathlib import Path
 from typing import Any
 
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 DELIMITER = "<|#|>"
 
@@ -215,7 +217,7 @@ def compute_condition_metrics(
 # Main analysis
 # ---------------------------------------------------------------------------
 
-BASE = "/Users/qipatience/Desktop/SGE/sge_lightrag/output"
+BASE = str(_PROJECT_ROOT / "output")
 
 CACHE_PATHS = {
     # WB Population dataset
@@ -379,9 +381,8 @@ def main() -> None:
                 print(f"  Example {i+1}: {ex[:200]}")
 
     # Save to results file
-    output_path = (
-        "/Users/qipatience/Desktop/SGE/sge_lightrag/experiments/results/"
-        "error_analysis_results.json"
+    output_path = str(
+        _PROJECT_ROOT / "experiments" / "results" / "error_analysis_results.json"
     )
     with open(output_path, "w", encoding="utf-8") as fh:
         json.dump(all_results, fh, indent=2, ensure_ascii=False)

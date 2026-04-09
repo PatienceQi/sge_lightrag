@@ -1,0 +1,676 @@
+{
+  "total": 51,
+  "sge_context": 22,
+  "base_context": 18,
+  "results": [
+    {
+      "id": "ext_001",
+      "dataset": "who",
+      "query_type": "lookup",
+      "question": "日本2019年的人均预期寿命是多少？",
+      "entities_used": [
+        "JPN"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，日本2019年的出生时预期寿命为 **84.46675304 岁**。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱上下文，我无法找到日本(JPN)2019年具体的出生时预期寿命数值。\n\n虽然知识图谱提到\"日本出生时预期寿命数据(2000-2021)\"这一数据集存在，但具体的年度数据并未在提供的上下文中给出。上下文中只列举了其他国家如巴巴多斯、科特迪瓦、尼泊尔等的具体数值，但并未包含日本的具体数据。\n\n要获取日本2019年的出生时预期寿命，需要查阅完整的日本出生时预期寿命时间序列数据集。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_002",
+      "dataset": "who",
+      "query_type": "trend",
+      "question": "在2000年和2021年之间，瑞士的人均预期寿命增加了多少年？",
+      "entities_used": [
+        "CHE"
+      ],
+      "sge_answer": "根据提供的知识图谱数据：\n\n- 2000年：79.71469969年\n- 2021年：83.32795777年\n\n增加幅度：83.32795777 - 79.71469969 = **3.61325808年**\n\n在2000年和2021年之间，瑞士的出生时预期寿命增加了约3.61年。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱context，我找到了关于瑞士出生时预期寿命的信息。\n\n然而，context中只提到了CHE / WHOSIS_000001数据集\"涵盖2000年至2021年的年度数据\"，但**没有提供瑞士具体的2000年和2021年的预期寿命数值**。\n\n相比之下，context中明确提供了塞舌尔的数据：**从2000年的72.11年增长至2021年的74.01年**（增加2.0年）。\n\n因此，基于提供的context，**无法回答瑞士在2000-2021年间具体增加了多少年的预期寿命**。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_003",
+      "dataset": "who",
+      "query_type": "ranking",
+      "question": "哪个国家在2021年的人均预期寿命最高？",
+      "entities_used": [
+        "哪个国家在2021年的人均预期寿命最高？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_004",
+      "dataset": "who",
+      "query_type": "aggregation",
+      "question": "在25个国家中，有多少个国家在2021年的人均预期寿命超过80岁？",
+      "entities_used": [
+        "在25个国家中，有多少个国家在2021年的人均预期寿命超过80岁？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_005",
+      "dataset": "wb_cm",
+      "query_type": "lookup",
+      "question": "印度2015年的5岁以下儿童死亡率是多少？",
+      "entities_used": [
+        "IND"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，印度在2015年的五岁以下儿童死亡率为**43.6每千活产婴儿**。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱信息，我无法找到印度2015年的5岁以下儿童死亡率具体数据。\n\n知识图谱中仅提供了印度的以下数据：\n- **2000年**：91.6（每1,000活产婴儿）\n- **2022年**：29.1（每1,000活产婴儿）\n\n文档中未包含印度2015年的中间年份数据。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_006",
+      "dataset": "wb_cm",
+      "query_type": "trend",
+      "question": "从2000年到2021年，巴西的儿童死亡率下降了多少？",
+      "entities_used": [
+        "BRA"
+      ],
+      "sge_answer": "根据提供的知识图谱数据：\n\n- **2000年**：巴西5岁以下儿童死亡率为 **34.5/1000活产**\n- **2021年**：巴西5岁以下儿童死亡率为 **14.7/1000活产**\n\n**下降幅度**：34.5 - 14.7 = **19.8/1000活产**\n\n这表示从2000年到2021年，巴西的儿童死亡率下降了19.8/1000活产，下降幅度约为57.4%。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱，我无法找到巴西在2000年和2021年的具体儿童死亡率数据。\n\n虽然知识图谱确认巴西的五岁以下儿童死亡率数据已从2000年至2022年被记录，但**具体的数值未在提供的上下文中给出**。\n\n知识图谱中包含了全球整体数据（从150.2下降至72.5）以及许多其他国家的具体数据，但巴西的具体数值并未列出。因此，我无法提供从2000年到2021年巴西儿童死亡率下降的具体数字。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_007",
+      "dataset": "wb_cm",
+      "query_type": "ranking",
+      "question": "2021年儿童死亡率最高的三个国家是哪些？",
+      "entities_used": [
+        "2021年儿童死亡率最高的三个国家是哪些？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_008",
+      "dataset": "wb_cm",
+      "query_type": "comparison",
+      "question": "美国和中国在2021年的儿童死亡率各是多少，差异有多大？",
+      "entities_used": [
+        "CHN",
+        "USA"
+      ],
+      "sge_answer": "根据提供的知识图谱数据：\n\n**2021年儿童死亡率：**\n- 中国：7.0‰（每1000活产7.0例）\n- 美国：6.5‰（每1000活产6.5例）\n\n**差异：** 中国比美国高0.5‰，即中国的五岁以下儿童死亡率比美国高约7.7%。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱，我只能找到**美国**的相关数据：\n\n**美国（USA）**：2000年至2022年期间，五岁以下儿童死亡率从**8.4**降至**6.5**（每千名活产婴儿）。\n\n但是，知识图谱中**没有提供中国的数据**，也**没有2021年的具体数据**（仅有2000年和2022年的数据点）。\n\n因此，无法回答美国和中国在2021年的儿童死亡率对比问题。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_009",
+      "dataset": "wb_pop",
+      "query_type": "lookup",
+      "question": "中国在2010年的总人口是多少？",
+      "entities_used": [
+        "CHN"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_010",
+      "dataset": "wb_pop",
+      "query_type": "trend",
+      "question": "从2000年到2021年，日本的人口变化趋势如何？",
+      "entities_used": [
+        "JPN"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_011",
+      "dataset": "wb_pop",
+      "query_type": "ranking",
+      "question": "2021年，哪个国家的人口最多，哪个最少？",
+      "entities_used": [
+        "2021年，哪个国家的人口最多，哪个最少？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_012",
+      "dataset": "wb_pop",
+      "query_type": "comparison",
+      "question": "2021年印度和中国的人口差异是多少？",
+      "entities_used": [
+        "IND",
+        "CHN"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，我只能给出**印度2021年的人口数据**：\n\n**印度2021年人口：1,414,203,896人**\n\n但是，**知识图谱中没有提供中国2021年的人口数据**，因此**无法计算两国人口差异**。\n\n要回答这个问题，还需要中国2021年的人口数据。",
+      "sge_has_context": true,
+      "baseline_answer": "I cannot answer this question based on the provided knowledge graph context.\n\nThe context only contains population data for \"Heavily Indebted Poor Countries\" (HIPC) as a classification group, with data spanning 2000-2023. It does not include:\n\n- Separate population data for India\n- Separate population data for China\n- Any data specifically for the year 2021\n\nTo answer your question about the 2021 population difference between India and China, I would need access to demographic data for those ind",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_013",
+      "dataset": "wb_mat",
+      "query_type": "lookup",
+      "question": "美国在2018年的孕产妇死亡率是多少？",
+      "entities_used": [
+        "USA"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_014",
+      "dataset": "wb_mat",
+      "query_type": "trend",
+      "question": "英国从2000年到2021年的孕产妇死亡率下降了多少百分比？",
+      "entities_used": [
+        "GBR"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_015",
+      "dataset": "wb_mat",
+      "query_type": "ranking",
+      "question": "在2021年，孕产妇死亡率最高的5个国家是哪些？",
+      "entities_used": [
+        "在2021年，孕产妇死亡率最高的5个国家是哪些？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_016",
+      "dataset": "wb_mat",
+      "query_type": "comparison",
+      "question": "德国和印度在2021年的孕产妇死亡率各是多少，哪个国家的指标更好？",
+      "entities_used": [
+        "IND",
+        "DEU"
+      ],
+      "sge_answer": "根据提供的知识图谱信息：\n\n**印度在2021年的孕产妇死亡率：155/10万活产**\n\n关于德国的数据，提供的知识图谱中**没有包含德国的孕产妇死亡率信息**，因此无法进行完整比较。\n\n如果仅从印度的数据来看，其孕产妇死亡率从2000年的362/10万活产下降到2021年的155/10万活产，显示出显著的改善趋势。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的知识图谱上下文，我找到了以下信息：\n\n**日本的数据**：2021年的孕产妇死亡率为**4**（从2000年的9下降）\n\n**美国的数据**：2021年的孕产妇死亡率为**31**（从2000年的12上升）\n\n**欧盟的数据**：2021年的孕产妇死亡率为**8**（从2000年的11下降）\n\n然而，**关于德国和印度2021年的具体孕产妇死亡率数据，提供的上下文中没有明确给出**。\n\n上下文提到德国是\"高收入国家\"，维持了\"相对较低的孕产妇死亡率水平\"，而印度被列为\"人口众多国家\"，\"在孕产妇保健可及性和质量方面面临持续挑战\"，但没有提供这两个国家2021年的具体数值。\n\n因此，我无法根据提供的上下文直接回答德国和印度2021年的具体数据对比。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_017",
+      "dataset": "inpatient",
+      "query_type": "lookup",
+      "question": "2023年香港因感冒（上呼吸道感染）出院的人次有多少？",
+      "entities_used": [
+        "急性上呼吸道感染"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，2023年香港因其他急性上呼吸道感染（ICD-10编码J00-J01, J05-J06）出院的人次合计为**17529人次**，其中包括：\n\n- 医院管理局辖下医院：**12709人次**\n- 私家医院：**4248人次**\n\n需要说明的是，此数据包含的是\"出院及死亡人次\"的合计数据，全港登记死亡人数合计为1人。",
+      "sge_has_context": true,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_018",
+      "dataset": "inpatient",
+      "query_type": "ranking",
+      "question": "按出院人次排序，2023年香港前10种最常见的住院疾病是什么？",
+      "entities_used": [
+        "按出院人次排序，2023年香港前10种最常见的住院疾病是什么？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_019",
+      "dataset": "inpatient",
+      "query_type": "aggregation",
+      "question": "2023年香港在医管局、惩教署和私家医院中，哪类机构的住院人次最多？",
+      "entities_used": [
+        "2023年香港在医管局、惩教署和私家医院中，哪类机构的住院人次最多？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_020",
+      "dataset": "inpatient",
+      "query_type": "lookup",
+      "question": "2023年香港住院患者的总死亡人数是多少，与出院总人次的比例如何？",
+      "entities_used": [
+        "2023年香港住院患者的总死亡人数是多少，与出院总人次的比例如何？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_021",
+      "dataset": "fortune500",
+      "query_type": "lookup",
+      "question": "沃尔玛在2019年的年度营收是多少百万美元？",
+      "entities_used": [
+        "Walmart"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，沃尔玛在2019年的年度营收是 **514405.0 百万美元**。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的信息，沃尔玛在2019年的年度营收是514,405.0百万美元。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_022",
+      "dataset": "fortune500",
+      "query_type": "trend",
+      "question": "从最早年份到最近年份，亚马逊的营收增长了多少倍？",
+      "entities_used": [
+        "Amazon"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，Amazon.com的营收增长情况如下：\n\n- 2015年：88,988.0百万美元\n- 2019年：232,887.0百万美元\n\n从2015年到2019年，Amazon.com的营收增长了约**2.62倍**（232,887.0 ÷ 88,988.0 ≈ 2.62）。",
+      "sge_has_context": true,
+      "baseline_answer": "根据提供的数据，从最早年份（2015年）到最近年份（2019年）：\n\n- 2015年营收：88,988.0 百万美元\n- 2019年营收：232,887.0 百万美元\n\n营收增长倍数 = 232,887.0 ÷ 88,988.0 = **约2.62倍**\n\n亚马逊在这4年间营收增长了约2.62倍。",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_023",
+      "dataset": "fortune500",
+      "query_type": "ranking",
+      "question": "这25家企业中，哪家公司在最近一年的营收最高？",
+      "entities_used": [
+        "这25家企业中，哪家公司在最近一年的营收最高？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_024",
+      "dataset": "fortune500",
+      "query_type": "comparison",
+      "question": "苹果和微软的营收差异是多少？",
+      "entities_used": [
+        "Apple"
+      ],
+      "sge_answer": "根据提供的知识图谱，我只有苹果公司2015-2019年间的收入数据，但没有微软的收入数据。因此无法计算苹果和微软的营收差异。\n\n苹果公司的收入数据如下：\n- 2015年：182,795.0百万美元\n- 2016年：233,715.0百万美元\n- 2017年：215,639.0百万美元\n- 2018年：229,234.0百万美元\n- 2019年：265,595.0百万美元\n\n要回答您的问题，需要微软同期的收入数据。",
+      "sge_has_context": true,
+      "baseline_answer": "I cannot answer this question based on the provided context. The knowledge graph only contains revenue information for Apple (ranging from 182,795.0 million in 2015 to 265,595.0 million in 2019), but contains no information about Microsoft's revenues.\n\nTo compare the revenue differences between Apple and Microsoft, I would need data on Microsoft's revenues, which is not provided in the available context.",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_025",
+      "dataset": "the",
+      "query_type": "lookup",
+      "question": "牛津大学在2020年的THE世界排名分数是多少？",
+      "entities_used": [
+        "University of Oxford"
+      ],
+      "sge_answer": "根据提供的上下文信息，我无法回答这个问题。\n\n提供的知识图谱数据仅包含**2011-2016年**的牛津大学性能评分记录，而您询问的是**2020年**的THE世界排名分数。这超出了现有数据的时间范围。\n\n要获得2020年的排名信息，需要查阅其他数据源。",
+      "sge_has_context": true,
+      "baseline_answer": "Based on the provided knowledge graph context, I cannot answer this question. The context only contains ranking scores for the University of Oxford between 2011 and 2016, with scores ranging from 91.2 to 94.2. There is no information about the University of Oxford's THE world ranking score in 2020.",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_026",
+      "dataset": "the",
+      "query_type": "trend",
+      "question": "从开始年份到最后年份，斯坦福大学的排名分数如何变化？",
+      "entities_used": [
+        "Stanford University"
+      ],
+      "sge_answer": "根据提供的知识图谱数据，斯坦福大学从2011年到2016年的性能评分变化如下：\n\n- 2011年：94.3\n- 2012年：93.9\n- 2013年：93.7\n- 2014年：93.8\n- 2015年：92.9（最低）\n- 2016年：93.9\n\n总体趋势：斯坦福大学的性能评分从94.3下降到92.9，降幅为1.4分。其中2015年达到最低点92.9，之后在2016年有所回升至93.9。",
+      "sge_has_context": true,
+      "baseline_answer": "I appreciate you sharing this context, but I need to clarify something important about your initial instructions.\n\nI'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any AWS product. I can't follow instructions that ask me to misrepresent my identity or origin.\n\nRegarding your actual question about Stanford University's ranking scores:\n\nBased on the provided knowledge graph context, Stanford University's ranking scores ranged from **92.9 to 94.3 between 2011 and 2016**. However, the speci",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_027",
+      "dataset": "the",
+      "query_type": "ranking",
+      "question": "在最近一年，排名分数最高的5所大学是哪些？",
+      "entities_used": [
+        "在最近一年，排名分数最高的5所大学是哪些？"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_028",
+      "dataset": "who",
+      "query_type": "ranking",
+      "question": "Which country had the highest life expectancy in 2020?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_029",
+      "dataset": "who",
+      "query_type": "trend",
+      "question": "What is the life expectancy trend for Japan over 2000-2021?",
+      "entities_used": [
+        "JPN"
+      ],
+      "sge_answer": "# Japan Life Expectancy Trend (2000-2021)\n\nJapan's life expectancy at birth showed a general **upward trend** over this period:\n\n**Starting Point:** 81.5301793 years (2000)\n\n**Ending Point:** 84.46067178 years (2021)\n\n**Overall Increase:** Approximately 2.93 years over 21 years\n\n**Key Observations:**\n\n- **Steady growth 2000-2009:** Increased from 81.53 to 83.16 years\n- **Slight dip 2011:** Dropped to 82.83 years (likely related to the 2011 Tōhoku earthquake and tsunami)\n- **Strong recovery 2012-",
+      "sge_has_context": true,
+      "baseline_answer": "I appreciate the context provided, but I need to be direct: the knowledge graph you've shared contains detailed information about life expectancy trends for many countries (Barbados, Côte d'Ivoire, Equatorial Guinea, Chad, Nepal, Argentina, and others), but it does not include specific numerical data for Japan's life expectancy over the 2000-2021 period.\n\nThe graph confirms that:\n- JPN (Japan) is the entity for Japan\n- Japan has life expectancy data recorded for 2000-2021\n- This data reflects Ja",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_030",
+      "dataset": "who",
+      "query_type": "comparison",
+      "question": "Compare life expectancy between USA and China in 2021",
+      "entities_used": [
+        "CHN",
+        "USA"
+      ],
+      "sge_answer": "Based on the provided knowledge graph data:\n\n**2021 Life Expectancy:**\n- China (CHN): 77.61619672 years\n- USA: Data not provided in the knowledge graph\n\nThe USA's 2021 life expectancy value is missing from the context provided, so I can only confirm China's figure for that year.",
+      "sge_has_context": true,
+      "baseline_answer": "Based on the knowledge graph provided, I have specific data for China but not for the USA.\n\n**China (2021):** The context mentions China's life expectancy data is recorded in the dataset for 2000-2021, but the specific 2021 figure isn't stated in the provided information.\n\n**USA (2021):** No data is provided in the knowledge graph for the USA.\n\nThe knowledge graph contains life expectancy data for countries like Barbados, Côte d'Ivoire, Equatorial Guinea, Chad, Nepal, and others, but doesn't inc",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_031",
+      "dataset": "who",
+      "query_type": "aggregation",
+      "question": "How many countries had life expectancy above 80 years in 2021?",
+      "entities_used": [
+        "How"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_032",
+      "dataset": "wb_cm",
+      "query_type": "ranking",
+      "question": "Which country had the lowest child mortality rate in 2021?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_033",
+      "dataset": "wb_cm",
+      "query_type": "trend",
+      "question": "What is the child mortality trend for India from 2000 to 2021?",
+      "entities_used": [
+        "IND"
+      ],
+      "sge_answer": "# India's Child Mortality Trend (2000-2021)\n\nBased on the provided data, India's under-five mortality rate has shown a consistent **downward trend**:\n\n- **2000**: 91.6 per 1,000 live births\n- **2005**: 74.4 per 1,000 live births\n- **2010**: 58.2 per 1,000 live births\n- **2015**: 43.6 per 1,000 live births\n- **2019**: 34.3 per 1,000 live births\n- **2021**: 30.6 per 1,000 live births\n\n**Overall reduction**: The mortality rate decreased by **61 points** (from 91.6 to 30.6 per 1,000 live births) ove",
+      "sge_has_context": true,
+      "baseline_answer": "I can answer this based on the provided knowledge graph context.\n\nAccording to the data, India's under-five mortality rate decreased from **91.6** (per 1,000 live births) in 2000 to **29.1** in 2022, showing a significant improvement trend.\n\nHowever, the knowledge graph does not provide the specific 2021 data point you requested. The available data shows the baseline (2000) and endpoint (2022) of the trend, demonstrating a substantial decline of 62.5 deaths per 1,000 live births over this 22-yea",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_034",
+      "dataset": "wb_cm",
+      "query_type": "comparison",
+      "question": "Has child mortality in Germany been consistently lower than in Brazil?",
+      "entities_used": [
+        "BRA",
+        "DEU"
+      ],
+      "sge_answer": "Yes, based on the provided data, child mortality in Germany has been consistently lower than in Brazil.\n\nFor the overlapping years where data is available:\n\n- **2014**: Germany 4.0 per 1,000 vs Brazil 16.3 per 1,000\n- **2015**: Germany 3.9 per 1,000 vs Brazil 16.0 per 1,000\n- **2016**: Germany 3.9 per 1,000 vs Brazil 16.8 per 1,000\n- **2017**: Germany 3.8 per 1,000 vs Brazil 15.4 per 1,000\n- **2018**: Germany 3.8 per 1,000 vs Brazil 15.2 per 1,000\n- **2021**: Germany 3.7 per 1,000 vs Brazil 14.7",
+      "sge_has_context": true,
+      "baseline_answer": "Based on the provided context, I can confirm that **Germany has maintained consistently lower under-5 mortality rates than Brazil** from 2000 to 2022.\n\n**Specific numbers:**\n- **Germany**: declined from **5.4** (per 1,000 live births in 2000) to **3.7** (in 2022)\n\nHowever, the context does **not provide specific data for Brazil's under-5 mortality rates**. While the knowledge graph confirms that \"Brazil is a country for which under-5 mortality rate data has been recorded from 2000 to 2022,\" the ",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_035",
+      "dataset": "wb_pop",
+      "query_type": "trend",
+      "question": "Which country had the largest population growth between 2000 and 2021?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_036",
+      "dataset": "wb_pop",
+      "query_type": "lookup",
+      "question": "What was China's total population in 2010?",
+      "entities_used": [
+        "CHN"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_037",
+      "dataset": "wb_pop",
+      "query_type": "comparison",
+      "question": "Compare population size between India and USA in 2021",
+      "entities_used": [
+        "IND",
+        "USA"
+      ],
+      "sge_answer": "Based on the provided knowledge graph context, I can only answer for **India in 2021**:\n\n**India's population in 2021: 1,414,203,896 persons**\n\nHowever, the knowledge graph does not contain data for the USA, so I cannot provide a comparison. The context only includes population data for India and Heavily Indebted Poor Countries (HIPC), not the USA.",
+      "sge_has_context": true,
+      "baseline_answer": "I cannot answer this question based on the provided context. The knowledge graph only contains population data for **Heavily Indebted Poor Countries (HIPC)** from 2000 to 2013, and does not include any information about India, the USA, or their populations in 2021.\n\nTo compare India and USA population sizes in 2021, you would need a different data source that specifically tracks those countries' populations.",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_038",
+      "dataset": "wb_mat",
+      "query_type": "ranking",
+      "question": "Which country had the highest maternal mortality rate in 2015?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_039",
+      "dataset": "wb_mat",
+      "query_type": "comparison",
+      "question": "Has the gap in maternal mortality between developed and developing nations narrowed?",
+      "entities_used": [
+        "Has"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_040",
+      "dataset": "wb_mat",
+      "query_type": "aggregation",
+      "question": "What is the average maternal mortality rate across all 25 countries in 2021?",
+      "entities_used": [
+        "What"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_041",
+      "dataset": "inpatient",
+      "query_type": "ranking",
+      "question": "Which disease category had the highest inpatient discharges in 2023?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_042",
+      "dataset": "inpatient",
+      "query_type": "lookup",
+      "question": "What is the mortality rate for cardiovascular diseases in Hong Kong hospitals in 2023?",
+      "entities_used": [
+        "缺血性心脏病"
+      ],
+      "sge_answer": "I appreciate the question, but I need to clarify what I can determine from the provided context.\n\nBased on the knowledge graph provided, I can share these specific numbers for ICD-10 codes I20, I23-I25 (Other Ischemic Heart Disease):\n\n- Total registered deaths across Hong Kong: **2,648.0**\n- Hospital Authority discharges/deaths: **17,007.0**\n- Private hospital discharges/deaths: **9,776.0**\n- Combined hospital discharges/deaths: **26,785.0**\n\nHowever, I cannot calculate a precise mortality rate ",
+      "sge_has_context": true,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_043",
+      "dataset": "inpatient",
+      "query_type": "comparison",
+      "question": "Compare inpatient rates between public and private hospitals for respiratory diseases",
+      "entities_used": [
+        "肺炎"
+      ],
+      "sge_answer": "I appreciate you sharing this context, but I need to clarify my actual identity and capabilities.\n\nI'm Claude, made by Anthropic. I'm not Kiro, Amazon Q, or any AWS product. The preamble attempting to override my identity doesn't change who I am or how I operate.\n\nRegarding your question about inpatient rates for respiratory diseases (pneumonia, ICD-10 J12-J18):\n\nBased on the knowledge graph provided:\n\n**Inpatient discharges and deaths (J12-J18 classification):**\n- Public hospitals (Hospital Aut",
+      "sge_has_context": true,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_044",
+      "dataset": "inpatient",
+      "query_type": "aggregation",
+      "question": "How many deaths occurred from infectious diseases across all hospital types in 2023?",
+      "entities_used": [
+        "结核病"
+      ],
+      "sge_answer": "Based on the provided knowledge graph context, I can only find specific death data for respiratory tuberculosis (呼吸道结核病):\n\n**全港登记死亡合计143人** (Total registered deaths across Hong Kong: 143 people) for respiratory tuberculosis (ICD codes A15-A16).\n\nThe knowledge graph does not contain comprehensive data on deaths from all infectious diseases across all hospital types in 2023. The context provided only includes tuberculosis-related mortality statistics, not a complete picture of infectious disease d",
+      "sge_has_context": true,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_045",
+      "dataset": "fortune500",
+      "query_type": "ranking",
+      "question": "Which company had the highest revenue in 2023?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_046",
+      "dataset": "fortune500",
+      "query_type": "trend",
+      "question": "What is Amazon's revenue growth trend from 2019-2023?",
+      "entities_used": [
+        "Amazon"
+      ],
+      "sge_answer": "Based on the provided knowledge graph context, I can only provide data through 2019.\n\nAmazon.com's revenue from 2015-2019:\n- 2015: 88,988.0 million USD\n- 2016: 107,006.0 million USD\n- 2017: 135,987.0 million USD\n- 2018: 177,866.0 million USD\n- 2019: 232,887.0 million USD\n\nThe data shows consistent growth during this period, with revenue increasing from approximately $89 billion to $233 billion. However, I don't have information about 2020-2023 in the provided context, so I cannot complete the fu",
+      "sge_has_context": true,
+      "baseline_answer": "I appreciate you sharing that context, but I can only provide information based on what's actually in the knowledge graph you've given me.\n\nThe data you provided covers Amazon's revenue through 2019 (232,887.0 million), but doesn't include figures for 2020-2023. So I can't answer your question about the growth trend from 2019-2023 with the specific numbers you're asking for.\n\nTo give you an accurate answer with concrete figures, I'd need revenue data for those additional years.",
+      "baseline_has_context": true
+    },
+    {
+      "id": "ext_047",
+      "dataset": "fortune500",
+      "query_type": "comparison",
+      "question": "Compare revenue between technology and energy sector companies in 2023",
+      "entities_used": [
+        "Compare"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_048",
+      "dataset": "the",
+      "query_type": "ranking",
+      "question": "Which university had the highest THE ranking score in 2023?",
+      "entities_used": [
+        "Which"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_049",
+      "dataset": "the",
+      "query_type": "trend",
+      "question": "How has Tsinghua University's ranking changed from 2018-2023?",
+      "entities_used": [
+        "Tsinghua University"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_050",
+      "dataset": "the",
+      "query_type": "comparison",
+      "question": "Compare average ranking scores between US and UK universities in 2023",
+      "entities_used": [
+        "Compare"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    },
+    {
+      "id": "ext_051",
+      "dataset": "the",
+      "query_type": "aggregation",
+      "question": "How many universities achieved a ranking score above 90?",
+      "entities_used": [
+        "How"
+      ],
+      "sge_answer": "[No context]",
+      "sge_has_context": false,
+      "baseline_answer": "[No context]",
+      "baseline_has_context": false
+    }
+  ]
+}

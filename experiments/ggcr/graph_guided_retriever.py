@@ -12,6 +12,7 @@ Also implements Concat-All baseline (dump all compact chunks without any retriev
 
 from __future__ import annotations
 
+import os
 import re
 import json
 import networkx as nx
@@ -24,8 +25,8 @@ from .compact_chunks import CompactIndex, build_compact_index, _embed_text_sync,
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # ── LLM config ──────────────────────────────────────────────────────────────
-API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL = "claude-haiku-4-5-20251001"
 
 SYSTEM_PROMPT_EN = (
@@ -47,6 +48,12 @@ GRAPH_PATHS = {
     "who_full": "output/who_life_expectancy/lightrag_storage/graph_chunk_entity_relation.graphml",
     "wb_cm": "output/wb_child_mortality/lightrag_storage/graph_chunk_entity_relation.graphml",
     "inpatient": "output/inpatient_2023/lightrag_storage/graph_chunk_entity_relation.graphml",
+}
+
+BASELINE_GRAPH_PATHS = {
+    "who": "output/baseline_who_life/lightrag_storage/graph_chunk_entity_relation.graphml",
+    "wb_cm": "output/baseline_wb_child_mortality/lightrag_storage/graph_chunk_entity_relation.graphml",
+    "inpatient": "output/baseline_inpatient23/lightrag_storage/graph_chunk_entity_relation.graphml",
 }
 
 # ── Entity type patterns for graph enumeration ──────────────────────────────
@@ -101,12 +108,20 @@ def _call_llm(context: str, question: str, language: str = "en", max_retries: in
 # Graph entity enumeration
 # ---------------------------------------------------------------------------
 
-def enumerate_entities_from_graph(dataset: str) -> list[str]:
+def enumerate_entities_from_graph(
+    dataset: str, graph_paths: dict | None = None
+) -> list[str]:
     """
-    BFS-enumerate all entity nodes from the SGE graph.
+    BFS-enumerate all entity nodes from a graph.
     Returns list of entity identifiers (country codes for Type-II, disease names for Type-III).
+
+    Args:
+        dataset: Dataset key (e.g. "who", "wb_cm", "inpatient").
+        graph_paths: Graph path mapping to use. Defaults to SGE GRAPH_PATHS.
     """
-    graph_rel_path = GRAPH_PATHS.get(dataset)
+    if graph_paths is None:
+        graph_paths = GRAPH_PATHS
+    graph_rel_path = graph_paths.get(dataset)
     if not graph_rel_path:
         return []
 
@@ -192,6 +207,33 @@ def retrieve_ggcr(
     return _call_llm(context, query_text, question.get("language", "en"))
 
 
+def retrieve_baseline_ggcr(
+    question: dict, compact_index: CompactIndex, dataset: str
+) -> str:
+    """
+    Baseline+GGCR: same retrieval logic as GGCR but entity enumeration from the
+    Baseline graph instead of the SGE graph.
+
+    L1/L2: identical vector retrieval (no graph used — results match sge_ggcr).
+    L3/L4: entity enumeration via BASELINE_GRAPH_PATHS → compact chunk lookup.
+    """
+    level = question["level"]
+    query_text = question["question"]
+
+    if level in ("L1", "L2"):
+        chunks = compact_index.vector_retrieve(query_text, top_k=5)
+    else:
+        # L3/L4: enumerate entities from the Baseline graph
+        entity_keys = enumerate_entities_from_graph(dataset, graph_paths=BASELINE_GRAPH_PATHS)
+        chunks = compact_index.entity_retrieve(entity_keys)
+        if not chunks:
+            # Fallback to all chunks if baseline entity enumeration fails
+            chunks = compact_index.get_all_chunks()
+
+    context = "\n---\n".join(chunks)
+    return _call_llm(context, query_text, question.get("language", "en"))
+
+
 def retrieve_pure_compact(
     question: dict, compact_index: CompactIndex
 ) -> str:
@@ -229,6 +271,41 @@ def retrieve_naive_rag(
     scores = cosine_similarity(query_emb, naive_embeddings)
     top_indices = np.argsort(scores)[::-1][:5]
     chunks = [naive_chunks[i] for i in top_indices]
+    context = "\n---\n".join(chunks)
+    return _call_llm(context, query_text, question.get("language", "en"))
+
+
+# ── Oracle entity lists for oracle_ggcr ───────────────────────────────────
+ORACLE_ENTITIES = {
+    "who": sorted(WHO_GOLD_CODES),
+    "wb_cm": sorted(WHO_GOLD_CODES),  # Same 25 countries
+    "inpatient": sorted(INPATIENT_GOLD_ENTITIES),
+}
+
+
+def retrieve_oracle_ggcr(
+    question: dict, compact_index: CompactIndex, dataset: str
+) -> str:
+    """
+    Oracle+GGCR: perfect entity enumeration from Gold Standard lists.
+
+    L1/L2: identical vector retrieval (same as sge_ggcr / baseline_ggcr).
+    L3/L4: use oracle entity list → compact chunk lookup.
+
+    This control isolates the entity coverage (EC) variable: if Oracle ≈ SGE,
+    then the GGCR gap between SGE and Baseline is fully attributable to EC.
+    """
+    level = question["level"]
+    query_text = question["question"]
+
+    if level in ("L1", "L2"):
+        chunks = compact_index.vector_retrieve(query_text, top_k=5)
+    else:
+        entity_keys = ORACLE_ENTITIES.get(dataset, [])
+        chunks = compact_index.entity_retrieve(entity_keys)
+        if not chunks:
+            chunks = compact_index.get_all_chunks()
+
     context = "\n---\n".join(chunks)
     return _call_llm(context, query_text, question.get("language", "en"))
 

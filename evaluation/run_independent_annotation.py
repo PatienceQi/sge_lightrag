@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 import random
 import re
 import sys
@@ -69,7 +70,7 @@ RETRY_DELAY_BASE = 2  # seconds
 # ---------------------------------------------------------------------------
 
 API_BASE_URL = "https://wolfai.top/v1"
-API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY = os.environ.get("SGE_API_KEY", "")
 MODEL_A = "claude-haiku-4-5-20251001"
 MODEL_B = "gpt-5-mini"
 

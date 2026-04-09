@@ -1,0 +1,47 @@
+{
+  "description": "External validation: independently designed questions evaluated via entity-anchored retrieval",
+  "total_questions": 51,
+  "questions_with_context": 22,
+  "sge_informative": 20,
+  "baseline_informative": 12,
+  "sge_wins": 8,
+  "baseline_wins": 0,
+  "ties": 14,
+  "per_dataset": {
+    "who": {
+      "sge": 4,
+      "base": 2,
+      "n": 4
+    },
+    "wb_cm": {
+      "sge": 5,
+      "base": 3,
+      "n": 5
+    },
+    "wb_pop": {
+      "sge": 2,
+      "base": 2,
+      "n": 2
+    },
+    "wb_mat": {
+      "sge": 1,
+      "base": 1,
+      "n": 1
+    },
+    "inpatient": {
+      "sge": 2,
+      "base": 0,
+      "n": 4
+    },
+    "fortune500": {
+      "sge": 4,
+      "base": 3,
+      "n": 4
+    },
+    "the": {
+      "sge": 2,
+      "base": 1,
+      "n": 2
+    }
+  }
+}

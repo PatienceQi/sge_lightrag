@@ -10,13 +10,11 @@ HippoRAG v2 uses OpenIE to extract triples → builds an igraph KG
 → retrieves via Personalized PageRank → LLM QA.
 
 Usage (must use hipporag conda env):
-    /Users/qipatience/miniconda3/envs/hipporag/bin/python \
-        evaluation/hipporag_baseline.py \
+    python evaluation/hipporag_baseline.py \
         --dataset who \
         --output output/hipporag_who
 
-    /Users/qipatience/miniconda3/envs/hipporag/bin/python \
-        evaluation/hipporag_baseline.py \
+    python evaluation/hipporag_baseline.py \
         --dataset who --mode qa \
         --questions evaluation/gold/qa_questions.jsonl
 """
@@ -33,7 +31,7 @@ from datetime import datetime
 
 # ── Config ────────────────────────────────────────────────────────────────────
 # LLM: wolfai proxy (OpenAI-compatible)
-os.environ["OPENAI_API_KEY"] = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+os.environ["OPENAI_API_KEY"] = os.environ.get("SGE_API_KEY", "")
 
 LLM_MODEL = "claude-haiku-4-5-20251001"
 LLM_BASE_URL = "https://wolfai.top/v1"

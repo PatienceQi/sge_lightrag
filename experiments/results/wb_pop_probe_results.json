@@ -1,0 +1,37 @@
+{
+  "description": "WB Population probing: Format-constraint coupling (entity type rename + column reference conflict)",
+  "dataset": "WB Population",
+  "gold_facts": 150,
+  "conditions_tested": [
+    "AX",
+    "BX-2",
+    "AY-3"
+  ],
+  "condition_descriptions": {
+    "AX": "Original schema unchanged (baseline reference, expected FC=1.000)",
+    "BX-2": "GeopoliticalEntity replaces Country (distant synonym, token misalignment)",
+    "AY-3": "Country entity type + 'Country Code' column ref (conflicts with gold naming)"
+  },
+  "probe_results": [
+    {
+      "condition": "AY-2",
+      "schema_entity_types": [
+        "Country",
+        "StatValue"
+      ],
+      "schema_relation_types": [
+        "POPULATION"
+      ],
+      "timestamp": "2026-04-08T01:59:53.306935",
+      "nodes": 6577,
+      "edges": 6360,
+      "ec": 1.0,
+      "fc": 1.0,
+      "ec_matched": 25,
+      "ec_total": 25,
+      "fc_covered": 150,
+      "fc_total": 150
+    }
+  ],
+  "timestamp": "2026-04-08T01:59:53.813245"
+}

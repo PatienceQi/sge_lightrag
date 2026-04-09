@@ -28,6 +28,7 @@ import asyncio
 import argparse
 import hashlib
 import json
+import os
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -54,7 +55,7 @@ from evaluation.evaluate_coverage import (
 # API / embedding config
 # ---------------------------------------------------------------------------
 
-API_KEY = "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr"
+API_KEY = os.environ.get("SGE_API_KEY", "")
 BASE_URL = "https://wolfai.top/v1"
 MODEL = "claude-haiku-4-5-20251001"
 EMBED_DIM = 1024

@@ -10,7 +10,7 @@ Usage:
 
 import os
 
-API_KEY   = os.environ.get("SGE_API_KEY", "sk-GhswVJ825Z6sqFGlUm54n8W9jj0sJwfJOdWjyMNWJEihROlr")
-BASE_URL  = os.environ.get("SGE_API_BASE", "https://wolfai.top/v1")
+API_KEY   = os.environ.get("SGE_API_KEY", "")
+BASE_URL  = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL     = os.environ.get("SGE_MODEL", "claude-haiku-4-5-20251001")
 EMBED_DIM = 1024

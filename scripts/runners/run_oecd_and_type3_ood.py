@@ -20,6 +20,7 @@ Usage:
 """
 from __future__ import annotations
 
+import os
 import sys
 import json
 import shutil
@@ -45,13 +46,13 @@ from lightrag.llm.openai import openai_complete_if_cache
 from lightrag.prompt import PROMPTS
 
 # ── Config (KEY 2 — separate from main experiments) ──────────────────────────
-API_KEY  = "sk-ihcMkgpox4BU2E0Rg8D016v2k6UZgy2pvui4AX2UHwvg4GB4"
-BASE_URL = "https://wolfai.top/v1"
+API_KEY  = os.environ.get("SGE_API_KEY", "")
+BASE_URL = os.environ.get("SGE_API_BASE", "https://api.openai.com/v1")
 MODEL    = "claude-haiku-4-5-20251001"
 EMBED_DIM = 1024
 
-OECD_DIR    = Path("/Users/qipatience/Desktop/SGE/dataset/OECD_blind_test")
-OOD_DIR     = Path("/Users/qipatience/Desktop/SGE/dataset/ood_blind_test")
+OECD_DIR    = PROJECT_ROOT.parent / "dataset" / "OECD_blind_test"
+OOD_DIR     = PROJECT_ROOT.parent / "dataset" / "ood_blind_test"
 OUTPUT_DIR  = PROJECT_ROOT / "output"
 GOLD_DIR    = PROJECT_ROOT / "evaluation" / "gold"
 RESULTS_DIR = PROJECT_ROOT / "evaluation" / "results"

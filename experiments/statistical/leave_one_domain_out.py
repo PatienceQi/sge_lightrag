@@ -24,13 +24,14 @@ import json
 from pathlib import Path
 from collections import Counter, defaultdict
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(_PROJECT_ROOT))
 
 from stage1.features import extract_features
 from stage1.classifier import classify, _MAX_YEAR_COLS_FOR_HYBRID_OVERRIDE
 
 # ── All 33 files with ground truth types ──────────────────────────────────
-BASE = "/Users/qipatience/Desktop/SGE/dataset"
+BASE = str(_PROJECT_ROOT.parent / "dataset")
 
 DOMAINS = {
     "HK Medical Expenditure": {
@@ -69,7 +70,7 @@ DOMAINS = {
             f"{BASE}/世界银行数据/maternal_mortality/API_SH.STA.MMRT_DS2_en_csv_v2_708.csv",
             f"{BASE}/世界银行数据/health_expenditure/API_SH.XPD.CHEX.GD.ZS_DS2_en_csv_v2_558.csv",
             f"{BASE}/世界银行数据/hospital_beds/API_SH.MED.BEDS.ZS_DS2_en_csv_v2_4542.csv",
-            "/Users/qipatience/Desktop/SGE/sge_lightrag/dataset/WHO/API_WHO_WHOSIS_000001_life_expectancy.csv",
+            str(_PROJECT_ROOT.parent / "dataset" / "WHO" / "API_WHO_WHOSIS_000001_life_expectancy.csv"),
         ],
     },
 }

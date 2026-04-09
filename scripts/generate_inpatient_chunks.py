@@ -24,14 +24,13 @@ from pathlib import Path
 
 import pandas as pd
 
-CSV_PATH = Path(
-    "/Users/qipatience/Desktop/SGE/dataset/住院病人统计"
-    "/Inpatient Discharges and Deaths in Hospitals and Registered Deaths"
+_PROJECT_ROOT = Path(__file__).resolve().parents[1]
+CSV_PATH = (
+    _PROJECT_ROOT.parent / "dataset" / "住院病人统计"
+    / "Inpatient Discharges and Deaths in Hospitals and Registered Deaths"
     " in Hong Kong by Disease 2023 (SC).csv"
 )
-OUTPUT_DIR = Path(
-    "/Users/qipatience/Desktop/SGE/sge_lightrag/output/graphrag_sge_inpatient/input"
-)
+OUTPUT_DIR = _PROJECT_ROOT / "output" / "graphrag_sge_inpatient" / "input"
 
 # Column aliases (detected from CSV)
 COL_ICD = "《疾病和有关健康问题的国际统计分类》第十次修订本的详细序号"

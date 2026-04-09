@@ -1,0 +1,49 @@
+{
+  "description": "WB Child Mortality probing: format-constraint coupling (entity type name vs column reference)",
+  "dataset": "WB Child Mortality",
+  "gold_facts": 150,
+  "conditions_tested": [
+    "AX",
+    "BX-2",
+    "AY-3"
+  ],
+  "ax_reference": {
+    "condition": "AX (reference)",
+    "schema_entity_types": [
+      "Country_Code"
+    ],
+    "schema_relation_types": [
+      "HAS_VALUE"
+    ],
+    "ec": 1.0,
+    "fc": 1.0,
+    "fc_covered": 150,
+    "fc_total": 150,
+    "nodes": 5218,
+    "edges": 5509,
+    "note": "Known result from main evaluation (all_results_v2.json)"
+  },
+  "probe_results": [
+    {
+      "condition": "AY-2",
+      "schema_entity_types": [
+        "Country_Code",
+        "StatValue"
+      ],
+      "schema_relation_types": [
+        "HAS_VALUE"
+      ],
+      "entity_extraction_template": "For each row, extract the value of 'Country Code' as a Country_Code entity node. Country_Code represents a product barcode classification identifier.",
+      "timestamp": "2026-04-08T02:04:59.394477",
+      "nodes": 4944,
+      "edges": 5083,
+      "ec": 0.88,
+      "fc": 0.88,
+      "ec_matched": 22,
+      "ec_total": 25,
+      "fc_covered": 132,
+      "fc_total": 150
+    }
+  ],
+  "timestamp": "2026-04-08T02:04:59.862531"
+}

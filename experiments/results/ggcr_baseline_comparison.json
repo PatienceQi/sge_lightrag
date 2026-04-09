@@ -1,0 +1,747 @@
+{
+  "timestamp": "2026-04-06T14:25:01.340354",
+  "benchmark": "/Users/qipatience/Desktop/SGE/sge_lightrag/evaluation/gold/ggcr_benchmark.jsonl",
+  "total_questions": 97,
+  "systems": [
+    "sge_ggcr",
+    "baseline_ggcr",
+    "oracle_ggcr"
+  ],
+  "sge_ggcr": {
+    "L1": {
+      "correct": 29,
+      "total": 30
+    },
+    "L2": {
+      "correct": 21,
+      "total": 22
+    },
+    "L3": {
+      "correct": 16,
+      "total": 22
+    },
+    "L4": {
+      "correct": 16,
+      "total": 23
+    },
+    "overall": {
+      "correct": 82,
+      "total": 97
+    }
+  },
+  "baseline_ggcr": {
+    "L1": {
+      "correct": 29,
+      "total": 30
+    },
+    "L2": {
+      "correct": 21,
+      "total": 22
+    },
+    "L3": {
+      "correct": 10,
+      "total": 22
+    },
+    "L4": {
+      "correct": 11,
+      "total": 23
+    },
+    "overall": {
+      "correct": 71,
+      "total": 97
+    }
+  },
+  "mcnemar": {
+    "b": 11,
+    "c": 0,
+    "chi2": 9.0909,
+    "p": 0.002569
+  },
+  "mcnemar_l34_only": {
+    "b": 11,
+    "c": 0,
+    "chi2": 9.0909,
+    "p": 0.002569
+  },
+  "per_question": [
+    {
+      "id": "ggcr_inpatient_L1_01",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L1_02",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_03",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_04",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_05",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_06",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_07",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_08",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_09",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L1_10",
+      "dataset": "inpatient",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_01",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_02",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_03",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_04",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_05",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L2_06",
+      "dataset": "inpatient",
+      "level": "L2",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_inpatient_L3_01",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_02",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_03",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_04",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_05",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L3_06",
+      "dataset": "inpatient",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_01",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_02",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_03",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_04",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_05",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_06",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_inpatient_L4_07",
+      "dataset": "inpatient",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_01",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_02",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_03",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_04",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_05",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_06",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_07",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_08",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_09",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L1_10",
+      "dataset": "wb_cm",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_01",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_02",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_03",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_04",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_05",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_06",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_07",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L2_08",
+      "dataset": "wb_cm",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L3_01",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_02",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_03",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_04",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_05",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_06",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_07",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L3_08",
+      "dataset": "wb_cm",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_01",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_02",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_wb_cm_L4_03",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_04",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_05",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_06",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_07",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_wb_cm_L4_08",
+      "dataset": "wb_cm",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L1_01",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_02",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_03",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_04",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_05",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_06",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_07",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_08",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_09",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L1_10",
+      "dataset": "who",
+      "level": "L1",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_01",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_02",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_03",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_04",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_05",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_06",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_07",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L2_08",
+      "dataset": "who",
+      "level": "L2",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L3_01",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L3_02",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L3_03",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L3_04",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L3_05",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L3_06",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L3_07",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L3_08",
+      "dataset": "who",
+      "level": "L3",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L4_01",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L4_02",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L4_03",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L4_04",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    },
+    {
+      "id": "ggcr_who_L4_05",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L4_06",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L4_07",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": false,
+      "baseline_correct": false
+    },
+    {
+      "id": "ggcr_who_L4_08",
+      "dataset": "who",
+      "level": "L4",
+      "sge_correct": true,
+      "baseline_correct": true
+    }
+  ]
+}

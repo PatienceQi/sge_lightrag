@@ -1,0 +1,233 @@
+{
+  "experiment": "logprobs_format_constraint_coupling",
+  "model": "gpt-5-mini",
+  "n_chunks": 5,
+  "timestamp": "2026-04-07T19:21:37.193141",
+  "schema_tokens_tracked": [
+    "Country_Code",
+    "HAS_VALUE"
+  ],
+  "summary": {
+    "matched": {
+      "error": "all chunks failed"
+    },
+    "mismatched": {
+      "error": "all chunks failed"
+    },
+    "no_schema": {
+      "error": "all chunks failed"
+    }
+  },
+  "per_condition": {
+    "matched": {
+      "description": "SGE serialization + SGE Schema",
+      "per_chunk": [
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 0,
+          "raw_content_preview": "entity<|#|>AFG<|#|>Country_Code<|#|>Country code for Afghanistan (WHOSIS_000001)\nrelation<|#|>AFG<|#|>53.82332641<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at birth (years) for 2000 is 53.82332641",
+          "usage": {
+            "prompt_tokens": 2375,
+            "completion_tokens": 1154
+          }
+        },
+        {
+          "chunk_idx": 0,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 1,
+          "raw_content_preview": "entity<|#|>AFR<|#|>Country_Code<|#|>Code from input: AFR / WHOSIS_000001 (remark: Life expectancy at birth (years))\nrelation<|#|>AFR<|#|>52.98151168<|#|>HAS_VALUE, 2000, years<|#|>Life expectancy at b",
+          "usage": {
+            "prompt_tokens": 2372,
+            "completion_tokens": 1167
+          }
+        },
+        {
+          "chunk_idx": 1,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 2,
+          "raw_content_preview": "entity<|#|>AGO<|#|>Country_Code<|#|>Angola (Life expectancy at birth, years)\nrelation<|#|>AGO<|#|>49.36774351<|#|>HAS_VALUE, 2000, years<|#|>Life expectancy at birth for 2000 is 49.36774351 years\nrela",
+          "usage": {
+            "prompt_tokens": 2376,
+            "completion_tokens": 1087
+          }
+        },
+        {
+          "chunk_idx": 2,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 3,
+          "raw_content_preview": "entity<|#|>ALB<|#|>Country_Code<|#|>Country code for Albania (WHOSIS_000001), representing the subject entity for time-series life expectancy values\nrelation<|#|>ALB<|#|>73.68285742<|#|>HAS_VALUE, 200",
+          "usage": {
+            "prompt_tokens": 2376,
+            "completion_tokens": 1145
+          }
+        },
+        {
+          "chunk_idx": 3,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 4,
+          "raw_content_preview": "entity<|#|>WHOSIS_000001<|#|>Country_Code<|#|>Country code for entity labeled \"AMR / WHOSIS_000001\" (represents region AMR), source record remark: Life expectancy at birth (years)\nrelation<|#|>WHOSIS_",
+          "usage": {
+            "prompt_tokens": 2372,
+            "completion_tokens": 1226
+          }
+        },
+        {
+          "chunk_idx": 4,
+          "error": "'refusal_detected'"
+        }
+      ]
+    },
+    "mismatched": {
+      "description": "Raw CSV text + SGE Schema",
+      "per_chunk": [
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 0,
+          "raw_content_preview": "entity<|#|>AFG<|#|>Country_Code<|#|>Country code for Afghanistan\nrelation<|#|>AFG<|#|>53.82332641<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at birth (years) for 2000\nrelation<|#|>AFG<|#|>53.910187",
+          "usage": {
+            "prompt_tokens": 2272,
+            "completion_tokens": 994
+          }
+        },
+        {
+          "chunk_idx": 0,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 1,
+          "raw_content_preview": "entity<|#|>AFR<|#|>Country_Code<|#|>Country Code for the region labeled \"AFR\" (from input row)\n\nrelation<|#|>AFR<|#|>52.98151168<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at birth (years) in 2000 ",
+          "usage": {
+            "prompt_tokens": 2267,
+            "completion_tokens": 1159
+          }
+        },
+        {
+          "chunk_idx": 1,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 2,
+          "raw_content_preview": "entity<|#|>AGO<|#|>Country_Code<|#|>Country code for Angola\nrelation<|#|>AGO<|#|>49.36774351<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at birth (years) in 2000 equals 49.36774351\nrelation<|#|>AGO<",
+          "usage": {
+            "prompt_tokens": 2273,
+            "completion_tokens": 1126
+          }
+        },
+        {
+          "chunk_idx": 2,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 3,
+          "raw_content_preview": "entity<|#|>ALB<|#|>Country_Code<|#|>Country Code for Albania\nrelation<|#|>ALB<|#|>73.68285742<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at birth (years) for 2000\nrelation<|#|>ALB<|#|>76.04202157<|",
+          "usage": {
+            "prompt_tokens": 2273,
+            "completion_tokens": 995
+          }
+        },
+        {
+          "chunk_idx": 3,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 4,
+          "raw_content_preview": "entity<|#|>AMR<|#|>Country_Code<|#|>Country code for the region provided in the row (from input \"Country Code: AMR\")\nrelation<|#|>AMR<|#|>74.0865499<|#|>HAS_VALUE, 2000, null<|#|>Life expectancy at bi",
+          "usage": {
+            "prompt_tokens": 2267,
+            "completion_tokens": 1163
+          }
+        },
+        {
+          "chunk_idx": 4,
+          "error": "'refusal_detected'"
+        }
+      ]
+    },
+    "no_schema": {
+      "description": "SGE serialization + default prompt (no schema)",
+      "per_chunk": [
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 0,
+          "raw_content_preview": "entity<|#|>AFG / WHOSIS_000001<|#|>Dataset/Indicator<|#|>Time series indicator for Afghanistan from WHO/WHOSIS with code WHOSIS_000001 representing life expectancy at birth (years)\nentity<|#|>Afghanis",
+          "usage": {
+            "prompt_tokens": 471,
+            "completion_tokens": 1806
+          }
+        },
+        {
+          "chunk_idx": 0,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 1,
+          "raw_content_preview": "entity<|#|>AFR / WHOSIS_000001<|#|>Indicator<|#|>Life expectancy at birth (years) for AFR region, identifier WHOSIS_000001\nentity<|#|>2000<|#|>Year<|#|>Calendar year 2000\nentity<|#|>2001<|#|>Year<|#|>",
+          "usage": {
+            "prompt_tokens": 468,
+            "completion_tokens": 2473
+          }
+        },
+        {
+          "chunk_idx": 1,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 2,
+          "raw_content_preview": "entity<|#|>AGO / WHOSIS_000001<|#|>Country Indicator ID<|#|>Identifier for Angola's life expectancy indicator in WHO dataset\nentity<|#|>Angola<|#|>Country<|#|>Country corresponding to the data (AGO)\ne",
+          "usage": {
+            "prompt_tokens": 472,
+            "completion_tokens": 2246
+          }
+        },
+        {
+          "chunk_idx": 2,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 3,
+          "raw_content_preview": "entity<|#|>ALB / WHOSIS_000001<|#|>Dataset Identifier<|#|>Identifier code for the dataset describing Albania's life expectancy at birth (years)\nentity<|#|>Albania<|#|>Country<|#|>Country referenced by",
+          "usage": {
+            "prompt_tokens": 472,
+            "completion_tokens": 3191
+          }
+        },
+        {
+          "chunk_idx": 3,
+          "error": "'refusal_detected'"
+        },
+        {
+          "error": "no logprobs returned",
+          "chunk_idx": 4,
+          "raw_content_preview": "entity<|#|>AMR / WHOSIS_000001<|#|>Indicator<|#|>Life expectancy at birth (years) for AMR region, identifier WHOSIS_000001, time series 2000–2021\nentity<|#|>2000<|#|>Year<|#|>Year 2000\nentity<|#|>2001",
+          "usage": {
+            "prompt_tokens": 468,
+            "completion_tokens": 2466
+          }
+        },
+        {
+          "chunk_idx": 4,
+          "error": "'refusal_detected'"
+        }
+      ]
+    }
+  }
+}

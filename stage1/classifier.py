@@ -3,6 +3,11 @@ classifier.py — Rule-based topological type classifier.
 
 Decision logic (no LLM):
 
+  Pre-check — Long-Format (Type II Long)
+      Long-format (melted/tidy) tables have year values in a data column,
+      not in column headers. Detected before Rule 1 to avoid false Type-III
+      classification (composite key present but table is actually time-series).
+
   Priority 1 — Hierarchical-Hybrid (Type III)
       Composite key (≥2 leading text columns) is the primary discriminator.
       Guard conditions exclude transposed, fiscal-year, and body-year
@@ -18,22 +23,31 @@ Decision logic (no LLM):
 from .features import FeatureSet
 
 # Human-readable type labels
-TYPE_I   = "Flat-Entity"
-TYPE_II  = "Time-Series-Matrix"
-TYPE_III = "Hierarchical-Hybrid"
+TYPE_I        = "Flat-Entity"
+TYPE_II       = "Time-Series-Matrix"
+TYPE_II_LONG  = "Time-Series-Long"   # long-format (melted/tidy) time-series
+TYPE_III      = "Hierarchical-Hybrid"
 
 
 def classify(features: FeatureSet) -> str:
     """
-    Apply heuristic rules to a FeatureSet and return one of the three type strings.
+    Apply heuristic rules to a FeatureSet and return one of the type strings.
 
     Rules (evaluated in priority order):
     ─────────────────────────────────────────────────────────────────────────────
+    Pre-check — Long-Format (Type II Long)
+        Triggered when features.is_long_format is True.
+        Year values appear as data cell values (e.g. a "Year" column), NOT
+        as column headers. A composite key (≥2 text cols) is expected but the
+        table is NOT hierarchical — it is a melted/tidy time-series.
+        Without this guard, such tables are misclassified as Type-III.
+
     Rule 1 — Hierarchical-Hybrid (Type III)  [checked first to avoid false Type II]
         Triggered when:
         • leading_text_col_count >= 2  (composite key present)
         • AND numeric value columns exist
         • AND no strong time-series counter-signal (transposed / fiscal / body-year)
+        • AND NOT long-format (pre-check above)
 
     Rule 2 — Time-Series-Matrix (Type II)
         Triggered when:
@@ -45,6 +59,12 @@ def classify(features: FeatureSet) -> str:
         Default fallback: simple entity table, one row = one entity.
     ─────────────────────────────────────────────────────────────────────────────
     """
+    # Pre-check: long-format tables have years as data values, not column headers.
+    # They superficially look like Type-III (composite key) but represent melted
+    # time-series data where each row is (entity, indicator, year, value).
+    if features.is_long_format:
+        return TYPE_II_LONG
+
     has_composite_key = features.leading_text_col_count >= 2
 
     # Rule 1: composite key takes priority UNLESS the key is shallow (exactly 2)
