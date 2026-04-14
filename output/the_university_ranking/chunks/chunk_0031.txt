@@ -1,7 +1,0 @@
-Entity: University of Wisconsin-Madison
-Year: 2012 | Value: 75.8
-Year: 2013 | Value: 76.9
-Year: 2014 | Value: 71.1
-Year: 2015 | Value: 71.9
-Year: 2016 | Value: 69.7
-Country: United States of America

@@ -1,3 +1,0 @@
-Entity: Argentina
-Year: 2001 | Value: 97.1900024414062
-Year: 2020 | Value: 99.1399993896484

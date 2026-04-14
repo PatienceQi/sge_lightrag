@@ -1,5 +1,0 @@
-Entity: 防止贪污
-Year: 2022-23 | Status: 实际 | Value: 91.5 | Unit: 百万元
-Year: 2023-24 | Status: 原来预算 | Value: 100.8 | Unit: 百万元
-Year: 2023-24 | Status: 修订 | Value: 101.3 | Unit: 百万元
-Year: 2024-25 | Status: 预算 | Value: 97.2 | Unit: 百万元

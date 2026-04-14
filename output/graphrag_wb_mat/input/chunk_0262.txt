@@ -1,3 +1,0 @@
-Entity: XKX / SH.STA.MMRT
-Remark: Kosovo
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

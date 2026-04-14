@@ -1,8 +1,0 @@
-Entity: Princeton University
-Year: 2011 | Value: 94.2
-Year: 2012 | Value: 92.9
-Year: 2013 | Value: 92.7
-Year: 2014 | Value: 92.7
-Year: 2015 | Value: 90.9
-Year: 2016 | Value: 90.1
-Country: United States of America

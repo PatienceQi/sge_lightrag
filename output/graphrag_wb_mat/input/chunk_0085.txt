@@ -1,3 +1,0 @@
-Entity: GIB / SH.STA.MMRT
-Remark: Gibraltar
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

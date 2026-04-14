@@ -1,8 +1,0 @@
-Entity: Northwestern University
-Year: 2011 | Value: 75.9
-Year: 2012 | Value: 76.2
-Year: 2013 | Value: 83.1
-Year: 2014 | Value: 77.1
-Year: 2015 | Value: 79.2
-Year: 2016 | Value: 79.5
-Country: United States of America

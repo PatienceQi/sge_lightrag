@@ -1,1 +1,0 @@
-[BASELINE MODE — using LightRAG default prompts, no schema injection]

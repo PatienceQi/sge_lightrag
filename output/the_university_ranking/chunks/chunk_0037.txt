@@ -1,8 +1,0 @@
-Entity: University of California, San Diego
-Year: 2011 | Value: 73.2
-Year: 2012 | Value: 73.0
-Year: 2013 | Value: 75.2
-Year: 2014 | Value: 67.4
-Year: 2015 | Value: 68.6
-Year: 2016 | Value: 72.2
-Country: United States of America

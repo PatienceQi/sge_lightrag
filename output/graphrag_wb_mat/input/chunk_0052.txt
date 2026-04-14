@@ -1,3 +1,0 @@
-Entity: CUW / SH.STA.MMRT
-Remark: Curacao
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

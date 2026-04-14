@@ -1,8 +1,0 @@
-Entity: University of Hong Kong
-Year: 2011 | Value: 79.2
-Year: 2012 | Value: 72.3
-Year: 2013 | Value: 75.6
-Year: 2014 | Value: 65.3
-Year: 2015 | Value: 67.5
-Year: 2016 | Value: 71.0
-Country: Hong Kong

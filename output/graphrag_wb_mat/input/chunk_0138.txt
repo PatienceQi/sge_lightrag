@@ -1,3 +1,0 @@
-Entity: LIE / SH.STA.MMRT
-Remark: Liechtenstein
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

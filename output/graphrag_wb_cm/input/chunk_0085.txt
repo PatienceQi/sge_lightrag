@@ -1,3 +1,0 @@
-Entity: GIB / SH.DYN.MORT
-Remark: Gibraltar
-Remark: Mortality rate, under-5 (per 1,000 live births)

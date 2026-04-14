@@ -1,3 +1,0 @@
-Entity: GUM / SH.STA.MMRT
-Remark: Guam
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

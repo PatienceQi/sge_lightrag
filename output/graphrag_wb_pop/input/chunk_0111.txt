@@ -1,3 +1,0 @@
-Entity: INX / SP.POP.TOTL
-Remark: Not classified
-Remark: Population, total

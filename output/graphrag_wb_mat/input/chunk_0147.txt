@@ -1,3 +1,0 @@
-Entity: MAC / SH.STA.MMRT
-Remark: Macao SAR, China
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

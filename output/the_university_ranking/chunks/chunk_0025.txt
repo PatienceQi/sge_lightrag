@@ -1,8 +1,0 @@
-Entity: University of Tokyo
-Year: 2011 | Value: 75.6
-Year: 2012 | Value: 74.3
-Year: 2013 | Value: 78.3
-Year: 2014 | Value: 76.4
-Year: 2015 | Value: 76.1
-Year: 2016 | Value: 71.1
-Country: Japan

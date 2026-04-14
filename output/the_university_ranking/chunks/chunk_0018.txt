@@ -1,8 +1,0 @@
-Entity: University College London
-Year: 2011 | Value: 78.4
-Year: 2012 | Value: 83.2
-Year: 2013 | Value: 85.5
-Year: 2014 | Value: 77.6
-Year: 2015 | Value: 78.7
-Year: 2016 | Value: 87.1
-Country: United Kingdom

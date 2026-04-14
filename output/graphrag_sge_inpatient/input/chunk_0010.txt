@@ -1,6 +1,0 @@
-Disease: A23 / 布鲁氏菌病
-INPATIENT_HA_HOSPITAL: 4
-INPATIENT_TOTAL: 4
-REGISTERED_DEATHS: 0
-Remark: ICD A23
-Remark: 布鲁氏菌病

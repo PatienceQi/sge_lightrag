@@ -1,3 +1,0 @@
-Entity: HKG / SH.DYN.MORT
-Remark: Hong Kong SAR, China
-Remark: Mortality rate, under-5 (per 1,000 live births)

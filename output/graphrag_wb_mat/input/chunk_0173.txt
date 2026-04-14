@@ -1,3 +1,0 @@
-Entity: NCL / SH.STA.MMRT
-Remark: New Caledonia
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

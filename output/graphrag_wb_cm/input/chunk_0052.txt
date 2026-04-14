@@ -1,3 +1,0 @@
-Entity: CUW / SH.DYN.MORT
-Remark: Curacao
-Remark: Mortality rate, under-5 (per 1,000 live births)

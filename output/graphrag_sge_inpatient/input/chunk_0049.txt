@@ -1,6 +1,0 @@
-Disease: B65 / 血吸虫病
-INPATIENT_HA_HOSPITAL: 0
-INPATIENT_TOTAL: 0
-REGISTERED_DEATHS: 0
-Remark: ICD B65
-Remark: 血吸虫病

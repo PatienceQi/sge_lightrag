@@ -1,3 +1,0 @@
-Entity: ABW / SH.STA.MMRT
-Remark: Aruba
-Remark: Maternal mortality ratio (modeled estimate, per 100,000 live births)

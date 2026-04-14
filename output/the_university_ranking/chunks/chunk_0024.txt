@@ -1,8 +1,0 @@
-Entity: University of Washington
-Year: 2011 | Value: 78.0
-Year: 2012 | Value: 76.5
-Year: 2013 | Value: 79.9
-Year: 2014 | Value: 73.4
-Year: 2015 | Value: 73.2
-Year: 2016 | Value: 75.6
-Country: United States of America

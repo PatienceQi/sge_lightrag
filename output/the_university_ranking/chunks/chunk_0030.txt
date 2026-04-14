@@ -1,8 +1,0 @@
-Entity: University of Illinois at Urbana-Champaign
-Year: 2011 | Value: 73.0
-Year: 2012 | Value: 74.2
-Year: 2013 | Value: 75.8
-Year: 2014 | Value: 71.4
-Year: 2015 | Value: 71.9
-Year: 2016 | Value: 74.5
-Country: United States of America
