@@ -2,11 +2,11 @@
 
 <div align="center">
 
-**A Mechanism Study of Format-Constraint Coupling in Table-to-Graph Indexing**
+**Format-Constraint Coupling in Knowledge Graph Construction from Matrix-Layout Statistical Tables**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![EMNLP 2026](https://img.shields.io/badge/Targeting-EMNLP%202026-red.svg)](#)
+[![EMNLP 2026](https://img.shields.io/badge/EMNLP%202026-Under%20Review-orange.svg)](#)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](#)
 
 </div>
@@ -15,23 +15,28 @@
 
 ## Core Finding
 
-> **Format-Constraint Coupling**: serialization format and schema constraints exhibit strong positive interaction (Bootstrap 95% CI, Fisher combined p<0.001). Neither component alone is sufficient — format change alone yields zero gain (Row-local FC = Baseline FC = 0.167), and schema constraint alone is unstable (Fixed S/T/V WHO FC ≈ 0.49). Few-shot prompting is harmful (FC ≤ 0.013). SGE jointly applies both, achieving 1.0–6.0× improvement. Validated across 3 LLM backends (Claude Haiku / GPT-5-mini / Gemini 2.5 Flash) and 2 GraphRAG hosts (LightRAG / MS GraphRAG).
+> **Format-Constraint Coupling**: serialization format and schema constraints interact *super-additively* (2×2 factorial, Bootstrap 95% CI strictly positive on 4/6 datasets, Fisher combined p<0.001). Mismatched schemas degrade extraction *below* baseline on 4/6 datasets — entity inflation (3.47×) and extraction refusal (43.6%). Token ablation traces the mechanism to **surface-form anchoring**: the LLM matches schema field names to column-label *tokens* (not positions — shuffling row/field order preserves FC). Validated across 3 format-schema pairings, 3 LLM backends (Claude Haiku / GPT-5-mini / Gemini Flash), and 2 GraphRAG hosts. **Evaluation blindness**: all 3 standard retrieval modes mask fidelity differences (Δ≤1pp); direct graph access exposes +47.6pp gaps.
 
 ---
 
-## Key Results (CSVFidelity-Bench, 977 gold facts)
+## Key Results (CSVFidelity-Bench, 1,892 gold facts)
 
 ### Main Comparison
 
 | Dataset | Baseline | Row-local | Fixed S/T/V | Det Parser | SGE (ours) |
 |---------|----------|-----------|-------------|------------|------------|
-| WHO Life Expectancy | 0.167 | 0.167 | 0.66 | 0.68 | **1.000** |
-| WB Child Mortality | 0.473 | — | — | 0.727 | **1.000** |
-| WB Population | 0.187 | — | — | 0.960 | **1.000** |
-| WB Maternal Mortality | 0.787 | — | — | 0.967 | **0.967** |
+| WHO Life Expectancy | 0.170 | 0.167 | 0.66 | 0.68 | **1.000** |
+| WB Child Mortality | 0.433 | — | — | 0.727 | **1.000** |
+| WB Population | 0.133 | — | — | 0.960 | **1.000** |
+| WB Maternal Mortality | 0.820 | — | — | 0.967 | **0.973** |
 | HK Inpatient | 0.438 | — | — | 1.000 | **0.938** |
 | Fortune 500 Revenue | 0.400 | — | — | 1.000 | **1.000** |
 | THE University Ranking | 0.207 | — | — | 1.000 | **0.600** |
+| *OOD: WB Cereal Prod.* | 0.050 | — | — | — | **0.950** (19×) |
+| *OOD: WB CO₂ Emissions* | 0.025 | — | — | — | **0.700** (28×) |
+| *OOD: WB Pop. Growth* | 0.075 | — | — | — | **0.625** (8.3×) |
+| *Scope: Eurostat Crime* | **0.410** | — | — | — | 0.000 |
+| *Scope: US Census Demo.* | 0.022 | — | — | — | **0.244** (11×) |
 
 **What each baseline proves:**
 - **Row-local** (per-row chunks + default prompt): format change alone = zero gain (WHO FC identical to Baseline)
@@ -63,17 +68,38 @@ JSON Structured Output confirms the coupling hypothesis: an alternative mechanis
 | WB Mat | 0.967 | 0.840 | 0.040 | 0.787 |
 | Inpatient | 0.938 | 0.625 | 0.875 | 0.438 |
 
+**Schema-only (WHO, descriptive columns):** Claude Sonnet 4.6 FC=0.667, GPT-5-mini FC=0.963, Haiku FC=0.480 — stronger models show better fallback grounding but coupling still adds value (Full SGE=1.000).
+
 De-biased validation: SGE FC unchanged under value-first protocol; Baseline naming bias ≤ 1.6%.
+
+### Token-Level Input Ablation
+
+7 conditions manipulating input tokens while keeping schema fixed (20 gold-filtered chunks, Claude Haiku):
+
+| Condition | WHO FC | WB Pop FC | Interpretation |
+|-----------|--------|-----------|----------------|
+| M0 Control | 0.400* | 0.220 | Baseline (20/50 entities) |
+| M1 Mask labels | 0.400 | 0.183 ↓ | Labels needed only on non-descriptive cols |
+| M3 Mask entities | 0.020 ↓↓ | 0.180 ↓ | Entity names necessary for binding |
+| M4 Mask values | 0.000† | 0.000† | Values don't participate in anchoring (WHO EC=0.400 intact) |
+| M5 Shuffle intra-row | 0.400 | 0.220 | **Field order irrelevant** → surface-form, not positional |
+| M6 Shuffle inter-row | 0.400 | 0.240 | **Row order irrelevant** → row-local anchoring |
+
+*Ceiling for 20-chunk subset. †Metric artifact (gold values replaced with 0.000).
+
+**Core finding**: Coupling operates via **surface-form anchoring** — the LLM matches schema field names to column-label tokens regardless of position, moderated by column descriptiveness (CDS).
 
 ---
 
 ## Benchmark: CSVFidelity-Bench
 
-10 datasets spanning 3 domains, 977 gold facts:
+15 datasets spanning 6 domains, 1,892 gold facts:
 
 | Split | Datasets | Domain | Gold Facts |
 |-------|----------|--------|------------|
-| Core (7) | WHO, WB CM, WB Pop, WB Mat, Inpatient, Fortune500, THE | International health / finance / rankings | 977 |
+| Core (7) | WHO, WB CM, WB Pop, WB Mat, Inpatient, Fortune500, THE | Health / finance / rankings | 977 |
+| OOD (3) | WB Cereal, WB CO2, WB Pop Growth | Agriculture / environment | 120 |
+| Long-format (2) | Eurostat Crime, US Census | Type-III scope boundary | 195 |
 | OECD Blind (6) | Education, Labor, Environment, Health, Trade, GDP | OECD statistics (held-out) | 83+ |
 | Type-III OOD (2) | Eurostat Crime, US Census | Cross-domain hierarchical | TBD |
 
@@ -83,7 +109,7 @@ Gold standard facts are auto-generated from source CSVs via `generate_gold_stand
 
 ## Overview
 
-SGE is a structure-aware graph construction framework for statistical CSV data (time-series matrix / hierarchical-hybrid types). It improves upstream fact-binding fidelity for LightRAG through a three-stage perception pipeline (topology recognition → schema induction → constrained extraction). The research contribution is establishing that **format and constraint must be coupled** — neither is sufficient alone, and the interaction term is the active ingredient.
+SGE is a *controlled experimental apparatus* (not a production system) for independently manipulating format and schema in knowledge graph construction from statistical CSV data. Its three-stage pipeline (topology recognition → schema induction → constrained extraction) serves as a vehicle to establish that **format and constraint interact super-additively** — the coupling phenomenon, not the pipeline itself, is the contribution. Deterministic parsers already achieve FC≥0.96 on 5/7 well-structured datasets; SGE's value is as a mechanistic probe revealing format-constraint coupling with implications for any LLM-based schema-guided pipeline.
 
 ## Key Features
 
@@ -91,8 +117,8 @@ SGE is a structure-aware graph construction framework for statistical CSV data (
 - **Dual-mode schema induction**: Rule-based (deterministic, fast) + LLM-enhanced (semantic-rich), with automatic fallback
 - **Adaptive degradation**: Small Type-III (n_rows < 20) auto-switches to baseline mode to avoid over-constraining
 - **Compact time-series representation**: Large Type-II (n_rows > 100) auto-enables node compression
-- **Comprehensive evaluation**: EC/FC metrics + CSVFidelity-Bench (977 facts) + 231 statistical analysis questions + de-biased validation + Bootstrap CI + Wilcoxon effect size CI
-- **Cross-model validation**: Claude Haiku 4.5 / GPT-5-mini / Gemini 2.5 Flash — format-constraint coupling holds across all three backends
+- **Comprehensive evaluation**: EC/FC metrics + CSVFidelity-Bench (1,892 facts) + 231 statistical analysis questions + de-biased validation + Bootstrap CI + Wilcoxon effect size CI
+- **Cross-model validation**: Claude Haiku 4.5 / Sonnet 4.6 / GPT-5-mini / Gemini 2.5 Flash — format-constraint coupling holds across all four backends (Sonnet Schema-only FC=0.667 confirms coupling value even for stronger models)
 
 ## Quick Start
 
@@ -122,19 +148,34 @@ source .env
 
 ### Dataset Setup
 
-The evaluation datasets are stored in a sibling `dataset/` directory. Download or place your CSV files following this structure:
+All 15 CSVFidelity-Bench datasets are bundled in `dataset/` within this repo (~5 MB):
 
 ```
-project_root/
-├── sge_lightrag/          # this repo
-└── dataset/
-    ├── WHO/               # WHO Life Expectancy CSV
-    ├── 世界银行数据/        # World Bank datasets (CM, Pop, Mat)
-    ├── 住院病人统计/        # HK Inpatient statistics
-    └── non_gov/           # Fortune 500, THE University Ranking
+dataset/
+├── WHO/                    # WHO Life Expectancy (Type-II)
+├── 世界银行数据/             # World Bank: CM, Population, Maternal Mortality
+├── 住院病人统计/             # HK Inpatient Statistics (Type-III, 12 yearly CSVs)
+├── non_gov/                # Fortune 500 Revenue, THE University Ranking
+├── ood_blind_test/         # 15 OOD CSVs (WB indicators + synthetic long-format)
+├── OECD_blind_test/        # 4 OECD CSVs (held-out factorial validation)
+├── expanded/               # IMF, UN Census, WB long-format
+└── README.md               # Data sources, licenses, download URLs
 ```
 
-The WHO Life Expectancy sample is included in `dataset/WHO/` within this repo for quick testing.
+No external downloads needed — `git clone` gives you everything.
+
+### Reproducibility
+
+```bash
+# Verify all pre-computed results match paper numbers (zero API cost):
+./reproduce.sh verify
+
+# Re-run a specific table's experiments (requires API key):
+./reproduce.sh regenerate table2
+```
+
+See `TABLE_SCRIPT_MAP.md` for the full paper-table-to-script mapping.
+For exact version reproduction, use `requirements-pinned.txt`.
 
 ## Usage
 
@@ -187,6 +228,10 @@ python3 evaluation/fewshot_baseline.py            # Few-shot structured prompt
 
 # Error taxonomy (7 datasets × 3 systems)
 python3 evaluation/run_error_taxonomy.py
+
+# Token-level input ablation (7 conditions, requires API key)
+python3 experiments/ablation/run_token_ablation.py --max-chunks 20
+python3 experiments/ablation/run_token_ablation.py --dry-run  # preview without API calls
 ```
 
 ### Tests
@@ -219,12 +264,19 @@ sge_lightrag/
 │   ├── fewshot_baseline.py     #   Few-shot structured prompt baseline
 │   ├── table_aware_baseline.py #   Table-aware prompt baseline
 │   ├── deterministic_parser_baseline.py  # Zero-LLM deterministic parser
-│   ├── gold/                   #   Gold standard JSONL (977 facts)
+│   ├── gold/                   #   Gold standard JSONL (1,892 facts)
 │   └── results/                #   Authoritative result JSONs
 ├── experiments/                # Reproducibility Scripts
-│   ├── ablation/               #   Decoupled ablation (C4 serialization-only)
+│   ├── ablation/               #   Decoupled ablation, factorial, probing
+│   │   ├── run_decoupled_ablation.py     # Schema-only condition (main datasets)
+│   │   ├── run_c4_serialization_only.py  # Serial-only condition
+│   │   ├── run_ood_schema_only.py        # OOD Schema-only (CDS validation, 3 datasets)
+│   │   ├── run_sonnet_factorial.py       # Sonnet 4.6 factorial (model scale test)
+│   │   ├── run_token_ablation.py         # Token-level input ablation (M0-M6, 7 conditions)
+│   │   └── ...                           # health_exp, probing, 50c, etc.
 │   ├── statistical/            #   Interaction CI, Wilcoxon, hierarchical bootstrap
 │   ├── crossmodel/             #   Cross-model (GPT-5-mini + Gemini 2.5 Flash)
+│   ├── analysis/               #   CDS, TTF, det parser scope, prevalence
 │   └── results/                #   Experiment output JSONs
 ├── tests/                      # Test Suite (pytest, 284 tests)
 ├── scripts/runners/            #   Pipeline runners (integration, OOD)

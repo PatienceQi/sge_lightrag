@@ -4,7 +4,7 @@
 
 This directory contains the complete evaluation framework for SGE-LightRAG, supporting:
 - **EC/FC fact coverage evaluation** (substring match + 2-hop neighbor search)
-- **CSVFidelity-Bench** — 10 datasets, 3 domains, 977 gold facts + OECD blind test + Type-III OOD
+- **CSVFidelity-Bench** — 15 datasets, 6 domains, 1,892 gold facts (core + OOD + OECD + long-format)
 - **Bootstrap 95% confidence intervals** (n=1000 resamples)
 - **Wilcoxon signed-rank test** (Bonferroni correction k=4 + effect size r)
 - **Downstream QA evaluation** (100 questions: 67 direct + 33 inference)
@@ -244,20 +244,25 @@ python3 evaluation/evaluate.py \
 
 ---
 
-## Core Results Summary (CSVFidelity-Bench, 977 gold facts)
+## Core Results Summary (CSVFidelity-Bench, 1,892 gold facts)
 
 | Dataset | Baseline | Row-local | Fixed S/T/V | Det Parser | SGE | Ratio |
 |---------|----------|-----------|-------------|------------|-----|-------|
-| WHO Life Expectancy | 0.167 | 0.167 | 0.66 | 0.68 | **1.000** | 6.0× |
-| WB Child Mortality | 0.473 | — | — | 0.727 | **1.000** | 2.11× |
-| WB Population | 0.187 | — | — | 0.960 | **1.000** | 5.35× |
-| WB Maternal Mortality | 0.787 | — | — | 0.967 | **0.967** | 1.23× |
+| WHO Life Expectancy | 0.170 | 0.167 | 0.66 | 0.68 | **1.000** | 5.88× |
+| WB Child Mortality | 0.433 | — | — | 0.727 | **1.000** | 2.31× |
+| WB Population | 0.133 | — | — | 0.960 | **1.000** | 7.52× |
+| WB Maternal Mortality | 0.820 | — | — | 0.967 | **0.973** | 1.19× |
 | HK Inpatient | 0.438 | — | — | 1.000 | **0.938** | 2.14× |
 | Fortune 500 Revenue | 0.400 | — | — | 1.000 | **1.000** | 2.50× |
 | THE University Ranking | 0.207 | — | — | 1.000 | **0.600** | 2.90× |
+| *OOD: WB Cereal* | 0.050 | — | — | — | **0.950** | 19.0× |
+| *OOD: WB CO₂* | 0.025 | — | — | — | **0.700** | 28.0× |
+| *OOD: WB Pop Growth* | 0.075 | — | — | — | **0.625** | 8.33× |
+| *Eurostat Crime* | **0.410** | — | — | — | 0.000 | — |
+| *US Census Demo* | 0.022 | — | — | — | **0.244** | 11.0× |
 
-**Key pattern**: Row-local = Baseline (format alone = zero gain). Fixed S/T/V is unstable (format + static constraint insufficient). SGE (format + dynamic constraint) consistently outperforms all single-mechanism baselines.
+**Key pattern**: Row-local = Baseline (format alone = zero gain). Fixed S/T/V is unstable (format + static constraint insufficient). SGE (format + dynamic constraint) consistently outperforms all single-mechanism baselines. Long-format Type-III (Eurostat Crime) marks scope boundary where coupling fails.
 
-QA (direct graph context): SGE 93% (93/100) vs Baseline 59% (59/100), trend questions SGE 86% vs Baseline 36%.
-E2E LightRAG query: SGE 13% vs Baseline 13% (Δ=0) — vector retrieval bottleneck independent of graph quality.
+Numbers above use 50-country evaluation (300 facts/dataset for international). QA (direct graph context): SGE 93% (93/100) vs Baseline 59% (59/100), trend questions SGE 86% vs Baseline 36%.
+E2E LightRAG query: SGE 13% vs Baseline 13% (Δ=0) — vector retrieval bottleneck independent of graph quality (**evaluation blindness**).
 Wilcoxon (Bonferroni k=4): all 5 international datasets p_Bonf < 0.05, effect size r ≥ 0.80 (large).

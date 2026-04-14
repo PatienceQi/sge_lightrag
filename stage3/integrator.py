@@ -120,6 +120,7 @@ def check_graph_degradation(
     graphml_path: str,
     edge_node_threshold: float = 0.90,
     isolated_threshold: float = 0.20,
+    numeric_threshold: float = 0.30,
 ) -> dict:
     """
     Post-extraction degradation check on the output graph.
@@ -128,6 +129,7 @@ def check_graph_degradation(
       - "degraded" (bool): True if graph shows signs of SGE over-constraint
       - "edge_node_ratio": edges / nodes
       - "isolated_ratio": isolated nodes / total nodes
+      - "numeric_value_ratio": fraction of edges carrying at least one numeric value
       - "reason": human-readable reason if degraded
 
     When degraded is True, the caller should re-run ingestion with
@@ -138,6 +140,7 @@ def check_graph_degradation(
     except ImportError:
         return {"degraded": False, "reason": "networkx not available"}
 
+    import re
     from pathlib import Path
     if not Path(graphml_path).exists():
         return {"degraded": False, "reason": "graph file not found"}
@@ -151,6 +154,7 @@ def check_graph_degradation(
             "degraded": True,
             "edge_node_ratio": 0.0,
             "isolated_ratio": 1.0,
+            "numeric_value_ratio": 0.0,
             "reason": "empty graph (0 nodes)",
         }
 
@@ -158,23 +162,40 @@ def check_graph_degradation(
     n_isolated = len(list(nx.isolates(G)))
     isolated_ratio = n_isolated / n_nodes
 
+    _numeric_pattern = re.compile(r'\d+\.?\d*')
+    n_edges_with_numeric = 0
+    for _u, _v, _attrs in G.edges(data=True):
+        _text = " ".join(
+            str(_attrs[k]) for k in ("description", "keywords")
+            if k in _attrs
+        )
+        if _numeric_pattern.search(_text):
+            n_edges_with_numeric += 1
+    numeric_value_ratio = n_edges_with_numeric / n_edges if n_edges > 0 else 0.0
+
     degraded = (
         edge_node_ratio < edge_node_threshold
         or isolated_ratio > isolated_threshold
+        or numeric_value_ratio < numeric_threshold
     )
+
+    reasons = []
+    if edge_node_ratio < edge_node_threshold:
+        reasons.append(f"edge/node={edge_node_ratio:.3f}<{edge_node_threshold}")
+    if isolated_ratio > isolated_threshold:
+        reasons.append(f"isolated={isolated_ratio:.3f}>{isolated_threshold}")
+    if numeric_value_ratio < numeric_threshold:
+        reasons.append(f"low_numeric_density={numeric_value_ratio:.3f}<{numeric_threshold}")
 
     return {
         "degraded": degraded,
         "edge_node_ratio": round(edge_node_ratio, 4),
         "isolated_ratio": round(isolated_ratio, 4),
+        "numeric_value_ratio": round(numeric_value_ratio, 4),
         "n_nodes": n_nodes,
         "n_edges": n_edges,
         "n_isolated": n_isolated,
-        "reason": (
-            f"edge/node={edge_node_ratio:.3f}<{edge_node_threshold} "
-            f"or isolated={isolated_ratio:.3f}>{isolated_threshold}"
-            if degraded else "OK"
-        ),
+        "reason": " or ".join(reasons) if reasons else "OK",
     }
 
 
